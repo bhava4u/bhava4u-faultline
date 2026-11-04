@@ -1,0 +1,1435 @@
+{
+ "assessed": "4 November 2026",
+ "countries": {
+  "100": {
+   "n": "Bulgaria",
+   "l": 3,
+   "s": "Black Sea spillover has reached its waters.",
+   "i": [
+    [
+     "Drone strikes in its waters",
+     4,
+     "Likely Russian drones struck two civilian ships in Bulgaria’s exclusive economic zone on 12–13 October."
+    ],
+    [
+     "Black Sea trade",
+     3,
+     "Ships carrying Ukrainian grain have been sunk, raising freight and insurance costs."
+    ],
+    [
+     "Political instability",
+     2,
+     "Frequent elections and fragile coalitions slow decision-making."
+    ]
+   ]
+  },
+  "104": {
+   "n": "Myanmar",
+   "l": 5,
+   "s": "Civil war continues after a military-run election.",
+   "i": [
+    [
+     "Civil war",
+     5,
+     "Resistance forces and ethnic armed groups still contest large areas."
+    ],
+    [
+     "Legitimacy of military-run election",
+     4,
+     "Polls held under the junta have not ended the conflict or won broad acceptance."
+    ],
+    [
+     "Scam centres and crime",
+     4,
+     "Industrial-scale online fraud along the borders draws regional crackdowns."
+    ]
+   ]
+  },
+  "112": {
+   "n": "Belarus",
+   "l": 3,
+   "s": "A Russian staging ground facing tight Western sanctions.",
+   "i": [
+    [
+     "Russian military presence",
+     3,
+     "Russian forces and tactical nuclear weapons stationed in Belarus raise NATO concern."
+    ],
+    [
+     "Sanctions",
+     3,
+     "Western sanctions restrict trade, finance and transport links."
+    ],
+    [
+     "Border tensions",
+     3,
+     "Migration pressure and incidents with Poland and Lithuania keep borders tense."
+    ]
+   ]
+  },
+  "124": {
+   "n": "Canada",
+   "l": 2,
+   "s": "Stable, with trade friction with the US.",
+   "i": [
+    [
+     "US trade dispute",
+     3,
+     "Tariffs on steel, aluminium and autos hurt exporters."
+    ],
+    [
+     "USMCA review",
+     3,
+     "The 2026 review could reshape market access."
+    ],
+    [
+     "Arctic sovereignty",
+     2,
+     "Competition in the Arctic is rising."
+    ]
+   ]
+  },
+  "148": {
+   "n": "Chad",
+   "l": 3,
+   "s": "Absorbing the spillover from Sudan’s war.",
+   "i": [
+    [
+     "Sudanese refugee influx",
+     4,
+     "Hundreds of thousands of refugees have crossed into eastern Chad."
+    ],
+    [
+     "Political consolidation",
+     3,
+     "Power is concentrated around President Mahamat Déby."
+    ],
+    [
+     "Insurgency around Lake Chad",
+     3,
+     "Jihadist groups remain active in the west."
+    ]
+   ]
+  },
+  "156": {
+   "n": "China",
+   "l": 3,
+   "s": "Strategic rivalry with the US, pressure on Taiwan and a slowing economy.",
+   "i": [
+    [
+     "Taiwan Strait",
+     4,
+     "Large-scale military activity around Taiwan keeps the risk of a crisis present."
+    ],
+    [
+     "Tech rivalry with the US",
+     3,
+     "Export controls and the AI race drive decoupling in semiconductors."
+    ],
+    [
+     "Economic slowdown",
+     3,
+     "Property weakness and soft demand weigh on growth."
+    ]
+   ]
+  },
+  "158": {
+   "n": "Taiwan",
+   "l": 4,
+   "s": "The world’s most consequential flashpoint for supply chains.",
+   "i": [
+    [
+     "PLA coercion",
+     4,
+     "Monthly air incursions are lower than in 2024–25, but China massed a near-90-ship fleet around the island in August."
+    ],
+    [
+     "Arms delivery backlog",
+     3,
+     "About $29.7 billion in US weapons sold to Taiwan had not been delivered as of June."
+    ],
+    [
+     "Chip concentration",
+     4,
+     "Taiwan makes roughly 90% of the world’s most advanced chips, so any disruption is global."
+    ]
+   ]
+  },
+  "170": {
+   "n": "Colombia",
+   "l": 4,
+   "s": "A new government faces armed groups and strained US ties.",
+   "i": [
+    [
+     "Armed groups",
+     4,
+     "The ELN and FARC dissident factions have expanded their reach."
+    ],
+    [
+     "Relations with the US",
+     3,
+     "Disputes over drug policy have strained cooperation."
+    ],
+    [
+     "Government transition",
+     3,
+     "The administration inaugurated on 7 August is setting its security agenda."
+    ]
+   ]
+  },
+  "180": {
+   "n": "DR Congo",
+   "l": 5,
+   "s": "War in the east despite peace deals.",
+   "i": [
+    [
+     "M23 conflict in the east",
+     5,
+     "Rwanda-backed M23 still holds Goma and Bukavu."
+    ],
+    [
+     "Fragile peace process",
+     4,
+     "US- and Qatar-brokered agreements have not ended the fighting."
+    ],
+    [
+     "Critical minerals",
+     3,
+     "Cobalt and coltan deals with the US raise stakes and governance risk."
+    ]
+   ]
+  },
+  "192": {
+   "n": "Cuba",
+   "l": 4,
+   "s": "Energy collapse and growing pressure from Washington.",
+   "i": [
+    [
+     "Energy and blackout crisis",
+     5,
+     "The end of Venezuelan oil shipments has deepened fuel shortages and blackouts."
+    ],
+    [
+     "US pressure",
+     4,
+     "President Trump revived the idea of military intervention at a rally on 23 October."
+    ],
+    [
+     "Migration",
+     3,
+     "Economic collapse is driving emigration."
+    ]
+   ]
+  },
+  "218": {
+   "n": "Ecuador",
+   "l": 4,
+   "s": "Gang violence tied to the cocaine trade.",
+   "i": [
+    [
+     "Gang violence",
+     4,
+     "Homicide rates are among the highest in Latin America."
+    ],
+    [
+     "Prisons and states of emergency",
+     3,
+     "Gangs run prisons, and emergency rule is frequent."
+    ],
+    [
+     "Power shortages",
+     3,
+     "Drought-related blackouts disrupt industry."
+    ]
+   ]
+  },
+  "231": {
+   "n": "Ethiopia",
+   "l": 4,
+   "s": "Internal insurgencies and tension with Eritrea.",
+   "i": [
+    [
+     "Amhara insurgency",
+     4,
+     "Fano militias still contest much of the Amhara region."
+    ],
+    [
+     "Tension with Eritrea",
+     4,
+     "Rhetoric over Red Sea access has raised the risk of interstate war."
+    ],
+    [
+     "Tigray’s fragile peace",
+     3,
+     "Splits within Tigrayan leadership threaten the 2022 deal."
+    ]
+   ]
+  },
+  "250": {
+   "n": "France",
+   "l": 3,
+   "s": "Political and fiscal instability with recurring social unrest.",
+   "i": [
+    [
+     "Civil unrest",
+     3,
+     "Protests and strikes are a recurring risk for operations and travel."
+    ],
+    [
+     "Fiscal and government instability",
+     3,
+     "Fragile governments struggle to pass budgets that reduce the deficit."
+    ],
+    [
+     "Energy costs",
+     2,
+     "High oil prices feed through to transport and industry."
+    ]
+   ]
+  },
+  "268": {
+   "n": "Georgia",
+   "l": 3,
+   "s": "Political crisis and a frozen EU path.",
+   "i": [
+    [
+     "Political crisis",
+     3,
+     "Opposition groups and protesters reject the government’s legitimacy."
+    ],
+    [
+     "Russian leverage",
+     3,
+     "Moscow’s influence has grown as Western ties cooled."
+    ],
+    [
+     "EU accession frozen",
+     3,
+     "Membership talks are suspended, and Western sanctions target officials."
+    ]
+   ]
+  },
+  "275": {
+   "n": "Palestinian territories",
+   "l": 5,
+   "s": "Gaza faces a humanitarian emergency and unresolved governance; the West Bank is volatile.",
+   "i": [
+    [
+     "Gaza humanitarian crisis",
+     5,
+     "Reconstruction is barely under way and access for aid remains restricted."
+    ],
+    [
+     "Who governs Gaza",
+     4,
+     "Security arrangements and the future administration of Gaza remain unsettled."
+    ],
+    [
+     "West Bank violence",
+     4,
+     "Military raids and settler attacks keep the territory on edge."
+    ]
+   ]
+  },
+  "276": {
+   "n": "Germany",
+   "l": 2,
+   "s": "Stable, but industry is under pressure from energy costs.",
+   "i": [
+    [
+     "Industry and energy costs",
+     3,
+     "Manufacturers face high energy prices and weak export demand."
+    ],
+    [
+     "Russian hybrid threats",
+     2,
+     "Sabotage, drone sightings over bases and cyber activity continue."
+    ],
+    [
+     "Political fragmentation",
+     2,
+     "A strong far right complicates coalition politics."
+    ]
+   ]
+  },
+  "304": {
+   "n": "Greenland",
+   "l": 3,
+   "s": "A focus of US strategic pressure in the Arctic.",
+   "i": [
+    [
+     "US pressure over its status",
+     3,
+     "Washington’s push for control strains ties with Denmark."
+    ],
+    [
+     "Arctic militarisation",
+     3,
+     "Great-power interest is bringing more military activity."
+    ],
+    [
+     "Critical minerals",
+     2,
+     "Rare earth projects attract competing foreign investors."
+    ]
+   ]
+  },
+  "332": {
+   "n": "Haiti",
+   "l": 5,
+   "s": "Gangs control most of the capital.",
+   "i": [
+    [
+     "Gang control",
+     5,
+     "Gangs hold most of Port-au-Prince and key roads."
+    ],
+    [
+     "International security force",
+     4,
+     "The UN-backed Gang Suppression Force is still building up."
+    ],
+    [
+     "Humanitarian emergency",
+     5,
+     "Over a million people are displaced, and hunger is widespread."
+    ]
+   ]
+  },
+  "356": {
+   "n": "India",
+   "l": 3,
+   "s": "Strong growth, but highly exposed to the Gulf war through energy and its workers there.",
+   "i": [
+    [
+     "Gulf energy and diaspora exposure",
+     4,
+     "India imports most of its oil, and millions of Indians, many from Kerala, work in Gulf states within range of strikes. An Indian seafarer was killed in an attack near Oman in early November."
+    ],
+    [
+     "Tensions with Pakistan",
+     3,
+     "Relations remain hostile after the 2025 conflict, and another attack could trigger a crisis."
+    ],
+    [
+     "China border and trade",
+     2,
+     "A cautious thaw sits alongside military build-up on the frontier."
+    ]
+   ]
+  },
+  "360": {
+   "n": "Indonesia",
+   "l": 3,
+   "s": "Fiscal and social pressures in a large, stable democracy.",
+   "i": [
+    [
+     "Protests and fiscal strain",
+     3,
+     "Anger over spending and privileges sparked mass protests in 2025."
+    ],
+    [
+     "Fuel subsidy costs",
+     3,
+     "High oil prices make subsidies expensive."
+    ],
+    [
+     "South China Sea",
+     2,
+     "Chinese vessels contest waters near Natuna."
+    ]
+   ]
+  },
+  "364": {
+   "n": "Iran",
+   "l": 5,
+   "s": "At war with the US and Israel since 28 February. Hormuz is effectively closed while Qatari mediators test a deal to reopen it.",
+   "i": [
+    [
+     "Renewed US strikes",
+     5,
+     "US forces struck Qeshm Island on 2 November after Iranian fire at a US aircraft. US officials say other strikes have been carried out quietly in recent weeks."
+    ],
+    [
+     "Strait of Hormuz closure",
+     5,
+     "Commercial transits are down to a handful a day against a pre-war norm of about 85. Iran says it could reopen the strait within two days if Washington meets its conditions."
+    ],
+    [
+     "Fragile diplomacy",
+     4,
+     "Qatari mediators in Tehran are pushing a framework where Iran stops attacking ships and the US lifts its port blockade, but officials say the two sides remain far apart."
+    ]
+   ]
+  },
+  "368": {
+   "n": "Iraq",
+   "l": 4,
+   "s": "A battleground between Iran-aligned militias and the US.",
+   "i": [
+    [
+     "Militia attacks on US forces",
+     4,
+     "New Iran-aligned groups formed in 2026 have joined attacks on US and allied targets."
+    ],
+    [
+     "Strikes on the Kurdistan Region",
+     4,
+     "Iran has struck targets in the Kurdistan Region, which hosts foreign firms and US personnel."
+    ],
+    [
+     "Oil revenue and budget",
+     3,
+     "Export disruption and sanctions enforcement put salaries and the federal budget under strain."
+    ]
+   ]
+  },
+  "376": {
+   "n": "Israel",
+   "l": 4,
+   "s": "Engaged on several fronts, with no clear winner from the 27 October election.",
+   "i": [
+    [
+     "Return to war with Iran",
+     5,
+     "Netanyahu has pushed for another wave of strikes on Iran. A new exchange would bring Iranian missile fire back onto Israeli cities and infrastructure."
+    ],
+    [
+     "Northern front with Hezbollah",
+     4,
+     "The IDF is striking in Lebanon again while Iran is reported to have raised Hezbollah’s readiness."
+    ],
+    [
+     "Coalition deadlock",
+     3,
+     "Likud came first on 27 October, but neither bloc has a clear Knesset majority. Coalition talks will set policy on Iran, Lebanon and Gaza."
+    ]
+   ]
+  },
+  "392": {
+   "n": "Japan",
+   "l": 3,
+   "s": "Rising friction with China and heavy dependence on Gulf energy.",
+   "i": [
+    [
+     "Friction with China over Taiwan",
+     3,
+     "Beijing demanded in September that Tokyo correct its stance on Taiwan."
+    ],
+    [
+     "Gulf energy dependence",
+     3,
+     "Most of Japan’s crude passes through Hormuz."
+    ],
+    [
+     "North Korean missiles",
+     2,
+     "Launches over or near Japan remain possible."
+    ]
+   ]
+  },
+  "400": {
+   "n": "Jordan",
+   "l": 3,
+   "s": "Squeezed between regional wars, with US staff being reduced.",
+   "i": [
+    [
+     "Airspace and interceptions",
+     3,
+     "Missiles and drones crossing Jordanian airspace create risk of debris and stray strikes."
+    ],
+    [
+     "US embassy drawdown",
+     3,
+     "Washington is moving some diplomats and families out as escalation fears grow."
+    ],
+    [
+     "Economy and refugees",
+     3,
+     "Weak growth, high unemployment and large refugee populations limit room for shocks."
+    ]
+   ]
+  },
+  "404": {
+   "n": "Kenya",
+   "l": 3,
+   "s": "Youth protests and debt ahead of the 2027 election.",
+   "i": [
+    [
+     "Protests",
+     3,
+     "Youth-led protests over taxes and police violence turn deadly."
+    ],
+    [
+     "2027 election run-up",
+     3,
+     "Political realignment is raising tensions."
+    ],
+    [
+     "Debt burden",
+     3,
+     "Debt servicing absorbs much of government revenue."
+    ]
+   ]
+  },
+  "408": {
+   "n": "North Korea",
+   "l": 4,
+   "s": "Deepening military ties with Russia and an expanding weapons programme.",
+   "i": [
+    [
+     "Military cooperation with Russia",
+     4,
+     "Troops and munitions sent to Russia bring cash and technology in return."
+    ],
+    [
+     "Missile and nuclear programme",
+     4,
+     "Testing and production continue with few constraints."
+    ],
+    [
+     "Sanctions and isolation",
+     3,
+     "Sanctions enforcement has weakened as UN monitoring lapsed."
+    ]
+   ]
+  },
+  "410": {
+   "n": "South Korea",
+   "l": 2,
+   "s": "Stable, with North Korea and energy imports as the main exposures.",
+   "i": [
+    [
+     "North Korean threat",
+     3,
+     "Pyongyang’s ties with Moscow raise the military stakes on the peninsula."
+    ],
+    [
+     "Energy import costs",
+     3,
+     "High oil and LNG prices hit a trade-dependent economy."
+    ],
+    [
+     "Trade and alliance costs",
+     2,
+     "US tariffs and burden-sharing demands strain planning."
+    ]
+   ]
+  },
+  "414": {
+   "n": "Kuwait",
+   "l": 4,
+   "s": "Within range of Iranian and Iraqi militia strikes, and almost wholly dependent on Gulf shipping.",
+   "i": [
+    [
+     "Strikes from Iran and Iraqi militias",
+     4,
+     "Kuwait has been hit during the war, including by new Iran-aligned Iraqi groups."
+    ],
+    [
+     "Export dependence on Hormuz",
+     4,
+     "Kuwait has no pipeline bypass, so its oil exports rise and fall with the strait."
+    ],
+    [
+     "US military presence",
+     3,
+     "Bases hosting US forces remain on Iran’s stated target list."
+    ]
+   ]
+  },
+  "422": {
+   "n": "Lebanon",
+   "l": 4,
+   "s": "Caught between Israeli strikes and Hezbollah’s ties to Iran, with a weak state in the middle.",
+   "i": [
+    [
+     "Israel–Hezbollah escalation",
+     5,
+     "Israeli strikes resumed in mid-October, and Tehran has reportedly warned Hezbollah to prepare for a US attack."
+    ],
+    [
+     "Disarming Hezbollah",
+     4,
+     "President Joseph Aoun’s government is under US pressure over seized explosives and the group’s wider arsenal."
+    ],
+    [
+     "Economic collapse",
+     3,
+     "The banking crisis is unresolved and reconstruction money is stalled by the security situation."
+    ]
+   ]
+  },
+  "434": {
+   "n": "Libya",
+   "l": 4,
+   "s": "Divided between rival governments and armed groups.",
+   "i": [
+    [
+     "Rival governments",
+     4,
+     "East and west remain under separate authorities."
+    ],
+    [
+     "Militia clashes in Tripoli",
+     4,
+     "Fighting between armed groups breaks out with little warning."
+    ],
+    [
+     "Oil output disputes",
+     3,
+     "Production can be shut in as political leverage."
+    ]
+   ]
+  },
+  "466": {
+   "n": "Mali",
+   "l": 5,
+   "s": "Jihadist pressure has reached the capital’s supply lines.",
+   "i": [
+    [
+     "JNIM insurgency and fuel blockade",
+     5,
+     "Blockades of fuel convoys have caused shortages in Bamako."
+    ],
+    [
+     "Military rule",
+     4,
+     "The junta relies on Russia’s Africa Corps and has dissolved political parties."
+    ],
+    [
+     "Kidnapping of foreigners",
+     4,
+     "Foreign workers, including miners, are targeted for ransom."
+    ]
+   ]
+  },
+  "484": {
+   "n": "Mexico",
+   "l": 4,
+   "s": "Cartel violence and pressure from Washington.",
+   "i": [
+    [
+     "Cartel violence",
+     4,
+     "Extortion, cargo theft and homicide remain high in many states."
+    ],
+    [
+     "US action against cartels",
+     4,
+     "Cartel terrorist designations raise the risk of unilateral US action."
+    ],
+    [
+     "USMCA review and tariffs",
+     3,
+     "The 2026 trade review keeps North American supply chains uncertain."
+    ]
+   ]
+  },
+  "498": {
+   "n": "Moldova",
+   "l": 3,
+   "s": "A frontline neighbour exposed to spillover and hybrid pressure.",
+   "i": [
+    [
+     "War spillover",
+     4,
+     "At least five Russian weapons, including missiles and drones, exploded on Moldovan territory in early October."
+    ],
+    [
+     "Hybrid interference",
+     3,
+     "Disinformation and covert funding target the pro-EU government."
+    ],
+    [
+     "Energy insecurity",
+     3,
+     "Winter supply and prices remain a vulnerability."
+    ]
+   ]
+  },
+  "512": {
+   "n": "Oman",
+   "l": 3,
+   "s": "Outside the fighting but close to the shipping lanes where it happens.",
+   "i": [
+    [
+     "Tanker attacks offshore",
+     4,
+     "Ships keep being hit in Omani waters near Hormuz. An attack there in early November killed an Indian seafarer."
+    ],
+    [
+     "Mediation channel",
+     2,
+     "Muscat remains a quiet go-between for Washington and Tehran."
+    ],
+    [
+     "Fiscal reliance on hydrocarbons",
+     2,
+     "High prices help in the short term, but diversification is slow."
+    ]
+   ]
+  },
+  "562": {
+   "n": "Niger",
+   "l": 4,
+   "s": "Military rule and insurgency on several borders.",
+   "i": [
+    [
+     "Insurgency",
+     4,
+     "Attacks in the Tillabéri and Diffa regions are frequent."
+    ],
+    [
+     "Military rule and isolation",
+     3,
+     "The junta has cut ties with Western partners and ECOWAS."
+    ],
+    [
+     "Resource nationalism",
+     3,
+     "Disputes over uranium and oil assets deter investors."
+    ]
+   ]
+  },
+  "566": {
+   "n": "Nigeria",
+   "l": 4,
+   "s": "Widespread insecurity in an economy under reform.",
+   "i": [
+    [
+     "Banditry, jihadists and kidnapping",
+     4,
+     "Mass kidnappings and attacks continue across the north and centre."
+    ],
+    [
+     "Friction with the US over security",
+     3,
+     "Washington has pressed Abuja over attacks on Christians."
+    ],
+    [
+     "Inflation and reform",
+     3,
+     "Subsidy and currency reforms keep living costs high."
+    ]
+   ]
+  },
+  "586": {
+   "n": "Pakistan",
+   "l": 4,
+   "s": "Militancy on two fronts and lasting hostility with India.",
+   "i": [
+    [
+     "Militancy in KP and Balochistan",
+     4,
+     "Attacks on security forces and Chinese-linked projects continue."
+    ],
+    [
+     "Afghan border conflict",
+     4,
+     "Clashes with the Taliban government have flared over cross-border militants."
+    ],
+    [
+     "Tensions with India",
+     3,
+     "Any major attack in India risks another military exchange."
+    ]
+   ]
+  },
+  "604": {
+   "n": "Peru",
+   "l": 3,
+   "s": "Chronic political instability.",
+   "i": [
+    [
+     "Political volatility",
+     3,
+     "A new government took office in July after a fragmented election."
+    ],
+    [
+     "Crime and illegal mining",
+     3,
+     "Extortion and illegal gold mining are spreading."
+    ],
+    [
+     "Protests",
+     2,
+     "Mining regions are prone to road blockades."
+    ]
+   ]
+  },
+  "608": {
+   "n": "Philippines",
+   "l": 3,
+   "s": "On the front line of the South China Sea.",
+   "i": [
+    [
+     "South China Sea confrontations",
+     4,
+     "Chinese coast guard ships regularly block and ram Philippine vessels."
+    ],
+    [
+     "Marcos–Duterte feud",
+     3,
+     "Rivalry between the two dynasties destabilises politics."
+    ],
+    [
+     "Typhoon exposure",
+     3,
+     "A strong El Niño and typhoons threaten crops and infrastructure."
+    ]
+   ]
+  },
+  "616": {
+   "n": "Poland",
+   "l": 3,
+   "s": "NATO’s eastern hub, targeted by sabotage and airspace incursions.",
+   "i": [
+    [
+     "Sabotage and drone incursions",
+     3,
+     "Russian-linked sabotage and drones crossing the border test Polish defences."
+    ],
+    [
+     "Belarus border pressure",
+     3,
+     "Organised migration across the Belarus border remains a flashpoint."
+    ],
+    [
+     "Rapid defence build-up",
+     2,
+     "Record defence spending brings opportunity and procurement strain."
+    ]
+   ]
+  },
+  "634": {
+   "n": "Qatar",
+   "l": 4,
+   "s": "Hosts the largest US air base in the region and ships almost all its LNG through Hormuz.",
+   "i": [
+    [
+     "US basing exposure",
+     4,
+     "Al Udeid makes Qatar a likely target if strikes on Iran resume. The US is drawing down embassy staff."
+    ],
+    [
+     "LNG exports via Hormuz",
+     4,
+     "The Qatari LNG carrier Al Mayeda was struck en route to Pakistan in early November, and Hormuz remains effectively shut."
+    ],
+    [
+     "Mediation role",
+     2,
+     "Doha’s channels to Tehran and Washington give it leverage, and some protection."
+    ]
+   ]
+  },
+  "642": {
+   "n": "Romania",
+   "l": 3,
+   "s": "Exposed to Black Sea spillover and fiscal strain.",
+   "i": [
+    [
+     "Black Sea spillover",
+     3,
+     "Drone debris and attacks on shipping near its waters are recurring."
+    ],
+    [
+     "Fiscal deficit",
+     3,
+     "The EU’s largest deficit forces unpopular tax and spending changes."
+    ],
+    [
+     "Political polarisation",
+     2,
+     "Nationalist parties remain strong after a disputed election cycle."
+    ]
+   ]
+  },
+  "643": {
+   "n": "Russia",
+   "l": 4,
+   "s": "Waging war in Ukraine while absorbing long-range drone strikes on its energy sector.",
+   "i": [
+    [
+     "Ukrainian strikes on energy",
+     4,
+     "Ukraine launched more than 1,000 drones in one night, hitting oil facilities including a terminal in St Petersburg."
+    ],
+    [
+     "Sanctions and the shadow fleet",
+     3,
+     "European navies are seizing shadow-fleet tankers, raising the cost of moving Russian oil."
+    ],
+    [
+     "Domestic fuel pressure",
+     3,
+     "Officials are working to calm fears of fuel shortages at home."
+    ]
+   ]
+  },
+  "682": {
+   "n": "Saudi Arabia",
+   "l": 4,
+   "s": "A co-belligerent against Iran, absorbing drone and missile fire while oil prices run high.",
+   "i": [
+    [
+     "Drone and missile attacks",
+     4,
+     "Air defences intercepted threats near Riyadh, Al Kharj, Khamis Mushait and Medina in mid-October."
+    ],
+    [
+     "Red Sea and Bab al-Mandab",
+     4,
+     "Escalation in Yemen keeps the kingdom’s western shipping lanes under threat."
+    ],
+    [
+     "Oil market volatility",
+     3,
+     "Brent above $100 lifts revenue, but rerouting exports by pipeline concentrates risk on a few assets."
+    ]
+   ]
+  },
+  "688": {
+   "n": "Serbia",
+   "l": 3,
+   "s": "A prolonged protest movement and regional tension.",
+   "i": [
+    [
+     "Protest movement",
+     3,
+     "Mass protests since late 2024 continue, and a parliamentary election was held on 25 October."
+    ],
+    [
+     "Kosovo",
+     3,
+     "Tensions in northern Kosovo can flare quickly."
+    ],
+    [
+     "Balancing EU and Russia",
+     2,
+     "Belgrade keeps ties with both, complicating its EU bid."
+    ]
+   ]
+  },
+  "706": {
+   "n": "Somalia",
+   "l": 4,
+   "s": "Insurgency and disputed politics around the Horn of Africa.",
+   "i": [
+    [
+     "Al-Shabaab",
+     4,
+     "The group has retaken ground and still strikes Mogadishu."
+    ],
+    [
+     "Election disputes",
+     3,
+     "Disagreement over the electoral model strains federal–state relations."
+    ],
+    [
+     "Red Sea and Somaliland",
+     3,
+     "Competition over ports and recognition draws in outside powers."
+    ]
+   ]
+  },
+  "710": {
+   "n": "South Africa",
+   "l": 2,
+   "s": "Stable coalition politics with infrastructure and trade pressures.",
+   "i": [
+    [
+     "Infrastructure and logistics",
+     3,
+     "Ports, rail and power remain constraints on growth."
+    ],
+    [
+     "US relations and tariffs",
+     3,
+     "Diplomatic tension with Washington hits trade preferences."
+    ],
+    [
+     "Local elections",
+     2,
+     "Municipal elections test the coalition government."
+    ]
+   ]
+  },
+  "728": {
+   "n": "South Sudan",
+   "l": 4,
+   "s": "At risk of sliding back into civil war.",
+   "i": [
+    [
+     "Return to civil war",
+     4,
+     "The prosecution of First Vice President Riek Machar has fractured the peace deal."
+    ],
+    [
+     "Oil revenue",
+     4,
+     "Exports through war-torn Sudan are repeatedly disrupted."
+    ],
+    [
+     "Humanitarian needs",
+     4,
+     "Refugees from Sudan add pressure to an already stretched aid system."
+    ]
+   ]
+  },
+  "729": {
+   "n": "Sudan",
+   "l": 5,
+   "s": "The world’s largest humanitarian crisis, driven by the war between the army and the RSF.",
+   "i": [
+    [
+     "Army–RSF war",
+     5,
+     "Fighting has shifted to Kordofan after the RSF captured El Fasher in 2025."
+    ],
+    [
+     "Famine",
+     5,
+     "Famine conditions affect several regions, and aid access is blocked."
+    ],
+    [
+     "Foreign backers",
+     4,
+     "External support to both sides prolongs the war and risks regional spillover."
+    ]
+   ]
+  },
+  "760": {
+   "n": "Syria",
+   "l": 4,
+   "s": "A fragile post-Assad transition with violence at the margins.",
+   "i": [
+    [
+     "Fragile transition",
+     4,
+     "The transitional government’s authority is uneven outside major cities."
+    ],
+    [
+     "Sectarian and local violence",
+     4,
+     "Clashes involving Alawite, Druze and Kurdish communities keep recurring."
+    ],
+    [
+     "Israeli operations in the south",
+     3,
+     "Israeli strikes and ground activity in southern Syria continue."
+    ]
+   ]
+  },
+  "784": {
+   "n": "United Arab Emirates",
+   "l": 4,
+   "s": "High exposure to Iranian retaliation as a host of US operations and a Gulf business hub.",
+   "i": [
+    [
+     "Iranian retaliation",
+     4,
+     "The IRGC has named states hosting US bases as targets. The US is cutting staff at its UAE posts."
+    ],
+    [
+     "Hormuz chokepoint",
+     4,
+     "Shipping attacks near Hormuz threaten ports, bunkering and energy exports."
+    ],
+    [
+     "Business continuity",
+     3,
+     "Aviation disruption, expatriate staffing and insurance costs are rising for firms based in Dubai and Abu Dhabi."
+    ]
+   ]
+  },
+  "792": {
+   "n": "Türkiye",
+   "l": 3,
+   "s": "A regional pivot exposed to wars on two sides.",
+   "i": [
+    [
+     "Black Sea shipping",
+     3,
+     "A Turkish-owned grain ship was sunk by Russian drones on 5 October."
+    ],
+    [
+     "Iran war spillover",
+     3,
+     "Border security, energy prices and refugee flows are all at risk."
+    ],
+    [
+     "Inflation and the lira",
+     3,
+     "High inflation and tight policy weigh on businesses."
+    ]
+   ]
+  },
+  "804": {
+   "n": "Ukraine",
+   "l": 5,
+   "s": "Entering a fifth winter of full-scale war, with the power grid under heavy attack.",
+   "i": [
+    [
+     "Strikes on the power grid",
+     5,
+     "In one 24-hour period Russia launched 850 drones and 39 missiles at 30 energy sites, despite an announced energy ceasefire."
+    ],
+    [
+     "Donetsk front",
+     4,
+     "Ukraine’s Operation Vivaldi disrupted Russia’s attempt to encircle the Donetsk fortress belt, but pressure remains intense."
+    ],
+    [
+     "Reliability of Western support",
+     4,
+     "Starlink speed restrictions, intelligence gaps and a US fuel deal with Moscow have strained ties with Washington."
+    ]
+   ]
+  },
+  "818": {
+   "n": "Egypt",
+   "l": 3,
+   "s": "Economic strain from regional wars.",
+   "i": [
+    [
+     "Lost Suez revenue",
+     3,
+     "Red Sea insecurity keeps Suez Canal traffic and income depressed."
+    ],
+    [
+     "Debt and inflation",
+     3,
+     "High external debt leaves little room for new shocks."
+    ],
+    [
+     "Borders with Gaza and Sudan",
+     3,
+     "Both conflicts push refugees and security risks toward Egypt."
+    ]
+   ]
+  },
+  "826": {
+   "n": "United Kingdom",
+   "l": 2,
+   "s": "Stable, with energy prices and hybrid threats as the main pressures.",
+   "i": [
+    [
+     "Energy price exposure",
+     3,
+     "Oil above $100 pushes up inflation and household bills."
+    ],
+    [
+     "Russian hybrid activity",
+     2,
+     "Sabotage, cyber attacks and espionage are a persistent threat."
+    ],
+    [
+     "Public finances",
+     2,
+     "Tight fiscal room limits defence and public-service spending."
+    ]
+   ]
+  },
+  "840": {
+   "n": "United States",
+   "l": 3,
+   "s": "A party to the Iran war, with results of the 3 November midterms still coming in.",
+   "i": [
+    [
+     "Iran war decisions",
+     4,
+     "US forces struck Iranian targets on Qeshm Island on 2 November. President Trump says he is in no rush to decide whether to resume full-scale fighting."
+    ],
+    [
+     "Post-midterm politics",
+     3,
+     "The 3 November midterm results will decide control of Congress, which shapes war powers, budgets and trade policy."
+    ],
+    [
+     "Trade and tariff policy",
+     3,
+     "Tariffs and frequent policy shifts keep supply chains uncertain for partners."
+    ]
+   ]
+  },
+  "854": {
+   "n": "Burkina Faso",
+   "l": 5,
+   "s": "Much of the country is outside state control.",
+   "i": [
+    [
+     "Jihadist insurgency",
+     5,
+     "JNIM and Islamic State affiliates contest large parts of the territory."
+    ],
+    [
+     "Military rule",
+     4,
+     "The junta has suppressed critics and conscripted dissenters."
+    ],
+    [
+     "Displacement",
+     4,
+     "Around two million people have been displaced."
+    ]
+   ]
+  },
+  "862": {
+   "n": "Venezuela",
+   "l": 4,
+   "s": "A transition run under US oversight after Maduro’s capture.",
+   "i": [
+    [
+     "Post-Maduro transition",
+     4,
+     "US forces captured Nicolás Maduro on 3 January. Acting President Delcy Rodríguez governs with US backing."
+    ],
+    [
+     "Control of the oil sector",
+     3,
+     "US control over exports reshapes contracts and sanctions exposure."
+    ],
+    [
+     "Political rights and elections",
+     3,
+     "There is no agreed timeline for free elections, and repression continues."
+    ]
+   ]
+  },
+  "887": {
+   "n": "Yemen",
+   "l": 5,
+   "s": "The civil war has escalated alongside the Iran war, and the Bab al-Mandab is contested again.",
+   "i": [
+    [
+     "Civil war escalation",
+     5,
+     "Houthi missiles hit Aden and Marib in October, striking areas held by the internationally recognised government."
+    ],
+    [
+     "Bab al-Mandab shipping",
+     5,
+     "Red Sea transit remains one of the riskiest commercial routes in the world."
+    ],
+    [
+     "Humanitarian crisis",
+     4,
+     "Food insecurity is deepening as fighting and funding cuts disrupt aid."
+    ]
+   ]
+  },
+  "004": {
+   "n": "Afghanistan",
+   "l": 4,
+   "s": "Humanitarian strain, extremist groups and conflict with Pakistan.",
+   "i": [
+    [
+     "Humanitarian crisis",
+     4,
+     "Mass returns from Pakistan and Iran meet shrinking aid budgets."
+    ],
+    [
+     "Conflict with Pakistan",
+     4,
+     "Border fighting has disrupted trade crossings."
+    ],
+    [
+     "ISIS-K",
+     3,
+     "The group remains capable of attacks at home and abroad."
+    ]
+   ]
+  },
+  "050": {
+   "n": "Bangladesh",
+   "l": 3,
+   "s": "A political transition under economic pressure.",
+   "i": [
+    [
+     "Political transition",
+     3,
+     "The post-Hasina order is still settling after this year’s election."
+    ],
+    [
+     "Energy import costs",
+     3,
+     "High fuel prices strain reserves and power supply."
+    ],
+    [
+     "Rohingya crisis",
+     3,
+     "Over a million refugees depend on shrinking aid."
+    ]
+   ]
+  },
+  "076": {
+   "n": "Brazil",
+   "l": 3,
+   "s": "Lula won a fourth term, but his opponent has not conceded.",
+   "i": [
+    [
+     "Disputed runoff result",
+     3,
+     "Lula beat Flávio Bolsonaro in the 25 October runoff with about 52% of the vote. Bolsonaro says he will seek annulment, though his own Liberal Party recognised the result."
+    ],
+    [
+     "US tariffs",
+     3,
+     "Tariffs and political disputes with Washington hit exporters."
+    ],
+    [
+     "Fiscal credibility",
+     2,
+     "Spending pressures test the fiscal framework."
+    ]
+   ]
+  },
+  "032": {
+   "n": "Argentina",
+   "l": 2,
+   "s": "Deep reform with currency and social risks.",
+   "i": [
+    [
+     "Currency and reserves",
+     3,
+     "Low reserves keep the peso exposed."
+    ],
+    [
+     "Social protest",
+     2,
+     "Austerity drives strikes and demonstrations."
+    ],
+    [
+     "Debt",
+     2,
+     "IMF obligations constrain policy."
+    ]
+   ]
+  },
+  "036": {
+   "n": "Australia",
+   "l": 2,
+   "s": "Stable, with fuel security as a weak point.",
+   "i": [
+    [
+     "Fuel import security",
+     3,
+     "Australia imports most of its fuel and holds low reserves."
+    ],
+    [
+     "Relations with China",
+     2,
+     "Trade has stabilised, but security tensions persist."
+    ],
+    [
+     "Pacific competition",
+     2,
+     "China and Australia compete for influence among Pacific island states."
+    ]
+   ]
+  }
+ }
+}
