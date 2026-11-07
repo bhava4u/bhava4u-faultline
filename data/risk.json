@@ -1,5 +1,5 @@
 {
- "assessed": "6 November 2026",
+ "assessed": "7 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -413,9 +413,9 @@
      "Relations remain hostile after the 2025 conflict, and another attack could trigger a crisis."
     ],
     [
-     "China border and trade",
-     2,
-     "A cautious thaw sits alongside military build-up on the frontier."
+     "US sanctions exposure",
+     3,
+     "On 5 November the US sanctioned Indian and Turkish firms accused of helping Iranian tankers, including an Indian couple accused of faking ship registries."
     ]
    ]
   },
@@ -444,22 +444,22 @@
   "364": {
    "n": "Iran",
    "l": 5,
-   "s": "At war with the US and Israel since 28 February. Hormuz is effectively closed while Qatari mediators test a deal to reopen it.",
+   "s": "At war with the US and Israel since 28 February. US strikes continue while Qatar and China press both sides toward a deal.",
    "i": [
     [
      "Renewed US strikes",
      5,
-     "US forces struck Qeshm Island on 2 November after Iranian fire at a US aircraft. US officials say other strikes have been carried out quietly in recent weeks."
+     "Trump confirmed new “minor” strikes on Qeshm Island on 6 November, and his advisers are reportedly urging a bigger round before the new Congress takes office."
     ],
     [
      "Strait of Hormuz closure",
      5,
-     "Transits are down to a handful a day against about 85 before the war, as Iran shifts to mines and small-boat attacks. Tehran says it could reopen the strait within two days if Washington meets its conditions."
+     "Iran says two tankers hit mines and caught fire in and near the strait this week. Transits remain a handful a day, against about 85 before the war."
     ],
     [
      "Fragile diplomacy",
      4,
-     "Qatari mediators in Tehran are pushing a framework where Iran stops attacking ships and the US lifts its port blockade, but officials say the two sides remain far apart."
+     "Trump says talks are making “a lot of progress”, Qatar is still mediating and Washington has asked China to press Tehran, but Iran says the US response to its proposal falls short."
     ]
    ]
   },
@@ -955,7 +955,7 @@
     [
      "Ukrainian strikes on energy",
      4,
-     "Ukraine launched more than 1,000 drones in one night, hitting oil facilities including a terminal in St Petersburg."
+     "Ukrainian drones set the Afipsky oil refinery in Krasnodar Krai on fire on 6 November, the latest in a sustained campaign against Russia’s oil sector."
     ],
     [
      "Sanctions and the shadow fleet",
@@ -1170,12 +1170,12 @@
   "804": {
    "n": "Ukraine",
    "l": 5,
-   "s": "Entering a fifth winter of full-scale war, with the power grid under heavy attack.",
+   "s": "Entering a fifth winter of full-scale war, with the grid under heavy attack and new peace talks expected in Abu Dhabi.",
    "i": [
     [
      "Strikes on the power grid",
      5,
-     "Russia is stockpiling jet-powered drones and quasi-cruise missiles for a winter campaign against energy sites. One October day saw 850 drones and 39 missiles fired."
+     "DTEK counted 78 Russian strikes on energy sites in three days, bringing rolling blackouts, and ballistic missiles hit Kyiv in several waves overnight on 6–7 November."
     ],
     [
      "Front line",
@@ -1183,9 +1183,9 @@
      "Russian forces lost ground in October for the second month running, after Ukraine’s Operation Vivaldi disrupted the push on Donetsk’s fortress belt."
     ],
     [
-     "Reliability of Western support",
-     4,
-     "Starlink speed restrictions, intelligence gaps and a US fuel deal with Moscow have strained ties with Washington."
+     "Peace talks",
+     3,
+     "US-mediated talks between Ukraine, Russia and the US are expected in Abu Dhabi around 10–11 November, though earlier rounds have not produced a ceasefire."
     ]
    ]
   },
@@ -1241,7 +1241,7 @@
     [
      "Iran war decisions",
      4,
-     "US forces struck Iranian targets on Qeshm Island on 2 November. President Trump says he is in no rush to decide whether to resume full-scale fighting."
+     "Trump confirmed new strikes on Iran on 6 November, and the US has warned Americans across the Middle East of a heightened threat of armed attacks."
     ],
     [
      "Divided government",
