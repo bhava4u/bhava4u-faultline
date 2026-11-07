@@ -1430,6 +1430,776 @@
      "China and Australia compete for influence among Pacific island states."
     ]
    ]
+  },
+  "380": {
+   "n": "Italy",
+   "l": 2,
+   "s": "A stable government, with energy costs and public debt as the main pressures.",
+   "i": [
+    [
+     "Energy price exposure",
+     3,
+     "High oil and gas prices from the Gulf war push up costs for households and industry."
+    ],
+    [
+     "Public debt",
+     2,
+     "One of Europe’s highest debt burdens leaves little room for new spending."
+    ],
+    [
+     "Mediterranean migration",
+     2,
+     "Arrivals from North Africa remain a recurring political flashpoint."
+    ]
+   ]
+  },
+  "724": {
+   "n": "Spain",
+   "l": 2,
+   "s": "A strong economy run by a minority government that relies on smaller parties.",
+   "i": [
+    [
+     "Fragile parliamentary majority",
+     2,
+     "The government depends on regional and smaller parties to pass laws and budgets."
+    ],
+    [
+     "Corruption investigations",
+     2,
+     "Inquiries touching figures close to the government weigh on politics."
+    ],
+    [
+     "Fuel and tourism exposure",
+     2,
+     "Higher fuel prices raise costs for transport and a tourism-dependent economy."
+    ]
+   ]
+  },
+  "528": {
+   "n": "Netherlands",
+   "l": 2,
+   "s": "Stable, but exposed to shipping disruption and fragmented coalition politics.",
+   "i": [
+    [
+     "Coalition politics",
+     2,
+     "Fragmented results make coalition building slow and governments fragile."
+    ],
+    [
+     "Port of Rotterdam exposure",
+     2,
+     "Europe’s largest port feels the knock-on effects of Red Sea and Gulf disruption."
+    ],
+    [
+     "Infrastructure sabotage",
+     2,
+     "North Sea cables and pipelines are potential targets for hybrid attacks."
+    ]
+   ]
+  },
+  "056": {
+   "n": "Belgium",
+   "l": 2,
+   "s": "Home to EU institutions and most frozen Russian assets, and a target for hybrid activity.",
+   "i": [
+    [
+     "Drones and hybrid threats",
+     3,
+     "Repeated drone sightings over airports and military sites since 2025 have disrupted flights."
+    ],
+    [
+     "Frozen Russian assets",
+     2,
+     "Euroclear in Brussels holds most frozen Russian central bank assets, putting Belgium at the centre of EU decisions on them."
+    ],
+    [
+     "Public finances",
+     2,
+     "High deficits force difficult budget negotiations."
+    ]
+   ]
+  },
+  "752": {
+   "n": "Sweden",
+   "l": 2,
+   "s": "A new NATO member facing criminal violence at home and tension in the Baltic.",
+   "i": [
+    [
+     "Gang violence",
+     3,
+     "Shootings and bombings linked to criminal networks remain a national security priority."
+    ],
+    [
+     "Baltic Sea security",
+     2,
+     "Damage to undersea cables and Russian activity keep the Baltic tense."
+    ],
+    [
+     "NATO front-line role",
+     2,
+     "Sweden is expanding defence spending and Baltic patrols."
+    ]
+   ]
+  },
+  "578": {
+   "n": "Norway",
+   "l": 1,
+   "s": "Low risk, with a growing role as Europe’s gas supplier.",
+   "i": [
+    [
+     "Europe’s gas supplier",
+     2,
+     "With Gulf LNG disrupted, Norwegian gas matters more to Europe, and so does the security of its fields and pipelines."
+    ],
+    [
+     "Arctic tension with Russia",
+     2,
+     "Russian military activity near the shared Arctic border is rising."
+    ],
+    [
+     "Offshore infrastructure",
+     1,
+     "Energy platforms and subsea links are potential hybrid targets."
+    ]
+   ]
+  },
+  "246": {
+   "n": "Finland",
+   "l": 2,
+   "s": "A frontline NATO state on Russia’s border.",
+   "i": [
+    [
+     "Russian border",
+     3,
+     "Finland’s eastern border crossings have been closed since late 2023 over migrant pressure attributed to Moscow."
+    ],
+    [
+     "Baltic undersea infrastructure",
+     2,
+     "Cable and pipeline damage in the Gulf of Finland has been linked to Russian-connected vessels."
+    ],
+    [
+     "Weak economy",
+     2,
+     "Sluggish growth and high unemployment strain public finances."
+    ]
+   ]
+  },
+  "208": {
+   "n": "Denmark",
+   "l": 2,
+   "s": "A close US ally strained by Washington’s push over Greenland.",
+   "i": [
+    [
+     "US pressure over Greenland",
+     3,
+     "Washington’s push for control of Greenland strains relations within NATO."
+    ],
+    [
+     "Drone incursions",
+     2,
+     "Drones over airports and military bases in 2025 led Copenhagen to describe them as a hybrid attack."
+    ],
+    [
+     "Shadow fleet in Danish straits",
+     2,
+     "Russian shadow-fleet tankers pass through Danish waters, raising security and spill risks."
+    ]
+   ]
+  },
+  "300": {
+   "n": "Greece",
+   "l": 2,
+   "s": "Stable, with heavy exposure to global shipping risk.",
+   "i": [
+    [
+     "Shipping exposure",
+     3,
+     "Greek owners control a large share of the world’s tanker fleet, which is exposed to Gulf and Red Sea attacks."
+    ],
+    [
+     "Relations with Türkiye",
+     2,
+     "Maritime disputes in the Aegean and eastern Mediterranean can flare."
+    ],
+    [
+     "Migration",
+     2,
+     "Sea arrivals from Libya and Türkiye remain a pressure point."
+    ]
+   ]
+  },
+  "348": {
+   "n": "Hungary",
+   "l": 2,
+   "s": "Péter Magyar’s government is unwinding 16 years of Orbán rule after an April landslide.",
+   "i": [
+    [
+     "Russian energy dependence",
+     3,
+     "Hungary still relies heavily on Russian oil and gas, leaving it exposed to sanctions and supply shocks."
+    ],
+    [
+     "Reform of institutions",
+     2,
+     "With a two-thirds majority, the Tisza government can rewrite laws, but dismantling entrenched networks will take time."
+    ],
+    [
+     "EU funds and relations",
+     2,
+     "Unlocking frozen EU funds depends on anti-corruption and rule-of-law reforms."
+    ]
+   ]
+  },
+  "203": {
+   "n": "Czechia",
+   "l": 2,
+   "s": "Stable, with a populist-led government recalibrating foreign policy.",
+   "i": [
+    [
+     "Shift on Ukraine support",
+     2,
+     "The government has signalled a cooler line on aid to Ukraine than its predecessor."
+    ],
+    [
+     "Energy costs",
+     2,
+     "High energy prices weigh on a manufacturing-heavy economy."
+    ],
+    [
+     "Russian hybrid activity",
+     2,
+     "Sabotage and disinformation campaigns remain a security concern."
+    ]
+   ]
+  },
+  "040": {
+   "n": "Austria",
+   "l": 2,
+   "s": "Stable, but with a weak economy and a strong far right.",
+   "i": [
+    [
+     "Weak growth",
+     2,
+     "Industry has struggled with high energy costs and soft export demand."
+    ],
+    [
+     "Far-right strength",
+     2,
+     "The FPÖ remains a powerful force in national politics."
+    ],
+    [
+     "Energy transition",
+     2,
+     "Ending reliance on Russian gas has raised costs and supply questions."
+    ]
+   ]
+  },
+  "756": {
+   "n": "Switzerland",
+   "l": 1,
+   "s": "Low risk, with trade and sanctions compliance the main issues.",
+   "i": [
+    [
+     "US trade pressure",
+     2,
+     "US tariffs have hit Swiss exporters, from watches to machinery."
+    ],
+    [
+     "Sanctions compliance",
+     1,
+     "Banks and commodity traders face scrutiny over Russian and Iranian sanctions."
+    ],
+    [
+     "Strong franc",
+     1,
+     "Safe-haven inflows lift the currency and squeeze exporters."
+    ]
+   ]
+  },
+  "620": {
+   "n": "Portugal",
+   "l": 1,
+   "s": "Low risk, though politics has become more fragmented.",
+   "i": [
+    [
+     "Political fragmentation",
+     2,
+     "Repeated elections and a rising populist right make governments less stable."
+    ],
+    [
+     "Housing crisis",
+     1,
+     "High rents and property prices drive public frustration."
+    ],
+    [
+     "Fuel import costs",
+     1,
+     "Higher oil prices feed through to transport and inflation."
+    ]
+   ]
+  },
+  "372": {
+   "n": "Ireland",
+   "l": 1,
+   "s": "Low risk, but highly exposed to US trade and investment.",
+   "i": [
+    [
+     "US tariffs and investment",
+     2,
+     "Heavy reliance on US pharmaceutical and tech firms leaves Ireland exposed to US trade policy."
+    ],
+    [
+     "Undersea cable security",
+     1,
+     "Transatlantic data cables off Ireland are a potential hybrid target."
+    ],
+    [
+     "Housing shortage",
+     1,
+     "A severe shortage of homes is the top domestic political issue."
+    ]
+   ]
+  },
+  "440": {
+   "n": "Lithuania",
+   "l": 3,
+   "s": "A NATO frontline state facing repeated hybrid pressure from Belarus.",
+   "i": [
+    [
+     "Balloon incursions from Belarus",
+     3,
+     "Smuggling balloons from Belarus have repeatedly forced Vilnius airport to close."
+    ],
+    [
+     "Russian hybrid threats",
+     3,
+     "Sabotage, cyber attacks and disinformation target Lithuania regularly."
+    ],
+    [
+     "Suwałki Gap",
+     2,
+     "The narrow land corridor to Poland is NATO’s most exposed chokepoint."
+    ]
+   ]
+  },
+  "428": {
+   "n": "Latvia",
+   "l": 3,
+   "s": "A NATO frontline state on Russia’s border.",
+   "i": [
+    [
+     "Russian border pressure",
+     3,
+     "Migrant pushes from Belarus and Russian provocations keep the eastern border tense."
+    ],
+    [
+     "Baltic cable damage",
+     2,
+     "Damage to undersea cables has been linked to Russian-connected vessels."
+    ],
+    [
+     "Social cohesion",
+     2,
+     "Relations with the large Russian-speaking minority remain politically sensitive."
+    ]
+   ]
+  },
+  "233": {
+   "n": "Estonia",
+   "l": 3,
+   "s": "A NATO frontline state tested by Russian military provocations.",
+   "i": [
+    [
+     "Airspace violations",
+     3,
+     "Russian fighter jets entered Estonian airspace in 2025, prompting NATO consultations."
+    ],
+    [
+     "Narva border",
+     2,
+     "The border city with Russia is a focus of Moscow’s pressure."
+    ],
+    [
+     "Cyber attacks",
+     2,
+     "Estonia remains a frequent target of Russian-linked cyber operations."
+    ]
+   ]
+  },
+  "051": {
+   "n": "Armenia",
+   "l": 3,
+   "s": "Pashinyan’s party won a majority in June, backing a US-brokered peace process with Azerbaijan.",
+   "i": [
+    [
+     "Peace deal with Azerbaijan",
+     3,
+     "A framework agreed in Washington in 2025 has yet to be fully implemented."
+    ],
+    [
+     "Russian pressure",
+     3,
+     "Moscow is using economic levers as Yerevan turns towards the West."
+    ],
+    [
+     "Domestic polarisation",
+     2,
+     "Opposition parties and church figures dispute the government’s direction."
+    ]
+   ]
+  },
+  "031": {
+   "n": "Azerbaijan",
+   "l": 3,
+   "s": "Gaining from the peace process but bordering Iran at war.",
+   "i": [
+    [
+     "Iran war spillover",
+     3,
+     "A long border with Iran exposes Azerbaijan to refugee flows, airspace risks and strikes."
+    ],
+    [
+     "Strained ties with Russia",
+     3,
+     "Relations with Moscow have soured sharply since 2025."
+    ],
+    [
+     "Peace process with Armenia",
+     2,
+     "A US-brokered framework offers stability, but implementation is incomplete."
+    ]
+   ]
+  },
+  "398": {
+   "n": "Kazakhstan",
+   "l": 2,
+   "s": "Stable, but its oil exports depend on a pipeline through Russia.",
+   "i": [
+    [
+     "Oil exports through Russia",
+     3,
+     "Most exports flow via the CPC pipeline to Novorossiysk, where Ukrainian drone strikes have disrupted operations."
+    ],
+    [
+     "Sanctions exposure",
+     2,
+     "Trade with Russia brings the risk of Western secondary sanctions."
+    ],
+    [
+     "Political control",
+     2,
+     "Power remains concentrated, with limited space for opposition."
+    ]
+   ]
+  },
+  "144": {
+   "n": "Sri Lanka",
+   "l": 3,
+   "s": "Recovering from its 2022 default, now squeezed by high fuel prices.",
+   "i": [
+    [
+     "Debt and IMF programme",
+     3,
+     "The recovery depends on sticking to an IMF programme and restructured debt terms."
+    ],
+    [
+     "Fuel import costs",
+     3,
+     "Oil above $100 strains reserves and revives memories of 2022 shortages."
+    ],
+    [
+     "Disaster recovery",
+     2,
+     "Rebuilding after severe cyclone damage in late 2025 strains the budget."
+    ]
+   ]
+  },
+  "524": {
+   "n": "Nepal",
+   "l": 3,
+   "s": "Balendra Shah’s government, elected in a March landslide after the 2025 Gen Z uprising, is under pressure to deliver.",
+   "i": [
+    [
+     "High expectations of the new government",
+     3,
+     "The RSP won nearly two-thirds of seats and must show fast results on corruption and jobs."
+    ],
+    [
+     "Jobs and remittances",
+     3,
+     "Youth unemployment drives mass migration, and Gulf remittances are exposed to the Iran war."
+    ],
+    [
+     "Balancing India and China",
+     2,
+     "The new government must manage pressure from both neighbours."
+    ]
+   ]
+  },
+  "764": {
+   "n": "Thailand",
+   "l": 3,
+   "s": "Political instability and a tense border with Cambodia.",
+   "i": [
+    [
+     "Cambodia border tensions",
+     3,
+     "Deadly clashes in 2025 left the border fragile despite a ceasefire."
+    ],
+    [
+     "Political instability",
+     3,
+     "Frequent changes of prime minister and court interventions unsettle policy."
+    ],
+    [
+     "Weak growth",
+     2,
+     "High household debt and soft tourism weigh on the economy."
+    ]
+   ]
+  },
+  "704": {
+   "n": "Vietnam",
+   "l": 2,
+   "s": "A manufacturing hub exposed to US trade policy.",
+   "i": [
+    [
+     "US tariffs",
+     3,
+     "Heavy dependence on exports to the US leaves Vietnam exposed to tariff decisions."
+    ],
+    [
+     "South China Sea",
+     2,
+     "Disputes with China over islands and fishing grounds continue."
+    ],
+    [
+     "Anti-corruption campaign",
+     2,
+     "Sweeping investigations can slow approvals and unsettle investors."
+    ]
+   ]
+  },
+  "458": {
+   "n": "Malaysia",
+   "l": 2,
+   "s": "Stable, with exposure to tech trade and the South China Sea.",
+   "i": [
+    [
+     "Semiconductor trade",
+     2,
+     "US export controls and tariffs affect Malaysia’s large chip-packaging sector."
+    ],
+    [
+     "South China Sea",
+     2,
+     "Chinese vessels operate near Malaysian oil and gas fields."
+    ],
+    [
+     "Coalition politics",
+     2,
+     "The governing coalition holds together, but tensions persist."
+    ]
+   ]
+  },
+  "554": {
+   "n": "New Zealand",
+   "l": 1,
+   "s": "Low risk, with distance from conflict but exposure to fuel and trade.",
+   "i": [
+    [
+     "Fuel import dependence",
+     2,
+     "Almost all fuel is imported, so high oil prices feed straight into costs."
+    ],
+    [
+     "Trade with China",
+     2,
+     "China is the largest export market, which creates political and economic exposure."
+    ],
+    [
+     "Pacific competition",
+     1,
+     "China and Western partners compete for influence across the Pacific."
+    ]
+   ]
+  },
+  "152": {
+   "n": "Chile",
+   "l": 2,
+   "s": "A stable democracy with a new government focused on crime.",
+   "i": [
+    [
+     "Organised crime",
+     3,
+     "Transnational gangs have driven a rise in violent crime."
+    ],
+    [
+     "Copper and lithium policy",
+     2,
+     "Mining rules and royalties matter greatly to investors."
+    ],
+    [
+     "Social unrest",
+     2,
+     "Inequality and protest risk remain after the 2019 unrest."
+    ]
+   ]
+  },
+  "068": {
+   "n": "Bolivia",
+   "l": 3,
+   "s": "A deep economic crisis under a new government pushing painful reforms.",
+   "i": [
+    [
+     "Economic crisis",
+     4,
+     "Fuel and dollar shortages, high inflation and low reserves strain the economy."
+    ],
+    [
+     "Subsidy cuts and reform",
+     3,
+     "The government that took office in November 2025 is pushing reforms, including cuts to fuel subsidies."
+    ],
+    [
+     "Protests and blockades",
+     3,
+     "Road blockades by unions and political groups frequently disrupt trade."
+    ]
+   ]
+  },
+  "012": {
+   "n": "Algeria",
+   "l": 2,
+   "s": "A gas supplier with unsettled borders.",
+   "i": [
+    [
+     "Sahel border insecurity",
+     3,
+     "Instability in Mali and Niger threatens Algeria’s long southern border."
+    ],
+    [
+     "Gas export leverage",
+     2,
+     "Higher demand for its gas raises Algeria’s importance to Europe."
+    ],
+    [
+     "Regional rivalries",
+     2,
+     "Relations with Morocco and France remain tense."
+    ]
+   ]
+  },
+  "504": {
+   "n": "Morocco",
+   "l": 2,
+   "s": "Stable, with youth discontent and Western Sahara diplomacy in focus.",
+   "i": [
+    [
+     "Youth protests",
+     3,
+     "Gen Z-led protests over health and education spending erupted in 2025."
+    ],
+    [
+     "Western Sahara",
+     2,
+     "A 2025 UN Security Council resolution backed Morocco’s autonomy plan, but the dispute is not settled."
+    ],
+    [
+     "Water stress",
+     2,
+     "Prolonged drought threatens agriculture and rural jobs."
+    ]
+   ]
+  },
+  "788": {
+   "n": "Tunisia",
+   "l": 3,
+   "s": "Political repression and economic strain.",
+   "i": [
+    [
+     "Authoritarian consolidation",
+     3,
+     "Critics, journalists and opposition figures face arrest and prosecution."
+    ],
+    [
+     "Debt and shortages",
+     3,
+     "Weak finances have led to periodic shortages of basic goods."
+    ],
+    [
+     "Migration route",
+     2,
+     "Tunisia remains a key departure point for boats to Europe."
+    ]
+   ]
+  },
+  "288": {
+   "n": "Ghana",
+   "l": 2,
+   "s": "A stable democracy rebuilding after a debt crisis.",
+   "i": [
+    [
+     "Illegal gold mining",
+     3,
+     "Galamsey mining pollutes rivers and fuels local conflict."
+    ],
+    [
+     "Debt restructuring",
+     2,
+     "Recovery depends on fiscal discipline after the 2022 default."
+    ],
+    [
+     "Sahel spillover",
+     2,
+     "Jihadist activity in neighbouring Burkina Faso threatens the north."
+    ]
+   ]
+  },
+  "508": {
+   "n": "Mozambique",
+   "l": 4,
+   "s": "An insurgency in the north and a fragile political settlement.",
+   "i": [
+    [
+     "Cabo Delgado insurgency",
+     4,
+     "Islamic State-linked fighters still attack villages and roads in the north."
+    ],
+    [
+     "LNG project security",
+     3,
+     "Major gas projects are restarting, but depend on security improving."
+    ],
+    [
+     "Post-election tensions",
+     3,
+     "Deadly unrest followed the disputed 2024 election."
+    ]
+   ]
+  },
+  "834": {
+   "n": "Tanzania",
+   "l": 3,
+   "s": "Political repression after a violent election.",
+   "i": [
+    [
+     "Post-election crackdown",
+     3,
+     "Security forces killed protesters after the disputed October 2025 election."
+    ],
+    [
+     "Political repression",
+     3,
+     "Opposition leaders face arrest and restrictions."
+    ],
+    [
+     "Investment climate",
+     2,
+     "Unrest and policy uncertainty weigh on investors."
+    ]
+   ]
   }
  }
 }
