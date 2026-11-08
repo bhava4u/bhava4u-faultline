@@ -120,7 +120,7 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 .ins small{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
 .ins h3{margin:6px 0;font:600 21px/1.3 Spectral,Georgia,serif}
 .ins p{margin:0;color:var(--muted);font-size:14.5px}
-.forms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.forms{display:grid;grid-template-columns:minmax(0,640px);gap:24px}
 .forms form{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:20px}
 .forms h3{margin:0 0 6px;font:600 21px/1.3 Spectral,Georgia,serif}
 .forms p{margin:0 0 12px;color:var(--muted);font-size:14.5px}
@@ -322,16 +322,8 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
 </div></section>
 <section class="band" id="contact"><div class="band-in">
   <h2>Get in touch</h2>
-  <p class="lede">Request a country brief, send feedback, or get our briefing by email.</p>
+  <p class="lede">Request a country brief or send feedback on an assessment.</p>
   <div class="forms">
-    <form name="briefing" method="POST" data-netlify="true" netlify-honeypot="company" class="nf">
-      <input type="hidden" name="form-name" value="briefing">
-      <p class="hp"><label>Leave blank <input name="company"></label></p>
-      <h3>Get the Faultline briefing</h3>
-      <p>Our latest briefing by email, roughly once a week. No spam; unsubscribe any time.</p>
-      <label for="b-email">Email</label><input id="b-email" type="email" name="email" required autocomplete="email">
-      <button type="submit">Sign up</button><div class="ok" role="status"></div>
-    </form>
     <form name="contact" method="POST" data-netlify="true" netlify-honeypot="company" class="nf">
       <input type="hidden" name="form-name" value="contact">
       <p class="hp"><label>Leave blank <input name="company"></label></p>
@@ -530,7 +522,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   document.querySelectorAll('form.nf').forEach(f=>f.addEventListener('submit', async ev=>{
     ev.preventDefault(); const ok=f.querySelector('.ok'), btn=f.querySelector('button'); btn.disabled=true; ok.textContent='Sending…';
     try{ const r=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()});
-      if(!r.ok) throw 0; f.reset(); ok.textContent = f.name==='briefing' ? 'Thanks, you’re signed up.' : 'Thanks, we’ll be in touch.'; }
+      if(!r.ok) throw 0; f.reset(); ok.textContent = 'Thanks, we’ll be in touch.'; }
     catch(e){ ok.textContent='Sorry, that didn’t send. Please email admin@faultlinerisk.com.'; }
     btn.disabled=false;
   }));
