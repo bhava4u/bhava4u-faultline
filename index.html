@@ -99,6 +99,37 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 .ctab .pill{display:inline-block}
 .ctab td.sum{color:var(--muted);min-width:260px}
 #printArea{display:none}
+.arr{font-size:.8em;margin-left:6px}
+.arr.up{color:var(--l5)}.arr.down{color:var(--l1)}
+.hist{margin:16px 0 0}
+.hist h4,.scen h4{margin:0 0 6px;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.hist svg{display:block;width:100%;height:auto}
+.hist p{margin:4px 0 0;font-size:12.5px;color:var(--muted)}
+.scen{margin:16px 0 0}
+.scen div{display:grid;grid-template-columns:92px 46px 1fr;gap:8px;padding:8px 0;border-top:1px solid var(--rule);font-size:14px}
+.scen b{font-weight:600}.scen span{color:var(--muted)}
+.loglist{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.loglist>li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.loglist ul{margin:0;padding:0;list-style:none}
+.loglist ul li{margin:0 0 6px}
+.loglist button{all:unset;cursor:pointer;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.loglist .chg{font-size:12px;font-weight:600;padding:1px 8px;border-radius:10px;margin-left:6px;background:var(--l1);color:#fff}
+.ins{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.ins a{display:block;padding:20px;background:var(--surface);border:1px solid var(--rule);border-radius:6px;text-decoration:none;color:var(--ink)}
+.ins a:hover{border-color:var(--ink)}
+.ins small{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.ins h3{margin:6px 0;font:600 21px/1.3 Spectral,Georgia,serif}
+.ins p{margin:0;color:var(--muted);font-size:14.5px}
+.forms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.forms form{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:20px}
+.forms h3{margin:0 0 6px;font:600 21px/1.3 Spectral,Georgia,serif}
+.forms p{margin:0 0 12px;color:var(--muted);font-size:14.5px}
+.forms label{display:block;font-size:13.5px;font-weight:600;margin:10px 0 4px}
+.forms input,.forms textarea,.forms select{width:100%;font:400 15px "Public Sans",sans-serif;padding:9px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink)}
+.forms button{margin-top:14px;font:600 15px "Public Sans",sans-serif;padding:10px 16px;border:0;border-radius:4px;background:var(--ink);color:var(--bg);cursor:pointer}
+.forms .ok{margin-top:10px;font-size:14px;font-weight:600}
+.hp{position:absolute;left:-9999px}
+@media (max-width:980px){.ins,.forms{grid-template-columns:1fr}.loglist>li{grid-template-columns:1fr;gap:4px}}
 @media print{
   body *{visibility:hidden}
   #printArea,#printArea *{visibility:visible}
@@ -200,6 +231,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
+<script data-goatcounter="https://faultlinerisk.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
 <header class="top"><div class="top-in">
@@ -207,7 +239,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
     <svg viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 6 L12 12 L10 15 L16 20 L19 24" fill="none" stroke="var(--l4)" stroke-width="2" stroke-linejoin="round"/></svg>
     <b>Faultline</b>
   </a>
-  <nav aria-label="Sections"><a href="#map">Risk map</a><a href="#watch">Watchlist</a><a href="#soon">Coming up</a><a href="#all">All countries</a><a href="#method">Method</a><a href="#about">What we do</a></nav>
+  <nav aria-label="Sections"><a href="#map">Risk map</a><a href="#watch">Watchlist</a><a href="#soon">Coming up</a><a href="#all">All countries</a><a href="#log">Change log</a><a href="/insights/">Insights</a><a href="#contact">Contact</a><a href="#method">Method</a><a href="#about">What we do</a></nav>
   <span class="stamp" id="stamp">Assessed</span>
 </div></header>
 
@@ -258,6 +290,21 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
   </tr></thead><tbody id="ctBody"></tbody></table></div>
 </div></section>
 
+<section class="band" id="log"><div class="band-in">
+  <h2>Change log</h2>
+  <p class="lede">Every update to the map, with grade changes marked. ▲ means risk rose, ▼ means it fell.</p>
+  <ol class="loglist" id="logList"></ol>
+</div></section>
+
+<section class="band" id="insights"><div class="band-in">
+  <h2>Insights</h2>
+  <p class="lede">Short analysis on the developments that move the map. <a href="/insights/">See all</a></p>
+  <div class="ins">
+    <a href="/insights/abu-dhabi-talks.html"><small>Europe · Russia | 8 Nov 2026</small><h3>What the Abu Dhabi talks can and can’t deliver</h3><p>Working-level talks can win narrow steps like an energy truce, not a settlement.</p></a>
+    <a href="/insights/gulf-war-kerala-story.html"><small>South Asia · Gulf | 8 Nov 2026</small><h3>Why the Gulf war is a Kerala story</h3><p>For India, the Iran war is about people, wages and remittances as much as oil.</p></a>
+  </div>
+</div></section>
+
 <section class="band" id="method"><div class="band-in">
   <h2>How we grade threat</h2>
   <p class="lede">Every country and every issue gets one of five levels. The grade reflects how likely an issue is to disrupt people, assets or operations in the next three months, and how badly.</p>
@@ -271,6 +318,30 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
     <div><h3>Country risk briefs</h3><p>A one-page view of a market’s political, security and economic risks, updated as events move.</p></div>
     <div><h3>Due diligence context</h3><p>Background on the political environment around a partner, supplier or acquisition, including corruption and sanctions exposure.</p></div>
     <div><h3>Crisis monitoring</h3><p>Close tracking of fast-moving situations, such as the Gulf shipping crisis, with alerts when the threat level changes.</p></div>
+  </div>
+</div></section>
+<section class="band" id="contact"><div class="band-in">
+  <h2>Get in touch</h2>
+  <p class="lede">Request a country brief, send feedback, or get our briefing by email.</p>
+  <div class="forms">
+    <form name="briefing" method="POST" data-netlify="true" netlify-honeypot="company" class="nf">
+      <input type="hidden" name="form-name" value="briefing">
+      <p class="hp"><label>Leave blank <input name="company"></label></p>
+      <h3>Get the Faultline briefing</h3>
+      <p>Our latest briefing by email, roughly once a week. No spam; unsubscribe any time.</p>
+      <label for="b-email">Email</label><input id="b-email" type="email" name="email" required autocomplete="email">
+      <button type="submit">Sign up</button><div class="ok" role="status"></div>
+    </form>
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="company" class="nf">
+      <input type="hidden" name="form-name" value="contact">
+      <p class="hp"><label>Leave blank <input name="company"></label></p>
+      <h3>Request a brief or send feedback</h3>
+      <label for="c-name">Name</label><input id="c-name" name="name" required autocomplete="name">
+      <label for="c-email">Email</label><input id="c-email" type="email" name="email" required autocomplete="email">
+      <label for="c-type">About</label><select id="c-type" name="type"><option>Request a country brief</option><option>Feedback on an assessment</option><option>Something else</option></select>
+      <label for="c-msg">Message</label><textarea id="c-msg" name="message" rows="4" required></textarea>
+      <button type="submit">Send</button><div class="ok" role="status"></div>
+    </form>
   </div>
 </div></section>
 </main>
@@ -402,9 +473,21 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     $('#pick').value = RISK[id] ? id : '';
     if(rotate) rotateTo(id);
     renderBrief(id);
+    if(RISK[id] && window.goatcounter && goatcounter.count){ try{ goatcounter.count({path:'country/'+SLUG[id], title:RISK[id].n, event:true}); }catch(e){} }
     if(RISK[id] && SLUG[id] && location.hash!=='#'+SLUG[id]){ try{ history.replaceState(null,'','#'+SLUG[id]); }catch(e){} }
   }
 
+  // trends
+  function trendOf(k){ const h=k.h||[]; if(h.length<2) return 0; return Math.sign(h[h.length-1][1]-h[h.length-2][1]); }
+  const arrow = k => { const t=trendOf(k); return t>0?'<span class="arr up" title="Risk rose recently">▲</span>':t<0?'<span class="arr down" title="Risk fell recently">▼</span>':''; };
+  function histSvg(k){
+    const h=k.h||[]; if(!h.length) return '';
+    const t0=new Date(h[0][0]).getTime(), t1=Math.max(Date.now(), t0+86400000*3), W=300, H=54, x=t=>8+(t-t0)/(t1-t0)*(W-16), y=l=>H-6-(l-1)*((H-12)/4);
+    let d='', pts=[]; h.forEach(([dt,l],i)=>{const X=x(new Date(dt).getTime()); if(i===0) d+=`M${X},${y(l)}`; else d+=`H${X}V${y(l)}`; pts.push([X,y(l),l]);});
+    d+=`H${x(t1)}`;
+    const grid=[1,2,3,4,5].map(l=>`<line x1="8" x2="${W-8}" y1="${y(l)}" y2="${y(l)}" stroke="var(--rule)" stroke-width="1"/>`).join('');
+    return `<div class="hist"><h4>Grade history</h4><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Threat level over time">${grid}<path d="${d}" fill="none" stroke="var(--l${h[h.length-1][1]})" stroke-width="2.5"/>${pts.map(([X,Y,l])=>`<circle cx="${X}" cy="${Y}" r="3.5" fill="var(--l${l})"/>`).join('')}</svg><p>Tracked since ${new Date(h[0][0]).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}.${h.length>1?' Last change: '+LEVELS[h[h.length-2][1]]+' to '+LEVELS[h[h.length-1][1]]+'.':' No grade changes so far.'}</p></div>`;
+  }
   // country links
   const slugify = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
   const SLUG = {}, BYSLUG = {};
@@ -424,7 +507,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
       .sort((a,b)=>{ const A=RISK[a], B=RISK[b];
         if(sortKey==='l') return (A.l-B.l)*sortDir || A.n.localeCompare(B.n);
         return A[sortKey].localeCompare(B[sortKey])*sortDir || (B.l-A.l); });
-    $('#ctBody').innerHTML = rows.map(id=>{const k=RISK[id];return `<tr data-id="${id}" tabindex="0"><td><strong>${k.n}</strong></td><td>${k.r}</td><td><span class="pill p${k.l}" style="${pillStyle(k.l)}">${LEVELS[k.l]}</span></td><td class="sum">${k.s}</td></tr>`}).join('');
+    $('#ctBody').innerHTML = rows.map(id=>{const k=RISK[id];return `<tr data-id="${id}" tabindex="0"><td><strong>${k.n}</strong>${arrow(k)}</td><td>${k.r}</td><td><span class="pill p${k.l}" style="${pillStyle(k.l)}">${LEVELS[k.l]}</span></td><td class="sum">${k.s}</td></tr>`}).join('');
     document.querySelectorAll('.ctab th button').forEach(b=>{ const base={n:'Country',r:'Region',l:'Threat level'}[b.dataset.sort]; b.textContent = base + (b.dataset.sort===sortKey ? (sortDir>0?' ▲':' ▼') : ''); });
   }
   $('#chips').addEventListener('click', e=>{ const b=e.target.closest('button'); if(!b) return; region=b.dataset.r;
@@ -440,6 +523,18 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   $('#ctBody').addEventListener('keydown', e=>{ if(e.key==='Enter') openRow(e.target.closest('tr')); });
   drawTable();
 
+  // change log
+  $('#logList').innerHTML = (DATA.log||[]).map(e=>`<li><div class="when"><strong>${e.date}</strong></div><ul>${e.items.map(([c,t,chg])=>`<li>${c&&RISK[c]?`<button data-id="${c}">${RISK[c].n}</button>${chg?`<span class="chg" style="background:var(--l${chg[1]})">${LEVELS[chg[0]]} → ${LEVELS[chg[1]]} ${chg[1]>chg[0]?'▲':'▼'}</span>`:''}: `:''}${t}</li>`).join('')}</ul></li>`).join('');
+  $('#logList').addEventListener('click', e=>{ const b=e.target.closest('button[data-id]'); if(!b) return; select(b.dataset.id,true); document.getElementById('map').scrollIntoView({behavior: reduce?'auto':'smooth'}); });
+  // forms
+  document.querySelectorAll('form.nf').forEach(f=>f.addEventListener('submit', async ev=>{
+    ev.preventDefault(); const ok=f.querySelector('.ok'), btn=f.querySelector('button'); btn.disabled=true; ok.textContent='Sending…';
+    try{ const r=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()});
+      if(!r.ok) throw 0; f.reset(); ok.textContent = f.name==='briefing' ? 'Thanks, you’re signed up.' : 'Thanks, we’ll be in touch.'; }
+    catch(e){ ok.textContent='Sorry, that didn’t send. Please email admin@faultlinerisk.com.'; }
+    btn.disabled=false;
+  }));
+
   // printable brief
   function printBrief(id){
     const k = RISK[id], ev = EVENTS.filter(e=>(e.c||[]).includes(id));
@@ -449,6 +544,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
       <p class="sm">${k.s}</p>
       <div class="bx"><strong>What it means for business:</strong> ${k.b||''}</div>
       <h2>Top three issues</h2><ol>${k.i.map(([t,l,x])=>`<li><strong>${t}</strong> (${LEVELS[l]}): ${x}</li>`).join('')}</ol>
+      ${k.sc?`<h2>Three-month scenarios</h2>${k.sc.map(([n,p,x])=>`<p style="margin:0 0 4px"><strong>${n} (${p}%):</strong> ${x}</p>`).join('')}`:''}
       ${ev.length?`<h2>Coming up</h2>${ev.map(e=>`<p style="margin:0 0 4px"><strong>${e.when}:</strong> ${e.title}</p>`).join('')}`:''}
       ${k.src&&k.src.length?`<h2>Sources</h2>${k.src.map(([t,u])=>`<p style="margin:0 0 3px;font-size:9.5pt">${t}<br><span style="color:#56656A">${u}</span></p>`).join('')}`:''}
       <div class="pf">Faultline (faultlinerisk.com/#${SLUG[id]}). Threat levels reflect the likelihood and severity of disruption over the next three months. Analyst judgment based on open-source reporting; not advice for personal travel or investment decisions. Contact: admin@faultlinerisk.com</div>`;
@@ -474,7 +570,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     body.innerHTML = `
       <span class="rtag">${k.r||''}</span>
       <h2>${k.n}</h2>
-      <div class="level">${meter(k.l)}<span>Threat level <strong>${LEVELS[k.l]}</strong>, ${k.l} of 5</span></div>
+      <div class="level">${meter(k.l)}<span>Threat level <strong>${LEVELS[k.l]}</strong>, ${k.l} of 5${arrow(k)}</span></div>
       <p class="summary">${k.s}</p>
       ${k.b?`<div class="biz"><h4>What it means for business</h4><p>${k.b}</p></div>`:''}
       <ol class="issues">${k.i.map(([t,l,x])=>`
@@ -482,6 +578,8 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
       </ol>
       ${(()=>{const ev=EVENTS.filter(e=>(e.c||[]).includes(id)); return ev.length?`<div class="soon"><h4>Coming up</h4>${ev.map(e=>`<p><strong>${e.when}:</strong> ${e.title}</p>`).join('')}</div>`:''})()}
       <div class="srcs"><h4>Sources</h4>${k.src&&k.src.length?`<ul>${k.src.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${t}</a></li>`).join('')}</ul>`:`<p>Based on open-source reporting. Linked sources are added as each country is reviewed.</p>`}</div>
+      ${k.sc?`<div class="scen"><h4>Three-month scenarios</h4>${k.sc.map(([n,p,x])=>`<div><b>${n}</b><span>${p}%</span><span>${x}</span></div>`).join('')}</div>`:''}
+      ${histSvg(k)}
       <div class="actions"><button type="button" id="copyLink">Copy link to ${k.n}</button><button type="button" id="dlBrief">Download brief (PDF)</button></div>
       <p class="note">Top three issues, ranked. Assessed ${ASSESSED}. To save the brief, choose “Save as PDF” in the print window.</p>`;
     $('#dlBrief').onclick = () => printBrief(id);

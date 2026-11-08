@@ -23,7 +23,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Black Sea shipping risk raises insurance and freight costs for ports and traders."
+   "b": "Black Sea shipping risk raises insurance and freight costs for ports and traders.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "104": {
    "n": "Myanmar",
@@ -47,7 +53,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Civil war, sanctions and scam-centre crime make most commercial activity high risk."
+   "b": "Civil war, sanctions and scam-centre crime make most commercial activity high risk.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ]
   },
   "112": {
    "n": "Belarus",
@@ -71,7 +83,13 @@
     ]
    ],
    "r": "Russia & Eurasia",
-   "b": "Western sanctions make doing business in Belarus legally risky for most international firms."
+   "b": "Western sanctions make doing business in Belarus legally risky for most international firms.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "124": {
    "n": "Canada",
@@ -95,7 +113,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "US tariffs and the USMCA review create uncertainty for autos, steel, aluminium and cross-border supply chains."
+   "b": "US tariffs and the USMCA review create uncertainty for autos, steel, aluminium and cross-border supply chains.",
+   "h": [
+    [
+     "2026-11-04",
+     2
+    ]
+   ]
   },
   "148": {
    "n": "Chad",
@@ -119,7 +143,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Insecurity and refugee pressure limit operations to the capital and the oil sector."
+   "b": "Insecurity and refugee pressure limit operations to the capital and the oil sector.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "156": {
    "n": "China",
@@ -143,7 +173,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Export controls, tariffs and Taiwan risk push firms to diversify supply chains away from China."
+   "b": "Export controls, tariffs and Taiwan risk push firms to diversify supply chains away from China.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "158": {
    "n": "Taiwan",
@@ -167,7 +203,30 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Any disruption would hit global semiconductor supply chains."
+   "b": "Any disruption would hit global semiconductor supply chains.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ],
+   "sc": [
+    [
+     "Base case",
+     70,
+     "Coercion short of conflict: PLA patrols and drills continue, with periodic large exercises around the island."
+    ],
+    [
+     "Downside",
+     10,
+     "A blockade-style quarantine or major crisis that disrupts shipping and chip exports."
+    ],
+    [
+     "Upside",
+     20,
+     "A quieter period as US and Chinese leaders seek stability around the APEC meeting in Shenzhen."
+    ]
+   ]
   },
   "170": {
    "n": "Colombia",
@@ -191,7 +250,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Armed groups threaten mining, oil and rural logistics, and US–Colombia tension adds trade risk."
+   "b": "Armed groups threaten mining, oil and rural logistics, and US–Colombia tension adds trade risk.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "180": {
    "n": "DR Congo",
@@ -215,7 +280,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Cobalt and coltan supply chains face conflict, smuggling and due diligence risks."
+   "b": "Cobalt and coltan supply chains face conflict, smuggling and due diligence risks.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ]
   },
   "192": {
    "n": "Cuba",
@@ -239,7 +310,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Blackouts, fuel shortages and US sanctions make commercial activity extremely difficult."
+   "b": "Blackouts, fuel shortages and US sanctions make commercial activity extremely difficult.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "218": {
    "n": "Ecuador",
@@ -263,7 +340,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Gang violence and extortion threaten logistics, ports and banana and shrimp exporters."
+   "b": "Gang violence and extortion threaten logistics, ports and banana and shrimp exporters.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "231": {
    "n": "Ethiopia",
@@ -287,7 +370,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Conflict in Amhara and tension with Eritrea threaten logistics routes and investor confidence."
+   "b": "Conflict in Amhara and tension with Eritrea threaten logistics routes and investor confidence.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "250": {
    "n": "France",
@@ -311,7 +400,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Strikes and protests can disrupt transport and operations at short notice."
+   "b": "Strikes and protests can disrupt transport and operations at short notice.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "268": {
    "n": "Georgia",
@@ -335,7 +430,13 @@
     ]
    ],
    "r": "Russia & Eurasia",
-   "b": "Political tension and frozen EU accession raise uncertainty for investors and transit trade."
+   "b": "Political tension and frozen EU accession raise uncertainty for investors and transit trade.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "275": {
    "n": "Palestinian territories",
@@ -359,7 +460,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Restricted access and destruction make commercial activity in Gaza close to impossible."
+   "b": "Restricted access and destruction make commercial activity in Gaza close to impossible.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ]
   },
   "276": {
    "n": "Germany",
@@ -383,7 +490,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Industrial firms face high energy costs and weak export demand."
+   "b": "Industrial firms face high energy costs and weak export demand.",
+   "h": [
+    [
+     "2026-11-04",
+     2
+    ]
+   ]
   },
   "304": {
    "n": "Greenland",
@@ -407,7 +520,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Mining investors face geopolitical scrutiny as the US, China and Europe compete for critical minerals."
+   "b": "Mining investors face geopolitical scrutiny as the US, China and Europe compete for critical minerals.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "332": {
    "n": "Haiti",
@@ -431,7 +550,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Gang control of roads and ports makes operations and the movement of goods extremely dangerous."
+   "b": "Gang control of roads and ports makes operations and the movement of goods extremely dangerous.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ]
   },
   "356": {
    "n": "India",
@@ -455,7 +580,13 @@
     ]
    ],
    "r": "South Asia",
-   "b": "High oil prices raise import costs, while Gulf disruption threatens remittances and US sanctions add compliance risk for traders."
+   "b": "High oil prices raise import costs, while Gulf disruption threatens remittances and US sanctions add compliance risk for traders.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "360": {
    "n": "Indonesia",
@@ -479,7 +610,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Fuel subsidy costs and protest risk weigh on policy, while nickel and palm oil exports remain strong."
+   "b": "Fuel subsidy costs and protest risk weigh on policy, while nickel and palm oil exports remain strong.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "364": {
    "n": "Iran",
@@ -517,7 +654,30 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Sanctions make almost all business with Iran unlawful for Western firms, and the war threatens all Gulf shipping and energy flows."
+   "b": "Sanctions make almost all business with Iran unlawful for Western firms, and the war threatens all Gulf shipping and energy flows.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ],
+   "sc": [
+    [
+     "Base case",
+     50,
+     "Grinding stalemate: the blockade and tit-for-tat strikes continue, and Hormuz stays largely shut while Qatari-led talks drag on."
+    ],
+    [
+     "Downside",
+     30,
+     "Major escalation: a large US strike campaign before the new Congress sits in January, met by Iranian attacks on Gulf states and shipping."
+    ],
+    [
+     "Upside",
+     20,
+     "Framework deal: Iran halts attacks on shipping and the US eases its blockade, so Hormuz traffic begins to recover."
+    ]
+   ]
   },
   "368": {
    "n": "Iraq",
@@ -541,7 +701,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Militia attacks threaten staff and oil operations, especially in the Kurdistan Region."
+   "b": "Militia attacks threaten staff and oil operations, especially in the Kurdistan Region.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "376": {
    "n": "Israel",
@@ -565,7 +731,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Missile threats and reserve call-ups disrupt staffing, and the tech sector faces war-related uncertainty."
+   "b": "Missile threats and reserve call-ups disrupt staffing, and the tech sector faces war-related uncertainty.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "392": {
    "n": "Japan",
@@ -589,7 +761,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Most of Japan’s crude passes through Hormuz, so energy-intensive industries face rising costs."
+   "b": "Most of Japan’s crude passes through Hormuz, so energy-intensive industries face rising costs.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "400": {
    "n": "Jordan",
@@ -613,7 +791,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Regional conflict deters tourism and investment, though Jordan remains a relatively stable base."
+   "b": "Regional conflict deters tourism and investment, though Jordan remains a relatively stable base.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "404": {
    "n": "Kenya",
@@ -637,7 +821,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Protests and debt pressure affect operations in Nairobi and investor sentiment."
+   "b": "Protests and debt pressure affect operations in Nairobi and investor sentiment.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "408": {
    "n": "North Korea",
@@ -661,7 +851,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Sanctions prohibit almost all business, and missile tests affect regional markets."
+   "b": "Sanctions prohibit almost all business, and missile tests affect regional markets.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "410": {
    "n": "South Korea",
@@ -685,7 +881,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "High energy import costs and US trade policy weigh on manufacturers."
+   "b": "High energy import costs and US trade policy weigh on manufacturers.",
+   "h": [
+    [
+     "2026-11-04",
+     2
+    ]
+   ]
   },
   "414": {
    "n": "Kuwait",
@@ -709,7 +911,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Oil exports depend entirely on Hormuz, and staff face strike risk."
+   "b": "Oil exports depend entirely on Hormuz, and staff face strike risk.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "422": {
    "n": "Lebanon",
@@ -733,7 +941,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Banking collapse and the risk of renewed war make operations extremely difficult."
+   "b": "Banking collapse and the risk of renewed war make operations extremely difficult.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "434": {
    "n": "Libya",
@@ -757,7 +971,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Oil production can be shut in for political leverage, and militia clashes threaten staff."
+   "b": "Oil production can be shut in for political leverage, and militia clashes threaten staff.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "466": {
    "n": "Mali",
@@ -781,7 +1001,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Fuel blockades, kidnapping and military rule make mining and logistics high risk."
+   "b": "Fuel blockades, kidnapping and military rule make mining and logistics high risk.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ]
   },
   "484": {
    "n": "Mexico",
@@ -805,7 +1031,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Cartel extortion and cargo theft raise logistics costs, and the USMCA review clouds nearshoring plans."
+   "b": "Cartel extortion and cargo theft raise logistics costs, and the USMCA review clouds nearshoring plans.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "498": {
    "n": "Moldova",
@@ -829,7 +1061,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "War spillover and hybrid interference raise risks for investors and energy supply."
+   "b": "War spillover and hybrid interference raise risks for investors and energy supply.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "512": {
    "n": "Oman",
@@ -853,7 +1091,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Ports and shipping near Hormuz face attack risk, though Oman remains a relatively stable base."
+   "b": "Ports and shipping near Hormuz face attack risk, though Oman remains a relatively stable base.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "562": {
    "n": "Niger",
@@ -877,7 +1121,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Resource nationalism and insurgency threaten uranium and oil investors."
+   "b": "Resource nationalism and insurgency threaten uranium and oil investors.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "566": {
    "n": "Nigeria",
@@ -901,7 +1151,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Kidnapping and insecurity raise costs for staff and logistics, and currency volatility affects importers."
+   "b": "Kidnapping and insecurity raise costs for staff and logistics, and currency volatility affects importers.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "586": {
    "n": "Pakistan",
@@ -925,7 +1181,13 @@
     ]
    ],
    "r": "South Asia",
-   "b": "Militancy threatens staff and Chinese-linked projects, and border clashes disrupt trade."
+   "b": "Militancy threatens staff and Chinese-linked projects, and border clashes disrupt trade.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "604": {
    "n": "Peru",
@@ -949,7 +1211,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Political volatility and illegal mining affect copper and gold operations."
+   "b": "Political volatility and illegal mining affect copper and gold operations.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "608": {
    "n": "Philippines",
@@ -973,7 +1241,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "South China Sea incidents threaten fishing and shipping, and typhoons disrupt supply chains."
+   "b": "South China Sea incidents threaten fishing and shipping, and typhoons disrupt supply chains.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "616": {
    "n": "Poland",
@@ -997,7 +1271,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Sabotage risk and border tension affect logistics, while defence spending creates opportunities."
+   "b": "Sabotage risk and border tension affect logistics, while defence spending creates opportunities.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "634": {
    "n": "Qatar",
@@ -1021,7 +1301,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "LNG exports through Hormuz are at risk, with global consequences for gas buyers."
+   "b": "LNG exports through Hormuz are at risk, with global consequences for gas buyers.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "642": {
    "n": "Romania",
@@ -1045,7 +1331,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Black Sea security and fiscal tightening affect investors and traders."
+   "b": "Black Sea security and fiscal tightening affect investors and traders.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "643": {
    "n": "Russia",
@@ -1069,7 +1361,13 @@
     ]
    ],
    "r": "Russia & Eurasia",
-   "b": "Sanctions make most business with Russia unlawful, and drone strikes disrupt its energy exports."
+   "b": "Sanctions make most business with Russia unlawful, and drone strikes disrupt its energy exports.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "682": {
    "n": "Saudi Arabia",
@@ -1093,7 +1391,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Drone and missile threats raise security costs for staff and energy infrastructure."
+   "b": "Drone and missile threats raise security costs for staff and energy infrastructure.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "688": {
    "n": "Serbia",
@@ -1117,7 +1421,17 @@
     ]
    ],
    "r": "Europe",
-   "b": "A new government may reshape investment rules and energy deals."
+   "b": "A new government may reshape investment rules and energy deals.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ],
+    [
+     "2026-11-05",
+     2
+    ]
+   ]
   },
   "706": {
    "n": "Somalia",
@@ -1141,7 +1455,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Al-Shabaab attacks threaten staff and port operations."
+   "b": "Al-Shabaab attacks threaten staff and port operations.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "710": {
    "n": "South Africa",
@@ -1165,7 +1485,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Port, rail and power constraints raise costs, and US trade tension affects exporters."
+   "b": "Port, rail and power constraints raise costs, and US trade tension affects exporters.",
+   "h": [
+    [
+     "2026-11-04",
+     2
+    ]
+   ]
   },
   "728": {
    "n": "South Sudan",
@@ -1189,7 +1515,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Oil exports through Sudan are repeatedly disrupted, and the risk of conflict is high."
+   "b": "Oil exports through Sudan are repeatedly disrupted, and the risk of conflict is high.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "729": {
    "n": "Sudan",
@@ -1213,7 +1545,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "War and famine make commercial operations impossible in most of the country."
+   "b": "War and famine make commercial operations impossible in most of the country.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ]
   },
   "760": {
    "n": "Syria",
@@ -1237,7 +1575,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Sanctions relief is partial, and insecurity limits investment."
+   "b": "Sanctions relief is partial, and insecurity limits investment.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "784": {
    "n": "United Arab Emirates",
@@ -1261,7 +1605,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Drone and missile risk and Hormuz disruption threaten aviation, ports and business continuity."
+   "b": "Drone and missile risk and Hormuz disruption threaten aviation, ports and business continuity.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "792": {
    "n": "Türkiye",
@@ -1291,7 +1641,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Black Sea shipping risk and inflation affect traders and manufacturers."
+   "b": "Black Sea shipping risk and inflation affect traders and manufacturers.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "804": {
    "n": "Ukraine",
@@ -1325,7 +1681,30 @@
     ]
    ],
    "r": "Europe",
-   "b": "Strikes on the grid disrupt operations, though reconstruction and defence contracts create opportunities."
+   "b": "Strikes on the grid disrupt operations, though reconstruction and defence contracts create opportunities.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ],
+   "sc": [
+    [
+     "Base case",
+     55,
+     "Talks continue without a ceasefire; Russia keeps striking the grid through winter and the front moves little."
+    ],
+    [
+     "Downside",
+     25,
+     "Talks collapse and Russia intensifies winter strikes, causing prolonged blackouts and new displacement."
+    ],
+    [
+     "Upside",
+     20,
+     "An energy-infrastructure truce or major prisoner exchange holds, opening the way to leader-level talks."
+    ]
+   ]
   },
   "818": {
    "n": "Egypt",
@@ -1349,7 +1728,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Lost Suez Canal revenue and currency pressure raise costs for importers and investors."
+   "b": "Lost Suez Canal revenue and currency pressure raise costs for importers and investors.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "826": {
    "n": "United Kingdom",
@@ -1373,7 +1758,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "High energy prices raise costs, but the business environment remains stable."
+   "b": "High energy prices raise costs, but the business environment remains stable.",
+   "h": [
+    [
+     "2026-11-04",
+     2
+    ]
+   ]
   },
   "840": {
    "n": "United States",
@@ -1397,7 +1788,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Tariff shifts and Iran war decisions create uncertainty for trading partners and energy markets."
+   "b": "Tariff shifts and Iran war decisions create uncertainty for trading partners and energy markets.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "854": {
    "n": "Burkina Faso",
@@ -1421,7 +1818,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Insecurity puts staff and mining operations at serious risk outside the capital."
+   "b": "Insecurity puts staff and mining operations at serious risk outside the capital.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ]
   },
   "862": {
    "n": "Venezuela",
@@ -1445,7 +1848,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "US control of oil exports reshapes contracts, and sanctions exposure remains complex."
+   "b": "US control of oil exports reshapes contracts, and sanctions exposure remains complex.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "887": {
    "n": "Yemen",
@@ -1469,7 +1878,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Houthi attacks make Red Sea shipping one of the riskiest routes in the world."
+   "b": "Houthi attacks make Red Sea shipping one of the riskiest routes in the world.",
+   "h": [
+    [
+     "2026-11-04",
+     5
+    ]
+   ]
   },
   "004": {
    "n": "Afghanistan",
@@ -1493,7 +1908,13 @@
     ]
    ],
    "r": "South Asia",
-   "b": "Sanctions on the Taliban government and insecurity make commercial activity close to impossible beyond humanitarian work."
+   "b": "Sanctions on the Taliban government and insecurity make commercial activity close to impossible beyond humanitarian work.",
+   "h": [
+    [
+     "2026-11-04",
+     4
+    ]
+   ]
   },
   "050": {
    "n": "Bangladesh",
@@ -1517,7 +1938,13 @@
     ]
    ],
    "r": "South Asia",
-   "b": "Garment exporters face higher fuel costs and political uncertainty that can disrupt production."
+   "b": "Garment exporters face higher fuel costs and political uncertainty that can disrupt production.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "076": {
    "n": "Brazil",
@@ -1541,7 +1968,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "A large consumer market with an uncertain political outlook; US tariffs hit exporters of coffee, steel and agricultural goods."
+   "b": "A large consumer market with an uncertain political outlook; US tariffs hit exporters of coffee, steel and agricultural goods.",
+   "h": [
+    [
+     "2026-11-04",
+     3
+    ]
+   ]
   },
   "032": {
    "n": "Argentina",
@@ -1565,7 +1998,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Reforms are opening up energy and mining, but currency controls and volatility complicate repatriating profits."
+   "b": "Reforms are opening up energy and mining, but currency controls and volatility complicate repatriating profits.",
+   "h": [
+    [
+     "2026-11-04",
+     2
+    ]
+   ]
   },
   "036": {
    "n": "Australia",
@@ -1589,7 +2028,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "A stable market, but low fuel reserves make transport and logistics vulnerable to Gulf supply shocks."
+   "b": "A stable market, but low fuel reserves make transport and logistics vulnerable to Gulf supply shocks.",
+   "h": [
+    [
+     "2026-11-04",
+     2
+    ]
+   ]
   },
   "380": {
    "n": "Italy",
@@ -1613,7 +2058,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Energy-intensive manufacturers face rising costs from high oil and gas prices."
+   "b": "Energy-intensive manufacturers face rising costs from high oil and gas prices.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "724": {
    "n": "Spain",
@@ -1637,7 +2088,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Higher fuel costs affect transport and tourism, though the economy remains resilient."
+   "b": "Higher fuel costs affect transport and tourism, though the economy remains resilient.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "528": {
    "n": "Netherlands",
@@ -1661,7 +2118,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Rotterdam’s port and logistics firms feel the effects of global shipping disruption."
+   "b": "Rotterdam’s port and logistics firms feel the effects of global shipping disruption.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "056": {
    "n": "Belgium",
@@ -1685,7 +2148,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Brussels-based firms face little direct risk, but airport disruption from drone sightings can affect travel and logistics."
+   "b": "Brussels-based firms face little direct risk, but airport disruption from drone sightings can affect travel and logistics.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "752": {
    "n": "Sweden",
@@ -1709,7 +2178,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Gang violence and Baltic security risks require strong security planning."
+   "b": "Gang violence and Baltic security risks require strong security planning.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "578": {
    "n": "Norway",
@@ -1733,7 +2208,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Norwegian gas is more valuable to Europe, making offshore infrastructure security a priority."
+   "b": "Norwegian gas is more valuable to Europe, making offshore infrastructure security a priority.",
+   "h": [
+    [
+     "2026-11-07",
+     1
+    ]
+   ]
   },
   "246": {
    "n": "Finland",
@@ -1757,7 +2238,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Closed eastern border crossings and Baltic cable risks affect logistics and telecoms."
+   "b": "Closed eastern border crossings and Baltic cable risks affect logistics and telecoms.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "208": {
    "n": "Denmark",
@@ -1781,7 +2268,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Danish shipping and energy firms are exposed to Baltic security risks and US–Denmark tensions over Greenland."
+   "b": "Danish shipping and energy firms are exposed to Baltic security risks and US–Denmark tensions over Greenland.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "300": {
    "n": "Greece",
@@ -1805,7 +2298,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Greek-owned shipping faces high war-risk insurance costs in the Gulf and Red Sea."
+   "b": "Greek-owned shipping faces high war-risk insurance costs in the Gulf and Red Sea.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "348": {
    "n": "Hungary",
@@ -1835,7 +2334,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Reforms could unlock EU funds and investor confidence, though Russian energy dependence remains a supply risk."
+   "b": "Reforms could unlock EU funds and investor confidence, though Russian energy dependence remains a supply risk.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "203": {
    "n": "Czechia",
@@ -1859,7 +2364,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Manufacturers face high energy costs, while policy shifts on Ukraine may affect defence-sector contracts."
+   "b": "Manufacturers face high energy costs, while policy shifts on Ukraine may affect defence-sector contracts.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "040": {
    "n": "Austria",
@@ -1883,7 +2394,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "High energy costs weigh on manufacturers and suppliers to German industry."
+   "b": "High energy costs weigh on manufacturers and suppliers to German industry.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "756": {
    "n": "Switzerland",
@@ -1907,7 +2424,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "US tariffs hit exporters, and banks and traders face sanctions compliance scrutiny."
+   "b": "US tariffs hit exporters, and banks and traders face sanctions compliance scrutiny.",
+   "h": [
+    [
+     "2026-11-07",
+     1
+    ]
+   ]
   },
   "620": {
    "n": "Portugal",
@@ -1931,7 +2454,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Low risk, with high fuel prices the main cost pressure."
+   "b": "Low risk, with high fuel prices the main cost pressure.",
+   "h": [
+    [
+     "2026-11-07",
+     1
+    ]
+   ]
   },
   "372": {
    "n": "Ireland",
@@ -1955,7 +2484,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "US tariff decisions on pharmaceuticals and tech put Ireland’s investment model at risk."
+   "b": "US tariff decisions on pharmaceuticals and tech put Ireland’s investment model at risk.",
+   "h": [
+    [
+     "2026-11-07",
+     1
+    ]
+   ]
   },
   "440": {
    "n": "Lithuania",
@@ -1979,7 +2514,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Airport closures and hybrid threats can disrupt logistics and travel."
+   "b": "Airport closures and hybrid threats can disrupt logistics and travel.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "428": {
    "n": "Latvia",
@@ -2003,7 +2544,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Low commercial risk, but Baltic infrastructure and border security need monitoring."
+   "b": "Low commercial risk, but Baltic infrastructure and border security need monitoring.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "233": {
    "n": "Estonia",
@@ -2027,7 +2574,13 @@
     ]
    ],
    "r": "Europe",
-   "b": "Low commercial risk, though cyber attacks and Russian provocations require strong security planning."
+   "b": "Low commercial risk, though cyber attacks and Russian provocations require strong security planning.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "051": {
    "n": "Armenia",
@@ -2057,7 +2610,13 @@
     ]
    ],
    "r": "Russia & Eurasia",
-   "b": "A peace deal could open new transport routes between Europe and Asia, though Russian economic pressure is a risk for investors."
+   "b": "A peace deal could open new transport routes between Europe and Asia, though Russian economic pressure is a risk for investors.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "031": {
    "n": "Azerbaijan",
@@ -2081,7 +2640,13 @@
     ]
    ],
    "r": "Russia & Eurasia",
-   "b": "Oil and gas exports are steady, but proximity to the Iran war raises security and insurance costs."
+   "b": "Oil and gas exports are steady, but proximity to the Iran war raises security and insurance costs.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "398": {
    "n": "Kazakhstan",
@@ -2105,7 +2670,13 @@
     ]
    ],
    "r": "Russia & Eurasia",
-   "b": "Oil exporters depend on a pipeline through Russia that has been disrupted by drone strikes."
+   "b": "Oil exporters depend on a pipeline through Russia that has been disrupted by drone strikes.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "144": {
    "n": "Sri Lanka",
@@ -2129,7 +2700,13 @@
     ]
    ],
    "r": "South Asia",
-   "b": "High fuel prices strain reserves and import capacity."
+   "b": "High fuel prices strain reserves and import capacity.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "524": {
    "n": "Nepal",
@@ -2159,7 +2736,13 @@
     ]
    ],
    "r": "South Asia",
-   "b": "Gulf remittance flows and a new government’s reform agenda shape the economic outlook."
+   "b": "Gulf remittance flows and a new government’s reform agenda shape the economic outlook.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "764": {
    "n": "Thailand",
@@ -2183,7 +2766,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Border tension with Cambodia and political instability affect tourism and investment."
+   "b": "Border tension with Cambodia and political instability affect tourism and investment.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "704": {
    "n": "Vietnam",
@@ -2207,7 +2796,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Exporters depend heavily on the US market, so tariff decisions drive risk."
+   "b": "Exporters depend heavily on the US market, so tariff decisions drive risk.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "458": {
    "n": "Malaysia",
@@ -2231,7 +2826,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "Semiconductor packaging firms face US export controls and tariff risk."
+   "b": "Semiconductor packaging firms face US export controls and tariff risk.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "554": {
    "n": "New Zealand",
@@ -2255,7 +2856,13 @@
     ]
    ],
    "r": "East Asia & Pacific",
-   "b": "High fuel prices raise transport and agricultural costs."
+   "b": "High fuel prices raise transport and agricultural costs.",
+   "h": [
+    [
+     "2026-11-07",
+     1
+    ]
+   ]
   },
   "152": {
    "n": "Chile",
@@ -2279,7 +2886,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Copper and lithium producers benefit from demand, but crime and mining-policy shifts affect costs."
+   "b": "Copper and lithium producers benefit from demand, but crime and mining-policy shifts affect costs.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "068": {
    "n": "Bolivia",
@@ -2303,7 +2916,13 @@
     ]
    ],
    "r": "Americas",
-   "b": "Fuel and dollar shortages, blockades and policy shifts make operations and payments unpredictable."
+   "b": "Fuel and dollar shortages, blockades and policy shifts make operations and payments unpredictable.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "012": {
    "n": "Algeria",
@@ -2327,7 +2946,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Europe’s need for non-Russian gas raises Algeria’s value as a supplier, but state control limits foreign investment."
+   "b": "Europe’s need for non-Russian gas raises Algeria’s value as a supplier, but state control limits foreign investment.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "504": {
    "n": "Morocco",
@@ -2351,7 +2976,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "A stable base for manufacturing and exports, though youth protests signal social pressure."
+   "b": "A stable base for manufacturing and exports, though youth protests signal social pressure.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "788": {
    "n": "Tunisia",
@@ -2375,7 +3006,13 @@
     ]
    ],
    "r": "Middle East & North Africa",
-   "b": "Repression and shortages raise operational and reputational risk."
+   "b": "Repression and shortages raise operational and reputational risk.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   },
   "288": {
    "n": "Ghana",
@@ -2399,7 +3036,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Gold and cocoa exporters face illegal mining, debt pressure and northern security risks."
+   "b": "Gold and cocoa exporters face illegal mining, debt pressure and northern security risks.",
+   "h": [
+    [
+     "2026-11-07",
+     2
+    ]
+   ]
   },
   "508": {
    "n": "Mozambique",
@@ -2423,7 +3066,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Gas projects in the north depend on security improving in Cabo Delgado."
+   "b": "Gas projects in the north depend on security improving in Cabo Delgado.",
+   "h": [
+    [
+     "2026-11-07",
+     4
+    ]
+   ]
   },
   "834": {
    "n": "Tanzania",
@@ -2447,7 +3096,13 @@
     ]
    ],
    "r": "Sub-Saharan Africa",
-   "b": "Political repression and unrest weigh on investor confidence."
+   "b": "Political repression and unrest weigh on investor confidence.",
+   "h": [
+    [
+     "2026-11-07",
+     3
+    ]
+   ]
   }
  },
  "events": [
@@ -2504,6 +3159,84 @@
    "text": "Democrats take control of both chambers, with war powers and budgets in focus.",
    "c": [
     "840"
+   ]
+  }
+ ],
+ "log": [
+  {
+   "date": "8 Nov 2026",
+   "items": [
+    [
+     "364",
+     "US tightened its blockade, disabling a cargo ship and launching a task force against Iran’s land supply routes."
+    ],
+    [
+     "804",
+     "US-mediated talks in Abu Dhabi confirmed for 10–11 November."
+    ],
+    [
+     null,
+     "New on the site: linked sources, Coming up, business impact, region view, country links and downloadable briefs."
+    ]
+   ]
+  },
+  {
+   "date": "7 Nov 2026",
+   "items": [
+    [
+     null,
+     "Coverage expanded from 65 to 100 countries."
+    ],
+    [
+     "364",
+     "New US strikes on Qeshm Island; tankers hit mines near Hormuz."
+    ],
+    [
+     "804",
+     "Heavy Russian strikes on the power grid; peace talks expected."
+    ],
+    [
+     "356",
+     "US sanctions on Indian firms linked to Iranian tankers."
+    ]
+   ]
+  },
+  {
+   "date": "5 Nov 2026",
+   "items": [
+    [
+     "688",
+     "Lowered from Elevated to Guarded after the student-led list won a majority.",
+     [
+      3,
+      2
+     ]
+    ],
+    [
+     "840",
+     "Democrats won both chambers of Congress."
+    ],
+    [
+     "422",
+     "Reported Israeli plans if Hezbollah joins a renewed Iran war."
+    ]
+   ]
+  },
+  {
+   "date": "4 Nov 2026",
+   "items": [
+    [
+     "364",
+     "US strike on Qeshm Island; Hormuz effectively closed."
+    ],
+    [
+     "376",
+     "No clear majority after the 27 October election."
+    ],
+    [
+     "076",
+     "Lula won the presidential runoff; his opponent has not conceded."
+    ]
    ]
   }
  ]
