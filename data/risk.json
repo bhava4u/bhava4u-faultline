@@ -21,7 +21,9 @@
      2,
      "Frequent elections and fragile coalitions slow decision-making."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Black Sea shipping risk raises insurance and freight costs for ports and traders."
   },
   "104": {
    "n": "Myanmar",
@@ -43,7 +45,9 @@
      4,
      "Industrial-scale online fraud along the borders draws regional crackdowns."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Civil war, sanctions and scam-centre crime make most commercial activity high risk."
   },
   "112": {
    "n": "Belarus",
@@ -65,7 +69,9 @@
      3,
      "Migration pressure and incidents with Poland and Lithuania keep borders tense."
     ]
-   ]
+   ],
+   "r": "Russia & Eurasia",
+   "b": "Western sanctions make doing business in Belarus legally risky for most international firms."
   },
   "124": {
    "n": "Canada",
@@ -87,7 +93,9 @@
      2,
      "Competition in the Arctic is rising."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "US tariffs and the USMCA review create uncertainty for autos, steel, aluminium and cross-border supply chains."
   },
   "148": {
    "n": "Chad",
@@ -109,7 +117,9 @@
      3,
      "Jihadist groups remain active in the west."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Insecurity and refugee pressure limit operations to the capital and the oil sector."
   },
   "156": {
    "n": "China",
@@ -131,7 +141,9 @@
      3,
      "Property weakness and soft demand weigh on growth."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Export controls, tariffs and Taiwan risk push firms to diversify supply chains away from China."
   },
   "158": {
    "n": "Taiwan",
@@ -153,7 +165,9 @@
      4,
      "Taiwan makes roughly 90% of the world’s most advanced chips, so any disruption is global."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Any disruption would hit global semiconductor supply chains."
   },
   "170": {
    "n": "Colombia",
@@ -175,7 +189,9 @@
      3,
      "The administration inaugurated on 7 August is setting its security agenda."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Armed groups threaten mining, oil and rural logistics, and US–Colombia tension adds trade risk."
   },
   "180": {
    "n": "DR Congo",
@@ -197,7 +213,9 @@
      3,
      "Cobalt and coltan deals with the US raise stakes and governance risk."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Cobalt and coltan supply chains face conflict, smuggling and due diligence risks."
   },
   "192": {
    "n": "Cuba",
@@ -219,7 +237,9 @@
      3,
      "Economic collapse is driving emigration."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Blackouts, fuel shortages and US sanctions make commercial activity extremely difficult."
   },
   "218": {
    "n": "Ecuador",
@@ -241,7 +261,9 @@
      3,
      "Drought-related blackouts disrupt industry."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Gang violence and extortion threaten logistics, ports and banana and shrimp exporters."
   },
   "231": {
    "n": "Ethiopia",
@@ -263,7 +285,9 @@
      3,
      "Splits within Tigrayan leadership threaten the 2022 deal."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Conflict in Amhara and tension with Eritrea threaten logistics routes and investor confidence."
   },
   "250": {
    "n": "France",
@@ -285,7 +309,9 @@
      2,
      "High oil prices feed through to transport and industry."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Strikes and protests can disrupt transport and operations at short notice."
   },
   "268": {
    "n": "Georgia",
@@ -307,7 +333,9 @@
      3,
      "Membership talks are suspended, and Western sanctions target officials."
     ]
-   ]
+   ],
+   "r": "Russia & Eurasia",
+   "b": "Political tension and frozen EU accession raise uncertainty for investors and transit trade."
   },
   "275": {
    "n": "Palestinian territories",
@@ -329,7 +357,9 @@
      4,
      "Military raids and settler attacks keep the territory on edge."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Restricted access and destruction make commercial activity in Gaza close to impossible."
   },
   "276": {
    "n": "Germany",
@@ -351,7 +381,9 @@
      2,
      "A strong far right complicates coalition politics."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Industrial firms face high energy costs and weak export demand."
   },
   "304": {
    "n": "Greenland",
@@ -373,7 +405,9 @@
      2,
      "Rare earth projects attract competing foreign investors."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Mining investors face geopolitical scrutiny as the US, China and Europe compete for critical minerals."
   },
   "332": {
    "n": "Haiti",
@@ -395,7 +429,9 @@
      5,
      "Over a million people are displaced, and hunger is widespread."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Gang control of roads and ports makes operations and the movement of goods extremely dangerous."
   },
   "356": {
    "n": "India",
@@ -417,7 +453,9 @@
      3,
      "On 5 November the US sanctioned Indian and Turkish firms accused of helping Iranian tankers, including an Indian couple accused of faking ship registries."
     ]
-   ]
+   ],
+   "r": "South Asia",
+   "b": "High oil prices raise import costs, while Gulf disruption threatens remittances and US sanctions add compliance risk for traders."
   },
   "360": {
    "n": "Indonesia",
@@ -439,7 +477,9 @@
      2,
      "Chinese vessels contest waters near Natuna."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Fuel subsidy costs and protest risk weigh on policy, while nickel and palm oil exports remain strong."
   },
   "364": {
    "n": "Iran",
@@ -475,7 +515,9 @@
      "ABC News: Explosions heard in Strait of Hormuz as Iran reviews proposals (8 Nov)",
      "https://abc.net.au/news/2026-11-08/iran-strait-of-hormuz-update-explosions-talks/107360730"
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Sanctions make almost all business with Iran unlawful for Western firms, and the war threatens all Gulf shipping and energy flows."
   },
   "368": {
    "n": "Iraq",
@@ -497,7 +539,9 @@
      3,
      "Export disruption and sanctions enforcement put salaries and the federal budget under strain."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Militia attacks threaten staff and oil operations, especially in the Kurdistan Region."
   },
   "376": {
    "n": "Israel",
@@ -519,7 +563,9 @@
      3,
      "Likud came first on 27 October, but neither bloc has a clear Knesset majority. Coalition talks will set policy on Iran, Lebanon and Gaza."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Missile threats and reserve call-ups disrupt staffing, and the tech sector faces war-related uncertainty."
   },
   "392": {
    "n": "Japan",
@@ -541,7 +587,9 @@
      2,
      "Launches over or near Japan remain possible."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Most of Japan’s crude passes through Hormuz, so energy-intensive industries face rising costs."
   },
   "400": {
    "n": "Jordan",
@@ -563,7 +611,9 @@
      3,
      "Weak growth, high unemployment and large refugee populations limit room for shocks."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Regional conflict deters tourism and investment, though Jordan remains a relatively stable base."
   },
   "404": {
    "n": "Kenya",
@@ -585,7 +635,9 @@
      3,
      "Debt servicing absorbs much of government revenue."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Protests and debt pressure affect operations in Nairobi and investor sentiment."
   },
   "408": {
    "n": "North Korea",
@@ -607,7 +659,9 @@
      3,
      "Sanctions enforcement has weakened as UN monitoring lapsed."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Sanctions prohibit almost all business, and missile tests affect regional markets."
   },
   "410": {
    "n": "South Korea",
@@ -629,7 +683,9 @@
      2,
      "US tariffs and burden-sharing demands strain planning."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "High energy import costs and US trade policy weigh on manufacturers."
   },
   "414": {
    "n": "Kuwait",
@@ -651,7 +707,9 @@
      3,
      "Bases hosting US forces remain on Iran’s stated target list."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Oil exports depend entirely on Hormuz, and staff face strike risk."
   },
   "422": {
    "n": "Lebanon",
@@ -673,7 +731,9 @@
      3,
      "The banking crisis is unresolved and reconstruction money is stalled by the security situation."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Banking collapse and the risk of renewed war make operations extremely difficult."
   },
   "434": {
    "n": "Libya",
@@ -695,7 +755,9 @@
      3,
      "Production can be shut in as political leverage."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Oil production can be shut in for political leverage, and militia clashes threaten staff."
   },
   "466": {
    "n": "Mali",
@@ -717,7 +779,9 @@
      4,
      "Foreign workers, including miners, are targeted for ransom."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Fuel blockades, kidnapping and military rule make mining and logistics high risk."
   },
   "484": {
    "n": "Mexico",
@@ -739,7 +803,9 @@
      3,
      "The 2026 trade review keeps North American supply chains uncertain."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Cartel extortion and cargo theft raise logistics costs, and the USMCA review clouds nearshoring plans."
   },
   "498": {
    "n": "Moldova",
@@ -761,7 +827,9 @@
      3,
      "Winter supply and prices remain a vulnerability."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "War spillover and hybrid interference raise risks for investors and energy supply."
   },
   "512": {
    "n": "Oman",
@@ -783,7 +851,9 @@
      2,
      "High prices help in the short term, but diversification is slow."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Ports and shipping near Hormuz face attack risk, though Oman remains a relatively stable base."
   },
   "562": {
    "n": "Niger",
@@ -805,7 +875,9 @@
      3,
      "Disputes over uranium and oil assets deter investors."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Resource nationalism and insurgency threaten uranium and oil investors."
   },
   "566": {
    "n": "Nigeria",
@@ -827,7 +899,9 @@
      3,
      "Subsidy and currency reforms keep living costs high."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Kidnapping and insecurity raise costs for staff and logistics, and currency volatility affects importers."
   },
   "586": {
    "n": "Pakistan",
@@ -849,7 +923,9 @@
      3,
      "Any major attack in India risks another military exchange."
     ]
-   ]
+   ],
+   "r": "South Asia",
+   "b": "Militancy threatens staff and Chinese-linked projects, and border clashes disrupt trade."
   },
   "604": {
    "n": "Peru",
@@ -871,7 +947,9 @@
      2,
      "Mining regions are prone to road blockades."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Political volatility and illegal mining affect copper and gold operations."
   },
   "608": {
    "n": "Philippines",
@@ -893,7 +971,9 @@
      3,
      "A strong El Niño and typhoons threaten crops and infrastructure."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "South China Sea incidents threaten fishing and shipping, and typhoons disrupt supply chains."
   },
   "616": {
    "n": "Poland",
@@ -915,7 +995,9 @@
      2,
      "Record defence spending brings opportunity and procurement strain."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Sabotage risk and border tension affect logistics, while defence spending creates opportunities."
   },
   "634": {
    "n": "Qatar",
@@ -937,7 +1019,9 @@
      2,
      "Doha’s channels to Tehran and Washington give it leverage, and some protection."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "LNG exports through Hormuz are at risk, with global consequences for gas buyers."
   },
   "642": {
    "n": "Romania",
@@ -959,7 +1043,9 @@
      2,
      "Nationalist parties remain strong after a disputed election cycle."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Black Sea security and fiscal tightening affect investors and traders."
   },
   "643": {
    "n": "Russia",
@@ -981,7 +1067,9 @@
      3,
      "Officials are working to calm fears of fuel shortages at home."
     ]
-   ]
+   ],
+   "r": "Russia & Eurasia",
+   "b": "Sanctions make most business with Russia unlawful, and drone strikes disrupt its energy exports."
   },
   "682": {
    "n": "Saudi Arabia",
@@ -1003,7 +1091,9 @@
      3,
      "Brent above $100 lifts revenue, but rerouting exports by pipeline concentrates risk on a few assets."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Drone and missile threats raise security costs for staff and energy infrastructure."
   },
   "688": {
    "n": "Serbia",
@@ -1025,7 +1115,9 @@
      2,
      "A new government may shift Belgrade’s balance between the EU and Russia, with knock-on effects for energy deals and EU accession."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "A new government may reshape investment rules and energy deals."
   },
   "706": {
    "n": "Somalia",
@@ -1047,7 +1139,9 @@
      3,
      "Competition over ports and recognition draws in outside powers."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Al-Shabaab attacks threaten staff and port operations."
   },
   "710": {
    "n": "South Africa",
@@ -1069,7 +1163,9 @@
      2,
      "Municipal elections test the coalition government."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Port, rail and power constraints raise costs, and US trade tension affects exporters."
   },
   "728": {
    "n": "South Sudan",
@@ -1091,7 +1187,9 @@
      4,
      "Refugees from Sudan add pressure to an already stretched aid system."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Oil exports through Sudan are repeatedly disrupted, and the risk of conflict is high."
   },
   "729": {
    "n": "Sudan",
@@ -1113,7 +1211,9 @@
      4,
      "External support to both sides prolongs the war and risks regional spillover."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "War and famine make commercial operations impossible in most of the country."
   },
   "760": {
    "n": "Syria",
@@ -1135,7 +1235,9 @@
      3,
      "Israeli strikes and ground activity in southern Syria continue."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Sanctions relief is partial, and insecurity limits investment."
   },
   "784": {
    "n": "United Arab Emirates",
@@ -1157,7 +1259,9 @@
      3,
      "Aviation disruption, expatriate staffing and insurance costs are rising for firms based in Dubai and Abu Dhabi."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Drone and missile risk and Hormuz disruption threaten aviation, ports and business continuity."
   },
   "792": {
    "n": "Türkiye",
@@ -1185,7 +1289,9 @@
      "United Nations: COP31 in Antalya, 9–20 November 2026",
      "https://www.un.org/en/climatechange/cop31"
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Black Sea shipping risk and inflation affect traders and manufacturers."
   },
   "804": {
    "n": "Ukraine",
@@ -1217,7 +1323,9 @@
      "Naharnet: Kremlin confirms Abu Dhabi talks (3 Nov)",
      "https://www.naharnet.com/stories/en/323506-kremlin-confirms-ukraine-us-talks-in-abu-dhabi-on-november-10-11"
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Strikes on the grid disrupt operations, though reconstruction and defence contracts create opportunities."
   },
   "818": {
    "n": "Egypt",
@@ -1239,7 +1347,9 @@
      3,
      "Both conflicts push refugees and security risks toward Egypt."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Lost Suez Canal revenue and currency pressure raise costs for importers and investors."
   },
   "826": {
    "n": "United Kingdom",
@@ -1261,7 +1371,9 @@
      2,
      "Tight fiscal room limits defence and public-service spending."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "High energy prices raise costs, but the business environment remains stable."
   },
   "840": {
    "n": "United States",
@@ -1283,7 +1395,9 @@
      3,
      "Tariffs and frequent policy shifts keep supply chains uncertain for partners."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Tariff shifts and Iran war decisions create uncertainty for trading partners and energy markets."
   },
   "854": {
    "n": "Burkina Faso",
@@ -1305,7 +1419,9 @@
      4,
      "Around two million people have been displaced."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Insecurity puts staff and mining operations at serious risk outside the capital."
   },
   "862": {
    "n": "Venezuela",
@@ -1327,7 +1443,9 @@
      3,
      "There is no agreed timeline for free elections, and repression continues."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "US control of oil exports reshapes contracts, and sanctions exposure remains complex."
   },
   "887": {
    "n": "Yemen",
@@ -1349,7 +1467,9 @@
      4,
      "Food insecurity is deepening as fighting and funding cuts disrupt aid."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Houthi attacks make Red Sea shipping one of the riskiest routes in the world."
   },
   "004": {
    "n": "Afghanistan",
@@ -1371,7 +1491,9 @@
      3,
      "The group remains capable of attacks at home and abroad."
     ]
-   ]
+   ],
+   "r": "South Asia",
+   "b": "Sanctions on the Taliban government and insecurity make commercial activity close to impossible beyond humanitarian work."
   },
   "050": {
    "n": "Bangladesh",
@@ -1393,7 +1515,9 @@
      3,
      "Over a million refugees depend on shrinking aid."
     ]
-   ]
+   ],
+   "r": "South Asia",
+   "b": "Garment exporters face higher fuel costs and political uncertainty that can disrupt production."
   },
   "076": {
    "n": "Brazil",
@@ -1415,7 +1539,9 @@
      2,
      "Spending pressures test the fiscal framework."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "A large consumer market with an uncertain political outlook; US tariffs hit exporters of coffee, steel and agricultural goods."
   },
   "032": {
    "n": "Argentina",
@@ -1437,7 +1563,9 @@
      2,
      "IMF obligations constrain policy."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Reforms are opening up energy and mining, but currency controls and volatility complicate repatriating profits."
   },
   "036": {
    "n": "Australia",
@@ -1459,7 +1587,9 @@
      2,
      "China and Australia compete for influence among Pacific island states."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "A stable market, but low fuel reserves make transport and logistics vulnerable to Gulf supply shocks."
   },
   "380": {
    "n": "Italy",
@@ -1481,7 +1611,9 @@
      2,
      "Arrivals from North Africa remain a recurring political flashpoint."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Energy-intensive manufacturers face rising costs from high oil and gas prices."
   },
   "724": {
    "n": "Spain",
@@ -1503,7 +1635,9 @@
      2,
      "Higher fuel prices raise costs for transport and a tourism-dependent economy."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Higher fuel costs affect transport and tourism, though the economy remains resilient."
   },
   "528": {
    "n": "Netherlands",
@@ -1525,7 +1659,9 @@
      2,
      "North Sea cables and pipelines are potential targets for hybrid attacks."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Rotterdam’s port and logistics firms feel the effects of global shipping disruption."
   },
   "056": {
    "n": "Belgium",
@@ -1547,7 +1683,9 @@
      2,
      "High deficits force difficult budget negotiations."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Brussels-based firms face little direct risk, but airport disruption from drone sightings can affect travel and logistics."
   },
   "752": {
    "n": "Sweden",
@@ -1569,7 +1707,9 @@
      2,
      "Sweden is expanding defence spending and Baltic patrols."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Gang violence and Baltic security risks require strong security planning."
   },
   "578": {
    "n": "Norway",
@@ -1591,7 +1731,9 @@
      1,
      "Energy platforms and subsea links are potential hybrid targets."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Norwegian gas is more valuable to Europe, making offshore infrastructure security a priority."
   },
   "246": {
    "n": "Finland",
@@ -1613,7 +1755,9 @@
      2,
      "Sluggish growth and high unemployment strain public finances."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Closed eastern border crossings and Baltic cable risks affect logistics and telecoms."
   },
   "208": {
    "n": "Denmark",
@@ -1635,7 +1779,9 @@
      2,
      "Russian shadow-fleet tankers pass through Danish waters, raising security and spill risks."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Danish shipping and energy firms are exposed to Baltic security risks and US–Denmark tensions over Greenland."
   },
   "300": {
    "n": "Greece",
@@ -1657,7 +1803,9 @@
      2,
      "Sea arrivals from Libya and Türkiye remain a pressure point."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Greek-owned shipping faces high war-risk insurance costs in the Gulf and Red Sea."
   },
   "348": {
    "n": "Hungary",
@@ -1685,7 +1833,9 @@
      "RFE/RL: Magyar scores landslide win to oust Orbán",
      "https://www.rferl.org/a/hungarian-opposition-leader-magyar-landslide-victory-orban/33730633.html"
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Reforms could unlock EU funds and investor confidence, though Russian energy dependence remains a supply risk."
   },
   "203": {
    "n": "Czechia",
@@ -1707,7 +1857,9 @@
      2,
      "Sabotage and disinformation campaigns remain a security concern."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Manufacturers face high energy costs, while policy shifts on Ukraine may affect defence-sector contracts."
   },
   "040": {
    "n": "Austria",
@@ -1729,7 +1881,9 @@
      2,
      "Ending reliance on Russian gas has raised costs and supply questions."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "High energy costs weigh on manufacturers and suppliers to German industry."
   },
   "756": {
    "n": "Switzerland",
@@ -1751,7 +1905,9 @@
      1,
      "Safe-haven inflows lift the currency and squeeze exporters."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "US tariffs hit exporters, and banks and traders face sanctions compliance scrutiny."
   },
   "620": {
    "n": "Portugal",
@@ -1773,7 +1929,9 @@
      1,
      "Higher oil prices feed through to transport and inflation."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Low risk, with high fuel prices the main cost pressure."
   },
   "372": {
    "n": "Ireland",
@@ -1795,7 +1953,9 @@
      1,
      "A severe shortage of homes is the top domestic political issue."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "US tariff decisions on pharmaceuticals and tech put Ireland’s investment model at risk."
   },
   "440": {
    "n": "Lithuania",
@@ -1817,7 +1977,9 @@
      2,
      "The narrow land corridor to Poland is NATO’s most exposed chokepoint."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Airport closures and hybrid threats can disrupt logistics and travel."
   },
   "428": {
    "n": "Latvia",
@@ -1839,7 +2001,9 @@
      2,
      "Relations with the large Russian-speaking minority remain politically sensitive."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Low commercial risk, but Baltic infrastructure and border security need monitoring."
   },
   "233": {
    "n": "Estonia",
@@ -1861,7 +2025,9 @@
      2,
      "Estonia remains a frequent target of Russian-linked cyber operations."
     ]
-   ]
+   ],
+   "r": "Europe",
+   "b": "Low commercial risk, though cyber attacks and Russian provocations require strong security planning."
   },
   "051": {
    "n": "Armenia",
@@ -1889,7 +2055,9 @@
      "JAMnews: Final election results, Pashinyan’s party wins majority",
      "https://jam-news.net/final-election-results-in-armenia-pashinyans-party-wins-majority/"
     ]
-   ]
+   ],
+   "r": "Russia & Eurasia",
+   "b": "A peace deal could open new transport routes between Europe and Asia, though Russian economic pressure is a risk for investors."
   },
   "031": {
    "n": "Azerbaijan",
@@ -1911,7 +2079,9 @@
      2,
      "A US-brokered framework offers stability, but implementation is incomplete."
     ]
-   ]
+   ],
+   "r": "Russia & Eurasia",
+   "b": "Oil and gas exports are steady, but proximity to the Iran war raises security and insurance costs."
   },
   "398": {
    "n": "Kazakhstan",
@@ -1933,7 +2103,9 @@
      2,
      "Power remains concentrated, with limited space for opposition."
     ]
-   ]
+   ],
+   "r": "Russia & Eurasia",
+   "b": "Oil exporters depend on a pipeline through Russia that has been disrupted by drone strikes."
   },
   "144": {
    "n": "Sri Lanka",
@@ -1955,7 +2127,9 @@
      2,
      "Rebuilding after severe cyclone damage in late 2025 strains the budget."
     ]
-   ]
+   ],
+   "r": "South Asia",
+   "b": "High fuel prices strain reserves and import capacity."
   },
   "524": {
    "n": "Nepal",
@@ -1983,7 +2157,9 @@
      "The Jakarta Post: Ex-rapper’s party wins Nepal election in landslide (13 Mar)",
      "https://www.thejakartapost.com/world/2026/03/13/nepal-ex-rappers-party-wins-election-in-landslide-after-gen-z-protests"
     ]
-   ]
+   ],
+   "r": "South Asia",
+   "b": "Gulf remittance flows and a new government’s reform agenda shape the economic outlook."
   },
   "764": {
    "n": "Thailand",
@@ -2005,7 +2181,9 @@
      2,
      "High household debt and soft tourism weigh on the economy."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Border tension with Cambodia and political instability affect tourism and investment."
   },
   "704": {
    "n": "Vietnam",
@@ -2027,7 +2205,9 @@
      2,
      "Sweeping investigations can slow approvals and unsettle investors."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Exporters depend heavily on the US market, so tariff decisions drive risk."
   },
   "458": {
    "n": "Malaysia",
@@ -2049,7 +2229,9 @@
      2,
      "The governing coalition holds together, but tensions persist."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "Semiconductor packaging firms face US export controls and tariff risk."
   },
   "554": {
    "n": "New Zealand",
@@ -2071,7 +2253,9 @@
      1,
      "China and Western partners compete for influence across the Pacific."
     ]
-   ]
+   ],
+   "r": "East Asia & Pacific",
+   "b": "High fuel prices raise transport and agricultural costs."
   },
   "152": {
    "n": "Chile",
@@ -2093,7 +2277,9 @@
      2,
      "Inequality and protest risk remain after the 2019 unrest."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Copper and lithium producers benefit from demand, but crime and mining-policy shifts affect costs."
   },
   "068": {
    "n": "Bolivia",
@@ -2115,7 +2301,9 @@
      3,
      "Road blockades by unions and political groups frequently disrupt trade."
     ]
-   ]
+   ],
+   "r": "Americas",
+   "b": "Fuel and dollar shortages, blockades and policy shifts make operations and payments unpredictable."
   },
   "012": {
    "n": "Algeria",
@@ -2137,7 +2325,9 @@
      2,
      "Relations with Morocco and France remain tense."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Europe’s need for non-Russian gas raises Algeria’s value as a supplier, but state control limits foreign investment."
   },
   "504": {
    "n": "Morocco",
@@ -2159,7 +2349,9 @@
      2,
      "Prolonged drought threatens agriculture and rural jobs."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "A stable base for manufacturing and exports, though youth protests signal social pressure."
   },
   "788": {
    "n": "Tunisia",
@@ -2181,7 +2373,9 @@
      2,
      "Tunisia remains a key departure point for boats to Europe."
     ]
-   ]
+   ],
+   "r": "Middle East & North Africa",
+   "b": "Repression and shortages raise operational and reputational risk."
   },
   "288": {
    "n": "Ghana",
@@ -2203,7 +2397,9 @@
      2,
      "Jihadist activity in neighbouring Burkina Faso threatens the north."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Gold and cocoa exporters face illegal mining, debt pressure and northern security risks."
   },
   "508": {
    "n": "Mozambique",
@@ -2225,7 +2421,9 @@
      3,
      "Deadly unrest followed the disputed 2024 election."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Gas projects in the north depend on security improving in Cabo Delgado."
   },
   "834": {
    "n": "Tanzania",
@@ -2247,7 +2445,9 @@
      2,
      "Unrest and policy uncertainty weigh on investors."
     ]
-   ]
+   ],
+   "r": "Sub-Saharan Africa",
+   "b": "Political repression and unrest weigh on investor confidence."
   }
  },
  "events": [

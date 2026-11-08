@@ -76,6 +76,47 @@ nav a:hover{color:var(--ink)}
 .country.l1{fill:var(--l1)}.country.l2{fill:var(--l2)}.country.l3{fill:var(--l3)}.country.l4{fill:var(--l4)}.country.l5{fill:var(--l5)}
 .country:hover{opacity:.82;cursor:pointer}
 .country.sel{stroke:var(--ink);stroke-width:1.6}
+.country.dim{opacity:.18}
+.rtag{display:inline-block;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.03em;text-transform:uppercase;margin-bottom:4px}
+.biz{margin:0 0 18px;padding:12px 14px;border-left:3px solid var(--focus);background:var(--bg);border-radius:0 4px 4px 0}
+.biz h4{margin:0 0 4px;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.biz p{margin:0;font-size:14.5px;line-height:1.5}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+.actions button{font:500 13.5px "Public Sans",sans-serif;padding:8px 12px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink);cursor:pointer}
+.actions button:hover{border-color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.chips button{font:500 14px "Public Sans",sans-serif;padding:7px 12px;border:1px solid var(--rule);border-radius:16px;background:var(--surface);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:6px}
+table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(--surface)}
+.ctab th{text-align:left;font-weight:600;padding:10px 14px;border-bottom:1px solid var(--rule);white-space:nowrap}
+.ctab th button{all:unset;cursor:pointer}
+.ctab th button:focus-visible{outline:2px solid var(--focus)}
+.ctab td{padding:9px 14px;border-bottom:1px solid var(--rule);vertical-align:top}
+.ctab tr:last-child td{border-bottom:0}
+.ctab tbody tr{cursor:pointer}
+.ctab tbody tr:hover{background:var(--bg)}
+.ctab .pill{display:inline-block}
+.ctab td.sum{color:var(--muted);min-width:260px}
+#printArea{display:none}
+@media print{
+  body *{visibility:hidden}
+  #printArea,#printArea *{visibility:visible}
+  #printArea{display:block;position:absolute;inset:0 auto auto 0;width:100%;color:#1D282C;background:#fff;padding:0;font:400 11pt/1.45 "Public Sans",Arial,sans-serif}
+  body{background:#fff}
+  body::before{display:none}
+  @page{size:A4;margin:16mm}
+}
+#printArea .ph{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid #1D282C;padding-bottom:6px;margin-bottom:14px}
+#printArea .ph b{font:600 18pt Spectral,Georgia,serif}
+#printArea h1{font:600 24pt/1.1 Spectral,Georgia,serif;margin:0 0 4px}
+#printArea .lv{font-weight:600;margin:4px 0 10px}
+#printArea .sm{font:400 12.5pt/1.5 Spectral,Georgia,serif;margin:0 0 12px}
+#printArea .bx{border-left:3px solid #1F5E8C;padding:6px 10px;margin:0 0 14px;background:#F1F3EF}
+#printArea h2{font-size:9pt;letter-spacing:.06em;text-transform:uppercase;color:#56656A;margin:14px 0 6px}
+#printArea ol{margin:0;padding-left:18px}
+#printArea li{margin:0 0 8px}
+#printArea .pf{margin-top:18px;padding-top:8px;border-top:1px solid #C9D0CC;font-size:8.5pt;color:#56656A}
 .tip{position:absolute;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--rule);padding:6px 10px;font-size:13px;border-radius:4px;white-space:nowrap;transform:translate(-50%,-130%);opacity:0;transition:opacity .1s}
 .tip.on{opacity:1}
 .controls{position:absolute;right:8px;bottom:8px;display:flex;flex-direction:column;gap:6px}
@@ -166,7 +207,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
     <svg viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 6 L12 12 L10 15 L16 20 L19 24" fill="none" stroke="var(--l4)" stroke-width="2" stroke-linejoin="round"/></svg>
     <b>Faultline</b>
   </a>
-  <nav aria-label="Sections"><a href="#map">Risk map</a><a href="#watch">Watchlist</a><a href="#soon">Coming up</a><a href="#method">Method</a><a href="#about">What we do</a></nav>
+  <nav aria-label="Sections"><a href="#map">Risk map</a><a href="#watch">Watchlist</a><a href="#soon">Coming up</a><a href="#all">All countries</a><a href="#method">Method</a><a href="#about">What we do</a></nav>
   <span class="stamp" id="stamp">Assessed</span>
 </div></header>
 
@@ -208,6 +249,15 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
   <ol class="events" id="eventList"></ol>
 </div></section>
 
+<section class="band" id="all"><div class="band-in">
+  <h2>All countries</h2>
+  <p class="lede">Filter by region to focus the globe and this table. Click a column to sort, or a row to open that country.</p>
+  <div class="chips" id="chips" role="group" aria-label="Filter by region"></div>
+  <div class="tablewrap"><table class="ctab"><thead><tr>
+    <th><button data-sort="n">Country</button></th><th><button data-sort="r">Region</button></th><th><button data-sort="l">Threat level ▼</button></th><th>Summary</th>
+  </tr></thead><tbody id="ctBody"></tbody></table></div>
+</div></section>
+
 <section class="band" id="method"><div class="band-in">
   <h2>How we grade threat</h2>
   <p class="lede">Every country and every issue gets one of five levels. The grade reflects how likely an issue is to disrupt people, assets or operations in the next three months, and how badly.</p>
@@ -229,6 +279,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
   <span>Faultline risk map. Assessments are analyst judgments drawn from open-source reporting, current to <span id="footDate"></span>. Updated regularly.</span>
   <span>Not advice for personal travel or investment decisions.</span>
 </div></footer>
+<div id="printArea" aria-hidden="true"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
@@ -351,6 +402,57 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     $('#pick').value = RISK[id] ? id : '';
     if(rotate) rotateTo(id);
     renderBrief(id);
+    if(RISK[id] && SLUG[id] && location.hash!=='#'+SLUG[id]){ try{ history.replaceState(null,'','#'+SLUG[id]); }catch(e){} }
+  }
+
+  // country links
+  const slugify = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const SLUG = {}, BYSLUG = {};
+  Object.keys(RISK).forEach(id => { const s = slugify(RISK[id].n); SLUG[id]=s; BYSLUG[s]=id; });
+  function openFromHash(){
+    const id = BYSLUG[decodeURIComponent(location.hash.slice(1))];
+    if(id){ select(id, true); document.getElementById('map').scrollIntoView(); }
+  }
+  window.addEventListener('hashchange', openFromHash);
+
+  // regions and table
+  const REGIONS = ['All', ...Array.from(new Set(Object.values(RISK).map(k=>k.r))).sort()];
+  let region = 'All', sortKey = 'l', sortDir = -1;
+  $('#chips').innerHTML = REGIONS.map(r=>`<button data-r="${r}" aria-pressed="${r==='All'}">${r==='All'?'All regions':r}</button>`).join('');
+  function drawTable(){
+    const rows = Object.keys(RISK).filter(id => region==='All' || RISK[id].r===region)
+      .sort((a,b)=>{ const A=RISK[a], B=RISK[b];
+        if(sortKey==='l') return (A.l-B.l)*sortDir || A.n.localeCompare(B.n);
+        return A[sortKey].localeCompare(B[sortKey])*sortDir || (B.l-A.l); });
+    $('#ctBody').innerHTML = rows.map(id=>{const k=RISK[id];return `<tr data-id="${id}" tabindex="0"><td><strong>${k.n}</strong></td><td>${k.r}</td><td><span class="pill p${k.l}" style="${pillStyle(k.l)}">${LEVELS[k.l]}</span></td><td class="sum">${k.s}</td></tr>`}).join('');
+    document.querySelectorAll('.ctab th button').forEach(b=>{ const base={n:'Country',r:'Region',l:'Threat level'}[b.dataset.sort]; b.textContent = base + (b.dataset.sort===sortKey ? (sortDir>0?' ▲':' ▼') : ''); });
+  }
+  $('#chips').addEventListener('click', e=>{ const b=e.target.closest('button'); if(!b) return; region=b.dataset.r;
+    document.querySelectorAll('#chips button').forEach(x=>x.setAttribute('aria-pressed', x===b));
+    countries.classed('dim', d => region!=='All' && !(RISK[d.id] && RISK[d.id].r===region));
+    drawTable();
+    if(region!=='All'){ const first = Object.keys(RISK).filter(id=>RISK[id].r===region).sort((a,b)=>RISK[b].l-RISK[a].l)[0]; if(first) rotateTo(first); }
+  });
+  document.querySelector('.ctab thead').addEventListener('click', e=>{ const b=e.target.closest('button[data-sort]'); if(!b) return;
+    if(sortKey===b.dataset.sort) sortDir*=-1; else { sortKey=b.dataset.sort; sortDir = sortKey==='l' ? -1 : 1; } drawTable(); });
+  function openRow(tr){ if(!tr) return; select(tr.dataset.id, true); document.getElementById('map').scrollIntoView({behavior: reduce?'auto':'smooth'}); }
+  $('#ctBody').addEventListener('click', e=>openRow(e.target.closest('tr')));
+  $('#ctBody').addEventListener('keydown', e=>{ if(e.key==='Enter') openRow(e.target.closest('tr')); });
+  drawTable();
+
+  // printable brief
+  function printBrief(id){
+    const k = RISK[id], ev = EVENTS.filter(e=>(e.c||[]).includes(id));
+    $('#printArea').innerHTML = `<div class="ph"><b>Faultline</b><span>Country risk brief &nbsp;|&nbsp; Assessed ${ASSESSED}</span></div>
+      <div style="font-size:9pt;color:#56656A;text-transform:uppercase;letter-spacing:.05em">${k.r}</div>
+      <h1>${k.n}</h1><div class="lv">Threat level: ${LEVELS[k.l]} (${k.l} of 5)</div>
+      <p class="sm">${k.s}</p>
+      <div class="bx"><strong>What it means for business:</strong> ${k.b||''}</div>
+      <h2>Top three issues</h2><ol>${k.i.map(([t,l,x])=>`<li><strong>${t}</strong> (${LEVELS[l]}): ${x}</li>`).join('')}</ol>
+      ${ev.length?`<h2>Coming up</h2>${ev.map(e=>`<p style="margin:0 0 4px"><strong>${e.when}:</strong> ${e.title}</p>`).join('')}`:''}
+      ${k.src&&k.src.length?`<h2>Sources</h2>${k.src.map(([t,u])=>`<p style="margin:0 0 3px;font-size:9.5pt">${t}<br><span style="color:#56656A">${u}</span></p>`).join('')}`:''}
+      <div class="pf">Faultline (faultlinerisk.com/#${SLUG[id]}). Threat levels reflect the likelihood and severity of disruption over the next three months. Analyst judgment based on open-source reporting; not advice for personal travel or investment decisions. Contact: admin@faultlinerisk.com</div>`;
+    window.print();
   }
 
   // coming up
@@ -370,15 +472,25 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
       return;
     }
     body.innerHTML = `
+      <span class="rtag">${k.r||''}</span>
       <h2>${k.n}</h2>
       <div class="level">${meter(k.l)}<span>Threat level <strong>${LEVELS[k.l]}</strong>, ${k.l} of 5</span></div>
       <p class="summary">${k.s}</p>
+      ${k.b?`<div class="biz"><h4>What it means for business</h4><p>${k.b}</p></div>`:''}
       <ol class="issues">${k.i.map(([t,l,x])=>`
         <li><div class="issue-head"><h3>${t}</h3><span class="pill p${l}" style="${pillStyle(l)}">${LEVELS[l]}</span></div><p>${x}</p></li>`).join('')}
       </ol>
       ${(()=>{const ev=EVENTS.filter(e=>(e.c||[]).includes(id)); return ev.length?`<div class="soon"><h4>Coming up</h4>${ev.map(e=>`<p><strong>${e.when}:</strong> ${e.title}</p>`).join('')}</div>`:''})()}
       <div class="srcs"><h4>Sources</h4>${k.src&&k.src.length?`<ul>${k.src.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${t}</a></li>`).join('')}</ul>`:`<p>Based on open-source reporting. Linked sources are added as each country is reviewed.</p>`}</div>
-      <p class="note">Top three issues, ranked. Assessed ${ASSESSED}.</p>`;
+      <div class="actions"><button type="button" id="copyLink">Copy link to ${k.n}</button><button type="button" id="dlBrief">Download brief (PDF)</button></div>
+      <p class="note">Top three issues, ranked. Assessed ${ASSESSED}. To save the brief, choose “Save as PDF” in the print window.</p>`;
+    $('#dlBrief').onclick = () => printBrief(id);
+    $('#copyLink').onclick = async (e) => {
+      const url = 'https://faultlinerisk.com/#' + SLUG[id];
+      try { await navigator.clipboard.writeText(url); e.target.textContent = 'Link copied'; }
+      catch(err){ prompt('Copy this link:', url); }
+      setTimeout(()=>{ if(e.target) e.target.textContent = 'Copy link to ' + k.n; }, 2000);
+    };
   }
 
   // initial state
@@ -388,6 +500,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   }
   // deep link via #token? keep simple: open Iran by default after a beat on wide screens
   resize();
+  if(location.hash.length>1) openFromHash();
 }).catch(()=>{document.getElementById("briefBody").innerHTML="<div class=\"empty\"><h2>Data didn’t load</h2><p>The risk data file is missing or unreadable. Check that data/risk.json is in the repository and try again.</p></div>";});
 </script>
 </body>
