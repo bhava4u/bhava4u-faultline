@@ -461,6 +461,20 @@
      4,
      "Qatar has put forward a plan to reopen the strait as part of ending the war, but no agreement has been announced."
     ]
+   ],
+   "src": [
+    [
+     "Al Jazeera: US launches task force to disrupt Iran’s land supply routes (8 Nov)",
+     "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes"
+    ],
+    [
+     "Seatrade Maritime: Crew abandon tanker in Hormuz, US strikes bulker (8 Nov)",
+     "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
+    ],
+    [
+     "ABC News: Explosions heard in Strait of Hormuz as Iran reviews proposals (8 Nov)",
+     "https://abc.net.au/news/2026-11-08/iran-strait-of-hormuz-update-explosions-talks/107360730"
+    ]
    ]
   },
   "368": {
@@ -1165,6 +1179,12 @@
      3,
      "High inflation and tight policy weigh on businesses."
     ]
+   ],
+   "src": [
+    [
+     "United Nations: COP31 in Antalya, 9–20 November 2026",
+     "https://www.un.org/en/climatechange/cop31"
+    ]
    ]
   },
   "804": {
@@ -1186,6 +1206,16 @@
      "Peace talks",
      3,
      "Washington and the Kremlin have both confirmed US-mediated talks with Ukraine in Abu Dhabi on 10–11 November, though earlier rounds have not produced a ceasefire."
+    ]
+   ],
+   "src": [
+    [
+     "Meduza: Trilateral talks set for 10–11 November in Abu Dhabi (3 Nov)",
+     "https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi"
+    ],
+    [
+     "Naharnet: Kremlin confirms Abu Dhabi talks (3 Nov)",
+     "https://www.naharnet.com/stories/en/323506-kremlin-confirms-ukraine-us-talks-in-abu-dhabi-on-november-10-11"
     ]
    ]
   },
@@ -1649,6 +1679,12 @@
      2,
      "Unlocking frozen EU funds depends on anti-corruption and rule-of-law reforms."
     ]
+   ],
+   "src": [
+    [
+     "RFE/RL: Magyar scores landslide win to oust Orbán",
+     "https://www.rferl.org/a/hungarian-opposition-leader-magyar-landslide-victory-orban/33730633.html"
+    ]
    ]
   },
   "203": {
@@ -1847,6 +1883,12 @@
      2,
      "Opposition parties and church figures dispute the government’s direction."
     ]
+   ],
+   "src": [
+    [
+     "JAMnews: Final election results, Pashinyan’s party wins majority",
+     "https://jam-news.net/final-election-results-in-armenia-pashinyans-party-wins-majority/"
+    ]
    ]
   },
   "031": {
@@ -1934,6 +1976,12 @@
      "Balancing India and China",
      2,
      "The new government must manage pressure from both neighbours."
+    ]
+   ],
+   "src": [
+    [
+     "The Jakarta Post: Ex-rapper’s party wins Nepal election in landslide (13 Mar)",
+     "https://www.thejakartapost.com/world/2026/03/13/nepal-ex-rappers-party-wins-election-in-landslide-after-gen-z-protests"
     ]
    ]
   },
@@ -2201,5 +2249,62 @@
     ]
    ]
   }
- }
+ },
+ "events": [
+  {
+   "start": "2026-11-09",
+   "when": "9–20 Nov",
+   "title": "COP31 climate summit, Antalya",
+   "text": "The UN climate conference in Türkiye, with world leaders attending on 11–12 November.",
+   "c": [
+    "792"
+   ]
+  },
+  {
+   "start": "2026-11-10",
+   "when": "10–11 Nov",
+   "title": "Russia–Ukraine talks in Abu Dhabi",
+   "text": "US-mediated talks between Ukraine and Russia, confirmed by Washington and the Kremlin.",
+   "c": [
+    "804",
+    "643"
+   ]
+  },
+  {
+   "start": "2026-11-18",
+   "when": "18–19 Nov",
+   "title": "APEC leaders’ meeting, Shenzhen",
+   "text": "Asia-Pacific leaders meet in China amid tariff and tech tensions.",
+   "c": [
+    "156"
+   ]
+  },
+  {
+   "start": "2026-12-14",
+   "when": "14–15 Dec",
+   "title": "G20 leaders’ summit, Miami",
+   "text": "The first G20 summit hosted by the US, with trade and the Iran war likely on the agenda.",
+   "c": [
+    "840"
+   ]
+  },
+  {
+   "start": "2026-12-22",
+   "when": "22 Dec",
+   "title": "South Sudan general election (scheduled)",
+   "text": "A long-delayed vote that could test the fragile peace deal.",
+   "c": [
+    "728"
+   ]
+  },
+  {
+   "start": "2027-01-03",
+   "when": "3 Jan 2027",
+   "title": "New US Congress takes office",
+   "text": "Democrats take control of both chambers, with war powers and budgets in focus.",
+   "c": [
+    "840"
+   ]
+  }
+ ]
 }
