@@ -1,5 +1,5 @@
 {
- "assessed": "8 November 2026",
+ "assessed": "10 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -621,36 +621,40 @@
   "364": {
    "n": "Iran",
    "l": 5,
-   "s": "At war with the US and Israel since 28 February. Washington is tightening its blockade while Qatar pushes a plan to reopen Hormuz.",
+   "s": "At war with the US and Israel since 28 February. Trump has paused new strikes but kept the blockade, as Iran tables a new proposal via Qatar.",
    "i": [
     [
-     "Escalating US pressure",
+     "Blockade and strike threat",
      5,
-     "On 7 November US forces disabled a cargo ship trying to breach the blockade and launched a task force to cut Iran’s land supply routes, following new strikes on Qeshm Island."
+     "Trump has held off fresh strikes after appeals from Gulf governments and says the war could end “fairly soon”, but the naval blockade and Operation Iron Gate remain, and the Pentagon says it is ready to strike again."
     ],
     [
      "Attacks on Hormuz shipping",
      5,
-     "Iran has attacked eight vessels in and around the strait since 1 November, and the UN counts 25 seafarers killed in Hormuz incidents since the war began."
+     "Attacks on tankers rose sharply in October and remain at their highest rate of the war. Iran reported a tanker hitting a mine east of the strait on 8 November."
     ],
     [
      "Fragile diplomacy",
      4,
-     "Qatar has put forward a plan to reopen the strait as part of ending the war, but no agreement has been announced."
+     "Iran has offered via Qatar to lift its Hormuz restrictions if the US ends the blockade, eases some sanctions and halts strikes, but US and Gulf officials doubt a deal is close."
     ]
    ],
    "src": [
     [
-     "Al Jazeera: US launches task force to disrupt Iran’s land supply routes (8 Nov)",
+     "CNBC: Trump says Iran war to end ‘fairly soon’, plays down new strikes (10 Nov)",
+     "https://cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
+    ],
+    [
+     "The Nation: Trump holds off fresh Iran strikes but keeps blockade (10 Nov)",
+     "https://www.nationthailand.com/news/world/40073314"
+    ],
+    [
+     "ABC News: Iran live updates (10 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi/?id=137967256"
+    ],
+    [
+     "Al Jazeera: US launches task force against Iran’s land supply routes (8 Nov)",
      "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes"
-    ],
-    [
-     "Seatrade Maritime: Crew abandon tanker in Hormuz, US strikes bulker (8 Nov)",
-     "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
-    ],
-    [
-     "ABC News: Explosions heard in Strait of Hormuz as Iran reviews proposals (8 Nov)",
-     "https://abc.net.au/news/2026-11-08/iran-strait-of-hormuz-update-explosions-talks/107360730"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1652,12 +1656,12 @@
   "804": {
    "n": "Ukraine",
    "l": 5,
-   "s": "Entering a fifth winter of full-scale war, with the grid under heavy attack and new peace talks expected in Abu Dhabi.",
+   "s": "Entering a fifth winter of full-scale war, as the first US–Russia–Ukraine talks since February open in Abu Dhabi.",
    "i": [
     [
      "Strikes on the power grid",
      5,
-     "DTEK counted 78 Russian strikes on energy sites in three days, bringing rolling blackouts, and ballistic missiles hit Kyiv in several waves overnight on 6–7 November."
+     "Russia launched 162 drones and a ballistic missile overnight as the talks opened, continuing a winter campaign against energy sites."
     ],
     [
      "Front line",
@@ -1665,19 +1669,23 @@
      "Russian forces lost ground in October for the second month running, after Ukraine’s Operation Vivaldi disrupted the push on Donetsk’s fortress belt."
     ],
     [
-     "Peace talks",
+     "Abu Dhabi talks",
      3,
-     "Washington and the Kremlin have both confirmed US-mediated talks with Ukraine in Abu Dhabi on 10–11 November, though earlier rounds have not produced a ceasefire."
+     "Talks opened on 10 November, led by Steve Witkoff and Jared Kushner and focused on security guarantees. US officials report some flexibility on Donetsk, but Russia rejects a European role."
     ]
    ],
    "src": [
     [
-     "Meduza: Trilateral talks set for 10–11 November in Abu Dhabi (3 Nov)",
-     "https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi"
+     "NPR: US-mediated talks on ending the war begin in Abu Dhabi (10 Nov)",
+     "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
     ],
     [
-     "Naharnet: Kremlin confirms Abu Dhabi talks (3 Nov)",
-     "https://www.naharnet.com/stories/en/323506-kremlin-confirms-ukraine-us-talks-in-abu-dhabi-on-november-10-11"
+     "UPI: Ukraine, Russia, US resume peace talks in Abu Dhabi (10 Nov)",
+     "https://www.upi.com/Top_News/World-News/2026/11/10/UAE-Abu-Dhabi-Ukraine-Russia-US-talks/6331794301980"
+    ],
+    [
+     "The New Arab: Talks resume as major hurdles remain (10 Nov)",
+     "https://www.newarab.com/news/russia-ukraine-resume-abu-dhabi-talks-major-hurdles-remain"
     ]
    ],
    "r": "Europe",
@@ -1774,7 +1782,7 @@
     [
      "Iran war decisions",
      4,
-     "Trump confirmed new strikes on Iran on 6 November, and the US has warned Americans across the Middle East of a heightened threat of armed attacks."
+     "Trump has held off fresh strikes on Iran after Gulf appeals but kept the naval blockade, and says the war could end “fairly soon”."
     ],
     [
      "Divided government",
@@ -1793,6 +1801,12 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "CNBC: Trump says Iran war to end ‘fairly soon’ (10 Nov)",
+     "https://cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
     ]
    ]
   },
@@ -3119,7 +3133,7 @@
    "start": "2026-11-10",
    "when": "10–11 Nov",
    "title": "Russia–Ukraine talks in Abu Dhabi",
-   "text": "US-mediated talks between Ukraine and Russia, confirmed by Washington and the Kremlin.",
+   "text": "Under way: the first US–Russia–Ukraine talks since February, focused on security guarantees.",
    "c": [
     "804",
     "643"
@@ -3163,6 +3177,23 @@
   }
  ],
  "log": [
+  {
+   "date": "10 Nov 2026",
+   "items": [
+    [
+     "364",
+     "Trump paused new strikes after Gulf appeals but kept the blockade; Iran tabled a new proposal via Qatar."
+    ],
+    [
+     "804",
+     "Abu Dhabi talks opened, the first trilateral round since February."
+    ],
+    [
+     "840",
+     "White House holding off fresh strikes on Iran."
+    ]
+   ]
+  },
   {
    "date": "8 Nov 2026",
    "items": [
