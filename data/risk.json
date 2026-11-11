@@ -162,9 +162,9 @@
      "Large-scale military activity around Taiwan keeps the risk of a crisis present."
     ],
     [
-     "Tech rivalry with the US",
+     "Trade truce with the US",
      3,
-     "Export controls and the AI race drive decoupling in semiconductors."
+     "Beijing and Washington have extended suspensions on some trade restrictions ahead of a Xi–Trump meeting at APEC, their third this year, as China’s trade surplus heads past $1 trillion."
     ],
     [
      "Economic slowdown",
@@ -179,6 +179,12 @@
      "2026-11-04",
      3
     ]
+   ],
+   "src": [
+    [
+     "South China Morning Post: China trade and Xi–Trump talks coverage",
+     "https://www.scmp.com/topics/south-korea"
+    ]
    ]
   },
   "158": {
@@ -189,7 +195,7 @@
     [
      "PLA coercion",
      4,
-     "Monthly air incursions are lower than in 2024–25, but China massed a near-90-ship fleet around the island in August."
+     "Chinese ships and aircraft continue to operate around the island; Taiwan’s coast guard drove four Chinese ships from Kinmen waters on 10 November."
     ],
     [
      "Arms delivery backlog",
@@ -226,27 +232,33 @@
      20,
      "A quieter period as US and Chinese leaders seek stability around the APEC meeting in Shenzhen."
     ]
+   ],
+   "src": [
+    [
+     "Pacific Winds: Indo-Pacific security digest (12 Nov)",
+     "https://pcisguam.substack.com/p/pacific-winds-20261112"
+    ]
    ]
   },
   "170": {
    "n": "Colombia",
    "l": 4,
-   "s": "A new government faces armed groups and strained US ties.",
+   "s": "President De la Espriella has ended peace talks and launched militarised campaigns against armed groups.",
    "i": [
     [
      "Armed groups",
      4,
-     "The ELN and FARC dissident factions have expanded their reach."
+     "A truck bomb near a military base in Planadas, Tolima, killed four people in early November as the ELN and FARC dissidents expand."
     ],
     [
-     "Relations with the US",
-     3,
-     "Disputes over drug policy have strained cooperation."
+     "End of peace talks",
+     4,
+     "The government’s militarised approach, including the ‘Esparta’ campaign in Cúcuta, risks retaliation along key transport routes."
     ],
     [
-     "Government transition",
+     "Fiscal deficit",
      3,
-     "The administration inaugurated on 7 August is setting its security agenda."
+     "A rising deficit requires decisive action from the new government."
     ]
    ],
    "r": "Americas",
@@ -256,22 +268,32 @@
      "2026-11-04",
      4
     ]
+   ],
+   "src": [
+    [
+     "ACLED: Latin America and the Caribbean analysis",
+     "https://acleddata.com/region/latin-america-and-caribbean"
+    ],
+    [
+     "Americas Quarterly: Colombia fiscal outlook (4 Nov)",
+     "https://americasquarterly.org/"
+    ]
    ]
   },
   "180": {
    "n": "DR Congo",
    "l": 5,
-   "s": "War in the east despite peace deals.",
+   "s": "War in the east, now led by a Kabila-backed rebel coalition.",
    "i": [
     [
-     "M23 conflict in the east",
+     "Kabila-led rebellion",
      5,
-     "Rwanda-backed M23 still holds Goma and Bukavu."
+     "Former president Joseph Kabila joined M23 in October to lead a new coalition, the FRN, which controls large parts of the east including Goma."
     ],
     [
-     "Fragile peace process",
+     "Stalled peace process",
      4,
-     "US- and Qatar-brokered agreements have not ended the fighting."
+     "Doha talks have delivered only partial results, and the UN mission chief met FRN leaders in Goma on 2 November."
     ],
     [
      "Critical minerals",
@@ -285,6 +307,16 @@
     [
      "2026-11-04",
      5
+    ]
+   ],
+   "src": [
+    [
+     "Al Jazeera: Kabila joins M23 rebels in a new coalition (13 Oct)",
+     "https://www.aljazeera.com/news/2026/10/13/former-dr-congo-president-kabila-joins-m23-rebels-in-a-new-coalition"
+    ],
+    [
+     "The New Times: MONUSCO chief in Goma for talks with FRN (2 Nov)",
+     "https://www.newtimes.co.rw/article/40164/news/africa/monusco-chief-in-goma-for-talks-with-kabila-led-frn/amp"
     ]
    ]
   },
@@ -301,7 +333,7 @@
     [
      "US pressure",
      4,
-     "President Trump revived the idea of military intervention at a rally on 23 October."
+     "The US announced new sanctions on 5 November, and Cuba responded with its Moncada 2026 national defence exercise."
     ],
     [
      "Migration",
@@ -315,6 +347,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "The Rio Times: Latin America Defense Monitor, 1–7 November",
+     "https://www.riotimesonline.com/latin-america-defense-monitor-november-1-7-2026"
     ]
    ]
   },
@@ -364,9 +402,9 @@
      "Rhetoric over Red Sea access has raised the risk of interstate war."
     ],
     [
-     "Tigray’s fragile peace",
+     "Rift with Sudan",
      3,
-     "Splits within Tigrayan leadership threaten the 2022 deal."
+     "Ethiopia expelled six Sudanese diplomats on 4 November after Khartoum accused it of hosting RSF drone launch sites."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -375,6 +413,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "CFR: Civil war in Sudan tracker",
+     "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
     ]
    ]
   },
@@ -389,14 +433,14 @@
      "Protests and strikes are a recurring risk for operations and travel."
     ],
     [
-     "Fiscal and government instability",
+     "Political instability",
      3,
-     "Fragile governments struggle to pass budgets that reduce the deficit."
+     "Fragile governments struggle to pass budgets, and the 2027 presidential race is starting; Éric Zemmour declared his candidacy on 11 November."
     ],
     [
-     "Energy costs",
+     "Cyberattacks",
      2,
-     "High oil prices feed through to transport and industry."
+     "A cyberattack hit France’s blood bank in early November, and Paris has accused Iran of cyber operations."
     ]
    ],
    "r": "Europe",
@@ -405,6 +449,12 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "European Interest: Europe news, 11 November",
+     "https://www.europeaninterest.eu/drones-enter-baltic-countries-during-night-of-airstrikes/"
     ]
    ]
   },
@@ -446,7 +496,7 @@
     [
      "Gaza humanitarian crisis",
      5,
-     "Reconstruction is barely under way and access for aid remains restricted."
+     "Reconstruction is barely under way and aid access remains restricted. Israeli strikes and gunfire killed five people in Gaza on 10 November."
     ],
     [
      "Who governs Gaza",
@@ -465,6 +515,12 @@
     [
      "2026-11-04",
      5
+    ]
+   ],
+   "src": [
+    [
+     "AP via KSAT: Israeli strikes and gunfire in Gaza kill 5 (10 Nov)",
+     "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
     ]
    ]
   },
@@ -539,9 +595,9 @@
      "Gangs hold most of Port-au-Prince and key roads."
     ],
     [
-     "International security force",
+     "International security forces",
      4,
-     "The UN-backed Gang Suppression Force is still building up."
+     "Salvadoran troops deployed alongside the UN-backed Gang Suppression Force killed about 20 gang members in an offensive on 10 November."
     ],
     [
      "Humanitarian emergency",
@@ -555,6 +611,12 @@
     [
      "2026-11-04",
      5
+    ]
+   ],
+   "src": [
+    [
+     "Al Jazeera: Latin America news",
+     "https://www.aljazeera.com/latin-america/"
     ]
    ]
   },
@@ -716,7 +778,7 @@
   "376": {
    "n": "Israel",
    "l": 4,
-   "s": "Engaged on several fronts, with no clear winner from the 27 October election.",
+   "s": "Engaged on several fronts, with opposition leader Gadi Eisenkot now trying to form a government.",
    "i": [
     [
      "Return to war with Iran",
@@ -731,7 +793,7 @@
     [
      "Coalition deadlock",
      3,
-     "Likud came first on 27 October, but neither bloc has a clear Knesset majority. Coalition talks will set policy on Iran, Lebanon and Gaza."
+     "President Herzog tasked Gadi Eisenkot with forming a government on 8 November after Netanyahu’s bloc won 53 of 120 seats. Netanyahu stays caretaker, and Arab-led parties hold a record 19 seats."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -740,6 +802,16 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Al Jazeera: Herzog tasks Eisenkot with forming a government (8 Nov)",
+     "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
+    ],
+    [
+     "BusinessDay/Reuters: Parliament sworn in as coalition talks stall (10 Nov)",
+     "https://www.businessday.co.za/world/middle-east/2026-11-10-israel-parliament-sworn-in-as-coalition-talks-stall/"
     ]
    ]
   },
@@ -751,7 +823,7 @@
     [
      "Friction with China over Taiwan",
      3,
-     "Beijing demanded in September that Tokyo correct its stance on Taiwan."
+     "The diplomatic crisis with Beijing over Prime Minister Takaichi’s Taiwan remarks continues, and Japan is deepening defence ties with Australia, the Philippines and the US."
     ],
     [
      "Gulf energy dependence",
@@ -770,6 +842,12 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "Pacific Winds: Indo-Pacific security digest (12 Nov)",
+     "https://pcisguam.substack.com/p/pacific-winds-20261112"
     ]
    ]
   },
@@ -931,12 +1009,12 @@
     [
      "Israel–Hezbollah escalation",
      5,
-     "Israeli strikes continue in the south, and Israel has reportedly drawn up plans to occupy Tyre, Sidon and Nabatieh if Hezbollah joins a renewed Iran war."
+     "Israel keeps striking inside its southern Lebanon buffer zone, hitting towns including Qantara and Kfar Tebnit on 9 November."
     ],
     [
      "Disarming Hezbollah",
      4,
-     "President Joseph Aoun’s government is under US pressure over seized explosives and the group’s wider arsenal."
+     "The Lebanese army is raiding weapons sites in the Bekaa Valley, and a Lebanese court issued arrest warrants for Hezbollah members on 5 November."
     ],
     [
      "Economic collapse",
@@ -950,6 +1028,16 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Times of Israel: Live updates, 9 November",
+     "https://www.timesofisrael.com/liveblog-november-9-2026/"
+    ],
+    [
+     "APA: Israel strikes Hezbollah positions in southern Lebanon (9 Nov)",
+     "https://en.apa.az/asia/israel-strikes-hezbollah-positions-in-southern-lebanon-injuries-reported-535139"
     ]
    ]
   },
@@ -989,9 +1077,9 @@
    "s": "Jihadist pressure has reached the capital’s supply lines.",
    "i": [
     [
-     "JNIM insurgency and fuel blockade",
+     "JNIM insurgency and blockade",
      5,
-     "Blockades of fuel convoys have caused shortages in Bamako."
+     "JNIM declared a blockade of Bamako in April and, alongside the FLA, has launched coordinated offensives across the country. Western governments have told their nationals to leave."
     ],
     [
      "Military rule",
@@ -1011,6 +1099,12 @@
      "2026-11-04",
      5
     ]
+   ],
+   "src": [
+    [
+     "Conflict Zone: Sahel conflict map 2026",
+     "https://conflictzone.io/page/sahel-conflict-map-2026"
+    ]
    ]
   },
   "484": {
@@ -1021,12 +1115,12 @@
     [
      "Cartel violence",
      4,
-     "Extortion, cargo theft and homicide remain high in many states."
+     "Infighting within the Sinaloa Cartel continues, including mass shootings in Mazatlán, and extortion and cargo theft remain high."
     ],
     [
-     "US action against cartels",
+     "US-backed crackdown",
      4,
-     "Cartel terrorist designations raise the risk of unilateral US action."
+     "With US intelligence, Mexican forces arrested CJNG regional leader Rafael Álvarez, alias ‘R2’, on 8 November, raising the risk of cartel retaliation."
     ],
     [
      "USMCA review and tariffs",
@@ -1040,6 +1134,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Wikipedia: Current events, November 2026",
+     "https://en.wikipedia.org/wiki/Portal:Current_events/November_2026"
     ]
    ]
   },
@@ -1176,7 +1276,7 @@
     [
      "Afghan border conflict",
      4,
-     "Clashes with the Taliban government have flared over cross-border militants."
+     "After open war in February and a March truce, clashes continue. Fighting briefly shut the Torkham crossing in early November, and the US has offered to help ease tensions."
     ],
     [
      "Tensions with India",
@@ -1190,6 +1290,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Asia News Network: Pakistan warns Afghanistan as clashes persist (2 Nov)",
+     "https://asianews.network/pakistan-warns-kabul-of-unbearable-punishment-as-clashes-persist-along-border/"
     ]
    ]
   },
@@ -1261,7 +1367,7 @@
     [
      "Sabotage and drone incursions",
      3,
-     "Russian-linked sabotage and drones crossing the border test Polish defences."
+     "Poland detained two Ukrainians suspected of sabotage for Russia on 10 November and launched a large anti-sabotage operation along the Kaliningrad border."
     ],
     [
      "Belarus border pressure",
@@ -1280,6 +1386,16 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "Euronews: Poland warns allies over Russia talks (6 Nov)",
+     "https://www.euronews.com/2026/11/06/poland-warns-allies-dont-negotiate-with-russia-over-eastern-europes-head"
+    ],
+    [
+     "Militarnyi: Poland detains suspected saboteurs (10 Nov)",
+     "https://militarnyi.com/en/news/"
     ]
    ]
   },
@@ -1379,9 +1495,9 @@
    "s": "A co-belligerent against Iran, absorbing drone and missile fire while oil prices run high.",
    "i": [
     [
-     "Drone and missile attacks",
+     "Houthi missile and drone attacks",
      4,
-     "Air defences intercepted threats near Riyadh, Al Kharj, Khamis Mushait and Medina in mid-October."
+     "Houthi strikes on the kingdom are intensifying. Authorities warned of an aerial threat over Riyadh on 9 November and intercepted a drone over the Eastern Province on 10 November."
     ],
     [
      "Red Sea and Bab al-Mandab",
@@ -1400,6 +1516,16 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Times of Israel: Live updates, 9 November",
+     "https://www.timesofisrael.com/liveblog-november-9-2026/"
+    ],
+    [
+     "AP via KSAT: Mideast news (10 Nov)",
+     "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
     ]
    ]
   },
@@ -1421,7 +1547,7 @@
     [
      "Foreign policy reset",
      2,
-     "A new government may shift Belgrade’s balance between the EU and Russia, with knock-on effects for energy deals and EU accession."
+     "The EU has signalled new momentum for Serbia’s membership talks since the change of government."
     ]
    ],
    "r": "Europe",
@@ -1434,6 +1560,12 @@
     [
      "2026-11-05",
      2
+    ]
+   ],
+   "src": [
+    [
+     "European Interest: EU provides new momentum for Serbia (7 Nov)",
+     "https://www.europeaninterest.eu/moldova-hosts-high-level-platform-to-boost-digital-connectivity-in-europe-black-sea-south-caucasus-and-central-asia/"
     ]
    ]
   },
@@ -1530,12 +1662,12 @@
   "729": {
    "n": "Sudan",
    "l": 5,
-   "s": "The world’s largest humanitarian crisis, driven by the war between the army and the RSF.",
+   "s": "The world’s largest humanitarian crisis, as the army advances in Kordofan and the RSF pushes into Blue Nile.",
    "i": [
     [
      "Army–RSF war",
      5,
-     "Fighting has shifted to Kordofan after the RSF captured El Fasher in 2025."
+     "The army took Iyal Bakhit in West Kordofan on 7 November, while the RSF seized the Sali base in Blue Nile and is launching deadly drone strikes there."
     ],
     [
      "Famine",
@@ -1543,9 +1675,9 @@
      "Famine conditions affect several regions, and aid access is blocked."
     ],
     [
-     "Foreign backers",
+     "Regional spillover",
      4,
-     "External support to both sides prolongs the war and risks regional spillover."
+     "Sudan accuses Ethiopia of hosting RSF drone launch sites, and Ethiopia expelled six Sudanese diplomats on 4 November. Khartoum also accuses the UAE of backing the RSF."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -1554,6 +1686,20 @@
     [
      "2026-11-04",
      5
+    ]
+   ],
+   "src": [
+    [
+     "Sudan Tribune: Army advances in West Kordofan (8 Nov)",
+     "https://sudantribune.com/article/321005"
+    ],
+    [
+     "CFR: Civil war in Sudan tracker",
+     "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
+    ],
+    [
+     "Anadolu: Army downs fourth drone in a week (9 Nov)",
+     "https://www.aa.com.tr/en/middle-east/sudanese-army-downs-4th-drone-in-week-as-troops-advance-against-rsf-in-west-kordofan/4116366"
     ]
    ]
   },
@@ -1847,22 +1993,22 @@
   "862": {
    "n": "Venezuela",
    "l": 4,
-   "s": "A transition run under US oversight after Maduro’s capture.",
+   "s": "A US-backed transition under Delcy Rodríguez, with opposition leader María Corina Machado back in the country.",
    "i": [
     [
      "Post-Maduro transition",
      4,
-     "US forces captured Nicolás Maduro on 3 January. Acting President Delcy Rodríguez governs with US backing."
+     "María Corina Machado returned from exile on 25 October, and US Secretary of State Rubio met Venezuela’s foreign minister on 3 November to discuss elections and political prisoners."
     ],
     [
-     "Control of the oil sector",
+     "Oil sector reopening",
      3,
-     "US control over exports reshapes contracts and sanctions exposure."
+     "ExxonMobil signed a preliminary agreement on 10 November towards returning to Venezuela, as US influence reshapes oil contracts."
     ],
     [
-     "Political rights and elections",
+     "Armed groups on the border",
      3,
-     "There is no agreed timeline for free elections, and repression continues."
+     "Venezuelan forces, working with the US, struck an ELN camp on 30 October, killing 23."
     ]
    ],
    "r": "Americas",
@@ -1871,6 +2017,16 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "CFR: Instability in Venezuela tracker",
+     "https://www.cfr.org/global-conflict-tracker/conflict/instability-venezuela"
+    ],
+    [
+     "ACLED: Latin America and the Caribbean analysis",
+     "https://acleddata.com/region/latin-america-and-caribbean"
     ]
    ]
   },
@@ -1882,7 +2038,7 @@
     [
      "Civil war escalation",
      5,
-     "Houthi missiles hit Aden and Marib in October, striking areas held by the internationally recognised government."
+     "The Saudi-led coalition is striking Houthi missile sites around Sanaa, while the Houthis step up missile and drone attacks on Saudi Arabia."
     ],
     [
      "Bab al-Mandab shipping",
@@ -1902,6 +2058,12 @@
      "2026-11-04",
      5
     ]
+   ],
+   "src": [
+    [
+     "AP via KSAT: Overnight strikes in Yemen and other Mideast news (10 Nov)",
+     "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
+    ]
    ]
   },
   "004": {
@@ -1917,7 +2079,7 @@
     [
      "Conflict with Pakistan",
      4,
-     "Border fighting has disrupted trade crossings."
+     "Sporadic border fighting continues after a March truce, disrupting trade crossings such as Torkham."
     ],
     [
      "ISIS-K",
@@ -1931,6 +2093,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Asia News Network: Clashes persist along border (2 Nov)",
+     "https://asianews.network/pakistan-warns-kabul-of-unbearable-punishment-as-clashes-persist-along-border/"
     ]
    ]
   },
@@ -2090,9 +2258,9 @@
    "s": "A strong economy run by a minority government that relies on smaller parties.",
    "i": [
     [
-     "Fragile parliamentary majority",
+     "Election and housing pressure",
      2,
-     "The government depends on regional and smaller parties to pass laws and budgets."
+     "With a general election looming, housing strikes and a fragile parliamentary majority weigh on the government."
     ],
     [
      "Corruption investigations",
@@ -2111,6 +2279,12 @@
     [
      "2026-11-07",
      2
+    ]
+   ],
+   "src": [
+    [
+     "European Interest: Europe news, 11 November",
+     "https://www.europeaninterest.eu/drones-enter-baltic-countries-during-night-of-airstrikes/"
     ]
    ]
   },
@@ -2366,9 +2540,9 @@
    "s": "Stable, with a populist-led government recalibrating foreign policy.",
    "i": [
     [
-     "Shift on Ukraine support",
+     "Shift on defence and Ukraine",
      2,
-     "The government has signalled a cooler line on aid to Ukraine than its predecessor."
+     "A far-right coalition partner says Czech soldiers will not take part in joint European army training, signalling a cooler line on European defence and Ukraine."
     ],
     [
      "Energy costs",
@@ -2387,6 +2561,12 @@
     [
      "2026-11-07",
      2
+    ]
+   ],
+   "src": [
+    [
+     "European Interest: Europe news, 11 November",
+     "https://www.europeaninterest.eu/drones-enter-baltic-countries-during-night-of-airstrikes/"
     ]
    ]
   },
@@ -2516,9 +2696,9 @@
    "s": "A NATO frontline state facing repeated hybrid pressure from Belarus.",
    "i": [
     [
-     "Balloon incursions from Belarus",
+     "Drone and balloon incursions",
      3,
-     "Smuggling balloons from Belarus have repeatedly forced Vilnius airport to close."
+     "Drones crossed into the Baltic states during Russia’s strikes on Ukraine overnight on 11 November; debris killed two people near the Belarus border."
     ],
     [
      "Russian hybrid threats",
@@ -2538,6 +2718,12 @@
      "2026-11-07",
      3
     ]
+   ],
+   "src": [
+    [
+     "European Interest: Drones enter Baltic countries (11 Nov)",
+     "https://www.europeaninterest.eu/drones-enter-baltic-countries-during-night-of-airstrikes/"
+    ]
    ]
   },
   "428": {
@@ -2548,7 +2734,7 @@
     [
      "Russian border pressure",
      3,
-     "Migrant pushes from Belarus and Russian provocations keep the eastern border tense."
+     "Drones crossed into the Baltic states during Russia’s strikes on Ukraine overnight on 11 November; debris killed two people near the Belarus border."
     ],
     [
      "Baltic cable damage",
@@ -2567,6 +2753,12 @@
     [
      "2026-11-07",
      3
+    ]
+   ],
+   "src": [
+    [
+     "European Interest: Drones enter Baltic countries (11 Nov)",
+     "https://www.europeaninterest.eu/drones-enter-baltic-countries-during-night-of-airstrikes/"
     ]
    ]
   },
@@ -3205,6 +3397,10 @@
     [
      null,
      "Faultline moved to new hosting; the contact form now opens your email app."
+    ],
+    [
+     null,
+     "Full review of all 100 countries: about 30 updated with new developments and sources, including Israel, Sudan, DR Congo, Venezuela and Colombia."
     ]
    ]
   },

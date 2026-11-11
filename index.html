@@ -341,7 +341,6 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
 <footer><div class="band-in">
   <span>Faultline risk map. Assessments are analyst judgments drawn from open-source reporting, current to <span id="footDate"></span>. Updated regularly.</span>
   <span>Not advice for personal travel or investment decisions.</span>
-  <span id="visits" hidden></span>
 </div></footer>
 <div id="printArea" aria-hidden="true"></div>
 
@@ -528,11 +527,6 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     window.location.href='mailto:admin@faultlinerisk.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
     ok.innerHTML='Your email app should open with the message ready to send. If it doesn’t, email <a href="mailto:admin@faultlinerisk.com">admin@faultlinerisk.com</a>.';
   }));
-
-  // visitor counter (GoatCounter)
-  fetch('https://faultlinerisk.goatcounter.com/counter/TOTAL.json').then(r=>r.ok?r.json():null).then(j=>{
-    if(j && j.count){ const el=document.getElementById('visits'); el.textContent=j.count+' visits since launch'; el.hidden=false; }
-  }).catch(()=>{});
 
   // printable brief
   function printBrief(id){
