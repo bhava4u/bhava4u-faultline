@@ -1,5 +1,5 @@
 {
- "assessed": "10 November 2026",
+ "assessed": "11 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -636,10 +636,14 @@
     [
      "Fragile diplomacy",
      4,
-     "Iran has offered via Qatar to lift its Hormuz restrictions if the US ends the blockade, eases some sanctions and halts strikes, but US and Gulf officials doubt a deal is close."
+     "Trump met his top security advisers to weigh Iran’s latest proposal; CNN reports he is unlikely to accept it, and Qatar has warned of a “frozen conflict” if no deal is reached."
     ]
    ],
    "src": [
+    [
+     "The Citizen: Peace efforts stall as US examines latest Iran proposal",
+     "https://www.citizen.co.za/news/news-world/peace-efforts-stall-us-examines-latest-iran-proposal/"
+    ],
     [
      "CNBC: Trump says Iran war to end ‘fairly soon’, plays down new strikes (10 Nov)",
      "https://cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
@@ -651,10 +655,6 @@
     [
      "ABC News: Iran live updates (10 Nov)",
      "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi/?id=137967256"
-    ],
-    [
-     "Al Jazeera: US launches task force against Iran’s land supply routes (8 Nov)",
-     "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1656,12 +1656,12 @@
   "804": {
    "n": "Ukraine",
    "l": 5,
-   "s": "Entering a fifth winter of full-scale war, as the first US–Russia–Ukraine talks since February open in Abu Dhabi.",
+   "s": "Entering a fifth winter of full-scale war. Abu Dhabi talks produced a prisoner-swap deal but no ceasefire.",
    "i": [
     [
      "Strikes on the power grid",
      5,
-     "Russia launched 162 drones and a ballistic missile overnight as the talks opened, continuing a winter campaign against energy sites."
+     "Russia launched 163 drones, 91 of them jet-powered, plus cruise missiles before the final day of talks, continuing its winter campaign against energy sites."
     ],
     [
      "Front line",
@@ -1669,23 +1669,27 @@
      "Russian forces lost ground in October for the second month running, after Ukraine’s Operation Vivaldi disrupted the push on Donetsk’s fortress belt."
     ],
     [
-     "Abu Dhabi talks",
+     "Peace talks",
      3,
-     "Talks opened on 10 November, led by Steve Witkoff and Jared Kushner and focused on security guarantees. US officials report some flexibility on Donetsk, but Russia rejects a European role."
+     "Talks in Abu Dhabi ended on 11 November with agreement in principle on a large-scale prisoner exchange, but no breakthrough on a ceasefire or territory. More talks are planned, and Kyiv wants Europe at the table."
     ]
    ],
    "src": [
     [
-     "NPR: US-mediated talks on ending the war begin in Abu Dhabi (10 Nov)",
-     "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
+     "Al Jazeera: Abu Dhabi talks end with prisoner exchange agreement (11 Nov)",
+     "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
     ],
     [
-     "UPI: Ukraine, Russia, US resume peace talks in Abu Dhabi (10 Nov)",
-     "https://www.upi.com/Top_News/World-News/2026/11/10/UAE-Abu-Dhabi-Ukraine-Russia-US-talks/6331794301980"
+     "Euronews: Prisoner deal but no breakthrough on central issues (11 Nov)",
+     "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
     ],
     [
-     "The New Arab: Talks resume as major hurdles remain (10 Nov)",
-     "https://www.newarab.com/news/russia-ukraine-resume-abu-dhabi-talks-major-hurdles-remain"
+     "The Moscow Times: Prisoner exchange but no peace breakthrough (11 Nov)",
+     "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227"
+    ],
+    [
+     "ABC News: Talks end amid barrage of drones (11 Nov)",
+     "https://abcnews.com/International/ukraine-russia-exchange-hundreds-drones-day-2-abu/story?id=138038984"
     ]
    ],
    "r": "Europe",
@@ -3132,8 +3136,8 @@
   {
    "start": "2026-11-10",
    "when": "10–11 Nov",
-   "title": "Russia–Ukraine talks in Abu Dhabi",
-   "text": "Under way: the first US–Russia–Ukraine talks since February, focused on security guarantees.",
+   "title": "Russia–Ukraine talks in Abu Dhabi (concluded)",
+   "text": "Ended 11 November with agreement in principle on a large prisoner exchange, but no ceasefire.",
    "c": [
     "804",
     "643"
@@ -3174,9 +3178,36 @@
    "c": [
     "840"
    ]
+  },
+  {
+   "start": "2026-11-25",
+   "when": "Late Nov – early Dec",
+   "title": "Russia–Ukraine prisoner exchange (expected)",
+   "text": "Russian state media say the swap agreed in Abu Dhabi should happen within two to three weeks.",
+   "c": [
+    "804",
+    "643"
+   ]
   }
  ],
  "log": [
+  {
+   "date": "11 Nov 2026",
+   "items": [
+    [
+     "804",
+     "Abu Dhabi talks ended with a prisoner-swap deal in principle but no ceasefire."
+    ],
+    [
+     "364",
+     "Washington weighing Iran’s latest proposal; Qatar warns of a frozen conflict."
+    ],
+    [
+     null,
+     "Faultline moved to new hosting; the contact form now opens your email app."
+    ]
+   ]
+  },
   {
    "date": "10 Nov 2026",
    "items": [

@@ -324,15 +324,15 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
   <h2>Get in touch</h2>
   <p class="lede">Request a country brief or send feedback on an assessment.</p>
   <div class="forms">
-    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="company" class="nf">
-      <input type="hidden" name="form-name" value="contact">
+    <form name="contact" class="nf">
+      
       <p class="hp"><label>Leave blank <input name="company"></label></p>
       <h3>Request a brief or send feedback</h3>
       <label for="c-name">Name</label><input id="c-name" name="name" required autocomplete="name">
       <label for="c-email">Email</label><input id="c-email" type="email" name="email" required autocomplete="email">
       <label for="c-type">About</label><select id="c-type" name="type"><option>Request a country brief</option><option>Feedback on an assessment</option><option>Something else</option></select>
       <label for="c-msg">Message</label><textarea id="c-msg" name="message" rows="4" required></textarea>
-      <button type="submit">Send</button><div class="ok" role="status"></div>
+      <button type="submit">Send by email</button><div class="ok" role="status"></div>
     </form>
   </div>
 </div></section>
@@ -519,12 +519,13 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   $('#logList').innerHTML = (DATA.log||[]).map(e=>`<li><div class="when"><strong>${e.date}</strong></div><ul>${e.items.map(([c,t,chg])=>`<li>${c&&RISK[c]?`<button data-id="${c}">${RISK[c].n}</button>${chg?`<span class="chg" style="background:var(--l${chg[1]})">${LEVELS[chg[0]]} → ${LEVELS[chg[1]]} ${chg[1]>chg[0]?'▲':'▼'}</span>`:''}: `:''}${t}</li>`).join('')}</ul></li>`).join('');
   $('#logList').addEventListener('click', e=>{ const b=e.target.closest('button[data-id]'); if(!b) return; select(b.dataset.id,true); document.getElementById('map').scrollIntoView({behavior: reduce?'auto':'smooth'}); });
   // forms
-  document.querySelectorAll('form.nf').forEach(f=>f.addEventListener('submit', async ev=>{
-    ev.preventDefault(); const ok=f.querySelector('.ok'), btn=f.querySelector('button'); btn.disabled=true; ok.textContent='Sending…';
-    try{ const r=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()});
-      if(!r.ok) throw 0; f.reset(); ok.textContent = 'Thanks, we’ll be in touch.'; }
-    catch(e){ ok.textContent='Sorry, that didn’t send. Please email admin@faultlinerisk.com.'; }
-    btn.disabled=false;
+  document.querySelectorAll('form.nf').forEach(f=>f.addEventListener('submit', ev=>{
+    ev.preventDefault(); const fd=new FormData(f), ok=f.querySelector('.ok');
+    if(fd.get('company')) return;
+    const subject='Faultline: '+(fd.get('type')||'Message')+' from '+(fd.get('name')||'');
+    const body=(fd.get('message')||'')+'\n\n'+(fd.get('name')||'')+' ('+(fd.get('email')||'')+')';
+    window.location.href='mailto:admin@faultlinerisk.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+    ok.innerHTML='Your email app should open with the message ready to send. If it doesn’t, email <a href="mailto:admin@faultlinerisk.com">admin@faultlinerisk.com</a>.';
   }));
 
   // printable brief
