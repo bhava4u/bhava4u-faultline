@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://faultlinerisk.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://faultlinerisk.com/insights/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://faultlinerisk.com/insights/sealead-company-spotlight.html</loc><priority>0.7</priority></url>
-  <url><loc>https://faultlinerisk.com/insights/abu-dhabi-talks.html</loc><priority>0.6</priority></url>
-  <url><loc>https://faultlinerisk.com/insights/gulf-war-kerala-story.html</loc><priority>0.6</priority></url>
+  <url><loc>https://faultlinerisk.com/</loc></url>
+  <url><loc>https://faultlinerisk.com/insights/</loc></url>
+  <url><loc>https://faultlinerisk.com/insights/megaspeed-nvidia-export-controls.html</loc></url>
+  <url><loc>https://faultlinerisk.com/insights/sealead-company-spotlight.html</loc></url>
+  <url><loc>https://faultlinerisk.com/insights/abu-dhabi-talks.html</loc></url>
+  <url><loc>https://faultlinerisk.com/insights/gulf-war-kerala-story.html</loc></url>
+  <url><loc>https://faultlinerisk.com/themes/</loc></url>
+  <url><loc>https://faultlinerisk.com/themes/ai-chips-export-controls.html</loc></url>
+  <url><loc>https://faultlinerisk.com/themes/hormuz-gulf-energy.html</loc></url>
+  <url><loc>https://faultlinerisk.com/themes/sanctions-evasion-shadow-fleets.html</loc></url>
+  <url><loc>https://faultlinerisk.com/themes/critical-minerals.html</loc></url>
+  <url><loc>https://faultlinerisk.com/briefings/</loc></url>
 </urlset>

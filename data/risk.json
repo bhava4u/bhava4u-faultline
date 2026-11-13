@@ -42,6 +42,10 @@
      2.6,
      2.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "104": {
@@ -94,6 +98,15 @@
      2,
      2
     ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Burma-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/burma"
+     ]
+    ]
    }
   },
   "112": {
@@ -136,6 +149,15 @@
      1.3,
      1.9,
      1.2
+    ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Belarus Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/belarus-sanctions"
+     ]
     ]
    }
   },
@@ -186,6 +208,10 @@
      1.1,
      1.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "148": {
@@ -228,6 +254,10 @@
      4.5,
      5.4
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "156": {
@@ -276,6 +306,19 @@
      5,
      4.5,
      4
+    ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Chinese Military Companies Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/chinese-military-companies-sanctions"
+     ],
+     [
+      "Hong Kong-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/hong-kong-related-sanctions"
+     ]
     ]
    }
   },
@@ -343,6 +386,10 @@
      10.7,
      4.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "170": {
@@ -396,6 +443,10 @@
      2.2,
      2.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "180": {
@@ -452,6 +503,15 @@
      5.2,
      5.7
     ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "DR Congo-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/democratic-republic-of-the-congo-related-sanctions"
+     ]
+    ]
    }
   },
   "192": {
@@ -488,7 +548,16 @@
      "The Rio Times: Latin America Defense Monitor, 1–7 November",
      "https://www.riotimesonline.com/latin-america-defense-monitor-november-1-7-2026"
     ]
-   ]
+   ],
+   "sx": {
+    "t": "comprehensive",
+    "p": [
+     [
+      "Cuba Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions"
+     ]
+    ]
+   }
   },
   "218": {
    "n": "Ecuador",
@@ -536,6 +605,10 @@
      2.7,
      2.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "231": {
@@ -588,6 +661,10 @@
      9.2,
      7.8
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "250": {
@@ -637,6 +714,10 @@
      0.4,
      0.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "268": {
@@ -680,6 +761,10 @@
      7.2,
      5.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "275": {
@@ -724,7 +809,11 @@
      "AP via KSAT: Israeli strikes and gunfire in Gaza kill 5 (10 Nov)",
      "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
     ]
-   ]
+   ],
+   "sx": {
+    "t": "none",
+    "p": []
+   }
   },
   "276": {
    "n": "Germany",
@@ -773,6 +862,10 @@
      1.3,
      1.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "304": {
@@ -803,7 +896,11 @@
      "2026-11-04",
      3
     ]
-   ]
+   ],
+   "sx": {
+    "t": "none",
+    "p": []
+   }
   },
   "332": {
    "n": "Haiti",
@@ -851,6 +948,10 @@
      -1.7,
      -0.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "356": {
@@ -900,6 +1001,10 @@
      7,
      7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "360": {
@@ -949,6 +1054,10 @@
      5.1,
      5.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "364": {
@@ -1027,6 +1136,15 @@
      -7.6,
      3.6
     ]
+   },
+   "sx": {
+    "t": "comprehensive",
+    "p": [
+     [
+      "Iran Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/iran-sanctions"
+     ]
+    ]
    }
   },
   "368": {
@@ -1074,6 +1192,15 @@
      -0.4,
      -16,
      19
+    ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Iraq-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/iraq-related-sanctions"
+     ]
     ]
    }
   },
@@ -1128,6 +1255,10 @@
      4.5,
      4.4
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "392": {
@@ -1181,6 +1312,10 @@
      0.7,
      0.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "400": {
@@ -1233,6 +1368,10 @@
      2.7,
      3.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "404": {
@@ -1281,6 +1420,10 @@
      4.5,
      4.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "408": {
@@ -1311,7 +1454,16 @@
      "2026-11-04",
      4
     ]
-   ]
+   ],
+   "sx": {
+    "t": "comprehensive",
+    "p": [
+     [
+      "North Korea Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions"
+     ]
+    ]
+   }
   },
   "410": {
    "n": "South Korea",
@@ -1360,6 +1512,10 @@
      3.3,
      2.8
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "414": {
@@ -1402,6 +1558,10 @@
      -16.7,
      17.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "422": {
@@ -1446,7 +1606,16 @@
      "APA: Israel strikes Hezbollah positions in southern Lebanon (9 Nov)",
      "https://en.apa.az/asia/israel-strikes-hezbollah-positions-in-southern-lebanon-injuries-reported-535139"
     ]
-   ]
+   ],
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Lebanon-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/lebanon-related-sanctions"
+     ]
+    ]
+   }
   },
   "434": {
    "n": "Libya",
@@ -1493,6 +1662,15 @@
      15.9,
      3.3,
      2.9
+    ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Libya Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/libya-sanctions"
+     ]
     ]
    }
   },
@@ -1541,6 +1719,15 @@
      4.9,
      5.5,
      5.7
+    ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Mali-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/mali-related-sanctions"
+     ]
     ]
    }
   },
@@ -1591,6 +1778,10 @@
      1.5,
      1.8
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "498": {
@@ -1634,6 +1825,10 @@
      1.5,
      2.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "512": {
@@ -1682,6 +1877,10 @@
      4.1,
      2.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "562": {
@@ -1730,6 +1929,10 @@
      7,
      6.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "566": {
@@ -1778,6 +1981,10 @@
      4.2,
      4.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "586": {
@@ -1827,6 +2034,10 @@
      3.6,
      3.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "604": {
@@ -1876,6 +2087,10 @@
      3,
      2.9
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "608": {
@@ -1925,6 +2140,10 @@
      3.4,
      5.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "616": {
@@ -1978,6 +2197,10 @@
      3.4,
      2.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "634": {
@@ -2020,6 +2243,10 @@
      -15.6,
      18.8
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "642": {
@@ -2063,6 +2290,10 @@
      -0.5,
      2.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "643": {
@@ -2105,6 +2336,23 @@
      1,
      0.9,
      0.9
+    ]
+   },
+   "sx": {
+    "t": "extensive",
+    "p": [
+     [
+      "Russian Harmful Foreign Activities Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions"
+     ],
+     [
+      "Ukraine-/Russia-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/ukraine-russia-related-sanctions"
+     ],
+     [
+      "CAATSA-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/countering-americas-adversaries-through-sanctions-act-related-sanctions"
+     ]
     ]
    }
   },
@@ -2166,6 +2414,10 @@
      -3.3,
      7.9
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "688": {
@@ -2219,6 +2471,15 @@
      3.3,
      4
     ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Balkans-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/balkans-related-sanctions"
+     ]
+    ]
    }
   },
   "706": {
@@ -2265,6 +2526,15 @@
      3.1,
      2.3,
      2.7
+    ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Somalia Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/somalia-sanctions"
+     ]
     ]
    }
   },
@@ -2315,6 +2585,10 @@
      1,
      1.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "728": {
@@ -2356,6 +2630,15 @@
      41.4,
      10.5,
      3.9
+    ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "South Sudan-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/south-sudan-related-sanctions"
+     ]
     ]
    }
   },
@@ -2414,6 +2697,15 @@
      7,
      15
     ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Sudan and Darfur Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/sudan-and-darfur-sanctions"
+     ]
+    ]
    }
   },
   "760": {
@@ -2444,7 +2736,16 @@
      "2026-11-04",
      4
     ]
-   ]
+   ],
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Assad Accountability and Regional Stabilization (PAARSS)",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/paarss"
+     ]
+    ]
+   }
   },
   "784": {
    "n": "United Arab Emirates",
@@ -2486,6 +2787,10 @@
      -3.9,
      7.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "792": {
@@ -2539,6 +2844,10 @@
      2.7,
      3.6
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "804": {
@@ -2617,6 +2926,15 @@
      1,
      3.5
     ]
+   },
+   "sx": {
+    "t": "regional",
+    "p": [
+     [
+      "Ukraine-/Russia-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/ukraine-russia-related-sanctions"
+     ]
+    ]
    }
   },
   "818": {
@@ -2669,6 +2987,10 @@
      5.1,
      4.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "826": {
@@ -2718,6 +3040,10 @@
      1.3,
      1.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "840": {
@@ -2771,6 +3097,10 @@
      2.3,
      2.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "854": {
@@ -2813,6 +3143,10 @@
      4.4,
      4.8
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "862": {
@@ -2864,6 +3198,15 @@
      5,
      7
     ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Venezuela-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions"
+     ]
+    ]
    }
   },
   "887": {
@@ -2911,6 +3254,15 @@
      -1.5,
      0
     ]
+   },
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Yemen-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/yemen-related-sanctions"
+     ]
+    ]
    }
   },
   "004": {
@@ -2947,7 +3299,16 @@
      "Asia News Network: Clashes persist along border (2 Nov)",
      "https://asianews.network/pakistan-warns-kabul-of-unbearable-punishment-as-clashes-persist-along-border/"
     ]
-   ]
+   ],
+   "sx": {
+    "t": "targeted",
+    "p": [
+     [
+      "Afghanistan-Related Sanctions",
+      "https://ofac.treasury.gov/sanctions-programs-and-country-information/afghanistan-related-sanctions"
+     ]
+    ]
+   }
   },
   "050": {
    "n": "Bangladesh",
@@ -2999,6 +3360,10 @@
      3.6,
      3.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "076": {
@@ -3048,6 +3413,10 @@
      2.2,
      1.9
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "032": {
@@ -3097,6 +3466,10 @@
      2.1,
      3.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "036": {
@@ -3140,6 +3513,10 @@
      1.9,
      1.6
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "380": {
@@ -3183,6 +3560,10 @@
      0.8,
      0.6
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "724": {
@@ -3232,6 +3613,10 @@
      2.5,
      1.8
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "528": {
@@ -3275,6 +3660,10 @@
      1.5,
      1.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "056": {
@@ -3318,6 +3707,10 @@
      0.7,
      1.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "752": {
@@ -3361,6 +3754,10 @@
      2.5,
      2.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "578": {
@@ -3404,6 +3801,10 @@
      1.5,
      1.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "246": {
@@ -3447,6 +3848,10 @@
      1.7,
      1.4
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "208": {
@@ -3490,6 +3895,10 @@
      3.7,
      2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "300": {
@@ -3533,6 +3942,10 @@
      1.8,
      1.8
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "348": {
@@ -3582,6 +3995,10 @@
      1.9,
      2.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "203": {
@@ -3631,6 +4048,10 @@
      1.8,
      1.9
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "040": {
@@ -3674,6 +4095,10 @@
      0.6,
      0.9
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "756": {
@@ -3717,6 +4142,10 @@
      1.9,
      1.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "620": {
@@ -3760,6 +4189,10 @@
      2.1,
      1.9
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "372": {
@@ -3803,6 +4236,10 @@
      -1,
      3.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "440": {
@@ -3852,6 +4289,10 @@
      2.7,
      2.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "428": {
@@ -3901,6 +4342,10 @@
      2.3,
      1.8
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "233": {
@@ -3944,6 +4389,10 @@
      2.1,
      2.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "051": {
@@ -3993,6 +4442,10 @@
      5.5,
      5.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "031": {
@@ -4036,6 +4489,10 @@
      1.7,
      2.3
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "398": {
@@ -4079,6 +4536,10 @@
      4.4,
      4.9
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "144": {
@@ -4122,6 +4583,10 @@
      4,
      3.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "524": {
@@ -4170,6 +4635,10 @@
      3.6,
      3.7
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "764": {
@@ -4219,6 +4688,10 @@
      2.1,
      2.1
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "704": {
@@ -4262,6 +4735,10 @@
      8.4,
      7.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "458": {
@@ -4311,6 +4788,10 @@
      5.2,
      4.6
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "554": {
@@ -4354,6 +4835,10 @@
      2,
      2.6
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "152": {
@@ -4403,6 +4888,10 @@
      0.6,
      2.6
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "068": {
@@ -4452,6 +4941,10 @@
      -3,
      -1.5
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "012": {
@@ -4494,6 +4987,10 @@
      3.8,
      3.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "504": {
@@ -4537,6 +5034,10 @@
      4.5,
      4.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "788": {
@@ -4579,6 +5080,10 @@
      2.4,
      2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "288": {
@@ -4621,6 +5126,10 @@
      5.7,
      5.2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "508": {
@@ -4663,6 +5172,10 @@
      1,
      2
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   },
   "834": {
@@ -4705,6 +5218,10 @@
      6,
      5.9
     ]
+   },
+   "sx": {
+    "t": "none",
+    "p": []
    }
   }
  },
@@ -4807,6 +5324,10 @@
     [
      null,
      "New: first company spotlight, on SeaLead and US sanctions on the Shamkhani shipping network, plus a redesigned downloadable brief with the economic snapshot at the bottom."
+    ],
+    [
+     null,
+     "New: Megaspeed company spotlight, four risk themes, a compare tool, a risk-over-time chart, US sanctions exposure for every country, and a briefings archive."
     ]
    ]
   },
@@ -5220,5 +5741,10 @@
    "i": 4.7
   },
   "url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO"
+ },
+ "sanctions_meta": {
+  "source": "US Treasury OFAC, Sanctions Programs and Country Information",
+  "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+  "checked": "13 November 2026"
  }
 }
