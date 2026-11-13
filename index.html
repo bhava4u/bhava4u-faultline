@@ -225,7 +225,18 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 aside.brief{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:26px 26px 22px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 80px);min-height:420px}
 .picker{display:flex;gap:8px;margin-bottom:22px}
 .picker label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-.picker select{flex:1;font:500 15px "Public Sans",sans-serif;padding:9px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink)}
+.sbox{position:relative;flex:1}
+.sbox svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--muted);pointer-events:none}
+.sbox input{width:100%;font:500 15px "Public Sans",sans-serif;padding:10px 12px 10px 36px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink)}
+.sbox input:focus{outline:2px solid var(--focus);outline-offset:1px}
+.sbox ul{position:absolute;left:0;right:0;top:calc(100% + 4px);z-index:20;margin:0;padding:4px;list-style:none;background:var(--surface);border:1px solid var(--rule);border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.18);max-height:320px;overflow-y:auto}
+.sbox li{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:4px;cursor:pointer}
+.sbox li[aria-selected="true"],.sbox li:hover{background:var(--bg)}
+.sbox li i{width:10px;height:10px;border-radius:50%;flex:none}
+.sbox li b{font-weight:600}
+.sbox li div{display:flex;flex-direction:column;min-width:0}
+.sbox li span{font-size:12.5px;color:var(--muted)}
+.sbox li.none{cursor:default;color:var(--muted)}
 .brief h2{margin:0 0 6px;font:600 34px/1.1 Spectral,Georgia,serif;letter-spacing:-.01em}
 .level{display:flex;align-items:center;gap:12px;margin:12px 0 16px}
 .meter{display:flex;gap:3px}
@@ -329,8 +340,10 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
   </div>
   <aside class="brief" aria-live="polite">
     <div class="picker">
-      <label for="pick">Choose a country</label>
-      <select id="pick"><option value="">Choose a country</option></select>
+      <label for="q">Search countries and chokepoints</label>
+      <div class="sbox"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="Search a country or chokepoint…" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="qlist" aria-autocomplete="list">
+        <ul id="qlist" role="listbox" hidden></ul></div>
     </div>
     <div id="briefBody"></div>
   </aside>
@@ -466,10 +479,43 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   const features = topojson.feature(WORLD, WORLD.objects.countries).features;
   const byId = {}; features.forEach(f => byId[f.id] = f);
 
-  // picker
+  // search with suggestions
   const ids = Object.keys(RISK).sort((a,b)=>RISK[a].n.localeCompare(RISK[b].n));
-  $('#pick').insertAdjacentHTML('beforeend', ids.map(id=>`<option value="${id}">${RISK[id].n} (${LEVELS[RISK[id].l]})</option>`).join(''));
-  $('#pick').addEventListener('change', e => { if(e.target.value) select(e.target.value, true); });
+  const norm = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+  const ALIAS = {'uk':'826','britain':'826','great britain':'826','england':'826','us':'840','usa':'840','america':'840','united states of america':'840','uae':'784','emirates':'784','dubai':'784','drc':'180','congo':'180','turkey':'792','czech republic':'203','burma':'104','gaza':'275','west bank':'275','palestine':'275','korea':'410','north korea':'408','dprk':'408','ivory coast':null,'holland':'528','persia':'364'};
+  const CALIAS = {'hormuz':'strait-of-hormuz','red sea':'bab-el-mandeb','houthi':'bab-el-mandeb','suez':'suez-canal','malacca':'strait-of-malacca','singapore strait':'strait-of-malacca','taiwan strait':'taiwan-strait','bosphorus':'bosporus','bosporus':'bosporus','black sea':'bosporus','panama':'panama-canal','danish':'danish-straits','baltic':'danish-straits'};
+  const qi=$('#q'), ql=$('#qlist'); let qItems=[], qAct=-1;
+  function qSearch(t){
+    const n=norm(t); if(!n) return [];
+    const out=[], seen=new Set(), add=(kind,id)=>{const key=kind+id; if(!seen.has(key)){seen.add(key); out.push([kind,id]);}};
+    Object.entries(ALIAS).forEach(([k,v])=>{ if(v && k.startsWith(n) && RISK[v]) add('c',v); });
+    if(n.length>=2) Object.entries(CALIAS).forEach(([k,v])=>{ if(k.startsWith(n)) add('k',v); });
+    const score=name=>{const s=norm(name); if(s.startsWith(n)) return 0; if(s.split(' ').some(w=>w.startsWith(n))) return 1; if(s.includes(n)) return 2; return 9;};
+    ids.map(id=>[score(RISK[id].n),id]).filter(x=>x[0]<9).sort((a,b)=>a[0]-b[0]||RISK[b[1]].l-RISK[a[1]].l).forEach(([,id])=>add('c',id));
+    (typeof CHOKES!=='undefined'?CHOKES:[]).map(c=>[score(c.n),c.id]).filter(x=>x[0]<9).sort((a,b)=>a[0]-b[0]).forEach(([,id])=>add('k',id));
+    if(n.length>=3) ids.filter(id=>norm(RISK[id].r||'').includes(n)).forEach(id=>add('c',id));
+    return out.slice(0,8);
+  }
+  function qRender(){
+    qItems=qSearch(qi.value); qAct=qItems.length?0:-1;
+    if(!qi.value.trim()){ ql.hidden=true; qi.setAttribute('aria-expanded','false'); return; }
+    ql.innerHTML = qItems.length ? qItems.map(([k,id],j)=>{ const o=k==='c'?RISK[id]:CBY[id];
+      return `<li role="option" id="qo${j}" data-k="${k}" data-id="${id}" aria-selected="${j===qAct}"><i style="background:var(--l${o.l})"></i><div><b>${o.n}</b><span>${k==='c'?(o.r||'')+' · '+LEVELS[o.l]:'Chokepoint · '+LEVELS[o.l]}</span></div></li>`; }).join('')
+      : '<li class="none">No matches. Try another country or chokepoint.</li>';
+    ql.hidden=false; qi.setAttribute('aria-expanded','true');
+    if(qAct>=0) qi.setAttribute('aria-activedescendant','qo'+qAct); else qi.removeAttribute('aria-activedescendant');
+  }
+  function qPick(k,id){ ql.hidden=true; qi.setAttribute('aria-expanded','false'); if(k==='c') select(id,true); else selectChoke(id,true); qi.blur(); }
+  qi.addEventListener('input', qRender);
+  qi.addEventListener('focus', ()=>{ if(qi.value.trim()) qRender(); });
+  qi.addEventListener('keydown', e=>{
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){ if(ql.hidden) qRender(); if(!qItems.length) return; e.preventDefault(); qAct=(qAct+(e.key==='ArrowDown'?1:-1)+qItems.length)%qItems.length;
+      ql.querySelectorAll('li[role=option]').forEach((li,j)=>li.setAttribute('aria-selected',j===qAct)); qi.setAttribute('aria-activedescendant','qo'+qAct); ql.querySelector('#qo'+qAct)?.scrollIntoView({block:'nearest'}); }
+    else if(e.key==='Enter'){ e.preventDefault(); if(qItems.length) qPick(...qItems[Math.max(0,qAct)]); }
+    else if(e.key==='Escape'){ ql.hidden=true; qi.setAttribute('aria-expanded','false'); }
+  });
+  ql.addEventListener('mousedown', e=>{ const li=e.target.closest('li[role=option]'); if(li){ e.preventDefault(); qPick(li.dataset.k, li.dataset.id); } });
+  document.addEventListener('click', e=>{ if(!e.target.closest('.sbox')){ ql.hidden=true; qi.setAttribute('aria-expanded','false'); } });
 
   // watchlist
   $('#watchList').innerHTML = ids.filter(id=>RISK[id].l===5).map(id=>`<button data-id="${id}"><i></i>${RISK[id].n}</button>`).join('');
@@ -563,7 +609,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   function select(id, rotate){
     stopSpin();
     countries.classed('sel', d => d.id === id); marks.classed('sel', false);
-    $('#pick').value = RISK[id] ? id : '';
+    $('#q').value = RISK[id] ? RISK[id].n : '';
     if(rotate) rotateTo(id);
     renderBrief(id);
     if(RISK[id] && window.goatcounter && goatcounter.count){ try{ goatcounter.count({path:'country/'+SLUG[id], title:RISK[id].n, event:true}); }catch(e){} }
@@ -578,7 +624,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   $('#chokeChips').addEventListener('click',e=>{const b=e.target.closest('button[data-c]'); if(b) selectChoke(b.dataset.c,true);});
   function selectChoke(cid, rotate){
     const c=CBY[cid]; if(!c) return; stopSpin();
-    countries.classed('sel',false); marks.classed('sel',m=>m.id===cid); $('#pick').value='';
+    countries.classed('sel',false); marks.classed('sel',m=>m.id===cid); $('#q').value=c.n;
     if(rotate){ const target=[-c.lon,-c.lat]; if(reduce){proj.rotate(target);draw();} else { const ip=d3.interpolate(proj.rotate(),target); d3.transition().duration(900).ease(d3.easeCubicInOut).tween('rot',()=>t=>{proj.rotate(ip(t));draw();}); } }
     $('#briefBody').innerHTML = `<span class="rtag">Shipping chokepoint</span><h2>${c.n}</h2>
       <div class="level">${meter(c.l)}<span>Threat level <strong>${LEVELS[c.l]}</strong>, ${c.l} of 5</span></div>
@@ -720,7 +766,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     const k = RISK[id], body = $('#briefBody');
     if(!k){
       const name = byId[id] ? byId[id].properties.name : 'This country';
-      body.innerHTML = `<div class="empty"><h2>${name}</h2><p>No assessment in this cycle. Faultline currently covers ${ids.length} countries, chosen for where risk is highest or moving fastest. Pick a coloured country or choose one from the list.</p></div>`;
+      body.innerHTML = `<div class="empty"><h2>${name}</h2><p>No assessment in this cycle. Faultline currently covers ${ids.length} countries, chosen for where risk is highest or moving fastest. Pick a coloured country or search for one above.</p></div>`;
       return;
     }
     body.innerHTML = `
@@ -751,7 +797,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   // initial state
   body0();
   function body0(){
-    $('#briefBody').innerHTML = `<div class="empty"><h2>Pick a country</h2><p>Click any coloured country on the globe, or choose from the list above. The most acute crisis right now is the Iran war and the Gulf shipping lanes around it.</p></div>`;
+    $('#briefBody').innerHTML = `<div class="empty"><h2>Pick a country</h2><p>Click any coloured country on the globe, or search for it above. The most acute crisis right now is the Iran war and the Gulf shipping lanes around it.</p></div>`;
   }
   // deep link via #token? keep simple: open Iran by default after a beat on wide screens
   resize();
