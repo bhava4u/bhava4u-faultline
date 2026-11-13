@@ -79,6 +79,7 @@ nav a:hover{color:var(--ink)}
 .country.dim{opacity:.18}
 .team{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
 .person{display:grid;grid-template-columns:72px 1fr;gap:18px;padding:22px;background:var(--surface);border:1px solid var(--rule);border-radius:6px}
+.avatar.photo{object-fit:cover;object-position:50% 35%;background:var(--rule);border:2px solid var(--rule)}
 .avatar{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:var(--bg);font:600 24px Spectral,Georgia,serif;letter-spacing:.02em}
 .person h3{margin:0;font:600 22px/1.2 Spectral,Georgia,serif}
 .person .role{margin:3px 0 10px;font-size:14px;font-weight:600;color:var(--l4)}
@@ -410,7 +411,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
   <p class="lede">Faultline is run by two analysts who combine geopolitical research with data and open-source intelligence.</p>
   <div class="team">
     <article class="person">
-      <div class="avatar" aria-hidden="true">BN</div>
+      <img class="avatar photo" src="/bhava.jpg" width="88" height="88" alt="Bhava Narayanan A S" loading="lazy" decoding="async">
       <div>
         <h3>Bhava Narayanan A S</h3>
         <p class="role">Founder &amp; Lead Analyst, Geopolitical Risk</p>
