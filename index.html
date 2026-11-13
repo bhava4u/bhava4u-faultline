@@ -142,23 +142,45 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 .hp{position:absolute;left:-9999px}
 @media (max-width:980px){.ins,.forms{grid-template-columns:1fr}.loglist>li{grid-template-columns:1fr;gap:4px}}
 @media print{
-  body *{visibility:hidden}
-  #printArea,#printArea *{visibility:visible}
-  #printArea{display:block;position:absolute;inset:0 auto auto 0;width:100%;color:#1D282C;background:#fff;padding:0;font:400 11pt/1.45 "Public Sans",Arial,sans-serif}
-  body{background:#fff}
-  body::before{display:none}
-  @page{size:A4;margin:16mm}
+  @page{size:A4;margin:9mm}
+  html,body{background:#fff!important;padding:0!important;margin:0!important}
+  body::before{display:none!important}
+  body > *:not(#printArea){display:none!important}
+  #printArea{display:block!important}
 }
-#printArea .ph{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid #1D282C;padding-bottom:6px;margin-bottom:14px}
-#printArea .ph b{font:600 18pt Spectral,Georgia,serif}
-#printArea h1{font:600 24pt/1.1 Spectral,Georgia,serif;margin:0 0 4px}
-#printArea .lv{font-weight:600;margin:4px 0 10px}
-#printArea .sm{font:400 12.5pt/1.5 Spectral,Georgia,serif;margin:0 0 12px}
-#printArea .bx{border-left:3px solid #1F5E8C;padding:6px 10px;margin:0 0 14px;background:#F1F3EF}
-#printArea h2{font-size:9pt;letter-spacing:.06em;text-transform:uppercase;color:#56656A;margin:14px 0 6px}
-#printArea ol{margin:0;padding-left:18px}
-#printArea li{margin:0 0 8px}
-#printArea .pf{margin-top:18px;padding-top:8px;border-top:1px solid #C9D0CC;font-size:8.5pt;color:#56656A}
+#printArea{--l1:#7E9E74;--l2:#D9BE62;--l3:#DE9C52;--l4:#C55D36;--l5:#9E2B2B;--rule:#D3D8D4;--ink:#1D282C;--muted:#56656A;color:#1D282C;background:#fff;font:400 9.6pt/1.42 "Public Sans",Arial,sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+#printArea *{-webkit-print-color-adjust:exact;print-color-adjust:exact;box-sizing:border-box}
+#printArea .pb-head{display:flex;justify-content:space-between;align-items:center;background:#1D282C;color:#fff;padding:9px 14px;border-radius:4px}
+#printArea .pb-brand{display:flex;align-items:center;gap:8px;font:600 17pt Spectral,Georgia,serif}
+#printArea .pb-brand svg{width:20px;height:20px}
+#printArea .pb-head small{font-size:8.5pt;opacity:.85;text-align:right;line-height:1.35}
+#printArea .pb-top{display:grid;grid-template-columns:58mm 1fr;gap:12px;margin:12px 0 10px;align-items:center}
+#printArea .pb-map svg{width:100%;height:auto;display:block}
+#printArea .pb-region{font-size:8pt;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+#printArea h1{font:600 25pt/1.05 Spectral,Georgia,serif;margin:2px 0 8px}
+#printArea .pb-badge{display:inline-flex;align-items:center;gap:10px;padding:6px 10px;border-radius:4px;color:#fff;font-weight:600;font-size:11pt}
+#printArea .pb-badge .m{display:flex;gap:3px}
+#printArea .pb-badge .m i{width:14px;height:6px;border-radius:1px;background:rgba(255,255,255,.35)}
+#printArea .pb-badge .m i.on{background:#fff}
+#printArea .pb-sum{font:400 11pt/1.45 Spectral,Georgia,serif;margin:9px 0 0}
+#printArea .pb-biz{border-left:3px solid #1F5E8C;background:#F1F3EF;padding:7px 10px;margin:0 0 10px;border-radius:0 4px 4px 0}
+#printArea .pb-biz b{font-size:7.8pt;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:2px}
+#printArea .pb-cols{display:grid;grid-template-columns:1.35fr 1fr;gap:12px}
+#printArea h2{font-size:7.8pt;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:0 0 5px}
+#printArea .pb-iss{list-style:none;margin:0;padding:0}
+#printArea .pb-iss li{border:1px solid var(--rule);border-left-width:4px;border-radius:3px;padding:6px 8px;margin:0 0 6px;break-inside:avoid}
+#printArea .pb-iss .t{display:flex;justify-content:space-between;gap:8px;font-weight:600;font-size:10pt}
+#printArea .pill{font-size:7.5pt;font-weight:600;padding:1px 7px;border-radius:9px;color:#fff;white-space:nowrap}
+#printArea .pb-iss p{margin:3px 0 0;color:#3B484C}
+#printArea .pb-box{border:1px solid var(--rule);border-radius:3px;padding:7px 9px;margin:0 0 8px;break-inside:avoid}
+#printArea .pb-box p{margin:0 0 3px}
+#printArea .hist svg{width:100%;height:auto}
+#printArea .hist p{margin:2px 0 0;font-size:8pt;color:var(--muted)}
+#printArea .hist h4{display:none}
+#printArea .pb-src{margin:6px 0 0;padding:0;list-style:none;font-size:8pt;color:#3B484C}
+#printArea .pb-src li{margin:0 0 2px;overflow-wrap:anywhere}
+#printArea .pb-foot{display:flex;justify-content:space-between;gap:12px;border-top:2px solid #1D282C;margin-top:10px;padding-top:6px;font-size:7.8pt;color:var(--muted)}
+#printArea .pb-foot b{color:#1D282C}
 .tip{position:absolute;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--rule);padding:6px 10px;font-size:13px;border-radius:4px;white-space:nowrap;transform:translate(-50%,-130%);opacity:0;transition:opacity .1s}
 .tip.on{opacity:1}
 .controls{position:absolute;right:8px;bottom:8px;display:flex;flex-direction:column;gap:6px}
@@ -574,17 +596,35 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   // printable brief
   function printBrief(id){
     const k = RISK[id], ev = EVENTS.filter(e=>(e.c||[]).includes(id));
-    $('#printArea').innerHTML = `<div class="ph"><b>Faultline</b><span>Country risk brief &nbsp;|&nbsp; Assessed ${ASSESSED}</span></div>
-      <div style="font-size:9pt;color:#56656A;text-transform:uppercase;letter-spacing:.05em">${k.r}</div>
-      <h1>${k.n}</h1><div class="lv">Threat level: ${LEVELS[k.l]} (${k.l} of 5)</div>
-      <p class="sm">${k.s}</p>
-      <div class="bx"><strong>What it means for business:</strong> ${k.b||''}</div>
-      <h2>Top three issues</h2><ol>${k.i.map(([t,l,x])=>`<li><strong>${t}</strong> (${LEVELS[l]}): ${x}</li>`).join('')}</ol>
-      ${k.sc?`<h2>Three-month scenarios</h2>${k.sc.map(([n,p,x])=>`<p style="margin:0 0 4px"><strong>${n} (${p}%):</strong> ${x}</p>`).join('')}`:''}
-      ${ev.length?`<h2>Coming up</h2>${ev.map(e=>`<p style="margin:0 0 4px"><strong>${e.when}:</strong> ${e.title}</p>`).join('')}`:''}
-      ${k.src&&k.src.length?`<h2>Sources</h2>${k.src.map(([t,u])=>`<p style="margin:0 0 3px;font-size:9.5pt">${t}<br><span style="color:#56656A">${u}</span></p>`).join('')}`:''}
-      <div class="pf">Faultline (faultlinerisk.com/#${SLUG[id]}). Threat levels reflect the likelihood and severity of disruption over the next three months. Analyst judgment based on open-source reporting; not advice for personal travel or investment decisions. Contact: admin@faultlinerisk.com</div>`;
-    window.print();
+    const f = byId[id], ctr = f ? d3.geoCentroid(f) : [0,0];
+    const pp = d3.geoOrthographic().rotate([-ctr[0], -ctr[1]*0.85]).translate([120,120]).scale(112).clipAngle(90), pg = d3.geoPath(pp);
+    let map = `<svg viewBox="0 0 240 240" role="img" aria-label="Map of ${k.n}"><circle cx="120" cy="120" r="112" fill="#DCE5E7" stroke="#B9C4C7"/>`;
+    map += `<path d="${pg(d3.geoGraticule10())}" fill="none" stroke="#1D282C" stroke-opacity=".07" stroke-width=".6"/>`;
+    features.forEach(x=>{ if(x.id===id) return; const dd=pg(x); if(!dd) return; const r=RISK[x.id]; map+=`<path d="${dd}" fill="${r?`var(--l${r.l})`:'#E7E9E4'}" fill-opacity="${r?0.35:1}" stroke="#fff" stroke-width=".5"/>`; });
+    if(f){ const dd=pg(f); map+=`<path d="${dd}" fill="var(--l${k.l})" stroke="#1D282C" stroke-width="1.6"/>`; const c=pp(ctr); if(c) map+=`<circle cx="${c[0]}" cy="${c[1]}" r="20" fill="none" stroke="#1D282C" stroke-width="1.2" stroke-dasharray="3 3"/>`; }
+    map += `</svg>`;
+    const mtr = [1,2,3,4,5].map(i=>`<i class="${i<=k.l?'on':''}"></i>`).join('');
+    const pill = l => `<span class="pill" style="background:var(--l${l})">${LEVELS[l]}</span>`;
+    const link = 'faultlinerisk.com/#'+SLUG[id];
+    $('#printArea').innerHTML = `
+      <div class="pb-head"><div class="pb-brand"><svg viewBox="0 0 26 26"><circle cx="13" cy="13" r="11.5" fill="none" stroke="#fff" stroke-width="1.6"/><path d="M6 6 L12 12 L10 15 L16 20 L19 24" fill="none" stroke="#DE9C52" stroke-width="2.2" stroke-linejoin="round"/></svg>Faultline</div>
+        <small>Country risk brief<br>Assessed ${ASSESSED}</small></div>
+      <div class="pb-top"><div class="pb-map">${map}</div>
+        <div><div class="pb-region">${k.r||''}</div><h1>${k.n}</h1>
+          <div class="pb-badge" style="background:var(--l${k.l})${k.l<=2?';color:#1D282C':''}">Threat level: ${LEVELS[k.l]} · ${k.l} of 5 <span class="m">${mtr}</span></div>
+          <p class="pb-sum">${k.s}</p></div></div>
+      ${k.b?`<div class="pb-biz"><b>What it means for business</b>${k.b}</div>`:''}
+      <div class="pb-cols">
+        <div><h2>Top three issues</h2><ol class="pb-iss">${k.i.map(([t,l,x])=>`<li style="border-left-color:var(--l${l})"><div class="t"><span>${t}</span>${pill(l)}</div><p>${x}</p></li>`).join('')}</ol></div>
+        <div>
+          <div class="pb-box"><h2>Grade history</h2>${histSvg(k)||'<p>No history yet.</p>'}</div>
+          ${k.sc?`<div class="pb-box"><h2>Three-month scenarios</h2>${k.sc.map(([n,p,x])=>`<p><b>${n} (${p}%)</b>: ${x}</p>`).join('')}</div>`:''}
+          ${ev.length?`<div class="pb-box"><h2>Coming up</h2>${ev.map(e=>`<p><b>${e.when}</b>: ${e.title}</p>`).join('')}</div>`:''}
+          ${k.src&&k.src.length?`<div class="pb-box"><h2>Sources</h2><ul class="pb-src">${k.src.slice(0,4).map(([t,u])=>`<li>${t}</li>`).join('')}</ul></div>`:''}
+        </div>
+      </div>
+      <div class="pb-foot"><span><b>${link}</b> &nbsp;|&nbsp; admin@faultlinerisk.com</span><span>Threat levels reflect the likelihood and severity of disruption over the next three months. Analyst judgment from open-source reporting; not personal travel or investment advice.</span></div>`;
+    setTimeout(()=>window.print(), 60);
   }
 
   // coming up
