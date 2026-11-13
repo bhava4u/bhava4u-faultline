@@ -1,0 +1,1066 @@
+{
+ "assessed": "13 November 2026",
+ "note": "Analyst layer for the Maritime risk page. Edit this file to update outlooks, premiums and incidents. Chokepoint names, threat levels, summaries and issues come from data/risk.json so the two pages stay in step.",
+ "live_base": "https://raw.githubusercontent.com/bhava4u/bhava4u-faultline/maritime-data/",
+ "zones": [
+  {
+   "id": "gulf",
+   "name": "Persian Gulf, Hormuz and Gulf of Oman",
+   "choke": "strait-of-hormuz",
+   "box": [
+    [
+     22.0,
+     47.5
+    ],
+    [
+     30.6,
+     60.5
+    ]
+   ]
+  },
+  {
+   "id": "aden",
+   "name": "Bab el-Mandeb and Gulf of Aden",
+   "choke": "bab-el-mandeb",
+   "box": [
+    [
+     10.0,
+     40.0
+    ],
+    [
+     16.6,
+     52.0
+    ]
+   ]
+  },
+  {
+   "id": "redsea",
+   "name": "Red Sea and Suez Canal",
+   "choke": "suez-canal",
+   "box": [
+    [
+     16.6,
+     32.0
+    ],
+    [
+     31.6,
+     40.0
+    ]
+   ]
+  },
+  {
+   "id": "blacksea",
+   "name": "Bosporus and Black Sea",
+   "choke": "bosporus",
+   "box": [
+    [
+     40.3,
+     27.4
+    ],
+    [
+     47.2,
+     42.0
+    ]
+   ]
+  },
+  {
+   "id": "danish",
+   "name": "Danish Straits",
+   "choke": "danish-straits",
+   "box": [
+    [
+     53.8,
+     9.0
+    ],
+    [
+     58.2,
+     15.5
+    ]
+   ]
+  },
+  {
+   "id": "finland",
+   "name": "Gulf of Finland (Russian oil ports)",
+   "choke": "danish-straits",
+   "box": [
+    [
+     59.0,
+     22.0
+    ],
+    [
+     60.9,
+     30.5
+    ]
+   ]
+  },
+  {
+   "id": "malacca",
+   "name": "Strait of Malacca and Singapore",
+   "choke": "strait-of-malacca",
+   "box": [
+    [
+     -1.0,
+     95.0
+    ],
+    [
+     7.0,
+     105.5
+    ]
+   ]
+  },
+  {
+   "id": "taiwan",
+   "name": "Taiwan Strait",
+   "choke": "taiwan-strait",
+   "box": [
+    [
+     21.5,
+     116.5
+    ],
+    [
+     26.8,
+     122.8
+    ]
+   ]
+  },
+  {
+   "id": "panama",
+   "name": "Panama Canal approaches",
+   "choke": "panama-canal",
+   "box": [
+    [
+     7.0,
+     -81.0
+    ],
+    [
+     10.2,
+     -77.6
+    ]
+   ]
+  },
+  {
+   "id": "cape",
+   "name": "Cape of Good Hope",
+   "choke": "cape-of-good-hope",
+   "box": [
+    [
+     -37.5,
+     14.5
+    ],
+    [
+     -31.0,
+     24.0
+    ]
+   ]
+  }
+ ],
+ "extra_chokepoints": [
+  {
+   "id": "cape-of-good-hope",
+   "n": "Cape of Good Hope",
+   "lat": -34.6,
+   "lon": 18.6,
+   "l": 2,
+   "s": "The long way round Africa, now carrying much of the Asia–Europe traffic that avoids the Red Sea.",
+   "i": [
+    [
+     "Diverted traffic",
+     3,
+     "Ships avoiding Bab el-Mandeb and Suez add roughly 10 to 14 days on Asia–North Europe voyages by sailing round the Cape."
+    ],
+    [
+     "Weather",
+     2,
+     "Winter storms off South Africa slow ships and raise the risk of lost containers."
+    ],
+    [
+     "Bunkering and port capacity",
+     2,
+     "Extra demand for fuel and repairs strains South African ports."
+    ]
+   ],
+   "c": [
+    "710"
+   ],
+   "src": []
+  }
+ ],
+ "chokepoints": {
+  "strait-of-hormuz": {
+   "portwatch": [
+    "strait of hormuz",
+    "hormuz"
+   ],
+   "baseline": [
+    "2025-11-01",
+    "2026-02-26"
+   ],
+   "baseline_label": "the four months before the war",
+   "status": "Effectively closed to most traffic",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "Medium",
+    "scenarios": [
+     [
+      "Stays near-closed",
+      60,
+      "Sporadic transits on Iran’s preferred route or under escort, with attacks continuing."
+     ],
+     [
+      "Partial reopening",
+      25,
+      "A US–Iran arrangement via Qatar allows escorted or licensed transits; mine risk keeps volumes low."
+     ],
+     [
+      "Wider escalation",
+      15,
+      "Mining or strikes on Gulf ports and terminals push traffic close to zero."
+     ]
+    ],
+    "why": "Talks are live through Qatar, but Iran has set seven conditions and Washington says it does not need a deal. Attacks have continued every few days into November."
+   },
+   "resolution": "Weeks to months. Even after a deal, insurers and owners would wait for mine clearance and a run of incident-free transits before returning in volume.",
+   "expect": [
+    "War cover is written for seven days and re-rated every 24 hours, so quotes can move sharply between booking and transit.",
+    "Crews can refuse to sail into areas designated as warlike operations zones.",
+    "GPS jamming and spoofing are widespread, so AIS positions in the Gulf are less reliable than elsewhere.",
+    "Queues and storage build at Fujairah and Yanbu as cargoes look for bypass routes."
+   ],
+   "premium": {
+    "text": "6–10% of hull value for tankers in October, against about 0.25% before the war. On a $100 million tanker that is $6–10 million for one voyage.",
+    "mid": 8.0,
+    "src": [
+     [
+      "CES Intelligence, citing Marsh via Insurance Business (Oct 2026)",
+      "https://www.ces-intelligence.com/analysis/strait-of-hormuz-war-risk-insurance-2026-daily-signal"
+     ]
+    ]
+   },
+   "reroute": null,
+   "alt": {
+    "label": "Pipeline bypasses",
+    "note": "There is no sea route around Hormuz. Some crude can bypass it through Saudi Arabia’s East–West pipeline to Yanbu on the Red Sea and the UAE’s Habshan–Fujairah pipeline to the Gulf of Oman, but Yanbu cargoes then face Houthi risk in the Red Sea.",
+    "lines": [
+     [
+      [
+       49.7,
+       25.9
+      ],
+      [
+       46.5,
+       24.9
+      ],
+      [
+       42.5,
+       24.4
+      ],
+      [
+       38.06,
+       24.09
+      ]
+     ],
+     [
+      [
+       53.7,
+       23.8
+      ],
+      [
+       55.2,
+       24.5
+      ],
+      [
+       56.35,
+       25.12
+      ]
+     ]
+    ]
+   },
+   "decision": "Most owners are waiting or using the pipeline bypasses. Transit only makes sense where the cargo margin covers a premium of several million dollars and the charter terms say who pays it."
+  },
+  "bab-el-mandeb": {
+   "portwatch": [
+    "bab el mandeb",
+    "mandeb"
+   ],
+   "baseline": [
+    "2023-01-01",
+    "2023-10-31"
+   ],
+   "baseline_label": "January to October 2023, before Houthi attacks began",
+   "status": "Open, but most carriers still avoid it",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "Medium",
+    "scenarios": [
+     [
+      "Threat holds at current level",
+      65,
+      "Occasional attacks and constant threat keep most container lines on the Cape route."
+     ],
+     [
+      "Escalation",
+      25,
+      "Houthi strikes widen to Saudi-linked shipping and Red Sea ports as the Iran war continues."
+     ],
+     [
+      "Meaningful de-escalation",
+      10,
+      "A wider Gulf settlement lets carriers start testing the route again."
+     ]
+    ],
+    "why": "Houthi missile and drone capability is intact and their attacks on Saudi energy sites this week show they are still escalating."
+   },
+   "resolution": "No near-term end. Carriers have said they need months of calm before returning, and the threat is now tied to the Iran war.",
+   "expect": [
+    "Container lines keep Cape routings in their schedules, so transit times stay 10 to 14 days longer on Asia–Europe services.",
+    "Saudi-linked tankers loading at Yanbu pay far higher war cover than other Red Sea traffic.",
+    "Naval escorts are limited and do not cover every vessel."
+   ],
+   "premium": {
+    "text": "About 0.5% of hull value for the most exposed corridor (July), against 0.1% near western Saudi Arabia. Saudi-linked tankers at Yanbu were quoted around 3% in late September.",
+    "mid": 0.5,
+    "src": [
+     [
+      "Al Jazeera, citing S&P Global (23 Jul 2026)",
+      "https://www.aljazeera.com/economy/2026/7/23/how-shipping-insurance-rates-are-rising-as-hormuz-bab-al-mandeb-shut-down"
+     ],
+     [
+      "Saudi Logistics Consulting, citing Reuters (Oct 2026)",
+      "https://saudilogisticsconsulting.com/insights/articles/rising-gulf-war-risk-insurance-premiums-what-the-2026-gulf-conflict-means-for-saudi-shipping-costs"
+     ]
+    ]
+   },
+   "reroute": {
+    "via": "Cape of Good Hope",
+    "days": 12,
+    "nm": 3500,
+    "note": "Asia–North Europe, compared with the Suez route."
+   },
+   "alt": {
+    "label": "Cape of Good Hope route",
+    "note": "The usual alternative for Asia–Europe trade: about 3,500 nautical miles and 10 to 14 days longer than going through Suez.",
+    "normal": [
+     [
+      103.8,
+      1.3
+     ],
+     [
+      95,
+      6
+     ],
+     [
+      80,
+      5.2
+     ],
+     [
+      60,
+      12
+     ],
+     [
+      51,
+      12.5
+     ],
+     [
+      43.4,
+      12.6
+     ],
+     [
+      42.7,
+      13.7
+     ],
+     [
+      41.3,
+      15.5
+     ],
+     [
+      39.9,
+      17.6
+     ],
+     [
+      38.6,
+      19.8
+     ],
+     [
+      37.4,
+      22.0
+     ],
+     [
+      36.3,
+      24.3
+     ],
+     [
+      35.0,
+      26.5
+     ],
+     [
+      33.9,
+      27.6
+     ],
+     [
+      32.6,
+      29.5
+     ],
+     [
+      32.55,
+      29.95
+     ],
+     [
+      32.33,
+      31.25
+     ],
+     [
+      25,
+      34
+     ],
+     [
+      12,
+      37.3
+     ],
+     [
+      -5.6,
+      35.95
+     ],
+     [
+      -9.8,
+      37
+     ],
+     [
+      -9.7,
+      43.3
+     ],
+     [
+      -5,
+      48.5
+     ],
+     [
+      1.5,
+      50.5
+     ],
+     [
+      4,
+      52
+     ]
+    ],
+    "lines": [
+     [
+      [
+       103.8,
+       1.3
+      ],
+      [
+       95,
+       5.5
+      ],
+      [
+       80,
+       0
+      ],
+      [
+       60,
+       -15
+      ],
+      [
+       55,
+       -20
+      ],
+      [
+       45,
+       -29
+      ],
+      [
+       32,
+       -35
+      ],
+      [
+       18.5,
+       -35.2
+      ],
+      [
+       10,
+       -28
+      ],
+      [
+       0,
+       -5
+      ],
+      [
+       -18,
+       14
+      ],
+      [
+       -18,
+       28
+      ],
+      [
+       -11,
+       37
+      ],
+      [
+       -9.7,
+       43.3
+      ],
+      [
+       -5,
+       48.5
+      ],
+      [
+       1.5,
+       50.5
+      ],
+      [
+       4,
+       52
+      ]
+     ]
+    ]
+   },
+   "decision": "For most container and tanker trades the Cape route is still cheaper than the risk. Transit is mainly chosen by ships with little perceived link to Israel, the US or Saudi Arabia."
+  },
+  "suez-canal": {
+   "portwatch": [
+    "suez"
+   ],
+   "baseline": [
+    "2023-01-01",
+    "2023-10-31"
+   ],
+   "baseline_label": "January to October 2023, before Houthi attacks began",
+   "status": "Open, traffic well below normal",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "High",
+    "scenarios": [
+     [
+      "Stays depressed",
+      80,
+      "Traffic follows Bab el-Mandeb: no recovery while the southern Red Sea stays dangerous."
+     ],
+     [
+      "Gradual recovery",
+      10,
+      "Some carriers trial the route if the Red Sea quietens."
+     ],
+     [
+      "Further fall",
+      10,
+      "Wider Red Sea escalation pushes more ships to the Cape."
+     ]
+    ],
+    "why": "The canal itself is safe. Its traffic depends almost entirely on security at the southern end of the Red Sea."
+   },
+   "resolution": "Tied to Bab el-Mandeb. Expect months rather than weeks.",
+   "expect": [
+    "Egypt has offered toll discounts to win traffic back, with limited effect.",
+    "Northern Red Sea war cover is far cheaper than at Bab el-Mandeb, which helps ships serving Saudi and Jordanian ports."
+   ],
+   "premium": {
+    "text": "About 0.1% of hull value in the northern Red Sea near western Saudi Arabia (July), well below the Bab el-Mandeb rate.",
+    "mid": 0.1,
+    "src": [
+     [
+      "Al Jazeera, citing S&P Global (23 Jul 2026)",
+      "https://www.aljazeera.com/economy/2026/7/23/how-shipping-insurance-rates-are-rising-as-hormuz-bab-al-mandeb-shut-down"
+     ]
+    ]
+   },
+   "reroute": {
+    "via": "Cape of Good Hope",
+    "days": 12,
+    "nm": 3500,
+    "note": "Asia–North Europe, compared with the Suez route."
+   },
+   "alt": null,
+   "decision": "The canal is only worth using if the voyage avoids the southern Red Sea or the owner accepts Bab el-Mandeb risk."
+  },
+  "bosporus": {
+   "portwatch": [
+    "bosporus",
+    "bosphorus"
+   ],
+   "baseline": [
+    "2025-01-01",
+    "2025-12-31"
+   ],
+   "baseline_label": "2025",
+   "status": "Open; ships near Ukrainian and Russian ports under drone and missile threat",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "Medium",
+    "scenarios": [
+     [
+      "Strikes continue",
+      70,
+      "Both sides keep hitting ships and ports linked to the other."
+     ],
+     [
+      "Narrow calm",
+      20,
+      "An energy or maritime truce from the Abu Dhabi track lowers the strike rate."
+     ],
+     [
+      "Sharp escalation",
+      10,
+      "Strikes widen to neutral shipping or Turkish waters."
+     ]
+    ],
+    "why": "Russia says it struck three cargo ships around Odesa and Chornomorsk on 8 November, and Ukraine keeps targeting shadow-fleet tankers. Talks in Abu Dhabi produced a prisoner swap, not a ceasefire."
+   },
+   "resolution": "Linked to the wider war. A maritime truce is possible but has not been agreed.",
+   "expect": [
+    "War cover for Black Sea calls is now quoted per port and per voyage, and quotes are volatile.",
+    "Sanctioned Russian tankers transit the Bosporus, so screening counterparties matters as much as security."
+   ],
+   "premium": {
+    "text": "Up to 1% for some Ukrainian ports in early November, from 0.25–0.3% before the latest attacks. Exceptional quotes near 20% were reported for the CPC terminal in late October.",
+    "mid": 1.0,
+    "src": [
+     [
+      "India Seatrade News (1 Nov 2026)",
+      "https://indiaseatradenews.com/war-risk-premiums-jump-in-black-sea/"
+     ],
+     [
+      "Insurance Business (Nov 2026)",
+      "https://www.insurancebusinessmag.com/uk/news/marine/its-worse-than-the-second-world-war--but-not-everywhere-596604.aspx"
+     ]
+    ]
+   },
+   "reroute": null,
+   "alt": null,
+   "decision": "There is no sea alternative for Black Sea ports. The choice is whether to accept a specific port call, wait for a quieter window, or move cargo through Danube or rail links."
+  },
+  "taiwan-strait": {
+   "portwatch": [
+    "taiwan"
+   ],
+   "baseline": [
+    "2025-01-01",
+    "2025-12-31"
+   ],
+   "baseline_label": "2025",
+   "status": "Open, normal commercial traffic under military pressure",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "Medium",
+    "scenarios": [
+     [
+      "Steady coercion",
+      85,
+      "Daily Chinese military and coast guard activity without disruption to commercial shipping."
+     ],
+     [
+      "Exercise or quarantine disruption",
+      12,
+      "Large drills close areas for days and ships reroute east of Taiwan."
+     ],
+     [
+      "Blockade",
+      3,
+      "A blockade or quarantine stops traffic to Taiwan’s ports."
+     ]
+    ],
+    "why": "Pressure is constant but calibrated. The APEC meeting in Shenzhen on 18–19 November gives Beijing a reason to avoid a crisis this month."
+   },
+   "resolution": "Not applicable while traffic is normal. Any closure from drills would likely last days.",
+   "expect": [
+    "Short-notice live-fire zones can force reroutes east of Taiwan.",
+    "Any crisis would quickly bring war-risk premiums to Asian routes that have not paid them before."
+   ],
+   "premium": {
+    "text": "No widely reported additional war-risk premium for commercial transits.",
+    "mid": 0.0,
+    "src": []
+   },
+   "reroute": {
+    "via": "East of Taiwan",
+    "days": 1,
+    "nm": 200,
+    "note": "Rough figure for north–south coastal routes; the detour is usually under a day."
+   },
+   "alt": null,
+   "decision": "Business as usual, but voyage plans should include an east-of-Taiwan fallback and charter terms should cover sudden closures."
+  },
+  "strait-of-malacca": {
+   "portwatch": [
+    "malacca"
+   ],
+   "baseline": [
+    "2025-01-01",
+    "2025-12-31"
+   ],
+   "baseline_label": "2025",
+   "status": "Open, normal",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "High",
+    "scenarios": [
+     [
+      "Normal operations",
+      90,
+      "Heavy but routine traffic, with low-level robbery in the Singapore Strait."
+     ],
+     [
+      "Local disruption",
+      8,
+      "A collision, spill or robbery spike slows traffic for days."
+     ],
+     [
+      "Wider disruption",
+      2,
+      "South China Sea tension spills over to onward routes."
+     ]
+    ],
+    "why": "No state actor threatens the strait directly. The main risks are accidents and petty crime."
+   },
+   "resolution": "Not applicable.",
+   "expect": [
+    "Robbery of anchored or slow ships in the Singapore Strait continues; ReCAAP publishes incident reports.",
+    "Larger ships that cannot use Malacca already go via Lombok."
+   ],
+   "premium": {
+    "text": "No additional war-risk premium.",
+    "mid": 0.0,
+    "src": []
+   },
+   "reroute": {
+    "via": "Sunda or Lombok Strait",
+    "days": 2,
+    "nm": 600,
+    "note": "Rough figure; depends on origin and destination."
+   },
+   "alt": {
+    "label": "Sunda Strait detour",
+    "note": "The fallback if Malacca were blocked, adding roughly one to three days.",
+    "lines": [
+     [
+      [
+       92,
+       2
+      ],
+      [
+       100,
+       -7.5
+      ],
+      [
+       105.85,
+       -6.05
+      ],
+      [
+       106.6,
+       -5.3
+      ],
+      [
+       107.1,
+       -2.6
+      ],
+      [
+       105.2,
+       0.5
+      ],
+      [
+       104.2,
+       1.2
+      ]
+     ]
+    ]
+   },
+   "decision": "No action needed beyond normal security watchkeeping in the Singapore Strait."
+  },
+  "panama-canal": {
+   "portwatch": [
+    "panama"
+   ],
+   "baseline": [
+    "2025-01-01",
+    "2025-12-31"
+   ],
+   "baseline_label": "2025",
+   "status": "Open, normal",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "High",
+    "scenarios": [
+     [
+      "Normal operations",
+      90,
+      "Water levels are adequate and transits run normally."
+     ],
+     [
+      "Political disruption",
+      8,
+      "The US–China port dispute affects terminal operations at either end."
+     ],
+     [
+      "Draught limits",
+      2,
+      "An early dry spell forces limits on ship size."
+     ]
+    ],
+    "why": "The canal is operating normally. The main open question is who runs the ports at each end."
+   },
+   "resolution": "Not applicable.",
+   "expect": [
+    "Booking slots in advance avoids queues in busy periods.",
+    "Port ownership disputes can affect terminal contracts rather than the canal itself."
+   ],
+   "premium": {
+    "text": "No additional war-risk premium.",
+    "mid": 0.0,
+    "src": []
+   },
+   "reroute": null,
+   "alt": null,
+   "decision": "No action needed."
+  },
+  "danish-straits": {
+   "portwatch": [
+    "great belt",
+    "oresund",
+    "danish"
+   ],
+   "baseline": [
+    "2025-01-01",
+    "2025-12-31"
+   ],
+   "baseline_label": "2025",
+   "status": "Open; watch point for Russia’s shadow fleet",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "Medium",
+    "scenarios": [
+     [
+      "Steady state",
+      80,
+      "Shadow-fleet tankers keep transiting; coastal states inspect and document."
+     ],
+     [
+      "Tougher enforcement",
+      15,
+      "More boarding, insurance checks or detentions of uninsured tankers."
+     ],
+     [
+      "Sabotage incident",
+      5,
+      "Damage to a cable or pipeline brings new restrictions."
+     ]
+    ],
+    "why": "European states are tightening checks on uninsured tankers, and Russia escorts some of them."
+   },
+   "resolution": "Not applicable.",
+   "expect": [
+    "Tankers without proper insurance face inspection and possible detention.",
+    "Counterparty screening is the main risk for traders, not physical security."
+   ],
+   "premium": {
+    "text": "No additional war-risk premium.",
+    "mid": 0.0,
+    "src": []
+   },
+   "reroute": null,
+   "alt": null,
+   "decision": "For legitimate operators, the risk is being near or dealing with sanctioned tankers. Screen counterparties and ship-to-ship partners."
+  },
+  "cape-of-good-hope": {
+   "portwatch": [
+    "cape of good hope",
+    "good hope"
+   ],
+   "baseline": [
+    "2023-01-01",
+    "2023-10-31"
+   ],
+   "baseline_label": "January to October 2023, before Red Sea diversions",
+   "status": "Busy with diverted traffic",
+   "outlook": {
+    "horizon": "Next 30 days",
+    "confidence": "High",
+    "scenarios": [
+     [
+      "Stays busy",
+      85,
+      "Most Asia–Europe container traffic keeps sailing round Africa."
+     ],
+     [
+      "Heavier still",
+      10,
+      "Red Sea escalation pushes the remaining Suez traffic to the Cape."
+     ],
+     [
+      "Traffic falls back",
+      5,
+      "Carriers return to the Red Sea."
+     ]
+    ],
+    "why": "The Cape route depends on the Red Sea staying unsafe, which looks likely through the next month."
+   },
+   "resolution": "Not applicable.",
+   "expect": [
+    "Southern-hemisphere storms can add delays.",
+    "Bunker prices and availability in South Africa matter more for voyage costs."
+   ],
+   "premium": {
+    "text": "No additional war-risk premium.",
+    "mid": 0.0,
+    "src": []
+   },
+   "reroute": null,
+   "alt": null,
+   "decision": "The default route for Asia–Europe trade while the Red Sea stays dangerous."
+  }
+ },
+ "incidents": [
+  {
+   "date": "2026-11-11",
+   "choke": "strait-of-hormuz",
+   "lat": 26.45,
+   "lon": 56.35,
+   "approx": true,
+   "type": "Attack",
+   "title": "Tanker incident in the Strait of Hormuz",
+   "text": "UKMTO reported an incident involving a tanker; damage and crew status were not yet known.",
+   "src": [
+    "Arab News / Reuters (11 Nov)",
+    "https://www.arabnews.com/middle-east/ukmto-reports-tanker-incident-in-strait-of-hormuz-3011095"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "choke": "strait-of-hormuz",
+   "lat": 25.6,
+   "lon": 54.6,
+   "approx": true,
+   "type": "Attack",
+   "title": "ADNOC vessel damaged in Gulf attack",
+   "text": "A vessel operated by the UAE’s state oil company was damaged in an attack in the Gulf.",
+   "src": [
+    "gCaptain (10 Nov)",
+    "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz/"
+   ]
+  },
+  {
+   "date": "2026-11-08",
+   "choke": "bosporus",
+   "lat": 46.4,
+   "lon": 30.8,
+   "approx": true,
+   "type": "Strike",
+   "title": "Russia says it struck three cargo ships near Odesa and Chornomorsk",
+   "text": "Russia’s defence ministry claimed the ships carried weapons or dual-use goods; the claim is unverified.",
+   "src": [
+    "ShipUniverse, citing Reuters (Nov)",
+    "https://www.shipuniverse.com/?p=27246"
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "choke": "strait-of-hormuz",
+   "lat": 26.29,
+   "lon": 56.13,
+   "approx": false,
+   "type": "Attack",
+   "title": "Tanker on fire off Khasab; crew evacuated",
+   "text": "A tanker caught fire about 8 nautical miles northwest of Khasab, Oman. Another outbound tanker was hit by a projectile the same day; its crew was safe.",
+   "src": [
+    "gCaptain (10 Nov)",
+    "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz/"
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "choke": "strait-of-hormuz",
+   "lat": 25.0,
+   "lon": 57.6,
+   "approx": true,
+   "type": "Strike",
+   "title": "US strikes a bulk carrier in the Gulf of Oman",
+   "text": "Iran and the US traded strikes on commercial ships over the weekend; eight vessels had been attacked by Iran in Hormuz and the Gulf since 1 November.",
+   "src": [
+    "Seatrade Maritime (8 Nov)",
+    "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "choke": "strait-of-hormuz",
+   "lat": 26.55,
+   "lon": 56.3,
+   "approx": true,
+   "type": "Advisory",
+   "title": "JMIC: four attacks in Hormuz in 96 hours",
+   "text": "The Joint Maritime Information Centre reported a rising attack rate in its 5 November advisory.",
+   "src": [
+    "Gulf News (Nov)",
+    "https://gulfnews.com/business/energy/hormuz-attacks-rise-as-iran-steps-up-pressure-on-shipping-ukmto-warns-1.500737866"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "choke": "strait-of-hormuz",
+   "lat": 25.9,
+   "lon": 56.7,
+   "approx": true,
+   "type": "Attack",
+   "title": "Two projectiles hit a tanker off Oman",
+   "text": "UKMTO warning 195-26 reported a tanker struck off the Omani coast.",
+   "src": [
+    "Shafaq News (3 Nov)",
+    "https://www.shafaq.com/en/Middle-East/UKMTO-Two-projectiles-hit-oil-tanker-off-Oman-s-coast"
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "choke": "strait-of-hormuz",
+   "lat": 26.4,
+   "lon": 56.45,
+   "approx": true,
+   "type": "Attack",
+   "title": "Tug Selat Storm and tanker Era S struck",
+   "text": "Two vessels were hit in the Strait of Hormuz on the first day of November.",
+   "src": [
+    "Seatrade Maritime (4 Nov)",
+    "https://seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack"
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "choke": "strait-of-hormuz",
+   "lat": 27.8,
+   "lon": 49.6,
+   "approx": true,
+   "type": "Attack",
+   "title": "Tanker attacked off Saudi Arabia",
+   "text": "UKMTO reported a tanker attacked in the upper Gulf offshore of Saudi Arabia.",
+   "src": [
+    "Seatrade Maritime (2 Nov)",
+    "https://seatrade-maritime.com/security/tanker-hit-off-saudi-and-offshore-tug-struck-in-hormuz"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "choke": "strait-of-hormuz",
+   "lat": 26.5,
+   "lon": 56.4,
+   "approx": true,
+   "type": "Loss",
+   "title": "Container ship GFS Pride sinks",
+   "text": "A total loss for hull war underwriters.",
+   "src": [
+    "Alupetra (Oct 2026)",
+    "https://www.alupetra.com/insights/hormuz-tanker-freight-rates-war-risk-insurance-2026.html"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "choke": "taiwan-strait",
+   "lat": 24.45,
+   "lon": 118.4,
+   "approx": true,
+   "type": "Security",
+   "title": "Taiwan drives four Chinese ships from Kinmen waters",
+   "text": "Taiwan’s coast guard escorted Chinese vessels out of restricted waters off Kinmen.",
+   "src": [
+    "Pacific Winds (12 Nov)",
+    "https://pcisguam.substack.com/p/pacific-winds-20261112"
+   ]
+  }
+ ]
+}
