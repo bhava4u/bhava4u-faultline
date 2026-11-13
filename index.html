@@ -77,6 +77,17 @@ nav a:hover{color:var(--ink)}
 .country:hover{opacity:.82;cursor:pointer}
 .country.sel{stroke:var(--ink);stroke-width:1.6}
 .country.dim{opacity:.18}
+.chk{cursor:pointer}
+.chk .ring{fill:none;stroke:var(--ink);stroke-width:2}
+.chk .dot{stroke:var(--bg);stroke-width:1.5}
+.chk.sel .ring{stroke-width:3.5}
+.chk:hover .ring{stroke-width:3}
+.chips2{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:10px}
+.chips2 span{font-size:13px;color:var(--muted);align-self:center;margin-right:2px}
+.chips2 button{font:500 12.5px "Public Sans",sans-serif;padding:5px 10px;border:1px solid var(--rule);border-radius:14px;background:var(--surface);color:var(--ink);cursor:pointer}
+.chips2 button:hover{border-color:var(--ink)}
+.aff{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0}
+.aff button{font:500 13px "Public Sans",sans-serif;padding:5px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink);cursor:pointer}
 .rtag{display:inline-block;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.03em;text-transform:uppercase;margin-bottom:4px}
 .biz{margin:0 0 18px;padding:12px 14px;border-left:3px solid var(--focus);background:var(--bg);border-radius:0 4px 4px 0}
 .biz h4{margin:0 0 4px;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
@@ -259,6 +270,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
       </div>
     </div>
     <div class="legend" id="legend"></div>
+    <div class="chips2" id="chokeChips"></div>
   </div>
   <aside class="brief" aria-live="polite">
     <div class="picker">
@@ -407,7 +419,15 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     proj.translate([r.width/2, r.height/2]).scale(base*zoom);
     draw();
   }
-  function draw(){ gSphere.attr('d', path); gGrat.attr('d', path); countries.attr('d', path); }
+  const CHOKES = DATA.chokepoints||[], CBY = {}; CHOKES.forEach(c=>CBY[c.id]=c);
+  const gK = svg.append('g');
+  const marks = gK.selectAll('g').data(CHOKES).join('g').attr('class','chk').attr('tabindex',0).attr('role','button').attr('aria-label',c=>c.n+' chokepoint, '+LEVELS[c.l]);
+  marks.append('circle').attr('class','ring').attr('r',9);
+  marks.append('circle').attr('class','dot').attr('r',5).attr('fill',c=>`var(--l${c.l})`);
+  function draw(){ gSphere.attr('d', path); gGrat.attr('d', path); countries.attr('d', path);
+    const r=proj.rotate(), ctr=[-r[0],-r[1]];
+    marks.attr('display',c=>d3.geoDistance([c.lon,c.lat],ctr)<1.5?null:'none').attr('transform',c=>{const p=proj([c.lon,c.lat]);return `translate(${p[0]},${p[1]})`;});
+  }
   new ResizeObserver(resize).observe(wrap);
 
   // tooltip
@@ -461,12 +481,34 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
 
   function select(id, rotate){
     stopSpin();
-    countries.classed('sel', d => d.id === id);
+    countries.classed('sel', d => d.id === id); marks.classed('sel', false);
     $('#pick').value = RISK[id] ? id : '';
     if(rotate) rotateTo(id);
     renderBrief(id);
     if(RISK[id] && window.goatcounter && goatcounter.count){ try{ goatcounter.count({path:'country/'+SLUG[id], title:RISK[id].n, event:true}); }catch(e){} }
     if(RISK[id] && SLUG[id] && location.hash!=='#'+SLUG[id]){ try{ history.replaceState(null,'','#'+SLUG[id]); }catch(e){} }
+  }
+
+  marks.on('click',(ev,c)=>{ev.stopPropagation(); selectChoke(c.id,true);})
+       .on('keydown',(ev,c)=>{ if(ev.key==='Enter') selectChoke(c.id,true); })
+       .on('pointermove',(ev,c)=>{ const r=wrap.getBoundingClientRect(); tip.textContent=c.n+': '+LEVELS[c.l]; tip.style.left=(ev.clientX-r.left)+'px'; tip.style.top=(ev.clientY-r.top)+'px'; tip.classList.add('on'); })
+       .on('pointerleave',()=>tip.classList.remove('on'));
+  $('#chokeChips').innerHTML = CHOKES.length ? '<span>Shipping chokepoints:</span>'+CHOKES.map(c=>`<button data-c="${c.id}">${c.n}</button>`).join('') : '';
+  $('#chokeChips').addEventListener('click',e=>{const b=e.target.closest('button[data-c]'); if(b) selectChoke(b.dataset.c,true);});
+  function selectChoke(cid, rotate){
+    const c=CBY[cid]; if(!c) return; stopSpin();
+    countries.classed('sel',false); marks.classed('sel',m=>m.id===cid); $('#pick').value='';
+    if(rotate){ const target=[-c.lon,-c.lat]; if(reduce){proj.rotate(target);draw();} else { const ip=d3.interpolate(proj.rotate(),target); d3.transition().duration(900).ease(d3.easeCubicInOut).tween('rot',()=>t=>{proj.rotate(ip(t));draw();}); } }
+    $('#briefBody').innerHTML = `<span class="rtag">Shipping chokepoint</span><h2>${c.n}</h2>
+      <div class="level">${meter(c.l)}<span>Threat level <strong>${LEVELS[c.l]}</strong>, ${c.l} of 5</span></div>
+      <p class="summary">${c.s}</p>
+      <ol class="issues">${c.i.map(([t,l,x])=>`<li><div class="issue-head"><h3>${t}</h3><span class="pill p${l}" style="${pillStyle(l)}">${LEVELS[l]}</span></div><p>${x}</p></li>`).join('')}</ol>
+      ${(c.c||[]).filter(x=>RISK[x]).length?`<div class="aff">${c.c.filter(x=>RISK[x]).map(x=>`<button data-id="${x}">${RISK[x].n}</button>`).join('')}</div>`:''}
+      <div class="srcs"><h4>Sources</h4>${c.src&&c.src.length?`<ul>${c.src.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${t}</a></li>`).join('')}</ul>`:'<p>Based on open-source reporting. Linked sources are added as each chokepoint is reviewed.</p>'}</div>
+      <p class="note">Assessed ${ASSESSED}.</p>`;
+    $('#briefBody').querySelectorAll('.aff button').forEach(b=>b.onclick=()=>select(b.dataset.id,true));
+    if(window.goatcounter && goatcounter.count){ try{ goatcounter.count({path:'chokepoint/'+cid, title:c.n, event:true}); }catch(e){} }
+    if(location.hash!=='#'+cid){ try{ history.replaceState(null,'','#'+cid); }catch(e){} }
   }
 
   // trends
@@ -485,7 +527,8 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   const SLUG = {}, BYSLUG = {};
   Object.keys(RISK).forEach(id => { const s = slugify(RISK[id].n); SLUG[id]=s; BYSLUG[s]=id; });
   function openFromHash(){
-    const id = BYSLUG[decodeURIComponent(location.hash.slice(1))];
+    const hs = decodeURIComponent(location.hash.slice(1)); if(CBY[hs]){ selectChoke(hs,true); document.getElementById('map').scrollIntoView(); return; }
+    const id = BYSLUG[hs];
     if(id){ select(id, true); document.getElementById('map').scrollIntoView(); }
   }
   window.addEventListener('hashchange', openFromHash);

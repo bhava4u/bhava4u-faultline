@@ -3401,6 +3401,10 @@
     [
      null,
      "Full review of all 100 countries: about 30 updated with new developments and sources, including Israel, Sudan, DR Congo, Venezuela and Colombia."
+    ],
+    [
+     null,
+     "New: shipping chokepoints layer on the globe, covering Hormuz, Bab el-Mandeb, Suez, the Bosporus, the Taiwan Strait, Malacca, Panama and the Danish Straits."
     ]
    ]
   },
@@ -3496,6 +3500,281 @@
      "Lula won the presidential runoff; his opponent has not conceded."
     ]
    ]
+  }
+ ],
+ "chokepoints": [
+  {
+   "id": "strait-of-hormuz",
+   "n": "Strait of Hormuz",
+   "lat": 26.57,
+   "lon": 56.25,
+   "l": 5,
+   "s": "About a fifth of the world’s oil normally passes here. It is effectively closed by the Iran war and the US blockade.",
+   "i": [
+    [
+     "Near-closure",
+     5,
+     "Transits are down to a handful a day, against about 85 before the war."
+    ],
+    [
+     "Mines and attacks",
+     5,
+     "Iran has attacked eight ships in and around the strait since 1 November, and tankers have hit mines."
+    ],
+    [
+     "US blockade",
+     4,
+     "US forces are enforcing a naval blockade of Iranian ports and have disabled a ship trying to breach it."
+    ]
+   ],
+   "c": [
+    "364",
+    "784",
+    "512",
+    "634",
+    "682",
+    "414",
+    "356"
+   ],
+   "src": [
+    [
+     "Al Jazeera: US launches task force against Iran’s land supply routes (8 Nov)",
+     "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes"
+    ],
+    [
+     "Seatrade Maritime: Crew abandon tanker in Hormuz (8 Nov)",
+     "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
+    ]
+   ]
+  },
+  {
+   "id": "bab-el-mandeb",
+   "n": "Bab el-Mandeb",
+   "lat": 12.58,
+   "lon": 43.33,
+   "l": 5,
+   "s": "The southern gateway to the Red Sea and Suez route, threatened by Houthi forces in Yemen.",
+   "i": [
+    [
+     "Houthi attacks",
+     5,
+     "Houthi missile and drone capability keeps the strait one of the riskiest shipping routes in the world."
+    ],
+    [
+     "Yemen escalation",
+     4,
+     "Fighting between the Houthis and the Saudi-led coalition is intensifying."
+    ],
+    [
+     "Rerouting",
+     4,
+     "Many shippers still avoid the route and sail around Africa instead, adding time and cost."
+    ]
+   ],
+   "c": [
+    "887",
+    "682",
+    "706",
+    "818"
+   ],
+   "src": [
+    [
+     "AP via KSAT: Overnight strikes in Yemen (10 Nov)",
+     "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
+    ]
+   ]
+  },
+  {
+   "id": "suez-canal",
+   "n": "Suez Canal",
+   "lat": 30.6,
+   "lon": 32.33,
+   "l": 4,
+   "s": "Europe’s shortest sea link to Asia, with traffic still depressed by Red Sea insecurity.",
+   "i": [
+    [
+     "Diverted traffic",
+     4,
+     "Attacks around Bab el-Mandeb keep many ships away from the Red Sea route."
+    ],
+    [
+     "Egypt’s lost revenue",
+     3,
+     "Lower canal income adds to Egypt’s debt and currency pressure."
+    ],
+    [
+     "Gulf war spillover",
+     3,
+     "The Iran war raises insurance costs for all Middle East routes."
+    ]
+   ],
+   "c": [
+    "818",
+    "887"
+   ],
+   "src": []
+  },
+  {
+   "id": "bosporus",
+   "n": "Bosporus and Black Sea",
+   "lat": 41.12,
+   "lon": 29.05,
+   "l": 3,
+   "s": "The only sea route for Ukrainian and Russian Black Sea exports, under regular drone threat.",
+   "i": [
+    [
+     "Drone strikes on shipping",
+     4,
+     "A Turkish-owned grain ship was sunk on 5 October, and drones hit vessels in Bulgarian waters in mid-October."
+    ],
+    [
+     "Ukrainian grain exports",
+     3,
+     "Attacks raise freight and insurance costs for food exports."
+    ],
+    [
+     "Russian shadow fleet",
+     3,
+     "Sanctioned Russian tankers transit the straits, adding spill and enforcement risk."
+    ]
+   ],
+   "c": [
+    "792",
+    "804",
+    "643",
+    "100",
+    "642"
+   ],
+   "src": []
+  },
+  {
+   "id": "taiwan-strait",
+   "n": "Taiwan Strait",
+   "lat": 24.4,
+   "lon": 119.6,
+   "l": 4,
+   "s": "A main artery for Asian trade and chip supply chains, under steady Chinese military pressure.",
+   "i": [
+    [
+     "PLA coercion",
+     4,
+     "Chinese ships and aircraft operate around Taiwan daily; Taiwan’s coast guard drove four Chinese ships from Kinmen waters on 10 November."
+    ],
+    [
+     "Blockade risk",
+     3,
+     "A quarantine or blockade would disrupt shipping and semiconductor exports worldwide."
+    ],
+    [
+     "Insurance and rerouting",
+     2,
+     "Any crisis would quickly raise war-risk premiums for Asian routes."
+    ]
+   ],
+   "c": [
+    "158",
+    "156",
+    "392",
+    "608"
+   ],
+   "src": [
+    [
+     "Pacific Winds: Indo-Pacific security digest (12 Nov)",
+     "https://pcisguam.substack.com/p/pacific-winds-20261112"
+    ]
+   ]
+  },
+  {
+   "id": "strait-of-malacca",
+   "n": "Strait of Malacca",
+   "lat": 2.6,
+   "lon": 101.4,
+   "l": 2,
+   "s": "The busiest shipping lane between the Indian Ocean and East Asia.",
+   "i": [
+    [
+     "Congestion and accidents",
+     2,
+     "Heavy traffic raises collision and pollution risk."
+    ],
+    [
+     "Piracy and armed robbery",
+     2,
+     "Low-level robbery of ships continues in the Singapore Strait."
+    ],
+    [
+     "South China Sea tension",
+     2,
+     "Disputes nearby could affect onward routes to East Asia."
+    ]
+   ],
+   "c": [
+    "458",
+    "360"
+   ],
+   "src": []
+  },
+  {
+   "id": "panama-canal",
+   "n": "Panama Canal",
+   "lat": 9.1,
+   "lon": -79.7,
+   "l": 2,
+   "s": "The key link between the Atlantic and Pacific, at the centre of US–China competition over ports.",
+   "i": [
+    [
+     "US–China port rivalry",
+     3,
+     "Disputes over who operates ports at either end have drawn in Washington and Beijing."
+    ],
+    [
+     "Water levels",
+     2,
+     "Droughts in recent years have forced limits on the number and size of ships."
+    ],
+    [
+     "Regional politics",
+     1,
+     "The canal itself operates normally."
+    ]
+   ],
+   "c": [
+    "840",
+    "156"
+   ],
+   "src": []
+  },
+  {
+   "id": "danish-straits",
+   "n": "Danish Straits",
+   "lat": 55.9,
+   "lon": 12.7,
+   "l": 2,
+   "s": "The Baltic Sea’s gateway to the North Sea, used by Russia’s shadow fleet.",
+   "i": [
+    [
+     "Shadow-fleet tankers",
+     3,
+     "Sanctioned Russian tankers pass through, raising spill and enforcement risk."
+    ],
+    [
+     "Undersea infrastructure",
+     2,
+     "Cables and pipelines in the Baltic have been damaged in suspected sabotage."
+    ],
+    [
+     "Drone incursions",
+     2,
+     "Drones over Danish airports and bases in 2025 were described as a hybrid attack."
+    ]
+   ],
+   "c": [
+    "208",
+    "643",
+    "752",
+    "246"
+   ],
+   "src": []
   }
  ]
 }
