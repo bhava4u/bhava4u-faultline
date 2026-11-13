@@ -77,6 +77,16 @@ nav a:hover{color:var(--ink)}
 .country:hover{opacity:.82;cursor:pointer}
 .country.sel{stroke:var(--ink);stroke-width:1.6}
 .country.dim{opacity:.18}
+.econ{margin:16px 0 0;padding:12px 14px;border:1px solid var(--rule);border-radius:4px}
+.econ h4{margin:0 0 8px;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.econ .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.econ .tile{background:var(--bg);border-radius:4px;padding:7px 9px}
+.econ .tile small{display:block;font-size:11.5px;color:var(--muted)}
+.econ .tile b{font:600 19px/1.2 Spectral,Georgia,serif}
+.econ .tile em{font-style:normal;font-size:11.5px;color:var(--muted)}
+.econ .gchart{margin-top:8px}
+.econ .gchart svg{display:block;width:100%;height:auto}
+.econ p{margin:6px 0 0;font-size:11.5px;color:var(--muted)}
 .chk{cursor:pointer}
 .chk .ring{fill:none;stroke:var(--ink);stroke-width:2}
 .chk .dot{stroke:var(--bg);stroke-width:1.5}
@@ -154,7 +164,7 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 #printArea .pb-brand{display:flex;align-items:center;gap:8px;font:600 17pt Spectral,Georgia,serif}
 #printArea .pb-brand svg{width:20px;height:20px}
 #printArea .pb-head small{font-size:8.5pt;opacity:.85;text-align:right;line-height:1.35}
-#printArea .pb-top{display:grid;grid-template-columns:58mm 1fr;gap:12px;margin:12px 0 10px;align-items:center}
+#printArea .pb-top{display:grid;grid-template-columns:50mm 1fr;gap:12px;margin:12px 0 10px;align-items:center}
 #printArea .pb-map svg{width:100%;height:auto;display:block}
 #printArea .pb-region{font-size:8pt;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 #printArea h1{font:600 25pt/1.05 Spectral,Georgia,serif;margin:2px 0 8px}
@@ -179,6 +189,13 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 #printArea .hist h4{display:none}
 #printArea .pb-src{margin:6px 0 0;padding:0;list-style:none;font-size:8pt;color:#3B484C}
 #printArea .pb-src li{margin:0 0 2px;overflow-wrap:anywhere}
+#printArea .econ{margin:0 0 8px;padding:7px 9px;border:1px solid var(--rule);border-radius:3px;break-inside:avoid}
+#printArea .econ h4{font-size:7.8pt;letter-spacing:.07em;margin:0 0 5px}
+#printArea .econ .tiles{gap:5px}
+#printArea .econ .tile{background:#F1F3EF;padding:4px 7px}
+#printArea .econ .tile small,#printArea .econ .tile em{font-size:7.4pt}
+#printArea .econ .tile b{font-size:12.5pt}
+#printArea .econ p{font-size:7.2pt;margin-top:4px}
 #printArea .pb-foot{display:flex;justify-content:space-between;gap:12px;border-top:2px solid #1D282C;margin-top:10px;padding-top:6px;font-size:7.8pt;color:var(--muted)}
 #printArea .pb-foot b{color:#1D282C}
 .tip{position:absolute;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--rule);padding:6px 10px;font-size:13px;border-radius:4px;white-space:nowrap;transform:translate(-50%,-130%);opacity:0;transition:opacity .1s}
@@ -593,6 +610,26 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     ok.innerHTML='Your email app should open with the message ready to send. If it doesn’t, email <a href="mailto:admin@faultlinerisk.com">admin@faultlinerisk.com</a>.';
   }));
 
+  // economic snapshot (IMF WEO)
+  const fmt = v => (v>0?'+':'')+(Math.round(v*10)/10).toFixed(1)+'%';
+  function econHtml(k){
+    const e=k.e, E=DATA.econ||{};
+    if(!e) return `<div class="econ"><h4>Economic snapshot</h4><p>The IMF does not publish forecasts for ${k.n}.</p></div>`;
+    const W=(E.world||{}), t=[];
+    if(e.g!=null) t.push(['GDP growth, 2026', fmt(e.g), W.g!=null?('World '+fmt(W.g)):'']);
+    if(e.i!=null) t.push(['Inflation, 2026', (Math.round(e.i*10)/10).toFixed(1)+'%', W.i!=null?('World '+W.i.toFixed(1)+'%'):'']);
+    if(e.d!=null) t.push(['Government debt', Math.round(e.d)+'% of GDP', '']);
+    if(e.ca!=null) t.push(['Current account', fmt(e.ca)+' of GDP', '']);
+    let chart='';
+    if(e.gs){ const yrs=[2024,2025,2026,2027], mx=Math.max(1,...e.gs.map(Math.abs)), W2=240, H=58, mid=H/2, bw=36;
+      chart='<div class="gchart"><svg viewBox="0 0 '+W2+' '+(H+14)+'" role="img" aria-label="GDP growth 2024 to 2027">'+
+        `<line x1="0" x2="${W2}" y1="${mid}" y2="${mid}" stroke="var(--rule)"/>`+
+        e.gs.map((v,j)=>{const x=18+j*58, hh=Math.abs(v)/mx*(mid-14), y=v>=0?mid-hh:mid, col=v<0?'#9E2B2B':(j===3?'var(--muted)':'var(--focus)');
+          return `<rect x="${x}" y="${y}" width="${bw}" height="${Math.max(1,hh)}" rx="2" fill="${col}" fill-opacity="${j===3?0.45:0.85}"/><text x="${x+bw/2}" y="${v>=0?y-2:y+hh+9}" text-anchor="middle" font-size="9" fill="var(--ink)">${fmt(v)}</text><text x="${x+bw/2}" y="${H+12}" text-anchor="middle" font-size="9" fill="var(--muted)">${yrs[j]}${j===3?'f':''}</text>`;}).join('')+
+        '</svg></div>'; }
+    return `<div class="econ"><h4>Economic snapshot</h4><div class="tiles">${t.map(([a,b,c])=>`<div class="tile"><small>${a}</small><b>${b}</b>${c?`<em> ${c}</em>`:''}</div>`).join('')}</div>${chart}<p>Source: ${E.source||'IMF World Economic Outlook'}. Real GDP growth 2024–2027; 2026 figures are estimates, 2027 a forecast.</p></div>`;
+  }
+
   // printable brief
   function printBrief(id){
     const k = RISK[id], ev = EVENTS.filter(e=>(e.c||[]).includes(id));
@@ -615,10 +652,11 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
           <p class="pb-sum">${k.s}</p></div></div>
       ${k.b?`<div class="pb-biz"><b>What it means for business</b>${k.b}</div>`:''}
       <div class="pb-cols">
-        <div><h2>Top three issues</h2><ol class="pb-iss">${k.i.map(([t,l,x])=>`<li style="border-left-color:var(--l${l})"><div class="t"><span>${t}</span>${pill(l)}</div><p>${x}</p></li>`).join('')}</ol></div>
+        <div><h2>Top three issues</h2><ol class="pb-iss">${k.i.map(([t,l,x])=>`<li style="border-left-color:var(--l${l})"><div class="t"><span>${t}</span>${pill(l)}</div><p>${x}</p></li>`).join('')}</ol>
+          ${k.sc?`<div class="pb-box"><h2>Three-month scenarios</h2>${k.sc.map(([n,p,x])=>`<p><b>${n} (${p}%)</b>: ${x}</p>`).join('')}</div>`:''}</div>
         <div>
+          ${econHtml(k)}
           <div class="pb-box"><h2>Grade history</h2>${histSvg(k)||'<p>No history yet.</p>'}</div>
-          ${k.sc?`<div class="pb-box"><h2>Three-month scenarios</h2>${k.sc.map(([n,p,x])=>`<p><b>${n} (${p}%)</b>: ${x}</p>`).join('')}</div>`:''}
           ${ev.length?`<div class="pb-box"><h2>Coming up</h2>${ev.map(e=>`<p><b>${e.when}</b>: ${e.title}</p>`).join('')}</div>`:''}
           ${k.src&&k.src.length?`<div class="pb-box"><h2>Sources</h2><ul class="pb-src">${k.src.slice(0,4).map(([t,u])=>`<li>${t}</li>`).join('')}</ul></div>`:''}
         </div>
@@ -649,6 +687,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
       <div class="level">${meter(k.l)}<span>Threat level <strong>${LEVELS[k.l]}</strong>, ${k.l} of 5${arrow(k)}</span></div>
       <p class="summary">${k.s}</p>
       ${k.b?`<div class="biz"><h4>What it means for business</h4><p>${k.b}</p></div>`:''}
+      ${econHtml(k)}
       <ol class="issues">${k.i.map(([t,l,x])=>`
         <li><div class="issue-head"><h3>${t}</h3><span class="pill p${l}" style="${pillStyle(l)}">${LEVELS[l]}</span></div><p>${x}</p></li>`).join('')}
       </ol>
