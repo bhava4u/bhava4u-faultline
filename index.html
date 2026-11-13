@@ -77,6 +77,15 @@ nav a:hover{color:var(--ink)}
 .country:hover{opacity:.82;cursor:pointer}
 .country.sel{stroke:var(--ink);stroke-width:1.6}
 .country.dim{opacity:.18}
+.team{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.person{display:grid;grid-template-columns:72px 1fr;gap:18px;padding:22px;background:var(--surface);border:1px solid var(--rule);border-radius:6px}
+.avatar{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:var(--bg);font:600 24px Spectral,Georgia,serif;letter-spacing:.02em}
+.person h3{margin:0;font:600 22px/1.2 Spectral,Georgia,serif}
+.person .role{margin:3px 0 10px;font-size:14px;font-weight:600;color:var(--l4)}
+.person p{margin:0 0 10px;color:var(--muted);font-size:15px}
+.person .links{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0}
+.person .links a{font-size:14px;font-weight:600;color:var(--focus)}
+@media (max-width:860px){.team{grid-template-columns:1fr}.person{grid-template-columns:56px 1fr;padding:18px}.avatar{width:56px;height:56px;font-size:19px}}
 .econ{margin:16px 0 0;padding:12px 14px;border:1px solid var(--rule);border-radius:4px}
 .econ h4{margin:0 0 8px;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
 .econ .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
@@ -296,7 +305,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
     <svg viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 6 L12 12 L10 15 L16 20 L19 24" fill="none" stroke="var(--l4)" stroke-width="2" stroke-linejoin="round"/></svg>
     <b>Faultline</b>
   </a>
-  <nav aria-label="Sections"><a href="#map">Risk map</a><a href="#watch">Watchlist</a><a href="#soon">Coming up</a><a href="#all">All countries</a><a href="#log">Change log</a><a href="/insights/">Insights</a><a href="#contact">Contact</a><a href="#method">Method</a><a href="#about">What we do</a></nav>
+  <nav aria-label="Sections"><a href="#map">Risk map</a><a href="#watch">Watchlist</a><a href="#soon">Coming up</a><a href="#all">All countries</a><a href="#log">Change log</a><a href="/insights/">Insights</a><a href="#contact">Contact</a><a href="#method">Method</a><a href="#about">What we do</a><a href="#team">Who we are</a></nav>
   <span class="stamp" id="stamp">Assessed</span>
 </div></header>
 
@@ -379,6 +388,31 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
     <div><h3>Crisis monitoring</h3><p>Close tracking of fast-moving situations, such as the Gulf shipping crisis, with alerts when the threat level changes.</p></div>
   </div>
 </div></section>
+<section class="band" id="team"><div class="band-in">
+  <h2>Who we are</h2>
+  <p class="lede">Faultline is run by two analysts who combine geopolitical research with data and open-source intelligence.</p>
+  <div class="team">
+    <article class="person">
+      <div class="avatar" aria-hidden="true">BN</div>
+      <div>
+        <h3>Bhava Narayanan A S</h3>
+        <p class="role">Founder &amp; Lead Analyst, Geopolitical Risk</p>
+        <p>Geopolitical analyst focused on political risk, investigations and due diligence, with specialist depth on South Asia, China and the Gulf. MSc International Relations, London School of Economics. Based in London.</p>
+        <p class="links"><a href="https://www.linkedin.com/in/bhava-narayanan-a-s" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:bhava@faultlinerisk.com">bhava@faultlinerisk.com</a></p>
+      </div>
+    </article>
+    <article class="person">
+      <div class="avatar" aria-hidden="true">SC</div>
+      <div>
+        <h3>Sabari C S</h3>
+        <p class="role">Co-Founder &amp; Lead Analyst, Data Science</p>
+        <p>Data science and data extraction analyst who leads Faultline’s data work, from collecting open-source reporting to structuring it for analysis. Bachelor of Data Science, Queensland University of Technology. Based in Brisbane, Australia.</p>
+        <p class="links"><a href="https://www.linkedin.com/in/sabarics/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:sabari@faultlinerisk.com">sabari@faultlinerisk.com</a></p>
+      </div>
+    </article>
+  </div>
+</div></section>
+
 <section class="band" id="contact"><div class="band-in">
   <h2>Get in touch</h2>
   <p class="lede">Request a country brief or send feedback on an assessment.</p>
