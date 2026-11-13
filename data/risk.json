@@ -1,5 +1,5 @@
 {
- "assessed": "11 November 2026",
+ "assessed": "13 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -42,9 +42,9 @@
      "Resistance forces and ethnic armed groups still contest large areas."
     ],
     [
-     "Legitimacy of military-run election",
+     "Military-led government",
      4,
-     "Polls held under the junta have not ended the conflict or won broad acceptance."
+     "Min Aung Hlaing was elected president in 2026 after the military-run election, and Indonesia has moved to re-engage with the government."
     ],
     [
      "Scam centres and crime",
@@ -58,6 +58,16 @@
     [
      "2026-11-04",
      5
+    ]
+   ],
+   "src": [
+    [
+     "Wikipedia: 2026 in Asia",
+     "https://en.wikipedia.org/wiki/2026_in_Asia"
+    ],
+    [
+     "Wikipedia: Foreign involvement in the Myanmar civil war",
+     "https://en.wikipedia.org/wiki/Foreign_involvement_in_the_Myanmar_civil_war_(2021%E2%80%93present)"
     ]
    ]
   },
@@ -102,9 +112,9 @@
      "Tariffs on steel, aluminium and autos hurt exporters."
     ],
     [
-     "USMCA review",
-     3,
-     "The 2026 review could reshape market access."
+     "Trade diversification",
+     2,
+     "Prime Minister Carney is touring Europe and Asia to diversify trade, and Canada has made its first gas exports to buyers outside the US."
     ],
     [
      "Arctic sovereignty",
@@ -118,6 +128,12 @@
     [
      "2026-11-04",
      2
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: USA & Canada Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/usa-canada-intelligence-brief-thursday-november-12-2026/"
     ]
    ]
   },
@@ -296,9 +312,9 @@
      "Doha talks have delivered only partial results, and the UN mission chief met FRN leaders in Goma on 2 November."
     ],
     [
-     "Critical minerals",
-     3,
-     "Cobalt and coltan deals with the US raise stakes and governance risk."
+     "Term-limit referendum",
+     4,
+     "A new referendum law has raised concern that constitutional term limits could be changed, adding a political crisis to the war in the east."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -310,6 +326,10 @@
     ]
    ],
    "src": [
+    [
+     "Rio Times: Africa Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/africa-intelligence-brief-thursday-november-12-2026/"
+    ],
     [
      "Al Jazeera: Kabila joins M23 rebels in a new coalition (13 Oct)",
      "https://www.aljazeera.com/news/2026/10/13/former-dr-congo-president-kabila-joins-m23-rebels-in-a-new-coalition"
@@ -367,9 +387,9 @@
      "Homicide rates are among the highest in Latin America."
     ],
     [
-     "Prisons and states of emergency",
+     "State of emergency",
      3,
-     "Gangs run prisons, and emergency rule is frequent."
+     "The government has extended a state of emergency ahead of local elections, as gangs run prisons and drive violence."
     ],
     [
      "Power shortages",
@@ -384,6 +404,12 @@
      "2026-11-04",
      4
     ]
+   ],
+   "src": [
+    [
+     "Rio Times: Latin America news (12 Nov)",
+     "https://www.riotimesonline.com/africa-intelligence-brief-thursday-november-12-2026/"
+    ]
    ]
   },
   "231": {
@@ -392,9 +418,9 @@
    "s": "Internal insurgencies and tension with Eritrea.",
    "i": [
     [
-     "Amhara insurgency",
+     "Amhara and Oromia insurgencies",
      4,
-     "Fano militias still contest much of the Amhara region."
+     "Fano militias contest much of Amhara, and clashes in the south have driven thousands across the border into Kenya."
     ],
     [
      "Tension with Eritrea",
@@ -416,6 +442,10 @@
     ]
    ],
    "src": [
+    [
+     "Al Jazeera: Africa news (11 Nov)",
+     "https://www.aljazeera.com/africa/"
+    ],
     [
      "CFR: Civil war in Sudan tracker",
      "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
@@ -496,7 +526,7 @@
     [
      "Gaza humanitarian crisis",
      5,
-     "Reconstruction is barely under way and aid access remains restricted. Israeli strikes and gunfire killed five people in Gaza on 10 November."
+     "An Israeli strike on Nasser Hospital’s intensive care unit killed at least six people on 12 November, and storms are flooding tent camps as winter begins."
     ],
     [
      "Who governs Gaza",
@@ -519,6 +549,14 @@
    ],
    "src": [
     [
+     "Al Jazeera: Middle East news (12 Nov)",
+     "https://www.aljazeera.com/middle-east/"
+    ],
+    [
+     "Washington Post: Storms flood Gaza’s tent cities (12 Nov)",
+     "https://www.washingtonpost.com/world/middle-east/"
+    ],
+    [
      "AP via KSAT: Israeli strikes and gunfire in Gaza kill 5 (10 Nov)",
      "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
     ]
@@ -540,9 +578,9 @@
      "Sabotage, drone sightings over bases and cyber activity continue."
     ],
     [
-     "Political fragmentation",
+     "EU budget standoff",
      2,
-     "A strong far right complicates coalition politics."
+     "Chancellor Merz has said Germany will not back the EU’s 2028–34 budget unless all members agree to fund Ukraine."
     ]
    ],
    "r": "Europe",
@@ -551,6 +589,12 @@
     [
      "2026-11-04",
      2
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Europe Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/europe-intelligence-brief-thursday-november-12-2026/"
     ]
    ]
   },
@@ -636,9 +680,9 @@
      "Relations remain hostile after the 2025 conflict, and another attack could trigger a crisis."
     ],
     [
-     "US sanctions exposure",
-     3,
-     "On 5 November the US sanctioned Indian and Turkish firms accused of helping Iranian tankers, including an Indian couple accused of faking ship registries."
+     "Trade and diplomacy",
+     2,
+     "The long-awaited EU–India free trade agreement was signed in 2026, cutting tariffs on a wide range of goods and services."
     ]
    ],
    "r": "South Asia",
@@ -648,17 +692,23 @@
      "2026-11-04",
      3
     ]
+   ],
+   "src": [
+    [
+     "Wikipedia: 2026 in Asia",
+     "https://en.wikipedia.org/wiki/2026_in_Asia"
+    ]
    ]
   },
   "360": {
    "n": "Indonesia",
    "l": 3,
-   "s": "Fiscal and social pressures in a large, stable democracy.",
+   "s": "Political turbulence after Vice President Gibran’s resignation.",
    "i": [
     [
-     "Protests and fiscal strain",
+     "Vice president’s resignation",
      3,
-     "Anger over spending and privileges sparked mass protests in 2025."
+     "Gibran Rakabuming Raka resigned on 12 November after courts found his education documents did not meet election requirements, and police say there is evidence for treason charges in a wiretap scandal."
     ],
     [
      "Fuel subsidy costs",
@@ -678,12 +728,18 @@
      "2026-11-04",
      3
     ]
+   ],
+   "src": [
+    [
+     "Rio Times: Asia Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/asia-intelligence-brief-thursday-november-12-2026/"
+    ]
    ]
   },
   "364": {
    "n": "Iran",
    "l": 5,
-   "s": "At war with the US and Israel since 28 February. Trump has paused new strikes but kept the blockade, as Iran tables a new proposal via Qatar.",
+   "s": "At war with the US and Israel since 28 February. Tehran says Hormuz stays shut until seven conditions are met, while Trump says the US does not need a deal.",
    "i": [
     [
      "Blockade and strike threat",
@@ -693,30 +749,30 @@
     [
      "Attacks on Hormuz shipping",
      5,
-     "Attacks on tankers rose sharply in October and remain at their highest rate of the war. Iran reported a tanker hitting a mine east of the strait on 8 November."
+     "More tankers hit mines and caught fire this week, and Iran claims it struck a small Omani island in the strait. IMF PortWatch recorded just 3 transits on 8 November, against about 85 a day before the war."
     ],
     [
-     "Fragile diplomacy",
+     "Deadlock over talks",
      4,
-     "Trump met his top security advisers to weigh Iran’s latest proposal; CNN reports he is unlikely to accept it, and Qatar has warned of a “frozen conflict” if no deal is reached."
+     "Iran demands an end to the blockade and sanctions, release of frozen funds and an end to fighting on all fronts before talks; Trump says the US does not need a deal, and Tehran is reviewing its nuclear treaty membership."
     ]
    ],
    "src": [
     [
+     "Al Jazeera: Iran says Hormuz stays shut until demands are met (11 Nov)",
+     "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met"
+    ],
+    [
+     "CBS News: Iran war live updates (12 Nov)",
+     "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/"
+    ],
+    [
+     "Straits Daily Brief (13 Nov)",
+     "https://straits.live/briefs/2026-11-13"
+    ],
+    [
      "The Citizen: Peace efforts stall as US examines latest Iran proposal",
      "https://www.citizen.co.za/news/news-world/peace-efforts-stall-us-examines-latest-iran-proposal/"
-    ],
-    [
-     "CNBC: Trump says Iran war to end ‘fairly soon’, plays down new strikes (10 Nov)",
-     "https://cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
-    ],
-    [
-     "The Nation: Trump holds off fresh Iran strikes but keeps blockade (10 Nov)",
-     "https://www.nationthailand.com/news/world/40073314"
-    ],
-    [
-     "ABC News: Iran live updates (10 Nov)",
-     "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi/?id=137967256"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -761,9 +817,9 @@
      "Iran has struck targets in the Kurdistan Region, which hosts foreign firms and US personnel."
     ],
     [
-     "Oil revenue and budget",
+     "Budget deadlock with Erbil",
      3,
-     "Export disruption and sanctions enforcement put salaries and the federal budget under strain."
+     "The 2027 budget is stalled because Baghdad and the Kurdistan Region disagree over the Kurds’ share and a 450,000-barrel-a-day oil-export requirement."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -772,6 +828,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Near East Weekly Update (9 Nov)",
+     "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
     ]
    ]
   },
@@ -831,9 +893,9 @@
      "Most of Japan’s crude passes through Hormuz."
     ],
     [
-     "North Korean missiles",
+     "Defence build-up delays",
      2,
-     "Launches over or near Japan remain possible."
+     "Japan’s military build-up is being slowed by US missile delivery delays and domestic parts shortages."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -846,6 +908,10 @@
    ],
    "src": [
     [
+     "South China Morning Post: This Week in Asia (12 Nov)",
+     "https://www.scmp.com/week-asia"
+    ],
+    [
      "Pacific Winds: Indo-Pacific security digest (12 Nov)",
      "https://pcisguam.substack.com/p/pacific-winds-20261112"
     ]
@@ -854,12 +920,12 @@
   "400": {
    "n": "Jordan",
    "l": 3,
-   "s": "Squeezed between regional wars, with US staff being reduced.",
+   "s": "Hit by an Islamic State-linked attack and striking militants in southern Syria.",
    "i": [
     [
-     "Airspace and interceptions",
-     3,
-     "Missiles and drones crossing Jordanian airspace create risk of debris and stray strikes."
+     "Terrorism and border security",
+     4,
+     "An attack on a church in Karak killed nine Christians on 23 October; Jordan struck militant hideouts in southern Syria and formed a joint security committee with Damascus."
     ],
     [
      "US embassy drawdown",
@@ -879,6 +945,16 @@
      "2026-11-04",
      3
     ]
+   ],
+   "src": [
+    [
+     "Middle East Weekly Briefing (12 Nov)",
+     "https://maeelisecannon.substack.com/p/thursday-middle-east-weekly-briefing"
+    ],
+    [
+     "Wikipedia: 2026 in Jordan",
+     "https://en.wikipedia.org/wiki/2026_in_Jordan"
+    ]
    ]
   },
   "404": {
@@ -887,14 +963,14 @@
    "s": "Youth protests and debt ahead of the 2027 election.",
    "i": [
     [
-     "Protests",
+     "Ebola outbreak",
      3,
-     "Youth-led protests over taxes and police violence turn deadly."
+     "Kenya discharged its last Ebola patient on 11 November, starting a 42-day countdown before it can be declared free of the disease."
     ],
     [
-     "2027 election run-up",
+     "Refugees from Ethiopia",
      3,
-     "Political realignment is raising tensions."
+     "Thousands of people fleeing clashes in Ethiopia have crossed into Moyale in northern Kenya."
     ],
     [
      "Debt burden",
@@ -908,6 +984,12 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "Al Jazeera: Africa news (11 Nov)",
+     "https://www.aljazeera.com/africa/"
     ]
    ]
   },
@@ -957,9 +1039,9 @@
      "High oil and LNG prices hit a trade-dependent economy."
     ],
     [
-     "Trade and alliance costs",
+     "Trade, Hormuz and alliance costs",
      2,
-     "US tariffs and burden-sharing demands strain planning."
+     "Markets have rebounded, but Seoul is hedging against Hormuz disruption and its nuclear-submarine plans face scrutiny from a Democratic-led US Congress."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -968,6 +1050,12 @@
     [
      "2026-11-04",
      2
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Asia Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/asia-intelligence-brief-thursday-november-12-2026/"
     ]
    ]
   },
@@ -1017,9 +1105,9 @@
      "The Lebanese army is raiding weapons sites in the Bekaa Valley, and a Lebanese court issued arrest warrants for Hezbollah members on 5 November."
     ],
     [
-     "Economic collapse",
+     "Economic collapse and politics",
      3,
-     "The banking crisis is unresolved and reconstruction money is stalled by the security situation."
+     "The banking crisis is unresolved; Hezbollah’s leader says the US election results could prove positive for Lebanon."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1031,6 +1119,10 @@
     ]
    ],
    "src": [
+    [
+     "Al Jazeera: Middle East news (12 Nov)",
+     "https://www.aljazeera.com/middle-east/"
+    ],
     [
      "Times of Israel: Live updates, 9 November",
      "https://www.timesofisrael.com/liveblog-november-9-2026/"
@@ -1049,7 +1141,7 @@
     [
      "Rival governments",
      4,
-     "East and west remain under separate authorities."
+     "East and west remain under separate authorities, and Türkiye is opening new political ties with the eastern administration."
     ],
     [
      "Militia clashes in Tripoli",
@@ -1068,6 +1160,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Ynet: Erdogan’s regional realignment (10 Nov)",
+     "https://www.ynetnews.com/opinions-analysis/article/h1oily1ame"
     ]
    ]
   },
@@ -1179,9 +1277,9 @@
    "s": "Outside the fighting but close to the shipping lanes where it happens.",
    "i": [
     [
-     "Tanker attacks offshore",
+     "Strikes in Omani waters",
      4,
-     "Ships keep being hit in Omani waters near Hormuz. An attack there in early November killed an Indian seafarer."
+     "Iran claims it struck a small Omani island in the Strait of Hormuz that it says is used for US operations, and ships continue to be hit nearby."
     ],
     [
      "Mediation channel",
@@ -1201,6 +1299,12 @@
      "2026-11-04",
      3
     ]
+   ],
+   "src": [
+    [
+     "Fox News: Iran war live updates (12 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
+    ]
    ]
   },
   "562": {
@@ -1214,9 +1318,9 @@
      "Attacks in the Tillabéri and Diffa regions are frequent."
     ],
     [
-     "Military rule and isolation",
+     "Military rule and rights",
      3,
-     "The junta has cut ties with Western partners and ECOWAS."
+     "An African rights body has raised alarm over restrictions on Niger’s Mahamid Arab community in Diffa."
     ],
     [
      "Resource nationalism",
@@ -1230,6 +1334,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "Al Jazeera: Africa news (11 Nov)",
+     "https://www.aljazeera.com/africa/"
     ]
    ]
   },
@@ -1249,9 +1359,9 @@
      "Washington has pressed Abuja over attacks on Christians."
     ],
     [
-     "Inflation and reform",
+     "Borrowing and reform",
      3,
-     "Subsidy and currency reforms keep living costs high."
+     "President Tinubu has asked the Senate to approve $7.7 billion in foreign borrowing to fund the 2026 deficit and support the naira."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -1260,6 +1370,12 @@
     [
      "2026-11-04",
      4
+    ]
+   ],
+   "src": [
+    [
+     "allAfrica: All of Africa Today (5 Nov)",
+     "https://allafrica.com/stories/202611050120.html"
     ]
    ]
   },
@@ -1302,12 +1418,12 @@
   "604": {
    "n": "Peru",
    "l": 3,
-   "s": "Chronic political instability.",
+   "s": "President Keiko Fujimori leads a country with a long record of political instability.",
    "i": [
     [
      "Political volatility",
      3,
-     "A new government took office in July after a fragmented election."
+     "Keiko Fujimori took office in July; Peru has had years of unstable governments, and her administration faces a divided Congress."
     ],
     [
      "Crime and illegal mining",
@@ -1327,6 +1443,12 @@
      "2026-11-04",
      3
     ]
+   ],
+   "src": [
+    [
+     "Rio Times: Latin American Pulse (12 Nov)",
+     "https://www.riotimesonline.com/latin-american-pulse-for-thursday-november-12-2026/"
+    ]
    ]
   },
   "608": {
@@ -1342,7 +1464,7 @@
     [
      "Marcos–Duterte feud",
      3,
-     "Rivalry between the two dynasties destabilises politics."
+     "Vice President Sara Duterte’s impeachment trial is under way as Manila prepares to host a summit with President Trump."
     ],
     [
      "Typhoon exposure",
@@ -1356,6 +1478,12 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Asia Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/asia-intelligence-brief-thursday-november-12-2026/"
     ]
    ]
   },
@@ -1505,9 +1633,9 @@
      "Escalation in Yemen keeps the kingdom’s western shipping lanes under threat."
     ],
     [
-     "Oil market volatility",
+     "Energy infrastructure and finances",
      3,
-     "Brent above $100 lifts revenue, but rerouting exports by pipeline concentrates risk on a few assets."
+     "Houthi attacks on Saudi energy sites pushed Brent up more than $3 on 12 November, and the kingdom has already overshot its full-year deficit plan."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1519,6 +1647,14 @@
     ]
    ],
    "src": [
+    [
+     "Fox News: Iran war live updates (12 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
+    ],
+    [
+     "Near East Weekly Update (9 Nov)",
+     "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
+    ],
     [
      "Times of Israel: Live updates, 9 November",
      "https://www.timesofisrael.com/liveblog-november-9-2026/"
@@ -1585,9 +1721,9 @@
      "Disagreement over the electoral model strains federal–state relations."
     ],
     [
-     "Red Sea and Somaliland",
+     "Somaliland and foreign recognition",
      3,
-     "Competition over ports and recognition draws in outside powers."
+     "Somalia rejected Israel’s appointment of an ambassador to Somaliland and its plans for an embassy there, calling them a violation of sovereignty."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -1597,6 +1733,12 @@
      "2026-11-04",
      4
     ]
+   ],
+   "src": [
+    [
+     "allAfrica: All of Africa Today (5 Nov)",
+     "https://allafrica.com/stories/202611050120.html"
+    ]
    ]
   },
   "710": {
@@ -1605,14 +1747,14 @@
    "s": "Stable coalition politics with infrastructure and trade pressures.",
    "i": [
     [
-     "Infrastructure and logistics",
-     3,
-     "Ports, rail and power remain constraints on growth."
+     "Hung councils after local elections",
+     2,
+     "Many municipalities have no majority after the local elections, making coalition deals decisive for local services."
     ],
     [
-     "US relations and tariffs",
+     "Infrastructure and water",
      3,
-     "Diplomatic tension with Washington hits trade preferences."
+     "Ports, rail, power and failing water systems constrain growth."
     ],
     [
      "Local elections",
@@ -1626,6 +1768,12 @@
     [
      "2026-11-04",
      2
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Africa Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/africa-intelligence-brief-thursday-november-12-2026/"
     ]
    ]
   },
@@ -1779,12 +1927,16 @@
      "Border security, energy prices and refugee flows are all at risk."
     ],
     [
-     "Inflation and the lira",
+     "Inflation and capital flight",
      3,
-     "High inflation and tight policy weigh on businesses."
+     "Inflation has hovered near 31% since late 2025; the EU says the single-digit target has slipped to 2029 and the case against the main opposition party drove capital outflows."
     ]
    ],
    "src": [
+    [
+     "Near East Weekly Update (9 Nov)",
+     "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
+    ],
     [
      "United Nations: COP31 in Antalya, 9–20 November 2026",
      "https://www.un.org/en/climatechange/cop31"
@@ -1875,9 +2027,9 @@
      "Red Sea insecurity keeps Suez Canal traffic and income depressed."
     ],
     [
-     "Debt and inflation",
+     "Debt, dollars and press freedom",
      3,
-     "High external debt leaves little room for new shocks."
+     "Egypt is rationing dollars through import bans even as reserves rise, and the UN raised alarm on 10 November over a widening crackdown on journalists."
     ],
     [
      "Borders with Gaza and Sudan",
@@ -1891,6 +2043,16 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "Near East Weekly Update (9 Nov)",
+     "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
+    ],
+    [
+     "Middle East Weekly Briefing (12 Nov)",
+     "https://maeelisecannon.substack.com/p/thursday-middle-east-weekly-briefing"
     ]
    ]
   },
@@ -1910,9 +2072,9 @@
      "Sabotage, cyber attacks and espionage are a persistent threat."
     ],
     [
-     "Public finances",
+     "Public finances and politics",
      2,
-     "Tight fiscal room limits defence and public-service spending."
+     "Growth picked up to 0.7% in the third quarter, but fiscal room is tight after a Labour leadership crisis dominated the first half of 2026."
     ]
    ],
    "r": "Europe",
@@ -1921,6 +2083,12 @@
     [
      "2026-11-04",
      2
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Europe Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/europe-intelligence-brief-thursday-november-12-2026/"
     ]
    ]
   },
@@ -1932,7 +2100,7 @@
     [
      "Iran war decisions",
      4,
-     "Trump has held off fresh strikes on Iran after Gulf appeals but kept the naval blockade, and says the war could end “fairly soon”."
+     "Trump says the US does not need a deal with Iran because “we’ve got their strait”, and warns he would strike again without hesitation if allies or ships are threatened."
     ],
     [
      "Divided government",
@@ -1954,6 +2122,10 @@
     ]
    ],
    "src": [
+    [
+     "Fox News: Iran war live updates (12 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
+    ],
     [
      "CNBC: Trump says Iran war to end ‘fairly soon’ (10 Nov)",
      "https://cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
@@ -2105,12 +2277,12 @@
   "050": {
    "n": "Bangladesh",
    "l": 3,
-   "s": "A political transition under economic pressure.",
+   "s": "A BNP government with a two-thirds majority, facing unrest fears as Sheikh Hasina plans a return.",
    "i": [
     [
-     "Political transition",
+     "Political tension",
      3,
-     "The post-Hasina order is still settling after this year’s election."
+     "The BNP won a two-thirds majority in February; Sheikh Hasina’s plan to return has raised fears of unrest, after a dozen arrests over petrol bomb attacks."
     ],
     [
      "Energy import costs",
@@ -2118,9 +2290,9 @@
      "High fuel prices strain reserves and power supply."
     ],
     [
-     "Rohingya crisis",
+     "Garment sector unrest",
      3,
-     "Over a million refugees depend on shrinking aid."
+     "Garment workers are protesting, and high fuel prices strain reserves and power supply."
     ]
    ],
    "r": "South Asia",
@@ -2129,6 +2301,16 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "South China Morning Post: This Week in Asia (12 Nov)",
+     "https://www.scmp.com/week-asia"
+    ],
+    [
+     "Wikipedia: 2026 in Asia",
+     "https://en.wikipedia.org/wiki/2026_in_Asia"
     ]
    ]
   },
@@ -2148,9 +2330,9 @@
      "Tariffs and political disputes with Washington hit exporters."
     ],
     [
-     "Fiscal credibility",
+     "Farm debt and banks",
      2,
-     "Spending pressures test the fiscal framework."
+     "Banco do Brasil’s profit fell 66.5% as some farm borrowers defaulted, a sign of strain in agriculture."
     ]
    ],
    "r": "Americas",
@@ -2159,6 +2341,12 @@
     [
      "2026-11-04",
      3
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Latin American Pulse (12 Nov)",
+     "https://www.riotimesonline.com/latin-american-pulse-for-thursday-november-12-2026/"
     ]
    ]
   },
@@ -2173,9 +2361,9 @@
      "Low reserves keep the peso exposed."
     ],
     [
-     "Social protest",
-     2,
-     "Austerity drives strikes and demonstrations."
+     "Iran tensions",
+     3,
+     "Iran has designated Argentina’s navy and air force as terrorist organisations, raising security risks for Argentine interests."
     ],
     [
      "Debt",
@@ -2189,6 +2377,12 @@
     [
      "2026-11-04",
      2
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Latin American Pulse (12 Nov)",
+     "https://www.riotimesonline.com/latin-american-pulse-for-thursday-november-12-2026/"
     ]
    ]
   },
@@ -2970,9 +3164,9 @@
      "Frequent changes of prime minister and court interventions unsettle policy."
     ],
     [
-     "Weak growth",
+     "Weak growth and energy security",
      2,
-     "High household debt and soft tourism weigh on the economy."
+     "Thailand is setting up shared oil reserves with Indonesia and the Philippines, while Myanmar refugees fill labour gaps as Cambodian workers return home."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -2981,6 +3175,12 @@
     [
      "2026-11-07",
      3
+    ]
+   ],
+   "src": [
+    [
+     "Nikkei Asia (12 Nov)",
+     "https://asia.nikkei.com/"
     ]
    ]
   },
@@ -3032,7 +3232,7 @@
     [
      "Coalition politics",
      2,
-     "The governing coalition holds together, but tensions persist."
+     "Former prime minister Najib Razak has moved to house arrest and is barred from politics ahead of a key state election."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -3041,6 +3241,12 @@
     [
      "2026-11-07",
      2
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Asia Intelligence Brief (12 Nov)",
+     "https://www.riotimesonline.com/asia-intelligence-brief-thursday-november-12-2026/"
     ]
    ]
   },
@@ -3090,9 +3296,9 @@
      "Mining rules and royalties matter greatly to investors."
     ],
     [
-     "Social unrest",
-     2,
-     "Inequality and protest risk remain after the 2019 unrest."
+     "Fuel price strikes",
+     3,
+     "Truckers began an indefinite strike over fuel prices on 11 November, and northern regions have joined."
     ]
    ],
    "r": "Americas",
@@ -3101,6 +3307,12 @@
     [
      "2026-11-07",
      2
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Latin American Pulse (12 Nov)",
+     "https://www.riotimesonline.com/latin-american-pulse-for-thursday-november-12-2026/"
     ]
    ]
   },
@@ -3120,9 +3332,9 @@
      "The government that took office in November 2025 is pushing reforms, including cuts to fuel subsidies."
     ],
     [
-     "Protests and blockades",
+     "Organised crime and politics",
      3,
-     "Road blockades by unions and political groups frequently disrupt trade."
+     "Authorities arrested a former judge on suspicion of drug trafficking as a new legislative term began."
     ]
    ],
    "r": "Americas",
@@ -3131,6 +3343,12 @@
     [
      "2026-11-07",
      3
+    ]
+   ],
+   "src": [
+    [
+     "Al Jazeera: Latin America news (12 Nov)",
+     "https://www.aljazeera.com/latin-america/"
     ]
    ]
   },
@@ -3380,9 +3598,35 @@
     "804",
     "643"
    ]
+  },
+  {
+   "start": "2026-11-19",
+   "when": "19 Nov",
+   "title": "Jordan–EU Investment Conference",
+   "text": "Energy, water and Aqaba corridor financing are on the agenda.",
+   "c": [
+    "400"
+   ]
   }
  ],
  "log": [
+  {
+   "date": "13 Nov 2026",
+   "items": [
+    [
+     "364",
+     "Iran sets seven conditions for talks and claims a strike on an Omani island; Trump says the US does not need a deal."
+    ],
+    [
+     null,
+     "Second full review: about 40 more countries updated, including Indonesia (vice president resigns), Bangladesh, Peru, Chile, Jordan, Iraq, Kenya and Germany."
+    ],
+    [
+     null,
+     "Hormuz and Bab el-Mandeb chokepoints updated."
+    ]
+   ]
+  },
   {
    "date": "11 Nov 2026",
    "items": [
@@ -3514,12 +3758,12 @@
     [
      "Near-closure",
      5,
-     "Transits are down to a handful a day, against about 85 before the war."
+     "IMF PortWatch recorded just 3 transits on 8 November, against about 85 a day before the war, and Iran says the strait will never return to its pre-war status."
     ],
     [
      "Mines and attacks",
      5,
-     "Iran has attacked eight ships in and around the strait since 1 November, and tankers have hit mines."
+     "Three tankers were attacked in two days this week, and Iran claims it struck a small Omani island in the strait."
     ],
     [
      "US blockade",
@@ -3538,12 +3782,16 @@
    ],
    "src": [
     [
-     "Al Jazeera: US launches task force against Iran’s land supply routes (8 Nov)",
-     "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes"
+     "Straits Daily Brief (13 Nov)",
+     "https://straits.live/briefs/2026-11-13"
     ],
     [
-     "Seatrade Maritime: Crew abandon tanker in Hormuz (8 Nov)",
-     "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman"
+     "Al Jazeera: Ghalibaf says Hormuz will never return to pre-war status (11 Nov)",
+     "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf"
+    ],
+    [
+     "Al Jazeera: US launches task force against Iran’s land supply routes (8 Nov)",
+     "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes"
     ]
    ]
   },
@@ -3563,7 +3811,7 @@
     [
      "Yemen escalation",
      4,
-     "Fighting between the Houthis and the Saudi-led coalition is intensifying."
+     "Houthi attacks on Saudi energy infrastructure pushed oil prices up more than $3 a barrel on 12 November."
     ],
     [
      "Rerouting",
@@ -3578,6 +3826,10 @@
     "818"
    ],
    "src": [
+    [
+     "Fox News: Iran war live updates (12 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
+    ],
     [
      "AP via KSAT: Overnight strikes in Yemen (10 Nov)",
      "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
