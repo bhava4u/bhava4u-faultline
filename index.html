@@ -135,7 +135,7 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 .loglist ul li{margin:0 0 6px}
 .loglist button{all:unset;cursor:pointer;font-weight:600;text-decoration:underline;text-underline-offset:3px}
 .loglist .chg{font-size:12px;font-weight:600;padding:1px 8px;border-radius:10px;margin-left:6px;background:var(--l1);color:#fff}
-.ins{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.ins{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
 .ins a{display:block;padding:20px;background:var(--surface);border:1px solid var(--rule);border-radius:6px;text-decoration:none;color:var(--ink)}
 .ins a:hover{border-color:var(--ink)}
 .ins small{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
@@ -152,19 +152,19 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 .hp{position:absolute;left:-9999px}
 @media (max-width:980px){.ins,.forms{grid-template-columns:1fr}.loglist>li{grid-template-columns:1fr;gap:4px}}
 @media print{
-  @page{size:A4;margin:9mm}
+  @page{size:A4;margin:8mm}
   html,body{background:#fff!important;padding:0!important;margin:0!important}
   body::before{display:none!important}
   body > *:not(#printArea){display:none!important}
   #printArea{display:block!important}
 }
-#printArea{--l1:#7E9E74;--l2:#D9BE62;--l3:#DE9C52;--l4:#C55D36;--l5:#9E2B2B;--rule:#D3D8D4;--ink:#1D282C;--muted:#56656A;color:#1D282C;background:#fff;font:400 9.6pt/1.42 "Public Sans",Arial,sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+#printArea{--l1:#7E9E74;--l2:#D9BE62;--l3:#DE9C52;--l4:#C55D36;--l5:#9E2B2B;--rule:#D3D8D4;--ink:#1D282C;--muted:#56656A;color:#1D282C;background:#fff;font:400 9.3pt/1.38 "Public Sans",Arial,sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 #printArea *{-webkit-print-color-adjust:exact;print-color-adjust:exact;box-sizing:border-box}
 #printArea .pb-head{display:flex;justify-content:space-between;align-items:center;background:#1D282C;color:#fff;padding:9px 14px;border-radius:4px}
 #printArea .pb-brand{display:flex;align-items:center;gap:8px;font:600 17pt Spectral,Georgia,serif}
 #printArea .pb-brand svg{width:20px;height:20px}
 #printArea .pb-head small{font-size:8.5pt;opacity:.85;text-align:right;line-height:1.35}
-#printArea .pb-top{display:grid;grid-template-columns:50mm 1fr;gap:12px;margin:12px 0 10px;align-items:center}
+#printArea .pb-top{display:grid;grid-template-columns:54mm 1fr;gap:12px;margin:9px 0 8px;align-items:center}
 #printArea .pb-map svg{width:100%;height:auto;display:block}
 #printArea .pb-region{font-size:8pt;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 #printArea h1{font:600 25pt/1.05 Spectral,Georgia,serif;margin:2px 0 8px}
@@ -178,11 +178,11 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 #printArea .pb-cols{display:grid;grid-template-columns:1.35fr 1fr;gap:12px}
 #printArea h2{font-size:7.8pt;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:0 0 5px}
 #printArea .pb-iss{list-style:none;margin:0;padding:0}
-#printArea .pb-iss li{border:1px solid var(--rule);border-left-width:4px;border-radius:3px;padding:6px 8px;margin:0 0 6px;break-inside:avoid}
+#printArea .pb-iss li{border:1px solid var(--rule);border-left-width:4px;border-radius:3px;padding:5px 8px;margin:0 0 5px;break-inside:avoid}
 #printArea .pb-iss .t{display:flex;justify-content:space-between;gap:8px;font-weight:600;font-size:10pt}
 #printArea .pill{font-size:7.5pt;font-weight:600;padding:1px 7px;border-radius:9px;color:#fff;white-space:nowrap}
 #printArea .pb-iss p{margin:3px 0 0;color:#3B484C}
-#printArea .pb-box{border:1px solid var(--rule);border-radius:3px;padding:7px 9px;margin:0 0 8px;break-inside:avoid}
+#printArea .pb-box{border:1px solid var(--rule);border-radius:3px;padding:6px 9px;margin:0 0 6px;break-inside:avoid}
 #printArea .pb-box p{margin:0 0 3px}
 #printArea .hist svg{width:100%;height:auto}
 #printArea .hist p{margin:2px 0 0;font-size:8pt;color:var(--muted)}
@@ -196,6 +196,13 @@ table.ctab{width:100%;border-collapse:collapse;font-size:14.5px;background:var(-
 #printArea .econ .tile small,#printArea .econ .tile em{font-size:7.4pt}
 #printArea .econ .tile b{font-size:12.5pt}
 #printArea .econ p{font-size:7.2pt;margin-top:4px}
+#printArea .pb-end{break-inside:avoid;page-break-inside:avoid}
+#printArea .pb-econ{margin-top:4px}
+#printArea .pb-econ .econ{display:grid;grid-template-columns:1fr 62mm;grid-template-rows:auto auto auto;column-gap:12px;margin:0}
+#printArea .pb-econ .econ h4{grid-column:1 / -1}
+#printArea .pb-econ .econ .tiles{grid-column:1;grid-template-columns:repeat(4,minmax(0,1fr))}
+#printArea .pb-econ .econ .gchart{grid-column:2;grid-row:2 / span 2;margin-top:0}
+#printArea .pb-econ .econ p{grid-column:1}
 #printArea .pb-foot{display:flex;justify-content:space-between;gap:12px;border-top:2px solid #1D282C;margin-top:10px;padding-top:6px;font-size:7.8pt;color:var(--muted)}
 #printArea .pb-foot b{color:#1D282C}
 .tip{position:absolute;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--rule);padding:6px 10px;font-size:13px;border-radius:4px;white-space:nowrap;transform:translate(-50%,-130%);opacity:0;transition:opacity .1s}
@@ -349,8 +356,9 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
 
 <section class="band" id="insights"><div class="band-in">
   <h2>Insights</h2>
-  <p class="lede">Short analysis on the developments that move the map. <a href="/insights/">See all</a></p>
+  <p class="lede">Short analysis and company spotlights on the developments that move the map. <a href="/insights/">See all</a></p>
   <div class="ins">
+    <a href="/insights/sealead-company-spotlight.html"><small>Company spotlight · Sanctions | 13 Nov 2026</small><h3>SeaLead: how a fast-growing container line ran into US sanctions</h3><p>From chartered ships to the operator itself: a case study in staged sanctions exposure.</p></a>
     <a href="/insights/abu-dhabi-talks.html"><small>Europe · Russia | 8 Nov 2026</small><h3>What the Abu Dhabi talks can and can’t deliver</h3><p>Working-level talks can win narrow steps like an energy truce, not a settlement.</p></a>
     <a href="/insights/gulf-war-kerala-story.html"><small>South Asia · Gulf | 8 Nov 2026</small><h3>Why the Gulf war is a Kerala story</h3><p>For India, the Iran war is about people, wages and remittances as much as oil.</p></a>
   </div>
@@ -652,16 +660,16 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
           <p class="pb-sum">${k.s}</p></div></div>
       ${k.b?`<div class="pb-biz"><b>What it means for business</b>${k.b}</div>`:''}
       <div class="pb-cols">
-        <div><h2>Top three issues</h2><ol class="pb-iss">${k.i.map(([t,l,x])=>`<li style="border-left-color:var(--l${l})"><div class="t"><span>${t}</span>${pill(l)}</div><p>${x}</p></li>`).join('')}</ol>
-          ${k.sc?`<div class="pb-box"><h2>Three-month scenarios</h2>${k.sc.map(([n,p,x])=>`<p><b>${n} (${p}%)</b>: ${x}</p>`).join('')}</div>`:''}</div>
+        <div><h2>Top three issues</h2><ol class="pb-iss">${k.i.map(([t,l,x])=>`<li style="border-left-color:var(--l${l})"><div class="t"><span>${t}</span>${pill(l)}</div><p>${x}</p></li>`).join('')}</ol></div>
         <div>
-          ${econHtml(k)}
           <div class="pb-box"><h2>Grade history</h2>${histSvg(k)||'<p>No history yet.</p>'}</div>
+          ${k.sc?`<div class="pb-box"><h2>Three-month scenarios</h2>${k.sc.map(([n,p,x])=>`<p><b>${n} (${p}%)</b>: ${x}</p>`).join('')}</div>`:''}
           ${ev.length?`<div class="pb-box"><h2>Coming up</h2>${ev.map(e=>`<p><b>${e.when}</b>: ${e.title}</p>`).join('')}</div>`:''}
           ${k.src&&k.src.length?`<div class="pb-box"><h2>Sources</h2><ul class="pb-src">${k.src.slice(0,4).map(([t,u])=>`<li>${t}</li>`).join('')}</ul></div>`:''}
         </div>
       </div>
-      <div class="pb-foot"><span><b>${link}</b> &nbsp;|&nbsp; admin@faultlinerisk.com</span><span>Threat levels reflect the likelihood and severity of disruption over the next three months. Analyst judgment from open-source reporting; not personal travel or investment advice.</span></div>`;
+      <div class="pb-end"><div class="pb-econ">${econHtml(k)}</div>
+      <div class="pb-foot"><span><b>${link}</b> &nbsp;|&nbsp; admin@faultlinerisk.com</span><span>Threat levels reflect the likelihood and severity of disruption over the next three months. Analyst judgment from open-source reporting; not personal travel or investment advice.</span></div></div>`;
     setTimeout(()=>window.print(), 60);
   }
 
