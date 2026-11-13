@@ -236,7 +236,7 @@ footer .band-in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8p
 
 <section class="band" id="shadow"><div class="band-in">
   <h2>Shadow fleet watch</h2>
-  <p class="lede">Ships seen in our monitored zones whose IMO or MMSI matches a sanctions or port-state list in the OpenSanctions maritime data. A match is a lead to check, not proof of wrongdoing.</p>
+  <p class="lede">Ships seen in our monitored zones that OpenSanctions flags as sanctioned, part of a shadow fleet, or detained by port-state inspectors, matched by IMO or MMSI. A match is a lead to check, not proof of wrongdoing.</p>
   <div class="filters">
     <input id="sq" type="search" placeholder="Search name, IMO or MMSI" aria-label="Search listed ships">
     <select id="sz" aria-label="Filter by zone"></select>
@@ -476,10 +476,10 @@ function overview(){
   sel=null; draw();
   const rows=CH.slice().sort((a,b)=>b.l-a.l).map(c=>{const m=MAR.chokepoints[c.id]||{}, tr=TR(c.id), ch=tr&&tr.chg!=null?tr.chg:null;
     return `<li><button data-c="${c.id}"><i style="background:var(--l${c.l})"></i><span><b>${esc(c.n)}</b><small>${esc(m.status||LEVELS[c.l])}</small></span><em class="${ch==null?'':ch<=-15?'dn':ch>=15?'upc':''}" title="Transits, last 7 days against normal">${ch==null?'':chgTxt(tr)}</em></button></li>`;}).join('');
-  const listedN=(SUM&&SUM.listed||[]).filter(s=>s.lists&&s.lists.length).length;
+  const listedN=(SUM&&SUM.listed||[]).length;
   $('#briefBody').innerHTML=`<span class="rtag">Overview</span><h2>Shipping lanes today</h2>
     <p class="summary">${MAR.chokepoints['strait-of-hormuz']?'Hormuz is '+esc(MAR.chokepoints['strait-of-hormuz'].status.toLowerCase())+'. ':''}Most Asia–Europe trade still avoids the Red Sea. Pick a chokepoint for traffic, outlook, premiums and a voyage cost check.</p>
-    ${SUM&&SUM.ais&&SUM.ais.enabled?`<div class="nums"><div><small>Ships in view</small><b>${SUM.ais.vessels.toLocaleString('en-GB')}</b></div><div><small>Sanctioned in view</small><b>${VES.filter(v=>v.s===2).length}</b></div><div><small>Listed ships logged</small><b>${listedN}</b></div></div>`:''}
+    ${SUM&&SUM.ais&&SUM.ais.enabled?`<div class="nums"><div><small>Ships in view</small><b>${SUM.ais.vessels.toLocaleString('en-GB')}</b></div><div><small>Sanctioned in view</small><b>${VES.filter(v=>v.s===2).length}</b></div><div><small>Flagged ships logged</small><b>${listedN}</b></div></div>`:''}
     <ul class="ovl">${rows}</ul>
     <p class="note" style="font-size:12.5px;color:var(--muted);margin-top:12px">Percentages compare the last seven days of transits with each chokepoint’s normal level. Analysis current to ${esc(MAR.assessed)}.</p>`;
   $('#briefBody').querySelectorAll('.ovl button').forEach(b=>b.onclick=()=>selectChoke(b.dataset.c,true));
@@ -558,8 +558,11 @@ function selectChoke(cid,fly){
 function listedBlock(s,v){
   if(!s && !(v&&v.s)) return '';
   const lists=(s&&s.lists)||[], ps=(s&&s.port_state)||[];
+  const flags=s?[s.sanc?'<span class="s">Sanctioned</span>':'', s.shadow?'<span class="s">Shadow fleet</span>':'', s.det&&!ps.length?'<span>Port-state detention</span>':''].join(''):'';
   const nameMismatch=s&&s.listed_name&&v&&v.name&&s.listed_name.replace(/\W/g,'').toUpperCase()!==v.name.replace(/\W/g,'').toUpperCase();
-  return `<div class="blk"><h4>Sanctions and lists</h4><div class="chips">${lists.map(l=>`<span class="s">${esc(l)}</span>`).join('')}${ps.map(l=>`<span>${esc(l)}</span>`).join('')}</div>
+  return `<div class="blk"><h4>Sanctions and lists</h4><div class="chips">${flags}${ps.map(l=>`<span>${esc(l)}</span>`).join('')}</div>
+    ${lists.length?`<p style="font-size:14px;margin:8px 0 0">Named by: ${lists.map(esc).join(', ')}</p>`:''}
+    ${s&&s.how==='MMSI'?`<p class="warn">Matched on MMSI only, because this ship is not broadcasting an IMO number. MMSI numbers can be reassigned, so check the IMO before relying on this match.</p>`:''}
     ${s?`<dl class="kv" style="margin-top:10px"><dt>Listed as</dt><dd>${esc(s.listed_name||'')}</dd><dt>Matched on</dt><dd>${esc(s.how||'')}</dd><dt>First seen by us</dt><dd>${s.first?new Date(s.first*1000).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'}):''}</dd></dl>`:''}
     ${nameMismatch?`<p class="warn">The name this ship broadcasts differs from the listed name. Renaming is common in the shadow fleet; the IMO number is the reliable identifier.</p>`:''}
     ${s&&s.os_id?`<p class="src"><a href="https://www.opensanctions.org/entities/${esc(s.os_id)}/" target="_blank" rel="noopener">Open the OpenSanctions record</a></p>`:''}</div>`;
@@ -635,10 +638,10 @@ function renderShadow(){
     if(q && !((s.name||'')+' '+(s.listed_name||'')+' '+(s.imo||'')+' '+(s.mmsi||'')).toLowerCase().includes(q)) return false; return true; });
   const body=f.slice(0,300).map(s=>{const quiet=now-s.last>86400, key=s.imo||('m'+s.mmsi);
     return `<tr data-k="${esc(key)}" tabindex="0"><td><b>${esc(s.name||s.listed_name)}</b>${s.listed_name&&s.name&&s.listed_name!==s.name?`<br><span style="color:var(--muted);font-size:13px">Listed as ${esc(s.listed_name)}</span>`:''}</td>
-    <td class="num">${esc(s.imo||'–')}</td><td>${esc(s.flag||'–')}</td><td>${(s.lists||[]).map(esc).join(', ')||'<span style="color:var(--muted)">'+(s.port_state||[]).map(esc).join(', ')+'</span>'}</td>
+    <td class="num">${esc(s.imo||'–')}</td><td>${esc(s.flag||'–')}</td><td>${[s.sanc?'<b style="color:var(--sanc)">Sanctioned</b>':'', s.shadow?'Shadow fleet':'', (s.det&&!s.sanc&&!s.shadow)?'Port-state detention':''].filter(Boolean).join(', ')}${(s.lists||[]).length?'<br><span style="color:var(--muted);font-size:13px">'+(s.lists||[]).map(esc).join(', ')+'</span>':''}${s.how==='MMSI'?'<br><span style="color:var(--muted);font-size:13px">MMSI match</span>':''}</td>
     <td>${esc((ZBY[s.zone]||{}).name||s.zone)}</td><td class="num">${ago(s.last)}</td><td>${quiet?'<span style="color:var(--l4);font-weight:600">Not seen 24h+</span>':(s.sog||0)>=2?'Moving, '+s.sog+' kn':'Stationary'}</td></tr>`;}).join('');
   const t=document.getElementById('shadowT');
-  const html=`<thead><tr><th>Ship</th><th style="text-align:right">IMO</th><th>Flag (AIS)</th><th>Listed by</th><th>Last zone</th><th style="text-align:right">Last seen</th><th>Status</th></tr></thead><tbody>${body||'<tr><td colspan="7" style="color:var(--muted)">No ships match these filters.</td></tr>'}</tbody>`;
+  const html=`<thead><tr><th>Ship</th><th style="text-align:right">IMO</th><th>Flag (AIS)</th><th>Flagged as</th><th>Last zone</th><th style="text-align:right">Last seen</th><th>Status</th></tr></thead><tbody>${body||'<tr><td colspan="7" style="color:var(--muted)">No ships match these filters.</td></tr>'}</tbody>`;
   if(t.tagName!=='TABLE'){ t.outerHTML=`<table id="shadowT">${html}</table>`; } else t.innerHTML=html;
   document.querySelectorAll('#shadowT tbody tr[data-k]').forEach(tr=>{const go=()=>{selectListed(tr.dataset.k,true);$('#globe-section').scrollIntoView({behavior:reduce?'auto':'smooth'});}; tr.onclick=go; tr.onkeydown=e=>{if(e.key==='Enter')go();};});
 }

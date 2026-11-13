@@ -226,7 +226,7 @@ def digits(s):
 def refresh_sanctions(state_dir):
     path = os.path.join(state_dir, "sanctions_index.json")
     idx = load(path, {})
-    if idx and NOW - idx.get("fetched", 0) < 20 * 3600:
+    if idx and idx.get("v") == 2 and NOW - idx.get("fetched", 0) < 20 * 3600:
         return idx
     url = "https://data.opensanctions.org/datasets/latest/maritime/maritime.csv"
     try:
@@ -243,15 +243,25 @@ def refresh_sanctions(state_dir):
         nv += 1
         ds = [d for d in re.split(r"[;,|\s]+", r.get("datasets") or "") if d]
         sanc, port, other = label_datasets(ds)
+        topics = {t for t in re.split(r"[;,|\s]+", (r.get("risk") or r.get("topics") or "")) if t}
+        # Only keep ships OpenSanctions actually flags: sanctioned, shadow fleet,
+        # or detained/banned by a port-state regime. Many vessels in the file are
+        # merely mentioned in a source and carry no risk topic; those are skipped
+        # so ordinary ships are not shown as listed.
+        is_sanc = "sanction" in topics
+        is_shadow = "mare.shadow" in topics
+        is_det = "mare.detained" in topics or bool(port)
+        if not (is_sanc or is_shadow or is_det):
+            continue
         e = {"n": (r.get("caption") or "").strip(), "id": r.get("id") or "",
-             "s": sanc, "p": port,
+             "s": sanc, "p": port, "sanc": is_sanc, "shadow": is_shadow, "det": is_det,
              "flag": (r.get("flag") or r.get("countries") or r.get("country") or "").strip(),
-             "risk": (r.get("risk") or r.get("topics") or "").strip()}
+             "risk": ";".join(sorted(topics))}
         imo = digits(r.get("imo"))
         mmsi = digits(r.get("mmsi"))
         if len(imo) == 7: by_imo[imo] = e
         if len(mmsi) == 9: by_mmsi[mmsi] = e
-    idx = {"fetched": NOW, "date": ISO_NOW, "vessels": nv, "imo": by_imo, "mmsi": by_mmsi,
+    idx = {"v": 2, "fetched": NOW, "date": ISO_NOW, "vessels": nv, "flagged": len(by_imo), "imo": by_imo, "mmsi": by_mmsi,
            "columns": list(rows[0].keys()) if rows else []}
     save(path, idx)
     log(f"OpenSanctions: {nv} vessels, {len(by_imo)} with IMO, {len(by_mmsi)} with MMSI")
@@ -457,7 +467,7 @@ def main():
                         "len": st.get("len"), "dr": st.get("dr"), "flag": flag_of(mmsi), "zone": zone,
                         "hit": hit, "how": how})
 
-    sanctioned_keys = {v["mmsi"] for v in vessels if v["hit"] and v["hit"]["s"]}
+    sanctioned_keys = {v["mmsi"] for v in vessels if v["hit"] and v["hit"].get("sanc")}
 
     # --- Sightings log of listed ships
     for v in vessels:
@@ -467,7 +477,7 @@ def main():
         k = v["imo"] or ("m" + v["mmsi"])
         s = sightings.get(k) or {"first": v["t"], "track": []}
         s.update({"name": v["name"] or h["n"], "listed_name": h["n"], "imo": v["imo"], "mmsi": v["mmsi"],
-                  "flag": v["flag"], "listed_flag": h.get("flag", ""), "lists": h["s"], "port_state": h["p"],
+                  "flag": v["flag"], "listed_flag": h.get("flag", ""), "lists": h["s"], "port_state": h["p"], "sanc": bool(h.get("sanc")), "shadow": bool(h.get("shadow")), "det": bool(h.get("det")),
                   "os_id": h["id"], "how": v["how"], "last": v["t"], "lat": v["lat"], "lon": v["lon"],
                   "sog": v["sog"], "zone": v["zone"], "dest": v["dest"], "vt": v["vt"]})
         tr = s["track"]
@@ -475,7 +485,9 @@ def main():
             tr.append([v["lat"], v["lon"], v["t"]])
         s["track"] = tr[-40:]
         sightings[k] = s
-    sightings = {k: v for k, v in sightings.items() if NOW - v.get("last", 0) < 60 * 86400}
+    # drop old sightings, and any ship no longer flagged in the current list
+    sightings = {k: v for k, v in sightings.items() if NOW - v.get("last", 0) < 60 * 86400
+                 and ((v.get("imo") and v["imo"] in by_imo) or (v.get("mmsi") in by_mmsi))}
 
     sts = detect_sts(vessels, sanctioned_keys)
 
@@ -509,15 +521,15 @@ def main():
     if key or not os.path.exists(os.path.join(out_live, "vessels.json")):
         save(os.path.join(out_live, "vessels.json"), {"generated": ISO_NOW, "fields": fields, "rows": rows})
 
-    listed = sorted(sightings.values(), key=lambda s: -s["last"])
+    listed = sorted(sightings.values(), key=lambda s: (not s.get("sanc"), -s["last"]))
     summary = {
         "generated": ISO_NOW,
         "ais": {"enabled": bool(key), "seconds": args.seconds if key else 0, "messages": nmsg,
                 "vessels": len(vessels), "fresh": len(new_pos), "zones": zstats},
         "sanctions": {"source": "OpenSanctions maritime export", "date": sidx.get("date"),
-                      "vessels": sidx.get("vessels", 0)},
+                      "vessels": sidx.get("vessels", 0), "flagged": sidx.get("flagged", 0)},
         "listed": [{k: s.get(k) for k in ("name", "listed_name", "imo", "mmsi", "flag", "listed_flag", "lists",
-                                          "port_state", "os_id", "how", "first", "last", "lat", "lon", "sog",
+                                          "port_state", "sanc", "shadow", "det", "os_id", "how", "first", "last", "lat", "lon", "sog",
                                           "zone", "dest", "vt", "track")} for s in listed[:600]],
         "sts": sts,
         "jumps": jumps[:300],
