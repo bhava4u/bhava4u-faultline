@@ -1,5 +1,5 @@
 {
- "assessed": "13 November 2026",
+ "assessed": "14 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -1068,12 +1068,12 @@
     [
      "Blockade and strike threat",
      5,
-     "Trump has held off fresh strikes after appeals from Gulf governments and says the war could end “fairly soon”, but the naval blockade and Operation Iron Gate remain, and the Pentagon says it is ready to strike again."
+     "Reuters reports Trump is considering holding off further strikes unless Tehran provokes the US, while the IRGC says it shot down a US drone over Qeshm Island on 14 November."
     ],
     [
      "Attacks on Hormuz shipping",
      5,
-     "More tankers hit mines and caught fire this week, and Iran claims it struck a small Omani island in the strait. IMF PortWatch recorded just 3 transits on 8 November, against about 85 a day before the war."
+     "The IRGC says two more tankers hit mines and caught fire on 14 November, a day after a gas carrier was struck; the UN has urged both sides to let five fertiliser ships pass each day."
     ],
     [
      "Deadlock over talks",
@@ -1083,20 +1083,20 @@
    ],
    "src": [
     [
+     "Iran International: Live updates (14 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611143682"
+    ],
+    [
+     "Arab News/AFP: Two tankers hit by mines in Hormuz (14 Nov)",
+     "https://www.arabnews.com/middle-east/iran-guards-say-two-oil-tankers-hit-by-mines-in-hormuz-3011782"
+    ],
+    [
      "Al Jazeera: Iran says Hormuz stays shut until demands are met (11 Nov)",
      "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met"
     ],
     [
      "CBS News: Iran war live updates (12 Nov)",
      "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/"
-    ],
-    [
-     "Straits Daily Brief (13 Nov)",
-     "https://straits.live/briefs/2026-11-13"
-    ],
-    [
-     "The Citizen: Peace efforts stall as US examines latest Iran proposal",
-     "https://www.citizen.co.za/news/news-world/peace-efforts-stall-us-examines-latest-iran-proposal/"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -2219,9 +2219,9 @@
      "The Qatari LNG carrier Al Mayeda was struck en route to Pakistan in early November, and Hormuz remains effectively shut."
     ],
     [
-     "Mediation role",
+     "Defence and mediation",
      2,
-     "Doha’s channels to Tehran and Washington give it leverage, and some protection."
+     "Qatar signed a mutual defence pact with Türkiye on 13 November, pledging a joint response to attacks, while continuing to mediate between Washington and Tehran."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -2247,7 +2247,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Gulf News: Turkey and Qatar sign defence pact (14 Nov)",
+     "https://gulfnews.com/world/mena/us-israel-iran-war-turkey-qatar-sign-defence-pact-as-trump-warns-tehran-hormuz-risks-persist-1.500745854"
+    ]
+   ]
   },
   "642": {
    "n": "Romania",
@@ -2364,7 +2370,7 @@
     [
      "Houthi missile and drone attacks",
      4,
-     "Houthi strikes on the kingdom are intensifying. Authorities warned of an aerial threat over Riyadh on 9 November and intercepted a drone over the Eastern Province on 10 November."
+     "The Saudi-led coalition shot down two Houthi drones targeting Riyadh on 14 November, and the Houthis are threatening Saudi oil infrastructure."
     ],
     [
      "Red Sea and Bab al-Mandab",
@@ -2387,6 +2393,10 @@
    ],
    "src": [
     [
+     "Iran International: Live updates (14 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611143682"
+    ],
+    [
      "Fox News: Iran war live updates (12 Nov)",
      "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
     ],
@@ -2397,10 +2407,6 @@
     [
      "Times of Israel: Live updates, 9 November",
      "https://www.timesofisrael.com/liveblog-november-9-2026/"
-    ],
-    [
-     "AP via KSAT: Mideast news (10 Nov)",
-     "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
     ]
    ],
    "e": {
@@ -2804,9 +2810,9 @@
      "A Turkish-owned grain ship was sunk by Russian drones on 5 October."
     ],
     [
-     "Iran war spillover",
+     "Iran war spillover and alliances",
      3,
-     "Border security, energy prices and refugee flows are all at risk."
+     "Türkiye signed a mutual defence pact with Qatar on 13 November as the Iran war keeps the region on edge."
     ],
     [
      "Inflation and capital flight",
@@ -2815,6 +2821,10 @@
     ]
    ],
    "src": [
+    [
+     "Gulf News: Turkey and Qatar sign defence pact (14 Nov)",
+     "https://gulfnews.com/world/mena/us-israel-iran-war-turkey-qatar-sign-defence-pact-as-trump-warns-tehran-hormuz-risks-persist-1.500745854"
+    ],
     [
      "Near East Weekly Update (9 Nov)",
      "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
@@ -2856,9 +2866,9 @@
    "s": "Entering a fifth winter of full-scale war. Abu Dhabi talks produced a prisoner-swap deal but no ceasefire.",
    "i": [
     [
-     "Strikes on the power grid",
+     "Strikes on cities and the grid",
      5,
-     "Russia launched 163 drones, 91 of them jet-powered, plus cruise missiles before the final day of talks, continuing its winter campaign against energy sites."
+     "A massive Russian drone and missile barrage killed at least six people in Kyiv on 14 November, a day after a strike on Zaporizhzhia injured 50, in a campaign that has launched over 2,000 drones at energy sites."
     ],
     [
      "Front line",
@@ -2873,20 +2883,20 @@
    ],
    "src": [
     [
+     "Euromaidan Press: Six killed in Russian strike on Kyiv (14 Nov)",
+     "https://euromaidanpress.com/?p=374344"
+    ],
+    [
+     "OSNT: Russia–Ukraine war brief (14 Nov)",
+     "https://app.osnt.in/brief/2026-11-14"
+    ],
+    [
      "Al Jazeera: Abu Dhabi talks end with prisoner exchange agreement (11 Nov)",
      "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
     ],
     [
      "Euronews: Prisoner deal but no breakthrough on central issues (11 Nov)",
      "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
-    ],
-    [
-     "The Moscow Times: Prisoner exchange but no peace breakthrough (11 Nov)",
-     "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227"
-    ],
-    [
-     "ABC News: Talks end amid barrage of drones (11 Nov)",
-     "https://abcnews.com/International/ukraine-russia-exchange-hundreds-drones-day-2-abu/story?id=138038984"
     ]
    ],
    "r": "Europe",
@@ -3054,7 +3064,7 @@
     [
      "Iran war decisions",
      4,
-     "Trump says the US does not need a deal with Iran because “we’ve got their strait”, and warns he would strike again without hesitation if allies or ships are threatened."
+     "Trump is reported to be weighing a pause on new strikes unless Iran provokes the US, and is expected to raise Iran with Putin and Xi at a meeting in China next week."
     ],
     [
      "Divided government",
@@ -3076,6 +3086,10 @@
     ]
    ],
    "src": [
+    [
+     "Iran International: Live updates (14 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611143682"
+    ],
     [
      "Fox News: Iran war live updates (12 Nov)",
      "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
@@ -5299,9 +5313,38 @@
    "c": [
     "400"
    ]
+  },
+  {
+   "start": "2026-11-18",
+   "when": "Next week",
+   "title": "Trump expected to raise Iran with Putin and Xi in China",
+   "text": "US officials say Trump will discuss the Iran war at a meeting with the Russian and Chinese leaders, according to ABC News.",
+   "c": [
+    "840",
+    "364",
+    "643",
+    "156"
+   ]
   }
  ],
  "log": [
+  {
+   "date": "14 Nov 2026",
+   "items": [
+    [
+     "364",
+     "Two more tankers hit mines in Hormuz; Trump weighs a pause on strikes and will raise Iran with Putin and Xi next week."
+    ],
+    [
+     "804",
+     "Russian barrage kills at least six in Kyiv; Zaporizhzhia strike injures 50."
+    ],
+    [
+     "634",
+     "Qatar and Türkiye sign a mutual defence pact."
+    ]
+   ]
+  },
   {
    "date": "13 Nov 2026",
    "items": [
@@ -5467,7 +5510,7 @@
     [
      "Mines and attacks",
      5,
-     "Three tankers were attacked in two days this week, and Iran claims it struck a small Omani island in the strait."
+     "The IRGC says two more tankers hit mines on 14 November after a gas carrier was struck the day before; the UN has urged safe passage for five fertiliser ships a day."
     ],
     [
      "US blockade",
@@ -5486,16 +5529,16 @@
    ],
    "src": [
     [
+     "Arab News/AFP: Two tankers hit by mines in Hormuz (14 Nov)",
+     "https://www.arabnews.com/middle-east/iran-guards-say-two-oil-tankers-hit-by-mines-in-hormuz-3011782"
+    ],
+    [
      "Straits Daily Brief (13 Nov)",
      "https://straits.live/briefs/2026-11-13"
     ],
     [
      "Al Jazeera: Ghalibaf says Hormuz will never return to pre-war status (11 Nov)",
      "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf"
-    ],
-    [
-     "Al Jazeera: US launches task force against Iran’s land supply routes (8 Nov)",
-     "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes"
     ]
    ]
   },
