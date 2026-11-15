@@ -118,6 +118,18 @@ def vtype(code):
     return "o"
 
 
+def fmt_eta(e):
+    """AIS ETA is month/day/hour/minute typed in by the crew, with no year.
+    Returns 'MM-DDTHH:MM' (UTC) or '' when not set or invalid."""
+    try:
+        mo, d, h, mi = int(e.get("Month", 0)), int(e.get("Day", 0)), int(e.get("Hour", 24)), int(e.get("Minute", 60))
+    except Exception:
+        return ""
+    if not (1 <= mo <= 12 and 1 <= d <= 31 and 0 <= h <= 23 and 0 <= mi <= 59):
+        return ""
+    return f"{mo:02d}-{d:02d}T{h:02d}:{mi:02d}"
+
+
 def in_box(lat, lon, box):
     (s, w), (n, e) = box
     return s <= lat <= n and w <= lon <= e
@@ -186,6 +198,7 @@ async def ais_listen(key, boxes, seconds):
                             "dest": (body.get("Destination") or "").strip(),
                             "len": length or None,
                             "dr": body.get("MaximumStaticDraught") or None,
+                            "eta": fmt_eta(body.get("Eta")),
                             "t": int(time.time()),
                         }
         except Exception as e:
@@ -444,6 +457,16 @@ def main():
     positions = {k: v for k, v in prev_pos.items() if NOW - v.get("t", 0) < 3 * 3600}
     positions.update(new_pos)
 
+    # --- Track history: one fix per run per ship, kept for 12 hours, so each
+    # ship's recent path can be drawn on the globe.
+    tracks = load(os.path.join(state, "tracks.json"), {})
+    for mmsi, p in new_pos.items():
+        tr = tracks.get(mmsi, [])
+        if not tr or abs(tr[-1][0] - p["lat"]) > 0.003 or abs(tr[-1][1] - p["lon"]) > 0.003:
+            tr.append([p["lat"], p["lon"], p["t"]])
+        tracks[mmsi] = [x for x in tr if NOW - x[2] < 12 * 3600][-30:]
+    tracks = {k: v for k, v in tracks.items() if v}
+
     # --- Sanctions
     sidx = refresh_sanctions(state)
     by_imo, by_mmsi = sidx.get("imo", {}), sidx.get("mmsi", {})
@@ -464,7 +487,7 @@ def main():
                         "hdg": p.get("hdg"), "nav": p.get("nav"), "t": p["t"],
                         "name": st.get("name") or p.get("name") or "", "imo": imo, "cs": st.get("cs", ""),
                         "vt": vtype(st.get("type")), "tc": st.get("type"), "dest": st.get("dest", ""),
-                        "len": st.get("len"), "dr": st.get("dr"), "flag": flag_of(mmsi), "zone": zone,
+                        "len": st.get("len"), "dr": st.get("dr"), "eta": st.get("eta", ""), "flag": flag_of(mmsi), "zone": zone,
                         "hit": hit, "how": how})
 
     sanctioned_keys = {v["mmsi"] for v in vessels if v["hit"] and v["hit"].get("sanc")}
@@ -511,7 +534,7 @@ def main():
 
     # --- Write outputs
     fields = ["mmsi", "lat", "lon", "sog", "cog", "hdg", "nav", "t", "name", "imo", "cs", "vt", "tc", "dest",
-              "len", "dr", "flag", "zone", "s"]
+              "len", "dr", "eta", "flag", "zone", "s"]
     rows = []
     for v in sorted(vessels, key=lambda v: (v["hit"] is None, v["vt"] != "t")):
         tag = 2 if v["mmsi"] in sanctioned_keys else (1 if v["hit"] else 0)
@@ -540,6 +563,10 @@ def main():
     save(os.path.join(state, "static.json"), static)
     save(os.path.join(state, "positions.json"), positions)
     save(os.path.join(state, "sightings.json"), sightings)
+    save(os.path.join(state, "tracks.json"), tracks)
+    in_view = {v["mmsi"] for v in vessels}
+    save(os.path.join(out_live, "tracks.json"), {"generated": ISO_NOW,
+         "tracks": {k: [[round(a, 4), round(b, 4), t] for a, b, t in v] for k, v in tracks.items() if k in in_view and len(v) > 1}})
     log(f"Done: {len(vessels)} vessels in zones, {len(sanctioned_keys)} sanctioned in view, "
         f"{len(sightings)} listed ships logged, {len(sts)} possible STS pairs, {len(jumps)} jumps.")
 
