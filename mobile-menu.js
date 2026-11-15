@@ -3,6 +3,7 @@
 (function () {
   var LINKS = [
     ['Risk map', '/#map'],
+    ['My countries', '/#mine'], 
     ['Maritime risk', '/maritime/'],
     ['China Monitor', '/china/'],
     ['Compare countries', '/#compare'],
