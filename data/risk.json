@@ -1,5 +1,5 @@
 {
- "assessed": "14 November 2026",
+ "assessed": "15 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -1073,15 +1073,23 @@
     [
      "Attacks on Hormuz shipping",
      5,
-     "The IRGC says two more tankers hit mines and caught fire on 14 November, a day after a gas carrier was struck; the UN has urged both sides to let five fertiliser ships pass each day."
+     "Iran says three tankers hit mines on 14–15 November and that a supertanker carrying 2 million barrels sank in the Gulf; the IRGC also launched drones at a US radar site in Bahrain, which were intercepted."
     ],
     [
      "Deadlock over talks",
      4,
-     "Iran demands an end to the blockade and sanctions, release of frozen funds and an end to fighting on all fronts before talks; Trump says the US does not need a deal, and Tehran is reviewing its nuclear treaty membership."
+     "Parliament speaker Ghalibaf says Iran will not accept “neither war nor peace” with the US, and Foreign Minister Araghchi visits Oman on 17 November for talks."
     ]
    ],
    "src": [
+    [
+     "Khaleej Times: Live updates (15 Nov)",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
+    ],
+    [
+     "Fox News: Iran war live updates (15 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+    ],
     [
      "Iran International: Live updates (14 Nov)",
      "https://www.iranintl.com/en/liveblog/202611143682"
@@ -1089,14 +1097,6 @@
     [
      "Arab News/AFP: Two tankers hit by mines in Hormuz (14 Nov)",
      "https://www.arabnews.com/middle-east/iran-guards-say-two-oil-tankers-hit-by-mines-in-hormuz-3011782"
-    ],
-    [
-     "Al Jazeera: Iran says Hormuz stays shut until demands are met (11 Nov)",
-     "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met"
-    ],
-    [
-     "CBS News: Iran war live updates (12 Nov)",
-     "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1153,9 +1153,9 @@
    "s": "A battleground between Iran-aligned militias and the US.",
    "i": [
     [
-     "Militia attacks on US forces",
+     "Militias versus the state",
      4,
-     "New Iran-aligned groups formed in 2026 have joined attacks on US and allied targets."
+     "An Iran-backed Iraqi militia has called a government probe a plot to seize its weapons, as Baghdad tries to rein in armed groups."
     ],
     [
      "Strikes on the Kurdistan Region",
@@ -1177,6 +1177,10 @@
     ]
    ],
    "src": [
+    [
+     "Iran International: Live updates (15 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611143682"
+    ],
     [
      "Near East Weekly Update (9 Nov)",
      "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
@@ -1212,7 +1216,7 @@
     [
      "Return to war with Iran",
      5,
-     "Netanyahu has pushed for another wave of strikes on Iran. A new exchange would bring Iranian missile fire back onto Israeli cities and infrastructure."
+     "US officials say Israel is still pressing the Trump administration to launch new strikes on Iran."
     ],
     [
      "Northern front with Hezbollah",
@@ -1234,6 +1238,10 @@
     ]
    ],
    "src": [
+    [
+     "Fox News: Iran war live updates (15 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+    ],
     [
      "Al Jazeera: Herzog tasks Eisenkot with forming a government (8 Nov)",
      "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
@@ -2310,7 +2318,7 @@
     [
      "Ukrainian strikes on energy",
      4,
-     "Ukrainian drones set the Afipsky oil refinery in Krasnodar Krai on fire on 6 November, the latest in a sustained campaign against Russia’s oil sector."
+     "Rosneft’s Ryazan refinery, one of Russia’s largest, suspended crude processing after a Ukrainian drone attack, industry sources told Reuters on 15 November."
     ],
     [
      "Sanctions and the shadow fleet",
@@ -2360,7 +2368,13 @@
       "https://ofac.treasury.gov/sanctions-programs-and-country-information/countering-americas-adversaries-through-sanctions-act-related-sanctions"
      ]
     ]
-   }
+   },
+   "src": [
+    [
+     "Newswav/Reuters: Ryazan refinery suspended after drone attack (15 Nov)",
+     "https://newswav.com/article/ukraine-russia-war-latest-kremlin-and-kyiv-respond-to-trump-s-secret-peace-A2511_LpbDx1"
+    ]
+   ]
   },
   "682": {
    "n": "Saudi Arabia",
@@ -2373,9 +2387,9 @@
      "The Saudi-led coalition shot down two Houthi drones targeting Riyadh on 14 November, and the Houthis are threatening Saudi oil infrastructure."
     ],
     [
-     "Red Sea and Bab al-Mandab",
-     4,
-     "Escalation in Yemen keeps the kingdom’s western shipping lanes under threat."
+     "Red Sea and Bab el-Mandeb",
+     5,
+     "Houthi control of the Bab el-Mandeb coastline threatens the kingdom’s western shipping lanes; Riyadh has also condemned Iranian attacks on neighbouring Bahrain."
     ],
     [
      "Energy infrastructure and finances",
@@ -2393,6 +2407,10 @@
    ],
    "src": [
     [
+     "Khaleej Times: Live updates (15 Nov)",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
+    ],
+    [
      "Iran International: Live updates (14 Nov)",
      "https://www.iranintl.com/en/liveblog/202611143682"
     ],
@@ -2403,10 +2421,6 @@
     [
      "Near East Weekly Update (9 Nov)",
      "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
-    ],
-    [
-     "Times of Israel: Live updates, 9 November",
-     "https://www.timesofisrael.com/liveblog-november-9-2026/"
     ]
    ],
    "e": {
@@ -2953,9 +2967,9 @@
    "s": "Economic strain from regional wars.",
    "i": [
     [
-     "Lost Suez revenue",
-     3,
-     "Red Sea insecurity keeps Suez Canal traffic and income depressed."
+     "Suez and Red Sea risk",
+     4,
+     "Houthi control of the Bab el-Mandeb coast further threatens Red Sea traffic and Egypt’s canal revenue."
     ],
     [
      "Debt, dollars and press freedom",
@@ -2977,6 +2991,10 @@
     ]
    ],
    "src": [
+    [
+     "Fox News: Iran war live updates (15 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+    ],
     [
      "Near East Weekly Update (9 Nov)",
      "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
@@ -3226,17 +3244,17 @@
   "887": {
    "n": "Yemen",
    "l": 5,
-   "s": "The civil war has escalated alongside the Iran war, and the Bab al-Mandab is contested again.",
+   "s": "The Houthis now control the Bab el-Mandeb coastline after government forces pulled back, putting a second global chokepoint at risk.",
    "i": [
     [
-     "Civil war escalation",
+     "Houthis seize the Bab el-Mandeb coast",
      5,
-     "The Saudi-led coalition is striking Houthi missile sites around Sanaa, while the Houthis step up missile and drone attacks on Saudi Arabia."
+     "Yemeni government forces withdrew from the Bab el-Mandeb area on 15 November, leaving the Houthis in control, and Houthi fighters killed five people in an attack near Aden."
     ],
     [
-     "Bab al-Mandab shipping",
+     "Red Sea shipping",
      5,
-     "Red Sea transit remains one of the riskiest commercial routes in the world."
+     "Houthi control of the coastline creates a dual chokepoint crisis alongside Iran’s disruption of Hormuz."
     ],
     [
      "Humanitarian crisis",
@@ -3253,6 +3271,14 @@
     ]
    ],
    "src": [
+    [
+     "Khaleej Times: Live updates (15 Nov)",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
+    ],
+    [
+     "Fox News: Iran war live updates (15 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+    ],
     [
      "AP via KSAT: Overnight strikes in Yemen and other Mideast news (10 Nov)",
      "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
@@ -5315,19 +5341,50 @@
    ]
   },
   {
-   "start": "2026-11-18",
-   "when": "Next week",
-   "title": "Trump expected to raise Iran with Putin and Xi in China",
-   "text": "US officials say Trump will discuss the Iran war at a meeting with the Russian and Chinese leaders, according to ABC News.",
+   "start": "2026-11-19",
+   "when": "19 Nov",
+   "title": "US–Russia–China summit",
+   "text": "The White House has confirmed a summit of the three leaders; Iran is expected on the agenda, while Ukraine is not expected to be discussed.",
    "c": [
     "840",
     "364",
     "643",
     "156"
    ]
+  },
+  {
+   "start": "2026-11-17",
+   "when": "17 Nov",
+   "title": "Iran’s foreign minister visits Oman",
+   "text": "Abbas Araghchi travels to Muscat for talks as mediation continues.",
+   "c": [
+    "364",
+    "512"
+   ]
   }
  ],
  "log": [
+  {
+   "date": "15 Nov 2026",
+   "items": [
+    [
+     "887",
+     "The Houthis take control of the Bab el-Mandeb coastline after government forces withdraw."
+    ],
+    [
+     "364",
+     "Iran says three tankers hit mines and a supertanker sank; drones launched at a US site in Bahrain."
+    ],
+    [
+     "643",
+     "Ukrainian drones halt Rosneft’s Ryazan refinery."
+    ],
+    [
+     null,
+     "Bab el-Mandeb, Hormuz and Suez chokepoints updated; US–Russia–China summit confirmed for 19 November."
+    ]
+   ]
+  },
   {
    "date": "14 Nov 2026",
    "items": [
@@ -5510,7 +5567,7 @@
     [
      "Mines and attacks",
      5,
-     "The IRGC says two more tankers hit mines on 14 November after a gas carrier was struck the day before; the UN has urged safe passage for five fertiliser ships a day."
+     "Iran says three tankers hit mines on 14–15 November and a supertanker carrying 2 million barrels sank; UKMTO also reported an attack on a tanker in the Gulf."
     ],
     [
      "US blockade",
@@ -5529,16 +5586,16 @@
    ],
    "src": [
     [
+     "Khaleej Times: Live updates (15 Nov)",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
+    ],
+    [
      "Arab News/AFP: Two tankers hit by mines in Hormuz (14 Nov)",
      "https://www.arabnews.com/middle-east/iran-guards-say-two-oil-tankers-hit-by-mines-in-hormuz-3011782"
     ],
     [
      "Straits Daily Brief (13 Nov)",
      "https://straits.live/briefs/2026-11-13"
-    ],
-    [
-     "Al Jazeera: Ghalibaf says Hormuz will never return to pre-war status (11 Nov)",
-     "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf"
     ]
    ]
   },
@@ -5548,12 +5605,12 @@
    "lat": 12.58,
    "lon": 43.33,
    "l": 5,
-   "s": "The southern gateway to the Red Sea and Suez route, threatened by Houthi forces in Yemen.",
+   "s": "The Houthis now control the strait’s coastline after Yemeni government forces withdrew on 15 November.",
    "i": [
     [
-     "Houthi attacks",
+     "Houthi control of the coast",
      5,
-     "Houthi missile and drone capability keeps the strait one of the riskiest shipping routes in the world."
+     "Government forces pulled back from the Bab el-Mandeb area on 15 November, leaving the Houthis in control of the coastline."
     ],
     [
      "Yemen escalation",
@@ -5574,12 +5631,16 @@
    ],
    "src": [
     [
-     "Fox News: Iran war live updates (12 Nov)",
-     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
+     "Khaleej Times: Live updates (15 Nov)",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
     ],
     [
-     "AP via KSAT: Overnight strikes in Yemen (10 Nov)",
-     "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
+     "Fox News: Iran war live updates (15 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+    ],
+    [
+     "Fox News: Iran war live updates (12 Nov)",
+     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
     ]
    ]
   },
@@ -5594,7 +5655,7 @@
     [
      "Diverted traffic",
      4,
-     "Attacks around Bab el-Mandeb keep many ships away from the Red Sea route."
+     "With the Houthis now controlling the Bab el-Mandeb coast, more ships are likely to avoid the Red Sea route to Suez."
     ],
     [
      "Egypt’s lost revenue",
