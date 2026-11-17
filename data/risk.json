@@ -1,5 +1,5 @@
 {
- "assessed": "15 November 2026",
+ "assessed": "17 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -1078,10 +1078,18 @@
     [
      "Deadlock over talks",
      4,
-     "Parliament speaker Ghalibaf says Iran will not accept “neither war nor peace” with the US, and Foreign Minister Araghchi visits Oman on 17 November for talks."
+     "Foreign Minister Araghchi met Oman’s foreign minister in Muscat on 17 November to discuss maritime corridors and reviving diplomacy, but no agreement was announced after the US rejected Iran’s conditions for talks."
     ]
    ],
    "src": [
+    [
+     "The National: Iran and Oman discuss maritime security (17 Nov)",
+     "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/"
+    ],
+    [
+     "Arab News: Iran and Oman discuss shipping amid Hormuz blockade (17 Nov)",
+     "https://www.arabnews.com/middle-east/iran-and-oman-discuss-shipping-amid-hormuz-blockade-3012408"
+    ],
     [
      "Khaleej Times: Live updates (15 Nov)",
      "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
@@ -1089,14 +1097,6 @@
     [
      "Fox News: Iran war live updates (15 Nov)",
      "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
-    ],
-    [
-     "Iran International: Live updates (14 Nov)",
-     "https://www.iranintl.com/en/liveblog/202611143682"
-    ],
-    [
-     "Arab News/AFP: Two tankers hit by mines in Hormuz (14 Nov)",
-     "https://www.arabnews.com/middle-east/iran-guards-say-two-oil-tankers-hit-by-mines-in-hormuz-3011782"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1847,12 +1847,12 @@
     [
      "Strikes in Omani waters",
      4,
-     "Iran claims it struck a small Omani island in the Strait of Hormuz that it says is used for US operations, and ships continue to be hit nearby."
+     "A tanker was attacked off Oman’s coast overnight on 16–17 November, as Muscat hosted Iran’s foreign minister for talks on maritime security."
     ],
     [
      "Mediation channel",
      2,
-     "Muscat remains a quiet go-between for Washington and Tehran."
+     "Oman continues to host Iran–US contacts and has called for an economic and security pact between Iran and the Gulf states."
     ],
     [
      "Fiscal reliance on hydrocarbons",
@@ -1869,6 +1869,10 @@
     ]
    ],
    "src": [
+    [
+     "The National: Iran and Oman discuss maritime security (17 Nov)",
+     "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/"
+    ],
     [
      "Fox News: Iran war live updates (12 Nov)",
      "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
@@ -3257,9 +3261,9 @@
      "Houthi control of the coastline creates a dual chokepoint crisis alongside Iran’s disruption of Hormuz."
     ],
     [
-     "Humanitarian crisis",
+     "Houthi advance in the south",
      4,
-     "Food insecurity is deepening as fighting and funding cuts disrupt aid."
+     "After taking the Bab el-Mandeb coast, Houthi forces have reportedly pushed into Lahij province, raising fears for Aden."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -3271,6 +3275,10 @@
     ]
    ],
    "src": [
+    [
+     "House of Saud: Houthi forces advance towards Aden (17 Nov)",
+     "https://houseofsaud.com/houthis-advance-aden-saudi-war-rationale/"
+    ],
     [
      "Khaleej Times: Live updates (15 Nov)",
      "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
@@ -5351,19 +5359,26 @@
     "643",
     "156"
    ]
-  },
-  {
-   "start": "2026-11-17",
-   "when": "17 Nov",
-   "title": "Iran’s foreign minister visits Oman",
-   "text": "Abbas Araghchi travels to Muscat for talks as mediation continues.",
-   "c": [
-    "364",
-    "512"
-   ]
   }
  ],
  "log": [
+  {
+   "date": "17 Nov 2026",
+   "items": [
+    [
+     "364",
+     "Iran and Oman hold talks in Muscat on shipping and maritime security; no deal announced."
+    ],
+    [
+     "512",
+     "A tanker is attacked off Oman overnight."
+    ],
+    [
+     "887",
+     "Houthi forces reportedly push towards Aden after taking the Bab el-Mandeb coast."
+    ]
+   ]
+  },
   {
    "date": "15 Nov 2026",
    "items": [
@@ -5570,9 +5585,9 @@
      "Iran says three tankers hit mines on 14–15 November and a supertanker carrying 2 million barrels sank; UKMTO also reported an attack on a tanker in the Gulf."
     ],
     [
-     "US blockade",
+     "Diplomacy without a deal",
      4,
-     "US forces are enforcing a naval blockade of Iranian ports and have disabled a ship trying to breach it."
+     "Iran and Oman discussed safeguarding maritime corridors in Muscat on 17 November, but no agreement was announced and a tanker was attacked off Oman overnight."
     ]
    ],
    "c": [
@@ -5586,16 +5601,16 @@
    ],
    "src": [
     [
+     "The National: Iran and Oman discuss maritime security (17 Nov)",
+     "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/"
+    ],
+    [
      "Khaleej Times: Live updates (15 Nov)",
      "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
     ],
     [
      "Arab News/AFP: Two tankers hit by mines in Hormuz (14 Nov)",
      "https://www.arabnews.com/middle-east/iran-guards-say-two-oil-tankers-hit-by-mines-in-hormuz-3011782"
-    ],
-    [
-     "Straits Daily Brief (13 Nov)",
-     "https://straits.live/briefs/2026-11-13"
     ]
    ]
   },

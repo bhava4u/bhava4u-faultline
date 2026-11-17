@@ -77,6 +77,15 @@ nav a:hover{color:var(--ink)}
 .country:hover{opacity:.82;cursor:pointer}
 .country.sel{stroke:var(--ink);stroke-width:1.6}
 .country.dim{opacity:.18}
+.live{margin:16px 0 0;padding:12px 14px;border:1px solid var(--rule);border-radius:4px}
+.live h4{margin:0 0 8px;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:7px}
+.live h4 i{width:8px;height:8px;border-radius:50%;background:#2E9E5B;box-shadow:0 0 0 3px rgba(46,158,91,.18)}
+.live ul{list-style:none;margin:0;padding:0}
+.live li{padding:7px 0;border-top:1px solid var(--rule);font-size:14px;line-height:1.4}
+.live li:first-child{border-top:0;padding-top:0}
+.live a{color:var(--ink);text-decoration:none}.live a:hover{text-decoration:underline}
+.live small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+.live p{margin:8px 0 0;font-size:11.5px;color:var(--muted)}
 .sx{margin:16px 0 0;padding:12px 14px;border:1px solid var(--rule);border-radius:4px}
 .sx h4{margin:0 0 6px;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
 .sx .tag{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:10px;margin-bottom:6px;color:#fff}
@@ -711,7 +720,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   $('#chokeChips').innerHTML = CHOKES.length ? '<span>Shipping chokepoints:</span>'+CHOKES.map(c=>`<button data-c="${c.id}">${c.n}</button>`).join('') : '';
   $('#chokeChips').addEventListener('click',e=>{const b=e.target.closest('button[data-c]'); if(b) selectChoke(b.dataset.c,true);});
   function selectChoke(cid, rotate){
-    const c=CBY[cid]; if(!c) return; stopSpin();
+    const c=CBY[cid]; if(!c) return; stopSpin(); CUR=['k',cid];
     countries.classed('sel',false); marks.classed('sel',m=>m.id===cid); $('#q').value=c.n;
     if(rotate){ const target=[-c.lon,-c.lat]; if(reduce){proj.rotate(target);draw();} else { const ip=d3.interpolate(proj.rotate(),target); d3.transition().duration(900).ease(d3.easeCubicInOut).tween('rot',()=>t=>{proj.rotate(ip(t));draw();}); } }
     $('#briefBody').innerHTML = `<span class="rtag">Shipping chokepoint</span><h2>${c.n}</h2>
@@ -719,6 +728,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
       <p class="summary">${c.s}</p>
       <ol class="issues">${c.i.map(([t,l,x])=>`<li><div class="issue-head"><h3>${t}</h3><span class="pill p${l}" style="${pillStyle(l)}">${LEVELS[l]}</span></div><p>${x}</p></li>`).join('')}</ol>
       ${(c.c||[]).filter(x=>RISK[x]).length?`<div class="aff">${c.c.filter(x=>RISK[x]).map(x=>`<button data-id="${x}">${RISK[x].n}</button>`).join('')}</div>`:''}
+      ${liveHtml(cid)}
       <div class="srcs"><h4>Sources</h4>${c.src&&c.src.length?`<ul>${c.src.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${t}</a></li>`).join('')}</ul>`:'<p>Based on open-source reporting. Linked sources are added as each chokepoint is reviewed.</p>'}</div>
       <p class="note">Assessed ${ASSESSED}.</p>`;
     $('#briefBody').querySelectorAll('.aff button').forEach(b=>b.onclick=()=>select(b.dataset.id,true));
@@ -850,6 +860,19 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     el.innerHTML=s+'</svg><p>Coverage grew from 65 to 100 countries on 7 November. Counts reflect the grade each country held on that date.</p>';
   })();
 
+  // live headlines (automated, GDELT)
+  let LIVE=null, CUR=null;
+  const ago = iso => { if(!iso) return ''; const m=Math.max(1,Math.round((Date.now()-new Date(iso))/60000)); return m<60?m+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago'; };
+  const esc = s => String(s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  function liveHtml(key){
+    if(!LIVE) return '';
+    const it=(LIVE.items||{})[key]||[];
+    if(!it.length) return '';
+    return `<div class="live"><h4><i></i>Latest headlines</h4><ul>${it.map(a=>`<li><a href="${esc(a.u)}" target="_blank" rel="noopener nofollow">${esc(a.t)}</a><small>${esc(a.s)}${a.d?' · '+ago(a.d):''}</small></li>`).join('')}</ul><p>Automated news feed from the GDELT Project, refreshed every few hours (last ${ago(LIVE.updated)}). Headlines are not reviewed by Faultline analysts; threat levels are.</p></div>`;
+  }
+  fetch('data/live.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{ if(!j) return; LIVE=j;
+    if(CUR){ if(CUR[0]==='c') renderBrief(CUR[1]); else selectChoke(CUR[1],false); } }).catch(()=>{});
+
   // printable brief
   function printBrief(id){
     const k = RISK[id], ev = EVENTS.filter(e=>(e.c||[]).includes(id));
@@ -896,6 +919,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   });
 
   function renderBrief(id){
+    CUR=['c',id];
     const k = RISK[id], body = $('#briefBody');
     if(!k){
       const name = byId[id] ? byId[id].properties.name : 'This country';
@@ -910,6 +934,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
       ${k.b?`<div class="biz"><h4>What it means for business</h4><p>${k.b}</p></div>`:''}
       ${econHtml(k)}
       ${sxHtml(k)}
+      ${liveHtml(id)}
       <ol class="issues">${k.i.map(([t,l,x])=>`
         <li><div class="issue-head"><h3>${t}</h3><span class="pill p${l}" style="${pillStyle(l)}">${LEVELS[l]}</span></div><p>${x}</p></li>`).join('')}
       </ol>
