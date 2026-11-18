@@ -106,6 +106,12 @@ aside.panel{position:sticky;top:calc(env(safe-area-inset-top,0px) + 76px);backgr
 .prio span{font-size:13px;color:var(--muted)}
 .note{border-left:3px solid var(--l4);padding-left:12px}
 .official{font-size:14.5px}
+.fp dl{margin-top:8px}
+.fp .fpnote{font-size:13px;color:var(--muted);margin:4px 0 0}
+.fp details{margin-top:8px;font-size:14px}
+.fp details summary{cursor:pointer;color:var(--ink)}
+.fp details ul{margin-top:6px;columns:2;column-gap:20px}
+.fp .fplink{margin-top:10px;padding:10px 12px;border:1px solid var(--rule);border-radius:4px;font-size:14px}
 .src{font-size:13px;color:var(--muted);border-top:1px solid var(--rule);margin-top:20px;padding-top:12px}
 .src a{color:var(--focus)}
 .close,.share{background:none;border:1px solid var(--rule);border-radius:4px;padding:5px 10px;font-size:13px;cursor:pointer;color:var(--muted)}
@@ -365,8 +371,40 @@ function profile(e){
   ${e.also ? `<h3>Other US measures</h3><ul>${e.also.map(a => `<li>${esc(a)}</li>`).join('')}</ul>` : ''}
   ${e.note ? `<h3>Analyst note</h3><p class="note">${esc(e.note)}</p>` : ''}
   <h3>Due diligence checks</h3><ul>${checks.map(c => `<li>${esc(c)}</li>`).join('')}</ul>
+  ${footprint(e)}
   ${rel.length ? `<h3>Related listed entities</h3><ul class="rel">${rel.map(r => `<li><button type="button" data-open="${r.id}">${esc(r.name)}</button></li>`).join('')}</ul>` : ''}
   <p class="src">Source: <a href="https://www.dhs.gov/uflpa-entity-list" target="_blank" rel="noopener">DHS UFLPA Entity List</a>${notice ? `; <a href="${notice[1]}" target="_blank" rel="noopener">${notice[0]}</a>` : ''}. Reasons marked “DHS says” summarise the government’s published determination. Analyst notes are Faultline’s own assessment based on public reporting.</p>`;
+}
+let SF = null;
+function fpDomain(e){ return e.web ? e.web.replace(/^https?:\/\/(www\.)?/,'').split('/')[0].toLowerCase() : null; }
+function footprint(e){
+  const dom = fpDomain(e); if (!dom || !SF || !SF.targets) return '';
+  const t = SF.targets[dom]; if (!t) return '';
+  const when = t.scanned ? new Date(t.scanned + 'T00:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}) : '';
+  const head = `<h3>Digital footprint</h3>`;
+  if (t.status === 'empty') return `<div class="fp">${head}<p class="fpnote">Our passive scan of ${esc(dom)} on ${when} returned no public records.</p></div>`;
+  const v = a => (a||[]).map(x => esc(x.v));
+  const row = (label, vals) => vals.length ? `<dt>${label}</dt><dd>${vals.join('<br>')}</dd>` : '';
+  const shared = (SF.links||[]).filter(l => l.domains.includes(dom)).map(l => {
+    const others = l.domains.filter(d => d !== dom).map(d => (SF.targets[d] && SF.targets[d].companies || [d]).join(', '));
+    return `<div class="fplink"><b>Shared with other listed companies:</b> the same analytics or verification ID (${esc(l.value)}) also appears on websites linked to ${others.map(esc).join('; ').replace(/\.$/,'')}. A shared ID can point to a common owner or web agency, so treat it as a lead to check, not proof.</div>`;
+  }).join('');
+  const subs = (t.subdomains||[]).filter(s => s.v !== dom);
+  return `<div class="fp">${head}
+  <p class="fpnote">What public internet records show about ${esc(dom)}${when ? `, as of ${when}` : ''}${t.status === 'stale' ? ' (this week’s scan returned nothing, so this is the previous result)' : ''}.</p>
+  <dl>
+    ${t.domain_created ? `<dt>Domain registered</dt><dd>${esc(t.domain_created)}</dd>` : ''}
+    ${row('Registrar', v(t.registrar))}
+    ${row('Hosting networks', v(t.networks))}
+    ${row('Server locations', v(t.server_countries))}
+    ${row('Name servers', v(t.nameservers))}
+    ${row('Email provider', v(t.mail))}
+    ${t.ip_count ? `<dt>IP addresses</dt><dd>${t.ip_count}</dd>` : ''}
+    ${row('Analytics and verification IDs', v(t.analytics))}
+  </dl>
+  ${subs.length ? `<details><summary>${(n => n + (n === 1 ? ' subdomain' : ' subdomains'))(t.subdomain_count - ((t.subdomains||[]).some(s => s.v === dom) ? 1 : 0))} found${t.subdomain_count > (t.subdomains||[]).length ? `, first ${(t.subdomains||[]).length} shown` : ''}</summary><ul>${subs.map(s => `<li>${esc(s.v)}</li>`).join('')}</ul></details>` : ''}
+  ${shared}
+  <p class="fpnote">Automated passive scan with ${esc(SF.tool || 'SpiderFoot')}: DNS, certificate transparency logs, WHOIS and IP registries. Company servers are not probed, and personal data is excluded. Hosting location shows where a website runs, not where a company operates.</p></div>`;
 }
 function open(id, push){
   const e = byId[id]; if (!e) return;
@@ -404,6 +442,7 @@ $('#reset').onclick = () => { $('#q').value = ''; ['#fSector','#fLoc','#fBasis',
 function fromHash(){ const h = decodeURIComponent(location.hash.slice(1)); if (h && byId[h]) open(h, false); }
 window.addEventListener('hashchange', fromHash);
 render(); fromHash();
+fetch('/data/spiderfoot.json', {cache:'no-store'}).then(r => r.ok ? r.json() : null).then(j => { if (!j) return; SF = j; if (selId) open(selId, false); }).catch(() => {});
 })();
 </script>
 </body>
