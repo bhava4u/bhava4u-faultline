@@ -1,0 +1,54 @@
+name: Digital footprint (SpiderFoot)
+
+# Once a week, runs a passive SpiderFoot scan on the website of every China
+# Monitor company that has one and saves the company-level results to
+# data/spiderfoot.json for faultlinerisk.com/china/.
+# No API keys are needed for the modules used. If keyed modules are added
+# later, store each key under Settings > Secrets and variables > Actions and
+# pass it in through env below, never in the code.
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # Mondays, 03:00 UTC
+  workflow_dispatch:       # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: spiderfoot
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install SpiderFoot (pinned version)
+        run: |
+          git clone -q https://github.com/smicallef/spiderfoot.git ../spiderfoot
+          cd ../spiderfoot
+          git checkout -q 0f815a2   # SpiderFoot 4.0, pinned so the scan never changes unexpectedly
+          python -m venv ../sfenv
+          ../sfenv/bin/pip install -q -r requirements.txt
+
+      - name: Run passive scans
+        env:
+          SF_DIR: ${{ github.workspace }}/../spiderfoot
+          SF_PYTHON: ${{ github.workspace }}/../sfenv/bin/python
+        run: python scripts/spiderfoot_update.py
+
+      - name: Publish
+        run: |
+          git config user.name "faultline-bot"
+          git config user.email "faultline-bot@users.noreply.github.com"
+          git add data/spiderfoot.json
+          git commit -m "Digital footprint scan $(date -u +%F)" || exit 0
+          git pull --rebase -q origin main
+          git push
