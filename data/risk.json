@@ -1,5 +1,5 @@
 {
- "assessed": "17 November 2026",
+ "assessed": "18 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -1063,17 +1063,17 @@
   "364": {
    "n": "Iran",
    "l": 5,
-   "s": "At war with the US and Israel since 28 February. Tehran says Hormuz stays shut until seven conditions are met, while Trump says the US does not need a deal.",
+   "s": "At war with the US and Israel since 28 February. Strikes resumed overnight on 17–18 November as Iran hit Gulf states and the US struck Qeshm Island.",
    "i": [
     [
-     "Blockade and strike threat",
+     "Renewed US strikes",
      5,
-     "Reuters reports Trump is considering holding off further strikes unless Tehran provokes the US, while the IRGC says it shot down a US drone over Qeshm Island on 14 November."
+     "US forces struck targets on Qeshm Island overnight in response to IRGC attacks, a US official said, while Iran claimed to have hit a US air base."
     ],
     [
      "Attacks on Hormuz shipping",
      5,
-     "Iran says three tankers hit mines on 14–15 November and that a supertanker carrying 2 million barrels sank in the Gulf; the IRGC also launched drones at a US radar site in Bahrain, which were intercepted."
+     "A vessel belonging to the UAE’s state oil company ADNOC was attacked in the strait, and Iran’s navy claims another tanker caught fire after hitting a mine; the strait remains effectively closed."
     ],
     [
      "Deadlock over talks",
@@ -1083,20 +1083,20 @@
    ],
    "src": [
     [
+     "ABC News: US conducts airstrikes on Qeshm Island (18 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+    ],
+    [
+     "Gulf News: Iran attacks Bahrain, ADNOC vessel hit, US hits Qeshm (18 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+    ],
+    [
+     "Straits Daily Brief (18 Nov)",
+     "https://straits.live/briefs/2026-11-18"
+    ],
+    [
      "The National: Iran and Oman discuss maritime security (17 Nov)",
      "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/"
-    ],
-    [
-     "Arab News: Iran and Oman discuss shipping amid Hormuz blockade (17 Nov)",
-     "https://www.arabnews.com/middle-east/iran-and-oman-discuss-shipping-amid-hormuz-blockade-3012408"
-    ],
-    [
-     "Khaleej Times: Live updates (15 Nov)",
-     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
-    ],
-    [
-     "Fox News: Iran war live updates (15 Nov)",
-     "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1534,7 +1534,7 @@
     [
      "Strikes from Iran and Iraqi militias",
      4,
-     "Kuwait has been hit during the war, including by new Iran-aligned Iraqi groups."
+     "Iran targeted Kuwait in overnight attacks on 17–18 November, and drone threats keep the country on high alert."
     ],
     [
      "Export dependence on Hormuz",
@@ -1570,7 +1570,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Times of Israel: Iran targets Bahrain and Kuwait (18 Nov)",
+     "https://www.timesofisrael.com/liveblog-november-18-2026/"
+    ],
+    [
+     "Gulf News: Iran attacks Bahrain, ADNOC vessel hit, US hits Qeshm (18 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+    ]
+   ]
   },
   "422": {
    "n": "Lebanon",
@@ -2388,7 +2398,7 @@
     [
      "Houthi missile and drone attacks",
      4,
-     "The Saudi-led coalition shot down two Houthi drones targeting Riyadh on 14 November, and the Houthis are threatening Saudi oil infrastructure."
+     "The coalition intercepted a Houthi cruise missile aimed at the Riyadh region on 18 November and launched major air strikes across Houthi-held Yemen in response to escalating attacks."
     ],
     [
      "Red Sea and Bab el-Mandeb",
@@ -2411,20 +2421,20 @@
    ],
    "src": [
     [
+     "Washington Post/AP: Saudi-backed forces launch major attack on Houthis (18 Nov)",
+     "https://www.washingtonpost.com/national/2026/11/18/mideast-news-iran-bahrain-us-november-18-2026/54a57f16-e326-11f1-a99e-b3e3805c6b8b_story.html"
+    ],
+    [
+     "Gulf News: Iran attacks Bahrain, ADNOC vessel hit, US hits Qeshm (18 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+    ],
+    [
      "Khaleej Times: Live updates (15 Nov)",
      "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
     ],
     [
      "Iran International: Live updates (14 Nov)",
      "https://www.iranintl.com/en/liveblog/202611143682"
-    ],
-    [
-     "Fox News: Iran war live updates (12 Nov)",
-     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
-    ],
-    [
-     "Near East Weekly Update (9 Nov)",
-     "https://williamusher.substack.com/p/near-east-weekly-update-november-349"
     ]
    ],
    "e": {
@@ -2779,7 +2789,7 @@
     [
      "Iranian retaliation",
      4,
-     "The IRGC has named states hosting US bases as targets. The US is cutting staff at its UAE posts."
+     "A vessel operated by state oil company ADNOC was attacked while transiting the Strait of Hormuz on 18 November."
     ],
     [
      "Hormuz chokepoint",
@@ -2815,7 +2825,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "ABC News: US conducts airstrikes on Qeshm Island (18 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+    ],
+    [
+     "Gulf News: Iran attacks Bahrain, ADNOC vessel hit, US hits Qeshm (18 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+    ]
+   ]
   },
   "792": {
    "n": "Türkiye",
@@ -3086,7 +3106,7 @@
     [
      "Iran war decisions",
      4,
-     "Trump is reported to be weighing a pause on new strikes unless Iran provokes the US, and is expected to raise Iran with Putin and Xi at a meeting in China next week."
+     "US forces struck Qeshm Island on 18 November in response to IRGC attacks, despite reports that the White House had been weighing a pause in strikes."
     ],
     [
      "Divided government",
@@ -3108,6 +3128,10 @@
     ]
    ],
    "src": [
+    [
+     "ABC News: US conducts airstrikes on Qeshm Island (18 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+    ],
     [
      "Iran International: Live updates (14 Nov)",
      "https://www.iranintl.com/en/liveblog/202611143682"
@@ -3251,9 +3275,9 @@
    "s": "The Houthis now control the Bab el-Mandeb coastline after government forces pulled back, putting a second global chokepoint at risk.",
    "i": [
     [
-     "Houthis seize the Bab el-Mandeb coast",
+     "War with the Saudi-led coalition",
      5,
-     "Yemeni government forces withdrew from the Bab el-Mandeb area on 15 November, leaving the Houthis in control, and Houthi fighters killed five people in an attack near Aden."
+     "The coalition launched a major air campaign across Houthi-held territory on 18 November, which the Houthis say killed at least 17 people, after they seized the Bab el-Mandeb coast."
     ],
     [
      "Red Sea shipping",
@@ -3276,6 +3300,10 @@
    ],
    "src": [
     [
+     "Washington Post/AP: Saudi-backed forces launch major attack on Houthis (18 Nov)",
+     "https://www.washingtonpost.com/national/2026/11/18/mideast-news-iran-bahrain-us-november-18-2026/54a57f16-e326-11f1-a99e-b3e3805c6b8b_story.html"
+    ],
+    [
      "House of Saud: Houthi forces advance towards Aden (17 Nov)",
      "https://houseofsaud.com/houthis-advance-aden-saudi-war-rationale/"
     ],
@@ -3286,10 +3314,6 @@
     [
      "Fox News: Iran war live updates (15 Nov)",
      "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
-    ],
-    [
-     "AP via KSAT: Overnight strikes in Yemen and other Mideast news (10 Nov)",
-     "https://www.ksat.com/news/world/2026/11/10/overnight-strikes-in-yemen-kill-at-least-1-person-and-wound-9-and-other-mideast-news/"
     ]
    ],
    "e": {
@@ -5363,6 +5387,27 @@
  ],
  "log": [
   {
+   "date": "18 Nov 2026",
+   "items": [
+    [
+     "364",
+     "US strikes Qeshm Island after IRGC attacks; Iran targets Bahrain and Kuwait."
+    ],
+    [
+     "784",
+     "An ADNOC vessel is attacked in the Strait of Hormuz."
+    ],
+    [
+     "887",
+     "The Saudi-led coalition launches a major air campaign against the Houthis."
+    ],
+    [
+     null,
+     "New: live headlines for every country and chokepoint, refreshed automatically every three hours."
+    ]
+   ]
+  },
+  {
    "date": "17 Nov 2026",
    "items": [
     [
@@ -5582,7 +5627,7 @@
     [
      "Mines and attacks",
      5,
-     "Iran says three tankers hit mines on 14–15 November and a supertanker carrying 2 million barrels sank; UKMTO also reported an attack on a tanker in the Gulf."
+     "An ADNOC vessel was attacked in the strait on 18 November and Iran claims another tanker hit a mine; 37 ships were holding position in the Gulf watch area."
     ],
     [
      "Diplomacy without a deal",
@@ -5601,16 +5646,16 @@
    ],
    "src": [
     [
+     "Straits Daily Brief (18 Nov)",
+     "https://straits.live/briefs/2026-11-18"
+    ],
+    [
+     "ABC News: US conducts airstrikes on Qeshm Island (18 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+    ],
+    [
      "The National: Iran and Oman discuss maritime security (17 Nov)",
      "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/"
-    ],
-    [
-     "Khaleej Times: Live updates (15 Nov)",
-     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
-    ],
-    [
-     "Arab News/AFP: Two tankers hit by mines in Hormuz (14 Nov)",
-     "https://www.arabnews.com/middle-east/iran-guards-say-two-oil-tankers-hit-by-mines-in-hormuz-3011782"
     ]
    ]
   },
