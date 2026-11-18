@@ -860,7 +860,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     el.innerHTML=s+'</svg><p>Coverage grew from 65 to 100 countries on 7 November. Counts reflect the grade each country held on that date.</p>';
   })();
 
-  // live headlines (automated, GDELT)
+  // live headlines (automated, Google News)
   let LIVE=null, CUR=null;
   const ago = iso => { if(!iso) return ''; const m=Math.max(1,Math.round((Date.now()-new Date(iso))/60000)); return m<60?m+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago'; };
   const esc = s => String(s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -868,7 +868,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     if(!LIVE) return '';
     const it=(LIVE.items||{})[key]||[];
     if(!it.length) return '';
-    return `<div class="live"><h4><i></i>Latest headlines</h4><ul>${it.map(a=>`<li><a href="${esc(a.u)}" target="_blank" rel="noopener nofollow">${esc(a.t)}</a><small>${esc(a.s)}${a.d?' · '+ago(a.d):''}</small></li>`).join('')}</ul><p>Automated news feed from the GDELT Project, refreshed every few hours (last ${ago(LIVE.updated)}). Headlines are not reviewed by Faultline analysts; threat levels are.</p></div>`;
+    return `<div class="live"><h4><i></i>Latest headlines</h4><ul>${it.map(a=>`<li><a href="${esc(a.u)}" target="_blank" rel="noopener nofollow">${esc(a.t)}</a><small>${esc(a.s)}${a.d?' · '+ago(a.d):''}</small></li>`).join('')}</ul><p>Automated news feed from Google News search, refreshed every few hours (last ${ago(LIVE.updated)}). Headlines are not reviewed by Faultline analysts; threat levels are.</p></div>`;
   }
   fetch('data/live.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{ if(!j) return; LIVE=j;
     if(CUR){ if(CUR[0]==='c') renderBrief(CUR[1]); else selectChoke(CUR[1],false); } }).catch(()=>{});
