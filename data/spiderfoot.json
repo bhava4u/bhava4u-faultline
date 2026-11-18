@@ -1,0 +1,655 @@
+{
+ "updated": "2026-11-18T12:32+00:00",
+ "tool": "SpiderFoot 4.0",
+ "modules": [
+  "sfp_dnsresolve",
+  "sfp_dnsraw",
+  "sfp_crt",
+  "sfp_whois",
+  "sfp_ripe",
+  "sfp_ipapico",
+  "sfp_webanalytics"
+ ],
+ "method": "Passive scan only: DNS, certificate transparency logs, WHOIS and IP registries. No crawling or probing of company servers. Personal data and raw WHOIS text are excluded.",
+ "targets": {
+  "dqsolar.com": {
+   "companies": [
+    "Xinjiang Daqo New Energy Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 2,
+   "subdomains": [
+    {
+     "v": "dqsolar.com",
+     "by": [
+      "SpiderFoot UI"
+     ]
+    },
+    {
+     "v": "www.dqsolar.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    }
+   ],
+   "ip_count": 5,
+   "registrar": [
+    {
+     "v": "GoDaddy.com, LLC",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [],
+   "server_countries": [
+    {
+     "v": "United States",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "2008-09-08"
+  },
+  "gcltech.com": {
+   "companies": [
+    "Xinjiang Goens Energy Technology Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 4,
+   "subdomains": [
+    {
+     "v": "ar2022.gcltech.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "gcltech.com",
+     "by": [
+      "SpiderFoot UI",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "mail.gcltech.com",
+     "by": [
+      "sfp_dnsraw",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "www.gcltech.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    }
+   ],
+   "ip_count": 2,
+   "registrar": [
+    {
+     "v": "Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn)",
+     "by": [
+      "sfp_whois"
+     ]
+    },
+    {
+     "v": "Xin Net Technology Corporation",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [],
+   "server_countries": [
+    {
+     "v": "Hong Kong",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "2018-09-16"
+  },
+  "bgi.com": {
+   "companies": [
+    "BGI Genomics Co., Ltd.",
+    "Shenzhen BGI Technology Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 19,
+   "subdomains": [
+    {
+     "v": "arrhythmia.cvsgenetics.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "autodiscover.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "autopvs1.genetics.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "bgi.com",
+     "by": [
+      "SpiderFoot UI",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "cardiomyopathy.cvsgenetics.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "cdn.it.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "chat.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "csfy.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "genetics.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "hearing.genetics.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "info.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "mail.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "monogenichtn.cvsgenetics.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "orca.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "peta.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "precise.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "search.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "services.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "www.bgi.com",
+     "by": [
+      "sfp_dnsresolve"
+     ]
+    }
+   ],
+   "ip_count": 1,
+   "registrar": [
+    {
+     "v": "Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn)",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [
+    {
+     "v": "Google Site Verification: -cenQDdyM9zO6XYSRhAhqbod3Dy_c2Z50LkJDh8RfWY",
+     "by": [
+      "sfp_webanalytics"
+     ]
+    }
+   ],
+   "server_countries": [
+    {
+     "v": "Hong Kong",
+     "by": [
+      "sfp_ipapico"
+     ]
+    },
+    {
+     "v": "United States",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "1998-05-11"
+  },
+  "mgi-tech.com": {
+   "companies": [
+    "MGI Tech Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 1,
+   "subdomains": [
+    {
+     "v": "mgi-tech.com",
+     "by": [
+      "SpiderFoot UI",
+      "sfp_dnsresolve"
+     ]
+    }
+   ],
+   "ip_count": 1,
+   "registrar": [
+    {
+     "v": "Alibaba Cloud Computing (Beijing) Co., Ltd.",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [],
+   "server_countries": [
+    {
+     "v": "China",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "2020-02-27"
+  },
+  "pantum.com": {
+   "companies": [
+    "Zhuhai Pantum Electronics Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 1,
+   "subdomains": [
+    {
+     "v": "pantum.com",
+     "by": [
+      "SpiderFoot UI"
+     ]
+    }
+   ],
+   "ip_count": 8,
+   "registrar": [
+    {
+     "v": "Alibaba Cloud Computing (Beijing) Co., Ltd.",
+     "by": [
+      "sfp_whois"
+     ]
+    },
+    {
+     "v": "Todaynic.com, Inc.",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [
+    {
+     "v": "GlobalSign Site Verification: 6ycPVq1L4LLL6-06gpgyuomKHfvxxz1gzIZHa1ZtNc",
+     "by": [
+      "sfp_webanalytics"
+     ]
+    },
+    {
+     "v": "GlobalSign Site Verification: i19iqPhUcMzWHyLz1WoluKg_zcjVwJhEwItfHTAaEm",
+     "by": [
+      "sfp_webanalytics"
+     ]
+    }
+   ],
+   "server_countries": [
+    {
+     "v": "United States",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "2003-10-28"
+  },
+  "jasolar.com": {
+   "companies": [
+    "Donghai JA Solar Technology Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 7,
+   "subdomains": [
+    {
+     "v": "cn.jasolar.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "fr.jasolar.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "imap.jasolar.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "jasolar.com",
+     "by": [
+      "SpiderFoot UI",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "oa.jasolar.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "smtp.jasolar.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "www.jasolar.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    }
+   ],
+   "ip_count": 8,
+   "registrar": [
+    {
+     "v": "Alibaba Cloud Computing (Beijing) Co., Ltd.",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [
+    {
+     "v": "Atlassian Domain Verification: ongX9EQT24ZSEzAkl0QLCTbfUr5sYQLYJMBtn59CXYAH2nDr802CPS0SxbJ33y4a",
+     "by": [
+      "sfp_webanalytics"
+     ]
+    }
+   ],
+   "server_countries": [
+    {
+     "v": "Canada",
+     "by": [
+      "sfp_ipapico"
+     ]
+    },
+    {
+     "v": "China",
+     "by": [
+      "sfp_ipapico"
+     ]
+    },
+    {
+     "v": "United States",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "2006-04-01"
+  },
+  "esquel.com": {
+   "companies": [
+    "Esquel Group"
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 1,
+   "subdomains": [
+    {
+     "v": "esquel.com",
+     "by": [
+      "SpiderFoot UI"
+     ]
+    }
+   ],
+   "ip_count": 2,
+   "registrar": [
+    {
+     "v": "Register.com - Network Solutions, LLC",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [],
+   "server_countries": [
+    {
+     "v": "Hong Kong",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "1997-04-28"
+  },
+  "septwolves.com": {
+   "companies": [
+    "Fujian Septwolves Industry Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 1,
+   "subdomains": [
+    {
+     "v": "septwolves.com",
+     "by": [
+      "SpiderFoot UI"
+     ]
+    }
+   ],
+   "ip_count": 1,
+   "registrar": [
+    {
+     "v": "Alibaba Cloud Computing (Beijing) Co., Ltd.",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [],
+   "server_countries": [
+    {
+     "v": "China",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "1997-02-14"
+  },
+  "tbea.com": {
+   "companies": [
+    "TBEA Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 4,
+   "subdomains": [
+    {
+     "v": "e.tbea.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "mail.tbea.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    },
+    {
+     "v": "tbea.com",
+     "by": [
+      "SpiderFoot UI"
+     ]
+    },
+    {
+     "v": "www.tbea.com",
+     "by": [
+      "sfp_crt",
+      "sfp_dnsresolve"
+     ]
+    }
+   ],
+   "ip_count": 7,
+   "registrar": [
+    {
+     "v": "Alibaba Cloud Computing (Beijing) Co., Ltd.",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [],
+   "server_countries": [
+    {
+     "v": "China",
+     "by": [
+      "sfp_ipapico"
+     ]
+    },
+    {
+     "v": "United States",
+     "by": [
+      "sfp_ipapico"
+     ]
+    }
+   ],
+   "domain_created": "2001-02-14"
+  },
+  "zijinmining.com": {
+   "companies": [
+    "Zijin Mining Group Co., Ltd."
+   ],
+   "scanned": "2026-11-18",
+   "status": "ok",
+   "subdomain_count": 1,
+   "subdomains": [
+    {
+     "v": "zijinmining.com",
+     "by": [
+      "SpiderFoot UI"
+     ]
+    }
+   ],
+   "ip_count": 0,
+   "registrar": [
+    {
+     "v": "Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn)",
+     "by": [
+      "sfp_whois"
+     ]
+    }
+   ],
+   "networks": [],
+   "nameservers": [],
+   "mail": [],
+   "analytics": [],
+   "server_countries": [],
+   "domain_created": "2004-11-10"
+  }
+ },
+ "links": []
+}
