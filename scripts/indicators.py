@@ -288,21 +288,25 @@ def gdelt_events(C, state, budget_s=20 * 60):
     days = sorted(g["days"])
     full = [d for d in days if d < TODAY.strftime("%Y%m%d") and g["days"][d]["files"] >= 4]
     res = {}
+    import statistics
     for code in C:
-        series, tones = [], []
+        series, tones, raw = [], [], []
         for d in full:
             v = g["days"][d]
             n, tn = v["c"].get(code, [0, 0.0])
             series.append(n * 96 / v["files"])
+            raw.append(n)
             if n:
                 tones.append(tn / n)
         if len(series) < 8:
             continue
         last7, base = series[-7:], series[:-7]
-        v7 = sum(last7) / 7
-        b = sum(base) / len(base) if base else 0
-        r = {"v7": round(v7, 1), "base": round(b, 1), "ratio": round(v7 / b, 2) if b >= 3 and len(base) >= 7 else None,
-             "series": [int(x) for x in series[-31:]], "unit": "conflict and protest events a day"}
+        # medians, so one burst file (scaled up) cannot fake a surge; and no ratio without enough real events
+        v7 = statistics.median(last7)
+        b = statistics.median(base) if base else 0
+        enough = sum(raw[-7:]) >= 30 and sum(raw[:-7]) >= 30 and len(base) >= 7 and b > 0
+        r = {"v7": round(v7, 1), "base": round(b, 1), "ratio": round(v7 / b, 2) if enough else None,
+             "events7": int(sum(raw[-7:])), "series": [int(x) for x in series[-31:]], "unit": "conflict and protest events a day"}
         if tones:
             r["tone7"] = round(sum(tones[-7:]) / len(tones[-7:]), 2)
         r["url"] = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
