@@ -1,5 +1,5 @@
 /* Faultline site header and footer: ONE shared file for every page.
-   Menu: edit LINKS. Footer (who we are, email, LinkedIn): edit TEAM and EMAIL.
+   Menu: edit LINKS. Footer (who we are, email, LinkedIn): edit TEAM, EMAIL and COMPANY_LINKEDIN.
    Every page updates automatically. */
 (function () {
   var LINKS = [
@@ -96,6 +96,7 @@
 
   // ---------------------------------------------------------------- footer
   var EMAIL = 'admin@faultlinerisk.com';
+  var COMPANY_LINKEDIN = 'https://www.linkedin.com/company/faultlinerisk/';
   var TEAM = [
     { name: 'Bhava Narayanan A S', role: 'Founder & Lead Analyst, Geopolitical Risk', place: 'London',
       photo: '/bhava.jpg', linkedin: 'https://www.linkedin.com/in/bhava-narayanan-a-s', email: 'bhava@faultlinerisk.com' },
@@ -110,7 +111,8 @@
   fcss.textContent =
     '.fl-footer{--fl-ico-bg:var(--bg,#EDEFEA);border-top:1px solid var(--rule,#C9D0CC);background:var(--surface,#F7F8F4);color:var(--muted,#56656A);font:400 14px/1.55 "Public Sans",system-ui,sans-serif;margin-top:0;padding:0}' +
     '.fl-footer *{box-sizing:border-box}' +
-    '.fl-foot-in{max-width:1320px;margin:0 auto;padding:36px 24px 22px}' +
+    '.fl-footer div{max-width:none;margin:0;padding:0}' +  /* undo page rules like "footer div{max-width:760px}" */
+    '.fl-footer .fl-foot-in{max-width:1320px;margin:0 auto;padding:36px 24px 22px}' +
     '.fl-foot-grid{display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,2.2fr) minmax(200px,1fr);gap:32px 40px}' +
     '.fl-footer h2{margin:0 0 12px;font:600 13px "Public Sans",system-ui,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--muted,#56656A)}' +
     '.fl-foot-brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink,#1D282C);font:700 22px Spectral,Georgia,serif}' +
@@ -121,7 +123,7 @@
     '.fl-av{width:48px;height:48px;border-radius:50%;object-fit:cover;background:var(--bg,#EDEFEA);display:flex;align-items:center;justify-content:center;font:600 15px "Public Sans",sans-serif;color:var(--ink,#1D282C)}' +
     '.fl-person h3{margin:0;font:600 15px "Public Sans",system-ui,sans-serif;color:var(--ink,#1D282C)}' +
     '.fl-person p{margin:2px 0 0;font-size:13.5px}' +
-    '.fl-icons{display:flex;gap:8px;margin-top:8px}' +
+    '.fl-footer .fl-icons{display:flex;gap:8px;margin-top:8px}' +
     '.fl-icons a{display:inline-flex;width:30px;height:30px;color:var(--ink,#1D282C);border-radius:5px;transition:transform .12s}' +
     '.fl-icons a:hover{transform:translateY(-1px);color:var(--l4,#C55D36)}' +
     '.fl-icons a:focus-visible{outline:2px solid var(--focus,#1F5E8C);outline-offset:2px}' +
@@ -131,7 +133,7 @@
     '.fl-contact .fl-big{display:inline-flex;align-items:center;gap:10px;color:var(--ink,#1D282C);text-decoration:none;font-weight:600}' +
     '.fl-contact .fl-big span:last-child{text-decoration:underline;text-underline-offset:3px}' +
     '.fl-contact .fl-big .fl-icons a{margin:0}' +
-    '.fl-foot-note{margin-top:28px;padding-top:16px;border-top:1px solid var(--rule,#C9D0CC);display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;font-size:12.5px}' +
+    '.fl-footer .fl-foot-note{margin-top:28px;padding-top:16px;border-top:1px solid var(--rule,#C9D0CC);display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;font-size:12.5px}' +
     '.fl-foot-note>*{margin:0}' +
     '@media (max-width:900px){.fl-foot-grid{grid-template-columns:1fr}.fl-team{grid-template-columns:1fr}}';
   document.head.appendChild(fcss);
@@ -155,7 +157,9 @@
       '<div><h2>Who we are</h2><div class="fl-team">' + people + '</div></div>' +
       '<div class="fl-contact"><h2>Contact</h2>' +
       '<p>Request a country brief or send feedback on an assessment.</p>' +
-      '<div class="fl-icons fl-icons-lg"><a href="mailto:' + EMAIL + '" aria-label="Email Faultline at ' + EMAIL + '" title="' + EMAIL + '">' + ICON_MAIL + '</a></div></div>' +
+      '<div class="fl-icons fl-icons-lg">' +
+      '<a href="' + COMPANY_LINKEDIN + '" target="_blank" rel="noopener" aria-label="Faultline on LinkedIn" title="Faultline on LinkedIn">' + ICON_IN + '</a>' +
+      '<a href="mailto:' + EMAIL + '" aria-label="Email Faultline at ' + EMAIL + '" title="' + EMAIL + '">' + ICON_MAIL + '</a></div></div>' +
     '</div><div class="fl-foot-note"></div></div>';
 
   var old = document.querySelector('footer');
