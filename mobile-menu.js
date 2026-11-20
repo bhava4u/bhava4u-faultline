@@ -193,7 +193,7 @@
   // ------------------------------------------------------------ pagination
   // Long lists show 7 items at a time with numbered pages. Add a list by adding its selector here.
   var PER_PAGE = 7;
-  var PAGINATE = ['#watchList', '#eventList', '#ctBody', '#logList',              // home
+  var PAGINATE = ['#eventList', '#ctBody', '#logList',                            // home
                   '#trafficT tbody', '#shadowT tbody', '#stsList tbody', '#incList', // maritime
                   '#rows'];                                                       // China Monitor
   var pcss = document.createElement('style');

@@ -378,7 +378,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
 .actions button.saved{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 </style>
 <script data-goatcounter="https://faultlinerisk.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="/mobile-menu.js?v=7458a496" defer></script>
+<script src="/mobile-menu.js?v=f4f335c2" defer></script>
 </head>
 <body>
 <header class="top"><div class="top-in">
@@ -470,12 +470,6 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
   <div class="cmpwrap"><table class="cmp" id="cmpT"></table></div>
 </div></section>
 
-<section class="band" id="trend"><div class="band-in">
-  <h2>Risk over time</h2>
-  <p class="lede">How many countries sit at each threat level, at each assessment.</p>
-  <div class="trend" id="trendChart"></div>
-</div></section>
-
 <section class="band" id="log"><div class="band-in">
   <h2>Change log</h2>
   <p class="lede">Every update to the map, with grade changes marked. ▲ means risk rose, ▼ means it fell.</p>
@@ -489,7 +483,6 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
     <a href="/insights/megaspeed-nvidia-export-controls.html"><small>Company spotlight · Export controls | 13 Nov 2026</small><h3>Megaspeed and the Nvidia chip controversy</h3><p>How AI chip export controls leak through Southeast Asia, and the red flags for due diligence.</p></a>
     <a href="/insights/sealead-company-spotlight.html"><small>Company spotlight · Sanctions | 13 Nov 2026</small><h3>SeaLead: how a fast-growing container line ran into US sanctions</h3><p>From chartered ships to the operator itself: a case study in staged sanctions exposure.</p></a>
     <a href="/insights/abu-dhabi-talks.html"><small>Europe · Russia | 8 Nov 2026</small><h3>What the Abu Dhabi talks can and can’t deliver</h3><p>Working-level talks can win narrow steps like an energy truce, not a settlement.</p></a>
-    <a href="/insights/gulf-war-kerala-story.html"><small>South Asia · Gulf | 8 Nov 2026</small><h3>Why the Gulf war is a Kerala story</h3><p>For India, the Iran war is about people, wages and remittances as much as oil.</p></a>
   </div>
 </div></section>
 
@@ -1047,11 +1040,11 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   var VIEWS = {
     map:     ['map','about','watch','soon','method'],
     mine:    ['map','mine'],
-    compare: ['compare','trend','all'],
+    compare: ['compare','all'],
     log:     ['log'],
     contact: ['about','contact']
   };
-  var ORDER = ['map','about','watch','soon','method','mine','compare','trend','all','log','contact'];
+  var ORDER = ['map','about','watch','soon','method','mine','compare','all','log','contact'];
   var ELSEWHERE = { themes: '/themes/', insights: '/insights/' };   // previews that have their own pages
   var main = document.querySelector('main'); if(!main) return;
   var sections = Array.prototype.filter.call(main.children, function(e){ return e.tagName==='SECTION' && e.id; });
