@@ -1,5 +1,5 @@
 {
- "assessed": "18 November 2026",
+ "assessed": "20 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -263,7 +263,7 @@
   "156": {
    "n": "China",
    "l": 3,
-   "s": "Strategic rivalry with the US, pressure on Taiwan and a slowing economy.",
+   "s": "Hosted the first Trump–Xi–Putin summit; the trade truce with the US runs out in January.",
    "i": [
     [
      "Taiwan Strait",
@@ -273,7 +273,7 @@
     [
      "Trade truce with the US",
      3,
-     "Beijing and Washington have extended suspensions on some trade restrictions ahead of a Xi–Trump meeting at APEC, their third this year, as China’s trade surplus heads past $1 trillion."
+     "Xi hosted Trump and Putin in Shenzhen on 19 November, but the Xi–Trump talks made little progress on the trade truce that expires in January."
     ],
     [
      "Economic slowdown",
@@ -290,6 +290,14 @@
     ]
    ],
    "src": [
+    [
+     "CFR: Six experts on the Trump–Xi–Putin meeting (19 Nov)",
+     "https://www.cfr.org/articles/six-experts-on-what-trump-xi-and-putins-first-trilateral-means"
+    ],
+    [
+     "Al Jazeera: Trump–Xi–Putin summit, five key takeaways (19 Nov)",
+     "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
+    ],
     [
      "South China Morning Post: China trade and Xi–Trump talks coverage",
      "https://www.scmp.com/topics/south-korea"
@@ -1063,40 +1071,40 @@
   "364": {
    "n": "Iran",
    "l": 5,
-   "s": "At war with the US and Israel since 28 February. Strikes resumed overnight on 17–18 November as Iran hit Gulf states and the US struck Qeshm Island.",
+   "s": "At war with the US and Israel since 28 February. Iran has stepped up attacks on Hormuz shipping, and the 19 November Trump–Xi–Putin summit produced nothing on the war.",
    "i": [
     [
      "Renewed US strikes",
      5,
-     "US forces struck targets on Qeshm Island overnight in response to IRGC attacks, a US official said, while Iran claimed to have hit a US air base."
+     "US forces struck an IRGC missile site on Qeshm Island on 17–18 November and Iran answered with attacks on Bahrain and Kuwait; US officials say a further strike has not been ruled out."
     ],
     [
      "Attacks on Hormuz shipping",
      5,
-     "A vessel belonging to the UAE’s state oil company ADNOC was attacked in the strait, and Iran’s navy claims another tanker caught fire after hitting a mine; the strait remains effectively closed."
+     "Attacks rose in October and have kept that pace in November, with at least two seafarers missing after strikes this week; the IRGC claims new mine strikes almost daily, most of them unverified."
     ],
     [
-     "Deadlock over talks",
+     "No diplomatic track",
      4,
-     "Foreign Minister Araghchi met Oman’s foreign minister in Muscat on 17 November to discuss maritime corridors and reviving diplomacy, but no agreement was announced after the US rejected Iran’s conditions for talks."
+     "The Shenzhen summit declaration called for stable energy flows but did not mention Iran; Iran–Oman talks on a safe Hormuz corridor remain the only active channel."
     ]
    ],
    "src": [
     [
-     "ABC News: US conducts airstrikes on Qeshm Island (18 Nov)",
-     "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+     "Bloomberg via News Tribune: Iran intensifies Hormuz tanker attacks (20 Nov)",
+     "https://www.newstribune.com/news/2026/nov/20/iran-intensifies-hormuz-tanker-attacks-just-as/"
     ],
     [
-     "Gulf News: Iran attacks Bahrain, ADNOC vessel hit, US hits Qeshm (18 Nov)",
-     "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+     "CBS News: US strikes Qeshm Island; Iran targets Bahrain and Kuwait (19–20 Nov)",
+     "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
     ],
     [
-     "Straits Daily Brief (18 Nov)",
-     "https://straits.live/briefs/2026-11-18"
+     "Al Jazeera: Trump–Xi–Putin summit, five key takeaways (19 Nov)",
+     "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
     ],
     [
-     "The National: Iran and Oman discuss maritime security (17 Nov)",
-     "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/"
+     "Jerusalem Post: Iran using deadlier missiles against ships (20 Nov)",
+     "https://www.jpost.com/middle-east/iran-news/article-915531"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -2327,12 +2335,12 @@
   "643": {
    "n": "Russia",
    "l": 4,
-   "s": "Waging war in Ukraine while absorbing long-range drone strikes on its energy sector.",
+   "s": "Waging war in Ukraine while absorbing long-range strikes; the Kerch Bridge to Crimea is badly damaged.",
    "i": [
     [
-     "Ukrainian strikes on energy",
+     "Ukrainian long-range strikes",
      4,
-     "Rosneft’s Ryazan refinery, one of Russia’s largest, suspended crude processing after a Ukrainian drone attack, industry sources told Reuters on 15 November."
+     "Ukraine collapsed a road span of the Kerch Bridge on 17 November and hit its railway section on 19 November; experts expect the wreckage to disrupt shipping through the Kerch Strait for a long time."
     ],
     [
      "Sanctions and the shadow fleet",
@@ -2385,6 +2393,18 @@
    },
    "src": [
     [
+     "Interfax-Ukraine: Kerch Bridge strike to disrupt Russian shipping (17 Nov)",
+     "https://en.interfax.com.ua/news/general/1237852.html"
+    ],
+    [
+     "CNN via KEYT: Section of Crimea bridge collapses (17 Nov)",
+     "https://keyt.com/news/national-world/cnn-world/2026/11/17/ukraine-strike-collapses-section-of-russias-prized-bridge-to-occupied-crimea/"
+    ],
+    [
+     "Militarnyi: Ukraine hits Kerch Bridge railway section (19 Nov)",
+     "https://militarnyi.com/en/news/ukraine-attacks-railway-section-of-crimean-kerch-bridge-halting-train-traffic/"
+    ],
+    [
      "Newswav/Reuters: Ryazan refinery suspended after drone attack (15 Nov)",
      "https://newswav.com/article/ukraine-russia-war-latest-kremlin-and-kyiv-respond-to-trump-s-secret-peace-A2511_LpbDx1"
     ]
@@ -2397,8 +2417,8 @@
    "i": [
     [
      "Houthi missile and drone attacks",
-     4,
-     "The coalition intercepted a Houthi cruise missile aimed at the Riyadh region on 18 November and launched major air strikes across Houthi-held Yemen in response to escalating attacks."
+     5,
+     "A Houthi strike damaged the Public Investment Fund tower in Riyadh on 19 November, and an attempted attack hit an Aramco building; Saudi aircraft are striking Sanaa in response."
     ],
     [
      "Red Sea and Bab el-Mandeb",
@@ -2421,20 +2441,20 @@
    ],
    "src": [
     [
+     "The National: Houthi strike damages PIF tower in Riyadh (19 Nov)",
+     "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/"
+    ],
+    [
+     "Thotharis: Yemen war briefing note 18 (19 Nov)",
+     "https://thotharis.substack.com/p/briefing-note-18-yemen-war-19-november"
+    ],
+    [
      "Washington Post/AP: Saudi-backed forces launch major attack on Houthis (18 Nov)",
      "https://www.washingtonpost.com/national/2026/11/18/mideast-news-iran-bahrain-us-november-18-2026/54a57f16-e326-11f1-a99e-b3e3805c6b8b_story.html"
     ],
     [
      "Gulf News: Iran attacks Bahrain, ADNOC vessel hit, US hits Qeshm (18 Nov)",
      "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
-    ],
-    [
-     "Khaleej Times: Live updates (15 Nov)",
-     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
-    ],
-    [
-     "Iran International: Live updates (14 Nov)",
-     "https://www.iranintl.com/en/liveblog/202611143682"
     ]
    ],
    "e": {
@@ -2901,40 +2921,40 @@
   "804": {
    "n": "Ukraine",
    "l": 5,
-   "s": "Entering a fifth winter of full-scale war. Abu Dhabi talks produced a prisoner-swap deal but no ceasefire.",
+   "s": "Entering a fifth winter of full-scale war. Ukraine brought down a span of the Kerch Bridge on 17 November as Russia keeps striking cities.",
    "i": [
     [
      "Strikes on cities and the grid",
      5,
-     "A massive Russian drone and missile barrage killed at least six people in Kyiv on 14 November, a day after a strike on Zaporizhzhia injured 50, in a campaign that has launched over 2,000 drones at energy sites."
+     "Russian drones hit Odesa’s historic centre three times on 18 November, killing four people and injuring nine; attacks across Ukraine killed at least 25 people in a day, authorities said on 19 November."
     ],
     [
-     "Front line",
+     "Long-range strikes",
      4,
-     "Russian forces lost ground in October for the second month running, after Ukraine’s Operation Vivaldi disrupted the push on Donetsk’s fortress belt."
+     "Ukraine collapsed the Kerch Bridge’s 227-metre road arch on 17 November and hit its railway section on 19 November, halting trains to occupied Crimea."
     ],
     [
      "Peace talks",
      3,
-     "Talks in Abu Dhabi ended on 11 November with agreement in principle on a large-scale prisoner exchange, but no breakthrough on a ceasefire or territory. More talks are planned, and Kyiv wants Europe at the table."
+     "The prisoner swap agreed in Abu Dhabi is expected in late November or early December, but the 19 November Shenzhen summit declaration did not mention Ukraine."
     ]
    ],
    "src": [
     [
-     "Euromaidan Press: Six killed in Russian strike on Kyiv (14 Nov)",
-     "https://euromaidanpress.com/?p=374344"
+     "Interfax-Ukraine: Kerch Bridge strike to disrupt Russian shipping (17 Nov)",
+     "https://en.interfax.com.ua/news/general/1237852.html"
     ],
     [
-     "OSNT: Russia–Ukraine war brief (14 Nov)",
-     "https://app.osnt.in/brief/2026-11-14"
+     "Militarnyi: Ukraine hits Kerch Bridge railway section (19 Nov)",
+     "https://militarnyi.com/en/news/ukraine-attacks-railway-section-of-crimean-kerch-bridge-halting-train-traffic/"
     ],
     [
-     "Al Jazeera: Abu Dhabi talks end with prisoner exchange agreement (11 Nov)",
-     "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
+     "Interfax-Ukraine: Russian strikes on Odesa kill 4, injure 9 (18 Nov)",
+     "https://en.interfax.com.ua/news/general/1238488.html"
     ],
     [
-     "Euronews: Prisoner deal but no breakthrough on central issues (11 Nov)",
-     "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+     "Kyiv Independent: Russian attacks kill 25 in a day (19 Nov)",
+     "https://kyivindependent.com/russian-attacks-6/amp"
     ]
    ],
    "r": "Europe",
@@ -3106,7 +3126,7 @@
     [
      "Iran war decisions",
      4,
-     "US forces struck Qeshm Island on 18 November in response to IRGC attacks, despite reports that the White House had been weighing a pause in strikes."
+     "Trump returned from Shenzhen without commitments from Xi or Putin on Iran, after US strikes on Qeshm Island on 17–18 November; officials say further strikes have not been ruled out."
     ],
     [
      "Divided government",
@@ -3129,20 +3149,20 @@
    ],
    "src": [
     [
+     "ABC News: Iran and Ukraine not in summit declaration (19 Nov)",
+     "https://abcnews.com/Politics/trump-china-trip-iran-ukraine-peace-declaration-takeaways/story?id=138292154"
+    ],
+    [
+     "CBS News: US strikes Qeshm Island; Iran targets Bahrain and Kuwait (19–20 Nov)",
+     "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+    ],
+    [
+     "Jerusalem Post: Iran using deadlier missiles against ships (20 Nov)",
+     "https://www.jpost.com/middle-east/iran-news/article-915531"
+    ],
+    [
      "ABC News: US conducts airstrikes on Qeshm Island (18 Nov)",
      "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
-    ],
-    [
-     "Iran International: Live updates (14 Nov)",
-     "https://www.iranintl.com/en/liveblog/202611143682"
-    ],
-    [
-     "Fox News: Iran war live updates (12 Nov)",
-     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
-    ],
-    [
-     "CNBC: Trump says Iran war to end ‘fairly soon’ (10 Nov)",
-     "https://cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
     ]
    ],
    "e": {
@@ -3272,22 +3292,22 @@
   "887": {
    "n": "Yemen",
    "l": 5,
-   "s": "The Houthis now control the Bab el-Mandeb coastline after government forces pulled back, putting a second global chokepoint at risk.",
+   "s": "The Houthis hold almost all of Yemen’s Bab el-Mandeb shore and are fighting on two approaches to Aden.",
    "i": [
     [
      "War with the Saudi-led coalition",
      5,
-     "The coalition launched a major air campaign across Houthi-held territory on 18 November, which the Houthis say killed at least 17 people, after they seized the Bab el-Mandeb coast."
+     "The coalition says it has struck 60 Houthi military targets and has named Saudi chief of staff Gen. Fayyad al-Ruwaili as joint forces commander; the Houthis hit Riyadh on 19 November."
     ],
     [
      "Red Sea shipping",
      5,
-     "Houthi control of the coastline creates a dual chokepoint crisis alongside Iran’s disruption of Hormuz."
+     "Some ships now notify a Houthi coordination centre before transiting Bab el-Mandeb, a sign of the group’s growing leverage over the strait."
     ],
     [
-     "Houthi advance in the south",
-     4,
-     "After taking the Bab el-Mandeb coast, Houthi forces have reportedly pushed into Lahij province, raising fears for Aden."
+     "Houthi advance on Aden",
+     5,
+     "Houthi forces have moved east along the Gulf of Aden coast and are within about 40 miles of Aden, though an imminent assault on the city is reported to be unlikely."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -3300,20 +3320,20 @@
    ],
    "src": [
     [
-     "Washington Post/AP: Saudi-backed forces launch major attack on Houthis (18 Nov)",
-     "https://www.washingtonpost.com/national/2026/11/18/mideast-news-iran-bahrain-us-november-18-2026/54a57f16-e326-11f1-a99e-b3e3805c6b8b_story.html"
+     "Red Sea Futures: The Houthis menace Aden (19 Nov)",
+     "https://redseafutures.substack.com/p/red-sea-brief-23-the-houthis-menace"
     ],
     [
-     "House of Saud: Houthi forces advance towards Aden (17 Nov)",
-     "https://houseofsaud.com/houthis-advance-aden-saudi-war-rationale/"
+     "Thotharis: Yemen war briefing note 18 (19 Nov)",
+     "https://thotharis.substack.com/p/briefing-note-18-yemen-war-19-november"
     ],
     [
-     "Khaleej Times: Live updates (15 Nov)",
-     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
+     "Long War Journal: Houthis retake Bab al Mandeb and move toward Aden (16 Nov)",
+     "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php"
     ],
     [
-     "Fox News: Iran war live updates (15 Nov)",
-     "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+     "The National: Houthi strike damages PIF tower in Riyadh (19 Nov)",
+     "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/"
     ]
    ],
    "e": {
@@ -5320,8 +5340,8 @@
   {
    "start": "2026-11-18",
    "when": "18–19 Nov",
-   "title": "APEC leaders’ meeting, Shenzhen",
-   "text": "Asia-Pacific leaders meet in China amid tariff and tech tensions.",
+   "title": "APEC leaders’ meeting, Shenzhen (concluded)",
+   "text": "Ended 19 November; Xi–Trump talks made little progress on the trade truce that expires in January.",
    "c": [
     "156"
    ]
@@ -5366,7 +5386,7 @@
   {
    "start": "2026-11-19",
    "when": "19 Nov",
-   "title": "Jordan–EU Investment Conference",
+   "title": "Jordan–EU Investment Conference (held)",
    "text": "Energy, water and Aqaba corridor financing are on the agenda.",
    "c": [
     "400"
@@ -5375,8 +5395,8 @@
   {
    "start": "2026-11-19",
    "when": "19 Nov",
-   "title": "US–Russia–China summit",
-   "text": "The White House has confirmed a summit of the three leaders; Iran is expected on the agenda, while Ukraine is not expected to be discussed.",
+   "title": "US–Russia–China summit (concluded)",
+   "text": "Ended with a “peace declaration” on nuclear risk, UN reform and energy supplies that did not mention Iran or Ukraine.",
    "c": [
     "840",
     "364",
@@ -5386,6 +5406,44 @@
   }
  ],
  "log": [
+  {
+   "date": "20 Nov 2026",
+   "items": [
+    [
+     "156",
+     "Trump, Xi and Putin meet in Shenzhen: a “peace declaration” on nuclear risk and energy supplies that does not mention Iran or Ukraine."
+    ],
+    [
+     "364",
+     "Iran steps up attacks on Hormuz shipping; at least two seafarers are missing after strikes this week."
+    ],
+    [
+     "682",
+     "A Houthi strike damages the PIF tower in Riyadh as coalition jets hit Sanaa."
+    ],
+    [
+     null,
+     "Maritime risk page updated: new outlooks for Hormuz, Bab el-Mandeb and the Black Sea, the Kerch Strait, and new incidents."
+    ]
+   ]
+  },
+  {
+   "date": "19 Nov 2026",
+   "items": [
+    [
+     "804",
+     "Ukraine hits the Kerch Bridge railway section, halting trains, two days after a road span collapsed into the strait."
+    ],
+    [
+     "804",
+     "Russian drones strike Odesa’s historic centre, killing four; the city declares a day of mourning."
+    ],
+    [
+     "887",
+     "Houthi forces push east along the Gulf of Aden coast towards Aden."
+    ]
+   ]
+  },
   {
    "date": "18 Nov 2026",
    "items": [
@@ -5617,22 +5675,22 @@
    "lat": 26.57,
    "lon": 56.25,
    "l": 5,
-   "s": "About a fifth of the world’s oil normally passes here. It is effectively closed by the Iran war and the US blockade.",
+   "s": "Closed to normal traffic. Oil still moves, mostly on ships running dark, at roughly half its pre-war volume.",
    "i": [
     [
-     "Near-closure",
+     "Near-closure on AIS",
      5,
-     "IMF PortWatch recorded just 3 transits on 8 November, against about 85 a day before the war, and Iran says the strait will never return to its pre-war status."
+     "IMF PortWatch counted about 2 transits a day in mid-November, against more than 60 before the war; only 11 tankers were visible on AIS between 1 and 15 November."
     ],
     [
-     "Mines and attacks",
-     5,
-     "An ADNOC vessel was attacked in the strait on 18 November and Iran claims another tanker hit a mine; 37 ships were holding position in the Gulf watch area."
-    ],
-    [
-     "Diplomacy without a deal",
+     "Oil moving dark",
      4,
-     "Iran and Oman discussed safeguarding maritime corridors in Muscat on 17 November, but no agreement was announced and a tanker was attacked off Oman overnight."
+     "Kpler estimates oil flows through the strait and ship-to-ship transfers in the Gulf of Oman at about 10 million barrels a day in the week to 10 November, against about 17 million before the war."
+    ],
+    [
+     "Escalating attacks",
+     5,
+     "Attacks rose in October and continued at that pace in November; the US struck Qeshm Island on 17–18 November and at least two seafarers are missing after this week’s strikes."
     ]
    ],
    "c": [
@@ -5646,16 +5704,16 @@
    ],
    "src": [
     [
-     "Straits Daily Brief (18 Nov)",
-     "https://straits.live/briefs/2026-11-18"
+     "Bloomberg via News Tribune: Iran intensifies Hormuz tanker attacks (20 Nov)",
+     "https://www.newstribune.com/news/2026/nov/20/iran-intensifies-hormuz-tanker-attacks-just-as/"
     ],
     [
-     "ABC News: US conducts airstrikes on Qeshm Island (18 Nov)",
-     "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+     "The Boston Report: Middle East tanker flow tracker (18 Nov)",
+     "https://thebostonreport.com/economic-warfare/middle-east-tanker-flow/"
     ],
     [
-     "The National: Iran and Oman discuss maritime security (17 Nov)",
-     "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/"
+     "CBS News: US strikes Qeshm Island; Iran targets Bahrain and Kuwait (19–20 Nov)",
+     "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
     ]
    ]
   },
@@ -5665,22 +5723,22 @@
    "lat": 12.58,
    "lon": 43.33,
    "l": 5,
-   "s": "The Houthis now control the strait’s coastline after Yemeni government forces withdrew on 15 November.",
+   "s": "The Houthis hold almost all of Yemen’s shore on the strait and are pushing towards Aden.",
    "i": [
     [
      "Houthi control of the coast",
      5,
-     "Government forces pulled back from the Bab el-Mandeb area on 15 November, leaving the Houthis in control of the coastline."
+     "Government-aligned forces withdrew on 15 November; Houthi forces have since moved east along the Gulf of Aden coast."
     ],
     [
-     "Yemen escalation",
+     "Ships contacting the Houthis",
      4,
-     "Houthi attacks on Saudi energy infrastructure pushed oil prices up more than $3 a barrel on 12 November."
+     "Some ships now email the Houthis’ coordination centre before transiting, a sign of the group’s growing leverage over the strait."
     ],
     [
-     "Rerouting",
+     "Depressed traffic",
      4,
-     "Many shippers still avoid the route and sail around Africa instead, adding time and cost."
+     "PortWatch counted about 26 transits a day in mid-November, roughly a third below the same week of 2025, as many shippers still sail around Africa."
     ]
    ],
    "c": [
@@ -5691,16 +5749,16 @@
    ],
    "src": [
     [
-     "Khaleej Times: Live updates (15 Nov)",
-     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-15-2026"
+     "Red Sea Futures: The Houthis menace Aden (19 Nov)",
+     "https://redseafutures.substack.com/p/red-sea-brief-23-the-houthis-menace"
     ],
     [
-     "Fox News: Iran war live updates (15 Nov)",
-     "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+     "Long War Journal: Houthis retake Bab al Mandeb and move toward Aden (16 Nov)",
+     "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php"
     ],
     [
-     "Fox News: Iran war live updates (12 Nov)",
-     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"
+     "Juan Cole: The march of the Houthis (19 Nov)",
+     "https://www.juancole.com/2026/11/houthis-coalition-collapses.html"
     ]
    ]
   },
@@ -5715,7 +5773,7 @@
     [
      "Diverted traffic",
      4,
-     "With the Houthis now controlling the Bab el-Mandeb coast, more ships are likely to avoid the Red Sea route to Suez."
+     "Suez transits were about 37% below 2023 levels in mid-November, and Houthi control of the Bab el-Mandeb coast makes a recovery less likely."
     ],
     [
      "Egypt’s lost revenue",
@@ -5740,17 +5798,17 @@
    "lat": 41.12,
    "lon": 29.05,
    "l": 3,
-   "s": "The only sea route for Ukrainian and Russian Black Sea exports, under regular drone threat.",
+   "s": "The main sea route for Ukrainian and Russian Black Sea exports, now with the Kerch Strait disrupted as well.",
    "i": [
     [
-     "Drone strikes on shipping",
+     "Kerch Strait disrupted",
      4,
-     "A Turkish-owned grain ship was sunk on 5 October, and drones hit vessels in Bulgarian waters in mid-October."
+     "Ukraine collapsed a 227-metre span of the Kerch Bridge on 17 November; experts expect the wreckage to disrupt Russian shipping through the strait for a long time."
     ],
     [
-     "Ukrainian grain exports",
-     3,
-     "Attacks raise freight and insurance costs for food exports."
+     "Strikes on ports and ships",
+     4,
+     "Russian drones struck Odesa’s historic centre on 18 November, and war-risk premiums for some Ukrainian ports rose to as much as 1% in early November."
     ],
     [
      "Russian shadow fleet",
@@ -5765,7 +5823,20 @@
     "100",
     "642"
    ],
-   "src": []
+   "src": [
+    [
+     "Interfax-Ukraine: Kerch Bridge strike to disrupt Russian shipping (17 Nov)",
+     "https://en.interfax.com.ua/news/general/1237852.html"
+    ],
+    [
+     "Interfax-Ukraine: Russian strikes on Odesa kill 4, injure 9 (18 Nov)",
+     "https://en.interfax.com.ua/news/general/1238488.html"
+    ],
+    [
+     "India Seatrade News: War-risk premiums jump in Black Sea (1 Nov)",
+     "https://indiaseatradenews.com/war-risk-premiums-jump-in-black-sea/"
+    ]
+   ]
   },
   {
    "id": "taiwan-strait",

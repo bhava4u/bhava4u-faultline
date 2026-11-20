@@ -1,5 +1,5 @@
 {
- "assessed": "13 November 2026",
+ "assessed": "20 November 2026",
  "note": "Analyst layer for the Maritime risk page. Edit this file to update outlooks, premiums and incidents. Chokepoint names, threat levels, summaries and issues come from data/risk.json so the two pages stay in step.",
  "live_base": "https://raw.githubusercontent.com/bhava4u/bhava4u-faultline/maritime-data/",
  "zones": [
@@ -196,7 +196,7 @@
     "2026-02-26"
    ],
    "baseline_label": "the four months before the war",
-   "status": "Effectively closed to most traffic",
+   "status": "Closed to normal traffic",
    "outlook": {
     "horizon": "Next 30 days",
     "confidence": "Medium",
@@ -204,27 +204,27 @@
      [
       "Stays near-closed",
       60,
-      "Sporadic transits on Iran’s preferred route or under escort, with attacks continuing."
-     ],
-     [
-      "Partial reopening",
-      25,
-      "A US–Iran arrangement via Qatar allows escorted or licensed transits; mine risk keeps volumes low."
+      "Attacks continue at the current pace; oil keeps moving on dark transits, smaller tankers and ship-to-ship transfers at roughly half of pre-war volume."
      ],
      [
       "Wider escalation",
+      25,
+      "A new round of US strikes, more mining or attacks on Gulf terminals push flows down further."
+     ],
+     [
+      "Partial reopening",
       15,
-      "Mining or strikes on Gulf ports and terminals push traffic close to zero."
+      "An Iran–Oman corridor arrangement or a US–Iran understanding allows licensed transits; mine risk keeps volumes low."
      ]
     ],
-    "why": "Talks are live through Qatar, but Iran has set seven conditions and Washington says it does not need a deal. Attacks have continued every few days into November."
+    "why": "Attacks rose in October and kept that pace in November, the US struck Qeshm Island on 17–18 November, and the 19 November Trump–Xi–Putin summit produced no commitment on Iran. Iran–Oman talks are the only active channel."
    },
-   "resolution": "Weeks to months. Even after a deal, insurers and owners would wait for mine clearance and a run of incident-free transits before returning in volume.",
+   "resolution": "Months rather than weeks. Even after a deal, owners and insurers would wait for mine clearance and a run of incident-free transits.",
    "expect": [
+    "AIS-based counts, including PortWatch, understate oil movements because most tankers now run dark; Kpler puts flows near 10 million barrels a day in the week to 10 November, against about 17 million before the war.",
+    "Oil is shifting to smaller tankers on short shuttle runs as attacks make supertankers scarce.",
     "War cover is written for seven days and re-rated every 24 hours, so quotes can move sharply between booking and transit.",
-    "Crews can refuse to sail into areas designated as warlike operations zones.",
-    "GPS jamming and spoofing are widespread, so AIS positions in the Gulf are less reliable than elsewhere.",
-    "Queues and storage build at Fujairah and Yanbu as cargoes look for bypass routes."
+    "GPS jamming and spoofing are widespread, so ship positions in the Gulf are less reliable than elsewhere."
    ],
    "premium": {
     "text": "6–10% of hull value for tankers in October, against about 0.25% before the war. On a $100 million tanker that is $6–10 million for one voyage.",
@@ -233,6 +233,10 @@
      [
       "CES Intelligence, citing Marsh via Insurance Business (Oct 2026)",
       "https://www.ces-intelligence.com/analysis/strait-of-hormuz-war-risk-insurance-2026-daily-signal"
+     ],
+     [
+      "Bloomberg via gCaptain: Smaller tankers join Hormuz shuttle trade (18 Nov)",
+      "https://gcaptain.com/smaller-tankers-join-hormuz-shuttle-trade-to-keep-oil-flowing/"
      ]
     ]
    },
@@ -275,7 +279,7 @@
      ]
     ]
    },
-   "decision": "Most owners are waiting or using the pipeline bypasses. Transit only makes sense where the cargo margin covers a premium of several million dollars and the charter terms say who pays it."
+   "decision": "Most owners are waiting or using pipeline bypasses. Those still moving cargo run dark, use smaller ships or transfer cargo ship to ship in the Gulf of Oman, accepting premiums of several percent of hull value."
   },
   "bab-el-mandeb": {
    "portwatch": [
@@ -294,13 +298,13 @@
     "scenarios": [
      [
       "Threat holds at current level",
-      65,
-      "Occasional attacks and constant threat keep most container lines on the Cape route."
+      50,
+      "The Houthis consolidate the coast and keep the strait under threat without a sustained campaign against shipping."
      ],
      [
       "Escalation",
-      25,
-      "Houthi strikes widen to Saudi-linked shipping and Red Sea ports as the Iran war continues."
+      40,
+      "Fighting around Aden and Saudi air strikes drive Houthi attacks on Saudi-linked and Red Sea shipping."
      ],
      [
       "Meaningful de-escalation",
@@ -308,11 +312,12 @@
       "A wider Gulf settlement lets carriers start testing the route again."
      ]
     ],
-    "why": "Houthi missile and drone capability is intact and their attacks on Saudi energy sites this week show they are still escalating."
+    "why": "Since government forces withdrew on 15 November, the Houthis hold nearly all of Yemen’s shore on the strait, are fighting on two approaches to Aden and struck Riyadh on 19 November."
    },
    "resolution": "No near-term end. Carriers have said they need months of calm before returning, and the threat is now tied to the Iran war.",
    "expect": [
     "Container lines keep Cape routings in their schedules, so transit times stay 10 to 14 days longer on Asia–Europe services.",
+    "Some ships now email the Houthis’ coordination centre before transiting; owners should take legal advice before doing so.",
     "Saudi-linked tankers loading at Yanbu pay far higher war cover than other Red Sea traffic.",
     "Naval escorts are limited and do not cover every vessel."
    ],
@@ -514,7 +519,7 @@
      ]
     ]
    },
-   "decision": "For most container and tanker trades the Cape route is still cheaper than the risk. Transit is mainly chosen by ships with little perceived link to Israel, the US or Saudi Arabia."
+   "decision": "The Cape route remains the default for most container and tanker trades. Ships still transiting tend to be those with little perceived link to Israel, the US or Saudi Arabia."
   },
   "suez-canal": {
    "portwatch": [
@@ -546,7 +551,7 @@
       "Wider Red Sea escalation pushes more ships to the Cape."
      ]
     ],
-    "why": "The canal itself is safe. Its traffic depends almost entirely on security at the southern end of the Red Sea."
+    "why": "The canal itself is safe. Its traffic depends on the southern Red Sea, where Houthi control of the Bab el-Mandeb coast makes a recovery less likely."
    },
    "resolution": "Tied to Bab el-Mandeb. Expect months rather than weeks.",
    "expect": [
@@ -582,7 +587,7 @@
     "2025-12-31"
    ],
    "baseline_label": "2025",
-   "status": "Open; ships near Ukrainian and Russian ports under drone and missile threat",
+   "status": "Open; Kerch Strait disrupted and Ukrainian ports under attack",
    "outlook": {
     "horizon": "Next 30 days",
     "confidence": "Medium",
@@ -603,11 +608,12 @@
       "Strikes widen to neutral shipping or Turkish waters."
      ]
     ],
-    "why": "Russia says it struck three cargo ships around Odesa and Chornomorsk on 8 November, and Ukraine keeps targeting shadow-fleet tankers. Talks in Abu Dhabi produced a prisoner swap, not a ceasefire."
+    "why": "Ukraine collapsed a span of the Kerch Bridge on 17 November and hit its railway section on 19 November, while Russian drones struck Odesa’s historic centre on 18 November. The Shenzhen summit did not address Ukraine."
    },
    "resolution": "Linked to the wider war. A maritime truce is possible but has not been agreed.",
    "expect": [
     "War cover for Black Sea calls is now quoted per port and per voyage, and quotes are volatile.",
+    "Wreckage from the Kerch Bridge is expected to disrupt shipping between the Black Sea and the Sea of Azov.",
     "Sanctioned Russian tankers transit the Bosporus, so screening counterparties matters as much as security."
    ],
    "premium": {
@@ -908,6 +914,104 @@
   }
  },
  "incidents": [
+  {
+   "date": "2026-11-19",
+   "choke": "bosporus",
+   "lat": 45.31,
+   "lon": 36.51,
+   "approx": false,
+   "type": "Strike",
+   "title": "Ukraine hits the Kerch Bridge railway section",
+   "text": "Train traffic to occupied Crimea was halted, two days after the road span collapsed.",
+   "src": [
+    "Militarnyi (19 Nov)",
+    "https://militarnyi.com/en/news/ukraine-attacks-railway-section-of-crimean-kerch-bridge-halting-train-traffic/"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "choke": "strait-of-hormuz",
+   "lat": 26.45,
+   "lon": 56.4,
+   "approx": true,
+   "type": "Attack",
+   "title": "Iran claims two more tankers hit mines",
+   "text": "The IRGC said two tankers struck naval mines and caught fire; most of its daily mine claims have not been independently confirmed.",
+   "src": [
+    "CBS News (20 Nov)",
+    "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "choke": "bosporus",
+   "lat": 46.48,
+   "lon": 30.73,
+   "approx": false,
+   "type": "Strike",
+   "title": "Russian drones hit Odesa’s historic centre",
+   "text": "Three strikes killed four people and injured nine; the city declared 19 November a day of mourning.",
+   "src": [
+    "Interfax-Ukraine (18 Nov)",
+    "https://en.interfax.com.ua/news/general/1238488.html"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "choke": "strait-of-hormuz",
+   "lat": 26.5,
+   "lon": 56.2,
+   "approx": true,
+   "type": "Attack",
+   "title": "ADNOC vessel attacked; one crew member missing",
+   "text": "The UAE state oil company said a crew member was missing after its ship was struck in the strait.",
+   "src": [
+    "CBS News (19–20 Nov)",
+    "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "choke": "strait-of-hormuz",
+   "lat": 26.85,
+   "lon": 55.9,
+   "approx": true,
+   "type": "Strike",
+   "title": "US strikes IRGC missile site on Qeshm Island",
+   "text": "The US called the strikes self-defence; Iran then launched weapons at Bahrain and Kuwait.",
+   "src": [
+    "CBS News (18 Nov)",
+    "https://www.yahoo.com/news/world/articles/iran-rules-inspections-damaged-nuclear-084932815.html"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "choke": "bosporus",
+   "lat": 45.3,
+   "lon": 36.5,
+   "approx": false,
+   "type": "Strike",
+   "title": "Kerch Bridge road span collapses",
+   "text": "Ukraine’s General Staff confirmed the 227-metre road arch fell into the strait; experts expect lasting disruption to shipping.",
+   "src": [
+    "Interfax-Ukraine (17 Nov)",
+    "https://en.interfax.com.ua/news/general/1237852.html"
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "choke": "bab-el-mandeb",
+   "lat": 12.7,
+   "lon": 43.45,
+   "approx": true,
+   "type": "Security",
+   "title": "Houthis take the Bab el-Mandeb coast",
+   "text": "Government-aligned forces withdrew from the strait’s environs; the Houthis then advanced east towards Aden.",
+   "src": [
+    "Long War Journal (16 Nov)",
+    "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php"
+   ]
+  },
   {
    "date": "2026-11-11",
    "choke": "strait-of-hormuz",

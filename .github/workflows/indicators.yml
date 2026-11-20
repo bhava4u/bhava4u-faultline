@@ -1,0 +1,42 @@
+name: Live indicators
+
+# Free official and open data for every country: US and UK travel advisories,
+# GDELT unrest coverage, GDACS disaster alerts and new US sanctions.
+# Writes data/indicators.json. No API keys needed.
+
+on:
+  schedule:
+    - cron: "47 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-indicators
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pycountry
+      - name: Collect indicators
+        run: python scripts/indicators.py
+      - name: Publish
+        run: |
+          git config user.name "faultline-bot"
+          git config user.email "faultline-bot@users.noreply.github.com"
+          git add data/indicators.json data/indicators_state.json
+          git diff --cached --quiet && { echo "No change."; exit 0; }
+          git commit -q -m "Live indicators $(date -u +%F' '%H:%M)"
+          for i in 1 2 3; do
+            git pull --rebase -q origin main && git push -q && exit 0
+            sleep 10
+          done
+          exit 1
