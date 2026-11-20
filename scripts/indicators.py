@@ -123,14 +123,20 @@ def us_advisories(C):
     res = {}
     for a in data:
         m = re.match(r"\s*(.+?)\s+-\s+Level\s+(\d)\s*:\s*(.+)$", a.get("Title", ""))
-        if not m:
-            continue
-        lvl = int(m.group(2))
-        for code in match(m.group(1), C):
+        if m:
+            name, lvl, label = m.group(1), int(m.group(2)), m.group(3).strip()
+        else:
+            name = re.sub(r"\s*(Travel Advisory|-).*$", "", a.get("Title", "")).strip()
+            mm = re.search(r"Level\s+(\d)\s*:\s*([A-Za-z ]+)", re.sub("<[^>]+>", " ", a.get("Summary", "")))
+            if not name or not mm:
+                continue
+            lvl = int(mm.group(1))
+            label = {1: "Exercise Normal Precautions", 2: "Exercise Increased Caution", 3: "Reconsider Travel", 4: "Do Not Travel"}.get(lvl, "")
+        for code in match(name, C):
             prev = res.get(code)
             if prev and prev["level"] >= lvl:   # keep the most severe if several entries match
                 continue
-            res[code] = {"level": lvl, "label": m.group(3).strip(), "updated": (a.get("Updated") or a.get("Published") or "")[:10],
+            res[code] = {"level": lvl, "label": label, "updated": (a.get("Updated") or a.get("Published") or "")[:10],
                          "url": a.get("Link", "")}
     log(f"US advisories: {len(res)} countries matched")
     return res
@@ -158,13 +164,21 @@ def gdelt(code, c):
     out = {}
     for mode in ("TimelineVolRaw", "TimelineTone"):
         url = GDELT + urllib.parse.urlencode({"query": q, "mode": mode, "format": "json", "timespan": "31d"})
-        try:
-            raw = get(url, timeout=25).decode("utf-8", "replace")
-            j = json.loads(raw)
-            data = j["timeline"][0]["data"]
-            out[mode] = [(d["date"][:8], float(d["value"])) for d in data]
-        except Exception as e:
-            log(f"GDELT {mode} {c['name']}: {str(e)[:80]}")
+        for attempt in (1, 2):
+            try:
+                raw = get(url, timeout=25).decode("utf-8", "replace")
+                j = json.loads(raw)
+                data = j["timeline"][0]["data"]
+                # GDELT may return 15-minute, hourly or daily points: fold them into days
+                days = {}
+                for d in data:
+                    days.setdefault(d["date"][:8], []).append(float(d["value"]))
+                agg = sum if mode == "TimelineVolRaw" else (lambda v: sum(v) / len(v))
+                out[mode] = [(k, agg(v)) for k, v in sorted(days.items())]
+                break
+            except Exception as e:
+                log(f"GDELT {mode} {c['name']} (try {attempt}): {str(e)[:80]}")
+                time.sleep(12 if attempt == 1 else 0)   # usually a rate-limit reply: back off once
         time.sleep(5.5)   # GDELT asks for at most one request every five seconds
     vol = out.get("TimelineVolRaw") or []
     res = {}
@@ -278,7 +292,7 @@ def main():
     news, budget, fails = {}, time.time() + 22 * 60, 0
     order = sorted(C, key=lambda k: state.get("gdelt_done", {}).get(k, ""))
     for code in order:
-        if time.time() > budget or fails >= 8:
+        if time.time() > budget or fails >= 15:
             log("GDELT: stopping early (time budget or repeated failures); the rest keep previous values")
             break
         try:
@@ -349,8 +363,10 @@ def main():
         # data score vs analyst grade
         sc, band = score(ind)
         ind["score"], ind["band"] = sc, band
-        if ind["us"] and abs(band - c["l"]) >= 2:   # only compare when the strongest input is present
-            watch.append(f"Data score points to {LEVEL_NAMES[band]}; the analyst grade is {LEVEL_NAMES[c['l']]}, so it is due for review")
+        # Flag only when the data looks WORSE than the analyst grade: strategic risks (Baltics, Taiwan,
+        # Japan) rightly sit above what travel advisories and news counts capture.
+        if ind["us"] and band - c["l"] >= 2:
+            watch.append(f"Data score points to {LEVEL_NAMES[band]}, above the analyst grade of {LEVEL_NAMES[c['l']]}, so it is due for review")
         ind["watch"] = watch
         out[code] = ind
     state["hazards"] = state["hazards"][-500:]
