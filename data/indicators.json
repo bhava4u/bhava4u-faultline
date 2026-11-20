@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T15:41+00:00",
+ "updated": "2026-11-20T17:10+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
   "gdacs": "ok",
   "ofac": "ok",
-  "gdelt": "ok: 0 event files read, signals for 100 countries"
+  "gdelt": "ok: 5 event files read, signals for 106 countries"
  },
  "method": {
   "weights": {
@@ -6110,6 +6110,136 @@
    "score": 23,
    "band": 2,
    "watch": []
+  },
+  "048": {
+   "us": {
+    "level": 3,
+    "label": "Reconsider Travel",
+    "updated": "2026-10-22",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bhr.html"
+   },
+   "uk": {
+    "updated": "2026-11-18",
+    "url": "https://www.gov.uk/foreign-travel-advice/bahrain"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 0,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": null,
+   "score": 46,
+   "band": 3,
+   "watch": []
+  },
+  "262": {
+   "us": {
+    "level": 2,
+    "label": "Exercise Increased Caution",
+    "updated": "2025-03-05",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dji.html"
+   },
+   "uk": {
+    "updated": "2026-07-27",
+    "url": "https://www.gov.uk/foreign-travel-advice/djibouti"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 0,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": null,
+   "score": 23,
+   "band": 2,
+   "watch": []
+  },
+  "232": {
+   "us": {
+    "level": 2,
+    "label": "Exercise Increased Caution",
+    "updated": "2023-07-30",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eri.html"
+   },
+   "uk": {
+    "updated": "2026-11-09",
+    "url": "https://www.gov.uk/foreign-travel-advice/eritrea"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 0,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": null,
+   "score": 23,
+   "band": 2,
+   "watch": []
+  },
+  "702": {
+   "us": {
+    "level": 1,
+    "label": "Exercise Normal Precautions",
+    "updated": "2026-03-08",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sgp.html"
+   },
+   "uk": {
+    "updated": "2026-03-19",
+    "url": "https://www.gov.uk/foreign-travel-advice/singapore"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 4,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": null,
+   "score": 2,
+   "band": 1,
+   "watch": []
+  },
+  "116": {
+   "us": {
+    "level": 2,
+    "label": "Exercise Increased Caution",
+    "updated": "2026-09-14",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.khm.html"
+   },
+   "uk": {
+    "updated": "2026-11-18",
+    "url": "https://www.gov.uk/foreign-travel-advice/cambodia"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 29,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": null,
+   "score": 35,
+   "band": 2,
+   "watch": [
+    "29 new US sanctions designations in 30 days"
+   ]
+  },
+  "591": {
+   "us": {
+    "level": 2,
+    "label": "Exercise Increased Caution",
+    "updated": "2026-08-18",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pan.html"
+   },
+   "uk": {
+    "updated": "2026-10-09",
+    "url": "https://www.gov.uk/foreign-travel-advice/panama"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 16,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": null,
+   "score": 33,
+   "band": 2,
+   "watch": [
+    "16 new US sanctions designations in 30 days"
+   ]
   }
  },
  "alerts": [
