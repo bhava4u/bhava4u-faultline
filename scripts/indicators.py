@@ -127,7 +127,7 @@ def us_advisories(C):
             name, lvl, label = m.group(1), int(m.group(2)), m.group(3).strip()
         else:
             name = re.sub(r"\s*(Travel Advisory|-).*$", "", a.get("Title", "")).strip()
-            mm = re.search(r"Level\s+(\d)\s*:\s*([A-Za-z ]+)", re.sub("<[^>]+>", " ", a.get("Summary", "")))
+            mm = re.search(r"Level\s*(\d)", re.sub("<[^>]+>", " ", a.get("Summary", "")))
             if not name or not mm:
                 continue
             lvl = int(mm.group(1))
@@ -198,6 +198,119 @@ def gdelt(code, c):
     return res
 
 
+# GDELT event files: one zipped table every 15 minutes, free and not rate-limited.
+# Countries are coded with FIPS 10-4 codes (as the State Department also uses).
+FIPS = {
+ "4":"AF","12":"AG","32":"AR","51":"AM","36":"AS","40":"AU","31":"AJ","50":"BG","112":"BO","56":"BE","68":"BL","76":"BR",
+ "100":"BU","854":"UV","124":"CA","148":"CD","152":"CI","156":"CH","170":"CO","192":"CU","203":"EZ","180":"CG","208":"DA",
+ "218":"EC","818":"EG","233":"EN","231":"ET","246":"FI","250":"FR","268":"GG","276":"GM","288":"GH","300":"GR","304":"GL",
+ "332":"HA","348":"HU","356":"IN","360":"ID","364":"IR","368":"IZ","372":"EI","376":"IS","380":"IT","392":"JA","400":"JO",
+ "398":"KZ","404":"KE","414":"KU","428":"LG","422":"LE","434":"LY","440":"LH","458":"MY","466":"ML","484":"MX","498":"MD",
+ "504":"MO","508":"MZ","104":"BM","524":"NP","528":"NL","554":"NZ","562":"NG","566":"NI","408":"KN","578":"NO","512":"MU",
+ "586":"PK","275":"WE GZ","604":"PE","608":"RP","616":"PL","620":"PO","634":"QA","642":"RO","643":"RS","682":"SA","688":"RI",
+ "706":"SO","710":"SF","410":"KS","728":"OD","724":"SP","144":"CE","729":"SU","752":"SW","756":"SZ","760":"SY","158":"TW",
+ "834":"TZ","764":"TH","788":"TS","792":"TU","804":"UP","784":"AE","826":"UK","840":"US","862":"VE","704":"VM","887":"YM",
+}
+GEV = "http://data.gdeltproject.org/gdeltv2/{}.export.CSV.zip"
+
+
+def gdelt_events(C, state, budget_s=20 * 60):
+    """Daily counts of conflict and protest events located in each country, from GDELT event files.
+    Keeps a rolling 32-day tally in state; the first run samples one file every three hours to backfill.
+    Daily figures are scaled up from the files actually read (96 a day), so sampling still gives fair counts."""
+    import zipfile
+    from concurrent.futures import ThreadPoolExecutor
+    by_fips = {}
+    for code, f in FIPS.items():
+        if code.zfill(3) in {k.zfill(3) for k in C}:
+            key = next(k for k in C if k.zfill(3) == code.zfill(3))
+            for x in f.split():
+                by_fips[x] = key
+    g = state.setdefault("gev", {"last": None, "days": {}})
+    end = (NOW - dt.timedelta(minutes=30)).replace(second=0, microsecond=0)
+    end -= dt.timedelta(minutes=end.minute % 15)
+    if g["last"]:
+        start = dt.datetime.strptime(g["last"], "%Y%m%d%H%M%S").replace(tzinfo=dt.timezone.utc) + dt.timedelta(minutes=15)
+        start = max(start, end - dt.timedelta(days=2))
+        slots, t = [], start
+        while t <= end:
+            slots.append(t); t += dt.timedelta(minutes=15)
+        if len(slots) > 48:                       # long gap: sample evenly rather than read everything
+            step = len(slots) / 48
+            slots = [slots[int(i * step)] for i in range(48)]
+    else:
+        slots = [end - dt.timedelta(hours=3 * i) for i in range(31 * 8)]   # backfill: every 3 hours for 31 days
+    deadline = time.time() + budget_s
+
+    def fetch(t):
+        if time.time() > deadline:
+            return t, None
+        name = t.strftime("%Y%m%d%H%M%S")
+        try:
+            z = zipfile.ZipFile(io.BytesIO(get(GEV.format(name), timeout=40)))
+            counts = {}
+            with z.open(z.namelist()[0]) as fh:
+                for line in io.TextIOWrapper(fh, encoding="utf-8", errors="replace"):
+                    c = line.rstrip("\n").split("\t")
+                    if len(c) < 58:
+                        continue
+                    key = by_fips.get(c[53])
+                    if not key:
+                        continue
+                    if c[29] == "4" or c[28] == "14":     # material conflict, or protest
+                        try:
+                            tone = float(c[34])
+                        except ValueError:
+                            tone = 0.0
+                        a = counts.setdefault(key, [0, 0.0])
+                        a[0] += 1; a[1] += tone
+            return t, counts
+        except Exception:
+            return t, None
+
+    ok = 0
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for t, counts in ex.map(fetch, slots):
+            if counts is None:
+                continue
+            ok += 1
+            day = g["days"].setdefault(t.strftime("%Y%m%d"), {"files": 0, "c": {}})
+            day["files"] += 1
+            for k, (n, tn) in counts.items():
+                a = day["c"].setdefault(k, [0, 0.0])
+                a[0] += n; a[1] = round(a[1] + tn, 2)
+    if ok:
+        g["last"] = max(t for t in slots).strftime("%Y%m%d%H%M%S")
+    cutoff = (TODAY - dt.timedelta(days=32)).strftime("%Y%m%d")
+    g["days"] = {d: v for d, v in g["days"].items() if d >= cutoff}
+    log(f"GDELT events: read {ok} of {len(slots)} files; {len(g['days'])} days on record")
+
+    days = sorted(g["days"])
+    full = [d for d in days if d < TODAY.strftime("%Y%m%d") and g["days"][d]["files"] >= 4]
+    res = {}
+    for code in C:
+        series, tones = [], []
+        for d in full:
+            v = g["days"][d]
+            n, tn = v["c"].get(code, [0, 0.0])
+            series.append(n * 96 / v["files"])
+            if n:
+                tones.append(tn / n)
+        if len(series) < 8:
+            continue
+        last7, base = series[-7:], series[:-7]
+        v7 = sum(last7) / 7
+        b = sum(base) / len(base) if base else 0
+        r = {"v7": round(v7, 1), "base": round(b, 1), "ratio": round(v7 / b, 2) if b >= 3 and len(base) >= 7 else None,
+             "series": [int(x) for x in series[-31:]], "unit": "conflict and protest events a day"}
+        if tones:
+            r["tone7"] = round(sum(tones[-7:]) / len(tones[-7:]), 2)
+        r["url"] = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
+            {"query": (NEWS_TERMS.get(code) or [f'"{C[code]["name"]}"'])[0] + " " + UNREST, "mode": "ArtList", "timespan": "7d"})
+        res[code] = r
+    return res, ok
+
+
 def gdacs(C):
     raw = get("https://www.gdacs.org/xml/rss.xml")
     root = ET.fromstring(raw)
@@ -255,7 +368,7 @@ def score(ind):
     n = ind.get("news") or {}
     if n.get("ratio") is not None or n.get("tone7") is not None:
         import math
-        intensity = min(max(math.log10(max(n.get("v7") or 1, 1)) / math.log10(500), 0), 1) * 100   # ~500 unrest articles a day = max
+        intensity = min(max(math.log10(max(n.get("v7") or 1, 1)) / math.log10(400), 0), 1) * 100   # ~400 conflict/protest events a day = max
         spike = min(max(((n.get("ratio") or 1) - 1) / 2, 0), 1) * 100                              # 3× normal = max
         tone = min(max((-(n.get("tone7") or 0) - 1) / 6, 0), 1) * 100                              # tone −7 = max
         parts.append(0.45 * intensity + 0.30 * spike + 0.25 * tone); weights.append(0.35)
@@ -286,27 +399,12 @@ def main():
     uk = run("uk", uk_advice, C)
     hz = run("gdacs", gdacs, C)
     of = run("ofac", ofac_new, C)
-    # GDELT is slow and rate-limited, so it gets a fixed time budget each run.
-    # Countries are visited in rotation, so ones skipped this run go first next run;
-    # skipped countries keep their last good values. Repeated failures stop GDELT early.
-    news, budget, fails = {}, time.time() + 22 * 60, 0
-    order = sorted(C, key=lambda k: state.get("gdelt_done", {}).get(k, ""))
-    for code in order:
-        if time.time() > budget or fails >= 15:
-            log("GDELT: stopping early (time budget or repeated failures); the rest keep previous values")
-            break
-        try:
-            r = gdelt(code, C[code])
-            news[code] = r
-            if r.get("ratio") is not None or r.get("tone7") is not None:
-                fails = 0
-                state.setdefault("gdelt_done", {})[code] = NOW.strftime("%Y-%m-%dT%H:%M")
-            else:
-                fails += 1
-        except Exception as e:
-            fails += 1
-            log("GDELT", C[code]["name"], e)
-    status["gdelt"] = f"ok for {sum(1 for v in news.values() if v.get('ratio') is not None or v.get('tone7') is not None)} countries"
+    try:
+        news, nfiles = gdelt_events(C, state)
+        status["gdelt"] = f"ok: {nfiles} event files read, signals for {len(news)} countries"
+    except Exception as e:
+        news = {}
+        status["gdelt"] = f"failed: {str(e)[:100]}"; log("GDELT failed:", e)
 
     alerts = [a for a in old.get("alerts", []) if a.get("date", "") >= (TODAY - dt.timedelta(days=60)).isoformat()]
     def alert(code, text, url):
@@ -343,11 +441,11 @@ def main():
             state["uk"][code] = ind["uk"]["updated"]
         # unrest coverage spike
         nn = ind.get("news") or {}
-        spiking = nn.get("ratio") is not None and nn["ratio"] >= 2.0 and nn.get("v7", 0) >= 10
+        spiking = nn.get("ratio") is not None and nn["ratio"] >= 2.0 and nn.get("v7", 0) >= 15
         if spiking:
-            watch.append(f"Conflict and unrest coverage is {nn['ratio']}× its recent average")
+            watch.append(f"Conflict and protest events are running at {nn['ratio']}× their recent average")
             if not state["spike"].get(code):
-                alert(code, f"News coverage of conflict and unrest in {c['name']} has jumped to {nn['ratio']}× its recent average.", nn.get("url", ""))
+                alert(code, f"Reported conflict and protest events in {c['name']} have jumped to {nn['ratio']}× their recent average.", nn.get("url", ""))
         state["spike"][code] = spiking
         # disasters
         for h in ind["hazards"]:
@@ -372,7 +470,7 @@ def main():
     state["hazards"] = state["hazards"][-500:]
 
     result = {"updated": NOW.strftime("%Y-%m-%dT%H:%M+00:00"), "status": status,
-              "method": {"weights": {"US advisory": 45, "News coverage (intensity, spike, tone)": 35, "Disasters": 12, "Sanctions": 8},
+              "method": {"weights": {"US advisory": 45, "Conflict and protest events (level, spike, tone)": 35, "Disasters": 12, "Sanctions": 8},
                          "bands": "0–19 Low, 20–39 Guarded, 40–59 Elevated, 60–77 High, 78–100 Severe"},
               "countries": out, "alerts": alerts[:200]}
     json.loads(json.dumps(result))
