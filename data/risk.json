@@ -273,7 +273,7 @@
     [
      "Trade truce with the US",
      3,
-     "Xi hosted Trump and Putin in Shenzhen on 19 November, but the Xi–Trump talks made little progress on the trade truce that expires in January."
+     "Xi–Trump talks in Shenzhen on 19 November made little progress on the trade truce that expires in January, two days after Quad leaders voiced grave concern about arbitrary export restrictions."
     ],
     [
      "Economic slowdown",
@@ -290,6 +290,10 @@
     ]
    ],
    "src": [
+    [
+     "MLQ: Quad cites “grave concerns” over export curbs; US–Thailand trade statement (17 Nov)",
+     "https://mlq.ai/news/trump-lands-in-manila-meets-quad-leaders-and-signs-a-thailand-trade-statement-as-he-warns-iran/"
+    ],
     [
      "CFR: Six experts on the Trump–Xi–Putin meeting (19 Nov)",
      "https://www.cfr.org/articles/six-experts-on-what-trump-xi-and-putins-first-trilateral-means"
@@ -978,9 +982,9 @@
      "Relations remain hostile after the 2025 conflict, and another attack could trigger a crisis."
     ],
     [
-     "Trade and diplomacy",
+     "US ties and the Quad",
      2,
-     "The long-awaited EU–India free trade agreement was signed in 2026, cutting tariffs on a wide range of goods and services."
+     "Modi met Trump at the Quad summit in Manila on 17 November, their first meeting in five months; the leaders agreed joint maritime patrols and critical minerals cooperation, while US–India talks on tariffs continue."
     ]
    ],
    "r": "South Asia",
@@ -992,6 +996,14 @@
     ]
    ],
    "src": [
+    [
+     "Press Insider: Quad leaders warn against coercion, plan first joint maritime patrol (17 Nov)",
+     "https://pressinsider.com/policy/quad-leaders-summit-2026-manila-coercion-maritime-surveillance/"
+    ],
+    [
+     "Azat TV: Modi and Trump at the Quad summit (18 Nov)",
+     "https://azat.tv/en/modi-trump-quad-summit-manila-tensions/"
+    ],
     [
      "Wikipedia: 2026 in Asia",
      "https://en.wikipedia.org/wiki/2026_in_Asia"
@@ -1293,9 +1305,9 @@
      "Most of Japan’s crude passes through Hormuz."
     ],
     [
-     "Defence build-up delays",
+     "Quad and US ties",
      2,
-     "Japan’s military build-up is being slowed by US missile delivery delays and domestic parts shortages."
+     "Prime Minister Takaichi joined the first Quad leaders’ summit since 2024 in Manila on 17 November, which agreed a first joint maritime patrol drill and warned against economic coercion."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -1307,6 +1319,14 @@
     ]
    ],
    "src": [
+    [
+     "Press Insider: Quad leaders warn against coercion, plan first joint maritime patrol (17 Nov)",
+     "https://pressinsider.com/policy/quad-leaders-summit-2026-manila-coercion-maritime-surveillance/"
+    ],
+    [
+     "India’s World: Explainer on the Quad’s Manila summit (19 Nov)",
+     "https://indiasworld.in/explainer-the-quads-manila-summit/"
+    ],
     [
      "South China Morning Post: This Week in Asia (12 Nov)",
      "https://www.scmp.com/week-asia"
@@ -2136,7 +2156,7 @@
     [
      "Marcos–Duterte feud",
      3,
-     "Vice President Sara Duterte’s impeachment trial is under way as Manila prepares to host a summit with President Trump."
+     "Vice President Sara Duterte’s impeachment trial is under way; Manila hosted the ASEAN summits and the first Quad leaders’ meeting in two years on 17 November."
     ],
     [
      "Typhoon exposure",
@@ -2153,6 +2173,10 @@
     ]
    ],
    "src": [
+    [
+     "Press Insider: Quad leaders warn against coercion, plan first joint maritime patrol (17 Nov)",
+     "https://pressinsider.com/policy/quad-leaders-summit-2026-manila-coercion-maritime-surveillance/"
+    ],
     [
      "Rio Times: Asia Intelligence Brief (12 Nov)",
      "https://www.riotimesonline.com/asia-intelligence-brief-thursday-november-12-2026/"
@@ -4749,9 +4773,9 @@
      "Frequent changes of prime minister and court interventions unsettle policy."
     ],
     [
-     "Weak growth and energy security",
+     "Trade and energy security",
      2,
-     "Thailand is setting up shared oil reserves with Indonesia and the Philippines, while Myanmar refugees fill labour gaps as Cambodian workers return home."
+     "Thailand and the US reached the substance of a reciprocal trade agreement in Manila on 17 November, with Trump saying Thailand would remove tariffs on US goods; the formal text is still to be signed."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -4763,6 +4787,10 @@
     ]
    ],
    "src": [
+    [
+     "MLQ: Quad cites “grave concerns” over export curbs; US–Thailand trade statement (17 Nov)",
+     "https://mlq.ai/news/trump-lands-in-manila-meets-quad-leaders-and-signs-a-thailand-trade-statement-as-he-warns-iran/"
+    ],
     [
      "Nikkei Asia (12 Nov)",
      "https://asia.nikkei.com/"
@@ -5403,6 +5431,18 @@
     "643",
     "156"
    ]
+  },
+  {
+   "start": "2026-11-17",
+   "when": "17 Nov",
+   "title": "Quad leaders’ summit, Manila (concluded)",
+   "text": "Modi, Trump, Takaichi and Albanese agreed a first joint maritime patrol drill, critical minerals and cable cooperation, and warned against economic coercion, without naming China.",
+   "c": [
+    "356",
+    "840",
+    "392",
+    "036"
+   ]
   }
  ],
  "log": [
@@ -5468,6 +5508,14 @@
   {
    "date": "17 Nov 2026",
    "items": [
+    [
+     "356",
+     "Quad leaders meet in Manila for the first time since 2024: joint maritime patrols, critical minerals deals and a warning on economic coercion that does not name China."
+    ],
+    [
+     "764",
+     "Thailand and the US reach the substance of a reciprocal trade deal."
+    ],
     [
      "364",
      "Iran and Oman hold talks in Muscat on shipping and maritime security; no deal announced."
