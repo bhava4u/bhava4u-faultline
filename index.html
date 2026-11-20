@@ -866,7 +866,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     if(x.uk&&x.uk.updated) rows.push(`<dt>UK travel advice</dt><dd><a href="${esc(x.uk.url)}" target="_blank" rel="noopener">Updated ${day(x.uk.updated)}</a></dd>`);
     if(n.ratio!=null||n.tone7!=null){
       const sp=(n.series||[]).slice(-30), mx=Math.max(1,...sp), w=60, hgt=16, pts=sp.map((v,i)=>`${(i*(w/(Math.max(1,sp.length-1)))).toFixed(1)},${(hgt-v/mx*hgt).toFixed(1)}`).join(' ');
-      rows.push(`<dt>Unrest coverage</dt><dd>${n.ratio!=null?`<b>${n.ratio}×</b> its usual level this week`:'Low coverage'}${n.tone7!=null?`, tone ${n.tone7}`:''}${sp.length>2?`<svg class="spark" width="${w}" height="${hgt}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>`:''}</dd>`);
+      rows.push(`<dt>Conflict and protest events</dt><dd>${n.ratio!=null?`<b>${n.ratio}×</b> their usual level this week`:(n.v7!=null?`About ${Math.round(n.v7)} a day`:'Too few to compare')}${n.tone7!=null?`, tone ${n.tone7}`:''}${sp.length>2?`<svg class="spark" width="${w}" height="${hgt}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>`:''}</dd>`);
     }
     rows.push(`<dt>Disaster alerts</dt><dd>${(x.hazards||[]).length?x.hazards.map(z=>`<a href="${esc(z.url)}" target="_blank" rel="noopener">${esc(z.alert)}: ${esc(z.type)}</a>`).join(', '):'None active'}</dd>`);
     if(x.sanctions) rows.push(`<dt>New US sanctions</dt><dd><a href="${esc(x.sanctions.url)}" target="_blank" rel="noopener">${x.sanctions.new30} in the last 30 days</a></dd>`);
@@ -1045,24 +1045,31 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
    To move a section between views, edit VIEWS (values are section ids). */
 (function(){
   var VIEWS = {
-    map:     ['map','watch','soon','method'],
+    map:     ['map','about','watch','soon','method'],
     mine:    ['mine'],
     compare: ['compare','trend','all'],
     log:     ['log'],
     contact: ['about','contact']
   };
+  var ORDER = ['map','about','watch','soon','method','mine','compare','trend','all','log','contact'];
   var ELSEWHERE = { themes: '/themes/', insights: '/insights/' };   // previews that have their own pages
   var main = document.querySelector('main'); if(!main) return;
   var sections = Array.prototype.filter.call(main.children, function(e){ return e.tagName==='SECTION' && e.id; });
-  var owner = {}; Object.keys(VIEWS).forEach(function(v){ VIEWS[v].forEach(function(id){ owner[id]=v; }); });
-  // show each view's sections in the order listed in VIEWS
-  Object.keys(VIEWS).forEach(function(v){
-    var els = VIEWS[v].map(function(id){ return document.getElementById(id); }).filter(Boolean);
-    for(var i=1;i<els.length;i++){ if(els[i].parentNode===main && els[i-1].parentNode===main) els[i-1].after(els[i]); }
-  });
+  var owner = {}; Object.keys(VIEWS).forEach(function(v){ VIEWS[v].forEach(function(id){ if(!owner[id]) owner[id]=v; }); });
+  // arrange sections in one master order (each view shows its own in this order)
+  var prev = null;
+  ORDER.forEach(function(id){ var el=document.getElementById(id); if(!el || el.parentNode!==main) return; if(prev) prev.after(el); prev=el; });
+  function inView(id, v){ return VIEWS[v].indexOf(id) > -1; }
   var css = document.createElement('style');
   // hidden sections keep their width so charts and the globe still measure correctly
-  css.textContent = 'main>section.fl-off{height:0!important;min-height:0!important;overflow:hidden!important;visibility:hidden!important;padding:0!important;margin:0!important;border:0!important}';
+  css.textContent = 'main>section.fl-off{height:0!important;min-height:0!important;overflow:hidden!important;visibility:hidden!important;padding:0!important;margin:0!important;border:0!important}' +
+    // the country brief scrolls inside its own panel instead of stretching the page
+    '@media (min-width:981px){' +
+      'aside.brief{max-height:calc(100vh - env(safe-area-inset-top,0px) - 100px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:var(--rule) transparent;padding-top:0!important}' +
+      'aside.brief::-webkit-scrollbar{width:8px}aside.brief::-webkit-scrollbar-thumb{background:var(--rule);border-radius:4px}' +
+      'aside.brief .picker{position:sticky;top:0;z-index:3;background:var(--surface);padding-top:22px;padding-bottom:10px;margin-bottom:8px;border-bottom:1px solid var(--rule)}' +
+      'aside.brief.fl-more::after{content:"";position:sticky;display:block;bottom:-22px;height:28px;margin:-28px -26px -22px;background:linear-gradient(transparent,var(--surface));pointer-events:none}' +
+    '}';
   document.head.appendChild(css);
   var current = null;
   function viewFor(hash){
@@ -1080,7 +1087,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   function show(v, top){
     if(v === current) return;
     var was = current; current = v;
-    sections.forEach(function(s){ s.classList.toggle('fl-off', owner[s.id] !== v); });
+    sections.forEach(function(s){ s.classList.toggle('fl-off', !inView(s.id, v)); });
     mark(v);
     if(top) window.scrollTo(0,0);
     if(v==='map' && was) requestAnimationFrame(function(){ window.dispatchEvent(new Event('resize')); });
@@ -1108,6 +1115,13 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     if(VIEWS[hash] && ('#'+hash)===location.hash){ e.preventDefault(); show(hash,true); window.scrollTo(0,0); }
   });
   route();
+  // country brief: start at the top whenever a new country or chokepoint opens; fade hint while more is below
+  var aside = document.querySelector('aside.brief'), bb = document.getElementById('briefBody');
+  if(aside && bb){
+    var hint = function(){ aside.classList.toggle('fl-more', aside.scrollHeight - aside.scrollTop - aside.clientHeight > 24); };
+    new MutationObserver(function(){ aside.scrollTop = 0; hint(); }).observe(bb, {childList:true});
+    aside.addEventListener('scroll', hint, {passive:true}); window.addEventListener('resize', hint);
+  }
   // the shared menu loads just after this; re-apply the highlight once it has built its links
   document.addEventListener('DOMContentLoaded', function(){ mark(current); });
 })();
