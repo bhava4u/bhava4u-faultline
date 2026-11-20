@@ -54,6 +54,17 @@
     '@media (min-width:' + (BP + 1) + 'px){.fl-menu{display:none!important}}';
   document.head.appendChild(css);
 
+  // the Faultline logo (header or footer) always starts the site fresh: home view, nothing selected,
+  // globe spinning. Saved "My countries" live in the browser's storage, so they are kept.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a.brand, a.fl-foot-brand');
+    if (!a || e.ctrlKey || e.metaKey || e.shiftKey || e.button > 0) return;   // allow open-in-new-tab
+    e.preventDefault();
+    try { history.scrollRestoration = 'manual'; } catch (err) {}
+    if (location.pathname === '/' && !location.hash && !location.search) location.reload();
+    else location.href = '/';
+  });
+
   // same logo everywhere
   var brand = header.querySelector('.brand');
   if (brand && !brand.querySelector('svg')) {
