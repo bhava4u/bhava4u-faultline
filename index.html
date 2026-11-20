@@ -378,7 +378,7 @@ footer .band-in{padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px 32px;just
 .actions button.saved{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 </style>
 <script data-goatcounter="https://faultlinerisk.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="/mobile-menu.js?v=4733b6c2" defer></script>
+<script src="/mobile-menu.js?v=f6c5ae40" defer></script>
 </head>
 <body>
 <header class="top"><div class="top-in">
@@ -1046,7 +1046,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
 (function(){
   var VIEWS = {
     map:     ['map','about','watch','soon','method'],
-    mine:    ['mine'],
+    mine:    ['map','mine'],
     compare: ['compare','trend','all'],
     log:     ['log'],
     contact: ['about','contact']
@@ -1071,7 +1071,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
       'aside.brief.fl-more::after{content:"";position:sticky;display:block;bottom:-22px;height:28px;margin:-28px -26px -22px;background:linear-gradient(transparent,var(--surface));pointer-events:none}' +
     '}';
   document.head.appendChild(css);
-  var current = null;
+  var current = null, autoMine = false;
   function viewFor(hash){
     if(VIEWS[hash]) return hash;
     if(owner[hash]) return owner[hash];
@@ -1090,7 +1090,13 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
     sections.forEach(function(s){ s.classList.toggle('fl-off', !inView(s.id, v)); });
     mark(v);
     if(top) window.scrollTo(0,0);
-    if(v==='map' && was) requestAnimationFrame(function(){ window.dispatchEvent(new Event('resize')); });
+    if(VIEWS[v].indexOf('map')>-1 && was) requestAnimationFrame(function(){ window.dispatchEvent(new Event('resize')); });
+    // in My countries, the globe highlights your saved countries; back on the map it shows all again
+    var chip = function(r){ return document.querySelector('#chips button[data-r="'+r+'"]'); };
+    setTimeout(function(){
+      if(v==='mine'){ var c=chip('Mine'); if(c && c.getAttribute('aria-pressed')!=='true'){ c.click(); autoMine=true; } }
+      else if(autoMine && v==='map'){ var a=chip('All'); if(a) a.click(); autoMine=false; }
+    }, 0);
   }
   function route(){
     var hash = decodeURIComponent(location.hash.slice(1));

@@ -1,5 +1,6 @@
 /* Faultline site header and footer: ONE shared file for every page.
    Menu: edit LINKS. Footer (who we are, email, LinkedIn): edit TEAM, EMAIL and COMPANY_LINKEDIN.
+   Long lists shown 7 per page: edit PAGINATE.
    Every page updates automatically. */
 (function () {
   var LINKS = [
@@ -177,4 +178,89 @@
     document.body.appendChild(foot);
   }
   note.insertAdjacentHTML('beforeend', '<span>© ' + year + ' Faultline · faultlinerisk.com</span>');
+
+  // ------------------------------------------------------------ pagination
+  // Long lists show 7 items at a time with numbered pages. Add a list by adding its selector here.
+  var PER_PAGE = 7;
+  var PAGINATE = ['#watchList', '#eventList', '#ctBody', '#logList',              // home
+                  '#trafficT tbody', '#shadowT tbody', '#stsList tbody', '#incList', // maritime
+                  '#rows'];                                                       // China Monitor
+  var pcss = document.createElement('style');
+  pcss.textContent =
+    '.fl-pg-hide{display:none!important}' +
+    '.fl-pager{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px;margin:16px 0 4px;font:500 14px "Public Sans",system-ui,sans-serif}' +
+    '.fl-pager button{min-width:36px;height:36px;padding:0 10px;border:1px solid var(--rule,#C9D0CC);border-radius:4px;background:var(--surface,#F7F8F4);color:var(--ink,#1D282C);font:inherit;cursor:pointer}' +
+    '.fl-pager button:hover:not([disabled]){border-color:var(--ink,#1D282C)}' +
+    '.fl-pager button[aria-current]{background:var(--ink,#1D282C);color:var(--bg,#EDEFEA);border-color:var(--ink,#1D282C);font-weight:700}' +
+    '.fl-pager button[disabled]{opacity:.4;cursor:default}' +
+    '.fl-pager .fl-gap{padding:0 2px;color:var(--muted,#56656A)}' +
+    '.fl-pager .fl-count{flex-basis:100%;text-align:center;font-size:12.5px;color:var(--muted,#56656A);margin-top:2px}';
+  document.head.appendChild(pcss);
+
+  function pageList(cur, total) {          // 1 … 4 5 6 … 20
+    var out = [], i;
+    for (i = 1; i <= total; i++) {
+      if (i === 1 || i === total || Math.abs(i - cur) <= 1) out.push(i);
+      else if (out[out.length - 1] !== '…') out.push('…');
+    }
+    return out;
+  }
+  function paginate(el) {
+    if (el.__flPg) return;
+    var st = el.__flPg = { page: 1, pager: null, busy: false };
+    var anchor = el.tagName === 'TBODY' ? (el.closest('.tablewrap') || el.closest('table')) : el;
+    function items() { return Array.prototype.filter.call(el.children, function (c) { return !c.hasAttribute('data-nopage'); }); }
+    function render(keepPage) {
+      st.busy = true;
+      var list = items(), total = Math.ceil(list.length / PER_PAGE);
+      if (!keepPage) {
+        var sel = list.findIndex(function (c) { return c.matches('.sel,[aria-selected="true"],[aria-current="true"]'); });
+        st.page = sel > -1 ? Math.floor(sel / PER_PAGE) + 1 : 1;
+      }
+      st.page = Math.min(Math.max(1, st.page), Math.max(1, total));
+      list.forEach(function (c, i) { c.classList.toggle('fl-pg-hide', total > 1 && Math.floor(i / PER_PAGE) + 1 !== st.page); });
+      if (total <= 1) { var old = st.pager || anchor.__flPager; if (old) { old.remove(); anchor.__flPager = null; } st.pager = null; st.busy = false; return; }
+      if (!st.pager) {
+        // one pager per table/list, reused if the page redraws the list
+        st.pager = anchor.__flPager || document.createElement('nav');
+        st.pager.className = 'fl-pager'; st.pager.setAttribute('aria-label', 'Pages');
+        if (!st.pager.isConnected) anchor.after(st.pager);
+        anchor.__flPager = st.pager; st.pager.__owner = el;
+      }
+      var from = (st.page - 1) * PER_PAGE + 1, to = Math.min(st.page * PER_PAGE, list.length);
+      st.pager.innerHTML =
+        '<button type="button" data-p="' + (st.page - 1) + '"' + (st.page === 1 ? ' disabled' : '') + ' aria-label="Previous page">‹ Prev</button>' +
+        pageList(st.page, total).map(function (p) {
+          return p === '…' ? '<span class="fl-gap">…</span>'
+            : '<button type="button" data-p="' + p + '"' + (p === st.page ? ' aria-current="page"' : '') + ' aria-label="Page ' + p + '">' + p + '</button>';
+        }).join('') +
+        '<button type="button" data-p="' + (st.page + 1) + '"' + (st.page === total ? ' disabled' : '') + ' aria-label="Next page">Next ›</button>' +
+        '<span class="fl-count">Showing ' + from + '–' + to + ' of ' + list.length + '</span>';
+      st.busy = false;
+    }
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('button[data-p]');
+      if (!b || !st.pager || !st.pager.contains(b) || b.disabled || st.pager.__owner !== el || !el.isConnected) return;
+      st.page = +b.getAttribute('data-p'); render(true);
+      var r = anchor.getBoundingClientRect();
+      if (r.top < 70) anchor.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    });
+    // lists re-drawn by the page (sorting, filters, live data) are re-paginated from page 1
+    new MutationObserver(function () { if (!st.busy) render(false); }).observe(el, { childList: true });
+    // if the page selects an item that sits on another page (e.g. a company opened from a link), show that page
+    new MutationObserver(function () {
+      if (st.busy) return;
+      var hidden = el.querySelector(':scope > .fl-pg-hide.sel, :scope > .fl-pg-hide[aria-selected="true"]');
+      if (hidden) render(false);
+    }).observe(el, { attributes: true, attributeFilter: ['class', 'aria-selected'], subtree: true });
+    render(false);
+  }
+  function scan() { PAGINATE.forEach(function (sel) { document.querySelectorAll(sel).forEach(paginate); }); }
+  scan();
+  // some lists appear only after their data loads, or when a table is first drawn
+  var queued = false;
+  new MutationObserver(function () {
+    if (queued) return; queued = true;
+    setTimeout(function () { queued = false; scan(); }, 250);
+  }).observe(document.body, { childList: true, subtree: true });
 })();
