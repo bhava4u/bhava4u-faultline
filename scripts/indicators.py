@@ -159,7 +159,7 @@ def gdelt(code, c):
     for mode in ("TimelineVolRaw", "TimelineTone"):
         url = GDELT + urllib.parse.urlencode({"query": q, "mode": mode, "format": "json", "timespan": "31d"})
         try:
-            raw = get(url, timeout=60).decode("utf-8", "replace")
+            raw = get(url, timeout=25).decode("utf-8", "replace")
             j = json.loads(raw)
             data = j["timeline"][0]["data"]
             out[mode] = [(d["date"][:8], float(d["value"])) for d in data]
@@ -272,12 +272,26 @@ def main():
     uk = run("uk", uk_advice, C)
     hz = run("gdacs", gdacs, C)
     of = run("ofac", ofac_new, C)
-    news = {}
-    for code, c in C.items():
+    # GDELT is slow and rate-limited, so it gets a fixed time budget each run.
+    # Countries are visited in rotation, so ones skipped this run go first next run;
+    # skipped countries keep their last good values. Repeated failures stop GDELT early.
+    news, budget, fails = {}, time.time() + 22 * 60, 0
+    order = sorted(C, key=lambda k: state.get("gdelt_done", {}).get(k, ""))
+    for code in order:
+        if time.time() > budget or fails >= 8:
+            log("GDELT: stopping early (time budget or repeated failures); the rest keep previous values")
+            break
         try:
-            news[code] = gdelt(code, c)
+            r = gdelt(code, C[code])
+            news[code] = r
+            if r.get("ratio") is not None or r.get("tone7") is not None:
+                fails = 0
+                state.setdefault("gdelt_done", {})[code] = NOW.strftime("%Y-%m-%dT%H:%M")
+            else:
+                fails += 1
         except Exception as e:
-            log("GDELT", c["name"], e)
+            fails += 1
+            log("GDELT", C[code]["name"], e)
     status["gdelt"] = f"ok for {sum(1 for v in news.values() if v.get('ratio') is not None or v.get('tone7') is not None)} countries"
 
     alerts = [a for a in old.get("alerts", []) if a.get("date", "") >= (TODAY - dt.timedelta(days=60)).isoformat()]
