@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T14:33+00:00",
+ "updated": "2026-11-20T14:50+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
   "gdacs": "ok",
   "ofac": "ok",
-  "gdelt": "ok for 4 countries"
+  "gdelt": "ok for 8 countries"
  },
  "method": {
   "weights": {
@@ -36,9 +36,7 @@
    "news": null,
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "104": {
    "us": {
@@ -56,9 +54,12 @@
     "new30": 2,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
-   "news": null,
-   "score": 70,
-   "band": 4,
+   "news": {
+    "tone7": -1.4,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Myanmar+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29+sourcelang%3Aenglish&mode=ArtList&timespan=7d"
+   },
+   "score": 46,
+   "band": 3,
    "watch": []
   },
   "112": {
@@ -173,8 +174,39 @@
     "new30": 11,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
-   "news": null,
-   "score": 30,
+   "news": {
+    "v7": 14.9,
+    "base": 59.7,
+    "ratio": 0.25,
+    "series": [
+     186,
+     185,
+     126,
+     126,
+     69,
+     18,
+     3,
+     5,
+     5,
+     4,
+     51,
+     48,
+     42,
+     39,
+     24,
+     24,
+     42,
+     6,
+     7,
+     3,
+     8,
+     13,
+     25,
+     59
+    ],
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=China+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29+sourcelang%3Aenglish&mode=ArtList&timespan=7d"
+   },
+   "score": 26,
    "band": 2,
    "watch": [
     "11 new US sanctions designations in 30 days"
@@ -202,9 +234,7 @@
    },
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is High, so it is due for review"
-   ]
+   "watch": []
   },
   "170": {
    "us": {
@@ -222,9 +252,12 @@
     "new30": 0,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
-   "news": null,
-   "score": 46,
-   "band": 3,
+   "news": {
+    "tone7": -1.53,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Colombia+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29+sourcelang%3Aenglish&mode=ArtList&timespan=7d"
+   },
+   "score": 31,
+   "band": 2,
    "watch": []
   },
   "180": {
@@ -249,9 +282,7 @@
    },
    "score": 45,
    "band": 3,
-   "watch": [
-    "Data score points to Elevated; the analyst grade is Severe, so it is due for review"
-   ]
+   "watch": []
   },
   "192": {
    "us": {
@@ -272,9 +303,7 @@
    "news": null,
    "score": 28,
    "band": 2,
-   "watch": [
-    "Data score points to Guarded; the analyst grade is High, so it is due for review"
-   ]
+   "watch": []
   },
   "218": {
    "us": {
@@ -292,12 +321,13 @@
     "new30": 0,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
-   "news": null,
-   "score": 23,
-   "band": 2,
-   "watch": [
-    "Data score points to Guarded; the analyst grade is High, so it is due for review"
-   ]
+   "news": {
+    "tone7": -1.36,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Ecuador+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29+sourcelang%3Aenglish&mode=ArtList&timespan=7d"
+   },
+   "score": 16,
+   "band": 1,
+   "watch": []
   },
   "231": {
    "us": {
@@ -350,9 +380,7 @@
    },
    "score": 30,
    "band": 2,
-   "watch": [
-    "Data score points to Guarded; the analyst grade is High, so it is due for review"
-   ]
+   "watch": []
   },
   "250": {
    "us": {
@@ -394,9 +422,7 @@
    "news": null,
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "275": {
    "us": {
@@ -432,8 +458,39 @@
     "new30": 1,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
-   "news": null,
-   "score": 24,
+   "news": {
+    "v7": 10.1,
+    "base": 55.9,
+    "ratio": 0.18,
+    "series": [
+     194,
+     89,
+     69,
+     98,
+     20,
+     5,
+     0,
+     6,
+     2,
+     2,
+     68,
+     58,
+     178,
+     27,
+     53,
+     25,
+     17,
+     21,
+     3,
+     3,
+     1,
+     10,
+     16,
+     15
+    ],
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Germany+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29+sourcelang%3Aenglish&mode=ArtList&timespan=7d"
+   },
+   "score": 21,
    "band": 2,
    "watch": []
   },
@@ -450,9 +507,41 @@
     "new30": 0,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
-   "news": null,
-   "score": 23,
-   "band": 2,
+   "news": {
+    "v7": 0.3,
+    "base": 2.4,
+    "ratio": null,
+    "series": [
+     5,
+     11,
+     3,
+     2,
+     6,
+     1,
+     0,
+     0,
+     0,
+     0,
+     4,
+     4,
+     0,
+     0,
+     2,
+     1,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2
+    ],
+    "tone7": -0.35,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Greenland+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29+sourcelang%3Aenglish&mode=ArtList&timespan=7d"
+   },
+   "score": 15,
+   "band": 1,
    "watch": []
   },
   "332": {
@@ -471,9 +560,12 @@
     "new30": 0,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
-   "news": null,
-   "score": 69,
-   "band": 4,
+   "news": {
+    "tone7": -1.77,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Haiti+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29+sourcelang%3Aenglish&mode=ArtList&timespan=7d"
+   },
+   "score": 46,
+   "band": 3,
    "watch": []
   },
   "356": {
@@ -515,9 +607,40 @@
     "new30": 0,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
-   "news": null,
-   "score": 23,
-   "band": 2,
+   "news": {
+    "v7": 2.6,
+    "base": 10.4,
+    "ratio": 0.25,
+    "series": [
+     81,
+     34,
+     10,
+     11,
+     3,
+     2,
+     0,
+     0,
+     0,
+     1,
+     11,
+     1,
+     1,
+     3,
+     6,
+     3,
+     9,
+     4,
+     1,
+     0,
+     2,
+     1,
+     1,
+     0
+    ],
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Indonesia+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29+sourcelang%3Aenglish&mode=ArtList&timespan=7d"
+   },
+   "score": 17,
+   "band": 1,
    "watch": []
   },
   "364": {
@@ -602,9 +725,7 @@
    "news": null,
    "score": 1,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "400": {
    "us": {
@@ -956,9 +1077,7 @@
    "news": null,
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "634": {
    "us": {
@@ -1000,9 +1119,7 @@
    "news": null,
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "643": {
    "us": {
@@ -1791,9 +1908,7 @@
    "news": null,
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "428": {
    "us": {
@@ -1814,9 +1929,7 @@
    "news": null,
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "233": {
    "us": {
@@ -1837,9 +1950,7 @@
    "news": null,
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "051": {
    "us": {
@@ -1965,9 +2076,7 @@
    "news": null,
    "score": 0,
    "band": 1,
-   "watch": [
-    "Data score points to Low; the analyst grade is Elevated, so it is due for review"
-   ]
+   "watch": []
   },
   "704": {
    "us": {
@@ -2177,9 +2286,7 @@
    "news": null,
    "score": 23,
    "band": 2,
-   "watch": [
-    "Data score points to Guarded; the analyst grade is High, so it is due for review"
-   ]
+   "watch": []
   },
   "834": {
    "us": {
