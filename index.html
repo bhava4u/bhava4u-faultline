@@ -1040,5 +1040,77 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   if(location.hash.length>1) openFromHash();
 }).catch(()=>{document.getElementById("briefBody").innerHTML="<div class=\"empty\"><h2>Data didn’t load</h2><p>The risk data file is missing or unreadable. Check that data/risk.json is in the repository and try again.</p></div>";});
 </script>
+<script>
+/* Homepage views: each menu item shows only its own sections instead of one long page.
+   To move a section between views, edit VIEWS (values are section ids). */
+(function(){
+  var VIEWS = {
+    map:     ['map','watch','soon','method'],
+    mine:    ['mine'],
+    compare: ['compare','trend','all'],
+    log:     ['log'],
+    contact: ['about','contact']
+  };
+  var ELSEWHERE = { themes: '/themes/', insights: '/insights/' };   // previews that have their own pages
+  var main = document.querySelector('main'); if(!main) return;
+  var sections = Array.prototype.filter.call(main.children, function(e){ return e.tagName==='SECTION' && e.id; });
+  var owner = {}; Object.keys(VIEWS).forEach(function(v){ VIEWS[v].forEach(function(id){ owner[id]=v; }); });
+  // show each view's sections in the order listed in VIEWS
+  Object.keys(VIEWS).forEach(function(v){
+    var els = VIEWS[v].map(function(id){ return document.getElementById(id); }).filter(Boolean);
+    for(var i=1;i<els.length;i++){ if(els[i].parentNode===main && els[i-1].parentNode===main) els[i-1].after(els[i]); }
+  });
+  var css = document.createElement('style');
+  // hidden sections keep their width so charts and the globe still measure correctly
+  css.textContent = 'main>section.fl-off{height:0!important;min-height:0!important;overflow:hidden!important;visibility:hidden!important;padding:0!important;margin:0!important;border:0!important}';
+  document.head.appendChild(css);
+  var current = null;
+  function viewFor(hash){
+    if(VIEWS[hash]) return hash;
+    if(owner[hash]) return owner[hash];
+    if(hash==='team') return current || 'map';     // footer
+    return 'map';                                   // empty, or a country / chokepoint link
+  }
+  function mark(v){
+    document.querySelectorAll('header a[href^="/#"]').forEach(function(a){
+      var on = a.getAttribute('href') === '/#'+v;
+      if(on) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+    });
+  }
+  function show(v, top){
+    if(v === current) return;
+    var was = current; current = v;
+    sections.forEach(function(s){ s.classList.toggle('fl-off', owner[s.id] !== v); });
+    mark(v);
+    if(top) window.scrollTo(0,0);
+    if(v==='map' && was) requestAnimationFrame(function(){ window.dispatchEvent(new Event('resize')); });
+  }
+  function route(){
+    var hash = decodeURIComponent(location.hash.slice(1));
+    if(ELSEWHERE[hash]){ location.href = ELSEWHERE[hash]; return; }
+    var v = viewFor(hash);
+    var sectionLink = VIEWS[hash] || owner[hash];
+    show(v, !!VIEWS[hash] || !hash);
+    if(sectionLink && !VIEWS[hash]){ var el=document.getElementById(hash); if(el) el.scrollIntoView(); }
+  }
+  // anything on the page that scrolls to a hidden section (e.g. opening a country from a table) switches view first
+  var orig = Element.prototype.scrollIntoView;
+  Element.prototype.scrollIntoView = function(o){
+    var sec = this.closest && this.closest('main > section');
+    if(sec && sec.classList.contains('fl-off') && owner[sec.id]) show(owner[sec.id], false);
+    return orig.call(this, o);
+  };
+  window.addEventListener('hashchange', route);
+  // clicking the menu item for the view you are already on: back to its top
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="/#"],a[href^="#"]'); if(!a) return;
+    var hash = a.getAttribute('href').replace(/^\/?#/,'');
+    if(VIEWS[hash] && ('#'+hash)===location.hash){ e.preventDefault(); show(hash,true); window.scrollTo(0,0); }
+  });
+  route();
+  // the shared menu loads just after this; re-apply the highlight once it has built its links
+  document.addEventListener('DOMContentLoaded', function(){ mark(current); });
+})();
+</script>
 </body>
 </html>
