@@ -1,5 +1,6 @@
-/* Faultline site menu: ONE shared file for every page, desktop and mobile.
-   To add, remove or rename a section, edit LINKS below; every page updates. */
+/* Faultline site header and footer: ONE shared file for every page.
+   Menu: edit LINKS. Footer (who we are, email, LinkedIn): edit TEAM and EMAIL.
+   Every page updates automatically. */
 (function () {
   var LINKS = [
     ['Risk map', '/#map'],
@@ -10,7 +11,6 @@
     ['Themes', '/themes/'],
     ['Insights', '/insights/'],
     ['Change log', '/#log'],
-    ['Who we are', '/#team'],
     ['Contact', '/#contact']
   ];
   var BP = 1340; // below this width the links fold into the Menu button
@@ -93,4 +93,84 @@
   menu.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
   document.addEventListener('click', function (e) { if (!header.contains(e.target)) setOpen(false); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && menu.classList.contains('open')) { setOpen(false); btn.focus(); } });
+
+  // ---------------------------------------------------------------- footer
+  var EMAIL = 'admin@faultlinerisk.com';
+  var TEAM = [
+    { name: 'Bhava Narayanan A S', role: 'Founder & Lead Analyst, Geopolitical Risk', place: 'London',
+      photo: '/bhava.jpg', linkedin: 'https://www.linkedin.com/in/bhava-narayanan-a-s', email: 'bhava@faultlinerisk.com' },
+    { name: 'Sabari C S', role: 'Co-Founder & Lead Analyst, Data Science', place: 'Brisbane',
+      initials: 'SC', linkedin: 'https://www.linkedin.com/in/sabarics/', email: 'sabari@faultlinerisk.com' }
+  ];
+  var ICON_IN = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="4" fill="currentColor"/><path d="M7.1 9.6h2.6V18H7.1zM8.4 5.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zM11.3 9.6h2.5v1.2c.4-.7 1.3-1.4 2.6-1.4 2.7 0 3.2 1.8 3.2 4.1V18H17v-4c0-1 0-2.2-1.4-2.2s-1.6 1-1.6 2.1V18h-2.6z" fill="var(--fl-ico-bg)"/></svg>';
+  var ICON_MAIL = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="4" fill="currentColor"/><path d="M5.5 8h13v8.5h-13z" fill="none" stroke="var(--fl-ico-bg)" stroke-width="1.6"/><path d="M5.8 8.4l6.2 4.6 6.2-4.6" fill="none" stroke="var(--fl-ico-bg)" stroke-width="1.6" stroke-linejoin="round"/></svg>';
+  function esc(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+
+  var fcss = document.createElement('style');
+  fcss.textContent =
+    '.fl-footer{--fl-ico-bg:var(--bg,#EDEFEA);border-top:1px solid var(--rule,#C9D0CC);background:var(--surface,#F7F8F4);color:var(--muted,#56656A);font:400 14px/1.55 "Public Sans",system-ui,sans-serif;margin-top:0;padding:0}' +
+    '.fl-footer *{box-sizing:border-box}' +
+    '.fl-foot-in{max-width:1320px;margin:0 auto;padding:36px 24px 22px}' +
+    '.fl-foot-grid{display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,2.2fr) minmax(200px,1fr);gap:32px 40px}' +
+    '.fl-footer h2{margin:0 0 12px;font:600 13px "Public Sans",system-ui,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--muted,#56656A)}' +
+    '.fl-foot-brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink,#1D282C);font:700 22px Spectral,Georgia,serif}' +
+    '.fl-foot-brand svg{width:26px;height:26px}' +
+    '.fl-foot-about p{margin:10px 0 0;max-width:34ch}' +
+    '.fl-team{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 28px}' +
+    '.fl-person{display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:start}' +
+    '.fl-av{width:48px;height:48px;border-radius:50%;object-fit:cover;background:var(--bg,#EDEFEA);display:flex;align-items:center;justify-content:center;font:600 15px "Public Sans",sans-serif;color:var(--ink,#1D282C)}' +
+    '.fl-person h3{margin:0;font:600 15px "Public Sans",system-ui,sans-serif;color:var(--ink,#1D282C)}' +
+    '.fl-person p{margin:2px 0 0;font-size:13.5px}' +
+    '.fl-icons{display:flex;gap:8px;margin-top:8px}' +
+    '.fl-icons a{display:inline-flex;width:30px;height:30px;color:var(--ink,#1D282C);border-radius:5px;transition:transform .12s}' +
+    '.fl-icons a:hover{transform:translateY(-1px);color:var(--l4,#C55D36)}' +
+    '.fl-icons a:focus-visible{outline:2px solid var(--focus,#1F5E8C);outline-offset:2px}' +
+    '.fl-icons svg{width:100%;height:100%}' +
+    '.fl-contact p{margin:0 0 10px}' +
+    '.fl-icons-lg a{width:38px;height:38px}' +
+    '.fl-contact .fl-big{display:inline-flex;align-items:center;gap:10px;color:var(--ink,#1D282C);text-decoration:none;font-weight:600}' +
+    '.fl-contact .fl-big span:last-child{text-decoration:underline;text-underline-offset:3px}' +
+    '.fl-contact .fl-big .fl-icons a{margin:0}' +
+    '.fl-foot-note{margin-top:28px;padding-top:16px;border-top:1px solid var(--rule,#C9D0CC);display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;font-size:12.5px}' +
+    '.fl-foot-note>*{margin:0}' +
+    '@media (max-width:900px){.fl-foot-grid{grid-template-columns:1fr}.fl-team{grid-template-columns:1fr}}';
+  document.head.appendChild(fcss);
+
+  var year = new Date().getFullYear();
+  var logo = '<svg viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 6 L12 12 L10 15 L16 20 L19 24" fill="none" stroke="var(--l4,#C55D36)" stroke-width="2" stroke-linejoin="round"/></svg>';
+  var people = TEAM.map(function (t) {
+    var av = t.photo ? '<img class="fl-av" src="' + t.photo + '" width="48" height="48" alt="' + esc(t.name) + '" loading="lazy">'
+                     : '<div class="fl-av" aria-hidden="true">' + esc(t.initials) + '</div>';
+    return '<div class="fl-person">' + av + '<div><h3>' + esc(t.name) + '</h3><p>' + esc(t.role) + '</p><p>' + esc(t.place) + '</p>' +
+      '<div class="fl-icons">' +
+      '<a href="' + t.linkedin + '" target="_blank" rel="noopener" aria-label="' + esc(t.name) + ' on LinkedIn" title="LinkedIn">' + ICON_IN + '</a>' +
+      '<a href="mailto:' + t.email + '" aria-label="Email ' + esc(t.name) + '" title="' + t.email + '">' + ICON_MAIL + '</a>' +
+      '</div></div></div>';
+  }).join('');
+
+  var html =
+    '<div class="fl-foot-in"><div class="fl-foot-grid">' +
+      '<div class="fl-foot-about"><a class="fl-foot-brand" href="/">' + logo + 'Faultline</a>' +
+      '<p>Geopolitical, maritime and supply-chain risk, from open-source research and live data.</p></div>' +
+      '<div><h2>Who we are</h2><div class="fl-team">' + people + '</div></div>' +
+      '<div class="fl-contact"><h2>Contact</h2>' +
+      '<p>Request a country brief or send feedback on an assessment.</p>' +
+      '<div class="fl-icons fl-icons-lg"><a href="mailto:' + EMAIL + '" aria-label="Email Faultline at ' + EMAIL + '" title="' + EMAIL + '">' + ICON_MAIL + '</a></div></div>' +
+    '</div><div class="fl-foot-note"></div></div>';
+
+  var old = document.querySelector('footer');
+  var foot = document.createElement('footer');
+  foot.className = 'fl-footer';
+  foot.id = 'team';
+  foot.innerHTML = html;
+  var note = foot.querySelector('.fl-foot-note');
+  if (old) {
+    // keep this page's own disclaimer (and live elements such as the assessed date) as the footer note
+    var keep = old.querySelector('.fl-foot-note') || old.querySelector('.band-in') || old.firstElementChild || old;
+    while (keep.firstChild) note.appendChild(keep.firstChild);
+    old.parentNode.replaceChild(foot, old);
+  } else {
+    document.body.appendChild(foot);
+  }
+  note.insertAdjacentHTML('beforeend', '<span>© ' + year + ' Faultline · faultlinerisk.com</span>');
 })();
