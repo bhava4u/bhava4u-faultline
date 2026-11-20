@@ -17,9 +17,9 @@
      "Ships carrying Ukrainian grain have been sunk, raising freight and insurance costs."
     ],
     [
-     "Political instability",
+     "Political transition",
      2,
-     "Frequent elections and fragile coalitions slow decision-making."
+     "President Iotova said on 20 November she does not believe Russia is trying to draw Bulgaria into the war, as Black Sea shipping incidents continue near its coast."
     ]
    ],
    "r": "Europe",
@@ -46,17 +46,27 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "BNR: President Iotova does not believe Russia is trying to draw Bulgaria into the war (20 Nov)",
+     "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUwzMkNGSjZVRG9uWFY2amxOcHEtWlJKak5yTVRXY2o0YzY2U0I0d1VsYkVPZXByalNMUGctZEdTajRJUmZJU3h6dmRUcGdGN3QzU1JyR1FmZE5tMzRicnMzcUlMLXZZeVp5NE5QbE94V0tPMTdYT0N6ZXg1UFlhRVMwQkVRZFJHZW5aZjVmamYtXzNPbXB4T25MbTUwRktEdUltQ2ZURHV6N1ZQVHdiWDVZVkg?oc=5"
+    ],
+    [
+     "Shipping Telegraph: Black Sea: Stealth crew airlifted from stricken LPG carrier (20 Nov)",
+     "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNmphZi1sSWhRQUh4N0FsRkdvTFVqVUt5dWpRUUdnUE1uZEp3WGtfYXVDeXRlbjgtdDJCbDB3a0RnaVdBNFIzdjlEbVZzVDlrblQwY096ZFhZcUdoNVdpMzBLRjl4dktpZzEya2JqZEo4MUdEbHNjTll2NWhIQmZKWGpYM2k0ck5lcmNNdHFpRmh1S2tGZ0JISkVoNGZrM21QTDJRQ21mZWNlZ0hNVVFDcHV3?oc=5"
+    ]
+   ]
   },
   "104": {
    "n": "Myanmar",
    "l": 5,
-   "s": "Civil war continues after a military-run election.",
+   "s": "Civil war continues, and on 19 November the International Court of Justice ruled that Myanmar committed genocide against the Rohingya.",
    "i": [
     [
-     "Civil war",
+     "ICJ genocide ruling",
      5,
-     "Resistance forces and ethnic armed groups still contest large areas."
+     "The ICJ ruled 9–6 on 19 November that the 2017 military operations in Rakhine were genocide, ordering reparations; Myanmar and China rejected the ruling."
     ],
     [
      "Military-led government",
@@ -79,12 +89,20 @@
    ],
    "src": [
     [
-     "Wikipedia: 2026 in Asia",
-     "https://en.wikipedia.org/wiki/2026_in_Asia"
+     "Outlook India: ICJ Rohingya genocide verdict explained (19 Nov)",
+     "https://www.outlookindia.com/international/myanmar-rohingya-genocide-icj-verdict-israel-gaza-russia-ukraine-cases"
     ],
     [
-     "Wikipedia: Foreign involvement in the Myanmar civil war",
-     "https://en.wikipedia.org/wiki/Foreign_involvement_in_the_Myanmar_civil_war_(2021%E2%80%93present)"
+     "Al Jazeera: World reacts to ICJ finding Myanmar guilty of genocide (19 Nov)",
+     "https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya"
+    ],
+    [
+     "Al Jazeera: Myanmar, China object to landmark ICJ ruling on Rohingya genocide (20 Nov)",
+     "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSF92eVhYSUFJdkFyNG9yVnlEUWhQSEQzWkxMcTIxWFZoMXgycW9mQU5uVG0xcF9RMXZkdzhpeGhqZHNESTBSbEJNOHgzYU5lNW5Zd2tMTVotX3J1aHEyX2pJUV9xc3lJeFNXa2s5U1d5bzFtUHNkVGtOTzZ0dzMtdnNQOVU3ekFVUlN6SVJHejdwc0o0X2V30gGcAUFVX3lxTE5RM1NvV1AzdzBpSF95NG9nNXBIWTRtdlNxSjhKWGs3T2EtQUViZklIOVduWlYxZ0phVjZPMTRXbTVVVGJSLWxiSGhhdVZVR1JubUFXa1I4R3h2d2JzYy1URkNHcVlDMk95alNqYkZyVmQtaUxJRTVoUmRZZ21mRTBpZzRUX3FyeThobEUyODlyblZZVElaUk96YmZSTA?oc=5"
+    ],
+    [
+     "Wikipedia: 2026 in Asia",
+     "https://en.wikipedia.org/wiki/2026_in_Asia"
     ]
    ],
    "e": {
@@ -125,9 +143,9 @@
      "Western sanctions restrict trade, finance and transport links."
     ],
     [
-     "Border tensions",
+     "Sanctions pressure",
      3,
-     "Migration pressure and incidents with Poland and Lithuania keep borders tense."
+     "Moldova plans to align fully with EU sanctions, tightening the squeeze on Belarusian trade routes."
     ]
    ],
    "r": "Russia & Eurasia",
@@ -159,7 +177,13 @@
       "https://ofac.treasury.gov/sanctions-programs-and-country-information/belarus-sanctions"
      ]
     ]
-   }
+   },
+   "src": [
+    [
+     "Belsat: Moldova plans to fully join EU sanctions: What is at stake for Belarus? (20 Nov)",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTEVBS1Bad2lfWEtQM19IektQTDJnaFVFTW5aQ3FKMTZHSm8xQlpMSGs5RmZRR1FSbjhfY0FoMjRtQUJUNmFvaEZCRXFWdHhBZjg3a3UxVXhBc0xIM1pTdTNBMVlKUkItWE9oanJocWJoejBFMlFNRGx2Z2kyWGVzdzFNemZMTGt6c2hvdkttWDJMTFpjXzIwQ3dJUWFDbVBC?oc=5"
+    ]
+   ]
   },
   "124": {
    "n": "Canada",
@@ -230,9 +254,9 @@
      "Power is concentrated around President Mahamat Déby."
     ],
     [
-     "Insurgency around Lake Chad",
+     "Security partnerships",
      3,
-     "Jihadist groups remain active in the west."
+     "Chad and France resumed joint military exercises, and a Saudi-led coalition opened a second year of Sahel counter-terrorism training in Chad."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -258,7 +282,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "APA News: Chad, France resume joint military exercises (19 Nov)",
+     "https://news.google.com/rss/articles/CBMickFVX3lxTFA2VU10blA3aWRlNTRpc3Z4YjR5NVV0NGJQcXNaNFlhQndubzVuNmlYV3N2U3dLSDcyX2JudUlMbDNOSUJXM2NveWs2bEtiUlUxLXlFcldWeUduOGswaTJ0YWFFR0syN280emN1ZG1ieFpjZw?oc=5"
+    ],
+    [
+     "INDiplomacy: IMCTC Launches Second Year of Sahel Counter-Terrorism Training Programme in Chad (20 Nov)",
+     "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeE1zUmNiWi1MV1dtZU9ncjh1QW50QTlUNXpGdFNnSVBDSE5LY2l5Sk96RnkwVVR0VkVmU0tiUEM4T0ZEcUl2YmRheDNJLWZta3NtQ0RibldCSDJkRWNCeVlkNFVvQzZCR0QzZk9nRWw3SlVIUGtKN2pLOU9rM1p6cDJIV19oMTZ0eGJNc0wwa0IyLU9HUmFJU0w3Tjd4NElBVG1PazlxWGhKNVppMUxkRDhhNEVRcEU?oc=5"
+    ]
+   ]
   },
   "156": {
    "n": "China",
@@ -420,9 +454,9 @@
      "The government’s militarised approach, including the ‘Esparta’ campaign in Cúcuta, risks retaliation along key transport routes."
     ],
     [
-     "Fiscal deficit",
-     3,
-     "A rising deficit requires decisive action from the new government."
+     "Protests and US relations",
+     4,
+     "Thousands protested the government’s tax plans on 20 November amid a row over the US military role, after Colombia rejected a joint plan with the US to target drug gangs."
     ]
    ],
    "r": "Americas",
@@ -434,6 +468,14 @@
     ]
    ],
    "src": [
+    [
+     "Al Jazeera: Thousands protest Colombia’s tax plans amid row over US military role (20 Nov)",
+     "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWEtkVEVlSlJMM240ak54dmE1aFhya0hJUHFiS0NWdEZUMldJLXV5Mkt4aUlLQzd6TDQ0dTR6b2RjLXFPMGlGN2lzNjRVM0tTaHI4S25PVnJCVzVwRDRFdnR6bm9OX3ZWaDNVM1NJQzF0anl1elEyLVlnRThKdXVtZUxBSlcxQm5jX1doY3JHQ2pHUHQ0UU1CWlNRM1BIWWppeWg3bzR6ZzU5MkJteVg0YVNvMTHSAbQBQVVfeXFMTVhLZFRFZUpSTDNuNGpOeHZhNWhYcmtISVBxYktDVnRGVDJXSS11eTJLeGlJS0M3ekw0NHU0em9kYy1xTzBpRjdpczY0VTNLU2hyOEtuT1ZyQlc1cEQ0RXZ0em5vTl92VmgzVTNTSUMxdGp5dXpRMi1ZZ0U4SnV1bWVMQUpXMUJuY19XaGNyR0NqR1B0NFFNQlpTUTNQSFlqaXloN280emc1OTJCbXlYNGFTbzEx?oc=5"
+    ],
+    [
+     "The New York Times: Colombia Rejects Joint Plan With U.S. to Target Drug Gangs (18 Nov)",
+     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMnNkaGhTRmNHOWx1Vm9xa2pobVgzNTBxNEVyX0tjaDFfM29WWmt4QUIzRkF3U2NnT1lHVmdkSjgxTEFnU1RLTHdpLXpaTHIxLUpXTjkzbWlyQXR1WlN3cE5vY1E2LTVNNTJTTzAwOEVvcXF6WmJ5cEVfRnJVYVdXdGxHTlZ1empZ?oc=5"
+    ],
     [
      "ACLED: Latin America and the Caribbean analysis",
      "https://acleddata.com/region/latin-america-and-caribbean"
@@ -748,9 +790,9 @@
      "Moscow’s influence has grown as Western ties cooled."
     ],
     [
-     "EU accession frozen",
+     "Governing party under strain",
      3,
-     "Membership talks are suspended, and Western sanctions target officials."
+     "Support from the Georgian Orthodox Church for the government is slipping, and the Council of Europe says the security situation continues to affect human rights."
     ]
    ],
    "r": "Russia & Eurasia",
@@ -777,7 +819,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Eurasianet: Church support for Georgian government slipping (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JcV8yWmdQdUU4clBmRGV1UmJaQzVIRmFETjVkS0l1YlRYSjM3QWVDMlI5am9oSFFsRk9QUTdnRkJiNmFvcTNGSUh4akdZQ29iM1BOVWNBSDVSYXNNTEpiamlTb1c0SlVmNTYtODhsUUtFdXBQclRLOUtB?oc=5"
+    ],
+    [
+     "Council of Europe: Conflict in Georgia fragile security environment continued to directly impact the human-ri (20 Nov)",
+     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxON3ZOSTVQdmdLVUtFSVF2LXRBUERYYkZZZ1UxSV9JRktOM3ExVVh2YkhNTjlvbWhCb0h4TWRwRlExdkhuVUpqQi04cGFRdkJ1ZkpFOFM0b3dVdEs5blYwX2FRWlVmQXBKLW1zV2hlT0RzbHN1d1BRbTVJWTR6UjVKWXVmRXk2LWxwa1RNT2xHMnRhRDk0TUVHZWJUT1JOUzVqVmpEU1lMTXdJX085R1l5RlhaNU1JWVVCazdGalpYNXk3YUUtRDlMdk9UR2Zid3VkajVzcXlHOA?oc=5"
+    ]
+   ]
   },
   "275": {
    "n": "Palestinian territories",
@@ -886,9 +938,9 @@
    "s": "A focus of US strategic pressure in the Arctic.",
    "i": [
     [
-     "US pressure over its status",
+     "US security deal",
      3,
-     "Washington’s push for control strains ties with Denmark."
+     "Denmark’s parliament approved a security agreement with Greenland and the United States on 19 November, settling the terms of the expanded US military role."
     ],
     [
      "Arctic militarisation",
@@ -912,7 +964,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Al Jazeera: Denmark parliament approves security deal with Greenland and US (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZWdUaE1QTVY0a3ZkVm5VOVkzeE5waS1COWFma201Z2N4aGhIQ0V0RDhFckw4a3hKbUQ3TlZBa1FMM25Sb0RYOXZBTjkzUDJ6Z2FOdXFBQWFqdFY4dUx3cWlndUVrNVVsM0lTOEdwNXRpWnhjVEkzdEFoWTNZZXZ2cnVVVVRYUjRsWGh5blZfM3dVS3E4T04tWE4yTGhHMDZfSENSTlduMk3SAa4BQVVfeXFMTzZEWDUyeUJrNmpIUWk1Y2dOT3NBcDQ1MDZlckVEb083cUtmc1RreDM1Q3gwOW9FeGZ0bF9oa2UwOUxNUGlacUlzNTRJSURFZXFsRVl6bk5uektmM05HWFM4ZG1HSll2UGRDYV9zYkhNS1M4Sjg2blhTenAwNVhQR0U0NkpQSlZpeXVmX09BbFk2YXBBYmtVOGFmNU92bnVsc0JZY2syVzBZY0VrSjZB?oc=5"
+    ]
+   ]
   },
   "332": {
    "n": "Haiti",
@@ -1478,9 +1536,9 @@
      "Testing and production continue with few constraints."
     ],
     [
-     "Sanctions and isolation",
-     3,
-     "Sanctions enforcement has weakened as UN monitoring lapsed."
+     "Sanctions and Russia ties",
+     4,
+     "The EU set up a new sanctions office targeting Russia and North Korea on 19 November, as North Korean forces gain battlefield experience fighting for Russia."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -1499,7 +1557,17 @@
       "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions"
      ]
     ]
-   }
+   },
+   "src": [
+    [
+     "NK News: EU establishes new sanctions office targeting Russia, North Korea (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9kZThDb0pvQmo3MElqUkFBbEF3dW1ZR2ZXc2tGSFlpNGJ1XzJ5TjB1aEdRdS1vMGNPN1dzMUpEdzYzWDNaeW1j?oc=5"
+    ],
+    [
+     "ASPI The Strategist: Let’s see whether North Korea absorbs the experience it’s getting in Ukraine (20 Nov)",
+     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc2o5RGFtYWZaMjd0WDE0NEJTWWJJYVZ3eXZSNUxTd0VGd3dXN3V6ZXIwTnZNbEN1akh2N2cxRkV3MzlJTUZEd1pnTjBYWmlzRnoycFNNd1IwMmFGa1RUMVdxaWRTa1EyQy1KYU5zWGh4SDRPM0VoNzFqMkM1X041bm44dFdIYVFReThJdW1HcWo4aGs2andEdEZpV25BNzBSMUpsaVlndzBPenEzS2c?oc=5"
+    ]
+   ]
   },
   "410": {
    "n": "South Korea",
@@ -1731,9 +1799,9 @@
      "JNIM declared a blockade of Bamako in April and, alongside the FLA, has launched coordinated offensives across the country. Western governments have told their nationals to leave."
     ],
     [
-     "Military rule",
-     4,
-     "The junta relies on Russia’s Africa Corps and has dissolved political parties."
+     "Russian Africa Corps escalation",
+     5,
+     "Air and drone strikes by the junta and Russia’s Africa Corps have more than doubled, with Lancet loitering munitions now deployed, according to an analysis reported on 19 November."
     ],
     [
      "Kidnapping of foreigners",
@@ -1750,6 +1818,10 @@
     ]
    ],
    "src": [
+    [
+     "The Moscow Times: Russia's Africa Corps Deploys New Drone in Mali as Strikes Increase, Analysis Says (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUWhTYXV6NGNCYXJqQVc0c2VRQW5VZ2tJeHp6aEVENWdPdjBYckRkbWlmcXFvNGlQdUlPSmdsSy1tcklJNDNNeHoybmRBaFVEckUxblVVYk5LV2ZZaldtUHQ5Z2kyOEpuYjdQRTRwWlBoRnNrU2JzWWlEclhaaXE5M0I1Mm5lRUc5WEVEX0JvZVpSMTltcTBVbVB3dzl3c1JzMlJ1V01LMndmZUpkd0JTTUFHc3h1UWZMVjRsckFhNGxpU1pQRHR5aA?oc=5"
+    ],
     [
      "Conflict Zone: Sahel conflict map 2026",
      "https://conflictzone.io/page/sahel-conflict-map-2026"
@@ -1793,9 +1865,9 @@
      "With US intelligence, Mexican forces arrested CJNG regional leader Rafael Álvarez, alias ‘R2’, on 8 November, raising the risk of cartel retaliation."
     ],
     [
-     "USMCA review and tariffs",
+     "Trade diplomacy",
      3,
-     "The 2026 trade review keeps North American supply chains uncertain."
+     "President Sheinbaum attended the APEC summit in China on 18–19 November, as Mexico balances US trade pressure with ties to Asia."
     ]
    ],
    "r": "Americas",
@@ -1807,6 +1879,10 @@
     ]
    ],
    "src": [
+    [
+     "South China Morning Post: Mexican president’s economy-class journey to Apec summit draws praise in China (20 Nov)",
+     "https://news.google.com/rss/articles/CBMizAFBVV95cUxORFFqVzRiM0pqWlBuMVdaWXVkZUMweldRdlZxX0UxYjdMM0I0d3pkbVFpN2FnM3JISURlSTh1Z3NLT0dfU1NqNUJVR0dTck1YMWZQVUxoUFlHNUhIYkRCbFdTZ09Ec2RETzNTOWFNMVhoOGFGSGE3SWxFWmxuVXNVUklMclg1ZHhpczJJT1AzazlDMnFvNDdqY01rUWlQNmdRTXY2alozUmZGQlpwUWYzR2QwT0wtZ3N4NF9WVWRqSFYyV0JtTEtrakd0VTDSAcwBQVVfeXFMTTVfeW1vY2xjejFSNUtKSFZ5WElIZmFNX2s3U3BudVhoT0dhdHdpaU5ENHRpaXVJWWxfckZtdG9MeFZHS0RHTm5SZ180QzZySVYyTDJhSkJ1R0t4b0ZSMWMtMXBvT1NvRDdLNUJySjE3TjBjUC1MN0FRc0l2QWZSWVVGRzVxZjdlMVRMLU1RNDc1YlNmeTRoZ2VGYjVSbmZYcWE3MVZlYVpTNUY4M1RPMDVCTFNrOUJmZ19PazhVQVMtU1FodjdGM3ZjTGts?oc=5"
+    ],
     [
      "Wikipedia: Current events, November 2026",
      "https://en.wikipedia.org/wiki/Portal:Current_events/November_2026"
@@ -1836,9 +1912,9 @@
    "s": "A frontline neighbour exposed to spillover and hybrid pressure.",
    "i": [
     [
-     "War spillover",
-     4,
-     "At least five Russian weapons, including missiles and drones, exploded on Moldovan territory in early October."
+     "Spillover from Ukraine",
+     3,
+     "A Russian drone entered Moldovan airspace during an overnight attack on Ukraine, and Moldova approved defence cooperation with Ukraine on drone detection."
     ],
     [
      "Hybrid interference",
@@ -1875,7 +1951,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "The New Voice of Ukraine: Russian drone enters Moldovan airspace during massive overnight attack on Ukraine (20 Nov)",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0ZCZTJ4ZEdsT1FvMnZVdTdmcXd2c0ZLbVh2RC1OcTNwZjAydEFUbXkzakc0SXRibnVVckFVaTMyOTNZbDFjUUtmdG9FOTZrM2NTNEQyLUNnSnRpSWEtanlzWHlDOWZhVTdmQm01Rks1bDFSb0ZrWDNWbjJwM3BXMFhTRWNyY3dEeENXYUZUb2E1OE9lRktLaGlYRHpWd9IBmgFBVV95cUxOVUl0anZqTi1DcG1zRTMwY19vUm9nWGFwdVZpMU9GbzNwYl9ZTkRqRHFZTkppRkVMNDBHOWVBa3RtZEppUXV0VFFDZ08wdVpXX2d6dzh2RXZHR24tQTVqUTMwb2JmWTVsYjNuYUZnQkEwU0NzN09QaVMzcmRVWVhVTWRJR25yMlN3bVZRWXNwQVA3YW5hMWlubkVn?oc=5"
+    ],
+    [
+     "Odessa Journal: Moldova Approves Defence Cooperation with Ukraine to Strengthen Drone Detection - Oj (20 Nov)",
+     "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd3p5Q0RHZ245dXJQUlBWM2VKaDlqMUFFMS0zREZDelhIaXZEMFdpMldjSkRrQlhSR0JRb2JZS3dSMHZzZ0pwS3dqR0kxN2ZrNEFjRFU4UXpXVnh3ZUNvSlVYTXlWYUJ5WkdBUXRka1JyRGk3WkRGb3hxRUgzZGtFaWp2SmRVTjlSSUVhWjRjUEg?oc=5"
+    ]
+   ]
   },
   "512": {
    "n": "Oman",
@@ -2001,9 +2087,9 @@
      "Washington has pressed Abuja over attacks on Christians."
     ],
     [
-     "Borrowing and reform",
+     "Economic reform",
      3,
-     "President Tinubu has asked the Senate to approve $7.7 billion in foreign borrowing to fund the 2026 deficit and support the naira."
+     "The government is urging lenders to expand credit to farming and small businesses, and the mines minister told investors on 19 November to process Nigeria’s minerals at home."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -2015,6 +2101,14 @@
     ]
    ],
    "src": [
+    [
+     "Reuters: Nigeria urges lenders to expand agriculture, small business finance (20 Nov)",
+     "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTUFuMmJEUk02VzJJWHBGRHVSVW1vdkJ1SDV4dXViSF8zbXVUUmhQQUo1cUVMeVBXUURPUUM5R2JodmhxeE9sUW5ITjItalR6Z0JMaTV4RUJISmtZb1h3OFBxZVBLWTF3Y3ZReEFscy1mdG1fOW55SmhsQlBVcWl3TVlBdzBScDRpNlJjLU9CdlpVb0RaSzNMZHJmSmlWSFZWajFIVTNSdHJINmQ2X1lqbGRB?oc=5"
+    ],
+    [
+     "Energy News Network: EXCLUSIVE: Alake tells investors to process Nigeria’s minerals at home (19 Nov)",
+     "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUWh0RFFLRU41WjRoXzIwcnBKZ1pocDNrLVBzMG4tcTVLckVaV1NJNFFpT2NuNGk0TWpwOXJaY2QwZUNCTHNsNkRVTU5VSHNITDAxcGRIWVItV3JDVjBwUG9RMDBTS0JUVC1qdTViTE5fVFdfaEo0R3o4YUFxckd5MEZzU0tUVmFvMWp0TVlCS3RjZERFSXV4R3NTT1M4TXRLbjJLMmZWWWRGNjRNblp6MzctUnlrQQ?oc=5"
+    ],
     [
      "allAfrica: All of Africa Today (5 Nov)",
      "https://allafrica.com/stories/202611050120.html"
@@ -2053,9 +2147,9 @@
      "After open war in February and a March truce, clashes continue. Fighting briefly shut the Torkham crossing in early November, and the US has offered to help ease tensions."
     ],
     [
-     "Tensions with India",
+     "Diplomacy with India",
      3,
-     "Any major attack in India risks another military exchange."
+     "A Pakistani minister is visiting India for an SCO meeting, the first such visit since the 2025 war, though no breakthrough is expected."
     ]
    ],
    "r": "South Asia",
@@ -2067,6 +2161,14 @@
     ]
    ],
    "src": [
+    [
+     "Al Jazeera: Pakistan minister visits India for first time since 2025 war (20 Nov)",
+     "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU3cxeG5EWFBBdXltOGNvckRTYW5hMi1NY0ZuOFZIZ1h2cnNhd1hnUUo3bXBLbU5jcmVnd0tjbC0xU0k5MWhDM2pzbG92dDVBTkpMeDhlWnBXOTdUVk1JMkxJanVxYV9WYnM3eFlhZEx1SFVnOWZlSlhDLUx3VkFiVGVFUmFnd2R3TW9RWWU1QTAxZTdGeDhrd19ZbEpxWEFYamp4a0hGRzdSUzFoUjZSbNIBtgFBVV95cUxNVlJtTzBEX2VGRkFtcWVTUnJXN0VGMWtzenkyQUtuTEtFY2ZZdk5jZDRyNXduc20tYmxGdEFWZDBuaXQ1czdoT05YQV9RR1FIVmVSaVpDR25nd3d0dFRoenNoSGtabW5EQWVlWTI3dHJZb293U0FJSU1DLXRTNVZydm1mbEtEMWhKb3ZXMzdrUWk5THNjNXpuVWpaVWcwSGcxV1A5Qk1FajBNbTRzeXNEUFUySk1Kdw?oc=5"
+    ],
+    [
+     "DW: Pakistan minister is set to make a rare visit to India for a SCO meeting, but no breakthro (20 Nov)",
+     "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUHQ3bFRheG5xN0I2X3ItWjNiZkUtajNpNmtXb0RjTFhmU0xIS3pKYUJNbmIwdVd3eFVvSjluMFI5cE9GdFdYQnFGZlZ0dGgzY0c2M2daMk94cTAzbXBSTm5BbFVvVVBlVUhaenJUbjZKVDFpZnFqdmhOV2NqTGNteS1teVg4YkRvRnNLYUtKYVRVZjFDOTBxa2l30gGaAUFVX3lxTE13aWxrUGpsVnl3NVV4cUxxcTFwcTdjWmxOUzlvTVRtSkRPX3ZOUVF6c0ZSc3k1RnY3TkdER0xGdnkxMzYxNm4xcGVpaWw1WnNMZkdlRzluZllyVE5CVkNIU3o2ZERzMVBteDhzZm9YcmNTZkZWbmZ6X0VGMGxXWlpEQzhkbmpmcDJpZHlRZFBLc0NEd1RoeWJiUWc?oc=5"
+    ],
     [
      "Asia News Network: Pakistan warns Afghanistan as clashes persist (2 Nov)",
      "https://asianews.network/pakistan-warns-kabul-of-unbearable-punishment-as-clashes-persist-along-border/"
@@ -2325,9 +2427,9 @@
      "The EU’s largest deficit forces unpopular tax and spending changes."
     ],
     [
-     "Political polarisation",
-     2,
-     "Nationalist parties remain strong after a disputed election cycle."
+     "Fiscal pressure",
+     3,
+     "The government is preparing its 2027 budget while the European Commission opened three new infringement procedures against Romania on 20 November."
     ]
    ],
    "r": "Europe",
@@ -2354,7 +2456,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "SeeNews: European Commission opens three new infringement procedures against Romania (20 Nov)",
+     "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3I4LWZfOUtHNVpITUV0RENlVWxvcHB1cFFiYkFGOG4wT1pwWG80bnJsNkcxcjZEaEkzMWRoclFEelJ5WklDNzN1a2JtbTRwUlJDS0VGeGhJLXR4WUotM3NSVzc3MGNPeGpIeGFKYlhvbUgtVERmTnplOHlFenZlbGx1YjhBd3ZERzFzWHY5WGtULTBKSmxVcnVLWk1SbW1QMWlFMXNfcE1sWWNk?oc=5"
+    ],
+    [
+     "The Romania Journal: Romania Nears 2027 Budget, Claims Stability for Businesses (20 Nov)",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxOeUtBUkE0OHdsZXFSVEd5Y2F5X0JUb2NVbzlNTFBaSkp2RGZ6WWpRY3VTTFIybEx6bGozVkdfbFZua3NwcXhTM25YVEM2QUtyUmNqVG9iVzE2eVlaNGhIakx5NHdwYmRmRGc3R2htbTduSUFYSDNSY05mOVRMaGZpcVpQdVN1YkVDRzlWd29zWTYxczk3d3FDc0k2NUdCdw?oc=5"
+    ]
+   ]
   },
   "643": {
    "n": "Russia",
@@ -2514,9 +2626,9 @@
      "Tensions in northern Kosovo can flare quickly, and a new government’s approach is not yet known."
     ],
     [
-     "Foreign policy reset",
+     "Post-protest politics",
      2,
-     "The EU has signalled new momentum for Serbia’s membership talks since the change of government."
+     "Parliament elected a new speaker from the student protest movement’s list on 19 November, a sign of the protests’ lasting political weight."
     ]
    ],
    "r": "Europe",
@@ -2532,6 +2644,10 @@
     ]
    ],
    "src": [
+    [
+     "Balkan Insight: ‘Dignity’ Promised as Serbia’s Parliament Elects New Speaker From Student List (19 Nov)",
+     "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemt5d01hajBNdDNsZndiVENpY0hsVXhXRWVhbXVOSVlISXJtbGx6Z1J3azlpVWZGZWVaZnYyaXpwazdQWjB2T18ycFdsQWxoc1ZHRHVPVkVlZE1pajcwZVNEdUlOZnZ0VHR0bEJwUUF5b0xYWEV6LVVfc1l3dUJjdUtCTzRxZE9hd04xdWVWY3VocWtrelJBWW9jZWVaQlJHNjZJUXNPbjllY3BZOXNRUHdMbm1LeXc?oc=5"
+    ],
     [
      "European Interest: EU provides new momentum for Serbia (7 Nov)",
      "https://www.europeaninterest.eu/moldova-hosts-high-level-platform-to-boost-digital-connectivity-in-europe-black-sea-south-caucasus-and-central-asia/"
@@ -2563,7 +2679,7 @@
   "706": {
    "n": "Somalia",
    "l": 4,
-   "s": "Insurgency and disputed politics around the Horn of Africa.",
+   "s": "Fighting al-Shabaab while a diplomatic crisis with the UAE escalates.",
    "i": [
     [
      "Al-Shabaab",
@@ -2576,9 +2692,9 @@
      "Disagreement over the electoral model strains federal–state relations."
     ],
     [
-     "Somaliland and foreign recognition",
-     3,
-     "Somalia rejected Israel’s appointment of an ambassador to Somaliland and its plans for an embassy there, calling them a violation of sovereignty."
+     "Rupture with the UAE",
+     4,
+     "Somalia expelled the UAE ambassador on 19 November, accusing Abu Dhabi of violating its sovereignty; the UAE condemned an “escalatory and hostile approach”."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -2590,6 +2706,14 @@
     ]
    ],
    "src": [
+    [
+     "Al Jazeera: Somalia expels UAE ambassador (19 Nov)",
+     "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty"
+    ],
+    [
+     "Horseed Media: UAE condemns Somalia’s “hostile approach” (20 Nov)",
+     "https://horseedmedia.net/uae-condemns-somalias-hostile-approach-after-expulsion-of-ambassador/427761/"
+    ],
     [
      "allAfrica: All of Africa Today (5 Nov)",
      "https://allafrica.com/stories/202611050120.html"
@@ -2685,9 +2809,9 @@
      "Exports through war-torn Sudan are repeatedly disrupted."
     ],
     [
-     "Humanitarian needs",
+     "Election on 22 December",
      4,
-     "Refugees from Sudan add pressure to an already stretched aid system."
+     "The first general election since independence is still set for 22 December, but domestic observers warn it could be delayed a fifth time for lack of funding and political will."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -2718,7 +2842,17 @@
       "https://ofac.treasury.gov/sanctions-programs-and-country-information/south-sudan-related-sanctions"
      ]
     ]
-   }
+   },
+   "src": [
+    [
+     "Radio Tamazuj: South Sudan at risk of another election delay",
+     "https://www.radiotamazuj.org/en/news/article/south-sudan-at-risk-of-another-election-delay-observers-warn"
+    ],
+    [
+     "Arab News: US deportees in South Sudan went hungry as guards pocketed money from relatives, families (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiywFBVV95cUxNV1ZhTXRUZzllRGxNVHJrN1FRZlBwODdJYjhaZUI0VkFGald3LTE1TFRXVjNDbFZCaC1kWWZHalVZNDVVN2JUYW44a0stbkZBWHE1ZDg2VDBkbV94bTBRNjAxWXU2N043TVhtbmhaOE5UTl9ndWVwSnhvcUZmSDJzTjJOM3loV2VxRks1RWlBV1A2NGRMZkxIc0xReFA4NE92SGpYSGVRVVlEaGlSOHIzeGppQ25pTDVMVzNBNFRMUXlXbUY5TmMyOWpaWQ?oc=5"
+    ]
+   ]
   },
   "729": {
    "n": "Sudan",
@@ -2736,9 +2870,9 @@
      "Famine conditions affect several regions, and aid access is blocked."
     ],
     [
-     "Regional spillover",
-     4,
-     "Sudan accuses Ethiopia of hosting RSF drone launch sites, and Ethiopia expelled six Sudanese diplomats on 4 November. Khartoum also accuses the UAE of backing the RSF."
+     "Drone war on civilians",
+     5,
+     "The UN human rights office warned on 20 November of mounting civilian suffering as the war enters a fourth year, and rights groups called for RSF drone strikes to be investigated as war crimes."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -2751,16 +2885,20 @@
    ],
    "src": [
     [
+     "OHCHR: Sudan: A fourth year of war brings mounting suffering for civilians (20 Nov)",
+     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2ExSVNMakNBM0UxaUJzOU1SQk9OWW9hcmRqWWpkc1NyRVJ1VmdkbDhCZ0hrREpDazNUeTd5Mm5tcTN1c1MtdEhYQTNrNjVwcGcxUVpFYTVzaG5haG1BcUxMYk5Xak5tNWdvUE1BQ0dfN1FNaUpkcGlNeWNPaUFzMTM5MjczamFCWV9XS1pnMkJWZFNUbDYyOGVFRGJndUk?oc=5"
+    ],
+    [
+     "Jurist: RSF drone strikes in Sudan must be investigated as war crimes, rights group says (20 Nov)",
+     "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTk1QbWFUekI4WjNqWmZ2RDM1aWZzMkNuRkxtb2M3a2JhdWhEa1ZzR2YyS202emNzVnRHUjN6SkxhckExTXMwakM2dy1YS1VsNkQxc3VvMUV4R296ZExYcjU4NXFWR2doN01jU1NLZDhjYVBKS01NQ1FiazFGTlJwNGVVLXNlTXRBS3RvbnJGeWdiQjdtSVdMOWhoQTF3aWNPdG5MVVhmUVNHTGMwXzk2SnZwT3pWaEE?oc=5"
+    ],
+    [
      "Sudan Tribune: Army advances in West Kordofan (8 Nov)",
      "https://sudantribune.com/article/321005"
     ],
     [
      "CFR: Civil war in Sudan tracker",
      "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
-    ],
-    [
-     "Anadolu: Army downs fourth drone in a week (9 Nov)",
-     "https://www.aa.com.tr/en/middle-east/sudanese-army-downs-4th-drone-in-week-as-troops-advance-against-rsf-in-west-kordofan/4116366"
     ]
    ],
    "e": {
@@ -2802,9 +2940,9 @@
      "Clashes involving Alawite, Druze and Kurdish communities keep recurring."
     ],
     [
-     "Israeli operations in the south",
+     "Reconstruction and reintegration",
      3,
-     "Israeli strikes and ground activity in southern Syria continue."
+     "A Gulf consortium began repairing Syria’s main motorway and an EU decision added momentum to its return to the international fold; Iraq is exploring oil export routes through Syria."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -2823,7 +2961,21 @@
       "https://ofac.treasury.gov/sanctions-programs-and-country-information/paarss"
      ]
     ]
-   }
+   },
+   "src": [
+    [
+     "The National: Gulf consortium starts work to repair Syria's main motorway (20 Nov)",
+     "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOGg1RHFpLTN2cGtyUjFmVV9nOWhWOW45MktkSTB0V3JmbVJwbVc1c0VSRDQteWpFNnVuLW02akQ2aFA4Y3dpaDR0aE42V2cwRGk3RTVUNVlIQ3pDRTdzYkU5NGVXNFdVUDhmaVprb3BGSm5abkFtTTYzMElaVEV2Tw?oc=5"
+    ],
+    [
+     "Arab News: EU move adds momentum to Syria’s return to international fold (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXVNTklRSTB0UDdGVmNkVU44aHhSUThzVHNHSGF5Y3JJSUhLa19uOXVTZDBodl9LX3NlUndrM2g4T0o3WFNERUZ5cTUxXzNxa05zWGdHcEFnb3lmWUc2UXBvRTZReGpxczlIX2FzbjdEdXFST3FpTkZxNEFsTEg2bmxPZ3lsVjVncjFPUmRHenBRUGxpVV9QeG12ZTNhZ2JqUnpr?oc=5"
+    ],
+    [
+     "Daily Sabah: Iraq after alternative oil routes via Syria, Türkiye amid Hormuz risks | Daily Sabah (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdmpnLXlFbkU5ajlyVXNmSkJ5dlhFUUx5RExqMUFqdUtNS3dnQWFnS3lpMmxhd2h1bjlxLVMzWUo4Qi00YUQ5RW5JRUlIbjhnSWhsZDhpeERxQ1Q2TUJVM3dUd05yZ3c4eFNZbUZpUE1rMFBmTzRfOVlwc2ZhSFYwMTl3NmNlY0NHZEpicUx3X0F4ZEdUbWdHNFliRjN5MS1yMXo4M3hQbVFCc1Jzc1VHUFZFRdIBuAFBVV95cUxNaE1jMUE3bVd2M0Z4Z1FCNzhqQ0xmVE81dnEyZkRZanF1ZE45U1BYRzE4ZGxlMXFKZHRkWEZTNGgwSkhfNDVwRUY0N3B4Sm92ODlwNDF5LXE2SmRIREhTT0JBaktfOERxYk9iLWNYdkhWb2psdWlFRGZMYjNhdzBwdFFnRVJJaW9jWS1fbzNGemh5Nll2Vk51Qy0xelUtdWJOVDBlczlLaENkMndzRmd0dUhyVnpyT3NL?oc=5"
+    ]
+   ]
   },
   "784": {
    "n": "United Arab Emirates",
@@ -3223,9 +3375,9 @@
      "The junta has suppressed critics and conscripted dissenters."
     ],
     [
-     "Displacement",
+     "Repression of critics",
      4,
-     "Around two million people have been displaced."
+     "Human Rights Watch said on 18 November that the junta is targeting journalists, activists and opposition figures, including critics living abroad."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -3251,7 +3403,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Human Rights Watch: Burkina Faso Targets Critics in Exile (18 Nov)",
+     "https://news.google.com/rss/articles/CBMifkFVX3lxTE5oaldvZGc3R01yM0d3ZUVEczdzRmVCWnA0OE1FaFBITGp3dXYwd1RtaERhWmFNblhLbmtQczBBaXB0UjFncUlpcndiUlJOY0VReTVVZXR4QXBwOTJBMEwwR19fejItSXJzeE9JZWpLaUNhSU9PbVRCT01uU3pQUQ?oc=5"
+    ],
+    [
+     "BBC: Ibrahim Traore: Human Rights Watch accuse Burkina Faso junta govment of targeting journali (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yeGdBMXZQeHdkUUZ0UGlvRVM2LWtzTXpNaGVPT0JuYW1FWVZXUVZxall0S2hkcG1makZxUHp2aS1SNXNET0s2T3FTVXZFX2hoc1B2ZHVCMHlrRVc5THfSAWNBVV95cUxQbXZTdmkzWXpxci1iTDhkV3I1ZFVSNEtwM0pSbVMyRWxNUVlxM1RkSHRkRzZRWWtuNnU3RFVXenhmamtxNlZRX2VrYjVhX1F5SVNOWU5kVWg3bHFNeWF0TmxIQ0U?oc=5"
+    ]
+   ]
   },
   "862": {
    "n": "Venezuela",
@@ -3397,9 +3559,9 @@
      "Sporadic border fighting continues after a March truce, disrupting trade crossings such as Torkham."
     ],
     [
-     "ISIS-K",
-     3,
-     "The group remains capable of attacks at home and abroad."
+     "Pakistan tensions",
+     4,
+     "Analysts are questioning whether Pakistan is backing anti-Taliban armed groups, as cross-border hostility persists after the 2025 clashes."
     ]
    ],
    "r": "South Asia",
@@ -3411,6 +3573,10 @@
     ]
    ],
    "src": [
+    [
+     "DW: Is Pakistan backing anti-Taliban groups in Afghanistan? (20 Nov)",
+     "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaU1yXzhvNUZUNGdYQVlCMlZ4eG91cFh0djAzVzVxdnZLekpUSW5RZHJ5UzBXRnd2elJvVmR2clE0UzRyeTNuR205WmdTZl81c0FQUEozSi1aMkU2aUxsUXNrN3ZJcUNxd2Z5X0xMOUVSUUpSSkpqc2F4MW5OQ04zRlc2cjlzU25KdGtpakMwZFXSAZABQVVfeXFMTlJxblhIUUd4Tm5yb3RWMVdzSjFmdFlmVXdzenIwV1N1bXdUUDJadG9iRnlCQW4xYktqZktTMjBraEZESHo1dldwZFNsVmFRYkVjYjVQenNZSXFUdUFra0RCQWZ4c3gwdHRDR25EMzhRdXcxSFhQSnVyWklHaEcxeVQ5TUtkUksxQ25xUzhZM1M3?oc=5"
+    ],
     [
      "Asia News Network: Clashes persist along border (2 Nov)",
      "https://asianews.network/pakistan-warns-kabul-of-unbearable-punishment-as-clashes-persist-along-border/"
@@ -3604,9 +3770,9 @@
      "Trade has stabilised, but security tensions persist."
     ],
     [
-     "Pacific competition",
+     "Relations with China",
      2,
-     "China and Australia compete for influence among Pacific island states."
+     "Prime Minister Albanese and Xi Jinping hailed a “turnaround” in ties at APEC despite iron ore tensions, while US officials warned AUKUS submarine sales would shrink the US fleet."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -3633,7 +3799,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Financial Times: Australia PM and China’s Xi Jinping hail ‘turnaround’ despite iron ore tensions (19 Nov)",
+     "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkRjb0Rma1lqX0xiWEJGMGNfWXpZaEJPR0pkQmI5WTdJek50SkpSTm80S0ljN0tGaG80R0ZZZXU1bktzLXVMeDg1ZW5KNTR5bDV1YmdlM2VsSmF3RFZmdF9FTGJuVnBOalFwcUp0QXV1TU5ycVJ5REp1cWladVlFRjdpa0E?oc=5"
+    ],
+    [
+     "The Guardian: US warned supplying nuclear-powered submarines to Australia would diminish its own fleet f (20 Nov)",
+     "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNbWJ5aEFhWXpxVzZWWnVVSGVWRmZXQ1hOOUpuakdFLTJrd2JLTmd2Mkh6UkZWakNOU3lZdjVzZzgzRTlydE94THA2dGw4QWZoWXpDNWdMSm9Cb3RScldHcHJnQjdRelZ0akliUE54OXVOWEp5NjVnWEl3aG0xbnhrZERndk56WVh5akxyUHVwNjl4R3BCazZYQVVjbHVHREdmTm5rN1JUQ2tkM3BqZHNsOGtDb2dHN1hETkMyeFlZdUVlTFJWeEVmeWQ5a2YzN2JXbFF2bzJVS0J5ejVFbldFbkg0TGZQdEptbFBCak5Cdkt4ajBsNVE?oc=5"
+    ]
+   ]
   },
   "380": {
    "n": "Italy",
@@ -3651,9 +3827,9 @@
      "One of Europe’s highest debt burdens leaves little room for new spending."
     ],
     [
-     "Mediterranean migration",
-     2,
-     "Arrivals from North Africa remain a recurring political flashpoint."
+     "Strikes and unrest",
+     3,
+     "A general strike over wages and public services hit Italy on 20 November as anger at the Meloni government grows."
     ]
    ],
    "r": "Europe",
@@ -3680,7 +3856,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Financial Times: General strike hits Italy as anger at Meloni grows (20 Nov)",
+     "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUC1qbTM5dXZmYjVTU3VYSE1Bb21lNGNVTjZUNk5CWTlDbElfdWlPd2U3X3U4UUQ0NFhOb21rT25HV2xHOHNBbnU1clJ2R3p1VW1zeVdQdVZfdGtwU2xTYTcyZ3d5UU8tMFk2R0tEUGtrMWFNUkdHeF8xYkF3QlBCUGhfSEM?oc=5"
+    ],
+    [
+     "Reuters: Italian workers and students protest over wages and public services (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmk0cW5ick4ySXNTUG00Mk1HTEtuckdLR3pqMDJKY0RJYlpUaFJpakJFUFFldWdfZkg2LWdzMHljeGlVMFFzdjJvajlaT0VRY3F5VzVqYTVpaHJZcXpKcTQ2cGo0dExPNkhXbGZlY2w2Ry1yamRiLXk5VWxWSENuYS01djR4U2RlRWpTUzdrdDVoUEJDZFEtODlHNGNmU1Bnb3JQY3VMVTFudw?oc=5"
+    ]
+   ]
   },
   "724": {
    "n": "Spain",
@@ -3751,9 +3937,9 @@
      "Europe’s largest port feels the knock-on effects of Red Sea and Gulf disruption."
     ],
     [
-     "Infrastructure sabotage",
-     2,
-     "North Sea cables and pipelines are potential targets for hybrid attacks."
+     "Russia tensions",
+     3,
+     "The Netherlands summoned Russia’s ambassador after its Kyiv embassy was hit, and Moscow said the Dutch were no longer bystanders after the Crimea bridge strike."
     ]
    ],
    "r": "Europe",
@@ -3780,7 +3966,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Reuters: Netherlands summons Russian ambassador as Kyiv embassy hit (19 Nov)",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxPSlhpc3VjQlJUMS1pb2FxdTNFSFlNODl6NFB5RXlnMlljcXI5dGl0emdoTkpFNmRRWnJzOXhVakxhQWdWb1hvb2tnaFZkLWZoYUFTc1lEQ0VmOXBETkp6TDQ0Tk84QWhWWlVqUFM3bG0tVXk5YVVveU91TU1MUHpvdVk4TTdBLVQtZGs0enhlZ290bjUzbDRQU1liWmVpUQ?oc=5"
+    ],
+    [
+     "NL Times: Russia says Netherlands is no longer a bystander in Ukraine war; PM Jetten pushes back (19 Nov)",
+     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUmtfMDgzTGJtTlRONzVjcXJseHVxTmlESk5ZdXlFdVN0SDA4LVFXYThCZEFPcTNOVDJGSldjaXRzeHRuVmVzNVJrdG9NaTQ0elphVFNHVi1hQ1hpR25vTmpOVUt0eTRPY21ZNW5lb0dydnd5VG9GV0Rfanl3VS13YnJCbTdiUE5leksxYzVjcUhtOTBwMVRxNzJXXzl2X1M2WjJGY1hDZw?oc=5"
+    ]
+   ]
   },
   "056": {
    "n": "Belgium",
@@ -3798,9 +3994,9 @@
      "Euroclear in Brussels holds most frozen Russian central bank assets, putting Belgium at the centre of EU decisions on them."
     ],
     [
-     "Public finances",
+     "Sanctions enforcement",
      2,
-     "High deficits force difficult budget negotiations."
+     "Belgium is investigating suspected breaches of Myanmar sanctions, adding to its role in enforcing EU measures alongside its custody of frozen Russian assets."
     ]
    ],
    "r": "Europe",
@@ -3827,7 +4023,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Legal 500: Investigation Into Suspected Breaches Of Myanmar Sanctions (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa2paRUczZmJNaUozUWZwQnlOTWNIdWFkWGdBei11dnAxQlVxbDFRM3RuZ290bFM5ZTJyOEN6Tjc0TnBzTUF4a3NwYjV0cXdqTFBLRUl2Z3M3RW5YVE52bTRLWHp0M3hfaE5zVXJORlJVMUZveFFsZGFrUkt0ZFQ3MTNwZEltWlRDNGVlNGtxSGtRdjMzdTBrTG8tdmlyR002THQzaGwtT3QyTjNKb0pDSWdfaGVuSWhRb2Z0Q282NXh4N2E3dXU0WA?oc=5"
+    ]
+   ]
   },
   "752": {
    "n": "Sweden",
@@ -3845,9 +4047,9 @@
      "Damage to undersea cables and Russian activity keep the Baltic tense."
     ],
     [
-     "NATO front-line role",
+     "Energy and Ukraine",
      2,
-     "Sweden is expanding defence spending and Baltic patrols."
+     "Sweden is seeking to expand energy security cooperation with Ukraine as Baltic tensions with Russia continue."
     ]
    ],
    "r": "Europe",
@@ -3874,7 +4076,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Ukrinform: Sweden seeks to expand cooperation with Ukraine on energy security (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOE1uUTNHejJqVVY3UEx6Z1EzalluM08ycTFBQlBCendETFVmcERBUEVSVTZFQXMyVF9LS1FTVHZSQTMyNUVZdU5xb19odXpqT1JyenBSclpGclpKRm5UME5kd29FUS1PLTBzeDkzeHhGRnpkUm0tN05oNnY4WUoxOEF2d0lmQ0lLU3Z6bGZqSldhTmZsQ1BhbXJ4VElEanFXMVhQQWQ2TUlaRWFQSmRUc0MtQzJSVDd1QUlsOFFsNVhEd9IBwgFBVV95cUxQOE1uUTNHejJqVVY3UEx6Z1EzalluM08ycTFBQlBCendETFVmcERBUEVSVTZFQXMyVF9LS1FTVHZSQTMyNUVZdU5xb19odXpqT1JyenBSclpGclpKRm5UME5kd29FUS1PLTBzeDkzeHhGRnpkUm0tN05oNnY4WUoxOEF2d0lmQ0lLU3Z6bGZqSldhTmZsQ1BhbXJ4VElEanFXMVhQQWQ2TUlaRWFQSmRUc0MtQzJSVDd1QUlsOFFsNVhEdw?oc=5"
+    ]
+   ]
   },
   "578": {
    "n": "Norway",
@@ -3892,9 +4100,9 @@
      "Russian military activity near the shared Arctic border is rising."
     ],
     [
-     "Offshore infrastructure",
-     1,
-     "Energy platforms and subsea links are potential hybrid targets."
+     "Support for Ukraine",
+     2,
+     "Norway and the UK announced more support for Ukraine’s navy at the Coalition of the Willing meeting on 19 November, as Oslo works to protect its gas exports from Russian interference."
     ]
    ],
    "r": "Europe",
@@ -3921,7 +4129,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "GOV.UK: UK and Norway further boost Ukrainian Navy at Coalition of the Willing meeting (19 Nov)",
+     "https://news.google.com/rss/articles/CBMitwFBVV95cUxPblhNNXNzYlNlVDVpZ3A0cXVEbU1zVG1IRUl2R0xaak5EeDNOcE1uR1NYTjRFb3ltZC0yRFZRM2FucUM2LTBNV1BZdzVHLUFBdkFVdTVnanhjUk1FTEF4WF9KNmdRUFlCcExvNzc1d0hLZHFOQUI1VGJSekdiUkpuTjh5N1FHTHpHbTJmMkFfZ3Q4YzV1Ym1yWDJicy1xMTNlUDB2bm54NU45djJHUENMcnM4UXZfNWc?oc=5"
+    ],
+    [
+     "CEPA: Protecting Norway’s Gas From Russia (19 Nov)",
+     "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MbUlZdlRRamNEUG1pcEFyOEF0VlE0dDhLTWVIVWNBZlJjb0ZHdVR3TjdGZ3IteXpaaXlaQWhkbnNLUklabWZrLWh1RzY1bWkxQVd5aUNpOWZyOU0yLXd6UHUtNUpyUURleWZSYQ?oc=5"
+    ]
+   ]
   },
   "246": {
    "n": "Finland",
@@ -3939,9 +4157,9 @@
      "Cable and pipeline damage in the Gulf of Finland has been linked to Russian-connected vessels."
     ],
     [
-     "Weak economy",
+     "Domestic politics and defence",
      2,
-     "Sluggish growth and high unemployment strain public finances."
+     "The government survived a confidence vote over elderly care on 20 November, and Finland is buying €462 million of explosives to stock up its forces."
     ]
    ],
    "r": "Europe",
@@ -3968,7 +4186,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Bloomberg: Finland’s Government Survives Confidence Vote Over Elderly Care (20 Nov)",
+     "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUc0SnNPXzJ2OTVOeVJGdk54b0xQN2Z4c3dydEx6dExOdi04b3NnVzNnWExESlc0U0JpUzRsUTZ1YzFkelRJaWZONGxPWDFfT1FFR2NyZWtmZDZJMXRfakFMM1RSZ210NlNvRE9FNlVxaTFNd0NldmpYVGJweTUtSVJDc0VyY0N6SEVyVXJhRnlzek4xTi1yQmJ4bHdETXd0cjZhMGpTaHlKNlBYM1pTUklMVU5xUllIX0ROTmpqV2JQdTRsc0UzMTBEdzE?oc=5"
+    ],
+    [
+     "Nordic Defence Sector: Finland purchases explosives worth 462 million euros (20 Nov)",
+     "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYjc5WEN4cXRmTDBxOXZXdldram5ud2E5MmIxTTRRTlB6dFc0amNxSmhBcjJVcGJ3WWZZMVhCbE5ScU1INDc1eXJXOXhSUXJRY1l0SWV1WUF3TzdjNFp4a2duZjROUlpnd0w4TkN1N0pOZ0NLLW1Ba1M2NXBVTTNPVUkzWXNOSXlTRmhkV1lvWmpGQQ?oc=5"
+    ]
+   ]
   },
   "208": {
    "n": "Denmark",
@@ -3976,9 +4204,9 @@
    "s": "A close US ally strained by Washington’s push over Greenland.",
    "i": [
     [
-     "US pressure over Greenland",
-     3,
-     "Washington’s push for control of Greenland strains relations within NATO."
+     "Greenland deal with the US",
+     2,
+     "Parliament unanimously approved the Greenland security agreement with the US on 19 November, easing the dispute with Washington."
     ],
     [
      "Drone incursions",
@@ -4015,7 +4243,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "The Independent: Denmark’s government just unanimously sealed a Greenland deal with Trump (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ3cxVTBScWs0R24zdHphN3VVTE43QkNRTnhkNTM2OXJHa2YyMHhEWmZjNjJPVmJ0aHpKTHBiOG9tU2todHRRbUp3enpuVklLaVMwTW5KV0c4VXpMUVJaTWtRNnl5Vm5SY01DQmtLUU1NbXNON3JVVms3UldNaVR5M1BrMy1ralBkUkNxaW80T1BsNlhaWDh5dXk2S0xQaVNWbFl6QXd6cGxFV0lIMlMwSTRkVVBScXFnbFE?oc=5"
+    ],
+    [
+     "Bloomberg: Denmark’s Economy Extends Strong Run as Novo Boosts Growth (20 Nov)",
+     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM01tbWRBd3FpaDJkUTFtZHVLS2c2TUZhNDVKNTBYb2diRUhwYlRrMVhCRHpiMXNvcVcxbnJTTm5zSkNISkJILXJ3XzlhZjMzSl9nOHpsMW80UHMtRk1fTGJNZ1BEc1B4VmNhVXVjTDlaMzZjc0tLVFkzYTNkbkVpWlB5LTd0WlMtZUhUazJzZk9GTFJ2QzI1d2JPZkZiQUFkUWFKNW05QWZ6aVNjNFE?oc=5"
+    ]
+   ]
   },
   "300": {
    "n": "Greece",
@@ -4033,9 +4271,9 @@
      "Maritime disputes in the Aegean and eastern Mediterranean can flare."
     ],
     [
-     "Migration",
+     "Labour shortages and defence",
      2,
-     "Sea arrivals from Libya and Türkiye remain a pressure point."
+     "Greece is running short of workers as the EU recovery fund winds down, and the US approved a $9.4 billion military sale to Athens."
     ]
    ],
    "r": "Europe",
@@ -4062,7 +4300,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "eKathimerini: Greece runs out of workers (20 Nov)",
+     "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CQVMxU1QyOGI5eW5WSklpUzF5SFQtSDhfOU13TnFueGpCTU1SblJ3QmJYMnlXYmtSRUJmODBDU1dYbF92RjJxTU9NdzI5X01xV3J4MmZnNWE5U3JCVFZZWjh0TG1TcWtRTDNINW5mX09rYmlQZVJaQ2hKTWk?oc=5"
+    ],
+    [
+     "Yeni Şafak: US approves $9.4 billion military sale to Greece (20 Nov)",
+     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc2U5cC1uOG1wWVpNSnBzTkJ1RE9UNFF2cE00SWE2R25sTkNMb3R1YlVyci0tWDhCb3JIZUZBaS1BdWUtQS1qb1FELXZiSzdBSjdSekc2SHIyS0stMnFCcTVwUkxkZUtmZnJpU1piaVRZbHg0MXZjWUN1TkxsSVFOcFBJM05lMmc3ZVpfdlp3?oc=5"
+    ]
+   ]
   },
   "348": {
    "n": "Hungary",
@@ -4080,12 +4328,20 @@
      "With a two-thirds majority, the Tisza government can rewrite laws, but dismantling entrenched networks will take time."
     ],
     [
-     "EU funds and relations",
+     "EU funds and reforms",
      2,
-     "Unlocking frozen EU funds depends on anti-corruption and rule-of-law reforms."
+     "The European Commission partially unblocked €10 billion for Hungary on rule of law grounds on 20 November as the new government dismantles Orbán-era monopolies."
     ]
    ],
    "src": [
+    [
+     "Euronews: Commission partially clears Hungary’s €10bn cash on rule of law (20 Nov)",
+     "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmNmTjN2TTNZbnR5M2w4V0ZBU1dVRjBMMUgweWE2Z3FzZUpKeFVBYUNFSHF6MU9EM3dlRHJOOU9GcndlNXBKZXJKcVBEUVFtNEhYamRkdnk0ZHZ6cXJIRHJpb3BYSFpSTTJBeUZDaFRienlqRk9OS1c2VzhqYS1kWlJ3c3pldzMwRXo4UW9TUVpBc19ubGdxNmlxUTFkUmNmcDdWLUdZWHJSNllhaVJtUnlvakpiUEpLdlpFOHQxRVYxRHA2?oc=5"
+    ],
+    [
+     "EUobserver: Hungary’s new government claws back motorways and tobacco monopoly after years of taxpayer (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiigJBVV95cUxOdGJpbUZyZ00wdmNwejNsdXVTTkw5M213Q0I4OXRCejVQZktnSXN5bnF1RTN3Uzk5WXNPYmZzdXdWVVpmV1pYQUpWQTVjN1NXMnZWRFJ6T3gtVGlNY0RpLVZiVjNfcGstU2MzMWk4dHdKdXRBaUtMaC1GckVmakxNMjlPb0JzRDZWejZ4WlNPRmIxeVNtWk96UklHWDhRSWpPbjdHV01XVlRFSXFHYVdOaUdqdVZnQTY3QzQ2cVdjTi1DSzNPc1JueEstME44ekNkTVBrX3o1MHZ2OFhGYWhkZ2lJd09wckdkT1FPZTZPUER6cENTOGtwdGwycm9kLVJFU2M5U2FhQm91Zw?oc=5"
+    ],
     [
      "RFE/RL: Magyar scores landslide win to oust Orbán",
      "https://www.rferl.org/a/hungarian-opposition-leader-magyar-landslide-victory-orban/33730633.html"
@@ -4186,9 +4442,9 @@
      "The FPÖ remains a powerful force in national politics."
     ],
     [
-     "Energy transition",
+     "Russia tensions",
      2,
-     "Ending reliance on Russian gas has raised costs and supply questions."
+     "Austria pushed back on Moscow’s claims after Russian strikes damaged its embassy in Kyiv on 19 November."
     ]
    ],
    "r": "Europe",
@@ -4215,7 +4471,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "The Kyiv Independent: 'Responsibility lies with Russian aggressor' — Austria pushes back against Moscow's claims (20 Nov)",
+     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQVNKZnYwTTFKeWJucTVLaTBOWDJhOTZUaFVfeXpQRW9nc3ZHd19udlg3VndCUDVxVnNzZVR1d1pJdGtXVWNHNVBVSnFrU2VQeWNrV3N2eWtIek95U2JCanFMeXNVa3B3Zk5EQUxwN250SGZybmdBREJ3SFBXYk51VF9OREZzem9TN19LODM0VW4yeUVWcWdfVTBNby1wZDYxa0FOSFFrYlpCMnN2VGJNLTFXUU1IajUyc1BuQ3ZIZ1hNVlNneVlfZ1k2UHczeXc2UlRNdVlkcGtCNkhuYVE?oc=5"
+    ],
+    [
+     "France 24: Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies (19 Nov)",
+     "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRkR5OXd2MDY1d2ZXWnlRLW9kX3FiUVBvLUFoRGtDSHppc21YbkhKazN4b0hwS0JEbm5jZlprVnhWV1pPbmVHZldfRUdCb1FkcXRyTFJxcVpLcDVLeWFMdHdMT2pUMGdZYWMzOHlHR3dQODhBemM1S0w1SThaNlBXTncwOGQ0d3JwV0tHNTBxSkYwcFBLczBTUEE5WExzcDlkckFaM0RreHoxT1FhUkE0RUVsbkpZZw?oc=5"
+    ]
+   ]
   },
   "756": {
    "n": "Switzerland",
@@ -4233,9 +4499,9 @@
      "Banks and commodity traders face scrutiny over Russian and Iranian sanctions."
     ],
     [
-     "Strong franc",
-     1,
-     "Safe-haven inflows lift the currency and squeeze exporters."
+     "Migration and sanctions policy",
+     2,
+     "Switzerland is still considering deportation hubs in Rwanda and called for compliance with the ICJ’s Myanmar genocide ruling."
     ]
    ],
    "r": "Europe",
@@ -4262,7 +4528,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "SWI swissinfo: Switzerland continues to consider Rwanda deportation hubs (20 Nov)",
+     "https://news.google.com/rss/articles/CBMipwJBVV95cUxQQ0d3a0tOMXRzelFCSTJ2WFZ3RGJjSlRxMXA5OGhVOEdqRERwRUR4V2FReFVvVW1YVmdiVVVGLTVhQjdFRlJETC1YMkh1VDBtVVJKaFZneGJVSkNuaDlvcV9NZS0wMkpIZHZCOFJyMFBDZHJ5VkNjVGVLd3Z0SFlaT1pxZWJxV1ZBYXhJLWQ0aFZFbjFLNVFxTEp0UFBuRkJWQVNmSDc0ZXctbU1NcnFLcVhpdTdoQm1XcmxzWTZFaWl4LWx0QlFtZGtzZlVnLVoyMGJWdHFYTl9nRm9sWnFxWDlSbEQ1RmhBN0NMTHM4QU1QeTFWb0szUUJ3SE84N3BPd2tBdlE4VmQ3MnlaUUgwaHRSbUJQTEpjbEdhc09FaTRET3cyU1ZN?oc=5"
+    ],
+    [
+     "Anadolu: Switzerland expects compliance with ICJ genocide ruling against Myanmar (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONnctUTRBM1VySkJIeXhqRGlwZnVvblQwTXk5M1IxRXlvc0tMOGpxM1hPZW94VUp2MjlyQ29maEpzbHB4aXNTTWZZRHZzOVZYN1hfbTJlMlh4RWVBS2FON0w4TGEyOVV3N3g0Q3NyeDJKMnlLNm1FZnhzVldFaHhDdkk0aFUtYkJyOGRqSGhFaUJTMjJYTC0wbDJxTW9xM1J6TzgwNXZBaXZIUQ?oc=5"
+    ]
+   ]
   },
   "620": {
    "n": "Portugal",
@@ -4280,9 +4556,9 @@
      "High rents and property prices drive public frustration."
     ],
     [
-     "Fuel import costs",
-     1,
-     "Higher oil prices feed through to transport and inflation."
+     "Economy and politics",
+     2,
+     "Portugal’s economy is growing at twice the eurozone rate, while police action at a housing encampment has drawn criticism of the government."
     ]
    ],
    "r": "Europe",
@@ -4309,7 +4585,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "The Portugal News: Portuguese economy grows at twice the rate of the Eurozone (20 Nov)",
+     "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSVpCTm4yQ19TYUVEQjQwZktFN1B3WW1zRGoyTEEtTk9tYkhQTkJrb3hLTzkyejhUWFNIRkkzR0RfTlBrTDlsTE1nYTNpWWp5eWRXbzRUdUI1em9xMjNmdjJ0SXRCcWtGVmYxTHd1TmttdFpiNTJGZTJWUkxqcFFnSno2TUpzUUptY25ieWIwVHNDV19RbjBNT3pPdHM5VEFrSkM1eEVVcUVMRmZWMUR2SXpMM2s?oc=5"
+    ]
+   ]
   },
   "372": {
    "n": "Ireland",
@@ -4327,9 +4609,9 @@
      "Transatlantic data cables off Ireland are a potential hybrid target."
     ],
     [
-     "Housing shortage",
-     1,
-     "A severe shortage of homes is the top domestic political issue."
+     "EU–UK relations",
+     2,
+     "A new EU–UK agreement was described on 20 November as a step forward on Brexit frictions, which matter for Irish trade and Northern Ireland."
     ]
    ],
    "r": "Europe",
@@ -4356,7 +4638,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "BBC: EU-UK talks: New Brexit deal 'won't solve' all issues, but is a 'step in the right directi (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kaW5RNFNNeXVnZVZNSXdLNjVQTjhXYnN0UUs1WXpRY1hQY3RsQ2s3MG9BaS1DR0NDOFNEMkV6YlJaQkV3YmFyMTNxUDdQREtocFNENWI3cWhNU3VLb0E?oc=5"
+    ]
+   ]
   },
   "440": {
    "n": "Lithuania",
@@ -4467,12 +4755,12 @@
   "233": {
    "n": "Estonia",
    "l": 3,
-   "s": "A NATO frontline state tested by Russian military provocations.",
+   "s": "A frontline NATO state closing its road border with Russia after a sabotage plot.",
    "i": [
     [
-     "Airspace violations",
-     3,
-     "Russian fighter jets entered Estonian airspace in 2025, prompting NATO consultations."
+     "Sabotage and border closure",
+     4,
+     "Estonia will close its three road crossings with Russia on 1 December after an arson attempt on drone maker Threod Systems that it blames on Russia’s GRU; Moscow says it will respond."
     ],
     [
      "Narva border",
@@ -4509,7 +4797,21 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Estonian Foreign Ministry: road border crossings to close (15 Nov)",
+     "https://vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia"
+    ],
+    [
+     "ERR News: GRU-linked sabotage attacks (15 Nov)",
+     "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks"
+    ],
+    [
+     "The Moscow Times: Russia Accuses Estonia of Erecting New Iron Curtain With Border Closure, Says It Will Resp (20 Nov)",
+     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLU1VV1c5Ym4zTUFhNnpCcXFGd1hmNkNlWVpkc2hSRlJlbEphRVVEVnRXMkFVVWFteWN5MEVFNzRJTWtZZkREcTZzb2o5bERuVlFpTDJIVjRVNGdJbjhWalItdllRTy0yRTlOOGc3MzZxZ2VhVTFLUmdfTGVPRUF2X184SWluVUlVQi1fQkdtZ1ZHUXZGTGJscmpQc0Zqc0NTdDdCUUQwaHBfTUhDb0Fva2lCY1U2d0lGdW9DS2k1VnVyWjdsdEhCcjBQSjBtRGpXUlJGVlpzRWE?oc=5"
+    ]
+   ]
   },
   "051": {
    "n": "Armenia",
@@ -4527,12 +4829,16 @@
      "Moscow is using economic levers as Yerevan turns towards the West."
     ],
     [
-     "Domestic polarisation",
-     2,
-     "Opposition parties and church figures dispute the government’s direction."
+     "Strained ties with Moscow",
+     3,
+     "Armenia appointed a new ambassador to Russia amid growing diplomatic tensions as it deepens ties with the EU."
     ]
    ],
    "src": [
+    [
+     "AzerNews: Armenia appoints new ambassador to Russia amid growing diplomatic tensions (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NdUw4RFJJQUtGazBRN2NqREdsRlYwZ3NaNHp0WlYxVUFvNlM2T2NvUGV4VE5UX2poOG9yYkdhZHRJWTdrZ3FmSjVmYXl4TWttOVFiVw?oc=5"
+    ],
     [
      "JAMnews: Final election results, Pashinyan’s party wins majority",
      "https://jam-news.net/final-election-results-in-armenia-pashinyans-party-wins-majority/"
@@ -4580,9 +4886,9 @@
      "Relations with Moscow have soured sharply since 2025."
     ],
     [
-     "Peace process with Armenia",
+     "Defence and diplomacy",
      2,
-     "A US-brokered framework offers stability, but implementation is incomplete."
+     "President Aliyev met Vietnam’s prime minister this week as Baku widens partnerships, while Belarus showcased Azerbaijani-made military equipment."
     ]
    ],
    "r": "Russia & Eurasia",
@@ -4609,7 +4915,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Nhan Dan: [In Pictures] Prime Minister Le Minh Hung meets with President of Azerbaijan Ilham Aliyev (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNU1hQUtNbE1EOWk1MlB3ZzI0SDJtMHdrV2gxcXpyWmlfSlZoOW9RTWIxbFlWaWc5ejZiZGR1QnpLRG54LWpWMjlNV0hhSk8tbEhXVnluZWZxd2RYdmdiOG1PMUg1MFVPVlNkQ2QzT3NaTFN1VG9GcWlJa1RGbXpfTWFQcjUzeW1kYmVhdEdDU3Bsd0h3SGg2ZGtwMXlCUE1ZN1NoRUZnZjIzYnFpVzI0WDdhZU5mVzRWZVRaZEpfeGFfYU0?oc=5"
+    ]
+   ]
   },
   "398": {
    "n": "Kazakhstan",
@@ -4627,9 +4939,9 @@
      "Trade with Russia brings the risk of Western secondary sanctions."
     ],
     [
-     "Political control",
+     "Regional role",
      2,
-     "Power remains concentrated, with limited space for opposition."
+     "Kazakhstan signed an agreement to host a UN University institute in Almaty and rose to 16th in the UN e-government ranking."
     ]
    ],
    "r": "Russia & Eurasia",
@@ -4656,7 +4968,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "UNU: UNU and Government of Kazakhstan Sign Agreement to Establish UNU Institute in Almaty (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZUVnaEJnZnFFZ1gzeURxamlNbmZQcXV0MUhSamlFM1FxWXlFNzdGQUFvRTM5Q0FhU1hIVUVzek9OQ1NiQ0xmNUJ4RmFwclNxbVJSWThCMFh4MkVXYUNMeTdoaU5XdXgyRUUwN3ozamhCT2g0RmRkTkZ6Vlk1VWV4SGdNS1VNend6OS0xVFRJN2FyTVExcXlEME1WNURMbEtvdDFGZnd1VUo?oc=5"
+    ]
+   ]
   },
   "144": {
    "n": "Sri Lanka",
@@ -4674,9 +4992,9 @@
      "Oil above $100 strains reserves and revives memories of 2022 shortages."
     ],
     [
-     "Disaster recovery",
-     2,
-     "Rebuilding after severe cyclone damage in late 2025 strains the budget."
+     "Inflation and the IMF programme",
+     3,
+     "The central bank raised its policy rate on 20 November to bring inflation back to target, while the government pushes IMF-backed austerity."
     ]
    ],
    "r": "South Asia",
@@ -4703,7 +5021,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Bloomberg: Sri Lanka Raises Policy Rate to Ensure Inflation Reaches Target (20 Nov)",
+     "https://news.google.com/rss/articles/CBMitAFBVV95cUxOckItWnlaZVZ0dFIzLUhzckdDd2dHSDBFOFVHeHRSN2M5Q0cxbHBWRktWOV9fZ29NVXp5NGxJQ2NIczdMNjQyS1ZUTWpNenZRb195RkI5SThlQzV1UFNuZG9iNlpwZ0FwNDBaNnVFVXI3ZktRaTRjaHh3bWF3Vi1TbkFMT29kMzN1SkxINzFTV0VTVU93MEFkek1najJwQUF4blRiZnR3cWtJQzVrekJXTENWTk4?oc=5"
+    ]
+   ]
   },
   "524": {
    "n": "Nepal",
@@ -4721,12 +5045,20 @@
      "Youth unemployment drives mass migration, and Gulf remittances are exposed to the Iran war."
     ],
     [
-     "Balancing India and China",
+     "Relations with India",
      2,
-     "The new government must manage pressure from both neighbours."
+     "Prime Minister Balendra Shah makes a state visit to India on 22–23 November to meet Modi."
     ]
    ],
    "src": [
+    [
+     "Reuters: Nepal PM Balendra Shah to visit India, meet Modi (20 Nov)",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeWFBbWZpV0haLUdMd1N5UmRDa3JKcGtDamx2NUxfa3RmeHNEYTR5V1E1YW43VFNIV1FVMTVmRkxhNkI1S2N4YVZLX0FKVzNpVVhGbXV5MVRySnJEX01rUUN0MTlYOU1TX2p3ajcwUzhqRHA1NkhrSUxqMzFKdlozU05aRG1VbFlHZ1RfM1VhUjFpMElGWEpQel9GWGpnX3B4?oc=5"
+    ],
+    [
+     "Indian Ministry of External Affairs: State Visit of Prime Minister of Nepal (November 22–23, 2026) (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOWlZMlhtd1llYjdYZUdDVW05NHlPYXJZTFRYckxSNl82NFJ3ZTl6WEFLaU10MUJfWkNwVUpxMXJRSGlhWGh0TFBaT1EyY2s5YW9xMDRETndHaGhyUFlDZ0kxTEd1eDBsLWRGdkxXTXh1bldpbW05cS1Eb0dTWndXd01DdmJxcW5JU3NtRHRxZ3prNjhyOWhoZnhsMU85VVI5RzJBWWNEQjI?oc=5"
+    ],
     [
      "The Jakarta Post: Ex-rapper’s party wins Nepal election in landslide (13 Mar)",
      "https://www.thejakartapost.com/world/2026/03/13/nepal-ex-rappers-party-wins-election-in-landslide-after-gen-z-protests"
@@ -4830,9 +5162,9 @@
      "Disputes with China over islands and fishing grounds continue."
     ],
     [
-     "Anti-corruption campaign",
+     "Business reform",
      2,
-     "Sweeping investigations can slow approvals and unsettle investors."
+     "The government asked the National Assembly to write off licence-fee debts for more than 2.5 million inactive businesses."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -4859,7 +5191,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "BigGo Finance: Vietnam's Government Asks National Assembly to Write Off Business License Fee Debts for Mo (20 Nov)",
+     "https://news.google.com/rss/articles/CBMidkFVX3lxTE42VmI1aTJ1MzgyTjNzNmU3elJwS3F1Z0UtVUtlb1RtekNZUFgxSTRONmZXcERsc3BMNm1NZHpRT24yMnE4d2lvNUU4dTlVR1ZvYWNPcEx3ZGMyZU9UUWpCeVAxRVQwUXNRdlFobXBMeThGSlI3eEE?oc=5"
+    ]
+   ]
   },
   "458": {
    "n": "Malaysia",
@@ -4930,9 +5268,9 @@
      "China is the largest export market, which creates political and economic exposure."
     ],
     [
-     "Pacific competition",
-     1,
-     "China and Western partners compete for influence across the Pacific."
+     "Monetary policy debate",
+     2,
+     "The central bank’s chief economist urged the government on 20 November to stop changing the bank’s mandate."
     ]
    ],
    "r": "East Asia & Pacific",
@@ -4959,7 +5297,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Bloomberg: NZ Central Bank’s Chief Economist Urges Government to Stop Messing With Mandate (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiygFBVV95cUxNckNXVE1VdmpSeEgtNmJlZi0tbTk5YzA0Y1YySFpyN2x3bzdHa3cxOVY3bUpCbnhIMG1JS0YtaWJ2a3dTZmxfZ2VKX01rWlpFM2V2b2JjMTNYVGRfRTAwVGttWWk2NmRzMk5Id2VZdVRmOGlnNV9iVlZYOV81X0VzaHhRZy1YZ1pKOXdhc3paWm5TWmozS1Z0SXZfaHF6Uzk5YjI2ZnhKeWZTQUlWWm9oUTFoempOWmljQkp1eWx5SVpmeFJOYnpzbTNn?oc=5"
+    ]
+   ]
   },
   "152": {
    "n": "Chile",
@@ -5083,9 +5427,9 @@
      "Higher demand for its gas raises Algeria’s importance to Europe."
     ],
     [
-     "Regional rivalries",
+     "Fiscal resilience",
      2,
-     "Relations with Morocco and France remain tense."
+     "The World Bank highlighted Algeria’s reliance on hydrocarbon revenues and the need for fiscal buffers in a 19 November assessment."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -5111,7 +5455,13 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "World Bank: Algeria: Using Hydrocarbon Revenues and Fiscal Resilience (19 Nov)",
+     "https://news.google.com/rss/articles/CBMitgFBVV95cUxORGNqVzVoQXBmY2h4T3Z3OWZPRXhiUFVyLU0yb2o1c0M1dVp1QU5Ccl9PQjVfTjNnaGZmXzUtOENQTHZERGpKWFFvbDhRNXFWX280R2VZWUlOcmQzQzAwRERqT2RJMUFUTmYzVURmUmh6ZkhEQUxuVnNKZFJBM1dTUFJBbE0zd2EzWWRjOVlrcVpIODByOTZXblFfcHZBQm8zQzBHVHB4OWpJdWFWWXpwejlEcWZ2QQ?oc=5"
+    ]
+   ]
   },
   "504": {
    "n": "Morocco",
@@ -5129,9 +5479,9 @@
      "A 2025 UN Security Council resolution backed Morocco’s autonomy plan, but the dispute is not settled."
     ],
     [
-     "Water stress",
+     "Leadership and defence",
      2,
-     "Prolonged drought threatens agriculture and rural jobs."
+     "Morocco now has its first woman prime minister, appointed on the palace’s terms, and launched a plan to build up its domestic defence industry."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -5158,7 +5508,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "LSE blogs: Morocco’s First Woman Prime Minister: Progress on the Palace’s Terms (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZHN6Z3ZWVldWWWtuYWtFaGs5RzFtOVpfRnJrem9qNV9fOEg3alV3ZkNpSTUwa1NaVTBRZ21TWGVWbDBpQjd3bW5samtUWWRFR3lOc21FZ0oySWo0Y3gzQm5FYThoel8zbmJ5N2NLRlllVF9VSURqS3BKQkFpcVh2VUh2MFAwZ3JiOGc3OThrUmtGZVpwYWdXY0M4TGpFODF1a1Z5R3dpeDg?oc=5"
+    ],
+    [
+     "Global Arab Network: Morocco Launches Ambitious Plan to Bolster Domestic Defense Industry (19 Nov)",
+     "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZS1fUFhvOVNyZjlYQ2VxcXhuVExBVXhqb3pPajZ2eklJdUpXMDRaMS0tWG5sbHNLcnQ2bENJVmxnTk9OQkFkaXBiRFdWbkFmbkhVczZhczhNVzJOS2RzUi1HUjBvQUplOGllMDBDa0ticW1mTC00OVBoYkJfWXJKcFdmZXhHbUlZbFZHV1B2OXRienRYb0RHRGlXdlJXWEI3eEpXeG9BWDZiNlR5aVV1LTlBeE1MRDI5bmc?oc=5"
+    ]
+   ]
   },
   "788": {
    "n": "Tunisia",
@@ -5176,9 +5536,9 @@
      "Weak finances have led to periodic shortages of basic goods."
     ],
     [
-     "Migration route",
+     "Economy and external finance",
      2,
-     "Tunisia remains a key departure point for boats to Europe."
+     "Japan lent Tunisia ¥9.6 billion to complete the Sfax desalination plant, and olive oil exports hit a record 5.2 billion dinars."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -5204,7 +5564,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Smart Water Magazine: Japan lends Tunisia ¥9.6bn to finish remaining works at Sfax desalination plant (20 Nov)",
+     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM25sckdkbTVFWnNTamhrR0h2QzNJUGV5eVBtZmRHbGliZEhwdXUzSXNHUk1DVUhEMG4zMGktOUVrSW1ZbDcyN2VZZ2lncmZBaWdiaFZIc19HclNuRXdVZzRkbVJ2cFVnbmVEYkZZOFhzQ0lXLXFOZ2VNMmNBOWxZSDhGZmw5MTZiZi1nemNjT0dhbXlqaDMzWFFNZ2pYdnE1VkVFYk1IYlhxYWVQa3UyY053elBTVGhmR3A2Qllmc2diYzNFSWU3aWEtY0pfUVVWYWI2aFJkeng?oc=5"
+    ],
+    [
+     "The Arab Weekly: Tunisia’s olive oil export revenues hit record 5.2 billion dinars (19 Nov)",
+     "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSTVWM1lZa2VpRnQtQlBaOGh0Y0NJM01UVDVFSjdoR2daWWphVlJwbGU5cmhGRE1CcEJhdENpMEJ1R2Q1TVotZFFLak9QUmo2RWNpY1U2eWRtTU9wUnhCd0dqZDFUT3lpb0NVQ2NaMDkxeldwV0p0UUhvd3hqX3AxUWhsRllDZWxYYlFLcWNMT2M5Mzg?oc=5"
+    ]
+   ]
   },
   "288": {
    "n": "Ghana",
@@ -5222,9 +5592,9 @@
      "Recovery depends on fiscal discipline after the 2022 default."
     ],
     [
-     "Sahel spillover",
+     "Spending controversy",
      2,
-     "Jihadist activity in neighbouring Burkina Faso threatens the north."
+     "A $60 million presidential jet purchase has sparked controversy as Ghana plans curbs on raw cashew exports and seeks Chinese support for its economic programme."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -5250,7 +5620,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "France 24: Ghana's $60 million presidential jet purchase sparks controversy (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSWNmRTBMXzhwZ0J6QXZNZ2ZUQ2paNlBNdXotb2EzdHI2bUluekszY2RXYlc0RGd1aS1ibEdoaEFKQ1B0S1FRYnF0NW8xRjBuTS1VcnYyeFd6cGxwZURyVjd0eF82LTB6S1lMODFhOEZYRTJXeHQtSWhFZHhOLXlMN1FoUWJTSjhVN05TTkd5bkZQT0RUY01CamZ2Mmc1ZEx2Z1Vwelp2Z3BPdw?oc=5"
+    ],
+    [
+     "Forbes Africa: Ghana’s 262,000-Ton Cashew Industry Faces Export Curbs Under Government’s New Plan (20 Nov)",
+     "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFQ3MUxrVEk1TXBMTU9vR2psQXhBTm5adENQOUNWMFBDLTVVTHFRMENkei1qT0ZIcVR1aC10SXNMamhQNHZDUGhKWVVyQ3VEYTJDZVIyaDR6aEVuU0lvdjZmczRLaU1ldlZ6cDlLY1lqRXo0cHM4ZWdpRUF4YzRuTmwydnRhZU0tbVR6SnQwRHh3VkFDcnk4U3VDN2pEa2FVRDJhNWUwNERKeE1XSnVxajJtcFJSRXdRejV4Z0NtdjhBdklIMTdYUkZDd1N5TUJweXc?oc=5"
+    ]
+   ]
   },
   "508": {
    "n": "Mozambique",
@@ -5263,9 +5643,9 @@
      "Islamic State-linked fighters still attack villages and roads in the north."
     ],
     [
-     "LNG project security",
-     3,
-     "Major gas projects are restarting, but depend on security improving."
+     "Post-election tensions",
+     4,
+     "The trial of opposition leader Venâncio Mondlane is testing judicial independence, while the government has pledged over three billion meticais to repair damage from post-election unrest."
     ],
     [
      "Post-election tensions",
@@ -5296,7 +5676,17 @@
    "sx": {
     "t": "none",
     "p": []
-   }
+   },
+   "src": [
+    [
+     "Mail & Guardian: Mozambique's Mondlane trial puts judicial independence and rule of law under scrutiny (20 Nov)",
+     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTTFjNnV0b2FCYnZFWlNhRXVqWTFfRGJ1NDdET2NhOEtIMkF6MmFJMjBCcm1MY2p5eC1hS1pGZWZfMER0SmU0OEh3TWRnUUVwOW0yc3piRVJ6SkVkRUU4Q2xKR3FnVjExQW51TU9SbVNDZ3YtQkQ2dENLTDl5bUUzTjRsVjllWGFMN1Z2YXM4OU5qNy1odmM0NlNLRWw5bVhQeVBnN09tTFVhZExGeXl2S29zcUhfdVdOMS1jdHYzVEY0NGJkUDhzMA?oc=5"
+    ],
+    [
+     "Club of Mozambique: Mozambique: Chapo announces over three billion meticais for reconstruction of public infra (20 Nov)",
+     "https://news.google.com/rss/articles/CBMigwJBVV95cUxQOE4yMkRISkVKMmxlVi14NDBKbnVIZUpPUzZ6dWhoSzI1SFpHNnR3Tnh6STJHbkpWZWhmblZDVnQyVHJkZjdzNGVGaDh3RHhNRTExdEpOUlVYTjVyWW1SM1lPSWttZ1dwUzRUckZNeHZpcHBkVnJ6SElqQ3lzaEVWSjFoSUVlZVR6OEpsOVJPSDM4WjluLTJBZldFN0U2a2Z3VkZpb3RLZTNDYUlnZDVpaVk1elZuSTNlRmRzdXRUNWp3aXNLOFlZbm1xMDJxMHFfbkdZM2dNTmFHaUtRLTFXTUpLTkNzeWRvclAtd1hlTVhad1p1N2VnSWNLZFJQZGcxWkNN?oc=5"
+    ]
+   ]
   },
   "834": {
    "n": "Tanzania",
@@ -5314,9 +5704,9 @@
      "Opposition leaders face arrest and restrictions."
     ],
     [
-     "Investment climate",
-     2,
-     "Unrest and policy uncertainty weigh on investors."
+     "Constitutional reform",
+     3,
+     "President Hassan pledged a new constitution as early as 2028, a year after the contested 2025 election."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -5342,27 +5732,300 @@
    "sx": {
     "t": "none",
     "p": []
+   },
+   "src": [
+    [
+     "Bloomberg: Tanzania’s Hassan Pledges New Constitution as Early as 2028 (20 Nov)",
+     "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQzBHTTlPeUQxNnFBSFAyVXpVSnBmX2NWZWZWYS0yMU5wSUNCYmVyVFRSV0xMM3lwNmx2TFctcUxDWmJtZFNEVFctQ09rSmJiV0pIV1dwLURWYkxxeWlkOS1ZR0NQQldOdVNRakpSV1RlaHlpVWNRQXZxMWNUbzI3TmpCQVlTSjJTUG5zdk1Zc0ZEX19Qdk4wNVZtdEQ2VFJnVWdpSHVaWmo1djVERGdn?oc=5"
+    ]
+   ]
+  },
+  "048": {
+   "n": "Bahrain",
+   "l": 4,
+   "r": "Middle East & North Africa",
+   "s": "Host of the US Fifth Fleet, now directly targeted by Iran.",
+   "b": "Iranian strikes put US-linked facilities, Gulf shipping and the financial sector at risk.",
+   "i": [
+    [
+     "Iranian strikes",
+     5,
+     "Bahrain intercepted weapons launched by Iran on 18 November after US strikes on Qeshm Island."
+    ],
+    [
+     "US Fifth Fleet host",
+     4,
+     "As home to the US Navy’s Fifth Fleet, Bahrain sits on Iran’s stated target list."
+    ],
+    [
+     "Hormuz exposure",
+     4,
+     "Its oil and aluminium exports depend on shipping through the Strait of Hormuz."
+    ]
+   ],
+   "src": [
+    [
+     "CBS News: Bahrain and Kuwait intercept Iranian weapons (19 Nov)",
+     "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+    ]
+   ],
+   "h": [
+    [
+     "2026-11-20",
+     4
+    ]
+   ],
+   "e": null,
+   "sx": {
+    "t": "none",
+    "p": []
+   }
+  },
+  "262": {
+   "n": "Djibouti",
+   "l": 3,
+   "r": "Sub-Saharan Africa",
+   "s": "A Bab el-Mandeb gateway hosting foreign bases, squeezed by wars on both shores.",
+   "b": "The main port for Ethiopian trade and a base for US, French and Chinese forces.",
+   "i": [
+    [
+     "Two-coast conflict",
+     4,
+     "The Houthis now hold the opposite shore of the Bab el-Mandeb, while fighting in Ethiopia’s Afar region threatens the Addis Ababa–Djibouti corridor."
+    ],
+    [
+     "Ethiopia–Eritrea tensions",
+     4,
+     "G7 ministers warned on 10 November of regional escalation; a war could disrupt the corridor that carries over 90% of Ethiopia’s trade."
+    ],
+    [
+     "Foreign military presence",
+     2,
+     "US, French, Chinese and other bases make Djibouti strategically valuable but exposed."
+    ]
+   ],
+   "src": [
+    [
+     "Addis Standard via allAfrica: G7 warns of regional escalation (11 Nov)",
+     "https://allafrica.com/stories/202611110605.html"
+    ],
+    [
+     "Modern Diplomacy: Both shores of the Bab el-Mandeb are now at war",
+     "https://moderndiplomacy.eu/2026/10/04/bab-el-mandeb-ethiopia-eritrea-houthis-red-sea-two-coast-war/"
+    ]
+   ],
+   "h": [
+    [
+     "2026-11-20",
+     3
+    ]
+   ],
+   "e": null,
+   "sx": {
+    "t": "none",
+    "p": []
+   }
+  },
+  "232": {
+   "n": "Eritrea",
+   "l": 4,
+   "r": "Sub-Saharan Africa",
+   "s": "On the brink of war with Ethiopia over sea access and the port of Assab.",
+   "b": "Red Sea coastline and the port of Assab make any conflict a shipping risk.",
+   "i": [
+    [
+     "War risk with Ethiopia",
+     5,
+     "Border clashes were reported on 17 November as Ethiopian troops push Tigrayan forces toward the frontier; Eritrea has asked the UN to intervene."
+    ],
+    [
+     "Assab and the Red Sea",
+     4,
+     "Ethiopia’s demand for sea access, with references to Assab, is the core of the dispute, near the Bab el-Mandeb."
+    ],
+    [
+     "Isolation",
+     3,
+     "Eritrea has no diplomatic ties with Ethiopia; US sanctions imposed in 2021 were lifted in September 2026."
+    ]
+   ],
+   "src": [
+    [
+     "DW via allAfrica: Ethiopia–Eritrea border clashes raise fears of war (17 Nov)",
+     "https://allafrica.com/view/group/main/main/id/00098849.html"
+    ],
+    [
+     "Brookings: Pulling Eritrea and Ethiopia back from the brink (12 Nov)",
+     "https://www.brookings.edu/articles/pulling-eritrea-and-ethiopia-back-from-the-brink-of-war/"
+    ],
+    [
+     "Small Wars Journal: A second Red Sea front (3 Nov)",
+     "https://smallwarsjournal.com/2026/11/03/ethiopia-eritrea-conflict-could-open-a-second-red-sea-front/"
+    ]
+   ],
+   "h": [
+    [
+     "2026-11-20",
+     4
+    ]
+   ],
+   "e": null,
+   "sx": {
+    "t": "none",
+    "p": []
+   }
+  },
+  "702": {
+   "n": "Singapore",
+   "l": 2,
+   "r": "East Asia & Pacific",
+   "s": "A stable hub now on the front line of US chip export controls.",
+   "b": "Data centres, chip trading and shipping finance face tighter US scrutiny.",
+   "i": [
+    [
+     "US chip export rules",
+     3,
+     "New US rules from 16 November require licences for advanced chips going to data centres in Singapore and four other countries that could serve Chinese customers."
+    ],
+    [
+     "Megaspeed scrutiny",
+     3,
+     "Singapore data-centre firm Megaspeed is under scrutiny over possible diversion of Nvidia chips to China; it says it complies with all laws."
+    ],
+    [
+     "Shipping hub",
+     2,
+     "Busy Malacca and Singapore Strait traffic keeps the port central to Asian trade as Middle East routes are disrupted."
+    ]
+   ],
+   "src": [
+    [
+     "Al Jazeera: US moves to block China’s remote access to AI chips (17 Nov)",
+     "https://aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal"
+    ],
+    [
+     "The Edge Malaysia: US tightens chip curbs; Megaspeed statement (17 Nov)",
+     "https://theedgemalaysia.com/node/826042"
+    ]
+   ],
+   "h": [
+    [
+     "2026-11-20",
+     2
+    ]
+   ],
+   "e": null,
+   "sx": {
+    "t": "none",
+    "p": []
+   }
+  },
+  "116": {
+   "n": "Cambodia",
+   "l": 3,
+   "r": "East Asia & Pacific",
+   "s": "A tense, unresolved border dispute with Thailand a year after the peace accord.",
+   "b": "Border closures and displacement disrupt cross-border trade and labour flows.",
+   "i": [
+    [
+     "Thai border dispute",
+     4,
+     "ASEAN observers reported Thai troops moving a post forward and digging trenches in early November; Cambodia protested Thai road building on 13 November."
+    ],
+    [
+     "Displacement",
+     3,
+     "Nearly 8,000 residents of one border checkpoint area still cannot return home, according to Cambodia’s defence ministry."
+    ],
+    [
+     "Diplomacy",
+     2,
+     "Prime Minister Hun Manet said on 19 November that Trump had pledged continued US support for border peace."
+    ]
+   ],
+   "src": [
+    [
+     "Asia News Network: ASEAN observers report forward movement of Thai post (6 Nov)",
+     "https://asianews.network/asean-observers-report-forward-movement-of-thai-military-post-inspect-bombed-bridge/"
+    ],
+    [
+     "Cambodianess: Cambodia protests Thai road construction (13 Nov)",
+     "https://cambodianess.com/article/cambodia-protests-against-road-construction-by-the-thai-military-in-oddar-meanchey"
+    ],
+    [
+     "Phnom Penh Post: Manet shares Trump’s pledge (19 Nov)",
+     "https://phnompenhpost.com/national/manet-shares-trumps-pledge-for-continued-us-support-for-cambodia-thailand-border-peace/"
+    ]
+   ],
+   "h": [
+    [
+     "2026-11-20",
+     3
+    ]
+   ],
+   "e": null,
+   "sx": {
+    "t": "none",
+    "p": []
+   }
+  },
+  "591": {
+   "n": "Panama",
+   "l": 2,
+   "r": "Americas",
+   "s": "Canal operations have recovered, but the fight over its ports is now in the courts.",
+   "b": "Canal capacity and port control matter for global shipping and US–China rivalry.",
+   "i": [
+    [
+     "Ports dispute",
+     3,
+     "The state auditor filed a criminal complaint on 17 November against CK Hutchison’s Panama Ports Company, which lost control of the canal’s two main ports in February."
+    ],
+    [
+     "Canal capacity",
+     2,
+     "The canal restored 34 daily transits and full draft on 11 November as water levels recovered from drought."
+    ],
+    [
+     "US–China competition",
+     3,
+     "Who controls infrastructure at both ends of the canal remains a point of US–China friction."
+    ]
+   ],
+   "src": [
+    [
+     "Rio Times: Panama auditor files complaint over ports (17 Nov)",
+     "https://www.riotimesonline.com/panama-auditor-files-complaint-over-ports/"
+    ],
+    [
+     "gCaptain: Panama Canal raises daily transit capacity (11 Nov)",
+     "https://gcaptain.com/panama-canal-raises-daily-transit-capacity-as-water-conditions-improve/"
+    ]
+   ],
+   "h": [
+    [
+     "2026-11-20",
+     2
+    ]
+   ],
+   "e": null,
+   "sx": {
+    "t": "none",
+    "p": []
    }
   }
  },
  "events": [
   {
-   "start": "2026-11-09",
-   "when": "9–20 Nov",
-   "title": "COP31 climate summit, Antalya",
-   "text": "The UN climate conference in Türkiye, with world leaders attending on 11–12 November.",
+   "start": "2026-11-17",
+   "when": "17 Nov",
+   "title": "Quad leaders’ summit, Manila (concluded)",
+   "text": "Modi, Trump, Takaichi and Albanese agreed a first joint maritime patrol drill, critical minerals and cable cooperation, and warned against economic coercion, without naming China.",
    "c": [
-    "792"
-   ]
-  },
-  {
-   "start": "2026-11-10",
-   "when": "10–11 Nov",
-   "title": "Russia–Ukraine talks in Abu Dhabi (concluded)",
-   "text": "Ended 11 November with agreement in principle on a large prisoner exchange, but no ceasefire.",
-   "c": [
-    "804",
-    "643"
+    "356",
+    "840",
+    "392",
+    "036"
    ]
   },
   {
@@ -5372,52 +6035,6 @@
    "text": "Ended 19 November; Xi–Trump talks made little progress on the trade truce that expires in January.",
    "c": [
     "156"
-   ]
-  },
-  {
-   "start": "2026-12-14",
-   "when": "14–15 Dec",
-   "title": "G20 leaders’ summit, Miami",
-   "text": "The first G20 summit hosted by the US, with trade and the Iran war likely on the agenda.",
-   "c": [
-    "840"
-   ]
-  },
-  {
-   "start": "2026-12-22",
-   "when": "22 Dec",
-   "title": "South Sudan general election (scheduled)",
-   "text": "A long-delayed vote that could test the fragile peace deal.",
-   "c": [
-    "728"
-   ]
-  },
-  {
-   "start": "2027-01-03",
-   "when": "3 Jan 2027",
-   "title": "New US Congress takes office",
-   "text": "Democrats take control of both chambers, with war powers and budgets in focus.",
-   "c": [
-    "840"
-   ]
-  },
-  {
-   "start": "2026-11-25",
-   "when": "Late Nov – early Dec",
-   "title": "Russia–Ukraine prisoner exchange (expected)",
-   "text": "Russian state media say the swap agreed in Abu Dhabi should happen within two to three weeks.",
-   "c": [
-    "804",
-    "643"
-   ]
-  },
-  {
-   "start": "2026-11-19",
-   "when": "19 Nov",
-   "title": "Jordan–EU Investment Conference (held)",
-   "text": "Energy, water and Aqaba corridor financing are on the agenda.",
-   "c": [
-    "400"
    ]
   },
   {
@@ -5433,15 +6050,114 @@
    ]
   },
   {
-   "start": "2026-11-17",
-   "when": "17 Nov",
-   "title": "Quad leaders’ summit, Manila (concluded)",
-   "text": "Modi, Trump, Takaichi and Albanese agreed a first joint maritime patrol drill, critical minerals and cable cooperation, and warned against economic coercion, without naming China.",
+   "start": "2026-11-25",
+   "when": "Late Nov – early Dec",
+   "title": "Russia–Ukraine prisoner exchange (expected)",
+   "text": "Russian state media say the swap agreed in Abu Dhabi should happen within two to three weeks.",
    "c": [
-    "356",
-    "840",
-    "392",
-    "036"
+    "804",
+    "643"
+   ]
+  },
+  {
+   "start": "2026-11-25",
+   "when": "25 Nov",
+   "title": "EU–Western Balkans summit, Brussels",
+   "text": "EU leaders meet Western Balkan partners on enlargement and security.",
+   "c": [
+    "688"
+   ]
+  },
+  {
+   "start": "2026-11-26",
+   "when": "26–27 Nov",
+   "title": "Special European Council, Brussels",
+   "text": "EU leaders discuss the next long-term budget (MFF).",
+   "c": [
+    "276",
+    "250"
+   ]
+  },
+  {
+   "start": "2026-12-01",
+   "when": "1 Dec",
+   "title": "Estonia closes road crossings with Russia",
+   "text": "Narva, Koidula and Luhamaa road crossings close after a GRU-linked sabotage plot.",
+   "c": [
+    "233",
+    "643"
+   ]
+  },
+  {
+   "start": "2026-12-05",
+   "when": "5 Dec",
+   "title": "The Gambia presidential election",
+   "text": "A test of West Africa’s democratic record.",
+   "c": []
+  },
+  {
+   "start": "2026-12-05",
+   "when": "5–6 Dec",
+   "title": "Doha Forum",
+   "text": "Gulf security and the Iran war are likely to dominate.",
+   "c": [
+    "634",
+    "364"
+   ]
+  },
+  {
+   "start": "2026-12-06",
+   "when": "6 Dec",
+   "title": "Guinea-Bissau general election",
+   "text": "Meant to restore civilian rule after the 2025 coup.",
+   "c": []
+  },
+  {
+   "start": "2026-12-14",
+   "when": "14–15 Dec",
+   "title": "G20 leaders’ summit, Miami",
+   "text": "The first G20 summit hosted by the US, with trade and the Iran war likely on the agenda.",
+   "c": [
+    "840"
+   ]
+  },
+  {
+   "start": "2026-12-17",
+   "when": "17–18 Dec",
+   "title": "European Council summit, Brussels",
+   "text": "Long-term budget, enlargement and Ukraine on the agenda.",
+   "c": [
+    "804",
+    "276",
+    "250"
+   ]
+  },
+  {
+   "start": "2026-12-22",
+   "when": "22 Dec",
+   "title": "South Sudan general election (scheduled)",
+   "text": "The first election since independence is still scheduled, but domestic observers warn of a fifth delay.",
+   "c": [
+    "728"
+   ]
+  },
+  {
+   "start": "2027-01-03",
+   "when": "3 Jan 2027",
+   "title": "New US Congress takes office",
+   "text": "Democrats take control of both chambers, with war powers and budgets in focus.",
+   "c": [
+    "840"
+   ]
+  },
+  {
+   "start": "2027-01-10",
+   "when": "10 Jan 2027",
+   "title": "US–China truce and rare-earth pause expire",
+   "text": "China’s suspension of its October 2025 export controls and the US–China trade truce both run to this date.",
+   "c": [
+    "156",
+    "840"
    ]
   }
  ],
@@ -5449,6 +6165,18 @@
   {
    "date": "20 Nov 2026",
    "items": [
+    [
+     "104",
+     "The ICJ rules that Myanmar committed genocide against the Rohingya; Myanmar and China reject the ruling."
+    ],
+    [
+     "706",
+     "Somalia expels the UAE ambassador, accusing Abu Dhabi of violating its sovereignty."
+    ],
+    [
+     null,
+     "Gap review: 50 country briefs refreshed with dated sources; Bahrain, Djibouti, Eritrea, Singapore, Cambodia and Panama added; Suez, Malacca, Panama and Danish Straits updated."
+    ],
     [
      "156",
      "Trump, Xi and Putin meet in Shenzhen: a “peace declaration” on nuclear risk and energy supplies that does not mention Iran or Ukraine."
@@ -5470,6 +6198,10 @@
   {
    "date": "19 Nov 2026",
    "items": [
+    [
+     "304",
+     "Denmark’s parliament approves a security deal with Greenland and the US."
+    ],
     [
      "804",
      "Ukraine hits the Kerch Bridge railway section, halting trains, two days after a road span collapsed into the strait."
@@ -5533,6 +6265,10 @@
   {
    "date": "15 Nov 2026",
    "items": [
+    [
+     "233",
+     "Estonia says it will close its road crossings with Russia on 1 December after a GRU-linked sabotage plot."
+    ],
     [
      "887",
      "The Houthis take control of the Bab el-Mandeb coastline after government forces withdraw."
@@ -5748,7 +6484,8 @@
     "634",
     "682",
     "414",
-    "356"
+    "356",
+    "048"
    ],
    "src": [
     [
@@ -5793,7 +6530,9 @@
     "887",
     "682",
     "706",
-    "818"
+    "818",
+    "262",
+    "232"
    ],
    "src": [
     [
@@ -5838,7 +6577,16 @@
     "818",
     "887"
    ],
-   "src": []
+   "src": [
+    [
+     "IMF PortWatch: Daily chokepoint transits (via Faultline maritime data)",
+     "https://portwatch.imf.org/"
+    ],
+    [
+     "Long War Journal: Houthis retake Bab al Mandeb (16 Nov)",
+     "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php"
+    ]
+   ]
   },
   {
    "id": "bosporus",
@@ -5920,6 +6668,10 @@
     [
      "Pacific Winds: Indo-Pacific security digest (12 Nov)",
      "https://pcisguam.substack.com/p/pacific-winds-20261112"
+    ],
+    [
+     "IMF PortWatch: Daily chokepoint transits (via Faultline maritime data)",
+     "https://portwatch.imf.org/"
     ]
    ]
   },
@@ -5932,9 +6684,9 @@
    "s": "The busiest shipping lane between the Indian Ocean and East Asia.",
    "i": [
     [
-     "Congestion and accidents",
+     "Normal but busy",
      2,
-     "Heavy traffic raises collision and pollution risk."
+     "Traffic was close to normal in mid-November, at about 230 transits a day according to PortWatch, as the strait absorbs Asian trade diverted from troubled Middle East routes."
     ],
     [
      "Piracy and armed robbery",
@@ -5942,16 +6694,26 @@
      "Low-level robbery of ships continues in the Singapore Strait."
     ],
     [
-     "South China Sea tension",
+     "Chip export rules",
      2,
-     "Disputes nearby could affect onward routes to East Asia."
+     "New US licence requirements from 16 November for advanced-chip shipments to data centres in Malaysia, Singapore, Indonesia and Thailand put the strait’s tech hubs under closer scrutiny."
     ]
    ],
    "c": [
     "458",
-    "360"
+    "360",
+    "702"
    ],
-   "src": []
+   "src": [
+    [
+     "IMF PortWatch: Daily chokepoint transits (via Faultline maritime data)",
+     "https://portwatch.imf.org/"
+    ],
+    [
+     "Al Jazeera: US moves to block China’s remote access to AI chips (17 Nov)",
+     "https://aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal"
+    ]
+   ]
   },
   {
    "id": "panama-canal",
@@ -5962,14 +6724,14 @@
    "s": "The key link between the Atlantic and Pacific, at the centre of US–China competition over ports.",
    "i": [
     [
-     "US–China port rivalry",
-     3,
-     "Disputes over who operates ports at either end have drawn in Washington and Beijing."
+     "Capacity restored",
+     2,
+     "The canal raised daily transit slots to 34 and restored full draft at the Neopanamax locks on 11 November as water levels improved; transits rose 4.1% in the year to September."
     ],
     [
-     "Water levels",
-     2,
-     "Droughts in recent years have forced limits on the number and size of ships."
+     "Ports dispute",
+     3,
+     "Panama’s state auditor filed a criminal complaint on 17 November against CK Hutchison’s Panama Ports Company, which ran the ports at both ends of the canal until the state took them over in February."
     ],
     [
      "Regional politics",
@@ -5979,9 +6741,23 @@
    ],
    "c": [
     "840",
-    "156"
+    "156",
+    "591"
    ],
-   "src": []
+   "src": [
+    [
+     "gCaptain: Panama Canal raises daily transit capacity (11 Nov)",
+     "https://gcaptain.com/panama-canal-raises-daily-transit-capacity-as-water-conditions-improve/"
+    ],
+    [
+     "Rio Times: Panama auditor files complaint over ports (17 Nov)",
+     "https://www.riotimesonline.com/panama-auditor-files-complaint-over-ports/"
+    ],
+    [
+     "Seatrade Maritime: Panama Canal sees 4% growth in FY2026",
+     "https://www.seatrade-maritime.com/maritime-transportation/panama-canal-sees-4-growth-of-transits-in-fy2026"
+    ]
+   ]
   },
   {
    "id": "danish-straits",
@@ -5992,9 +6768,9 @@
    "s": "The Baltic Sea’s gateway to the North Sea, used by Russia’s shadow fleet.",
    "i": [
     [
-     "Shadow-fleet tankers",
+     "Shadow fleet transits",
      3,
-     "Sanctioned Russian tankers pass through, raising spill and enforcement risk."
+     "Sanctioned and shadow-fleet tankers are tracked transiting from Russia’s Baltic ports, and the EU’s 16 November sanctions targeted the Saint Petersburg oil terminal."
     ],
     [
      "Undersea infrastructure",
@@ -6002,9 +6778,9 @@
      "Cables and pipelines in the Baltic have been damaged in suspected sabotage."
     ],
     [
-     "Drone incursions",
-     2,
-     "Drones over Danish airports and bases in 2025 were described as a hybrid attack."
+     "Baltic hybrid threats",
+     3,
+     "Estonia will close its road border with Russia on 1 December after a GRU-linked sabotage plot, part of a wave of sabotage across the region."
     ]
    ],
    "c": [
@@ -6013,7 +6789,20 @@
     "752",
     "246"
    ],
-   "src": []
+   "src": [
+    [
+     "Baird Maritime: EU sanctions and the Midag boarding (16 Nov)",
+     "https://www.bairdmaritime.com/security/incidents/piracy/midag-tanker-false-flag-confirmed"
+    ],
+    [
+     "ERR News: Estonia to close border crossings (15 Nov)",
+     "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks"
+    ],
+    [
+     "IMF PortWatch: Daily chokepoint transits (via Faultline maritime data)",
+     "https://portwatch.imf.org/"
+    ]
+   ]
   }
  ],
  "econ": {

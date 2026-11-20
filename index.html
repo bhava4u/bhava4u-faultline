@@ -779,7 +779,7 @@ fetch("data/risk.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.s
   const fmt = v => (v>0?'+':'')+(Math.round(v*10)/10).toFixed(1)+'%';
   function econHtml(k){
     const e=k.e, E=DATA.econ||{};
-    if(!e) return `<div class="econ"><h4>Economic snapshot</h4><p>The IMF does not publish forecasts for ${k.n}.</p></div>`;
+    if(!e) return `<div class="econ"><h4>Economic snapshot</h4><p>IMF figures for ${k.n} are not yet in our dataset; they will be added at the next economic data refresh.</p></div>`;
     const W=(E.world||{}), t=[];
     if(e.g!=null) t.push(['GDP growth, 2026', fmt(e.g), W.g!=null?('World '+fmt(W.g)):'']);
     if(e.i!=null) t.push(['Inflation, 2026', (Math.round(e.i*10)/10).toFixed(1)+'%', W.i!=null?('World '+W.i.toFixed(1)+'%'):'']);

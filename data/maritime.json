@@ -780,7 +780,7 @@
     "2025-12-31"
    ],
    "baseline_label": "2025",
-   "status": "Open, normal",
+   "status": "Open, full capacity restored",
    "outlook": {
     "horizon": "Next 30 days",
     "confidence": "High",
@@ -801,12 +801,13 @@
       "An early dry spell forces limits on ship size."
      ]
     ],
-    "why": "The canal is operating normally. The main open question is who runs the ports at each end."
+    "why": "Water levels have recovered and capacity is back to normal; the open questions are about port control, not the canal itself."
    },
    "resolution": "Not applicable.",
    "expect": [
-    "Booking slots in advance avoids queues in busy periods.",
-    "Port ownership disputes can affect terminal contracts rather than the canal itself."
+    "Daily transit slots returned to 34 and full Neopanamax draft was restored on 11 November as water levels recovered.",
+    "A criminal complaint filed on 17 November against the former operator of the canal’s two main ports keeps port control in the courts.",
+    "Booking slots in advance avoids queues in busy periods."
    ],
    "premium": {
     "text": "No additional war-risk premium.",
@@ -854,7 +855,8 @@
    "resolution": "Not applicable.",
    "expect": [
     "Tankers without proper insurance face inspection and possible detention.",
-    "Counterparty screening is the main risk for traders, not physical security."
+    "The EU’s 16 November sanctions hit the Saint Petersburg oil terminal, so Baltic cargoes linked to it carry higher compliance risk.",
+    "Hybrid threats are rising around the Baltic: Estonia closes its road border with Russia on 1 December after a sabotage plot."
    ],
    "premium": {
     "text": "No additional war-risk premium.",
