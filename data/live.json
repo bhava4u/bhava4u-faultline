@@ -1,8 +1,14 @@
 {
-"updated": "2026-11-20T04:13+00:00",
+"updated": "2026-11-20T07:39+00:00",
 "source": "Google News",
 "items": {
 "100": [
+{
+"t": "President Iotova does not believe Russia is trying to draw Bulgaria into the war",
+"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUwzMkNGSjZVRG9uWFY2amxOcHEtWlJKak5yTVRXY2o0YzY2U0I0d1VsYkVPZXByalNMUGctZEdTajRJUmZJU3h6dmRUcGdGN3QzU1JyR1FmZE5tMzRicnMzcUlMLXZZeVp5NE5QbE94V0tPMTdYT0N6ZXg1UFlhRVMwQkVRZFJHZW5aZjVmamYtXzNPbXB4T25MbTUwRktEdUltQ2ZURHV6N1ZQVHdiWDVZVkg?oc=5",
+"s": "БНР Новини",
+"d": "2026-11-20T07:31+00:00"
+},
 {
 "t": "INTERVIEW - Bulgaria more exposed than Romania to Black Sea shipping risks",
 "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTW5rRUpZNFAyRDlJZnlwQzBVcE9hRFBzaGZDSnVYREhNWkJEZkstQmR5ZFZkRUNsalBXVkRRTUtOZnZzaEhHM1hPb2VIR0RWNXR0RTBXdU5mb3ZNNEtPNVNlZHlTYXViRlBBdGVKNEVBM0czdERCaWc3cThOd2dabzZYaVJmUHVraFFtZDNCdnhycFd1VTdGQXBiekJzdDA5T1JKajVzTko?oc=5",
@@ -14,12 +20,6 @@
 "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ1gyVmRlZjhVd0w1M0VjbEVSX21MaUNsME9ucF9sem5ya0toY3d2R3hxRlR3U1BSNkloQml4ZGdXcWhZT3RwWEdlRk1yc3RrNFQwcFc0djJVak5Kb1dnZmI0aVdwZldzUUMxeklXR2JEUUdZd2lENlBVRjhZOVA3TjNueUROMjZVNHc?oc=5",
 "s": "The New Federalist",
 "d": "2026-11-19T12:39+00:00"
-},
-{
-"t": "Bulgaria blocks new cyberattacks on government websites, minister says",
-"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWVNLQl8xaWM0aUxpLWo3Y2QxNjhXRWtfQkd5Ujk0V1pJekZFbXVzZUhlWHpDazZCaWJUU2g2ZGFNMEFQNHZ6ZFkyQUlYdmJZUTRkNE1Qd2l5d3FKR0tFUDRlRlNuclJ1Rk5sQjQyWF9YcUNlZ09NZHlzazF6YUJNS2ZxRkJKMUZZVjVSbF9UWHBJWDQ4TFFMSVNwU1ZMYUFlZklxMmc5OVY?oc=5",
-"s": "БНР Новини",
-"d": "2026-11-19T14:19+00:00"
 },
 {
 "t": "Bulgaria uncovers 5-year cyber espionage operation against government databases",
@@ -51,7 +51,7 @@
 "t": "World reacts to ICJ finding Myanmar guilty of genocide against Rohingya",
 "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWEMyTnBnb1k2elB1QVF4d05uRC1mZEsySEt3cDdvaVhaTnBoWHd4Y3ZDMEpILVBUQWFEcWtENjZvaDZmQ0lXdUZNN3pFaXZIVEtfdDdnZmMySjdpb0tZeDRJOUhIamtkVkViVmw0UFJYcGM1UkEydHh5akxqY2ZBa2U2LW9VX3dqalRyUDJjLXQ1XzlOd1JkWVl0ZzlGemZNdXdNcmlKRE1PX2k3Y0hnSVByUdIBuAFBVV95cUxNU3owOWlJXzgyM0E4bFQyVFlnbTRaaEVtRFNyNGdzc0I0c2Q1WExkTkdNYTVscEdoVVJIbEpJVXlMalo3ZVA5a0kyQlVmeXBSck5OQzBUelpHVm03VWhVX1RUdFIycGNrdEVrcUh4NzNvV25FX1FzUThTZEdkenBlVzVCVHBLZ2dMV2pJODlQWlVwN0FLS19XSmg2RGR3NTFrTC1BQ3BDWndGaTBEOGZaeVM2VTBTS3Bh?oc=5",
 "s": "Al Jazeera",
-"d": "2026-11-20T02:15+00:00"
+"d": "2026-11-20T02:17+00:00"
 }
 ],
 "112": [
@@ -74,10 +74,10 @@
 "d": "2026-11-19T16:20+00:00"
 },
 {
-"t": "Lukashenka Again Reminds Investors Not To Confuse Politics With The Economy",
-"u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb0pkTURMSFp4SXlNWUxpRWVqV2Y4M2cxdkpSVE5laHNOS0dRUjdWZExBdFNNUzRVbDl5Nm40WVdHWWxUcl9uT1VXSDlUUndNNDE2WlhreWFfQ1d6dGhWVVlGSGVSWXBBWExFRkJkM0VTX081MmZTbE8xdEF3THFfOE1iUk95aElyUzMwY0FkQlNuYUtsdTFKVnVCOUo3U05n0gGmAUFVX3lxTE1vRHJqLS1hX1llY2hMX0VjYS05WDBVV0RLak5YRVVjMXpsSk5lQWF4QmpyVXp2blRBUGpQa3VjRkRONEd6TFgtT2xQdkJZS3NsUjlDaU9NZ2IzRDVNa211T3VhNzh2ZjVTVlFCaFNpdmZkak92UlNzVGFkRm9jRTROMUgwR2xzWExaWkRIc2hkY3ZEeE1TRTRwNXlrbDBPVkl3WGZkZEE?oc=5",
-"s": "REFORM.news",
-"d": "2026-11-19T08:25+00:00"
+"t": "Russia is prepared to reduce its military presence in the Kaliningrad region and Belarus if its demands are met, Bloomberg reports",
+"u": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOcldQcTFTUy1rZ1FONTUyeU5WeExEVUl5Q1VCd1d2X2hRbnBfWFh5WnVxVmNkbGo1ZVZ1TEdDS2ZZcENtdjBWSGJjSXFDVFpkWks5VDkxemdnX1NFX1FwN0V1ZS1RX2E0UVJjODBTaVUwZEFub1pIbjNMMVN0TDR6QWY3c2JEdWN3dUhuMWlNTXpONmdHcVB6OEN4dFNldmktNGR1UEdTOWQyQWFwM0cxTjlENFpDVkQwSzZCRWJjZUx6dFVoWWQxczZkZnNJSm9rU2M0LWphV2tZZmhoUFBrd0RRTWJFMHBrSjFtclhWMFBsSWJCdFpLTXNaYXh1d9IBgwJBVV95cUxOZWRPeEowQm0zbjA2MTdiLXB6R3pOZ0lmWVgtVmJISFNJZ3Y0ZERSWHplSGtrcTEwYllIQTQxUEF1cDB6OV9fZ3JEUU5QQVhMcmN0RTNCU3ZKYkRDSjVaUG9IUk80UnU0bDFjTVZvQVB5Q2hseC1JUGszSzJUQVM3aHRvaTdxMVVNblNMV2hESndCa0lnMDM4Wlg5bklwRVVPYnlNc1JDb2FOQ0p1aUFEUW1lQlFILUVsT1RIY3VwZU51S2l5TEVNUEVpU0RVTFZ6ekt3RWZuejhhWjVZVDczV25MV1BaM3lWSWx6VVUwRGtWOGdSZGQ0VmNHMEdnbTE1LXJJ?oc=5",
+"s": "Meduza",
+"d": "2026-11-18T20:29+00:00"
 }
 ],
 "124": [
@@ -100,10 +100,10 @@
 "d": "2026-11-19T21:16+00:00"
 },
 {
-"t": "Canada’s beloved Tim Hortons brews ire over ‘excessive’ Israeli data deal",
-"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLXRWVi1iQlYxbDk3enpNUnFrazlOWmlFdlBmaEJsaTRMMk1ZeTFucW5SR2hXaTd5YUt6d1BTenI2ZzZoSVhmVlhWOVNDVTFUODMwdlZ3TGEwMk5tVEJ4QXEtUVRtYVhsMWFxQllPb3B1ek1tdndTY3NZb21TbGNFUzhnY0dqVWtxdWhvSzNzSGN3ZEhncDg1OElmWV9iMXVJZDFoZGRTUnMyWGpxQUExbW0xclJZaG_SAbwBQVVfeXFMT3ZLc0VzcTkzdS0wWEI4Y1BzU3lVRDVuT19FTjlNdGdja0NZOHdFZVY2QWR5NjBNNDJCNWo0TlhuWmlGMG5aVy03VFJBZVRTM0tGbTdJWkQ1VmsxX0VTZUQtYm91WTZ6djRvVVc4aGh2emRhbEp5My1ja0VJTkQ4VldkdzhVRVRIanlKVmJGaE5HdzJ6WnJiNEhiUFFYSFdlemdGRFhYNzBoeUJYUnA5VVViZUh3eTlVcnB6WHM?oc=5",
-"s": "Al Jazeera",
-"d": "2026-11-19T13:54+00:00"
+"t": "Canada sees little US movement on tariff relief, sources say",
+"u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
+"s": "Reuters",
+"d": "2026-11-19T23:02+00:00"
 }
 ],
 "148": [
@@ -134,36 +134,36 @@
 ],
 "156": [
 {
-"t": "China gives Japan PM frosty welcome at Apec amid fanfare for other leaders",
-"u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSFRscUxFRFI2Uk5LclgzaXh3ZDhiQy1tUDU5X3Fudm9RT1VhSDM3OWxRajltcTNXVGxBVDBVOE43YWZVWlZoYXZ5WVZXX0lJeTlJOFZxZlZhSGJ4REpaMENYM2JlVm5LamxrT25wc2FDU2drT19lQldrZUhNZE9tUEtPNDM4RUJsLVRURzBNOA?oc=5",
+"t": "UK conducting offensive cyber ops against Russia, China, Iran and North Korea, top commander reveals",
+"u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWXJZZjVOVFNEOXNvTjFzN1h6cW1nbDFxSmhkSUt5QVhRc2NTLWxKX2UxQmRqZkc0RXl0N0c2NnpuTFlpZWI3bk1XQUk1Mm5UQW1hNkZsZEhHUXkwTVBWRmx1d0w4My1oeTN3TzNkcnFGb1NxVjRENHlsLU11N3UtcFpMLTUtejdJYWlMWEMxSExIcDFsX3hCcE4wREIwbE5EUFVoVHhFTmZBa0lHQ2xGRHZwU1lHeDVwWWhubktnRG5ydlBjTHlDd0NNNmlIZw?oc=5",
+"s": "Sky News",
+"d": "2026-11-20T03:03+00:00"
+},
+{
+"t": "President Xi Jinping Chairs China-Russia-U.S. Summit_Ministry of Foreign Affairs of the People's Republic of China",
+"u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5odWFUR1FkUThENDY0OUxUSHg4aHVaWnAtU3lnZUQ3T2M5aTVVeGRLZXBnMnFpNFNaemVMejRzNDBwZ0tHNEZSWWFIWXo4ekh0ODZOWDZwaW9hQnhOcFo5V3NWZ1V2bHpkWHdGUzVvSnJTVWpmbFE?oc=5",
+"s": "中华人民共和国外交部",
+"d": "2026-11-19T14:15+00:00"
+},
+{
+"t": "Xi Jinping says a ‘full turnaround’ has been achieved in Australia-China relations, praising Anthony Albanese",
+"u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTHFNYU1udTM0Q2UtWDFLN0RRcEE2NWxsa2JqbFdEcXVsMVhvd2NMMmhFbUFZR1J4YktFOEN3cXAzLVI4dW1xRHROX2pfbG9XLUNOdGN2MHV6WGxsRW5vSmZWejhua1J1M0FSVGdfd1NKdndUMXg5N2dORXNLNFdzTTJEc2pOd2RybGljbjJJLTh1cTJxYUtWQVNOZGNXUlZKOUdFRklXRl9kaUlLM2pfeGRHajFmaTI3dlhqb2J5SW9TWVJzVmtfNURHc2s3UThVOU5STVQySFVtT0lRal9rVzZySDJTVkU?oc=5",
 "s": "The Guardian",
-"d": "2026-11-19T20:15+00:00"
+"d": "2026-11-20T02:59+00:00"
 },
 {
-"t": "US Committee Urges Sanctions Over China’s Detention of Panama-Flagged Ships",
-"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUHBQVllrWHAxNTVSQ0FZdlp6N1BkZ01sWEZUVmFvTjdSei0zcnhMR3N1bUx2ZjhXRU4xYmw1V0k4YUZIMDg5ak05bXlzUGR4WWpqNHFXOEZ5cHN0b3doME1XNVNCY2N4MFJKLUh1VTRJaFNNenRuRmVGa2ZGam5CdDRLT0hnc0ttdlN1Q2dUYWRRcHhTZmJBeExFbUlHUDIzZlkxM3JVWG1UT0x2cnI2a2NMLVE?oc=5",
-"s": "The Maritime Executive",
-"d": "2026-11-20T01:39+00:00"
-},
-{
-"t": "EXCLUSIVE: US should restrict investments in China's aerospace sector, not certify Chinese aircraft, lawmakers say",
-"u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQWI3Zy1rQ1RPOXd0YVJXTXlxNUFoY1N5VlRtcWNBRnFNdXgybGIxdV96SmRSVnpPbFU1RzJnQTRtMC1BUGpfbXAwNGlwMTBITGJTNUdBZGlXVXc3MW1GRU1rVGxueFg1RG9PSzl4UW92TjdDRGpWT2Z6MTBwb05mZi1kY3haRkxzZkE3X09XYmFtWG9uNFZFWHlEQTd3UTRYZXZxYTdtOHZucHVRdXVQdm44TUJRaDB4WWpobWQ5dlVpVThlRFo3NzJ5SmxmQkxKcXlkaHJsMTBmdw?oc=5",
-"s": "Reuters",
-"d": "2026-11-19T22:21+00:00"
-},
-{
-"t": "What the Trump-Putin-Xi meeting actually achieved",
-"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1BXa0xRbW5RZWFpRVNVTk5pdlFmVHc4dGVuS3JqRUZQNFNZbTJtNjhFZnRfNTZsSmF0Y3pCb3J4U2g5WlhFRkE0MzJZTmpNNVBEektSa2JnOHNkVUh0bDVyNFYzUTZBVXlxUTdqWEMyeWVSNmJYbVVsUnd0QlgtNTIzSG1BRThfX016d1owcDJ5bEFYUGhBRGVoYkxTX2hVakNWRFdMLVBpYUs3a0Nz?oc=5",
-"s": "Atlantic Council",
-"d": "2026-11-19T23:16+00:00"
+"t": "US Approved Nearly 900,000 AI Chips For China Sale",
+"u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hRlVhci1xR0pSeVlhSFBjTXdzaEhYMkh1bVhPd2tINVk2ejAtYmdCdG5PMnRiNVFKVFJ6dVlOLVl0dFlTM1dkVk5UdGkxSnIwZ1IyQXdHM2JLY2tkZ0gtUXh0ZFBSb19tNFBKdlFB?oc=5",
+"s": "Silicon UK",
+"d": "2026-11-20T07:06+00:00"
 }
 ],
 "158": [
 {
-"t": "Taiwan reports two Russian military aircraft nearby, second time this week",
-"u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdnpIWnMxVUtEZmIybkVXR29nSWNpWXRqRVo3dXZoYmdTcE91Q2MtZW1oSTZ2X3REWjUyZ1JNYlJSclJZX09TY0FNNllNVFdQUU5TV2lVN083QnN3aXB4U2tTMGN4TmY5U1FJbG9zSnE4bEstV215amRrZ2hpTlZ3UFRnU3dJOWZ5M0I3ZGpmU2sxZVk3bE96MWlGblVnMV9XRHk3NF84bmxGb2t6d2JBbXhNY1BrWHhlRVkxanIwMmN0OHJ6eTE0Nzg5dkV0VDhTc3c?oc=5",
+"t": "EXCLUSIVE: Taiwan tells Meta thousands of China-linked accounts seek to influence elections",
+"u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSW41aUpxeGUzMDFwdHhVNmJHdFBWaTdvTUNfUWlKN0hIdU1sMDB3X1NWd05UaF9RT1JzdTMtMlI4VEgxNDJqY2pXenVWTDlJZlZNcXVwSnVXNUxKMjEyUXVfWEppWmUxNzg0MVQwWmdxMlhHT3VJbTRNUnliRElmU1FfTUU5QS1nS1hXbFpLcEUySUEyallMLVpoVjAwNnUyUnhlbnROMHo2R0RUQ0h2SFlUQTZaSnpIYm5nakJqWQ?oc=5",
 "s": "Reuters",
-"d": "2026-11-19T07:10+00:00"
+"d": "2026-11-20T05:30+00:00"
 },
 {
 "t": "Xi tells Trump US must do 'the right thing' over Taiwan to avoid 'great turbulence'",
@@ -178,18 +178,18 @@
 "d": "2026-11-19T23:40+00:00"
 },
 {
-"t": "Visualization: Track of Two Russian Military Aircraft",
-"u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQjFqV0FGNEh5UVhDbDFxX3NGdmtFWmxKN1UyT2VfT0JSVWVuSDZnN0dTdkJ0YmpLWDhfWUU4MlJ1V2F5WDZLemZCeE5fYzI1X25rTjR5VmVTaHBfZTVLZV9IR3BfTWRJVzhmSFpSQ3RSVERpc01ZT1VOVnM1NVYySkZTeTFKQQ?oc=5",
-"s": "Taiwan Security Monitor",
-"d": "2026-11-19T19:53+00:00"
+"t": "Taiwan flags nearly 2,700 China-linked accounts to Meta over alleged election influence campaign",
+"u": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNGhEcWdmQ1J6eTZhSTZ4SGpQRzd6d2dUTUZhaUtvaGZBTzFjOGNiZDNpSHplN1V4VEVqMXoyMUprYVNDRk9IQ0cwUHA4Zzd3QWJYT3VHNXpiUzF0akZuZnE1NHZLTlFMZ2c4aFlpQU1RZ292UnNEUnhqZnpIV09wSUxSckFtTDg4ZEIzZzdPLVp0UkxDeG1pcFZVdUhKRjZaQUFsMlhYdzItRFI3MncwRWQtYnk3X285UnBaTkp5cXFGTUxLUXpMc2s3RllrQ3JnSDZfdmZNcDJKYzFTTmk2TzM4UUh0cXpMNEtxZ2hab2hCSEJ4MGUwV2ZLZ2d0d9IBgwJBVV95cUxNOTJTMWp6bjBjVmlYVFpqTHVDTlB6bkRIWVZXRTZ1aDJJdS1OQVAzeXNzcU13M05HalgyTXNMMHpOWXM4dzNCVUJPZ0RxSGFFWEhYSUNaVUtieG8zN3d5UzZSb0xNNmg3Ty0zS1g0LU9uMnpYTkFxeWY2TG83QVdkS0RvZ1JmM240bXNOQXZ5WlJlNF9IM2dYN1FVNUhvSG1ua3V4dnBVVUt4VWk0X0Z3cWNrYm9XcTdWMUhfOEprT0xEQ2UwU3JhTENTZ0V4d05uc01OSm92UGtWMDhRbU05YjFINTVxWWw4dHZFTzVsZm1zS2syTW9MRWNoYUJUM3hUWExj?oc=5",
+"s": "The Times of India",
+"d": "2026-11-20T07:10+00:00"
 }
 ],
 "170": [
 {
 "t": "Thousands protest Colombia’s tax plans amid row over US military role",
-"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0JBX3d6Um93bkc1MlYxTVZPTTR2UXp4RURxVExBejU3QjdRanNNVUw0Q2VpVW9aMEZnWmE4S2JOaENITHUyd0tUd3lrdkEySkRDWS13Z2k0ejFlYXdxR3dSNHpQUFFxbWZacE42bUVGMjdqS3AyNmlJZVh1aG5iaDl4LVJFTFROS3hxRnhZNE9FV3NZQ09KTjlxYm9BX2labWpJMUxpRzZzYjFtclc40gG0AUFVX3lxTE1YS2RURWVKUkwzbjRqTnh2YTVoWHJrSElQcWJLQ1Z0RlQyV0ktdXkyS3hpSUtDN3pMNDR1NHpvZGMtcU8waUY3aXM2NFUzS1NocjhLbk9WckJXNXBENEV2dHpub05fdlZoM1UzU0lDMXRqeXV6UTItWWdFOEp1dW1lTEFKVzFCbmNfV2hjckdDakdQdDRRTUJaU1EzUEhZaml5aDdvNHpnNTkyQm15WDRhU28xMQ?oc=5",
+"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWEtkVEVlSlJMM240ak54dmE1aFhya0hJUHFiS0NWdEZUMldJLXV5Mkt4aUlLQzd6TDQ0dTR6b2RjLXFPMGlGN2lzNjRVM0tTaHI4S25PVnJCVzVwRDRFdnR6bm9OX3ZWaDNVM1NJQzF0anl1elEyLVlnRThKdXVtZUxBSlcxQm5jX1doY3JHQ2pHUHQ0UU1CWlNRM1BIWWppeWg3bzR6ZzU5MkJteVg0YVNvMTHSAbQBQVVfeXFMTVhLZFRFZUpSTDNuNGpOeHZhNWhYcmtISVBxYktDVnRGVDJXSS11eTJLeGlJS0M3ekw0NHU0em9kYy1xTzBpRjdpczY0VTNLU2hyOEtuT1ZyQlc1cEQ0RXZ0em5vTl92VmgzVTNTSUMxdGp5dXpRMi1ZZ0U4SnV1bWVMQUpXMUJuY19XaGNyR0NqR1B0NFFNQlpTUTNQSFlqaXloN280emc1OTJCbXlYNGFTbzEx?oc=5",
 "s": "Al Jazeera",
-"d": "2026-11-20T03:30+00:00"
+"d": "2026-11-20T03:34+00:00"
 },
 {
 "t": "Colombia holds second nationwide protest against president",
@@ -198,16 +198,16 @@
 "d": "2026-11-19T20:47+00:00"
 },
 {
-"t": "Armed group attack highlights energy vulnerability in rural Colombia",
-"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObFVBNUlicjE4R3I3cWx5NVlYTlF4NkVWd0llTUMxel9OcHZkTnVXa2otUG1PV19URmFoajhCYUoyUENNQnRSV25DYzdSWUFCaFhoaUwxWGJxSGpHYWpsS1JHVmhYci1JTDNLS29scExSX2RSeHRKSUVVXzZHMk5BbGtaN3hwOTFwMW5DQWVwdFk2SEpBakRQR0o0M294dHZ1a3FvcTNDZU4?oc=5",
-"s": "The Bogotá Post",
-"d": "2026-11-19T21:56+00:00"
-},
-{
 "t": "Colombia Rejects Joint Plan With U.S. to Target Drug Gangs",
 "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMnNkaGhTRmNHOWx1Vm9xa2pobVgzNTBxNEVyX0tjaDFfM29WWmt4QUIzRkF3U2NnT1lHVmdkSjgxTEFnU1RLTHdpLXpaTHIxLUpXTjkzbWlyQXR1WlN3cE5vY1E2LTVNNTJTTzAwOEVvcXF6WmJ5cEVfRnJVYVdXdGxHTlZ1empZ?oc=5",
 "s": "The New York Times",
 "d": "2026-11-18T20:21+00:00"
+},
+{
+"t": "Armed group attack highlights energy vulnerability in rural Colombia",
+"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObFVBNUlicjE4R3I3cWx5NVlYTlF4NkVWd0llTUMxel9OcHZkTnVXa2otUG1PV19URmFoajhCYUoyUENNQnRSV25DYzdSWUFCaFhoaUwxWGJxSGpHYWpsS1JHVmhYci1JTDNLS29scExSX2RSeHRKSUVVXzZHMk5BbGtaN3hwOTFwMW5DQWVwdFk2SEpBakRQR0o0M294dHZ1a3FvcTNDZU4?oc=5",
+"s": "The Bogotá Post",
+"d": "2026-11-19T21:56+00:00"
 }
 ],
 "180": [
@@ -218,10 +218,10 @@
 "d": "2026-11-19T17:07+00:00"
 },
 {
-"t": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
-"u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaeEQ4eTJWYW44c1ZucEVMWHdJNlJTdXhyWU1XMmJWYUdLX0RMc1BEdHk0cl92d1FNVV9FY00tUElGUHhQU0RuWlB6RmJOTlJYSlBmWi1iaTlpWVRfV2c?oc=5",
-"s": "BBC",
-"d": "2026-11-18T05:11+00:00"
+"t": "Worldwide: Temporary Ebola-Related Entry Restrictions Introduced",
+"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ19nMnBtZVRSWjltTERDLTExVWpoeWFzVnB6NERSdVBlUmVLNXN3bk9aenM5QU93cmJLWXBsd3VUMkJSejY4SlRyWlZoaml3YjMwWS1IS0FIVHdZU2pkY25uc3dvb0xlS1lMemZtdXNvTzZFelZZYTJXZFh4UnlBeFZYbTE5NHR2dk1ocnI5R1dBM21oSWFCLWJ4aTRicnJyMGdRTVV0UHUwa21UcE9n?oc=5",
+"s": "Fragomen",
+"d": "2026-11-20T05:34+00:00"
 },
 {
 "t": "Armed men kill 50 people in fresh violence in DR Congo",
@@ -230,18 +230,18 @@
 "d": "2026-11-20T00:03+00:00"
 },
 {
-"t": "DR Congo: Emergency Response & Recovery",
-"u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY1lZNXd1SmVWY0lDbExRSDQxcXJKR1NXWmM3cmxMNEVUX0RqSWI0ZmZOTkRQRVJkV0V5TmhMeE5wS0VoY0dZdFZzWnJFVG14RFlHZU5lYno3WXBKRk5ERDJiZUNwNGdZRUJOb0I3dk1uelFYUUt0eUhXXzdPQnFKd09hLXNVdw?oc=5",
-"s": "People in Need",
-"d": "2026-11-18T07:10+00:00"
+"t": "WHO says Ebola outbreak in DR Congo remains public health emergency of international concern",
+"u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbTd2MzVsN195b1NkejBFM2Nfel9pcWZmeFNFYTY3VmZMQmI1SExxRzlPRjRGUEdjWFBSYzl5U01LcDI3MzhjaHQ4aC0tSzBCaFJWNVZGQTQ2bG5aamJURlA2ZmNvSE9HLWs2aVFiN1hHU0ZMYVFDS1ZFVkVGTVRTTFZWY3BYN1ltWWNLQ2dqYnpmT2UxZTVDVHJsTERMM2tJVDJmMDBfMmlONHNZY3hjWG1FWHRyQVQ4WGlMVGhIODJjdkdTd016TkVR?oc=5",
+"s": "Anadolu Ajansı",
+"d": "2026-11-18T15:08+00:00"
 }
 ],
 "192": [
 {
-"t": "Watch Inside the US Blockade of Cuba",
-"u": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4TnBpQVNFYlJkSHpYV0ZpcDdPSkFyNWVmRUVvWlhHeDJvUzQ4b2JVNXZEZXhWMy1vdWxjLXVvYzVVWTc0TUROQk5BSGlKNjcyeVM4UG5Ld1BEWUNSbV9SWklLVEdDT3E4SXlkUXU0bXNLeVl6?oc=5",
-"s": "Channel 4",
-"d": "2026-11-19T20:15+00:00"
+"t": "Island alliance • Nic Maclellan",
+"u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwUEV0X25Wck9DWnlHUHBvVmg0eTVEbVlBRnE5dkFlV2E0MGhkREoyVVpzcmlRd1FYWDNZb0hrWjM2dmZ6T01VUVFfS1lPOEx1eWo1V3R3?oc=5",
+"s": "insidestory.org.au",
+"d": "2026-11-20T04:48+00:00"
 },
 {
 "t": "Vanuatu’s Minister of Health Thanks Cuba for Its Support and Calls for Expanded Cooperation",
@@ -250,10 +250,10 @@
 "d": "2026-11-19T23:00+00:00"
 },
 {
-"t": "Rep. Meeks: Stop Blocking a Vote on the Cuba War Powers Resolution!",
-"u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zUEd5a1NqVmszZER4MTViUGFaekI0Rm1ZbFg3c1ljZC12OGZVTFpyM0Q4OFlPZldZNmdUcXROWTJuai1LckRFNG1xWDM0Zmxw?oc=5",
-"s": "CODEPINK - Women for Peace",
-"d": "2026-11-19T22:39+00:00"
+"t": "Cuba seizes three Starlink antennas as authorities intensify pressure on privately operated satellite internet",
+"u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX0NCa2VrZHJIb0gwMElxR1BERFRlVEdFT01PdWh3b3hnV2ZMSkVTd2x3alR2X0FKS2xnMEFkcXNyRlZGSS1hbktDdFBybEhTbVdaVTIyYlMtQ2U1OGh5OVNQY3gzS0ZoZVFaZ3N3MkNyaFVvZEJ0enZTRG1SRW5jbXdJeUxzckgzM2pCaGtR?oc=5",
+"s": "Latin Times",
+"d": "2026-11-19T21:25+00:00"
 },
 {
 "t": "Progressive advocates call on House Democrats to force Cuba vote",
@@ -270,31 +270,25 @@
 "d": "2026-11-20T02:22+00:00"
 },
 {
-"t": "Ecuador bans footballer for 8 years after stone attack on assistant referee",
-"u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZFFuUVZEY2VYWFBkTF95dWdHYWJyR2h4dlppZ1ZPUlQxaEttUy1VbW1WTHNnZzJRQU0zOGl3TzBKUFZWRGVBSmJOdzJTczVvOTBuYVNBZ3R6NDJ1VmRvZUdHMHZXbFh1T2pNcW5tS01fWGZqTHFjX29zVlotTlJObzlWenVfbjFwSVF0NTQ3RkszN1lZNEpSREdYdk9SaWI5SDR4dkpGYjlRVU9sQ0ZKSFpEc1prQQ?oc=5",
+"t": "US defense chief arrives in Ecuador for security talks",
+"u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcU5USER5dEw3VEJxM1o0ZWZjQTJWeWZzdm1va012V3lLel85RWI2RENBdm9zeUFMaUZzRHVGU0p3M2xvdUd2M2hkRWZCM25GcUhLbWhTVkxaMEJpODdaZGJNcU1QOFNsUVQwdHpIcGplaFVudXdVZURIRU95dEsyZWRVa1pCcVBUWmZ0MGcyY0lwb0t4WFNEbVVuLXM?oc=5",
 "s": "Anadolu Ajansı",
-"d": "2026-11-19T08:48+00:00"
-},
-{
-"t": "US defence secretary Pete Hegseth lands in Ecuador on Latin America anti-narcotics tour",
-"u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUkxJUG92aFpOd2IzbFYxVThXNHpuVmtjM2hIZTFfcXd4amdhX2RreDczSmpMemxvTFJPR21hYWpxVkRqZ0lVLU45dm5DaVU3bFVGajdNOVJyc1JJVll6aE1FUWNDSjFocnV6WEF2UE5Vbm5ZTWhUcVU3T1VfSEp3SGtsbWFqdw?oc=5",
-"s": "AOL.co.uk",
-"d": "2026-11-19T20:33+00:00"
+"d": "2026-11-19T15:46+00:00"
 },
 {
 "t": "Fishermen sue Trump administration over 'drone strike and torture' at sea",
 "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenlhSlRZT0JoZFhsSWZ6aHV5QThwdmZIWUVMXzdHdVc2U2ZpNS1ZdEJ0VW0tUG5sa0poY2czV200TU82c0Y0S1J4YnNRLU05R3ZxNGVjX1hGMGpkU2Y2MllOZWJSMXR0N2hCRjJxcDlENWF4Z040dndyRnBCYnJ4Q0JScEVuRlVwZHhzb1JzVGNKTG02Q0F1dWpSbnZ3Ty1BTkx3eA?oc=5",
 "s": "ABC News & Headlines – Australian Broadcasting Corporation",
-"d": "2026-11-19T18:00+00:00"
+"d": "2026-11-20T00:19+00:00"
+},
+{
+"t": "Hegseth makes lightning-fast trips to Ecuador, Honduras",
+"u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHNRNk5iMU5xMEp5SU1KYTdheVIxQW5iSlNtU3lfWDBXbGJPbktvMVcwOGRRYnVfd2VsQmNiQVlVNEszMEJHRTlPQkhQd1FtRkM5NjIzX2s3VDZxTUsxTHVUTmtpYnE5RVRiRW9zd2tnRmt0NlpfVU9Ma1IzNXJ5RFVldk9FS2ZvYWpSRHczQ0JYUGNCT0gxY25vX2Faa1lqN19J?oc=5",
+"s": "France 24",
+"d": "2026-11-19T16:18+00:00"
 }
 ],
 "231": [
-{
-"t": "Conflict in Ethiopia | Global Conflict Tracker",
-"u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jY01qYVJ0eS1nVkI5NnNoa0JhODlhTDdReEdVREl2dFphVlRfTE1ZeDlvamJIdHo1ajhxeDRkY20wNXhpV0N5eW5oaTFjM05zc3V0aHY3V2k4M2NJVFJVcVV0ZmpPcndPQWlBNWwwVHliTmlKR25jZHFn?oc=5",
-"s": "Council on Foreign Relations",
-"d": "2026-11-18T06:00+00:00"
-},
 {
 "t": "Around 700,000 displaced amid volatile conflict in southern Ethiopia, Islamic Relief says",
 "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGZZdVV2RmxQSm5Dd0J0M0tBWTJabnFwMjRHaUUxeUkxNndLN1oxZFNDQWxPa0x6ZU9pZVFqY0hzX0hYd2o5a1NvdUFmZjFxOXpwRXlnemFERHNUVWdXT2liS3RGcDhQeDRWY1A3UU0tdTBraFFTU2ZZTEFnbmxENDFST0JXMFlwdUJfejhUWkdBQ3FQV1B0MDNPVURXU2JGb3BrT1d2SHVkMmdmMzdwcExkemp1aExZOVE4Vg?oc=5",
@@ -308,13 +302,25 @@
 "d": "2026-11-18T13:04+00:00"
 },
 {
-"t": "China deepens role in Ethiopia’s $4bn Djibouti rail line as war raises fears for trade corridor",
-"u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVVA3ZmduU1hDUXFlQmFuUzhaamhURjFaa29MT0NPUFROX3YtTzJZMWluVWdObFhDT3FROWh6YXRVVkZlSVVDVjhkWGlrZ1FHcVRYc0NubFVvcHVxczV3V0t3ZGp3VkJJNFVpMDljZEVIWlJTcm1qYnhENjRyTUhmNkp0cDZMbGlyY1pETUtVZFMwS0t2WVZrWmVmN2d6Sm5rTlc0UE1RUzh4NVc4VXpETzU1MkFXeldwdGpTQ2JKbXEyVHVNZHV3UXhB?oc=5",
-"s": "IntelliNews",
-"d": "2026-11-19T13:30+00:00"
+"t": "Clashes between Ethiopia and Eritrea threaten to escalate into full-scale war",
+"u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYXRVM2xRTHVISkRaZFVwZXIxWWxyWEthVnBIMGktcmRuSUdnYTRyS0tsbU1IVkdleUI2WnBUYVVKaHplRjMxNU5ibW5hMU1RM0ZCalZYWkhCMWl4OGI0c18zWEFpaVEtLWw3TjAzNFA0ckZXdWd4aWhSbzhpdS04NWpOMkxMZG9WYlpFdm43VmQ1Zw?oc=5",
+"s": "The Japan Times",
+"d": "2026-11-19T02:38+00:00"
+},
+{
+"t": "Ethiopia appoints Somali politician Adem Farah as Ethiopian Airlines board chairman",
+"u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOER3Z0RBQWVyRWZpWnpTN1ZWWDZNZmZzMzhlQS1yc1lUV3d4dlN3OVNudXdlUzlVQ0xuRnZPbHdYb0l2empTUS1EVkY1VWJwLVNIdHhOTnlqVEVFcHBhb3RCemszWFFXMnRPaGlyb1ZoeE9Fa3J0Z0ZvTEFoUHVjdVA2czdQSXBNcUdjT3B1VU1ERjNMSnNsejV4QVFzMU5jYUhNNTctMzdKellTRDJ2bkxsM0ZmY1hvZFZjYjJsTDYzV25QN2RDTExjTG1DWE0?oc=5",
+"s": "Hiiraan Online",
+"d": "2026-11-20T05:51+00:00"
 }
 ],
 "250": [
+{
+"t": "PM Sanchez admits 'mistakes' in key debate ahead of Spain's election",
+"u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWkF3R2dYTmxkQURQVy16aG1vVE54cmVlRWcxNFNXbFd3UldKNUNIQnFMWTNHNmZORkpCS2k3c25ZdjN4OEw0R2ZoeW5pR2Uyb1ROWUhCQ3B3YTdHNjRoX2RyQm1qRFltN0VkREhLYjVweHZna1FDOHNhN3BRS3JFS0pUTl85cWxoeFdpc0xBV3hqTmxTa2wwM1NTcnRmVkVob2dLcFduTURsdmJGZEFXSDRNQQ?oc=5",
+"s": "France 24",
+"d": "2026-11-20T00:49+00:00"
+},
 {
 "t": "Graves of missing Lancashire soldiers identified in France and Belgium",
 "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLTJhUW02eUF0cngyNUxOT3BCcEs4bzJEbjZYQnUzclE4cHVxaHNibVB5d2wzdVU1UERRM1ViWlNYNzBBMnBuNjFCQ0FJQWlRY1o0b3YzWEFJOHM2bHVwWmV1bmt2YzY5SkdreFpmdEhSZ3g4VU5iXzQxV0ZuM1dUUmphWklmMGZWQ2tRaC11Yng2NWhIWGJLcUdjcnJXRlJxSXVtVllYNVM?oc=5",
@@ -322,25 +328,25 @@
 "d": "2026-11-19T08:35+00:00"
 },
 {
-"t": "PM Sánchez admits 'mistakes' in key debate ahead of Spain's election",
-"u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWkF3R2dYTmxkQURQVy16aG1vVE54cmVlRWcxNFNXbFd3UldKNUNIQnFMWTNHNmZORkpCS2k3c25ZdjN4OEw0R2ZoeW5pR2Uyb1ROWUhCQ3B3YTdHNjRoX2RyQm1qRFltN0VkREhLYjVweHZna1FDOHNhN3BRS3JFS0pUTl85cWxoeFdpc0xBV3hqTmxTa2wwM1NTcnRmVkVob2dLcFduTURsdmJGZEFXSDRNQQ?oc=5",
-"s": "France 24",
-"d": "2026-11-20T00:49+00:00"
+"t": "What France Can Do to Break Its Budget Deadlock",
+"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0Q0NG1GZUktaG1ySzN4aU9KN2NodjJCN3lNZU83U2g1LTlFYzdyUmd3b2RrZWg3Q0k2ZkxVQXZIcXFidERkMHB3RHR0OGhHcnVFb1gtV2FEdzJ5TXFxS3c4U2lhTXppLWt3SVYxbjVtV0Izc3p2aS10anZxay1YTXJsLXNYcENSd1hwYVNMYUcxS09ydDlxQWMxLTdQUFQzRnBpVTVQMXN4akNIclRPUGR5ay0?oc=5",
+"s": "Bloomberg.com",
+"d": "2026-11-20T06:15+00:00"
 },
 {
 "t": "Ukraine has a French election problem",
 "u": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnLUllR3dVbXllWHJuWVZicHdwZXlSVnk1TEdwWkQyanhjVVF5TE0zNzNXNm5LM21qZHdkQ2VUZUNickR6dWpMZHRscVJXVFcxUl9JWVM2d3lJREdrMjl3YjhMSEp2YjVsejg1Q3h3M1RFdw?oc=5",
 "s": "POLITICO.eu",
 "d": "2026-11-19T19:19+00:00"
-},
-{
-"t": "France to monitor YouTubers for political bias ahead of 2027 election",
-"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYWZidDBhT1hER0dpdTZyamNKQXY5NTY2VnNBOVBQV1ZIS3h4RzVQSkN4YmF0REFCazZMSF9KZERmUVlISmRDaEh0a3dEdUt6SUNNVkN6b2k5MHZMN2V6aTFkQkJBVXlMNEtLVW9lbkVGUHJoYVdaTWdqTG0zRWNkZk9XOFNhZW1mSXRSaXIzWDNTVnNfbFlZRzlVOVFlVGoyVTA5MmxsNjE?oc=5",
-"s": "Euronews.com",
-"d": "2026-11-19T19:36+00:00"
 }
 ],
 "268": [
+{
+"t": "Six killed in suspected gas explosion at Georgia apartment building",
+"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOURSSGJnUW1POXZ1Tk9QZVhIUjZyejVvQXY0cjVUblhmck5yM2pWNmFfQlhBczItbFNUYzhGMkI4LXdra0NCcndoTkMxb2hMbl9aR2FFbTYwSE1VMWJyR0RCTGhFd1RWMk9JaHRod0J0alJOQ093WlBVZWxLaGozQWZqb3M2M0JaZ1hEV1dYMmtmX2ZTMThOWkZCSE9DS1RTeWQ1Rk1vV3FwUTJtTGfSAbMBQVVfeXFMUF9GM1BxRmlfRE9zRVhaRHhWNW94b0hNd3duVHBabFNUNElwdGJBdVA3Qlk4QV9QeTkzbEpUNVpwVElfYmRoeDdmcnlTVEM5anlQcnVEenJ1OHdsdWZSSnAyQnhiQlBfY0JnSkNRblBkQ29VY0EzZkVNVGw4WmVraWlITlZiYmFCT2tWQUF2RUN4Q08xeDNlQkNHV1BRM25BcXBneHlLOE5qb0hoLU90RDdYRDA?oc=5",
+"s": "Al Jazeera",
+"d": "2026-11-19T23:16+00:00"
+},
 {
 "t": "Church support for Georgian government slipping",
 "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JcV8yWmdQdUU4clBmRGV1UmJaQzVIRmFETjVkS0l1YlRYSjM3QWVDMlI5am9oSFFsRk9QUTdnRkJiNmFvcTNGSUh4akdZQ29iM1BOVWNBSDVSYXNNTEpiamlTb1c0SlVmNTYtODhsUUtFdXBQclRLOUtB?oc=5",
@@ -354,16 +360,10 @@
 "d": "2026-11-19T18:23+00:00"
 },
 {
-"t": "Record audits confirm Georgia midterm election results, officials say",
-"u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEwtZjEwTmNSdGFmMDZGcEtZeVItUmNuNUJxekUzNGdaWFd3ekdqYzZWbWZkY0R1VTMtdVFGY2Q2VHA4MXd3eU1kdkpBLXJ5b1lBWlZaNjZrSTA3QWppYWZhV0xjLXFXWWpYa3owelJPQUI2SDhLcVZHTXVaUFBhYmhTdEo4b29HZk9fRzlZQlBJTlk0R2tFN1Q4YkVPNmZwVnBYQVFUUGZCU2tNbTRDNlJjbw?oc=5",
-"s": "Atlanta News First",
-"d": "2026-11-19T15:48+00:00"
-},
-{
-"t": "Sanctioned Russian online retailer Wildberries expands operations in Georgia",
-"u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNemtJVHZHVVdGQ2JWN29meHJnWXJOMzBhbFFEbEp2a21IM1FpakdWTkd0ZmZ4NzFBejZDME9UOXZjUzRlMDhWdkluZUpGZ2tBTVJkY0hPTkR4WFhRbS1qZ0hOX0hjZjFrQi1LQlhOVGxtbDA3WVA1YzNkcnlaLW1uM1pPdVk1alczeDh2NVQzb2lDWkR2NmlmUU1NVkpZd1k?oc=5",
-"s": "JAMnews",
-"d": "2026-11-19T10:03+00:00"
+"t": "How Georgia Voted in the 2026 Election by Race, Gender, Age and Education",
+"u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSnp6aC1fb1pwVGlMemdFSlNUazJtVHZWX2gyakx4SVZTSjIzTjZMVGZyb3NwU1lISG1hc0hIY3hBRTFMWDJzRFFvNXJnbEZ3WlF6bkQ2N2ZWNEdxRl9iV0drazN1RHl6SGlaWlB1SUxfRTZtY1ZwNHpGejVWaWdkZVpR?oc=5",
+"s": "The New York Times",
+"d": "2026-11-18T23:30+00:00"
 }
 ],
 "275": [
@@ -380,30 +380,30 @@
 "d": "2026-11-20T03:38+00:00"
 },
 {
+"t": "Gaza Civil Defence struggles to rescue lives as vehicles break down",
+"u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQnpoSTNBX0FGczdIdVhPTFdzam1wN0FTb3I2c1A2ZWJwOGkwRVM5RFRDVGVSV3Atc0tWOUZFV0xoT1UzbVBDdzBNMTAzNmFHOWdDUHJJSFozbk9BYlRrRmRVWnlkTTcxbnBWQldUZlhBUXdsQU5FU25wZXl2ODluM0xtVk9INjl1NGswZ0NOWmdHMUNkVXJ3X1daa1JDekJ5VGc5bGYwOGJ5NTJDNmdwbUl3ZmkwdnY0OHc?oc=5",
+"s": "Al Jazeera",
+"d": "2026-11-20T05:08+00:00"
+},
+{
 "t": "A young Palestinian’s disillusionment with the West Bank’s NGO industrial complex",
 "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT2J5R3JkVEgyODRKbnlZUUk3a21CMGZyZEx2WU5PUmV2OWF6Z2JRUXQyZEd6TW9yWHN1Q1BaT2RPTXhmNGJRbk1mVXhEaUJUdjdfWEVONFNzdzVwRzdhTklRV0t5aUN3eUhoRU1RejF6ZG92Q292NUhNWjQ3U05ZS2dweDZoX2ZJZUZHUHhibjl0RDBvd0JEYkhwQ2pqbTZ1NUxfMWE1dGVLT2xLVEhLc0hqZ010NU8tSDFqMUl6SQ?oc=5",
 "s": "The New Humanitarian",
 "d": "2026-11-19T11:59+00:00"
-},
-{
-"t": "‘Gaza Syndrome’: Israel’s Soldiers Haunted by Genocide – Cost of War",
-"u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNenlva2tDMXZQcE0zVUV0REFQdlR6SERKRGh1U1VCTnhJY1dTWXpCNG4xWWp5MDg2VHNZQnY5aDdIZmZWdkRKcTFJM2t2cExETVBlaWNHTU1SNmR4clMybTZTWVlKcFJPeFo2NTVqNk8wRjVBWWdwd3ZGRWRlMk5WcklCQTVIWDBYeC1yUlF1UWw3M1ZVNGw1MmVLRXdLaTVodWowUkVJT1JNQnpRNVExVnpITV9HRjE2YXBETkdjZ1lLX29N0gHKAUFVX3lxTE10QXg1SWoxS3M4U1dCUlU3VHVZejRZeEk2cUNpdklaTURBLVlTWUhwV0ttWS15UTBCUlV2ZEVteUZFTXpfdExfWnNCTXVHWjlUNkY3TUR2VFVhenNLZFpncE5fWUFuZjlLWmI3b3VxWllrNTljdElmaHBxS296YktNaElnZ2dvYkxrcWEzZ3ZaS05jdE1yUVEwci1kNldKSkQ4c05zY3kzU1Rjb2NJeUVvQmdlVGNCcEhWTHMyd3lRMUxsQjJDNzVqZlE?oc=5",
-"s": "Al Jazeera",
-"d": "2026-11-19T13:54+00:00"
 }
 ],
 "276": [
+{
+"t": "‘We don’t want our future decided by the military’: Young Germans protest",
+"u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON2Zub1BFRGhBbnpLaXVlWkExOTZaUUtMNm9xLVJyVEphTVYtTjZFcWF1dF85Z05tQnF5aGlIZkotS0UzZHNQekZrbkFNQkUxaXUtZXZPak5yN1VYalVtOW5weWE5dmRCMm9fUzk1LWlLVXJublJmWkU5UzFMUm9LMzhmMldxZEwyTmlQWFZydnRvTEppU0l5XzZjRWJ2cHZTT2p2TnNwdkN2cUxQX19HTtIBtgFBVV95cUxNeG9URWlUcXBZOXMzRjcxLXdtNGlVUEtna2tGeXpnQktaTlJPcS00YVdxRlM1YXIwbHg2V3oxRGpDVUlUTTZkZmtBYTZfX1lKdnVGbEM2ZV9KVy1NTHFPS3JxZ1ZKV0pXMEQtVmRILW93LUhaNVI1eFRfQWFOMW5kajBmaVhxaDcxei10RjNzOFllQXkwc056Q2s4ZzlPWHlWXzUtdk9uRXR2akltd3pwNWJFbWRIQQ?oc=5",
+"s": "Al Jazeera",
+"d": "2026-11-20T06:22+00:00"
+},
 {
 "t": "Germany gives tactical nod to European bank M&A",
 "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb2tVTTZ5MmZDdElZaWF1MDZ3alBkTlF4LUhqeE12V2FfZXVsSkJnSEJPSzhaMnRWbjI5b3NoZVBGNE11QU1oSV9oX2dabERuUTlqVkItbnRLOHFHbk0zejAwSVlSOGRJb1BjWWZyczNNV1Jhbm1pQmNCekpSYmFHaDBFM3BEUVdhenJubVN3M0RXXzZCdVJRZzI1OW90ZWFqckhBUWRlMFg1U2s?oc=5",
 "s": "Breakingviews",
 "d": "2026-11-19T21:59+00:00"
-},
-{
-"t": "US irks Germany, Europe with Russian G20 invite, press bans",
-"u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWW91bDlWeXB6eW1vVC1rVWQzZlFvNmtrSHMxN1Y2THgzTDNDc3VDZGk0d2R3Y0pUOW1pVDdrTXVwcU5lck4tSGNrX1dTZ0pSQVEyc21wSUdFdFJVUldET2sxcEFzS2gxWGNHRFJvMVIzSC16UUpGOGV1bnNoMmJ2NmxWOUlWaUdZSW8xVGpia3NMVHYt0gGUAUFVX3lxTE43MzBKUVFtU0t4ZEM1cmV4b2J3Wk8wYUtRVkwydXlDS0MwcFpjLVBNVnFTVDQxUFpEZ1hkXzN6aGNEc1hwcE1LR09CektONnJscjRXZGNhRFpZeUNnUXhNaG50VF9CQ0ZabFExMzFNYUtpd3RLLUxSRmNldU80OE5WLTZ4a2dBXzF0ejQzNThoZTVCbHg?oc=5",
-"s": "DW.com",
-"d": "2026-11-19T19:07+00:00"
 },
 {
 "t": "Demonstration Alert – U.S. Embassy Berlin, November 19, 2026",
@@ -412,10 +412,10 @@
 "d": "2026-11-19T20:58+00:00"
 },
 {
-"t": "Germany launches dialogue on economic future",
-"u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2VZTUVuSTFPMGlEVFZaT3FSaEtEUUZMOFdJd0tlREFCREt5Zk83dEwwQkNSb1JOeHJfbU4wUjNpTzhjeE1HNkRJY3JzQ3d3YWFXNFpaVlJ5NFFFV195VXVPNGVCT2FTVjhfdzZlS0VDUk1DN2tUZl9zV3g4WTBiYzlMalFkT3dKaTNIMHJGdFFXajZDaGxV?oc=5",
-"s": "Reuters",
-"d": "2026-11-19T23:11+00:00"
+"t": "European troops from 11 countries drill in Poland for a potential postwar Ukraine mission",
+"u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeWFkQ0NkR1draXg1aTA5MUVUbEZrS0VRWkJPcWJoVnRndHRmOVhzSk5tT3Z3OHFMQUZNXzlsaEFYbXFkQXhSNmpyU0o0T1pteWVYSGZBRkIyWUhrb3BMMndqYUd6bS04M2JMMjYxcG5kNEFnZTZhaElybF9GckMwYTQyQzB6OEZjbW1wbGsxSkc3NXBIbTk0?oc=5",
+"s": "The Independent",
+"d": "2026-11-20T06:00+00:00"
 }
 ],
 "304": [
@@ -426,16 +426,16 @@
 "d": "2026-11-19T11:17+00:00"
 },
 {
+"t": "Denmark Approves Greenland Defence Agreement With Washington, Easing Transatlantic Dispute",
+"u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1uY21lb2F3WUJKT1BVcVdpaGtSWi1FRWFwQ3RwTzNsSnFDR2stT25FeUF1Y2tLTWx2TmFJaXBKVmp6V3gxYlQ2OU1BZEo4N3VQWjFFMW1COU1rdFJ2SGtkSmlxTnIzdWp5U2VJ?oc=5",
+"s": "EU Today",
+"d": "2026-11-20T06:30+00:00"
+},
+{
 "t": "Danish MPs approve Greenland security pact with US",
 "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLVp4WmVNRUVtb2RWb01UODQzZFgzcjZmMUN6S3l4bzV0Y0Q4bWJKQ0c0WTY0NmV4TUxTNFN2MDdJRFQxLXlZYi1nOVlXXzZEQW9zekYzVU93Q1c2OUxfQ3RJb3J1RkxTTGVPMndPc09qeWxjTS1BaEtBaHdxdnMxVUx4UVpqR09OT001V3p0dGxveHBPVlE?oc=5",
 "s": "The Guardian",
-"d": "2026-11-19T20:40+00:00"
-},
-{
-"t": "Denmark’s government just unanimously sealed a Greenland deal with Trump",
-"u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ3cxVTBScWs0R24zdHphN3VVTE43QkNRTnhkNTM2OXJHa2YyMHhEWmZjNjJPVmJ0aHpKTHBiOG9tU2todHRRbUp3enpuVklLaVMwTW5KV0c4VXpMUVJaTWtRNnl5Vm5SY01DQmtLUU1NbXNON3JVVms3UldNaVR5M1BrMy1ralBkUkNxaW80T1BsNlhaWDh5dXk2S0xQaVNWbFl6QXd6cGxFV0lIMlMwSTRkVVBScXFnbFE?oc=5",
-"s": "The Independent",
-"d": "2026-11-19T11:23+00:00"
+"d": "2026-11-19T12:33+00:00"
 },
 {
 "t": "Denmark ratifies Trump deal over Greenland, hoping to end conflict",
@@ -452,22 +452,22 @@
 "d": "2026-11-20T00:31+00:00"
 },
 {
+"t": "Haiti’s presidential race draws 33 hopefuls amid election security concerns",
+"u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVGRFSzZVUy16bkN1cUZoalZBN2tNdHp1R1RLWUFtYzRUSGt1ZXgtaTR4RnZwRUF5aWlTSVhjbWZfQXFsNjFpUDViNnF2MU8tOGhVZTJrZnhSaC1ZS09nemYwVllaY1FUSWIteVc1X0hpdzllRFhsU2dhQjd1clZqcGpBSUd3aS1URFNsdQ?oc=5",
+"s": "The Haitian Times",
+"d": "2026-11-19T13:42+00:00"
+},
+{
 "t": "Haiti: Kenscoff violence highlights continued risk of killing, abduction and other abuses against children by gangs – new research",
 "u": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPMllZUmJ6Nk5jMGdfOFpqYTlHcmxVUkR4MTg0OFZyMWxaTDh3QmpZNE84YUM5NWQwOHVqT01CeEY4bl9vZnh4NTJkVzRsRUpnR2F0bWdPbjdIYzdJZmU5VEtBb0k0bjRDZk5VVHJQR1VpRmhKX29FblBqUnk4dTFMTENsZGZuR2tfUGM4UU9NNXZGYjFmUFhPYkZqVnE0cUxrajBRRG5KdU0yRlMyR01kR2o2WDFMZElRaEF2d0pOaml6ZFpjaHdkSHNxNTQ3SFNRQ0FId1Z3NDM3Vm9obHdhYldPX3NLZ0JJamp1a3pibHpVVGhQbkJUY05nTUpxcDRFR3MydA?oc=5",
 "s": "Amnesty International",
 "d": "2026-11-19T08:58+00:00"
 },
 {
-"t": "Major anti-gang offensive in Haiti kills 34 suspected gang members",
-"u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNDBIQVVqQTg2TGx6Ny1Qb19PeVduQ0hZcDlXMUhWRHRrbnVRWjVucHVyR1pWQUplbjhPN2s1UnpOWXNETl9pbjl1d3liVFZlVW13LWwyV3hfSVJfbHd5YnVlYXNqd3RieFBxZDdQalZrd1cxNUx1eDczQVdZcmRFWnpBSlVUa3pRMFRuTXVZQU15cFl4VGlYcXkxMngwWGg4OTYxVWFZb3RqVzNLNmF5LUpR?oc=5",
-"s": "France 24",
-"d": "2026-11-19T22:31+00:00"
-},
-{
-"t": "Haiti’s presidential race draws 33 hopefuls amid election security concerns",
-"u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVGRFSzZVUy16bkN1cUZoalZBN2tNdHp1R1RLWUFtYzRUSGt1ZXgtaTR4RnZwRUF5aWlTSVhjbWZfQXFsNjFpUDViNnF2MU8tOGhVZTJrZnhSaC1ZS09nemYwVllaY1FUSWIteVc1X0hpdzllRFhsU2dhQjd1clZqcGpBSUd3aS1URFNsdQ?oc=5",
-"s": "The Haitian Times",
-"d": "2026-11-19T13:42+00:00"
+"t": "DW News. . Haitian forces have carried out an offensive seeking to remove violent gangs from control of a key corridor connecting the capital Port-au-Prince with the east and south",
+"u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY1dMMm80MmZmaGhRaDVlal92TlExVDZ5UTVhaDdCQ1VBS0sxR0N2dVFib2lpSWhYazNWUGZmdW5iRUNudlNDLTFiMlhvUUIxTjkxYnI4QzNaQXZseEdBZl9PM1FWUW5jOHJkQ2RhejQ5eGxkSU9DWE8xMWZqVlZBYlNvQUJkejNZMkw5bmtHQW55X2NkVWNBeG5WQjRCUnBvOHRiQ3lsaEI0WEJtWU96bzJqendvSVJlZHRwc25Ecw?oc=5",
+"s": "Facebook",
+"d": "2026-11-20T03:54+00:00"
 }
 ],
 "356": [
@@ -484,19 +484,25 @@
 "d": "2026-11-19T22:02+00:00"
 },
 {
-"t": "What does platform work mean for India’s beauty workers?",
-"u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZDlIaHJ5OHBaVm5fUWtEei1lQmc2ZG5LY0JMNWk1RDFxOG9aVWdfOTRqNHR1eWt3S0M5R0xCQmhoTTZubjM3MFhsclJhbkFlQWhLUFlFY1h1VW9KZXAyOUZkRDJzVGZKS29KNWw4enFiZ3JoVEhvSENTQ1hjNlVVVGVRMTJ0ekVLSFNNYzhpMVZJRzhJa1Bncjgxb0dhMWhKaVE?oc=5",
-"s": "Gates Cambridge",
-"d": "2026-11-19T10:20+00:00"
+"t": "Pakistan Minister Makes Rare India Visit for Regional Forum",
+"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZnpsMm5HWDg4Yk54aHJWcGFYelNMeGtaRmhsTDZQNkEtY080WTBldjVLZ0dONHI3MXViMVh5c28wX1dhQ005Y2xWbElTbmY5Zm8wS1JMSEdnamZPM3VzQWlkdmJXQmFXSXI3SnIxcmdsQVItUWdocFY5dGFBZGRPdTRvTUNmN2I5WERTYThDUk05VmhBcEVpSWNKaU1jQm5DRE9YaEw3bmpyZGdMS0lV?oc=5",
+"s": "Bloomberg.com",
+"d": "2026-11-20T04:32+00:00"
 },
 {
-"t": "A thaw in India’s ties with Pakistan?",
-"u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWg4a2c5TDFXb1F2VjJnX1JUUnZCNlM1WGJ1bjFaWmY5NGVoSF9YQzZweER4eGFXT3VHREtnUTBxSlU4MEZpbzNWS2pHZ2JNR2VVQkotSUkxRFc4NzBtYk9ReXdZY1Z6NTV5YzJZX29IWE1UX0l2RkItU2NpaEhIRjR1a0Y?oc=5",
-"s": "Financial Times",
-"d": "2026-11-20T01:30+00:00"
+"t": "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes",
+"u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EeW5WVFZYbWJnYm9Zd2d3djZWR0JwdnBsVjhQZHRONjVPSHU3YjZpdkJqczNyLS1EaHhtTWVPNFhCd0x6cnIxYzNqeTYxNUlQaHNvWkdZOFpXTERHaGhTdzdUMDV3bkc4V25IQk4tZnVyWm9OYjg0Zi1fcVhpZ9IBgwFBVV95cUxPNzJtRkhBLUZfMVFLMEpmTHNmUGdjd2tyZWJpZHVieDU2LUpWSW05MlBPLUZobi1jMTNhU09jcUtWS3NRemtORFhNUzFzbGVETzB0ZHo4eXExSkRTZ3BVUXYzSFJVNVgtSERRdkFBQkhubWRhY0JLZ1BraEdxZkl0V1E2OA?oc=5",
+"s": "CNBC",
+"d": "2026-11-20T05:09+00:00"
 }
 ],
 "360": [
+{
+"t": "Why Indonesia’s Rupiah Keeps Hitting Record Lows",
+"u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdnFtVFJIbVUwbVhGaGxrWkQ4VkhHalFlREVtSlBMazJkeDd0NmJpNU10UGhHaXdFeGdKcTdfRmpGWm5QZFdMRFo1eEFiZlRrQV8zaDFRbWM5S0pqcFQxVUNsU25fMXdTeW9jd25GX1F2b1BqMmx0UjhWNU9rbnFQc2NRWW5adzQ0VzlSSi0tRkRpcjBNaXVrMng2VzY2NzlsNmpJRzhVeG51R3dVelAzYkJ4UGtvc0lETUNWNTJWcXRWQjhf?oc=5",
+"s": "Bloomberg.com",
+"d": "2026-11-20T05:42+00:00"
+},
 {
 "t": "EU Governments Sign Off on Previously-agreed Trade Deal With Indonesia",
 "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaWhZN3F3YXJJdjZhRmVrU015NmtTQnphN3Q2b3NVWmV6X056dGtaSS1lelZFcXhuWndYRTZ6Uks3d21qbjc3RzZfYmdoa3JBT3U0OS1XdDFUUnlXU0RCTVFhVXRJYjBUU3J0NEFnbXJFblQ1MXFWbHYwRXBIYVlveXRJYzRkcUVDT19iSkN4SDQwcW02ZEFjVVBvSEJsdk5qaUVLR093?oc=5",
@@ -514,12 +520,6 @@
 "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSDlsZVEyelB4dmFsbVIxYlhfb1k1akdrSmhOWWp2UGlhQ2FHdnZCaHRteWdyMDZTUFZlZWt3cnUzWmZfOHhpU1RCeW1KczhsWV9xM3NsWThPVmpvZGs3RnV2dF9ldWwxa21MU2Zhb3UzTTJQTlpVUjhYQWE0RjFlQmpDU1luYUQwc29jYmdoV082VWls?oc=5",
 "s": "The Economist",
 "d": "2026-11-18T09:48+00:00"
-},
-{
-"t": "Bank Indonesia’s growth mandate tests its independence",
-"u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcTJ4eEZ5dHRrVkFCekczY01jX3JRemFVcWNPbUd6eVJDekRoa3NvZ0xtOEtaN0tjR3NpRkszeThMaDZMeEpwc085S2tJenFCUG4wN2FzU2JVUFJrcS1ibEkxb1F0ZmFfbC1RMDN1TElCdDNIX09XcEJhaEsxam5sUlAxc2pueExyUDNQX3RDUzhBUTdHT0E?oc=5",
-"s": "East Asia Forum",
-"d": "2026-11-19T11:00+00:00"
 }
 ],
 "364": [
@@ -530,22 +530,22 @@
 "d": "2026-11-19T20:26+00:00"
 },
 {
-"t": "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait",
-"u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcGVKcXlHY1EycS1qaFBrcVduLWwzS1B4RmhJeDg5eFlxR0FIeVNFclFqZVczdXFBVGVLa0xpcHZXZkVWa3JEeHJxVXA5YWxVa3YtejhlaHd1T1JmWDd1NHp3V1E1SEdsS0tkOEc2bVpZNER2elNveGdNTk9xanNjSDZZM2NwSXhULUVPSk84TW1JRFJUbkRRZVBYN2JHd0NnQkYxN0hhVDhVaVYzUEtlTGUwUUpuZw?oc=5",
-"s": "WSJ",
-"d": "2026-11-20T03:10+00:00"
+"t": "UK conducting offensive cyber ops against Russia, China, Iran and North Korea, top commander reveals",
+"u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWXJZZjVOVFNEOXNvTjFzN1h6cW1nbDFxSmhkSUt5QVhRc2NTLWxKX2UxQmRqZkc0RXl0N0c2NnpuTFlpZWI3bk1XQUk1Mm5UQW1hNkZsZEhHUXkwTVBWRmx1d0w4My1oeTN3TzNkcnFGb1NxVjRENHlsLU11N3UtcFpMLTUtejdJYWlMWEMxSExIcDFsX3hCcE4wREIwbE5EUFVoVHhFTmZBa0lHQ2xGRHZwU1lHeDVwWWhubktnRG5ydlBjTHlDd0NNNmlIZw?oc=5",
+"s": "Sky News",
+"d": "2026-11-20T03:03+00:00"
+},
+{
+"t": "Backing Trump, US Senate Republicans block Iran war resolution",
+"u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcmstcFNFWmdlWE9OT3pCd2JxN1RvaDZMZ2dlZC01YU9hUVFDdFdETmRJLWYtRWI5bkpNVHgyQUFTRVNncW9kUUZkdGhFRkl1RUx6MGs2eVhNNXhZbzROalJGQnRSSUdqdVBhQ1NuLTRONXEyQWpYemhwenhCd2VlNlY4VUZJT3NRdjBmdzBTZGxreUlHNmgyX0p4TzVxX1FvaXZR?oc=5",
+"s": "Reuters",
+"d": "2026-11-19T19:51+00:00"
 },
 {
 "t": "The Iran War at Six Months: Energy, Markets, and National Security",
 "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdlJ1eUlkblN4SDJBbkNhQ3lZblNyTVQxb0RQY0hvNUJaVlpnLVBYeVBZclZBZkljeXlIWEJOT1NXdVFuQ1VoNEMzT0xVRjZ4c0prWXUtdENxa1lmTWtmVXBNWVp5dkVTT1o5eW5JUDc2VktrTjg3MWtWZlhlZnI3ZnlqempReW1HMnkwRzZINA?oc=5",
 "s": "CSIS | Center for Strategic and International Studies",
 "d": "2026-11-19T13:45+00:00"
-},
-{
-"t": "UK conducting offensive cyber ops against Russia, China, Iran and North Korea, top commander reveals",
-"u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWXJZZjVOVFNEOXNvTjFzN1h6cW1nbDFxSmhkSUt5QVhRc2NTLWxKX2UxQmRqZkc0RXl0N0c2NnpuTFlpZWI3bk1XQUk1Mm5UQW1hNkZsZEhHUXkwTVBWRmx1d0w4My1oeTN3TzNkcnFGb1NxVjRENHlsLU11N3UtcFpMLTUtejdJYWlMWEMxSExIcDFsX3hCcE4wREIwbE5EUFVoVHhFTmZBa0lHQ2xGRHZwU1lHeDVwWWhubktnRG5ydlBjTHlDd0NNNmlIZw?oc=5",
-"s": "Sky News",
-"d": "2026-11-20T03:03+00:00"
 }
 ],
 "368": [
@@ -554,6 +554,12 @@
 "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdW9TdlRudll2WUhfaUNGaUc3WjA2clZZZWlBTHR5SWtUc2xoRy1OcEIwNjRiTGdtaF9SOGNiSHFrLVd0SWM3X0lXX3VTTmlSajU0eXVlbEhGbVlMbG1VZC1Udy12MFN1d3gwN3lGQmhRSEw1WG5fQWpkUVlVTUg5MjY5Tk53aHZ1d3F5OUJvelBaN3l6X1U1Nkd3Xy1INExtMXZUZ2djaU14b2x4cmJaSXZwSE9zQdIBuwFBVV95cUxPSURLU3lrbVFER1JtWC1yajUzRDRiNTB0bWlDUUpPd2N5Y09qTWIzaUd4U1FVM2hwOVcwNlFOU28xUlFhVUpRWGNNZjRJWHNWNjFQajRHNEx5U2pqY054ZmNiNTJtMjZvUWZYZUZUV005eTF5NjUyY19rd1UwNmR1Z013R0ZoWnJtV3RsYS0zUlUzZzVhX3ZLeUNFcHdEVGF2Mm1PMFhNblBOcnZTY0VMY2I1NC12R3FLd2c4?oc=5",
 "s": "Al Jazeera",
 "d": "2026-11-19T21:27+00:00"
+},
+{
+"t": "Iran rejects Trump's bioweapons claims, warns against repeat of disproved allegations that Iraq had WMD",
+"u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUENOUlItN1pJeFhZMTNTaDZ1TmM5dG9ESnUxeW50cEpQRzVUdnpXWmh1YUdGT3JBVlpXVTVldzkyZnJNa2R2bV9FWVNKa0tBUk5Fa0hZeE9DOUVEb2FQYi1hWl83TzkyMVRWYUVLVTlJSlFNbzhwQ014TjVxZ1V0bGZpTUR3VmRmcVFJN0xPY0NOcHFOOFdGNUNtVXpIdGRyZ1ZXMGJwSFlMb1JvRFRUTnh2T0RfX1FFM2hEM3E4OVVzcVJST3lXdVlpQlJCOG15RVE4eDlEMUhxVC00UjRF?oc=5",
+"s": "Anadolu Ajansı",
+"d": "2026-11-20T04:43+00:00"
 },
 {
 "t": "Iraq Pushes to Reassert Control Over Jurf al-Sakhar, but Experts Question PM’s Ability to Confront Militias",
@@ -566,26 +572,20 @@
 "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTdDT3lHT0pxVGkxbjluekRkUFRkLTQ0V3VWQ3VRREtfNERpN0YweWlMaDEwR1NCZWpOeDBqTkpPal93bkNremRYWGxuTXNJUlRzVmdlN3gtaXlhLXgtRk5wRjg2OXlrYUg3TGhmUm55TUZUbmVSNlIzVDhKRHUySUEtZGFVUUctcEN2Q3dURzVxUzlDWjkwcm1PamFtdw?oc=5",
 "s": "Al-Monitor",
 "d": "2026-11-19T21:32+00:00"
-},
-{
-"t": "Iraq Approves Plan to Reshape Security Control in Jurf Al-Sakhar",
-"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQenhUZm1xVTdBUG51alF6bFl3OHUzeXpzYml4a0pOZy1qdm9pOXp6RURZakJYek04bHVPNHdsUUhsdS1lNmQxVUYyZ1o2VHpKWjBHY1pnNEJrZE8wX0FVUl9nWmxYZTZtb1NvYXNBNXRCTVBTSEEtS0RVWDR6d0NzY1gxSzhfb01RanNmUnRIdmFWd0tTVGd6YWgwYnZWQ3V4ZXBDMTltNldhSTgtY0tvR0paVlY?oc=5",
-"s": "Global Arab Network",
-"d": "2026-11-19T15:52+00:00"
 }
 ],
 "376": [
-{
-"t": "After Israel’s War on Gaza, a School Is No Longer Just a School",
-"u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVEtENm85eHA3VzNvTUVEMEJGcDRVQll5Ym9NOUZRY0E1WmNmbmFVRlh3U05iLXNobGdJT3BmMzNxMEJxR1cyWVRkTG43U2R6bzRaRTJ5M01weW1HVjl1OUdkMWtuWTF1WTZrTEJzRUdIUGJWSEwySV9EdVN2VWN4NHlNZXNXd2RONWFVNWU4NlAydw?oc=5",
-"s": "Inkstick Media",
-"d": "2026-11-19T10:01+00:00"
-},
 {
 "t": "Eisenkot said planning vote on new government before mandate ends, even without majority",
 "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzdGYjdEajlDS1BPZzFjX1hWUHBwR3RHX29hb3dsMFhreGxTNV9tMDhHaDlWWkJhT1VFVklhLUYyNWU3NjdLRXBlNWVwVHdpSVphZmFYLWc1aFVRVmhjbHZ1MkJYR2lpck1QblI1RUt5ZzVNVG9LaXVTdHNiS2lLV3pMZFhRMXZadzdkcVpRelVKNVdiejlsZmxsOXFLX3pKTkhBVVNFX3ZucldyVjB6NU1OdS1pVjVNcHfSAb8BQVVfeXFMUHktUkpfOVRvN1lTT1VFdjUtc25oOHhydklJTEp5UERzR2lnUXNvVDBGZmpVT3hyYV9PNEtyWnJfRzRvTzVpX2U2VnZ1bkJrc0JfdnlyemRqdC1Jem1TNHAyMHN6NU1WRU8taXNQcG51cXZ4U1FtdXd4cm1ybFNrSW9mZW5HU3JCRHJWWDkzZXVLLXBOS0R3UktYMUF1YzFYdjFjZWk3a1NzVjZBUjZKVmJVcElMMFJvUFdsNWhXaEk?oc=5",
 "s": "The Times of Israel",
 "d": "2026-11-20T02:34+00:00"
+},
+{
+"t": "After Israel’s War on Gaza, a School Is No Longer Just a School",
+"u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVEtENm85eHA3VzNvTUVEMEJGcDRVQll5Ym9NOUZRY0E1WmNmbmFVRlh3U05iLXNobGdJT3BmMzNxMEJxR1cyWVRkTG43U2R6bzRaRTJ5M01weW1HVjl1OUdkMWtuWTF1WTZrTEJzRUdIUGJWSEwySV9EdVN2VWN4NHlNZXNXd2RONWFVNWU4NlAydw?oc=5",
+"s": "Inkstick Media",
+"d": "2026-11-19T10:01+00:00"
 },
 {
 "t": "Israel ends military operation in central Gaza, leaving destruction, damage",
@@ -594,10 +594,10 @@
 "d": "2026-11-20T03:38+00:00"
 },
 {
-"t": "Beyond The Ballot: What the Elections in Israel Mean for Gaza",
-"u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRm9XMlFWaE5LS0IybldKOXBmR2Q3d0tMaURXZ2p6SkZwMzZQZ3Ezak1qZG12b1VmcnBoOEVwZlFfUHpTeEZ4NUw4V0NBUXFOakxkT0ZMamZuQ2NyLXFncUh4WnpxRU5odEdlNG9OVVFSY2tNMTVmNVFFVFNwYjBDWkRXWkR6UVhON2NOOUNiNjd3VU10OExOQ1VvR3ozX0Ri?oc=5",
-"s": "Next Century Foundation",
-"d": "2026-11-19T22:07+00:00"
+"t": "Israel Election 2026 Live Updates: Eisenkot, Netanyahu race to build government",
+"u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5namgyRjNvdUtOMXFIUzlzeWh3Y2RjdFlQLTV1RGtaNXpoWF9NblB3STQ2T3M2cm5idVBpaWVfdGN1SGJlYl9LM0JiZ01kY3pQU3I2RmhrbThINjFuYmlJSldzWkVSVGtfSVRuMlZhb1Y5ejhzWmlfdDFHci1ZQQ?oc=5",
+"s": "The Jerusalem Post",
+"d": "2026-11-20T07:00+00:00"
 }
 ],
 "392": [
@@ -614,16 +614,16 @@
 "d": "2026-11-19T17:18+00:00"
 },
 {
+"t": "Thousands rally in Tokyo against Takaichi administration's policies",
+"u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWkN4c1VCR3preWdiZXJySVdETkdqazZzYTh4cDRfRTJfYUlmMHc4OFluZTZNbkxJUWNGT21lRlhaWE5ibVQxT2VZbzM0T1ZsMWFpX3dCTGUwNVRkem0xLXlRRnVIM2tONTZ2djk4RE1WdTJrUTJONzY1SmZoZ2lvZ3hB?oc=5",
+"s": "China Daily Global Edition",
+"d": "2026-11-20T06:40+00:00"
+},
+{
 "t": "Japan’s Kiuchi: Economy showing favorable signs as wages and prices rise steadily together",
 "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObllhRTlDeGVLZ2hmUS1jX3JySDRqRlVLdXZ0YXpKOUZYeVF1YnVPazFwandqMmZsQlpGU3Z5aGxZa01hMkJ4U1hJY0MxTjJkaWxOUXBrU2hGOXdIMWJISVdqVlA1QkwtVTF3bW9YdFRZcFpuU1E4Q01rS1ZlSG9WNHE0bHd2ek81RHg3RXphVTlrZFdQZl9VSmxNTFN6bVM5NG1FREFCSG8wMHJJS3VHTm0tU3hHYV9VVzAyaDNOV1VEOU54RWp3NG9rRQ?oc=5",
 "s": "FXStreet",
 "d": "2026-11-20T00:36+00:00"
-},
-{
-"t": "Japan's core inflation accelerates in October, cementing rate hike expectations",
-"u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWFVlZ2VrLUVHQkxQZUFqNjM2LXUwZXVvLWM0bTJYbkdILVhXZUduWlo2SXF5dExsVkl5Z0Y0SFlud3ExT0JiN0Vrb0FYLWVMRnNoR2Z1a25tdmNIQ1diVU10cTYwNXZRaVFXblN5cHpXazNtVkdXbW5QdTljdDZDVzBoNWh0Q2p3QkRwMjI1cC1pcXN0QkhCXzY5N0VkV2xGWkNodTR3eTA3LTlCWXBnNFdibk9xRTVWa280?oc=5",
-"s": "Reuters",
-"d": "2026-11-19T23:43+00:00"
 }
 ],
 "400": [
@@ -640,16 +640,16 @@
 "d": "2026-11-19T11:50+00:00"
 },
 {
+"t": "Stability ‘Key’ to Long-Term Investment in Jordan: Lavina CEO",
+"u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVFNDM1JYSVlhWFhUTnNXSWt3dUtKeUZGM2VxRE16SHJBMzU2OGtVVDEzT2tDWTg2Y1JlRnVneXctanJzSHEzQWdyYVhyZV81VHBtVTBRRWxHMkNqSVN3ZjkxNmFFelFsNzlVR0lJS3ZJcm9YQ1pYVlB6NXdiUmcxNEtZMjJSOF9yWFJMd2dOeEo4TWhoLVA3VGFuMk8?oc=5",
+"s": "Fana News -",
+"d": "2026-11-19T13:53+00:00"
+},
+{
 "t": "Jordan, EU Sign $190M In Grants, Agree On Framework For Up To $548M In Loans",
 "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTkloUFYwSUVWQXFmZ2dIZXdna0h1LVY0UUFaU0VCMEhsTU1hTUotZHRNeVdyaFMtQmdpdGg2NDhlSzdWakZ3bV9idzBKT2QzaTJnRkpxVFpWSDBpRzRORElkb3JxTlBLczdoV2V3b3VUTkx3UzNRTVQxSmxTUEJobFFiN28zNW40bTFQbXVIeXplTUtPVW9uS0syZkZpblN2V2oycURsRTU1blZraEZuai0xdzNOTnpXcnc?oc=5",
 "s": "Forbes Middle East",
 "d": "2026-11-19T21:06+00:00"
-},
-{
-"t": "World Bank's Bjerde Praises Jordan's Economic Resilience, Reform Momentum, Regional Role",
-"u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORTRNREZ0YlZaTm81d0x1YUg4NVpnVDJFVEc3Z2xDMjAwbXdYejN6YkpfaG5XSmhIZjh3a2lmN1llNGM4YzBxQnJnRk5RZW45SW1aOXZIMVU5QkFDWGd5TnVKaGdGcG85TUhPelQ5amdZblk4Mnp0aE5MYkU3d25LZlYyek1xTXVUYXdHenhvYnhUdE13WDdmZXd0U2tDWEhzQ3I4R2UxWVpSRmp5RGNtd2pNbmFoXzFBS3kzbzBOTQ?oc=5",
-"s": "Fana News -",
-"d": "2026-11-19T11:32+00:00"
 }
 ],
 "404": [
@@ -666,16 +666,16 @@
 "d": "2026-11-19T12:56+00:00"
 },
 {
-"t": "Economic Commission for Africa",
-"u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkRDWDhpVXFWMGQwVFZBcmxFLXppcmFiVHRrMnNZNTBndmFFdERMSE92TlpBTWZ6UlFRZ3JCYkotSkVKZ19LS2V1VkFfZTJlRlZ2ZU8wMGJrVGsxd1UxWk5QN0JQT1ZpWnU3Y3p0QlVxUjlXM2tYTDBUeDl3S2YwUkdBd3JCRFdWOW5vWXB0MUlhMnQxdmxCa3NGNmdqU0hQc1BpdkV0akV1WFJqcW9RekJyRHRkTDQ4?oc=5",
-"s": "Economic Commission for Africa (ECA)",
-"d": "2026-11-19T07:53+00:00"
+"t": "Kenya • EU selects French operator to manage its military support",
+"u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTU91U01KUFVLa3lQV0NZSjBmY2ttYU5FUVVYTlB5N1AtcEp0SklueFI1MThhejJJajd4WDZxQ2NrVzJWUkwybkg5QW42MXRTQUs5NkJvWDhyZjJDQVpIY1J6TU93cHpfUmxaWVUyYmFxbHFQODFjb18ya19VeDNXVEVDWHRKU1JwUEZRa1lzR1piWXJxV0dLZjJYVTV1MjFSY25wNkkwWlRCbWNaSkJVS25xX3lRZ0tYSVg1OVNMQXlvSG1ZbGw1b3RKMTZkbC1DOE9wWktsLXhFSTAtcGc?oc=5",
+"s": "Africa Intelligence",
+"d": "2026-11-20T05:41+00:00"
 },
 {
-"t": "UK Launches Kenya Platform to Connect Businesses With Investors",
-"u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OYWJtRnFIRnpsbDhnaGoyTmc3YUtwa0dpdHYyWGxQd1pyeTlQUzhHdFhRclhWYXRUVjlSMFMwNU9MYmE2Y2FvY2Z1SURwd0JqWXpaUC1RYWNFbWdaTXdzN0ZjN3o2LWN5Y19zX1lLdlY5cjMxRjlSd1BOdlAydw?oc=5",
-"s": "Mirage News",
-"d": "2026-11-19T12:58+00:00"
+"t": "Kenya picks consortium with Fishers firms for coastal minerals project",
+"u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbXhQN3I5RS1Zb2NPOExuVFZXZFFiSU5UREkyaklqUVR1YmJRNjg4dnIyclY4NWYwaDVfS3ZiczF5VDQtekpib3pHZmw1U0VqbW9rZjZKZzBfWnlIQXlCOTVVMm9qMHBhSnlhbE1KWHlRalYteXhFRVhzS0h3MHd1d3Jqc1E5cFFfNzVNc0p0Qk9XX195UEltbzFObEpvVXlDRFIyV2M2aURPZw?oc=5",
+"s": "WRTV",
+"d": "2026-11-20T04:23+00:00"
 }
 ],
 "408": [
@@ -686,22 +686,22 @@
 "d": "2026-11-20T03:03+00:00"
 },
 {
+"t": "Let’s see whether North Korea absorbs the experience it’s getting in Ukraine",
+"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc2o5RGFtYWZaMjd0WDE0NEJTWWJJYVZ3eXZSNUxTd0VGd3dXN3V6ZXIwTnZNbEN1akh2N2cxRkV3MzlJTUZEd1pnTjBYWmlzRnoycFNNd1IwMmFGa1RUMVdxaWRTa1EyQy1KYU5zWGh4SDRPM0VoNzFqMkM1X041bm44dFdIYVFReThJdW1HcWo4aGs2andEdEZpV25BNzBSMUpsaVlndzBPenEzS2c?oc=5",
+"s": "The Strategist | ASPI's analysis and commentary site",
+"d": "2026-11-20T04:20+00:00"
+},
+{
+"t": "The Inflation of Kim Yo Jong’s Statements",
+"u": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3TzRHRlBzT0R0andlX05maElJVGE0VUdGX0R1QzBvY0pHNVJJczhBZ2J1WldSYVBYMFhFcVJ2ZzAxeERKTnRub0Q3M0wyaXpxTDNTaXpFT25acmhkWFB1OGxQMnFYNmI2ZkJRcDRqLXBWYklXc1NaY2FMWVdvUQ?oc=5",
+"s": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+"d": "2026-11-20T04:19+00:00"
+},
+{
 "t": "EU establishes new sanctions office targeting Russia, North Korea",
 "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTVrTlJ1cW9NOE9RclNCd0hOYjBIck5kbWFyNlVDMk5pTHNZZ2ZuZnM5NndhT3RRdXZHVGJEakNnNDhZbV9nZnRPX09Cek9EY3RReGc5WGg3Z203R3dXVDFrb0g5bTRNVVFtdlpiZDYzLXUyWEJFQU54eTFhUlAtaC1oblNEVU45Yk8ycHhCZTl6UEFKd002NUVjazc?oc=5",
 "s": "NK News",
 "d": "2026-11-19T06:07+00:00"
-},
-{
-"t": "North Korea expanding uranium enrichment facility, UN nuclear watchdog says",
-"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd19ZRjF0c3NGcTZJYkV4aWZmbUR1My1adUJCY25yTmJMT0FJWG5JalhnQ2E0QUc1MERwdnhKeFJTLWIwSF9VWkI3Y0JMTklsREtJNEVqRmpld1JPdm04ZTlZQkxnUDZzaEF2R0xoUE5Rc1NaUHZlRDZESFlxWV9keE9kSVNqcENWYm8zaTVxdzhXTGVRdVhSbENsRmxzN1ZPYzlLTVFxVGV0NGpEMVZfaHJaaFZRRG_SAbwBQVVfeXFMT2hFWWRlYXl0WVptckRuSG05RWtDdVZIeVFRcmFRYkw2RDRtcGZyWVhWeC15TnJKYU5fb0NBbHVjUENoUUZ2OXRnRmU0ODN5VkcyUXZsY0hRY0lpcU5lMUtYVjliYUJuRjAtMzZ6UUFDYWZpb2hPLWU5T21FUlcxdmlMTWZNTDdBXzVRWHhuNHdNY0hHQUFyMjd3cmgyLUNGbkE3VWVsTlZBcWh0MEZVd0c5Q3ZXaHp3Wm5OUGs?oc=5",
-"s": "Al Jazeera",
-"d": "2026-11-19T09:18+00:00"
-},
-{
-"t": "At APEC, Lee Urges Asia-Pacific Leaders to Back Talks With North Korea",
-"u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT2t3NmhfMnRHMWV6Z2dBRFMwbjF0LVRiWWtaNVV6YlFYTHZmczlYLVRwTkFiQUFYZnZ3cENUeXNwR3FqOUJEUWJsRGpsVkVYTXJsZlJMTWZqeVE3S1VkT2c4cEYyNFhSczhCeERfckJtQ1B4U1hFRnhVUzl6Q1R0enJacl9mQk1fTXRNU1NkcDI2b3VocE5VWUZSWWlfVnZPTmV4SA?oc=5",
-"s": "The Diplomat – Asia-Pacific Current Affairs Magazine",
-"d": "2026-11-19T14:14+00:00"
 }
 ],
 "410": [
@@ -712,36 +712,36 @@
 "d": "2026-11-20T01:30+00:00"
 },
 {
+"t": "South Korea regains top spot in UN e-government survey",
+"u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWkk2bW43bllkb2E3WlU4aF9DeGdNX0MwQVgxOGJiVGhHeDk3VF9KNGNSZ043STJsVElkUTJOUm1tVnQtc1lxWGYxSFJuSVNPbUd6TDA4WWNELXptV1BqLWF3a0t5NzZ6d3p1OVptMjFveXBGMDZfR3RtVmZ2NExLMHpDUnd3UW9meElKTDllSmJkUV9uZ2prVUctb3FPUG9hSE1OYU9uQnhjdw?oc=5",
+"s": "Korea JoongAng Daily",
+"d": "2026-11-20T05:56+00:00"
+},
+{
 "t": "Is South Korea slowly moving towards Russia?",
 "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3huLXRYYmdUMDFWYUtWTkZ5TFRoMlRGcnB3YWJWM0owTTY4b3NfREJNa09BWkJRa3BJeEZ2Z21PTE1YMmNxbjZlWE4xbHVRaFNzaXByM1RCUkRKbDNnYkhxeFgySENBNkMwcU9ha3E2SW1VbmxtbDZ6bHdBMzRwamE0b1ZYLUZYdFBBQ2JDR2Z4TkpReGNEalFHZlQ?oc=5",
 "s": "PubAffairs Bruxelles",
 "d": "2026-11-19T10:48+00:00"
 },
 {
-"t": "Late actor likely to be stripped of state honor over alleged link to N. Korea in Korean War",
-"u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORUc3S0FCU0hNcmZ4RmhRMnd5S0pzU0xlNnZDUnBaVVFfUUo0STNzOVRZNmpCR3F0WV9ic3J2MWpwTzFqN0NpX1hYZmptdUtiZGVNam90aXVYOWZhQ2pXMUpwcmNoNHlGbUJhUWFtbnZCTlA3ZmpLVnlwVFpydXNvS2pkdjRuUkFLLXl1dkpMUEVTeTlMbGVTZjUxV3BvNEg2T202eWh2c2JwZWVpZkUyZjAzQ1RDSlhHby1GZmM4UndEb2pHLUpsUVV5NkFRYnhvYl9oWUtiVnZKMG5UVVZGVdIB5gFBVV95cUxPLXVYQ2g5UWVCbUdJWmFVWFlTd3RGZGtnWTdZc3VoTUY2czBrXzZQVUNqaWxzd2ROaFk2ME4wRVZaanUyTG9ZTVlmRE9tNkNjQ0lFTk40ZjNScWxkdHpRakhTdW5wWEpnejZKRDZ5cElCMV96amFUX3dUOEYxUDI1X0p6MFVJTUFvZ254eXZCdHlHNzJfUkMwLXVHT1ZZYXpQWVJGbGM3RS1RXzRiM0xjQU1BbjNGSE9CVUV0MERySmE0QnItSTVnTlFHNEpGcllhUVpldmc3MmFtOTBVYmxZNGRHc2wtZw?oc=5",
-"s": "The Korea Times",
-"d": "2026-11-20T03:37+00:00"
-},
-{
-"t": "South Korea’s high-stakes university exams upended by AI cheating scandal",
-"u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYXB1QXdiejZGZmxwSzk1ZHZMVS1NbE9CV0JkUHVxS0pEQTd3MlluNEN3eEdrcThRaHNra0JBM0x5RjZoR2VmcnZKOV9sUEZnRnRBOExWU2t2WHFNeHFTV0pnZDlXMDVGT0JVVUJqTFpUNE80R0NmTTdocWxVX0lGMjhxWUtSSG5Xbm9QaGpkWDI4NW42V2h3QkxZVW5sX1RMTTdySzd3?oc=5",
-"s": "The Guardian",
-"d": "2026-11-19T06:54+00:00"
+"t": "S Korea oil industry body urges end to price cap amid weak exports",
+"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3M4YS1SU2pVTTAtT2JFS0dXVWRTTXAzUlV3LS1fN29BN1p3SjFCZlhRenlxRUphQW5qMFRiNTBfZG16NGx3cmlEZldoLTlGaktaYWdleXFKTm10bGt5VUsyNjJIdmx0dXNubS02Si1DU0pBc3hHN3FFd2p2Q1YzM2N0ajZoMHl2ZGUxS2hIem44dXZMMmRObkxzTklpUTQxcElqTkxJZkRZaVBJWEE?oc=5",
+"s": "Quantum Commodity Intelligence",
+"d": "2026-11-20T07:34+00:00"
 }
 ],
 "414": [
-{
-"t": "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait",
-"u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcGVKcXlHY1EycS1qaFBrcVduLWwzS1B4RmhJeDg5eFlxR0FIeVNFclFqZVczdXFBVGVLa0xpcHZXZkVWa3JEeHJxVXA5YWxVa3YtejhlaHd1T1JmWDd1NHp3V1E1SEdsS0tkOEc2bVpZNER2elNveGdNTk9xanNjSDZZM2NwSXhULUVPSk84TW1JRFJUbkRRZVBYN2JHd0NnQkYxN0hhVDhVaVYzUEtlTGUwUUpuZw?oc=5",
-"s": "WSJ",
-"d": "2026-11-20T03:10+00:00"
-},
 {
 "t": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
 "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTa1F2RExCTGE2dGZ5eTN2YlZzRnNyQk5WUjAxT1lFNEg5NHd5c09VZTdTZmhvaXNsTW9GNzIwX3dqTDNDV19xazJtSFIxeHFzeFhCRXRZa3NRQm51eVE?oc=5",
 "s": "BBC",
 "d": "2026-11-18T13:04+00:00"
+},
+{
+"t": "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait",
+"u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcGVKcXlHY1EycS1qaFBrcVduLWwzS1B4RmhJeDg5eFlxR0FIeVNFclFqZVczdXFBVGVLa0xpcHZXZkVWa3JEeHJxVXA5YWxVa3YtejhlaHd1T1JmWDd1NHp3V1E1SEdsS0tkOEc2bVpZNER2elNveGdNTk9xanNjSDZZM2NwSXhULUVPSk84TW1JRFJUbkRRZVBYN2JHd0NnQkYxN0hhVDhVaVYzUEtlTGUwUUpuZw?oc=5",
+"s": "WSJ",
+"d": "2026-11-18T14:56+00:00"
 },
 {
 "t": "Kuwait and Bahrain Report New Aerial Security Incidents",
@@ -750,13 +750,25 @@
 "d": "2026-11-19T10:51+00:00"
 },
 {
-"t": "Iranian army says drone strikes targeted US installations at Kuwait air base",
-"u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUmMydHlnY3lrT0toOWpGbWVzNjRXWTRVaDNsMFZSNDA3X05MUnF3MElyWGIxb0xOZmJBaUdzU2U3R05HSEtxQ3pVaDNhdFFiSlIxeTBDcS1oZ3p5Q0dlMW42c2RONFZQc2FTMWluR0pBZnR3UDJ6ZVFKZmdOMzJFUm4weUhJdTRDaE00NzZIZFk0SDVCZGlWQXhhSTZoSFBfMFBfbGhDLVJsTlNHMk1qVTRvQThZdzRHeHQ4c2Jn?oc=5",
-"s": "Anadolu Ajansı",
-"d": "2026-11-18T04:38+00:00"
+"t": "Iran attacks Bahrain and Kuwait",
+"u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT1JWOHdic1lhZUpJWGtqZEkwT2hWX3VDWTJMS3lDb0pjWXNzVlZLOHpsYlNLbWhSM2FNaVNZalJiVUN4ZVpYRU1BbnNpcG93U21qSnAyYThGQ3kyZW00RkFYSVMxUmtjZEJheFB1UTJnQm0tMVY2cDhNc1pIbm55ekswOFA?oc=5",
+"s": "Financial Times",
+"d": "2026-11-18T09:13+00:00"
 }
 ],
 "422": [
+{
+"t": "Israeli strikes on Lebanon, a missile attack on Riyadh, and fires on tankers – the main news from the Middle East",
+"u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSWlXVnFMSDVxeXZFZmtRc2dweUVka09WLWtVNG5yVmk4aUt5S2M3VUE2Sm1nOEEzaFRGdm5UcENRUU9Ta3haTWZta0s5YWlvb0xySmMyY0p3QlBhWUx1bXR5V2tmcXZZdWxWR0JRUXEwNWp1SzMwM0NtTV8tX0NVLWUwNlBLZG5lNDVnS1lGUWNuWE9KREh0ckNGbjY2dERPeTlKeDFnQUZ3YjE3UXhWTDY5OVhpRUUtZmdsUjZqZzUxSUFuay1HY29fbE3SAcsBQVVfeXFMUExaSU5vcWxFMkozQWZhNHNzb0NZTHRhQmhEaUx6Q19GYTRaa1NuOC1BZjVuVDBBbGl2UENodzZWU2RuZkh4d2VJMkJ2LTQ3bEtkUUN1OVFpNDJzd09mOVlLdC1aSEV1NEo1dWloSVF2YUlwNFg3YkMwbWlya0Exang2a3pnZW1ycUdnSlJ3NDRwcmdpeF83b1B3ZlV4UzBaSTRkNTVMTFRTbGVOMm5tTld4TjRoalFkQ01RSlJuOUJ2cUxBNFprMzM3SG8?oc=5",
+"s": "Українські Національні Новини (УНН)",
+"d": "2026-11-20T06:00+00:00"
+},
+{
+"t": "Lebanon caught in crossfire of Hezbollah disarmament and Israeli occupation",
+"u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR1hVQ1gwMUItSFZUM3pQRjBwcnZSWWl1UllrbTlxWVB4WkRwb1lYaS0zQklYb1FKbWdFdkcyNHlhY0IzdzBCRDRkWjF4RXFyY0pzRUs1cjZrR1QyZmJnNEktbFI5T1Jsd0llYm56TFdqZ3NmcVJFTFgxVTlGbjRIM0FqNnIxckRLQWYzOWxGRmNWV1JuM05MVUd4NWQtajBMMXdncE4tNEFzbXprODFYdG8xS0ZrdGZNb19zOA?oc=5",
+"s": "Arab News",
+"d": "2026-11-20T06:45+00:00"
+},
 {
 "t": "US Sanctions Charity Over Hezbollah Links in Southern Lebanon",
 "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRmpyMUZDRUplamhzQ1ZDVGNDZ3dvd0syVlF5cG1PY2U4di1ubEdaVUU1bjFOVklsZ1RXYjlmQ0JWRlJ1SG9PUkFTRk9PLVEtUmVKZFFWS25ESUtObTNlYkU1MEJjZHdqcmxTVFkzSFJvNU1nNXBZQU9aQ01QYTRwM2Z2R1JVMkRaWjc1dHN3cEtqSUwtZ29Qel9nVWR6elFSUVo3S2IwTTJKU2lYSXNwVA?oc=5",
@@ -768,18 +780,6 @@
 "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQjFfQ2R1STVJUkt4OEVFNGg1Ti1CMmdPSFdPSzQ3MndpNm1qbzQ1Y3ZvSHRwRUM2bU9jUkZPd2hZR1VQdThmZkNtbVk0bFNjUmd4S0NyU2N1SXNMTTdERTdsNDgxSFc4V2xiaUZReUhVaE9TTGNCTW9NenNSSmlUSlVFSzNEaUprVnlYMGltbXhvQWJM0gGaAUFVX3lxTE8tODFYM2RzSi03Tmlyb3RpY0tjUjRZVzF1bE1IV1ZfUUNiV1J1X2I1bGFWTlBsZ2VKR253dk0yamQ4cF93T19XdTJGbUV4QW1NZ0RmTWFZSmpiTkE0SXV1OVB6RTJIWGVvVXFtZmZUOXRZZ2dqWmNIS0ZVUU9VUE4zZ3JmSk9xcjJXT0hUZTVoNkFjc25Va096U3c?oc=5",
 "s": "The New Arab",
 "d": "2026-11-19T16:55+00:00"
-},
-{
-"t": "A geography of hearts: Turkiye and Lebanon, building the Levant together",
-"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeUhOWFhNWUgwc3VQSVNNcy0yUWJXUm1oUXlOUExmT253WGR0NDZHaVVEZU1FRmRMbVFiMVdCRXlSbWpzMTFwY0RoMUV4blZXd2FLWmVsZERsb3pvN0VnN1UyUExFUWpqbmN3S0taWU9mZ2VzbzJQWEtpdGY5UVVwSGxTMDQzMGhTM0o3TGFFT2lGOHhyWlAyUG45OUxmZUNhWlpzZW00R0sxVDN4eGxydF91bXdTUVHSAbwBQVVfeXFMTUlZUVRCcExxN1FKUmsxSkFjOWlLQmtZaG04cFhiVnBKN0dwc0sxd0hmbzh3Z0FKV1N6bkVreEJfN3dkb2ZyMzd6UGVjQ1JpT19JZk1SWXhEd3BZcmFTSUg5OTZOWGhwUS1FM0ppbWliMTdZejRSQ29UTkN2N0hQU216Vy1zZnN2LVZWUXpiWjZlNDllUkR2OW45N0xQTDBYOTYyNFExclBqYWRDMERvR3ZFWlVqRlp1TkRaZjU?oc=5",
-"s": "Al Jazeera",
-"d": "2026-11-19T14:50+00:00"
-},
-{
-"t": "Israel says struck Hezbollah weapons site in east Lebanon",
-"u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdGYwU0tKd3JsV1JmTDZDSWk2SXRvNlNvcTRpTVl4RjI0OERGeUtNcXc0UEdZNURSc0tMT2JnaUVkMHFQdkZ4bURfZFJFeXZwVWFVUm1IRk5yRmlMWUUyc1pWZE41NzUwaHl2b1l6TjBqXzV5cFFGMEpQaEVDLXl1eGRCS0NKR3BtVHI2cTdoUS14Y0RHWUZSVWp6b2dIQlB2SVZ0Vw?oc=5",
-"s": "Arab News",
-"d": "2026-11-19T19:49+00:00"
 }
 ],
 "434": [
@@ -802,10 +802,10 @@
 "d": "2026-11-19T20:27+00:00"
 },
 {
-"t": "Egypt and Libya Sign Natural Gas Infrastructure, Refining MoUs",
-"u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXNEVFNFVk5UTF9qTzZCUldVb2FwODREcnRoVTQ1OVZVaUE2XzhCbWdfeUlpZ3o0c3Y4LXJyS09NSFFzall5MUZCQ2t6bFdzdmM1aGFueVhFeTRhZHo1QlR6SXJoOW5HWEYwZHFVSHV5VlNhSXphazR3dmZDNEJzY09jN3EtWEdNRGtrbURwTFpLdlpmakhr?oc=5",
-"s": "Egypt Oil & Gas",
-"d": "2026-11-19T13:39+00:00"
+"t": "Egypt and Libya sign nine deals as El Sisi hosts Dbeibah in Cairo",
+"u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdUQwTXR6ZkNQRmFaLS0zX2JBRF9xU0lWZmV1UkljVUxQbGdiOFhNOUVEWlpEYUNDZVFwSzFDYVRZNlp3VGVZc25DSTVyRmRjT0V4U05jNXZCRFpjMlJVQXdlTTBuU3Z1empyVEN4N0RhUWRObW5aN01XTC12d0l0aUhFS1BLNnRQSXdQWkxOSjV1SEtwQzRzYVlneXFCZnEyeHJCeHJCbHBpOW8wZUJ3RU5iOG9FZXRZRU1ObFhxemJPQQ?oc=5",
+"s": "The National",
+"d": "2026-11-19T15:08+00:00"
 }
 ],
 "466": [
@@ -862,6 +862,12 @@
 ],
 "498": [
 {
+"t": "Moldova summons Russia’s envoy over multiple drone incursions",
+"u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU1NRLURiTlVfdXNpQW15VlpKVkp5SnJIRWVvNzZXZF9qdTlUU1FPX2RyQ3l2ZXhkWl9kNjdvblhEZy1VbFRkeFhzMEVncGNPdjlZTUlIaU5LdjgwbHZnVVZ0VmJsbGd4UWFaa3hZV2l1c0ZqM2JUeS1sRm9KMWpudXNfRFVzeGJULWpn?oc=5",
+"s": "POLITICO.eu",
+"d": "2026-11-18T12:57+00:00"
+},
+{
 "t": "Moldova protests to Russia over intense airspace violations by military drones",
 "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY09pQUdtUXp6MGxxUmp0RnFBXzBkOTVFU2JMM3h1UG9MTUJDaTBSRUNrc2NKSzZmRXZCWERHV0trdW1HNUZvWkYzdGV2emE3RHVBMC1BVmN5RU1Wa3R0Nkc5ZGJLNXNnTDh0UFVoRFE3aGVsYTB3MnBJSmtJaWVXMHV2YlBhQ1BaN3YxMjhOazlWdEFzblJVZWFaSVFSMTIzN2R3dC1tR2Yxd3VPaTFzYVM2UEw?oc=5",
 "s": "IntelliNews",
@@ -872,12 +878,6 @@
 "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZUNrNTVTUkl3NkZiVXpNZmFWNTFfVW52RHNLTFVDSUZFVm1DV1dJWXpuWG8yaTZYSDUyUXhTUVB3TlJjUFFWb1h0MldySGZNajlnaHdEalNrcU5ZY1RoUDFnazllYU1QQ3JXLVR4Um9JaGNqZWJwOGtNTDBQRVVlaTE5TU5wSERaMHNZM25ueVNQMWtkb1psTTRvRXlJUURoNXBWR09tdFMtLTA?oc=5",
 "s": "The Kyiv Independent",
 "d": "2026-11-19T15:27+00:00"
-},
-{
-"t": "Moldova summons Russia’s envoy over multiple drone incursions",
-"u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU1NRLURiTlVfdXNpQW15VlpKVkp5SnJIRWVvNzZXZF9qdTlUU1FPX2RyQ3l2ZXhkWl9kNjdvblhEZy1VbFRkeFhzMEVncGNPdjlZTUlIaU5LdjgwbHZnVVZ0VmJsbGd4UWFaa3hZV2l1c0ZqM2JUeS1sRm9KMWpudXNfRFVzeGJULWpn?oc=5",
-"s": "POLITICO.eu",
-"d": "2026-11-18T12:57+00:00"
 },
 {
 "t": "Moldova to eliminate 0.5% tax on construction investments",
@@ -906,10 +906,10 @@
 "d": "2026-11-20T02:34+00:00"
 },
 {
-"t": "Qatar and Oman Run US-Iran Channel That Excludes Saudi Arabia",
-"u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jcV9RdVRHd3JvTUZCcndydnlfaEJGN2RKMDc1dEN6bFJYSXo2dkZSVnBGUm5qTU5tc0pxam5vaE5NVUF1RHAxVnp1d1hZWUsyQjUyQVlsMjBKT3BwWFZscjY4VXdtMEEzZ1JnRlNB?oc=5",
-"s": "https://houseofsaud.com/",
-"d": "2026-11-19T09:52+00:00"
+"t": "Jordan coordinates with UAE and Oman in search for missing sailor",
+"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRzhBcUJRVllmZW5qLV95elA4OTZ5VGF5WkFZMTBXR0NfU1lUVkUySGRhRS1TQ3FUSUNrcFlNNlB0RnFucTV1Q3NrYy1xempmT3hkb0JLYlh4NlM4Q1U3SVEtWW85ZDB3TGtFcnc4WF92ZVpYeUg0X1QydWhjSlZ3WTczNzNlMko0X0Q2QXBKMXE5dHNUc2Q0SUM1QlIwVkFKZTNYN3duWFVzQzh6T1Br?oc=5",
+"s": "Arab News",
+"d": "2026-11-19T15:44+00:00"
 }
 ],
 "562": [
@@ -932,10 +932,10 @@
 "d": "2026-11-19T15:07+00:00"
 },
 {
-"t": "Tinubu: Back Tompolo, Wike, Akpabio to get more derivation, Eradiri tells Niger Delta",
-"u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOblVFUlJDbE50UGc0bnlUWlBHUFBseVkyWUlzZ3VkeGhRWjlvXzVhYUFKVkJrWXRxdFdpNENZOW5zZkpMWEM2SmNETXFyWVIyMGJYWXRXdGo5Q1k2em1QcDBlVFIyUi1lWWhPcEVFWWd3cDFmQmM3aW9wdTF0OEltTHctcXpSZkRLU09salZhNmY3YzkwNHNuRndnbG5FUEp4Vmc?oc=5",
-"s": "The Sun Nigeria",
-"d": "2026-11-19T18:47+00:00"
+"t": "37 Niger Miners' Deaths: Senate Demands Expedited Report Implementation, Sanctions On Errant NSCDC Officers",
+"u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZmladTRoUkstYS02bVpOWHRvWDc3b2lIQjlOS2FGNThwUWtRWWFXMGhwbng2UzhZdkNBVjM2VkpUbWQwT0x3aXRjdnZUcjQtdDJkTlp6aFQ1bGNFeV9uUVRBZzFjVWsxS0FDRHlEX05CQmlQYVFDdEd4T2VkbnYyOVpXOEpmSGNibm1RRE03ekpUdEdtMk1RZTlaZWFnbWlvUTFleXFVZG9LbnJETWVtM2tUbXg5NFE2RXQtSFE4SWFZREJLdURZWG5QWnNIUlVNS0RmTTlDYnlZWU0?oc=5",
+"s": "Channels Television",
+"d": "2026-11-18T17:08+00:00"
 }
 ],
 "566": [
@@ -958,10 +958,10 @@
 "d": "2026-11-19T08:14+00:00"
 },
 {
-"t": "Could state police help Nigeria tackle its security challenges?",
-"u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DWjBmeGl5MXJnSzk3dklONUlwZmdEVXBtMksyamlldnpXeHp4bl94ckFjSjRmMmdUc1pOd2FvQjJxNVdhWllMLTh3WnFpNHdtcjJxd25CUWlPODA?oc=5",
-"s": "BBC",
-"d": "2026-11-18T07:45+00:00"
+"t": "Axe-wielding gangs and deadly attacks: Nigeria's election violence escalates ahead of 2027 election",
+"u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPczBzTEdubmFkYnptaXQzcEJSX1pYN1ZtWmxucF8wQmVJR2VGY01Wclhrc0VyMW1uOVJhVTRiakI2X0cyN2NVME90YnhIbVBLMXBvNDJSdjVOUmxMWllxQ29mSkVNQ1h2X0EwVWhFcjRfQURGTEVrSmVjcmFSTUdtcDhPWlFWeWJJejVCX2t0czdXSDBtbFp2bzFBTWnSAZwBQVVfeXFMTjJ6WVBCX3R4Y2VUcGRXT1lGWWlCZWMzWVJjdmdGWmc5dzhyWnVKOVZIazIybVJUX0p2bmhOZG01dWRQZVptVi1lVC1ZaW9JUlhNNnRBZjdSbERWck1tRjBENGRLVWs2ZkNpVGtYaUtfUjlKOVZMSkVDMXBwTldnY2ExU3JuQmFXdHMwcnRmLU5yMlJ3SWM1V2NidGFu?oc=5",
+"s": "DW.com",
+"d": "2026-11-19T10:49+00:00"
 }
 ],
 "586": [
@@ -970,6 +970,12 @@
 "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYnJ1c0kzUjI2RFRzdEhWVFVYcl9RV0VKMXpHTXZZdmIyMHNudlc1XzI4RERRSjgzOG1qcUxsTkdyQmxvRnRhbFVLQzZIYVkwTGU0TGhWZGV6ZG5RUWV6Ui0zLXRGd2llbFRZV3RjSjJ2cHhyaTUxdTJVQnRiV0NLMlc3Uy1Ib3JZTXhfbGJ3b0JfOTdTYlV5VXZVZnRkLTA?oc=5",
 "s": "ASEAN Main Portal",
 "d": "2026-11-19T14:50+00:00"
+},
+{
+"t": "Pakistan Minister Makes Rare India Visit for Regional Forum",
+"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZnpsMm5HWDg4Yk54aHJWcGFYelNMeGtaRmhsTDZQNkEtY080WTBldjVLZ0dONHI3MXViMVh5c28wX1dhQ005Y2xWbElTbmY5Zm8wS1JMSEdnamZPM3VzQWlkdmJXQmFXSXI3SnIxcmdsQVItUWdocFY5dGFBZGRPdTRvTUNmN2I5WERTYThDUk05VmhBcEVpSWNKaU1jQm5DRE9YaEw3bmpyZGdMS0lV?oc=5",
+"s": "Bloomberg.com",
+"d": "2026-11-20T04:32+00:00"
 },
 {
 "t": "Pakistan military says it killed 22 militants in raids on hideouts in northwest",
@@ -982,12 +988,6 @@
 "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWg4a2c5TDFXb1F2VjJnX1JUUnZCNlM1WGJ1bjFaWmY5NGVoSF9YQzZweER4eGFXT3VHREtnUTBxSlU4MEZpbzNWS2pHZ2JNR2VVQkotSUkxRFc4NzBtYk9ReXdZY1Z6NTV5YzJZX29IWE1UX0l2RkItU2NpaEhIRjR1a0Y?oc=5",
 "s": "Financial Times",
 "d": "2026-11-20T01:30+00:00"
-},
-{
-"t": "Pakistan minister is set to make a rare visit to India for a SCO meeting, but no breakthrough is expected",
-"u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUHQ3bFRheG5xN0I2X3ItWjNiZkUtajNpNmtXb0RjTFhmU0xIS3pKYUJNbmIwdVd3eFVvSjluMFI5cE9GdFdYQnFGZlZ0dGgzY0c2M2daMk94cTAzbXBSTm5BbFVvVVBlVUhaenJUbjZKVDFpZnFqdmhOV2NqTGNteS1teVg4YkRvRnNLYUtKYVRVZjFDOTBxa2l30gGaAUFVX3lxTE13aWxrUGpsVnl3NVV4cUxxcTFwcTdjWmxOUzlvTVRtSkRPX3ZOUVF6c0ZSc3k1RnY3TkdER0xGdnkxMzYxNm4xcGVpaWw1WnNMZkdlRzluZllyVE5CVkNIU3o2ZERzMVBteDhzZm9YcmNTZkZWbmZ6X0VGMGxXWlpEQzhkbmpmcDJpZHlRZFBLc0NEd1RoeWJiUWc?oc=5",
-"s": "DW.com",
-"d": "2026-11-19T13:58+00:00"
 }
 ],
 "604": [
@@ -998,22 +998,22 @@
 "d": "2026-11-19T12:58+00:00"
 },
 {
+"t": "Peru's inflation reaches a 38-month high as fuel prices surge and El Niño threatens food supplies",
+"u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZkIwUFFYb0VxWDB3T2diVjFsS2ZrUHdWTEpwTzZNTG5YYVp3QjdyM0dQazNSa3pEMTdwMWl4Z2NrSUE2TVdyLVNzNE5yUTB3bl9keGY3YzZ1Z1hfeWNxWXR5Y2xIaXIycTh3NkZscEtkZ24yNXBKbFgzOEVHZHRISlpYRmZrQQ?oc=5",
+"s": "Latin Times",
+"d": "2026-11-20T05:23+00:00"
+},
+{
 "t": "Thailand, Peru sign full FTA in Shenzhen",
 "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WZU9wbjAtTGxHUGlSR1ZPbW9yVU0xMk5PY3FnVC1NY0k4bmhmcjBRT2FUYUJwSUNYcUdlVmdINjdBVVJFVU1GWmRwSnAtWVJIWFE5SG1B?oc=5",
 "s": "Thai PBS World",
 "d": "2026-11-19T10:26+00:00"
 },
 {
-"t": "Peru’s environment minister urges developed nations to boost climate financing at COP31 amid El Nino threat",
-"u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQmtZSUgzUXFNa1c5SWdSa0E4a2xhdFhJR011YllDSlhUd0hsU3dBb0N2cWQzblpSREM4QUkwOFlSQnlJSUl4NkEyYVA1NHkyUFJpSWpVaHBXTzk0VHF0eDNZV25VajRpN2ZJaEgxazl3enc5eTFBNXNhcjJZM3N3ck9DUVBaTFlvUk90ZlFyemQwX0xxOEc4WmJJSUhjZXd3YUJ0cWhCT3ZTS2YxTUJVdVlPbXh4T0NxbDRrWUZkLVkwVWY4bjdXYk1mMDQ5bXRZZzIwaG5ZbWMwQ0J5ZlJwdU1n?oc=5",
-"s": "Anadolu Ajansı",
-"d": "2026-11-18T06:55+00:00"
-},
-{
-"t": "Japan and Peru: More than 150 Years of Diplomatic Ties",
-"u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZUVFCeTRyVUVacU1VcEczZXNhU2hGQXV1YTZjUTF5TTR6UlI4UVg2NG9JTmdrdUlsNWQzM1F5ckhWenc3RmdsS1Jpa2hZNHhBRXFBcQ?oc=5",
-"s": "Nippon.com",
-"d": "2026-11-18T20:59+00:00"
+"t": "Peru blocks the protection of 'uncontacted' Indigenous peoples' territory",
+"u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNENibDI2SGpObENqZkthZ3VZVHB5X3NSTWVDZDlNY3E1ZmwybzJRNGIzM3g1eExEYVJ6Zi1RYV9OYjg4SERsVFRaaG1TSFNiRjFPR254Y25uOGoxZ0hrNjZCWjJXZm03dFRXSjRRSGFrbVpET21KU010eTY4akQybE1FWDY3ZzBpZldQS2JFWUlTaG9nV2d6a3JrdncxMm1IV2ZpZDdOc1JXQQ?oc=5",
+"s": "National Indigenous Times",
+"d": "2026-11-20T05:00+00:00"
 }
 ],
 "608": [
@@ -1031,15 +1031,15 @@
 },
 {
 "t": "Philippines: Journalists arrested while covering Manila protest",
-"u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN1hqUXFod25qYUdpWXpnVE81OTN2VGp6QkRJaUEtUXhLN0pEaVdfX3BKb1haUkJCNnl3cHBkUElSeDA2NlJkM3MzX1hYMDNSeW5sSTNfc1ZFSHhRbGtfQWFtd0RNZ0JoYldZLWtzeU9aVzA0TTNBSFJTWjMtaktldTZKajBqWTkxOVVBdjJiYm83RElvcFU0a2pSY0NPLUYxZ21qR1hyVk9WVXZtcjFwMzdXMWlvbzBFOWJrQ09jWlZSQk5BMXFKc0lVT1VhZ3BjU2FIZl9B?oc=5",
+"u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTlBTN3d2aVpGMGNVeGNRSlpJQ3htWHUyZ2hydkYzc3l5a2xQNzI0ZlpKSTM4NUJ5X3NzUkNKdzBrSGxEcGJUeWFXOEZ0WXF3c3V2RklJLUdjVjRDV0QweW9mbUVaT1lnS3JNN0NnVVRGZDVhZzJSeS02dW5LLWktSTNsakxTQ1VJdmdURlBaWkFZbEhoaXNhamdBTkJCSGlUaDNSR0Q4ejhpUzctOHcxamUtVjE0bG14ODR4dlMzam1GcjI0aXV0WFNCcXk4eEk?oc=5",
 "s": "International Federation of Journalists - IFJ",
-"d": "2026-11-19T06:46+00:00"
+"d": "2026-11-19T08:37+00:00"
 },
 {
-"t": "Pax Silica is the new face of US imperialism in the Philippines",
-"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeUl2bm11QUU5S2hWdFpGWTNjeFJHelZBZndZeGVLbzNoR2VWdkUyMHFIWk5DUmJxRFMwNGc3Q3ZHdXJBYXJwS0x0Sm0yUmNUT0EzYlJUMmZxaGh3cVNFRF90TTdYSmUwYUdiVk5qYTJxa2JreVlURVRHMGhBSlpPUUR5dXNKY25jcG1TdVNKdzJZazAyUHJjU1djQ2VxWjZWaXdJOVdBTzdIOFI2dVHSAbMBQVVfeXFMTWJOZ3YzdEY4NmVzVDJac19ydlh2X1lVeW9pZ3RlU3l1VE95ZnUxQmRGdGcwdVNiWnptQ1dZSGhzTDhRRm5uc050dHd6WTFZTTl2T0Y2eWtlY2I2eV9fenJCUkRRV2lnWlhndVE3U2stVk1RN2ZJdFk1bGoza1pQQUwzYTVyd0tZWVpUMTB5T0g5UnpNc0V6RmNBcnpTdFJTeGNYazZ6V2ViZXExYlNYRUNfaUU?oc=5",
-"s": "Al Jazeera",
-"d": "2026-11-18T15:59+00:00"
+"t": "WATCH: President Ferdinand R. Marcos Jr. says he is optimistic that Philippines-China relations will improve after his lengthy conversation with Chinese Foreign Minister Wang Yi at",
+"u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQ2h2d2NnVWtLckVGSm5DNjE2MF85Z21aWTlHdzMyanpJVjZaa0lZNkF5MG5hYU0wTmpFeDdhUFRTUXFrQm1CcFpfVm5Wbk50U1BwX3hJYmtTN3NBV01vLXB4dUJCeS1OR3ZqQnpaWjB5cnRITUxGeVRLeVF0UE9pZmxvb1oxSkFvakI5bGVHV1JvMGJLNE9WT1F3WVRQMHdrLW9rb21IVExjakhNQXNVaVQwLUlBb0VmS0RSaUVJeGxmNjlxXzczTkxIWHQ3anl4cWMyeg?oc=5",
+"s": "Facebook",
+"d": "2026-11-20T06:21+00:00"
 }
 ],
 "616": [
@@ -1056,16 +1056,16 @@
 "d": "2026-11-19T10:10+00:00"
 },
 {
+"t": "European troops from 11 countries drill in Poland for a potential postwar Ukraine mission",
+"u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWkVRbmRJZ3lVQWpQX2dUU01mNVNzRlV6OWxtUmRoM0ZQb2FyMnQ3VEVaYlZhOHJhM2lEUGs1T0RaZzI4M3A5S3Q0dXF6LXoyMFo1aGprXzAxT2VCYmJGUkNNYXRwU1gzS0hHa0ZqVm0yWE1OaC1KZ01qczZJaU16bUU2TnFZQ1VGRkYtLW1SdGs1RnUxeXFjWk5JNnJJMWdjR1Roc0FaRzVHV0xpX0Z0U21DYk4yTWFXc05rVVpLdHNnX25VNi1UZ0t3NDVhQjV6d05fR2NVRXN3dmhLWDNNVmFRTQ?oc=5",
+"s": "The Washington Post",
+"d": "2026-11-20T06:19+00:00"
+},
+{
 "t": "Egypt turns to Poland as it explores government-brokered wheat deals",
 "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR1h1ak13amVnOEJMTE8xNTUtdnIzT1NHZUQtYzJTS1VhaW85Sjg1aGVqVnAyckRsTzRUbjFmZ0tjMHdjdlZlVnRQNXNnSW85SXFkbk1nMTlKWWJvdHJMeE9kdnB6WGdBTVJwSTR3ZTZuLVEzdkZJek1hRUpsUGo2QWpVSTAzUk1wRlR6WEktREJpb3RwRkFUbWV6bm1VMjhUVEdPUzVMYTg3RjZTRk9ObWdwSQ?oc=5",
 "s": "Arab News",
 "d": "2026-11-19T18:05+00:00"
-},
-{
-"t": "Poland ‘foiled Russian false flag plot’ echoing Nazi hoax that triggered Second World War",
-"u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOU9GdlFERmZMMVo0ZGJVYUYzS2dMbmFJQUh1RFJQazVCZFFmT3NwZm1QS3EwZ2ZmZnRpdlR4UVI3aFMyYWMxOE5fbFlmRVk0TDJEZC1ZNVpKa3UxM3Z2dXpNRE9TX2x2MTRZMVQ2YTNDLXhGZUg0clp3V3hLN1hBQjVfT09vblhhamgtQ3YtQnpodGlSUUpTSmk3SzRudUQxTXJTOUtCWHRPWDBP?oc=5",
-"s": "The Independent",
-"d": "2026-11-19T07:21+00:00"
 }
 ],
 "634": [
@@ -1074,12 +1074,6 @@
 "u": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOMDJNYUxscDMtYXlQaGl1bkxkOHh3Z2ZlXzZPMjB5RmJ2SzMzV21HTkJ0b2Z2Sl9EbGxHcWVDaGo0bnRnaGdyNDMyTnlNWkRfSk5IR3ZNS0UtZzVvaWVzcElocmg4b1ZlUkppRUxMUGpGUzZMWjllWWlnam1zODU2WTE1T1ctWXdjZEVOZ1JSdU05R0NzY3pnUVhURC14WTJCTlJncW1UNTM2TnNyN0I1U29XUHBQcklXUVNUQ3NuT3NCeHF0ak1vbUYzTkRNeGw5NkhCblQ4NVZ4enNfOWhxSnNxbFEtNVAwa0Y5WFFFT19ZdTUzcTI0VWxneEJlMmw5SWxLOVM4Y2R2a09IS0E?oc=5",
 "s": "Sky Sports",
 "d": "2026-11-19T08:22+00:00"
-},
-{
-"t": "Qatar, Kuwait, GCC condemn attack on Riyadh’s financial district",
-"u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNWJ0SFJfNDg2aE9qd2FhX04yN3c1Qk15aHV3NTVxRWJ6LWJJenpoWWt1dTlFSUI3QVVxS25GazVzaGtxUkFDNDFVem9MaHpJVDlEN2lGbVVFZVFyODNaZXhwbWp3aTd6WEVFak5hOTlLczZZZzZad1lKbnYxcGZhU29BRFhxQ3Jwclp1bmRGU0V6dVpDUlZUZllZNjVLZmJ6dUJnbDYtb2VzbGd0WU1CQkNlREFYdw?oc=5",
-"s": "Middle East Eye",
-"d": "2026-11-19T20:19+00:00"
 },
 {
 "t": "Pakistan, Qatar Agree to Strengthen Security and Counterterrorism Cooperation",
@@ -1092,6 +1086,12 @@
 "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdFIyZkZra2M1dFJuX2MzM3pKSmRWWXJOLV9LakpPM3RVUUFFSm1JN1RTN2pJU2MwTzk0Q0NjaGNuWE80V04taUVsSlFiWUhreEdZMWp5dnMyZExYanhZWmlfU3BQaFRKZGIwT3lHVXI1V1NlVnhGMlE3ODRYWlVNbVJNR0doNVRJVjRZaHUxdnJYQlNycERmbHNZQ2JrTUo1N19yQjVWSEpoZTVxS19QS1BVR3dycVNl?oc=5",
 "s": "Crash.net",
 "d": "2026-11-19T09:38+00:00"
+},
+{
+"t": "Qatar-Türkiye Defense Pact: Another Alliance After Iran War",
+"u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPemtXcUFaS0xqdkx0NU9tdktEMF84YTFsVFZfQ3BaOWZ5ZE9YUDNFd3FFNG90WS0weDExLXZJQkxuTkVSNkNFaXRSSURCU3JBcjZCUEN5VHZOWThlZ1FpaWhYcmtmRXJvazZKYUpmcmNoLUFGUmFLSWdONjh0eDNHam9uSzBfU252V2tzZUxlcUtOWjVKSzltRA?oc=5",
+"s": "Al-Akhbar English",
+"d": "2026-11-19T13:23+00:00"
 }
 ],
 "642": [
@@ -1114,10 +1114,10 @@
 "d": "2026-11-19T11:29+00:00"
 },
 {
-"t": "Citi Sees Romanian Carry Appeal With Budget Key for Bond Rally",
-"u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUDRJTG9NYlV2bWlzT2pVV3dxbVJuTkItb3RDVjYyejNCWG1hYUNPX2Vhb29waThUbFB5RHJUelh0bEF6UXg0VmxUQ3E2cVkwaThBYlRpaWxkUGpBOWJ4OTRnVFBIYURlZG01a2dNSWRWWUdlUXFSVzRKYlZmVjhRTDAtWG00cG5BbGVWcXRpYzhEWUhGX2MwVF9hT0thMlNZRTlKTktFZmhQYXdJelVFbnd1UQ?oc=5",
-"s": "Bloomberg.com",
-"d": "2026-11-19T11:15+00:00"
+"t": "Citi Sees More Upside in Romania's Leu Bonds if New Government Holds the Line",
+"u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbVUxRE14NFpMUlU1YVY4ZnU3aV9UOVh4aldCT3Q0MmdCdmh0Q0RZbDRrbndpWHhoOWJOcXVPQko5WE1NQmZ4cVkybFQ4eVptSE81U1Utb19zRUxocFlkOW9CV0dxcC1zd2YzbUw1ZkJCaXowVHlwZmpUZkRMc3o4MV93Qm9WZjZWYnVGZXU5RDlkdw?oc=5",
+"s": "Briefs Finance",
+"d": "2026-11-19T21:00+00:00"
 }
 ],
 "643": [
@@ -1134,16 +1134,16 @@
 "d": "2026-11-19T22:46+00:00"
 },
 {
-"t": "Prince Harry exclusive interview: I’d rejoin the military to fight Russia",
-"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYmljNG9IZE1jeGZJTHZLVHp3c19UTE43eExEdlY2MnZDZmEyX0Fxc0tkcjNDTHYwTTNaOVNpZUNIU0dsQ3JiZi1YVEZkaFMySVRxNGxWQVQ4aUw1X19raV8yS1pYTDdGQXVsVXQ2N3NGcUFiXzl4bFVPZWF0MDF5Szg3LVJwSmZNMXVsVVo3d3VibzRibkstMWppb2JxMlh0aWdBbzJBN0Q?oc=5",
-"s": "The Telegraph",
-"d": "2026-11-18T17:00+00:00"
+"t": "Inside Zaporizhzhia: The Ukrainian city under constant attack by Russia",
+"u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNXM5V0NZY08tZl91RndGaE93cHdNN3NMcU84RUV3QjdiWmd4b0p5UHVhNTAwUmFFc2hJTmtzLVhmM0RwNlBSSmMwRWJiLU5OUGFiWjNYTUZKeWtMS0I3ejRlMkhIUmxBeU9SbHhCTnBTYmdJd1JrODNPVzhyYUZ2VV9NSGhTbUo4dGNsZHo5d19HOFVsdDl5bzJ5MEhCTkxRTUE?oc=5",
+"s": "Channel 4",
+"d": "2026-11-19T19:49+00:00"
 },
 {
-"t": "Ukraine war briefing: Trump ‘open’ to Kyiv getting Nato-like mutual defence guarantee, says Kushner",
-"u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT0NBME5lcEdSYzBycGFKdDhzaHJ2MU5iU1RsYnlxaFRYaHc4SU1YU0s3bTZyd3EwNHItMTBSY2FvOHBjaW9pcjRxNkRBVWRISk1YYUNHcHAwZXJ4MHBxZU5TUzJoTFhMbTZUSzJSckpFS3NqcGhBXzNpb21scGc4Y3hQSjFsTFpkWVllREUwSkJ2TGhmck91dl92aVRtWi1lSjBNUE9wVUQzZHIyREdIZkFSOGVra01RWUVPaGk1SFdRZk1FZkRwaU5tYmJNcE91el81QXduSjg?oc=5",
-"s": "The Guardian",
-"d": "2026-11-20T01:38+00:00"
+"t": "Russia strikes bridges in overnight attacks on Kyiv",
+"u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa25ldzZRaGtKMTBCMGQtT1NubmtPNzc2cFAtODhkZjBNNUxRTGdYUy1jYklzZVdqSVJRM3JOQU9Wa21sd09SNUpWYmVrQ2FGbVZDRnAzUnFESFE5SFRrMXJXRFB0eU8zaW82dFdmZ0dwTFItdHJUNHhlaXhWZ0xjQ1NJS1puYkFHc0hfajdxOA?oc=5",
+"s": "The Telegraph",
+"d": "2026-11-20T05:25+00:00"
 }
 ],
 "682": [
@@ -1154,22 +1154,22 @@
 "d": "2026-11-20T00:01+00:00"
 },
 {
+"t": "UPDATES: US War on Iran, Day 267 — Houthi Missile Attacks on Saudi Arabia",
+"u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2RrVEhkLTl5UDFBVUdjZ1NZTXN2RzgzSnhUUGZ3enFsWVA1ZllBbUc2QU9UNVpkcDN3UUFiMlpfVHZVVzBjYUtScVg1UDFMYmFNLXhjLVc5aG1xSjhRQ0J2ZXpNVHRYbEx2NmxrTXRlZ09BUHdqZ2tuTms2a3pNWGtR?oc=5",
+"s": "EA WorldView",
+"d": "2026-11-20T06:16+00:00"
+},
+{
 "t": "Houthi Attack Damages Saudi Capital’s Tallest Tower",
 "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa0hZSmpRQXJwM2pNbUxHY01JZUd1TkdjdU5YNGZYd1hqMmNES3RoTWRCVm9GYjMwX0x5NkMwb2FicHNjWkhMZ1dQUVNsUW1hblVuQjVLVkhlVUZZRDFiMlcxdWNweTV0NjR6TG43MmFYMjczckZ1SmhzSlZtOFdtZVVsNHZpSk1UVWdRZ0phakNPT05NRUxmOFFmNGtMZw?oc=5",
 "s": "WSJ",
 "d": "2026-11-20T01:42+00:00"
 },
 {
-"t": "Houthi attacks on Saudi Arabia",
-"u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTXVIQUMwVTA5TllQb203X3V6XzNUVlNqaHhXd3NlNjJ0VF9rVUp1OTdRRjBWaVFMREswSVlfNjVESFAwb2w0NGMyVk5LeWNjTU42RnBIOWRsR05kWFktNFhrNnJtMm84cGNmekdUYmlvREJLQkt6NjUxMEZ2Sy1wUjVQbnhMS2JG?oc=5",
-"s": "Reuters",
-"d": "2026-11-19T16:20+00:00"
-},
-{
-"t": "Houthi air strike hits Saudi sovereign wealth fund headquarters",
-"u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUEotM3kxNzZmYWdFUlVGdm5KVV9GSzBxWTd4NnJtM3dMMGR1U3F6OTJBWFZiZmV2cFFBQm5ybVFxZmNrM3p6cTdmejJSSVNORGJGWW9CaW5HbGdmczVoTVVXdGFybTQ3V0hlb2NsZVNmVFpidHh1MU9GUEpGb2kwOU4zR00?oc=5",
-"s": "Financial Times",
-"d": "2026-11-19T09:41+00:00"
+"t": "Saudi Sovereign Wealth Fund Tower Damaged as Houthis Attack Riyadh",
+"u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdUt2S1FLQ01XdnQwd3NpX3U1Skg0UFAyVWxkWDViVXNWS0V2YWt4LU00WWZmbDZEZk9hb2QzLWpXY3RqTEhHZ255bnNOTEdvWnloUlI1bmszYkNaZlFIZGJlckxjSVk0aHduY0R3OXA3MW14OWRFTFo3V2RlakRvQjFhZW9Oemo1SnJPTzd4RGN5M0xGRzk5SXV3?oc=5",
+"s": "The New York Times",
+"d": "2026-11-19T18:55+00:00"
 }
 ],
 "688": [
@@ -1218,10 +1218,10 @@
 "d": "2026-11-19T20:06+00:00"
 },
 {
-"t": "Somalia orders UAE ambassador to leave within 72 hours",
-"u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLVJVZi15UU5PQ2stYUJORXV3TnBuMmNOXzhUR3hJNjRrNXRzRmxDNEgzZFkxT2h6UzBGMVFnMV9Oc0EtQ0dINjh4dTREWHdBdHZZcmt4bXowYjlzckxmUkdpZEZUWXptTG5TTm4zazRDcjB0SFhKTlVLZjVNalpTckJEbDdlNHRDQktiYlZXcjl1cE83WF96aU9B?oc=5",
-"s": "Anadolu Ajansı",
-"d": "2026-11-19T23:33+00:00"
+"t": "Somalia expels Emirati envoy, recalls own ambassador over 'open invasion'",
+"u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSC1lcUpydm1EN0lTLVR3bDg0Wm1JTWlXdHA0WkRHZU9UdHhzSDh2VTg3SFN4M0xYSDhrVk03Vy1Hb2lTOW1zck54ZVFlS3A4cXZEemN3OVMwc05DTDdlTlc2SkQ4Z0RoUHNvMzliNk9ZYWZxM2hFb3hFdXpvVVpmSGRFclpSTmR4U25ZeTJPdmQ3bGVIZmc1ckx1b2pTZGpPM3Bud3pmbnkzdVBZdGNGcHo0Y3VSQQ?oc=5",
+"s": "Middle East Eye",
+"d": "2026-11-19T16:46+00:00"
 }
 ],
 "710": [
@@ -1252,28 +1252,28 @@
 ],
 "728": [
 {
+"t": "US deportees in South Sudan went hungry as guards pocketed money from relatives, families say",
+"u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWljM2FEeURjRVZLc1pxaktoQXdvdFV1QVMtbXZNNWxEejI0MElXcVdQZTViZnpxV1lWUXc4Y1hMNEhsOUNCNE40UEM2Q3hlazQzd1JRZ0JRa0FyR3FYZEE1aUstcFAwYzFEODJVZDE0N2Zyc0tncnFTMzVGS1F1aVJIWWRwTW5vYzlSWlVrdThreVdJT0NNamczaUY?oc=5",
+"s": "The Independent",
+"d": "2026-11-20T05:01+00:00"
+},
+{
+"t": "BREAKING: US Determines Genocide in Sudan, Sanctions RSF Leader Hemedti",
+"u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTWJNdWdYT0JOVzJvTGZLcnBPOUdLNVFnUjdndDM1ckYydVRuUllCR2NlWFFZb1E2Umprc2syTkt3NnNwN3ZySWNsMG84Ym5DUEtpMEctMEttNmdMVjBqb2ZzdXNWOC1MZDhZYVBDNkhOT216QTNpaTZRYU9KR0xaQTFSaEVXRjBWR2ktUTB6YzJTZXRpSnE0YlEwUDBTUQ?oc=5",
+"s": "thesentry.org",
+"d": "2026-11-19T23:07+00:00"
+},
+{
+"t": "Trump deportees face hunger, abuse, extortion in South Sudan | Daily Sabah",
+"u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYll6aUEtcklqMXZiR212YkVUWlFGTVFuaFJ4MVpBQlk4RlZPZWxiZTV4RnR5OUVQT0F2UVprak1GQUZhckVOVlA5RGdqRjB3M2dZNENRNmpiaEpqM194c2ZRQVhQdU1iT0tKQ0x4XzNvRF9kenlBdnpRZ0lYY05KTGFRQ1k4VFFMYS1VQ0JZWkY1WHpWYlgwSVcwUE95dG_SAaQBQVVfeXFMTS16NGY3SExMdjRkZDFJeTl6Um1rRXZWSE5Delp3TTNUc3ZabDJkdjV5QUsxaXgxLXpDMjktUUlrbzhXT19mcm1nYzRqZE1NNzJ5azFmajNyWE8wUmxydjR1SjBxS1RRSnJ2dDZzRXFCSm90QTRycnlzSEpCNDQ5enRzOHlMcXRTdHpBbEdWUlhTWDRVZ0JKUzVQejZXMnEwcnhkZGg?oc=5",
+"s": "Daily Sabah",
+"d": "2026-11-20T07:08+00:00"
+},
+{
 "t": "South Sudan: Impoverished and torn by conflict",
 "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV05nLW5hZFdCbUNfOTBLYjdYQUtKUy1QWlY0LWJBSmNqUEU1U1NQY29pTFZycjlwUFM2dzNZdkdEOHVibmtPbEdTRi1MS3FIRnVPVDEzdmg3bTY0ODAzbDllMWZuUklDSXdqcWFFZXBWRGllUGNrYk02dVNlUlpaaEcxa0hCclhhWG5DUA?oc=5",
 "s": "Yeni Safak English",
 "d": "2026-11-19T20:27+00:00"
-},
-{
-"t": "Bishops urge leaders to pursue dialogue in Sudan and South Sudan",
-"u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRmNYWmdLc0dJWWNtR0h1X3RyRHlBcEFXSXVjMVpmcjJBcVZ5T1JUWURFMzlHUDh5WWc0MV93ZUFuX0lvcURrNDVKc3NMSTkzWDNXTkFKbjhNNGl0R1ZfamVHbWh3NTd5Z1NGdVpjajQ1Um9iN2FQYTVnaHozZUV1YldobE11VlJzMW9EMnN2UmdFTGVyNDBVUDh6T0RDenc?oc=5",
-"s": "The Tablet",
-"d": "2026-11-18T22:21+00:00"
-},
-{
-"t": "Conflict in Ethiopia | Global Conflict Tracker",
-"u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jY01qYVJ0eS1nVkI5NnNoa0JhODlhTDdReEdVREl2dFphVlRfTE1ZeDlvamJIdHo1ajhxeDRkY20wNXhpV0N5eW5oaTFjM05zc3V0aHY3V2k4M2NJVFJVcVV0ZmpPcndPQWlBNWwwVHliTmlKR25jZHFn?oc=5",
-"s": "Council on Foreign Relations",
-"d": "2026-11-18T06:00+00:00"
-},
-{
-"t": "Why Kiir’s critics doubt polls will be held on February 11",
-"u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYmJEb2FQTjhobVZ6Q0kxbmhOU2V2bVVaUHUyZzNheUViWHR3dUZKTFUzNWw2b0Mya3dBT1VsQV9IOVV6emM1WXNZbGpKeUJwSjdhVUp4Yl9udDQzR2YyeXFyOUdmai02MENtRV9QVW1GVFdfdXpLMkZzVWd0X05uNjJDMVdhZGNBMTNvZmNOY3RDTUVEVWNBVlR2cE9KRHZKNlNlVlBnS01NYmZRQWw1cXVXdHVqRURQd1dRZA?oc=5",
-"s": "The EastAfrican",
-"d": "2026-11-19T20:00+00:00"
 }
 ],
 "729": [
@@ -1284,10 +1284,10 @@
 "d": "2026-11-19T23:07+00:00"
 },
 {
-"t": "Sudan: Devastating RSF drone strikes on civilians in El Obeid should be investigated as war crimes",
-"u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUFpid0xiQWpmdzhSc3VaZzhlWTlzLVo4dDVrUWU3RFpNcU9mSm93b1o1ZU1CWTBWLWRnNkhMTFl5VFRNUnlmRjZkV0w1ZFM2QkFxLXgzMl9wcTJycVJrNXIwZmpxdWJsSnoxSWFJXzBJQlNURE9GNm5hV2FIa3RFZm9mc3luUmtfMWV2TlowdzFyWW04OGNWQkVlYVRIei1TaU83RnJ0M2lXNzZCLW5hXzJPY1F0QzZiU2lZeWdJX1IyLUxDTkxQdVl2a2wzcllNSWZ4UHNaQUNvSzhUVXc?oc=5",
-"s": "Amnesty International",
-"d": "2026-11-18T04:23+00:00"
+"t": "RSF drone strikes in Sudan must be investigated as war crimes, rights group says",
+"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTk1QbWFUekI4WjNqWmZ2RDM1aWZzMkNuRkxtb2M3a2JhdWhEa1ZzR2YyS202emNzVnRHUjN6SkxhckExTXMwakM2dy1YS1VsNkQxc3VvMUV4R296ZExYcjU4NXFWR2doN01jU1NLZDhjYVBKS01NQ1FiazFGTlJwNGVVLXNlTXRBS3RvbnJGeWdiQjdtSVdMOWhoQTF3aWNPdG5MVVhmUVNHTGMwXzk2SnZwT3pWaEE?oc=5",
+"s": "Jurist.org",
+"d": "2026-11-20T02:39+00:00"
 },
 {
 "t": "The hunt for Sudan’s looted heritage",
@@ -1296,62 +1296,62 @@
 "d": "2026-11-19T14:01+00:00"
 },
 {
-"t": "RSF drone strikes in Sudan must be investigated as war crimes, rights group says",
-"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTk1QbWFUekI4WjNqWmZ2RDM1aWZzMkNuRkxtb2M3a2JhdWhEa1ZzR2YyS202emNzVnRHUjN6SkxhckExTXMwakM2dy1YS1VsNkQxc3VvMUV4R296ZExYcjU4NXFWR2doN01jU1NLZDhjYVBKS01NQ1FiazFGTlJwNGVVLXNlTXRBS3RvbnJGeWdiQjdtSVdMOWhoQTF3aWNPdG5MVVhmUVNHTGMwXzk2SnZwT3pWaEE?oc=5",
-"s": "Jurist.org",
-"d": "2026-11-20T02:39+00:00"
+"t": "Sudan: Transfer War Crimes Suspects to ICC",
+"u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYlJaZmZ6a09mYVV1OVlaLWtnVFZCWjUzZy1xQVRvN3FFVUIzb0V3T0tMSWMxOW5BdFVuUkFGZzFCY1JMWU85WEh6SEFvcG5NQlF4V3hDRlNxT3hoR2RvYjFIOW1sM0JOYlBEVjEwX1VqdDdmMXpLZHZtVTRIbURmLWYzVQ?oc=5",
+"s": "Human Rights Watch",
+"d": "2026-11-18T21:52+00:00"
 }
 ],
 "760": [
 {
 "t": "At a defining moment for Syria, UNICEF calls for children’s rights to shape the country’s future",
 "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU3ktRW1Ea2l2MC01LWkySVpkSUZ3RVJsd0NkdVZDdVpybGJiY29kWXpzV2VZVEZHTy1xX2w0X3FFU29JQ0l4bG5sVkdacDRwb2xrNUlDRDhrejFaZ2xTV3g1MHNCWExxNGR1aEdwQjRkVFFLV3gtOC1naEVhejRKcXlhc18zYTVxb2Jfdi10UVpyVmxIS3VRbzRwRmhTeFF5N3V1QXRoVjJGa0tXQTFKTEV1YXRkb0dG?oc=5",
-"s": "Unicef",
+"s": "unicef",
 "d": "2026-11-19T18:01+00:00"
 },
 {
-"t": "Syria hails historic UN resolution recognizing post-war progress",
-"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSGhYanU4NHViTXJQdFFGQ2ZjMVZFWVc5aGxsbUZkLWtwMDBGVzF3aXF2ZGRVal85b0c4cEJEV2VRakhQWTdFV3BWOUF5eExiU29fZEJoUHVndlg1clY1RUdJSWd5OS16ejNfUlJxMGF5WHZteUU2TGl5VEp1bGFPM2xhYjVuRE8zY2JyX3loUGJaTjh4N0w0eW1CakJYaUJFcGpFZEpHLWdLRml2anc?oc=5",
-"s": "Arab News",
-"d": "2026-11-19T21:32+00:00"
+"t": "Who controls Syria’s economy?",
+"u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wZ2htc09BazlQeXF3OXMzalljQWdWVEZSSW9jQXQtcjJ3VThQODhGMTJHakR0QjRhai04RlJ1aHVMUFR1SGhhc28tQklFZE1RVVFMWndRbWlKSmFvU3pqWEJpRFlXdGhTX29pdlhhQUV1QlliNEE?oc=5",
+"s": "The Syrian Observer",
+"d": "2026-11-20T06:51+00:00"
+},
+{
+"t": "Liberal residue and illiberal innovation for conflict management in the Middle East",
+"u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMHBMY3g2ZjhiNjJzajdpOHJxNEphX1k0eXV1UURNODRiTFdzM2hsWnVBRkFrN0o0bHU2emkxM0Q5YWRkdEt2VlQxeXNPenRXT09KVUJMY3h1cFpteDU0aENLU3V4emdTbUowQTlQSmRCcG0zLVJ4V2ZpN09KaUs4a29lMzhsRDdCUGRMS2NmUWJjOHBqYUNMZ016UVh6TU1ZaDU1cjZoTWc3b3VX?oc=5",
+"s": "CIDOB",
+"d": "2026-11-20T00:28+00:00"
 },
 {
 "t": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
 "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zblNNaVgyREt3emM0bVdTOUd2RmE5MloycnlfTXd5MHlkel9lWXJrOHJ0dHZacHk4SDJsOFM1S0lwYWlEZzk0aC1nSWRhQUE0dnVwOU9ZM3NONHhpUWZ4c2pjdmc4aDB6d3Q3VmZUM0k2RFN4YXFFQld3?oc=5",
 "s": "The Guardian",
 "d": "2026-11-19T11:02+00:00"
-},
-{
-"t": "Patriarchs condemn growing violence against Christians in Syria",
-"u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1lVjc1Vjg0VzRzR3czRWVJR2RKZ3JRN3E0TjV0Sy1nT01DVGhkUTJJazdHODd5TVp0VllOUDdxRy1CQzUxZXIxenluWGFFcmdUSFQyRmQybDVOZEpjRXZZQVJhNFRZSG11b3NmY1BmVkxfLU9CbUJNZlZB?oc=5",
-"s": "Open Doors UK & Ireland",
-"d": "2026-11-19T16:29+00:00"
 }
 ],
 "784": [
 {
-"t": "Port of Fujairah Resumes Oil Loadings After Attack and Why it Matters Globally",
-"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVkp0Q2hNMmJIWS1RLTBFWUNVZnlydF9NemhEVEVhcWJzV29TX1huZGlNUUpFRFMxSkljQkY0RUxlVmxKUThDWlJHRFJXcXdVdVF5a2hINlV5NlEtSG1rR05zMGtUb2VUbEJoTUFZUERJRE1Oc1hIUmlzU3l5UEpSeG5Xc1BVNUI1TFFUekVfVGdqcDhvQ2VfOXZhbXR0OTExNGJJRF9oOHdqbUpKZGc?oc=5",
+"t": "Here’s a List of Gulf Energy Infrastructure Damaged in Iran War",
+"u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmpSQUpsbFBZdHJBVzE5RksxTlV3a01Mb0c1bHktX0RSeXhLR3c1bC1JZ3FBUUtWcEYzbkNWZEV1SXQ1QUl2LW1oR0VMa2lvQ0dycm1QMHRWQmpRUjNDOTlqZ2xoU2xkOWZab25sb1R6UW56QWJqb0h0NjRaX3RiOFpCQTc5UzQtRjlMWFBFWG9QazFHQnpHTg?oc=5",
 "s": "EnergyNow.com",
-"d": "2026-11-19T22:33+00:00"
+"d": "2026-11-19T22:43+00:00"
 },
 {
-"t": "Somalia orders UAE ambassador to leave, citing 'invasion'",
-"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWEg3aWNsUnlnMDBWSmdjZGtyWjJrMXROTHFNMXlycC15MU14bzV1UjUwVVJzR1JFek53RDVnV05DSkdtZnVzLUpQdFEyMGFLbDdpZEc0MlNUNzFFVHV2YkxLMnlHd2hBUVA2M1BlaW5OT041Y0s1OERhT1o3YTRXZ2d6aUl4NGs2cFVyRnQ0VmhLOXJUMkRCQWpmZ3FYODMwTU1iekNoelc?oc=5",
-"s": "Reuters",
-"d": "2026-11-19T20:09+00:00"
+"t": "Arab and Islamic Countries Welcome UK, Australian Sanctions on Illegal Israeli Settlement",
+"u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOWMxRkVxUEZreExtNXp3UVlPVEttUmV6SFVuNUZqQTRoanRhYUllbVhuZzZ6VE9wVURzb2Q4SnNQZlZMeXpId2dYLThZYnoyOHpVMU5semw3ZjZaZlNTYUFjNnVDNDlVVVJCQzVObXYyM1h1MFR2WHBEYUEzQ0xvX0M0MklYX1BPdlFaSl91bGtmTkRaam5NajZpRXRLZmwxa1pfVGdwT2NPMVFrM1BjRFNubTR1Nkdfa2pBMWt6TUhzRDA?oc=5",
+"s": "ASHARQ AL-AWSAT English",
+"d": "2026-11-20T05:44+00:00"
 },
 {
-"t": "Emirati candidate says her ‘bridge builder’ skills make her the woman to lead UN",
-"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbERnbmlhUUMyQ2NPOEZ6SHgzeXhERnozNFAxV3BJWlZja1FOS1JuUEdiMElvU0NZN0ZSZzdFUkxKektaakJ4NE9wR3FMQXY3S1hEUVEtcmwzNGo0NTVSZGRSV0cwZkRWc3RpenVBY1UtTUdHYU1nTWlld3Y2TVFleGFBaG1tekJFOEgzWDZXWnVMUlFSLTRXN0xjLThoN3JVSUdyaDZER2FiZ2FTUUHSAbMBQVVfeXFMT0RBb0NaSlZUTm9TOVJiUFFMaFQ1Zk5ibzMxNGhEbUFwbWVKZDF2dWRuWEpHTlNxdDVLR0FWWGxOOGR0b0hONG5xdXh6TFRHdlZEbWZSaVdjNEZ4YXVBUjljMG5sTUs1ZkhtZWhGUjdqMmJFTkp5VGpjajVXbi1XNFc2RHFlQVZlWU9sZDhZUTZFRmZENWNJZzZCemRISVlpOFlSLUxRUUdtOG1OMXdtTFhQSUE?oc=5",
-"s": "The Times of Israel",
-"d": "2026-11-19T12:40+00:00"
+"t": "United Arab Emirates (UAE) Ambassador Presents Credentials to the President of the Federal Democratic Republic of Ethiopia",
+"u": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPRDhQUUNsb0liUEdoRC1ISHVHMzM3VDdDa2lZd1pNM1VvNHZxUmpjNWtyMDRkUGZzajA1dGx0c1pZcXVrMWs1MFBXT1NMaUZSWDNMVXNQWTlacmpxZ1dpeHdWc3hlSV90QTNtWU5TLWNkSURBVDFjbzhXMXJMazBZSmlWYmhBNUcxT0xHR1p2a0Zydy1icHRhYm5CMDMyaFl0QVBhYjFqWkJtQmJSV0Q4UTlVSDJXX1JyWG5Nd0VsOXE1V2VSNkNtNVh0bWlmQmczZW9lcjF3Z243bzdDUHVORHA5TWlWZEgwbjQ3LWhmQW9hVkdpY0FFOTdHb2lOYWsyT2VPaDZURC1WMGJqblA2LVE4WGpMNGYt?oc=5",
+"s": "Zawya",
+"d": "2026-11-20T05:31+00:00"
 },
 {
-"t": "Arab Muslim States Welcome UK ,Australian Sanctions on Israeli Settlements",
-"u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55a1RxOWFMYXg0bTVTS3YwZXZ6d190R1YwRzRpbnl0T2JTbVJqdXk3VDJZQTdKQ1hUNW9JZ0FRWlpaaERobWlXcFVXSHVqRDZpc0I4?oc=5",
-"s": "Yemen Online",
-"d": "2026-11-20T01:38+00:00"
+"t": "Somalia expels UAE ambassador, alleging interference",
+"u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUTZ4dENyNFFrZHhoZHNzQWJLOTZaS3VZTWhXY1BYNERhOVhoVGlKLTBCeTlXY1BzU2oxOG5sV2RkcEk1bGlrQzZrOVVZeWpYckNMSm50Y3pIYTJpeHpEZFJpY2hWdG9SdTRxdXhfRkFnNDBQNFhEdzZtTTdrdURwSjJFOWhaUQ?oc=5",
+"s": "Yahoo News Singapore",
+"d": "2026-11-20T01:24+00:00"
 }
 ],
 "792": [
@@ -1368,30 +1368,24 @@
 "d": "2026-11-19T17:09+00:00"
 },
 {
+"t": "Turkey's trade minister urges EU to include it in 'Made in Europe' rules",
+"u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ1VieDRqVWYwR1U2UGktMXMwdDJUSnZOWmZFbmtncUMyNUIzZl9NR1VWdTVvWmFWLUhpUmZJZWpnazRFVUFDVHhDcVpvR3NscmJ4UDE0NW5rbnRiTFA2TnMtWTRJYXZnOElBRzNTOEdRaUUxZlhlWUJDbXg4a0ZFeUZoUDE0T0R5RUFmcEwxUHpFZlB3Mjd4YzBaUDVheFNfd3B4dU9QejZCdUND?oc=5",
+"s": "Reuters",
+"d": "2026-11-19T14:09+00:00"
+},
+{
 "t": "Turkey moves ahead with Eurofighter deal, discussing F-35s, minister says",
 "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUW5aaHlZTWVnOGI5MlRUQ1hWVUpDNFp1VjBidXQzZEplMW40VXBOd1luNm11VkxyZEZiUmstUmhRYUhCMFZkLVp2NEIxTDRSaGEweW5DTUNlZUJfNGlnYWtMOE1fdnd5d01zb0J0dlp2QWZfV0Q1b096b3g1MnVaajctNHliQl9aRzJ0c3NkSDRhX2l1VkN5azF1dlp1RmpfZEdXa0ZEWnN2a01aUW0wYWdub192a003MzFJNmQyaTZ2UVV2NXdUOGJPUEJlZw?oc=5",
 "s": "eKathimerini.com",
 "d": "2026-11-19T17:44+00:00"
-},
-{
-"t": "Turkey Fund Investors Protest in Ankara Over Trapped Savings",
-"u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaS1ORlBUTWloemp0VjBaUnI2ZXhYWGFQdXBaUVhLb3pzZ2FUWDBhYndkWDVNd0xTWjY4bU43bXFsOC1qaG43TWF4ZDh6U1B5cElmYURGR2lQM0JtTi1GUV9MelpkSVRGQ2tWelJtckxVWXg4Y0Nvc3pTZDlLRWNDTWcwbXNIQUxvYTFGQXo3QmdnZVBCQzV2QVNMUXRRMWJrRmVCTV8yNExIOTFETzBqTTVn?oc=5",
-"s": "Bloomberg.com",
-"d": "2026-11-19T13:00+00:00"
 }
 ],
 "804": [
 {
-"t": "After Putin talks, Trump tells Europe it could save lives and cash if Ukraine war ends",
-"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVHlfQkZyMGRXeTNJY1N3azV6THBOREQzblNTUWR2eG9ZdE43QzV2aUVWd1J0VlMyd2NMN3dHRUFQNll5RDFuVHZwZXRxcFNfeUVHT293a0dwUG1tcDhXX1pGeDRVSGtYb092RWVoc3hVVGxwc2xpRy1lbjRqall0UWVaeElfMGVXc0xQcVlfVEgzUy03cEc0Zm5ROU92dkQ0WnV1THBNQW8zOGt5bWR2czdCVHo4Nm8?oc=5",
-"s": "POLITICO.eu",
-"d": "2026-11-19T16:38+00:00"
-},
-{
 "t": "Ukraine war briefing: Trump ‘open’ to Kyiv getting Nato-like mutual defence guarantee, says Kushner",
 "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT0NBME5lcEdSYzBycGFKdDhzaHJ2MU5iU1RsYnlxaFRYaHc4SU1YU0s3bTZyd3EwNHItMTBSY2FvOHBjaW9pcjRxNkRBVWRISk1YYUNHcHAwZXJ4MHBxZU5TUzJoTFhMbTZUSzJSckpFS3NqcGhBXzNpb21scGc4Y3hQSjFsTFpkWVllREUwSkJ2TGhmck91dl92aVRtWi1lSjBNUE9wVUQzZHIyREdIZkFSOGVra01RWUVPaGk1SFdRZk1FZkRwaU5tYmJNcE91el81QXduSjg?oc=5",
 "s": "The Guardian",
-"d": "2026-11-20T01:38+00:00"
+"d": "2026-11-20T01:37+00:00"
 },
 {
 "t": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
@@ -1404,9 +1398,21 @@
 "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcEdfVllWVXlSYXNabGx1YzF4ajlSSVhvN3dsSGttdm9PVkIwZExNb1QzUWpyTjdFREFtWmlGRFlOZEdvLVNER1NDREg2NUMta0prcGVJRHBkYnhLa2o1RllTeTJTMUZDZ3hpMHE5cHF0clRWcE1NVVJGbE9Ca25ZaV9Ec3dEdHBxNXctQ3h0UHp6WFJoOEdIc0IzMmNRV1RHX0VLbUZmd05qcnB6UGx0R0lyMUd6MWR5TlZ6U2k3Umg2Zw?oc=5",
 "s": "Sky News",
 "d": "2026-11-19T22:46+00:00"
+},
+{
+"t": "UK and Norway further boost Ukrainian Navy at Coalition of the Willing meeting",
+"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPblhNNXNzYlNlVDVpZ3A0cXVEbU1zVG1IRUl2R0xaak5EeDNOcE1uR1NYTjRFb3ltZC0yRFZRM2FucUM2LTBNV1BZdzVHLUFBdkFVdTVnanhjUk1FTEF4WF9KNmdRUFlCcExvNzc1d0hLZHFOQUI1VGJSekdiUkpuTjh5N1FHTHpHbTJmMkFfZ3Q4YzV1Ym1yWDJicy1xMTNlUDB2bm54NU45djJHUENMcnM4UXZfNWc?oc=5",
+"s": "GOV.UK",
+"d": "2026-11-19T12:20+00:00"
 }
 ],
 "818": [
+{
+"t": "Egypt’s US Military Aid: How China Views Its Future and Cairo’s Strategic Choices",
+"u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNanZad1RJS1JNc25PWXMtcS1JUFRrNWZtRG9MY2VmdmpaNzZzcHR3dV81M0MtbmdYMTlqQTlhU2ZhSWM0YTdEWUNaTEdPb2c4b3B0OHhMV3Z1QWtQSTlZOFlqYzZHWjlsTzBYbE82M3RhY2dVajR3b0FkWnBaN3lwRmM2c1VDb3p1OC10TXZiM3BWQU5rOFJJODB0TlFSdjF4V1pNX1RPWUFKd2JSNmxmbVJhZHVQMkg5?oc=5",
+"s": "Modern Diplomacy",
+"d": "2026-11-20T06:30+00:00"
+},
 {
 "t": "Egypt turns to Poland as it explores government-brokered wheat deals",
 "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR1h1ak13amVnOEJMTE8xNTUtdnIzT1NHZUQtYzJTS1VhaW85Sjg1aGVqVnAyckRsTzRUbjFmZ0tjMHdjdlZlVnRQNXNnSW85SXFkbk1nMTlKWWJvdHJMeE9kdnB6WGdBTVJwSTR3ZTZuLVEzdkZJek1hRUpsUGo2QWpVSTAzUk1wRlR6WEktREJpb3RwRkFUbWV6bm1VMjhUVEdPUzVMYTg3RjZTRk9ObWdwSQ?oc=5",
@@ -1424,12 +1430,6 @@
 "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10NXhkVXVFMzN6UWU5ZmhLeTNoazVIalV6c0dKZUJwV2lCbDRXcGY5ZmRTdmNsNzdvd3pSbVRmWmQxdTQ2dnR6WDFpek9BUQ?oc=5",
 "s": "المنصة | ما رواه الناس",
 "d": "2026-11-19T18:59+00:00"
-},
-{
-"t": "Egypt, Libya sign cooperation agreements after talks in Cairo",
-"u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYmY1WGJDdUFJdWZtVHo5WWwtaDQ5bmNfT2Rlb1hEVnQ0NmxYZnloSjJISFozN1VLSGw4aWJSeEM1M3BjM09lSl8wV1ZhMW5zc211RkhFZ3J5VHJNaUZKeWpfQXAzZzFWMThSbjVIZUhBbDZKQzBEVDlZT2w1bUFscmt5WE55a210SFpKOERTZGNOTVZsQVF1dmdwWTVMSzNucUVGM01uWdIBrAFBVV95cUxNZC1OY3ZoOW50NVIyVDBXNC0xdTJvcnl4TnR6clJqVWVyc3ZwRk1UdTlaS2pZMEhjNW56YjROTmFxRTRnamN4TXliMFBfOFJYTk5UUkFXb0ZldHRjS25iUFZfN2MwOVNHdjhDNmRhVzF2TE9nVThFUm41b3lYNl95WU1WWk10ZWxpTFEtZUUwb3hQWEY1Sy1UMk83NFRVdzdscHlsTEZqODlCYWZB?oc=5",
-"s": "Middle East Monitor",
-"d": "2026-11-19T20:27+00:00"
 }
 ],
 "826": [
@@ -1452,36 +1452,36 @@
 "d": "2026-11-19T23:57+00:00"
 },
 {
-"t": "From London 1851 to Riyadh 2030: The United Kingdom Continues Its World Expo Legacy with the Signing of Its Participation Contract for Expo 2030 Riyadh",
-"u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQODhSRXYxN1NHTVJYUDRrUjRmT0VRT1VIQks2S05PdG5WTGpKeno2aGk2RHBVTlNwM1pRdDdJQVNuUktGcUJHUXZIZWdWbHZNenBqei0xUjg1WXllMkhzZV9tYlZMSnBBa3BESUlvMGdNWDkxY0cwblFJaEhZY0ROWWJmVWhHZFZjSGtRSmE0TElZUWxVZ1kzQlJ5R3FWa3p6OFNLQkJnTnFuYWxLSjhFWFhvV2UzMG8x?oc=5",
-"s": "AFP.com",
-"d": "2026-11-19T14:10+00:00"
+"t": "NATO Military Committee visits MARCOM and United Kingdom",
+"u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc1Y1cXJiSkFTMG43OE9IaHdDZ09VT3NrUV9XM3plR3ZlZHVSUXZBQWw5d3Vsa3FDalJHR1BzMi1LQTVFN1RMenF5OE5JZS1KX3gyb2p2VVpLSDZxTENxbFRaMkk1c2dLUmFfWGZ2QjdnbVA0UGFCa3dldlB2Q0l4UldCOTZjMG8zZHdUMzBibHRCWGRac2lBLTZ5blptOEhrUWtCSXpwckJfSUZSS3o5SU1ITDNVR2dYNE51NEh3?oc=5",
+"s": "North Atlantic Treaty Organization | NATO",
+"d": "2026-11-19T01:51+00:00"
 }
 ],
 "840": [
 {
-"t": "2026 Washington Midterm Election Results",
-"u": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSa2QyWW5ad3dFUzk2UURQVGRoUWJ5NGJQUDVGbExBQWpWQzRSOWFqQnJaNjZrV3V6clBTbUE5QXVNY3p1eVBiaHd1dWdhRVk2c0hVVlZPNWlvUmtmc0VsTXRwUmtFUUppRFJPeXgtRQ?oc=5",
-"s": "AP News",
-"d": "2026-11-19T22:07+00:00"
+"t": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
+"u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOWRhVjVJU0FZNUcyXzNUMkx2YnZRZ09iSFIwZGxpSEppeE5sb2M3SnVHanFhX2lsRUFmUERUbWU3OTgyM01MWXptNmZ1WEVBUUpsZlJEdmdpZGwyQVFiLTRHcVZGSW5weFMySmxHZFZCcFl2WTkzenJxSUtwd1Fta3NJSFBhQXFhd0xqVmV2Z0daS3NIS3R4Y1gwYXBxQVJqZnNKakJHLWRvdmdJZnBJeXJjLUtPRUh2WGtN0gHAAUFVX3lxTE5ERFVNRUhmckVtM1NQelV0YVFwV05xRmZQbzVDd1ZyUHF3cEVOUG1FSEhEaTBURVlXS2lhcnFreXFZajQ5VXN2QUpsbGVqOFhPVS04U2hPNGlwZ0MwVG5RNG8tZTZEVGdZcGVGbTZzLU1JSTVMUGlUVVZBRW8wRXZjMVJJa0pHZ3RkVjAzT05odzhXNm5DWFdwOHMycHJxR1J6d1pSbzJNWnN5M3MtbkV3S1lSbDJUczBBajB6U2x2Uw?oc=5",
+"s": "Al Jazeera",
+"d": "2026-11-20T06:09+00:00"
+},
+{
+"t": "During Milestone Visit, Hegseth Champions U.S.-Venezuelan Partnership",
+"u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY2xQQlRXTlE3aGJBMllsRDZWandtMEducG9VbldnOXZHblhtay1PbTFRWGlKU2N1YmJYMll2aUtEZDhOM2pNbWxsMEdzcVpONGY0VElvc0xqdzkzZFFLSGZxajFXTS1kUjRYWGF0NHF0RkxJVElJUy1HdmxOYUp5TG9RVHdjMEhXOWYtdW9PTnhUMWNSN2xRNmh3YlVydXhyOUhGbUVZY2EtRGFxRXNNNVNzbEwwSUlRamhiWXJaX1JfVkdDQWI5aQ?oc=5",
+"s": "U.S. Department of War (.gov)",
+"d": "2026-11-19T20:59+00:00"
 },
 {
 "t": "Iran war has worsened U.S. munitions shortage, government watchdog finds",
 "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWGt1RnZzaXdlLTJyN2pic1Y0QWdfRXhSYkw0aVhaX28wb1ZGeFFuQ0RqTGR6TXMxdVZmYmhkQVJJUGJ3djhYaWYxSTZDZVF4SF80aFFBQnJWVm5mbEpFNnJ1alJJUWhFcy1ZQmU4WXI3OEJCTkZOOUhNbjVBemFiSHAwZ1ZfQ3poV19Kd3FoQngybTQ4N2p5bG9Ocm1INFJ3Ylp3N0JCdDNwci0ybGtHcFFXUjlGVmJqWUhaQ2Zn?oc=5",
 "s": "The Washington Post",
-"d": "2026-11-20T03:15+00:00"
+"d": "2026-11-20T06:15+00:00"
 },
 {
 "t": "AI surge could strain US capacity and overheat economy, Fed's Goolsbee says",
 "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ2V1TTUwaFZ4T1pYN3VBVDlqZThZVHBvQ0VhNnRNNlpWVlZXLUYtVWh5T096NmxYbEsxdjF6T0JmZmZCM0lHQ01CT2NUcTdrUzJ0djdFbWRteWlNTWF4enhqajdoY2ZWcjBmc0lMYkpYczV1RDJVdmxZWFctNDI3bHFxOTBySmZvbHNDRXM5QmxqWUtieXFJYjZnUmNONVUzUnBTYTlMdlNqaDdzdkYweVRHZ2w?oc=5",
 "s": "Reuters",
 "d": "2026-11-19T21:35+00:00"
-},
-{
-"t": "Trump weighs another strike on Iran as Hormuz shipping risks mount. Returns to Washington after overseas trip.",
-"u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQmZlem9penVxdlpkVlVtNTV2a010UVRGT3luSFFTSndpcmVRQkxWazRxbXF0Uzl2aUl6NTJiSEhuUkl2R0xTWnZubnFOdGZBRlpXbXNMcHVpWE9yMlFFdDJDaGxLTncxTTE4WFh4bFFkZWkyOERlTk9pQnNqUzh1TU5CY2p5bnNRY05XbEtlVWVwWU5uTjJmQm5XLUtWb2xwYWVGeUVNdGl4S1l6N3ZSRzZDWXZFRFhBTi1ocU4zWHV4QnBFOS1GbGN3Y2NkOTFwMTV5Zmh5OA?oc=5",
-"s": "investingLive",
-"d": "2026-11-19T18:39+00:00"
 }
 ],
 "854": [
@@ -1524,10 +1524,10 @@
 "d": "2026-11-19T20:59+00:00"
 },
 {
-"t": "US and Venezuela sign military cooperation deal",
-"u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVkExSXMxRjd2TlJUMlpxVGF2STEwdjFqeGVzd01pUlk5bXN1ZHhUanViRFpBUFVFZE90S3hCRWVVbk4zZ1FhYWZIV2FTb0lMRjVUc2hDRUhLYzJxa29Jam5Id1RRYlptTkQ0X1JkRWZTeU9YM3RRbjNoRUpEWW1DUWNNWXZDQzNsUFVJUm1EN3dxRDBHbVNqVVMyUQ?oc=5",
-"s": "The Telegraph",
-"d": "2026-11-19T17:01+00:00"
+"t": "Hegseth uses Venezuela visit to boast of Maduro’s capture by US military",
+"u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSUJnalpwZ3p1eVZLVENFNEkwQ0F5NmlpTHJiLUNmVGMzRzg2X21XNUZXX2Nvazd0eEZqQzh6d2dQRENscjhuU2IxSW1PRjBkRG02ZEo3VVh1WTlTbmpxSHFQbDdubU9yMm9kTWhpQ0xWa00wOWlGOU4tQnN3empZT1hySzU3VHZvcDFQSHZONWRoTEUycnFR?oc=5",
+"s": "The Guardian",
+"d": "2026-11-18T20:24+00:00"
 },
 {
 "t": "Pete Hegseth signs military deal with Venezuela on first visit to Caracas",
@@ -1537,12 +1537,6 @@
 }
 ],
 "887": [
-{
-"t": "OPINION - Yemen and Bab al-Mandeb: Second maritime front in the US–Iranian confrontation",
-"u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbklSVHdoVVFCU2dveG0zRVlhN2Y5aTRBSVhWRVJMLS1CNFZlenBNdXQ0M25TVjRtQXdiVHp2OGZBSEFmWDYwOFZPdWpYcFJhaTIxeWRLY2lBRGR1WHhoZmJMaW10NFVvSm4zSVpFUzAzTjU1bHpxZ0Y5anpVY2xvUUhteXVnSTRHTUFtVDRuTWlhRzZwbjM5WXU5QjdJanUzOFNLenBWQW5FaXlrY3VReHd4QkI0dHRuTklOaDljRTNrdw?oc=5",
-"s": "Anadolu Ajansı",
-"d": "2026-11-20T00:14+00:00"
-},
 {
 "t": "Saudi Arabia is to extend its military operation in Yemen by six months in the face of resistance from the Houthis",
 "u": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOclJQYnFqOWcyT05fYVY2bllsaEJ4OGRYakFDTGhneVRzX1dMd0J1cEp0WnN1bExLZzVQU1JhODdra01fa2YzSmFYNFpsZFNtRWVNdkRoS3ZiNEpzTEFzZUVYY0c2MGg3S2xnV3oyWkpNSXY3MmRaRDUwdmFzYTFfU0UyRGVtVUQ2b3gtckdHQlUxY3BqbUpZa1lEb0IxN2xtalRKdlhRZTduRnZLTTFxYjNwRW52VEd3MkhqRTFBWmowdGlncUdyck9mUHBUNlBaZzF1QnBiVE95aGd1bHptUzJqbWItVFVGcTJxQzVWNTlMN1JnenBOdnE2dUdlRWpJQmp5LTZlbXk?oc=5",
@@ -1556,10 +1550,16 @@
 "d": "2026-11-19T20:10+00:00"
 },
 {
-"t": "Houthi Attack Damages Saudi Capital’s Tallest Tower",
-"u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa0hZSmpRQXJwM2pNbUxHY01JZUd1TkdjdU5YNGZYd1hqMmNES3RoTWRCVm9GYjMwX0x5NkMwb2FicHNjWkhMZ1dQUVNsUW1hblVuQjVLVkhlVUZZRDFiMlcxdWNweTV0NjR6TG43MmFYMjczckZ1SmhzSlZtOFdtZVVsNHZpSk1UVWdRZ0phakNPT05NRUxmOFFmNGtMZw?oc=5",
-"s": "WSJ",
-"d": "2026-11-20T01:42+00:00"
+"t": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027",
+"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5",
+"s": "Reuters",
+"d": "2026-11-18T14:43+00:00"
+},
+{
+"t": "OPINION - Yemen and Bab al-Mandeb: Second maritime front in the US–Iranian confrontation",
+"u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbklSVHdoVVFCU2dveG0zRVlhN2Y5aTRBSVhWRVJMLS1CNFZlenBNdXQ0M25TVjRtQXdiVHp2OGZBSEFmWDYwOFZPdWpYcFJhaTIxeWRLY2lBRGR1WHhoZmJMaW10NFVvSm4zSVpFUzAzTjU1bHpxZ0Y5anpVY2xvUUhteXVnSTRHTUFtVDRuTWlhRzZwbjM5WXU5QjdJanUzOFNLenBWQW5FaXlrY3VReHd4QkI0dHRuTklOaDljRTNrdw?oc=5",
+"s": "Anadolu Ajansı",
+"d": "2026-11-20T00:14+00:00"
 }
 ],
 "004": [
@@ -1596,22 +1596,22 @@
 "d": "2026-11-19T19:01+00:00"
 },
 {
+"t": "Old protest footage falsely linked to fresh unrest in Bangladesh",
+"u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kaThlclBESUtCVlpRS2J0ejVsY0o3aWtFTXN0WEo4SVFNVWlJUFYxcTJjSFpFSDlGdkJ2Q3ZHSHRKa0JQOVBkWUZJSl9vOW1GZVJfX0FGSmM?oc=5",
+"s": "AFP Fact Check",
+"d": "2026-11-20T06:43+00:00"
+},
+{
 "t": "Home of Bangladesh’s former leader Muhammad Yunus set on fire",
 "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU3I5dENkMFN3czVNY2taTFhOZjJuNkNZLXR4RWlKRzdLb20zMXhRbTdfbTY0ZjJheGhaVkRzS3BSbWNvUjRYXzY1eThyVV9wenI5aGY2d1V0ZzZZVEtNR25ubmllVTBDOURLcWY0TXJ4V1ZBOXVneVA2Unc5MzVyY1djakdJY3RxLUVZSmYzRmw5Vm55Z2JWQjFoNllSaXZuMHdNcNIBqgFBVV95cUxNcG9wUmJlNHhLXzhHM3FGMlh0UHpPVFk4RWYxOTdNejI4Ty1mTXphaXc5UjNCX0M2Q25NejlBak5YWkdZT0ZHemY2bmEtNHFPVXlWeVBZd2xqMG94cEdaUnpzdFFhRUlYRHNSRXl6ZGpQcFdiZ0JvZS1ZRFk5NlRQOC1Ub0tCYWdlai13NDZ4NUZlV3Z0dmx6Rlk4RmFJMTFQdXpkQ09kOWU4Zw?oc=5",
 "s": "Al Jazeera",
 "d": "2026-11-19T15:44+00:00"
 },
 {
-"t": "Violence rises in Bangladesh as Hasina supporters escalate protests, PM Rahman blames India",
-"u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObnh2NW55dVlOaU1GVkducTZmZ0QzZWNsRTdsRXNDVzgzRkFtdV9faGVFVnhKQ0VkMWVSMWlraV9sby1KemZvRFNsS2o2dHNWNVRmUE5Ecmo5VXlabkJweHZuQWFqamFFZGx5elpsa2hiU05IVkVYbjVSeHRCNmlwdUNrNzl4c3FwUE15SDlNRklyeXoyRHdITTZvdmpiMFpnRDA2NXZhdkJkZ3FHbjFnTFFhUDluNFF6TmlTOHloSjZjOFhVVmJuOQ?oc=5",
-"s": "Reuters",
-"d": "2026-11-19T05:58+00:00"
-},
-{
-"t": "Bangladesh, an underappreciated success, faces an economic crisis",
-"u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM2RxWnRjRUZqalVPTERhNHQ4eXowOThOR3cxTlhyT3RGcE8wd1h2MDI4ZG5OM080aDFkWVVBbE9LT21nMGZ1dHRhS2lGQmJNMlRCYWNLbjdlcnFMS2xEaFVSY2ZHeVIzSEUwaEl4bG1xaklydjhTWWdLVjc4U3B3dUNBVUlLekhSM05ydTc2ZlBMRGpQeGNKT1lYekVHVTdEbWNERVZ1NWNqbjNa?oc=5",
-"s": "The Economist",
-"d": "2026-11-19T09:51+00:00"
+"t": "Rohingya in Bangladesh welcome UN court's genocide verdict but say they want to go home to Myanmar",
+"u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZk1JdVF0VUhUY0NYWEpCREVXNEJkRnE3M2JmcmpNeVhVMm0xejVJeWl5SDlPNzZlLWF1cUVlblgxMERydzd5emY2OHc2anY1Wk9acFV6Tk1uTUNlZFkxNHZJTjdnUTQwN2l5U19nRzdfUTZBMUNTMWNIVVJjOTllSHA0TWpDYnk2U3Y2VFlaSzVHTlNGMGFFUThfUnh2YjhLU2xqeUhLM2Zuc1hPMnZZUnlTeHpISWN1SHNSNGNjaUY?oc=5",
+"s": "The Washington Post",
+"d": "2026-11-20T06:24+00:00"
 }
 ],
 "076": [
@@ -1634,10 +1634,10 @@
 "d": "2026-11-19T17:11+00:00"
 },
 {
-"t": "What Lula’s Fourth Term Means for Brazil’s Economy",
-"u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWG9ET0l1WXU4WTlxVi1zM1ZIemdrb2I3VWpOQ3I0enhfTDdrbGtzcU9lQ0VZZmVFc2F6d3VkVjBFcVdLZWNGWGFoTW12TEpwSjZjVFdjNGRwdFllNnF3bFlaZHB1NWFKYll6aThvQ2JBeWtQd3c3cE9WZUR6Q0liTVViM1BFandxXzc2UHJLdw?oc=5",
-"s": "FocusEconomics",
-"d": "2026-11-19T10:51+00:00"
+"t": "Brazil in the Crosshairs of the Chip War",
+"u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHpLaWpySHJxa3RUTzl2TGVUR0lzOFgzcTVEUTYzYWRURHFPNXRiaWYwempfRFJOcFlKaEhsVmczWlhVdWVHVmIzMVZRVW9PZV93eHhrc2VBZEp6a3Z1Q1FFcTdlbVB5bXlzQklSZTFITnBFc2ZDc0FvVHFqamVCZWpobUtub25G?oc=5",
+"s": "CounterPunch.org",
+"d": "2026-11-20T06:54+00:00"
 }
 ],
 "032": [
@@ -1660,10 +1660,10 @@
 "d": "2026-11-19T18:35+00:00"
 },
 {
-"t": "Falklands War and International Law: Resolution 502 and the Belgrano",
-"u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54ZUR4RlJTTV9aMlE1TXZXRUxsZHR0VGtKamx5V0NOS0tfTWhTaERMaWZPdjUwY3R2UURMSGdHajNYTm1BTFF0WmYyQVNPNlJXT0R6NG1RNWdmV2Q0VWVv?oc=5",
-"s": "Diplomacy and Law",
-"d": "2026-11-19T10:01+00:00"
+"t": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+"u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORnZqaVlvdkc3cUxDaVhsZlVGTmpqWDJkOVZhM0J6Y3R4R3Y1QW4xUVNtTDVKR1dfcElTczBfME9wZ0FWdXkxZ0xrTEdvT01HMHBSYWZQeGVhOEdOcGVLM3dGbmtPNUd0eDRIbW04ZlkwaE5VbnBoTGt3ZzdxM2duSjJJbmlac0RfNGZMV3lrQmN3TkJwd1JUQ1BGSnA2eURBTzFHZm55Z3dZWm1ISFN3RFVBMXFjdXFqX1dON2VqYTg3RW1PLUJ5WE5n?oc=5",
+"s": "The Guardian",
+"d": "2026-11-18T10:31+00:00"
 }
 ],
 "036": [
@@ -1674,25 +1674,31 @@
 "d": "2026-11-20T00:18+00:00"
 },
 {
-"t": "International court of justice ruling on Myanmar",
+"t": "International Court of Justice ruling on Myanmar",
 "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV2xQM3hXX2poZFF4WGNwVWw2S2c5Tm51cUViVlJTZ09MME1PSzczT2pWcktmNl9xZTZlVGdpenpHODFWRnZWYUNsbnpsZWFXaHl2V3NjalRFMGVtR20tN2U4ZWYtOGdkd3U3MzQ5Y1E1a1V4ZmtXbmhhdzRMZ3dFcmJMaHJmX2VCM2w2d2FnOE5RN1MtMlNNWXRwa2o3SUYxMWx6MzNJZUZ3VDJzSUdVdQ?oc=5",
 "s": "Australian Minister for Foreign Affairs",
 "d": "2026-11-19T22:46+00:00"
 },
 {
-"t": "Government urges Sandpapergate forum transparency as Cricket Australia faces backlash",
-"u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYkc1cV9DODNCdUk1RUQ3cVFvSnYxVEkxbUljTDBiYTZabFFXRHdJNlJiNjQ2R3R2MTlVOVg0N1U1UXVtSm5sM3NmV3Y3Vk1jODU1aTZFQVBRM2hGbTVheXpubmk0dm1YRW1ZanY1UUItVExMUnJwazBtWWlnV0F3QjdxQ1FRY3NUZUJ3VFhXcjV1N3dVNkZsbHUxb2prMDNEb1pXeC1hOFUyME1rVy12RUFkRmVpSDBIVHFObmg1ZWU2dw?oc=5",
-"s": "Reuters",
-"d": "2026-11-20T02:59+00:00"
+"t": "Australia PM and China’s Xi Jinping hail ‘turnaround’ despite iron ore tensions",
+"u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkRjb0Rma1lqX0xiWEJGMGNfWXpZaEJPR0pkQmI5WTdJek50SkpSTm80S0ljN0tGaG80R0ZZZXU1bktzLXVMeDg1ZW5KNTR5bDV1YmdlM2VsSmF3RFZmdF9FTGJuVnBOalFwcUp0QXV1TU5ycVJ5REp1cWladVlFRjdpa0E?oc=5",
+"s": "Financial Times",
+"d": "2026-11-19T21:00+00:00"
 },
 {
-"t": "INPEX sanctions Ichthys LNG expansion project, awards contract",
-"u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczk0bzczaVZPUnBIZXozVGxqUjJYd3ZaanRmX3JmNHVDaHk2MlNnbjVuVVpsNDZaRjdjbERmWlB3RXB2RFFwemZmZnB3azEtNU5UZURvVUdaWXRTUmlNeUR0ZncyNHV5M3FXRVRLaHRDc3VZOUI5eWpmRjdja3BDS1BJc0lOeVFiOFZ1T2F0dDdieldRaWw4blY2SURCQjU5QWtabURDN3duOG9hUzUydWtB?oc=5",
-"s": "Oil & Gas Journal",
-"d": "2026-11-19T19:24+00:00"
+"t": "Sweeping new Defence laws threaten the right to peacefully protest, Amnesty warns",
+"u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbThhcUZuc2FlS0J1TmdHYkV1S25vM2pJTF85eGhsWlYxUXdrZWNjR3ZKS0gtSlhwek85dnp0YnRkcnNGck52aDdtV0pEZ3hSekNfTkdIMm5tbE1aRllIaTJabko4S2hkcl9SdFNsT0t5Ti03VnpKNC1kZ2Vjb3BoOGhpNDAxcUs0a3dOZm1HeUt1WTljVWJEQWh3?oc=5",
+"s": "Amnesty International Australia",
+"d": "2026-11-20T04:50+00:00"
 }
 ],
 "380": [
+{
+"t": "In Italy, young people targeted by security policies and overlooked by economic ones",
+"u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSEZFNlZxVFRQa05vTkxadVA5OUFDRnJ6NFhzcEotNmxBSE9QNG5vVHpOdDRneEJVMFFCSEJURk5Oa01KQWNBa2diYzdha0NYRjNHOWRIbHN5QXhQU3ZDcGxSeWdUX0VaTHNpcm8wRS13ejR5Y19lR2FQOEdKa2xtR1d4SmVJUk9ZQkVvd3E5NUpvbEJQeEFIOWJwQU9VMHVOVTJ2TVV3Q1ZtcnVyQ203MnJQS2g4eDMtYjBsNENkWWJMczBBZjV2bHJpbHNyVzBSZ1pIQjBobW1Qa0JDcm1GQ2FoZjk1QzRINkNBc1FB?oc=5",
+"s": "Le Monde.fr",
+"d": "2026-11-20T04:30+00:00"
+},
 {
 "t": "US sanctions Italy’s ’Ndrangheta, targeting its global drug trafficking network",
 "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ2tKRjZhbUZlQXpKYnppSG5YYXRVekpXazFpU0dyc3VEaHNOX2NYNHlXeUhVVHJVbHRDVUQxYVE0aGFoUDBoX3k5ZV9lazZBUWdIUDVpSkdLUEduVzk0ZDdYZm05cXQtODVuUExRak5XQjlxQnFhUHBWQ2lOaGZsSnUyNm95VHRVUGxXaTUtcXJHQWpWWWtVWGx4ZEFERmNZYTd2cTV3bw?oc=5",
@@ -1706,42 +1712,36 @@
 "d": "2026-11-19T19:00+00:00"
 },
 {
-"t": "When Italy passed its antisemitism law, the Left voted no",
-"u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQekZZSWY4QzFOTmlKZjRBcHpJODlrcDlqM3Y3THZUcGdsRWVoSERyRTlGOFZ3c096WHFvM0NIQmNUbV9UMEhaTlJvWDloWXVQN0wyekVReHphMXZ3VVFvOHlXWk1xM2otTzdMUzB0RW1OVXVSbGl5bGdVODR5WkI2QXNRdThsZnl3QVJMbTFzdzdnTmRZd2c?oc=5",
-"s": "Think Scotland",
-"d": "2026-11-19T18:16+00:00"
-},
-{
-"t": "“100% protection” from hybrid war impossible – Italy minister",
-"u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOTZybnhQUUs4MDZXN040VTNXWVJDMnBYZVNLT0x1Q1BjdFJqcTYwaXVORmZ3SGxzeVktTnNfT1hlV0lSQWQ0UVdWREdfcnJvREZUVE8zbWdjbzI0b1JZNm41a0Z1VTRMOUlSaXJDbDY0YjY1aW5kS2VBYWstQzdGektkd1A4ZmJRUGpvN3A1LVFOS0haSmpSang0TFZjajBySjlwYzBNTVZWTFRxUjVSUDRmS3pTQkh6OElwMC1R?oc=5",
-"s": "Montel News",
-"d": "2026-11-18T14:55+00:00"
+"t": "In Italy, Meloni Grapples With a Potential Spoiler",
+"u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmViaW9ueTdGTVo1cTVxZTdEVFRfY25Yc0lQWHY2eXd2TFVzNFMzZE03cEt5eVlhRjlVMmx3czRmRVMyYi1MZUNfMW1JWVFEVnQ1N0o4SXNydENvblktRWhHOVk2ankycnRWSnVXS2d5b2x2cDhEYzZYZUtsV1hoWTJXWXVBanRYTjZMeQ?oc=5",
+"s": "Asociación Almendrón",
+"d": "2026-11-20T05:12+00:00"
 }
 ],
 "724": [
 {
-"t": "PM Sánchez admits 'mistakes' in key debate ahead of Spain's election",
+"t": "PM Sanchez admits 'mistakes' in key debate ahead of Spain's election",
 "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWkF3R2dYTmxkQURQVy16aG1vVE54cmVlRWcxNFNXbFd3UldKNUNIQnFMWTNHNmZORkpCS2k3c25ZdjN4OEw0R2ZoeW5pR2Uyb1ROWUhCQ3B3YTdHNjRoX2RyQm1qRFltN0VkREhLYjVweHZna1FDOHNhN3BRS3JFS0pUTl85cWxoeFdpc0xBV3hqTmxTa2wwM1NTcnRmVkVob2dLcFduTURsdmJGZEFXSDRNQQ?oc=5",
 "s": "France 24",
 "d": "2026-11-20T00:49+00:00"
 },
 {
-"t": "SPAIN: ‘Housing is no longer treated as a basic right but as an object of speculation’",
-"u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGdTc1dUSGozMFNEMV9kMHNySHY4N3pfOUg0c19DSEs0MGtpN3NiTy1oUmRwRUpwV0ZBbTJJZDF3VlU4SEVHRi10RXBuVDdlek9VTVA2VzBka2hWaFktNjgtUFVDQ2pQTlZaX1Q0V0hsMFFINFpYS0RLbXEzZlN2X2tkYzZNckVtd0pGLTFqWWRvb3RlUktXdzJoaGFVLXU2c0dvRXlMc1VzeXpWQVc4a0VVVXVSR3c1aXVJ?oc=5",
-"s": "civicus lens",
-"d": "2026-11-20T00:39+00:00"
-},
-{
 "t": "5 takeaways from the Spanish election debate",
 "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVHR6aUh1VWFqbjBlZHJNUkJuNDFvVlBzZUppX0JzRlVxRTlLMm90MElmYlBzbEF0NmRYTXpfZDg4RVllNVA2Rjhpa0dfbjBybEhjcVBnS29UZlhKRDQ0azBVQzJSNXdsb3l1V3ZSaVQ5Ulk4cGJBYnRFckY1WUlreHJLeWJhMjFndFVQeDRUVms3c3JtaEtlYUxFTWhNWndvN3RV?oc=5",
 "s": "POLITICO.eu",
-"d": "2026-11-20T03:02+00:00"
+"d": "2026-11-20T03:07+00:00"
 },
 {
 "t": "Who to watch in race to run Spain after 29 November elections",
 "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VT2Z2SzlnT25EQW9TbmxlS0dWOFc1S1Rpdy1RZ00xRU1IaXlpNllKU1JBOFpMaVRHRHk1c0N0UmJEZzZXX1dNLWhJM3pBMHRCR1NJRVNWSFhiUG8?oc=5",
 "s": "BBC",
 "d": "2026-11-18T11:44+00:00"
+},
+{
+"t": "SPAIN: ‘Housing is no longer treated as a basic right but as an object of speculation’",
+"u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGdTc1dUSGozMFNEMV9kMHNySHY4N3pfOUg0c19DSEs0MGtpN3NiTy1oUmRwRUpwV0ZBbTJJZDF3VlU4SEVHRi10RXBuVDdlek9VTVA2VzBka2hWaFktNjgtUFVDQ2pQTlZaX1Q0V0hsMFFINFpYS0RLbXEzZlN2X2tkYzZNckVtd0pGLTFqWWRvb3RlUktXdzJoaGFVLXU2c0dvRXlMc1VzeXpWQVc4a0VVVXVSR3c1aXVJ?oc=5",
+"s": "civicus lens",
+"d": "2026-11-20T00:39+00:00"
 }
 ],
 "528": [
@@ -1752,16 +1752,16 @@
 "d": "2026-11-19T02:59+00:00"
 },
 {
-"t": "Netherlands summons Russian ambassador as Kyiv embassy hit",
-"u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSlhpc3VjQlJUMS1pb2FxdTNFSFlNODl6NFB5RXlnMlljcXI5dGl0emdoTkpFNmRRWnJzOXhVakxhQWdWb1hvb2tnaFZkLWZoYUFTc1lEQ0VmOXBETkp6TDQ0Tk84QWhWWlVqUFM3bG0tVXk5YVVveU91TU1MUHpvdVk4TTdBLVQtZGs0enhlZ290bjUzbDRQU1liWmVpUQ?oc=5",
-"s": "Reuters",
-"d": "2026-11-19T18:49+00:00"
-},
-{
 "t": "Russia says Netherlands is no longer a bystander in Ukraine war; PM Jetten pushes back",
 "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUmtfMDgzTGJtTlRONzVjcXJseHVxTmlESk5ZdXlFdVN0SDA4LVFXYThCZEFPcTNOVDJGSldjaXRzeHRuVmVzNVJrdG9NaTQ0elphVFNHVi1hQ1hpR25vTmpOVUt0eTRPY21ZNW5lb0dydnd5VG9GV0Rfanl3VS13YnJCbTdiUE5leksxYzVjcUhtOTBwMVRxNzJXXzl2X1M2WjJGY1hDZw?oc=5",
 "s": "NL Times",
 "d": "2026-11-19T21:00+00:00"
+},
+{
+"t": "Netherlands summons Russian ambassador as Kyiv embassy hit",
+"u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSlhpc3VjQlJUMS1pb2FxdTNFSFlNODl6NFB5RXlnMlljcXI5dGl0emdoTkpFNmRRWnJzOXhVakxhQWdWb1hvb2tnaFZkLWZoYUFTc1lEQ0VmOXBETkp6TDQ0Tk84QWhWWlVqUFM3bG0tVXk5YVVveU91TU1MUHpvdVk4TTdBLVQtZGs0enhlZ290bjUzbDRQU1liWmVpUQ?oc=5",
+"s": "Reuters",
+"d": "2026-11-19T18:49+00:00"
 },
 {
 "t": "Andrii Sybiha сondemned Russia’s Attack on the Embassy of the Netherlands in Kyiv",
@@ -1778,16 +1778,16 @@
 "d": "2026-11-19T08:35+00:00"
 },
 {
-"t": "Investigation Into Suspected Breaches Of Myanmar Sanctions",
-"u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa2paRUczZmJNaUozUWZwQnlOTWNIdWFkWGdBei11dnAxQlVxbDFRM3RuZ290bFM5ZTJyOEN6Tjc0TnBzTUF4a3NwYjV0cXdqTFBLRUl2Z3M3RW5YVE52bTRLWHp0M3hfaE5zVXJORlJVMUZveFFsZGFrUkt0ZFQ3MTNwZEltWlRDNGVlNGtxSGtRdjMzdTBrTG8tdmlyR002THQzaGwtT3QyTjNKb0pDSWdfaGVuSWhRb2Z0Q282NXh4N2E3dXU0WA?oc=5",
-"s": "Legal 500",
-"d": "2026-11-19T08:34+00:00"
-},
-{
 "t": "A bold vision for Belgium",
 "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWU82WnpoSGhTQ0JQanJaSHZJWkhUTGdwMTNQVk9YM1VhaGQyTDhfVUZRaEJRQWRCeEthc2RaNTVPZDF6cVQ1bWlUZUtpV2hGdWYxYnlHWlNNSXVLYTNtN1M4WTRYbjhtRVhMS3pOSWJFM2REVk5vTF9YUGhhZ0t4UlRObjl0aXZpd0FzTzVaaUZUeGxIazlELTl4LXUybkRSdUZRdU1B?oc=5",
 "s": "McKinsey & Company",
 "d": "2026-11-19T00:00+00:00"
+},
+{
+"t": "Investigation Into Suspected Breaches Of Myanmar Sanctions",
+"u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa2paRUczZmJNaUozUWZwQnlOTWNIdWFkWGdBei11dnAxQlVxbDFRM3RuZ290bFM5ZTJyOEN6Tjc0TnBzTUF4a3NwYjV0cXdqTFBLRUl2Z3M3RW5YVE52bTRLWHp0M3hfaE5zVXJORlJVMUZveFFsZGFrUkt0ZFQ3MTNwZEltWlRDNGVlNGtxSGtRdjMzdTBrTG8tdmlyR002THQzaGwtT3QyTjNKb0pDSWdfaGVuSWhRb2Z0Q282NXh4N2E3dXU0WA?oc=5",
+"s": "Legal 500",
+"d": "2026-11-19T08:34+00:00"
 },
 {
 "t": "Grave of missing Pembrokeshire soldier identified in Belgium",
@@ -1797,6 +1797,12 @@
 }
 ],
 "752": [
+{
+"t": "Sweden seeks to expand cooperation with Ukraine on energy security",
+"u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOE1uUTNHejJqVVY3UEx6Z1EzalluM08ycTFBQlBCendETFVmcERBUEVSVTZFQXMyVF9LS1FTVHZSQTMyNUVZdU5xb19odXpqT1JyenBSclpGclpKRm5UME5kd29FUS1PLTBzeDkzeHhGRnpkUm0tN05oNnY4WUoxOEF2d0lmQ0lLU3Z6bGZqSldhTmZsQ1BhbXJ4VElEanFXMVhQQWQ2TUlaRWFQSmRUc0MtQzJSVDd1QUlsOFFsNVhEd9IBwgFBVV95cUxQOE1uUTNHejJqVVY3UEx6Z1EzalluM08ycTFBQlBCendETFVmcERBUEVSVTZFQXMyVF9LS1FTVHZSQTMyNUVZdU5xb19odXpqT1JyenBSclpGclpKRm5UME5kd29FUS1PLTBzeDkzeHhGRnpkUm0tN05oNnY4WUoxOEF2d0lmQ0lLU3Z6bGZqSldhTmZsQ1BhbXJ4VElEanFXMVhQQWQ2TUlaRWFQSmRUc0MtQzJSVDd1QUlsOFFsNVhEdw?oc=5",
+"s": "Ukrinform",
+"d": "2026-11-20T03:21+00:00"
+},
 {
 "t": "Czechia and Sweden tighten entry barriers against Russian athletes",
 "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT1J3enY5OFRaMnoxc3IyVUdTZVFLOXRrMTkzUUNRWGs4czllV3JJVkViUExOczcxNWlKR1FZQW9ZYjZHVmRscU14QjBGUU1vVDEzdm9KazFPMTlLRmcwSTJ5UGtOSHk3TmR1Vnd2Y0lUdnpjY2VkdTZ1cUlJTUh5ZXJmOHk0MHV5eFdBekNQNlZ2Nkt2OVBCcFQzZHlsODl1T2lsQW1PSU14UQ?oc=5",
@@ -1814,12 +1820,6 @@
 "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbk5JQVRGa0lqR0xiOUdXR0VrWmJDWS03WkN6cFFqSHhxVzJiQ1NEQU95X3BqUk9LcEVCUlp2TVpTUTBhUkJRQWZNNXh5MzRfbTJDdXZLdHhfbE41OFF6NEF5My1nTVFEMFdzRlJKTkd3NkpVRlRSV01HMjR1cFRaSlFwS1lpZw?oc=5",
 "s": "Government.se",
 "d": "2026-11-18T09:36+00:00"
-},
-{
-"t": "Sweden moves to keep Russian skiers out of 2027 world championships",
-"u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVndmT2o4QmpwdFJtVlVqTS1GSk1EMHp4a3NZX2JDdnYwNHdkZHJ2cVE5Y0dLQzZjLVUxR01Eamh3OUFWZk5vakVhLUVzS0o4LUhnWFN5OUZ5N2tDd1drMWdpZ1JpanN4MFlHNnFmVHppR1Z4QzFNWF9QN1JBbkdlMkR6ang2dnJrekZOLV94OHhkRE42TGZIVUpZT0pVQ2F3TzdJYk9WVEdZazlw?oc=5",
-"s": "Politico",
-"d": "2026-11-19T13:11+00:00"
 }
 ],
 "578": [
@@ -1833,7 +1833,7 @@
 "t": "UK and Norway to jointly supply two fast attack boats to Ukraine",
 "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zOUJpZ29WN0NBZGUxUXQ2ajJUY3Jsb2xHcTRHOWlsbkxFRzJwMUVhYXhIRlVkdmdPWXBIdmlaSXBDSW9lWFd1UTRaeU5ZTGdkUFlObTZyWEVlNTltTHVyVjFuRTRlZmVPSVhUcmQ2WTg?oc=5",
 "s": "Defensehere",
-"d": "2026-11-19T17:56+00:00"
+"d": "2026-11-19T20:25+00:00"
 },
 {
 "t": "No Funding For New Projects on Northern Norway’s Key Railway: ‘A Gaping Hole’",
@@ -1856,10 +1856,10 @@
 "d": "2026-11-19T11:01+00:00"
 },
 {
-"t": "A competitive Finland in a changing world",
-"u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaW9WNDRjcHBWVi1Jbk9XaTNzcDBwSXY4U01La2xDcVVZUjBPQWRISWliV0hTT3lmaFVXMDJ1TDlDUWRnWUh4ZUREYmZ2RmpjTGdMZWNNTmR6TVA0Y2FKU1RxZE1zYnpNVlJsMG84THU0cmFOZmRodHlIVlFRS09XRWxLN2J3RlU?oc=5",
-"s": "Valtioneuvosto",
-"d": "2026-11-19T07:06+00:00"
+"t": "Finland's military ordering €450m in explosives",
+"u": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9xLXFxWnZXV2htRUlVQkF6ZzVzZGxOaG43UXpyNnQwZFZjU1pUQXFyQkV3S0kyMGt5UHZFNW9uYTZndw?oc=5",
+"s": "Yle",
+"d": "2026-11-20T05:51+00:00"
 },
 {
 "t": "Finland and Ukraine sign MoU on defence industrial coproduction",
@@ -1868,10 +1868,10 @@
 "d": "2026-11-19T08:05+00:00"
 },
 {
-"t": "Lavrov claims now-president of Finland called Saakashvili a ‘lunatic’ during August 2008 war",
-"u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ1pxZDh4UG5leHNId0l1cWRaZ0w0cGVxbk5NZS1ybW52QzZYbzlMUnRtek1GRGcwbDFtdlBqZUp1VGoyWFhEYzh1SXdWZ3Z5bl81bVFrYl96MzBScFhQX19YLThLd1czeHRvUF9rbzBMUEhLN09vZXhDZ1M5UEpvV09OM3pzS3ZPaXpIT0l6a3NSMVp3Um1JMWFkMGdRakJyU1VzTEFuRXp2Rm9ocWpWSEp3?oc=5",
-"s": "OC Media",
-"d": "2026-11-19T06:38+00:00"
+"t": "A competitive Finland in a changing world",
+"u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaW9WNDRjcHBWVi1Jbk9XaTNzcDBwSXY4U01La2xDcVVZUjBPQWRISWliV0hTT3lmaFVXMDJ1TDlDUWRnWUh4ZUREYmZ2RmpjTGdMZWNNTmR6TVA0Y2FKU1RxZE1zYnpNVlJsMG84THU0cmFOZmRodHlIVlFRS09XRWxLN2J3RlU?oc=5",
+"s": "Valtioneuvosto",
+"d": "2026-11-19T07:06+00:00"
 }
 ],
 "208": [
@@ -1908,16 +1908,16 @@
 "d": "2026-11-19T23:25+00:00"
 },
 {
-"t": "Pierrakakis Says AI Could Transform Greece’s Economy",
-"u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQjRMUGRvaGhCZDJld0tUckdYVVpxM1dGVmZKWG01UFZqM3hvSFpON29JeWhLZlYxZE4xbnoxaTJqR2w4dzFra3h2QVJOYk0zckExVmx5TVdPT0J3M2Z0YXdUMmhDNGxldXZpRHk4LVJRUG9sRi1pVkJJckd1N2Z3S3ExbGEyVUFzU19YVQ?oc=5",
-"s": "tovima.com",
-"d": "2026-11-19T04:59+00:00"
-},
-{
 "t": "Inside Greece’s Latest Military Exercise: Tanks, Helicopters and Combat Dogs",
 "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdTlQSTlCZUZLU0I5OTVxT3M1T0RFdzNwUDgxNWpzMWhfTVFEcWtvbGtVRTdqM0VzdGRDd1lLUW9RMERpVW1oYzNDaGJZS0tzaFhHcV9xZjBTQUtKaVF2STRTYXM3R1JPcXM4ZDBiZGtvcDRzcVBqd2VseV9ZeUpqSTZ3WmZtSFRWakxyTmF4R0U1cGtzc2c?oc=5",
 "s": "GreekReporter.com",
 "d": "2026-11-19T17:12+00:00"
+},
+{
+"t": "U.S., Greece meet to reaffirm commitment to maintenance and sustainment of Hellenic Army Aviation",
+"u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVEdhanRGOGwtXzNZUmt3UFpHVmFxSkl3UU5GWUVERHl5SldUaktHdldHNm9ESVp3X01MRFVpUlV4LWRFOHYxZVZXZWh0NkNkUXhoTzBmMlFoSlllMEl3cVVWaVRjRXJMNGRlazN3N0h2MmwxNWdWM21SN1Q0UEYtQTdtZ2gtZHRrUWE2QXFaRHJyS2hXU2tRRVVXeUNjZmRZZ3JHakFNUDE5Zkp1RjJ0RTJVRlBUVlFYaE1DM0xLS19UbmFDS0VzdEkxdlU1ZEg40gHQAUFVX3lxTE9UR2FqdEY4bC1fM1lSa3dQWkdWYXFKSXdRTkZZRUREeXlKV1RqS0d2V0c2b0RJWndfTUxEVWlSVXgtZEU4djFlVldlaHQ2Q2RReGhPMGYyUWhKWWUwSXdxVVZpVGNFckw0ZGVrM3c3SHYybDE1Z1YzbVI3VDRQRi1BN21naC1kdGtRYTZBcVpEcnJLaFdTa1FFVVd5Q2NmZFlnckdqQU1QMTlmSnVGMnRFMlVGUFRWUVhoTUMzTEtLX1RuYUNLRXN0STF2VTVkSDg?oc=5",
+"s": "Army.mil",
+"d": "2026-11-18T08:00+00:00"
 },
 {
 "t": "The Amazing Inventions of Ancient Greece: From Plato’s Alarm Clock to Ancient Flamethrowers",
@@ -1927,6 +1927,12 @@
 }
 ],
 "348": [
+{
+"t": "Hungary moves to relax regulations on abortion",
+"u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOThiU24wMlZHS1NFQ05FRFVQLXNfd0lZRXpqOE9mYThPVHhRbnkzRzFLRTdicDlqOUxMV3dzZlFkcDRkRTNrZG9LdmZWSW42SjA5ZDFycDByemhteXU0VElOdERxME1CX2MwUUNxUUZONkxZUm02SjV4d3ByMmY2Z3pmZjJ0NDAtXzNkTzFZeGNISE9aWGhQUXFhNTBlTDB5RWotbGE2bjZsbGswWXJzSnFmZw?oc=5",
+"s": "The Church Times",
+"d": "2026-11-20T00:25+00:00"
+},
 {
 "t": "Hungary’s new government claws back motorways and tobacco monopoly after years of taxpayer‑funded Orbán luxury travel (Day 191 of the Tisza government)",
 "u": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOdGJpbUZyZ00wdmNwejNsdXVTTkw5M213Q0I4OXRCejVQZktnSXN5bnF1RTN3Uzk5WXNPYmZzdXdWVVpmV1pYQUpWQTVjN1NXMnZWRFJ6T3gtVGlNY0RpLVZiVjNfcGstU2MzMWk4dHdKdXRBaUtMaC1GckVmakxNMjlPb0JzRDZWejZ4WlNPRmIxeVNtWk96UklHWDhRSWpPbjdHV01XVlRFSXFHYVdOaUdqdVZnQTY3QzQ2cVdjTi1DSzNPc1JueEstME44ekNkTVBrX3o1MHZ2OFhGYWhkZ2lJd09wckdkT1FPZTZPUER6cENTOGtwdGwycm9kLVJFU2M5U2FhQm91Zw?oc=5",
@@ -1944,12 +1950,6 @@
 "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT0xsbHcwRE1lUzh6RC11S3pEbU1CUmowTTJwZnllaEdUNW9uVkR0R2Ztb0hEZjdMU3V1Mk43dnJ2cTNiZWRoenF3OGx5YmhjcWFmQWk4RTVJMTN4aFl4QktBc3ZDYVRnbnN3VnJydGg0ZE1UUUotcThYX1hzM09wdElQdkNzVmkwRUtORA?oc=5",
 "s": "TVP World",
 "d": "2026-11-19T15:04+00:00"
-},
-{
-"t": "Hungary to end Orban-era 35-year motorway concession contract",
-"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVzhqWVV5ZURuSXdGTGZhTUctQkpZZnlZQ2JVMDdTNWQ5d3dsQUZvbjN3UEUydEtaNzByN0hQOTRtQTNLY3hYOTdlNFVXQXdnR2t5VXFrM3c5WkdYM1hiVExhN21BMG14ZVNfQW1IdmZrYWFKRktZUE9CSUN5dU9Fc2pYLTRsU2Z1U3NFWjFRVDkySjVKMzV1MGJKQndhbWppbEFVbGxDRU1ZMTlaUXc?oc=5",
-"s": "Reuters",
-"d": "2026-11-19T14:03+00:00"
 }
 ],
 "203": [
@@ -1972,10 +1972,10 @@
 "d": "2026-11-19T09:26+00:00"
 },
 {
-"t": "EU tables €45bn Ukraine loan as Slovakia, Hungary, Czechia and Bulgaria opt out",
-"u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFZqcmhDQ2ZFTzZJVll5WGx4YU9iQm5GY0p5dXJ1ZUd5V1lqMTZjNmMxX1VtQ2FjLUQwV2NPREppSzNVRW1VSEZhU0hzMVdsZnZLYlFVVVlYWDdnNDgzTks5Vjg5dTVtR1lWME5rNVpsLUpXejAzS3Jja3doOVk4eWphNmU1LVp3TVZkdFhaVmc3N3B0U2FfY29teWozaVk?oc=5",
-"s": "EUalive",
-"d": "2026-11-19T08:59+00:00"
+"t": "Foreign workers are saving Czechia’s economy. So why aren’t locals happy?",
+"u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNekNWNUVLYzR3YWc2WHppZThweEJaZG9URUJ0RER1TFhMRElIbHZnZmtSOUJoWDZ2Y3paYmxTZ0ZlNThWWGI2QTUxSUJKS0pETWtBUWxDNWtEVnltYzNMY3VDZ2pHWlVoTFZqZkJYaUo2dGhvZXE1T01xdldONmZOR3VUYS04S3laRDJlbGNyckZmLWQzTmtEYU03Mm81NDA4c2lEVnN0TGMtcF9pRU4taVB3?oc=5",
+"s": "Expats.cz",
+"d": "2026-11-18T08:11+00:00"
 }
 ],
 "040": [
@@ -1986,22 +1986,22 @@
 "d": "2026-11-19T19:35+00:00"
 },
 {
+"t": "Protest against far-right party in Austria's government",
+"u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVlFsMVhxWXUwZk5YY252U2hkWS1fam80M1RERTlqSHo0M0tPMzRoU0dYeHJ3c25JMlhHYnlGNW1MaFZfZ3lWT1FTcmlnd1BsNzV5YUExVklCYjN1Vm5ibDdlWWVMak5CQ3R0OTloRkxTUjdSYVctaGpmbkZHZEZiRHJpWEZkWnZ3TG9ScFRaMC1ERVd0eEY0?oc=5",
+"s": "Yeni Safak English",
+"d": "2026-11-20T04:22+00:00"
+},
+{
+"t": "How A Trouser Button Becomes A Dual-use Item Before The CJEU",
+"u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTldHZ01VZUNpTHB0Um5XR1hBaE5vd1dMNDhQWV9VdXRpWDlsdGFvWHM4UXVWMDRGU3FOUkN1N0p0djdVQVh4VDFQQ3RZNlJHNVV4TWs2WDl4TGVtSl9yRmdCSkhTcG84MUlzSmJJQTQ3V2tJTXNrTm9Cb2N2ME80UnZWYVczdzNpZ3NZSDVxbWRWZFBYQk85NzdzbUlCS0VHOVhLaENxQi10bE14OHNJSFYxMmdiZzEwUi1xeWpJWmtPZw?oc=5",
+"s": "Legal 500",
+"d": "2026-11-18T08:00+00:00"
+},
+{
 "t": "The major changes Austria's government wants to push through before Christmas",
 "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcWRoVHh5QXRyVjRRQWpPc2djblRudzhHS19pTF9pYWd1RktUWFBaT1ljU0VqQ2ExR1NkOWZENWg0RHhmX1NHZTdDa25rTmc0V2hSeW1KSFNYX2dxQXVRNzZuY0tyenRuSDJpRmpudzBJN2VuTzM4RHhHeUVjMFlQRmtwa20zWEVONWdjWUNMck5nS1IzVkkwTmtmY1dReVNBSG5Ram9Gdkh4WkxXR0E?oc=5",
 "s": "The Local Austria",
 "d": "2026-11-19T15:51+00:00"
-},
-{
-"t": "Austria’s A.I. Strategy Won’t Be Ready Until 2027",
-"u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BRi1CaVJCdHkzeE40YTJ5ekdLb291eXd6S0t0VWRsY3ZnWW5sVFpvbjJFb2VYRzBJek5kWnBNSjlTMENXd20yOTFzZWl0b08zYTcyOGM1bVRNQm5rUnFDNDY1Q25VRjAzUmc?oc=5",
-"s": "www.trendingtopics.eu",
-"d": "2026-11-19T18:59+00:00"
-},
-{
-"t": "Germany, Austria demand TikTok’s European platform be sold to owners in EU",
-"u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOGljYnp5RTBIeGpWdmZIc0RzZUFncWhWanVsekl1djAwcHJmMlFFVEttOW5vdnljdnlCRzhSOUhoTXg2SF9kUlFGbFk4cTZfWkludUNGMHA5UFJsOUxuTzBZZDJMSTQyLVJEdWhIVnpnMThScDloR0NzQ3lyZ0FRd0lNQzE3cEREc1lwbGh2NA?oc=5",
-"s": "POLITICO.eu",
-"d": "2026-11-18T12:27+00:00"
 }
 ],
 "756": [
@@ -2012,22 +2012,22 @@
 "d": "2026-11-19T21:37+00:00"
 },
 {
-"t": "Amid European youth protests, events are also planned in Switzerland",
-"u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQVNOb0tFQ1JqOFdGbGU1YnZWU0RyaUwyU1hYdFQtajFCX3dWYmxRWnBtbkMyb25Gb1B0ZVVnem1xX1VnM2JOWWRrVGJ5Vlg3d0hrTjU5Q09ndHNIXzNheU44S1kyVC1UNFc4a2VyLUJtYmJxOTYyc0dJb2RlQnpqQlJSLVlIT3dsamVOS0F2OUZDU0F2cW5aSnpuZUY0aEVXdXdjMGJKUzhzY0lkSnV0c2pUZ0ZFbEFvQWRVTkFtaw?oc=5",
-"s": "SWI swissinfo.ch",
-"d": "2026-11-19T11:35+00:00"
-},
-{
 "t": "Switzerland wants to extend transalpine rail freight subsidies until 2035",
 "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc1FKaWs4VEdpVGp4Qk9QZlFGUGx0OVVhYVVFMFpTNDN2Mzh4eV9aNmFuSUxhc2I4SXJPUGtWUDNvdEtfdENCRTBxOTgzd1pqZUgtcThGeHlOUkdFUmxORU9kUTliUzRxUmZOY0dicnppOHJVbXI3Q0JIbTN6OEg0czNXZFJLSVRvQlJDdE5aczVhZ0V2Z19icU9GSU5YR0hIZ1htUFBnNktmQ00zS0hwc1JzWjBlN0JnZlVGMk0tZFBxTlk?oc=5",
 "s": "RailFreight.com",
 "d": "2026-11-19T07:54+00:00"
 },
 {
-"t": "Hundreds in Zurich protest against austerity in Halloween demonstration",
-"u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50dHY4ZGdiRzMwc3owTi1nNWhxU2ZlRzRORFcycTg5bG56SFJBRTNYcmp0NHRhTWU4bkxDenBJODU0UzYtdmVDVEpiaXVxR0hZMjQzZm96a1p5dE1PN2c?oc=5",
-"s": "The Straits Times",
-"d": "2026-11-20T01:09+00:00"
+"t": "Amid European youth protests, events are also planned in Switzerland",
+"u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQVNOb0tFQ1JqOFdGbGU1YnZWU0RyaUwyU1hYdFQtajFCX3dWYmxRWnBtbkMyb25Gb1B0ZVVnem1xX1VnM2JOWWRrVGJ5Vlg3d0hrTjU5Q09ndHNIXzNheU44S1kyVC1UNFc4a2VyLUJtYmJxOTYyc0dJb2RlQnpqQlJSLVlIT3dsamVOS0F2OUZDU0F2cW5aSnpuZUY0aEVXdXdjMGJKUzhzY0lkSnV0c2pUZ0ZFbEFvQWRVTkFtaw?oc=5",
+"s": "SWI swissinfo.ch",
+"d": "2026-11-19T11:35+00:00"
+},
+{
+"t": "Justin Bronk: Drones Won’t Replace Fighter Jets",
+"u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNlFYUUhRMXZ0RGxQaEFkNkhXQ0NMdXA2c2M5U1V1TnpZV3pQRDN2OWVsZHZpLWNuVVBKTWlINVZjT0YyVXU2em9qNzBoejlac2hOUG5YV0IzYTV5QWtqbmd5dEp5MENRd0hSQ0JwYy1FX095YzZBWTBVUlNKVGJKSDhSTXBXZm54TTZ3clFfNWMyaGswOVl2ZkMzRjNtSDBT?oc=5",
+"s": "MiGFlug",
+"d": "2026-11-18T20:08+00:00"
 }
 ],
 "620": [
@@ -2036,12 +2036,6 @@
 "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTFU1dU5IbTE3U2EyemlEZlJfei1PZS1YaUtJX0JYRnA1akJ5eWpVamxQQUNHaUIzTmwyR25NVzZzR1h1UDZrR3R5UjVBVFZaVTlqS1R3N0k4TUgyUF9JZlZuMDZzT3lmRHlFZHc4V08yLWM2M280aFdORnBrY1JTS1dGdnktcmNqNm9TVjNvR0RxX2xYRTBuS2IxTW90bUV2YVF1MXQyTWtPS08yUjFsNjR2cEJLNTJpUTNYTlRYSzAzQQ?oc=5",
 "s": "Portugal Resident",
 "d": "2026-11-19T18:06+00:00"
-},
-{
-"t": "Chinese government criticises Portugal's renewal of Huawei 5G restrictions",
-"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcTdYT3d0cGMyeWFNdHU1WkJ1eXljZUIxOXR1UDFyWFN5bUozM2JZaTUzZWtiZjJBVnJWUDRkWjVnd092VDl2d2dMUzZwQTNLSGhuZ2JmNFg3M3B0X2tEYjBGTFEyUlBLUEw0MEJzRkFaUjh6TnZibWdGWVZnVEFBS2hzN2xNa0VjOVAyOE82OXN0azAtNzM0ajU4bHNsWmtZa2p6cTJuZld4V2JNM3pJZ25KOTVOZlk?oc=5",
-"s": "Telecompaper",
-"d": "2026-11-19T15:10+00:00"
 },
 {
 "t": "Portugal Can’t Donate Its Old F-16s to Ukraine. What Can It Do Instead?",
@@ -2054,6 +2048,12 @@
 "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSkVVSk0waF9kYTFzb1U3Y0hTVU9vcGsxZlBTMW5GVXBZdnNUbTQ5ZWZlTlo3WGRFLU55M3cydUwwdGxGSUNRQ2lfTnptNndiYWFWWXptX2RxZzFhcFd4TS13R05oSk9RYkstZHV5TE9CUnc0UlBXRWRzVmlEUVlPWTQwZThucGVvVWpKX1JUZGlra05tTDBKZTZSY3JqR1M4aWFhQUI0dw?oc=5",
 "s": "Офіційне інтернет-представництво Президента України",
 "d": "2026-11-18T16:16+00:00"
+},
+{
+"t": "Portugal unable to provide Ukraine with additional F-16s but open to discussing pilot training – foreign minis",
+"u": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSDRlQ0VFVURJVnN3R3ByZkc4UWpXYmxBMk9MVTJZZnJidS1OTFlLc1Rab1ctRjlPTU1lV3VVZGJsQk9lWjVVZVl1N2c4cW9ORlJ5ZDB0M0JBRlcwWE1hMmtQZ20tRkQ2WmR2OXN1dGFYWmVHT29vV0pMZWxFTWgxWUdFbWNQWmxQZnBPeS1VZmFlVGNjQnlMc0hZUVg0REZMRnRqOC1aMEowV19mN1ZKVlMtb0JZcjhUMzl3Ml9RXzU2YUwySkNHMEZtR3N6WS0zaFp0RG1EbDktTVZxcDRVVTZTT0ZjU1lnaGFYSmNvbHVmSnJscjV1etIB_gFBVV95cUxQaGN6bGI3UmpJQ3dmc1lkWHpwbHF6Ym9aeDhsV1JCR1ZwWGxmbnE3d1dHR3JDMmFnY2gxM1hBVENjal9lT2JFcWwyQVN0WGp1OVVrQnYwX0ZwdTgtRGFhT3dOZGQ1SURIR0FvUWZyLVRFU1VkM0hQTUZHTEF4eG5hMjFCQ01CdFJ4MFF3WnU0VW9jYmVEQUtsSExPemd4VG5RZWRSTmRRdjc1eElyT2hleGRHMnVvUS1jRmlLNmhreFhNQ2ZjWXVTN0xEVXZsRVhrakIzSnRpY2lhbmpCSHEtdGp4UTcyX25tOHVDRGNpVG4tRjRQS01uRE9CZzBvZw?oc=5",
+"s": "Ukrinform",
+"d": "2026-11-18T15:15+00:00"
 }
 ],
 "372": [
@@ -2064,16 +2064,16 @@
 "d": "2026-11-19T19:16+00:00"
 },
 {
+"t": "Economic growth in Northern Ireland: Committee publishes government response to report",
+"u": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPRWE5NmdxV29EbVBaTGRnWFI3czhEOG56OV9lUEhHNWdHZXNzMVhnRlJGdWFDWndXRlhFbFJLMzBMRTM5LTVsUmE1akNLYi1MTTJpVUR4d0hCemRSWGxQaFI3d3RER05IMkVsdkUzTm9nSnIyV3dMLUdPZkRrMVFzc0VuWHlyaWluQVliT0hfaWlmb21DNlVPWVFkUWVaWlZhYjByRlFQOE01MWZCRk9DMjZLQTJTNDFVWXhtWnBzcWM1QzlmRmVHckh2YUh4enRvSGdtclVJMzJUS0NmU0tFZERiaGk1WmV5ajc4bkZWOS1FZnFoM0t1cHNqeUJrclF5cFA4OHBNVFdUcnF5?oc=5",
+"s": "UK Parliament",
+"d": "2026-11-18T12:09+00:00"
+},
+{
 "t": "Covid Inquiry: UK should co-ordinate its response with the Republic of Ireland in future",
 "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02U0ZUTlhDNTNlLVBOQXhWUkF1LWR4RGhINTk0VWg2eFdEN2JybW9XemFiQmk0N09yUXprcVlBVEsyN0lSNHphc0hibW9RQXFpd3FiUU45M2NEUThPNWc?oc=5",
 "s": "BBC",
 "d": "2026-11-19T15:07+00:00"
-},
-{
-"t": "Economic growth in Northern Ireland: Committee publishes government response to report",
-"u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMmxrYmZfYWZFV09PUHgwV1dEbHZpUWRzQkYyY1MtTk9lOEFBejFBTXo4Ui1PeXNSZFZyMS1VWm4yQjd6eGNTU0hxR1I2RkdaNHdCUUpMMlg1eG94OUVrMGI2ZEhmcHpfN1FWbWwzXzlMQWw2Vm1VNU85SHpnaVNCekhxNnJPdzVyd3I2U01EVWlZaXByNUdJWm95XzdQMjFmdnp3T0haOHlTeERkd0JGY1FucGJJa0ZIc3hXR3dnUVVabEpsTjRrYy1SckJIV3p2Y0RaUjN6LXdIcWd2MXdkR2pzMlpWNEZKTy1mZQ?oc=5",
-"s": "UK Parliament",
-"d": "2026-11-18T12:08+00:00"
 },
 {
 "t": "Irish government denies 'foot-dragging' over Omagh Bombing Inquiry",
@@ -2096,30 +2096,30 @@
 "d": "2026-11-19T05:23+00:00"
 },
 {
-"t": "Lithuania prepared a plan to fortify its border with Russia",
-"u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iMHh5blZRdXg3WlBFaDZQdFBiRG0wcW54TWVTNTJER00waGo0Y2NCUHY0MWYzYXpEcWt2OVlYcnZlTmNjMTdZOUR4WEdHZUpyUVVUWEppYjZxM0hxRXZqRGxrOGRSUDlWRWdfVTRqWG4?oc=5",
-"s": "Європейська правда",
-"d": "2026-11-19T07:23+00:00"
-},
-{
 "t": "Lithuania considers physical barriers on Kaliningrad border to reduce military patrols",
 "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMHo1RmtvclV5UUM0SGpobkp4YjRVRXhMWVVrYV81RENycmxJZUFxZ25Ta3dxWmh4eEpNVjB6RUxqNXJuLUNPNW9nU2xDN3JjbHd4bGQtUVN5cmxkb0tBNHBlSl9YTHhELUtvTDRuVWpqUGFKMDUwNDNaSjd6TWlWV0hIVmM5YVlMVjhiaGlPRVJFNnJsa2JLYl8xQnFqbkluSDVDZVZLbXY3NkViMEttMFdVZnJ1RVVuMG04bmp1cw?oc=5",
 "s": "IntelliNews",
 "d": "2026-11-18T10:26+00:00"
+},
+{
+"t": "Lithuania prepared a plan to fortify its border with Russia",
+"u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iMHh5blZRdXg3WlBFaDZQdFBiRG0wcW54TWVTNTJER00waGo0Y2NCUHY0MWYzYXpEcWt2OVlYcnZlTmNjMTdZOUR4WEdHZUpyUVVUWEppYjZxM0hxRXZqRGxrOGRSUDlWRWdfVTRqWG4?oc=5",
+"s": "Європейська правда",
+"d": "2026-11-19T07:23+00:00"
 }
 ],
 "428": [
+{
+"t": "De-Russification in Latvia – Culture Minister explains plans to eliminate Russian from public institutions' communications",
+"u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS1N4VmNGSTE1OTVtLURjNHRKR1dSX2oyU0tsX2RDRThJMkR2S3hWdGp6RFRLVi1UMWtfYVdMbV92Z1lRMlpQQ0Ixbk0ycG1jbGhZUy1oa2lGOUZRSUE3bmdKUUZxd3FsRXlxNVdhd0Fld21GOHlVR2VjQkNMMEsxbmJQN2J3SFpWb0ozQ19MTlZjMDFtQUktMUdvYTFEekpKeE5BN3BHS0xic2YwQXFuUllESm9wV0tKVXQwWkRwSmJLd1k1MWJRSkZoT3dvLW5seUxramZlQXdXMHc1UXh5a2lmRlV4WG9BSjBj?oc=5",
+"s": "Baltic News Network",
+"d": "2026-11-20T07:15+00:00"
+},
 {
 "t": "Latvia’s government plans to adopt a ‘de-Russification declaration.’ But exactly how it plans to limit the use of Russian is unclear.",
 "u": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxONzhYVEE4Tkdab0p2VDN1b0w0MVRleGtaU1J2S3pwcWhHMnFzbGdOUDNJUjQwZ0h5Q3htZ2NkbFJ6dUVKTEFMSkNnaXN6YnF5M1JLN19rdndmZUgzWEE3NF8xU292RVRaS2ROc3I0NjdTN05WQzRobm5kc21mcFZFcjZLa1hEN3hmTVpGS3BDYjJSQUg1QTl0QUJySXduVnQwV2NXekRqNms5d05JYWlPQ3Nzd3lYV0Vfel85WXRRZ0dHTUJtX0ZTdTBHQU5KNjUyTUlwcUM1ejNBVERMbnZBMGZIakNKOGJla1VZRTk3cVd0X3E0dm83REJn0gH_AUFVX3lxTE9NQUlrbXhGbVE5VXBoT0NSRGt3UXN3Y253M2ZaNU5zMDNuMFgyb2R5UlFaeF9ITlg5VHRlTzV5SDRTTmRkV1cwQkJ4TzRGa3ZGOXlIdTZibjZWREJhNFppQ2NkRUlRcmt3MTdHQzF2R3NmbXNDUFVjamhtZHhINzBVSzc0Zk4zQzhrQ0oxSWVJanBEWk5yTnFRUzBXZzRkbWh6Q2VPSmtXSG9NZ29QQm9zTlQzcW1sMTgzQi1nODdhdDc0am5GUHFDb2loV0N4ZlhwTDNpaC1VTmFKcG5iZkllZUtwd0oxZ1h5NWFReHlZWFRhZFZqY2IyR0lidGxRQQ?oc=5",
 "s": "Meduza",
 "d": "2026-11-19T13:21+00:00"
-},
-{
-"t": "Kulbergs' government plans to abolish Climate and Energy Ministry, but process could take several months",
-"u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUzlGZEZMSXlWY0pmMkp6dlNJNzd1OG1ZRFVPeUV1VWJXRjRjQ0VrRGE1bXFjX1QyYXVPb3pBUnhEcEE1ck1oanUxYmh6X0lTb3BucEdYSWFteGxQbnhxU0JrYUZXX1laWnpPQVpESVlBQXBBQkk2c1A2enJmTmhucEtIOG5PT0hqZ2pESzBhd1ZFVFV4ZGl2OTBKYi1jeG5xU2Rkb3RqWEFnTEp3czBZYTZhNl90VjdncjRyOG1uMzB0Rnd2T05wcUtGS1BHOWl5NFczbkMyWQ?oc=5",
-"s": "Baltic News Network",
-"d": "2026-11-19T10:54+00:00"
 },
 {
 "t": "Congratulations to Latvia's Prime Minister and Speaker of Parliament",
@@ -2128,10 +2128,10 @@
 "d": "2026-11-19T15:30+00:00"
 },
 {
-"t": "Mere no more: discount chain falls foul of sanctions / Article",
-"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQd2h6WTYtRURsVlo5N0pLcGp1VlcwM1dMOVhxdXRxT3BsTTBZU0RySDVUQlZLSlYwMWppSE14d2d0ckJ0QURyaWl2dWNJYjMxTXREUVh6TG55VW44VzBRN1h4Z0NuTF9NdTVzMDQ1cDN3WFNtcjAyUV9MTXR2NXZVdUtGQ1lIcnctODJtaUZiVGwtTmxicjNKZ2pKSDM0WHV2Y01hOFg3QkVOWkNJaDRaOGFtTnQ?oc=5",
-"s": "LSM",
-"d": "2026-11-19T10:13+00:00"
+"t": "Address by the President of Latvia at the military parade of the National Armed Forces, Allied units and services contributing to national defence, held on 11 November Embankment t",
+"u": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNRGVRRUI3MGUwb3FobGM5eVVkZmNPX0RSSXlIODdrZWpKWGkyenBVRzlyV21kbkh3TWJjUndnUXhTMGpPN05hQWVwREM4eU9uR2Q5T2EzWVVGeTAzOG1KMDA3LTRwMWlGSmhtRVBKMDRha0EzdnlYMl9CZ0VaWjhURXBPQ2xNRXZVQmh4R0pZcDZCSVIwYUVocEFSM1dpQ0RkdE45SkJ5b0NmVVBpeThvU0dneVcxaDA4aUYwNWp2ZEhTWHRMRUI3Mk41LWY1WXZtRTFnVk1ITXNPMFQyZi02cFhOUjA0TmJ0SUhPRlFBdTN4T3dmU0VXQVBoZ1pfb2JIMVdSNU9fNmo0SUc3cTl6M0ZaQkpoNkVWLWRVYktoa2VhVlZoSzZvdkFMU0lzRUZ2cHE5YkMwdDRuX2JLYzh4ekdEbk4wWWU2UHJueGs3el9TQ3Qz?oc=5",
+"s": "Valsts prezidenta kanceleja",
+"d": "2026-11-18T19:29+00:00"
 }
 ],
 "233": [
@@ -2144,7 +2144,7 @@
 {
 "t": "Estonia Launches Its Largest Military Vessel Since 1991",
 "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqR2JoRi1Kd19mU20xNFBlZlhsU3UxR2ZBb3dkTW5VUHd2UXpJRncwWUl3X2Q5NEpQYnQ0Qkl2NzR2S2F6MnRKZnpMZnJFRkVFWk9DeGtib0JTNnBuRlN0b0JSQ1lreVRzU204cThnbHlJZ2Z1R0hMNlpLUWszOEk?oc=5",
-"s": "Мілітарний",
+"s": "Militarnyi",
 "d": "2026-11-19T16:39+00:00"
 },
 {
@@ -2154,13 +2154,19 @@
 "d": "2026-11-20T00:20+00:00"
 },
 {
-"t": "Two weeks to get home. Estonia shuts its Russian border",
-"u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlJ3LWh6OFN4djNLbnV6NlZCY1VIenlhdGF2MlFGUUdDOWdCTWd3VHNFa3pCNm9MRTNPU3NHbVBvQzBYX3NYS2Z6YXdQb3NUM3lndTc0dUxjU1NJTWlMY0VMd2xRelB5dEsya2dsYTVibmhGYkJMVGoybm5FdFNObFUyOTFRS3l6Y0tBS3RuQXhSSzA?oc=5",
-"s": "EU Perspectives",
-"d": "2026-11-19T07:03+00:00"
+"t": "UK Ministry of Defence says £25 million package will equip troops in Estonia with more drones and electronic warfare systems",
+"u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTEROenpubnRRNjAydk9sWEtPTHFrUm9ESjBFaThiYWhTbVhsSFZVYnJrcTMxV2xKRnBsX25JRUlGTHVnOXFSOVY3SFUtUkx2MlkzdWVpMWpvSGVZWmhkTUU5WnpsZVNVT1d3UEtjckp2YlAzeGVLcFBQZGZXUGhQYmFlSjhSSUk4dzEtdzNFU2NmZVpqYzRSdTdoVEtkWjE4SURobWtCVkh1eXVKeW5GcFhfSUt1WHJtaWR4MGNXLU9qTGcwbHFUZGh2UC1CNUNEbzNCSXdSWF9iRjJqY00zY3czT21jbjQ?oc=5",
+"s": "Defence Industry Europe",
+"d": "2026-11-19T15:02+00:00"
 }
 ],
 "051": [
+{
+"t": "DSCU and Armenian Defense Leaders Partner to Advance Military Transformation in Armenia",
+"u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObU5GQVFNa1R1UEJvZjhVLUVUUlBfb0pCZkMwZHU1UmVwNFZOMkZySjY5Vm9RV0tlRWJwc3VVSVU3UEZmSlRoMmpqZ2ZOVVZ3SDFjeFl6U2xvMnc1WEpSMzIyLTBxZGxia25wYXhyYy1EMXN6a3c2MU5Ld0FvX2tGVXNmbFQwa1ZEemRqYTg1czhvRzBCUVFqV1ByRy11cG8xQ29HWkZ2SHk5RExndTFCM1ZBYmFaS2RjX2c?oc=5",
+"s": "DVIDS",
+"d": "2026-11-19T21:57+00:00"
+},
 {
 "t": "ARMENIA : \"New concern\" over criminal prosecutions of conscientious objector reservists",
 "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBja0FYN21peW9sclY0ejR1dnRuNzRuMVBzSEk3MkxGWXJsQ1BWcktIZEYtMjE3NlpfUXE1ajVDbTRCTjB0eVhCMmt5RTV4MHk5UGVYc3Ezb3lBTmJKdThIQg?oc=5",
@@ -2174,16 +2180,10 @@
 "d": "2026-11-19T14:01+00:00"
 },
 {
-"t": "Former government insider criticizes Pashinyan’s peace and EU policies",
-"u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbVRFUGtrMGRhVWdxaFVpX1d0Si1qcnVnRHdBNllUV3htRHhfS2w5NXJFWGlZX0V3ajJOa2dLaTl0U0U4Mm1JYmJXUXRSbzQxaXNzRkdWeXRlLUdHMjVqSXItaWxraThra2xDOVNkbTc1SllrTmJ3Smc4a0JyRkwyVWdMZFhKbFdHX2FZMzdTSXd2MTJuZjFnWmRPc0RMRmlHQTZhLXN0N19MZ1I3?oc=5",
-"s": "The Armenian Weekly",
-"d": "2026-11-19T17:35+00:00"
-},
-{
-"t": "Traffic Suspended Over Crimean Bridge After Attack, Moscow-Installed Official Says",
-"u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTlc5OFpyaGRPVUZuTXBoNnVZVWJTcENoM1VmYVkyREVCaC1wRUdHZTFfcmFxOTZCOWdLMTdCZ0p2Uml2dDFVeFFTMnNSSDVqby1DbWxEUWtHbDQ5cTYzNkxNdU1QZldTZXE1YW05X1AtV3JLakVISmgyNWtyVXo3a3pJbDM1VC1iYl9uWE1xNlZhZDlpYkFtbnd1dks5NkpqUmszQTAyZV9KYS0xLUhFU3pHajVnTG41cHY1OElPUFNZS3NpdFVsZkp3?oc=5",
-"s": "The Moscow Times",
-"d": "2026-11-19T07:00+00:00"
+"t": "Links to Armenia's Declaration of Independence apparently inaccessible on official government websites [PHOTOS]",
+"u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBhbnhQdE1ta0FXNlJYZ1E3TnA4bUZOdUYwUEFVMDJIdUFFWDE5UHFiMjBSNWZsdWdOcXczWGhITTlaRXN5b21oVlpJcnllRmZ4aW4teHg5NA?oc=5",
+"s": "AzerNews",
+"d": "2026-11-20T06:54+00:00"
 }
 ],
 "031": [
@@ -2200,42 +2200,42 @@
 "d": "2026-11-19T17:50+00:00"
 },
 {
-"t": "Armenia & Azerbaijan Exchange Proposals to Determine Fate of Thousands Missing From Artsakh Wars",
-"u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUUFiZ1k4aDFBT2ZXaDFZTUVkUEgxanVhZFctaU51RFJ4RHZnMGhkVUhvRks3cjRibk9hTU9PM0ZYQlB4T2ZyZENkdW52QmI1YndDRjNWSXpzNHp6X0JPbXRkWXFrSENlb1RBVG1BZm1TVG5oY3VRMVJtNEp1MDN5MDc1dDBkeVhBZDFRUUZJX1ZSckZhMHNyM3c1eHhmcTJYUXphT1Y1ZG5VRVF1NGIybVgtNlpjaFdneEZZNThiUWplNDFCMVRzNlNLYmRNZw?oc=5",
-"s": "The Armenian Report",
-"d": "2026-11-19T21:36+00:00"
+"t": "'What special status does the Russian language have?': Russian-language education debated again in Azerbaijan",
+"u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX2ktWnNOSWxnZG9NbThTNUhMLVZHUk5VRmtkdjNoVVJKVWFmanlWNW9NSlB4cFE1alR1alp2VERoRml5Nm93YUJKdERqNE9GbF9TTVl3djZjNlRYY0k1M05XTENuSnM5Z0FIcmpFZlNsOS1HVF9OY25SUExUVHBLdXc1Zkp3dGprMlVkSEhHSWFOTXJtdHVTRnFVUmgwQm1yTmMzNkQ1Ukt6Rk1pQ0FaaGVwMno1dUl4R0FxUVJPTk9TZ0FKUWc?oc=5",
+"s": "JAMnews",
+"d": "2026-11-19T18:23+00:00"
 },
 {
-"t": "An Unprecedented Crisis in Turkish-Azerbaijani Relations: On the Brink of a Rupture",
-"u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV2E5NUhUU0tFZTdJSTFJSGZRSjAtb294MXJCNlZUZWtpOFpHSlRMWWxCNzZIZ0h6YU9YLWdrVHJOLXlkTmlnZlBQSi1FRnA3Q0ZBZlRHZWJ0a3Z0OEVOVUdXSjZmV2JDcENmTHFvdnNTWDJTUVctYl9wRXVvRFpaS2o0MnRpOVp3WTdwMGdyT2Q5Vk9VOTNlelRvald4RW55UmJlenNXNDBCVi1WMjJSVA?oc=5",
-"s": "Al Jazeera Centre for Studies",
-"d": "2026-11-18T08:33+00:00"
+"t": "President of Azerbaijan Ilham Aliyev met with Prime Minister of Vietnam [PHOTOS]",
+"u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wLWJPYlVmdEdmWGx5VVJNdzd4R2JLUXVGcFBEY0paWmczUkx1dmZ2U3dEM25KM0o5dkNVVFdDU3hoSnpLcVFSdjNRZ29TbHhwRHA1TQ?oc=5",
+"s": "AzerNews",
+"d": "2026-11-20T05:21+00:00"
 }
 ],
 "398": [
+{
+"t": "UNU and Government of Kazakhstan Sign Agreement to Establish UNU Institute in Almaty",
+"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZUVnaEJnZnFFZ1gzeURxamlNbmZQcXV0MUhSamlFM1FxWXlFNzdGQUFvRTM5Q0FhU1hIVUVzek9OQ1NiQ0xmNUJ4RmFwclNxbVJSWThCMFh4MkVXYUNMeTdoaU5XdXgyRUUwN3ozamhCT2g0RmRkTkZ6Vlk1VWV4SGdNS1VNend6OS0xVFRJN2FyTVExcXlEME1WNURMbEtvdDFGZnd1VUo?oc=5",
+"s": "UNU | United Nations University",
+"d": "2026-11-20T03:20+00:00"
+},
+{
+"t": "Kazakhstan Rises to 16th Place in UN E-Government Development Index",
+"u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd3VYU2FtM2NoeTlTU2pLbEpSdFJBcTNTem01NEdQY25CN2lzUUxhaDdRSkRJeldaZ0x2T3NEQlM4X08yeFgzYkE0N0lnUV9SNzR4cHBHT1kycm4tUU5XRkdsMTI4NW95V180X2xLTzFhYnJZaW04ZFlGRzBXTXR1ei04Y3daczF4X2FJeW85UGUyUUdhM09QTGJaMk5ZTmYwbUE?oc=5",
+"s": "The Astana Times",
+"d": "2026-11-20T06:54+00:00"
+},
+{
+"t": "Kazakhstan rises in UN e-government index, enters ‘very high’ class for first time",
+"u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQzhLSEd4Vk1aS2hQVHR0T0lseUtaMEN4Y1Y4RVQzNWtzQko5Ti1BWmU3NEtnN21KWURzbnQ0U1pmMWZGWFV1SVdDV0hxd0tGODRjX0RTV1lIbkRRT0pXT2hpNHE0YzBKcW9NdURjQ2tVcEZSeWdLOEJESVh4dE1IUE8xSzhzUTNUdFdEaG5KNWJvcXpSNDA4ZW9MRkR2dEpod0lSdngySk02Y1h5WVZiZjFKUm5FOEVuM0g4LVV30gG-AUFVX3lxTFBFNHM3YWpBOG5ta3NSZHQ3TDRhS0dvZXRsUjg4UG9WWDQtZ1RVM1Y4N3NQWUM3anVYS3JCcmZaeFJzMWpROV9EZmQ4Y3ZfMWtJRDVnelp5OVVoSzZlUFhuYlFsLUZaT21EQzQ4LXZwOEMzdDNkQVFkNVBUeTd6eVdEV2p2WjY4aENOUkRLWVhSdzBBLXhkaHBkeTVobUFJRGstaGloU1N4aHlRTlE5UXhrS0d3VUR3ZUVCSnpTV3c?oc=5",
+"s": "Qazinform",
+"d": "2026-11-20T04:34+00:00"
+},
 {
 "t": "Minister Zheenbek Kulubaev Receives Ambassador of the Republic of Kazakhstan Abylkair Skakov",
 "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1taWg1TlAtM1lYZWtjc0VFX2ZoZjJYaUdZbHNSZUpOc0VnZ0pVQ282bEJ2TzZlZ1p2Sm5lbHBHZ3hldTNwS3lyRG81MTBKSWhTenBiQzNPXzBUeTNsVlNhOFd3OEs?oc=5",
 "s": "EGOV.KG",
 "d": "2026-11-19T08:59+00:00"
-},
-{
-"t": "Central Asian Economies Outpace Kazakhstan in Growth, but Lag in Economic Size",
-"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRS1BUURWd1R1cWhaV0ZhemRBYlpQUF96aFduakpUOHdJazlfRTZGUkxhWnZRWHV1QzZvZTZEd3EzV0Q5RzU1TDM5SWpsYTRaRnVCTDNqOUhnYjlqUGJPRW1EUk5qbDJ5OTZPM21CQVpkUGlwRnI2RWJ6WFUzYUM2TjZvTEpteUVmeGU3cGlTcTlhZDJJYW1ManFERUtqYnRNTF9qZEJRcF82RTJROGdn?oc=5",
-"s": "The Astana Times",
-"d": "2026-11-19T13:23+00:00"
-},
-{
-"t": "IMF Calls for Increase in Kazakhstan Base Rate Amid Inflation Risks",
-"u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zdlE3d3NLS0ZkQjZMRDJMcW5pTWViZVNONUY1Tmo3YTRvZnRUa2J2Zm55T0FWY3NXZFJzSmRuc0J0SnFqT25oazZCTFNZZ2xNUFVBLUlSX2RXaW0tdkd0RzB0SVg?oc=5",
-"s": "The Times Of Central Asia",
-"d": "2026-11-19T12:10+00:00"
-},
-{
-"t": "Kazakhstan Armed Forces receive Y-9E military transport aircraft",
-"u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTDRtYmYteFQ0alNjbW5IMXU5cUMya3F1R1VyUHNZN2dpZ29Ha1J1ZVJXSmtlSDdSTmpqc0luSldKNXRrTGEySVRaS0tJZUtRb0l1Uk92T0psOU1Ma1h2a0lNeW9IYmFodHZleHotZnp3OGo0RDBNMnFXOTlBUG93emtFVHF5cFdMNFMzRzQyeGxxTk11NzNUYjhjU0pndW_SAZ8BQVVfeXFMUDBaLUZOeWQ4MGFvZlFfOXZhWHRPaEFxWFhIRExoS0RCZVJRS1dGU0lCRkU1cTVVXzRXTW54cm5iR3VpWktoU2lIU3pWTjExYjJSWlZUR3YycHZtbkpCX196UFd1N0lTMnVFMHpYWEwtYXl4Vm5YUmZYVkJOVWJTU3ZaZUlwb2NuUTNGVm1QeGhObFlhOWN4SjAwR2pSaUhB?oc=5",
-"s": "Qazinform",
-"d": "2026-11-19T11:03+00:00"
 }
 ],
 "144": [
@@ -2243,7 +2243,13 @@
 "t": "Sri Lanka Raises Policy Rate to Ensure Inflation Reaches Target",
 "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOckItWnlaZVZ0dFIzLUhzckdDd2dHSDBFOFVHeHRSN2M5Q0cxbHBWRktWOV9fZ29NVXp5NGxJQ2NIczdMNjQyS1ZUTWpNenZRb195RkI5SThlQzV1UFNuZG9iNlpwZ0FwNDBaNnVFVXI3ZktRaTRjaHh3bWF3Vi1TbkFMT29kMzN1SkxINzFTV0VTVU93MEFkek1najJwQUF4blRiZnR3cWtJQzVrekJXTENWTk4?oc=5",
 "s": "Bloomberg.com",
-"d": "2026-11-20T02:04+00:00"
+"d": "2026-11-20T03:02+00:00"
+},
+{
+"t": "Thousands of non-academic workers in Sri Lankan universities strike over government’s refusal to meet pay demands",
+"u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1obFU0UENRcHg5blUwWVFmS2I0MTJHcTFGejhJZzI4Y2NOY1RmQlpoaHhNTnZvSU1qNW5rM19sU1pKTUdQcm5tQWJxV3U2Q1ZfQlBhbi1WR3RxNldCOVVrbHFwVjhkZXA5?oc=5",
+"s": "World Socialist Web Site",
+"d": "2026-11-20T05:33+00:00"
 },
 {
 "t": "Sri Lanka’s 2027 budget: from economic stabilisation to economic transformation",
@@ -2256,12 +2262,6 @@
 "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOVAxdGx4T2lpR2lRaXcxQVltSUlwQWVHaUd5S0gxNW1uMFZkNkV0cUdXTmhZMzhDSUJlRE82OWhsaUVJQzczUjZWVGM4VGxqbUNmem93WXM0a3FSNzg0eENJd0dKYVhfdW1Xd2MtTEU5Ung5cXB2V3FfNGY5TzY5a04xVklIYnRpTHRKZTlHbGY5dzjSAZgBQVVfeXFMTTI0TDY3TlNubEJTczB0Q2FOWVNJUVBMa3NPclBYR3NHX3d5U1JRTmlhZ3hoVDAzTm9jLWxxVzgwZEp2SGNnU2pVak5wcXR5M21xd3pKT3hOcUlxdlhuQzlzZ2YwUDBSejN4d044Q1NHYnJmUnFBZjVsSnNndGJoWjEzYnZBbnEzekMyNzZWZGNsWmZqN1IwTHM?oc=5",
 "s": "ABC News - Breaking News, Latest News and Videos",
 "d": "2026-11-19T21:19+00:00"
-},
-{
-"t": "Sri Lanka and Türkiye deepen ties as defence cooperation grows",
-"u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa0lmMnRBNnpyRnlGMEhQU2lVVlBxZFdSc0FuczNjZzZQUTlzTXJfUWdGR1VzSDdUUTcyWUd1ek8wclJhcll0clFVT3dhczF5bHhoQ1U5NXpaSjdpRXpQeXRKeWFVaWFUb1NaSE1aOUhoanVGcURXZ09jN2tSWFg4QkR2TU1iN2QwQzV2b3ktbGZBdHdWdm9HaHI5a2Y4Nk9mdi1kbVdVVklpeU1tNFU4RFVoRU9meHdSaGhtSkdkekdOUG9faFJleQ?oc=5",
-"s": "Tamil Guardian",
-"d": "2026-11-19T15:27+00:00"
 }
 ],
 "524": [
@@ -2272,22 +2272,22 @@
 "d": "2026-11-19T11:53+00:00"
 },
 {
+"t": "Nepal's Shah to meet Modi for Indian flood aid and connectivity",
+"u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX2sxc0U3X0ZRR2lHNldiZVNKa3lrT0JmdW1mUXduVFJxUUtra0w5cmtVMU1jN3F2eDBPMWxZRTdwcXlXMUhQTmdNVjN6bmN5Q193V1hGMVo0RWxGLVlpT1liV1pNVnM0dEJTOXVsZGNaa1VRbEZIQ1AwWTdyUHJ5bVhGZlJ0b0QxcU9NNzhOVjZvSS1wd1pNWWc3TE14V3ZFRTJGVjI2Szl6YVJhUXBjYlB2Uk1jU1g1cnJ1LQ?oc=5",
+"s": "Nikkei Asia",
+"d": "2026-11-20T06:46+00:00"
+},
+{
+"t": "Prime Minister Shah begins state visit to India on Sunday",
+"u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVmJ4ZXd6akRVc3FfRnNpT3NLUmN1SE9SYW1NdE16TVZQQ1JHWTFkc0dfUkVTaFZJYlZiRXZmMHZKcG1iX0V3YU5QMU5aTnJXTlhzay1nQXpDVWx5cjZERFVsSkwxVURKdGVOTEJNSGpPcEo3eGRVNTBiQk51ZTk3cVhHQUFEbEtGNWFueGZ6RC1Kejd2UFhubDI2UXV5Zw?oc=5",
+"s": "Nepalnews.com",
+"d": "2026-11-20T07:31+00:00"
+},
+{
 "t": "Nepal to seek measures to boost exports during PM’s India visit",
 "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOanNkSXI1WFV0dEd0aVJ4YVN6R0dRQnBMdnJneXFNQTZpZ19kbjJXQVpqX29LbDh3ajQydzhHVE1fSnltbDFEWnBiRjUwLURMMDc2czFTcXJEY2ZlVE9DWXlubXlVYklpaGJ1MUlEVDd0X1B5VjVxaHBoMzlyMUhfelY3YWhXRzl5OVRzdjZZNTBXQQ?oc=5",
 "s": "Asia News Network",
-"d": "2026-11-20T01:19+00:00"
-},
-{
-"t": "Nepal closer to having FIFA suspension lifted after NSC revokes domestic ban",
-"u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUDdOLU9NTjk1N21pNW1Zd2VaZ2plbEVVTGQtZ1V6N0p1UWlmZGZkcDR2dlhNVXlNbEJpZmZlbVNGZTF0WjczSUVzWG9WV3Y1U0dmZWxwTWpBR003MUtaaUhwNHA4SjZBMkg3MmpZaEk0WHg5Y1llUjhnbGFRdGwzTXlRVTlsYUpkYnBXMVNVZ1F1b2FkdEg1dlNwMVZjcE1NOG9OZHNKTFppaF9SMVRfRW1vUm1uS25yQmw0eDBZNA?oc=5",
-"s": "The Kathmandu Post",
-"d": "2026-11-20T01:04+00:00"
-},
-{
-"t": "Economy of Greater Nepal in 18th Century",
-"u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JWXozVGhseDR4UHdSaG9GY05WYnZ6NTJBZVcxakFFODJsZ0NUUUlSZWFMSWJSMm56OVd1bUhNMm42YmlhVHM1bXdldk9JVVluZHVCa1dLRGZZWWxD?oc=5",
-"s": "YouTube",
-"d": "2026-11-19T16:05+00:00"
+"d": "2026-11-20T01:35+00:00"
 }
 ],
 "764": [
@@ -2298,22 +2298,22 @@
 "d": "2026-11-20T03:49+00:00"
 },
 {
-"t": "Thailand must postpone election again, until March : officials",
-"u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbHkzekEzV2hiT19yYVljcU1pekg4UG5zenlaR0lBWElETjh2VnZQS3NQNWtqcVB0eXBBNGpqQU1WbnVUaHd4OEhlQUdZNUJ2Y1ZXcDNmZHdCTnlaOWhNLUZBMWhDY2VpZXRFT0hheUlBM0N3UkZjMXNobFJ0SncySzZVekJIc0Y5N1RWdGlyREhMNnNXcVJySVpkd3V3bUU?oc=5",
+"t": "Thailand's junta chief says he will run for PM in March 24 elections",
+"u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQzU5WExuc1hwakdWR0lpcWoweDM2MmIwblNmVlBUWXY2UWExN25CZVI4bVk2RFphMHQ2VzRha05LX2N4LTd6WGtIR2JGUkhtOFM4TkpDY3VXcnJDTXRFT0IxT0o2UlM3aURYd3NiY1NKa1VRV2YzaG5ydTVIbXNkVFJmUThUUXByODNPVWplcmdNZmQtTUVYRVZGbjdjbF9kazZpWFA1ZW1zZw?oc=5",
 "s": "Yeni Safak English",
-"d": "2026-11-19T22:14+00:00"
+"d": "2026-11-20T04:22+00:00"
+},
+{
+"t": "What is HIMARS? Thailand eyes 4-billion-baht rocket system that changed Ukraine’s battlefield",
+"u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2R0FXWUlEeUtTbFE3NnJNbk1YRjFSMmJpWkpIYzU5TThBOXgtVFhNUzM2UThNVGdTYWpvN1p2Tjc2ZXdKOTRmZUFEazdkRGFOZzBwNXdIazFXU0VaM2twQ0tn?oc=5",
+"s": "Nation Thailand",
+"d": "2026-11-20T04:11+00:00"
 },
 {
 "t": "Conversation with Prime Minister of Thailand Anutin Charnvirakul",
 "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wbC1pTjUxWjM0MkFYZ1RUN01uY2ZsOXVra24ydG0wVWNaTi1haW1aaElDeHNITEdvU25TSjk5U0EzcmJSMVNhT0dlUW5kYTh4V2IxcWJEV3VwbXRD?oc=5",
 "s": "Президент России",
 "d": "2026-11-18T18:38+00:00"
-},
-{
-"t": "Thailand Opens Door to US Pork, Raising Risks for Farmers",
-"u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcnBiSHNDdjZaOGNPdDFOYU92dV9HTUNJT2k3cEtGMUhiXzcxb1VkMkdPLWZqV3hVYW1pZkc3bl9xTUxKbEc2azZHN1d1OFdENjlQYnFaTnJEdDY1NHR6MEhOUDZPRVVxRFpBenhFMHhrZW04M1RtZmNKR1lQTzFtQVlqd09iYUV5WUNYMkY1MTQ1Nk45bDdqa2JHeF9LU0xqNDVGZFFFcTJwZEE?oc=5",
-"s": "Bloomberg.com",
-"d": "2026-11-20T00:00+00:00"
 }
 ],
 "704": [
@@ -2324,16 +2324,16 @@
 "d": "2026-11-19T18:03+00:00"
 },
 {
-"t": "Russian nuclear-capable bombers leave Vietnam as Putin meets world leaders in China",
-"u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcFB4dGNVSlpaVDVrNnZ3T25zOGZsMXlWT1BPM0dMd3FZdy03NHppV3dpaXlFUHBDZ2w0bFV5U0poSW9oN0RmeVllU01YaExWYzBKS1hUVXRaNVBabzZnNnFBRlM1RXBVc1RySU5hUVpYd0dzaGF3ck0tSm5SRjc2UC1zTEFkdUJZd2hxbUtQQjFLWFU?oc=5",
-"s": "The Independent",
-"d": "2026-11-19T13:38+00:00"
-},
-{
 "t": "Alison Kuhn to direct love triangle drama ‘Petrichor’ set aboard German hospital ship during Vietnam War",
 "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSld1NHRyRzB6X29FUmtYM19KOFpJeDRwVkFHUTJjRnBLU2lXMHhVNFhSaGFxbzBZVExOX0R0UDYwLTA5Qkt5ckw3cGRfQ1pSWlg1STh6OTYxWHBHN1JpcFN3LU5DVzdWWS1Da1BQSGRwTDhYWV9vQ0RVV2ZrS0tDYk80ZUhMdHFvLXJwZXdCYXFSYmwzMDMxVlRVMU1CM093QTQzSlUxYTYwQ2s2Q0VjdXVsblRQbWVzTkJKQktTZkhaOFhlT0JUbnhXbFBJc2w4STZHMnpfbjFWelVpenFnLVpLTGFXUQ?oc=5",
 "s": "Screen Daily",
 "d": "2026-11-18T15:11+00:00"
+},
+{
+"t": "Russian nuclear-capable bombers leave Vietnam as Putin meets world leaders in China",
+"u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcFB4dGNVSlpaVDVrNnZ3T25zOGZsMXlWT1BPM0dMd3FZdy03NHppV3dpaXlFUHBDZ2w0bFV5U0poSW9oN0RmeVllU01YaExWYzBKS1hUVXRaNVBabzZnNnFBRlM1RXBVc1RySU5hUVpYd0dzaGF3ck0tSm5SRjc2UC1zTEFkdUJZd2hxbUtQQjFLWFU?oc=5",
+"s": "The Independent",
+"d": "2026-11-19T13:38+00:00"
 },
 {
 "t": "Vietnam Manufacturing Tracker: October 2026 Update and 2027 Outlook",
@@ -2362,13 +2362,19 @@
 "d": "2026-11-20T03:03+00:00"
 },
 {
-"t": "UNHCR stops refugee registration in Malaysia as government takes charge of process",
-"u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOGpJTkY4LUkzcWZOS2oyLTFILWxSUnN2Z0N6V2hENF8zWE9yMHd1RWZuS1lUU0ljOXMzUzNfSUR4aWF2Z3pzb2U5clQweGJ6LTE4RWtUcW1QQjNGbHBOLWNsVnFMdndWNGV3YXZVYWhfYVZsTUlSemlVU2JqRnNJaXpjMFNfZllmTlhFeEE2RWZraXdmT1B0LUMwMEdDWGVDRnFOVTczTGozQVRj?oc=5",
-"s": "Asia News Network",
-"d": "2026-11-20T01:04+00:00"
+"t": "AiMOGA Robotics Concludes Landmark Showcase at Smart Nation Expo 2026 in Malaysia",
+"u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2lZdE5ab3hTWnBmbzNpUE5fZnJWQkh3UVZWWFFZTDI3cklFemF6Z3pHdVJHOGlFMWZZMnBieWNPTWgyYkw4NkJUVXQ4OHJMcnRCQ0FxQWRxY3JxUi1JSm5kRGltanFqM2I1YnkyVHBDN01IRzB1SzJKd0xKQ1NfVW50LXgzVDdMNzBEaDFJN1p5OWV2N3dUSVhVV0dwdEZQTThFOFNHWUtTb2kwanlTNHpYRmstRXJIWWs3TGxMYWdTMWcwWWF3?oc=5",
+"s": "Plataforma Media",
+"d": "2026-11-20T07:17+00:00"
 }
 ],
 "554": [
+{
+"t": "NZ Central Bank’s Chief Economist Urges Government to Stop Messing With Mandate",
+"u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNckNXVE1VdmpSeEgtNmJlZi0tbTk5YzA0Y1YySFpyN2x3bzdHa3cxOVY3bUpCbnhIMG1JS0YtaWJ2a3dTZmxfZ2VKX01rWlpFM2V2b2JjMTNYVGRfRTAwVGttWWk2NmRzMk5Id2VZdVRmOGlnNV9iVlZYOV81X0VzaHhRZy1YZ1pKOXdhc3paWm5TWmozS1Z0SXZfaHF6Uzk5YjI2ZnhKeWZTQUlWWm9oUTFoempOWmljQkp1eWx5SVpmeFJOYnpzbTNn?oc=5",
+"s": "Bloomberg.com",
+"d": "2026-11-20T03:38+00:00"
+},
 {
 "t": "Charles Sturt researcher awarded Australia and New Zealand School of Government Academic Fellowship",
 "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZnEwcUtGU3BXRnNnNW50MVlOLXZNYVN6OXRaOFpaRi1LN2hSRWdyamg0Y0VwOGZvbk1FNm9adVVSYzhmZmpNeld6UzQ5N0QzMjZ5QW44by03S1kyeFV4OVFBM2drREZwdUY1RkNrR2toaF9JTmJ2a0hkTzBGVW1HSXFWWnhQSEdJMGFkWGlST3F0alk2QVQ2TmpNMVpONVJEOXZNcGhHbWFkcGVHZ1VEa0dScjNMUW1oUVpwOHpMdDNtSzVGTEplWXJNR3FPeEtp?oc=5",
@@ -2382,16 +2388,10 @@
 "d": "2026-11-19T23:48+00:00"
 },
 {
-"t": "New Zealand Dollar rebounds from levels near multi-year lows",
-"u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQkVIMmttLUZkMHQ4bGdjVE9MVDF4TjdNbGVzX0RMSzJ3Q1p4aDJLeWJWd1dZbXV6NGNyWHZZbllRN1lvVElPam9BSjZvS19Ycjd3QnpnMkh3SV9WaFpDSjlRNVZrRk5qN3QzRGJjX1JDcXo0WHFBdG5pZmRfNnk3eU5sQUIyRVJ2cVlUYjVfenE2bnpnbzF1VlVlbGZCSkQ1eHJNODB3?oc=5",
-"s": "FXStreet",
-"d": "2026-11-19T08:49+00:00"
-},
-{
-"t": "Dental advocates urge next government to address oral health “crisis”",
-"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUzlrY1AyV1V1ZHpNX0hNelpRZEU4SVV3cGszQ0dBLVg4N3lncDI2WmpsemsxX0pfQ21rMlYtZ1RSaklGemxUaUhBSWhjT0ljamEzTFNBYlZGaG9RMzlMcF82dGRDNUNNaXdHbWdfSTZOSkRCd1RTMmNUcmIxNWlyc0I2MUFneGo2MFhoeGliRzBERkUxbUdvN3FrUWNnU19kQlY2M2FWQnk2aE9sai1R?oc=5",
-"s": "NZ Doctor",
-"d": "2026-11-20T02:39+00:00"
+"t": "India openers hit back after pacers bowl New Zealand out for 368 in Wellington Test",
+"u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWmp5M2gtN3FaRERVNFowTWxDQ3hkMXRHY29CRzZiWG5FaEp5S09fNDNyai1xbnoxTE9Fck92MUNaWWtDWjhPSU5kQUZaLWZSeHQ1RFc4ZG9MRXo0VzZGN1VGMHFxWWpTenBNbkV5R0NOX0Z3ZjZzbWJuTmIwV2MtU2N6X3hiR2JKX0RNQ3lJMFo3VElvcUlDeU5IWjJvRmRUYkdMM0dpWnRFdWk3NFdwdzk4c2dkQ2hXbE5DZ3NZNA?oc=5",
+"s": "Royal Challengers Bengaluru Official Website",
+"d": "2026-11-20T06:32+00:00"
 }
 ],
 "152": [
@@ -2399,19 +2399,19 @@
 "t": "Chile and OpenAI sign agreement to explore AI training for civil servants",
 "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0d3cHEyelpGMjBKWG0xTnI3SGFRT3BYb2k3cmNIVG93UUZ0ODdlVHRLaS1GRWl5SWlFUGxtbFdPd24ySWIwQ3pmaDhneWlGeU00ZnBVYjNVcTVfOExnV0RUNTBXem5Ya0d2Yk9jOENpUDNVbVlaTkJCb3VtbmxnY2tGaW5SRTVuaEhWUmU5ajRDVWU2N044TEw3bXRLWjVGWTRiYmNCdS0yaG5UanVKMGZwMzU?oc=5",
 "s": "EdTech Innovation Hub",
-"d": "2026-11-20T00:21+00:00"
+"d": "2026-11-20T00:46+00:00"
+},
+{
+"t": "Attendance of Sate Minister for Foreign Affairs HORII at the Chile Business and Investment Breakfast Meeting Organized by Embassy of Chile in Japan",
+"u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BR2o0bWhMQnNkdVFTNmJMbWNESER1MTV1WnVVMmxsNDd1UDhDRHgwUHk4b2V2cmtvc1k4OFVXbUt5MzRJaWQyMkxscnRJb1Fyc015Zk9yUnBBWWpoTGFDSFFUNTV5c3lLMzdZ?oc=5",
+"s": "Ministry of Foreign Affairs of Japan",
+"d": "2026-11-20T05:52+00:00"
 },
 {
 "t": "Foreign Minister Valtonen to visit Chile and Argentina",
 "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOW5EQXJhNWxrb2RBcTNrcWhRbUgyRVNLYk16VU9ZR2pWT2pvTFdkZFIyR21PQ0JzRC1tT0hMM2NMdldDazU0SVBjYkNDbzNOZGlZR1M0bDM2eFBzWF94MXQyUzlOUTdiMkx2dE5xTlk2cG85ck52dURXU2lxYS1EY1VPQWlNSmNtVzRHNjJn?oc=5",
 "s": "Valtioneuvosto",
 "d": "2026-11-19T14:37+00:00"
-},
-{
-"t": "News",
-"u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc0tTcTItaFJrWk1teWh0c2xxMVh4eVdNLUFPRXFSQ3JibEl5Z0J3Mm1MWjlxNWZjWGtfclJidlZ5N1pISFhGVzF3NUNZVllCNzRyWTJFdjRIblNzTWFjLXFzYmc0ZmVUNVZveXpPZHVvS2Z4RkMzQ2kyYUNzS1kxME4yMEU2YVVpR05DYXZzOGpxMXBGMWFB?oc=5",
-"s": "Gobierno de Chile",
-"d": "2026-11-19T19:58+00:00"
 },
 {
 "t": "Chile Economy Stung by Biggest Quarterly Plunge Since 2020",
@@ -2422,28 +2422,28 @@
 ],
 "068": [
 {
+"t": "Foreign Minister: The first year was about restoring Bolivia’s place in the world, «the second will be about making the most of it» – CANCILLERIA :: BOLIVIA",
+"u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lZTVkTkRpNENpUHN6NllRWUhpZl9UcVdoVTFDdVZjT3VDN1pFaC03dW8tVlR4d3VGNHRvZ1hDdUhmb0hiMnMzYm1CWHlZd2p2ZHVDa2ptVUdXR0gy?oc=5",
+"s": "CANCILLERIA :: BOLIVIA",
+"d": "2026-11-18T21:31+00:00"
+},
+{
+"t": "Bolivia - Andes, Plurinational, Indigenous",
+"u": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3a2FFYkpsZ3hYUGtfQ0l5V2s5Q243bEhsQkp0ZUFCYXF3TTkwckFrc2kyTFJ6eEIwaFJpWVRRSjI5WW5wNWFUcVZMQjVuamR4TlNBUmhiZk9JaFZsNGV1TGxVMkFJQ0cySUg0M05SN29Tamt5STlJ?oc=5",
+"s": "Britannica",
+"d": "2026-11-18T08:00+00:00"
+},
+{
 "t": "Bolivia takes Chile to world court over maritime access",
 "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMEtyNFZpVWcxb3pwSjgxVzc1SG5ndmFZZTBaT29sSjV5U3UtVHhUZjVnSHd4WGZLM0pidDQ4ekd3TUN0M2RDZGprTEtvd19lWmpOMlJSUFB6aDRwNlZKZ3lMNjR1ZHB3MjNIN2pVTzlFQUc3Y1BxUi03Mk4wQ1RQeHdpRHZKejVRZG1McjNBbndlR2JTazB2ZU1B?oc=5",
 "s": "Yeni Safak English",
 "d": "2026-11-19T23:29+00:00"
 },
 {
-"t": "Colcapirhua in Bolivia Launches Permanent Collection System for End-of-Life Tyres",
-"u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdXpiLXBDaDN4ZnQwZ3duRDdkUVh6b1dxRUxvcUs1UzBqX19iMVc1TXlneUw2czMwMVlsalBVX0dxT1ZuM2VEWjhQRE10WU55eEtNZVNqMTNGZC0yRllHQzlaVG5Lck5sWUhlZ18wRnVReUs1MHZRWjBiY254X2FNVFhFSFQ1a2VGTFMyWDIxVzdjYVBLdHI5UWx4RHhMVG91cU51cWJ0eUFFdHVqd3N4d25tTmZKQ1daQ3RqWDhMRHFCUURaajhnQWcyZHlFelltX195X3JJaUpEZzVt?oc=5",
-"s": "Tyre & Rubber Recycling",
-"d": "2026-11-19T15:34+00:00"
-},
-{
-"t": "Ecuador vs Bolivia: Friendlies stats & head-to-head",
-"u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ISy12ZklQcEMyenotVUJjdXpoSWl1RlByM2VVX3NLbHhXdWN6VnR3Sm9fbjFSTUZnOE9oS0I0VGpIWWhUV2huLWd2U0k5eE9nNFJjZi1GZk8wMm54aGxNN0E4ZEluUQ?oc=5",
-"s": "BBC",
-"d": "2026-11-18T08:55+00:00"
-},
-{
-"t": "Foreign Minister: The first year was about restoring Bolivia’s place in the world, «the second will be about making the most of it» – CANCILLERIA :: BOLIVIA",
-"u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lZTVkTkRpNENpUHN6NllRWUhpZl9UcVdoVTFDdVZjT3VDN1pFaC03dW8tVlR4d3VGNHRvZ1hDdUhmb0hiMnMzYm1CWHlZd2p2ZHVDa2ptVUdXR0gy?oc=5",
-"s": "CANCILLERIA :: BOLIVIA",
-"d": "2026-11-18T21:31+00:00"
+"t": "Mexico and Bolivia Lose Measles Elimination Status as Guatemala Watches the Calendar",
+"u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRUZqM3lqUGFUd255NkllZkxaRWkxUHZaVWt4ODUtbWpmcWpoak5vVDVzWFdzOHdEejlDWlVLanVVcHZTNnZ4M3lRNTVKcDFLcXFuV1JXQURYbVRPelJ6WGtYemdpWE9YQjNoSldjRXJsLUgxMUVUUkJlUzlkZDhjN2N6NS1aaXRTTkY2VlRPUW02dWpzdnI4aGtweW9KRkRQOHhJOU5BT0Q5VHJrTVhialZlbV9rX2xnTUJBeGotZEFyeGlxakE?oc=5",
+"s": "LatinAmerican Post",
+"d": "2026-11-18T15:41+00:00"
 }
 ],
 "012": [
@@ -2454,10 +2454,10 @@
 "d": "2026-11-19T21:01+00:00"
 },
 {
-"t": "Algeria electronic payments growth: online up 63% in 2026",
-"u": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxdjd0U25OWDFuVzdkY1hjY1JwQk5DZlZEdzYwamJxOWlqbEFpNVRBTnFsRzVBMGFId0NwZTBxN0tmSG9KaVBoZ0t3NnF4bllwaG5CamhPNzRiVXBQTkF6dFpMWkdkYkNSOENoZTRkNA?oc=5",
-"s": "DNE Africa",
-"d": "2026-11-19T20:28+00:00"
+"t": "Algeria • State-owned shipping company secures the release of nearly €8m in France",
+"u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNU19vZzZNbjNNUDNYNXhrZ1FxdmlRTWJTeFdPSFpqdEYtVTR6UE5BOXJvOE5pTHYycnpKUHRydFlrdlFyeWxxSURUTDlrSlkxYUpZOXhxaURQUGJBdFZlcFk5dlJqdk90ZWtBelhJdXl6N3c4QUx4eTRZcmhveEhzOS03bVJISi1CV2FGVTJfaEQ0Vkh0TjUwRnZVbElxMlFaQk9jMVRsNERIVm50ZTFuUmU2TFJFb0ZpVlh1dXBBNEZMSlVINEgtZm1OaHVmWlVyTkhKNnA3OW54YkVyVHc?oc=5",
+"s": "Africa Intelligence",
+"d": "2026-11-20T05:42+00:00"
 },
 {
 "t": "Algeria and the U.S.-Israeli War Against Iran",
@@ -2466,10 +2466,10 @@
 "d": "2026-11-18T11:46+00:00"
 },
 {
-"t": "The American Woman Who Joined Algeria’s Socialist Experiment",
-"u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSjM1MVE0SXpxdUJ5R1hheXByenRHcXBEcWtfSXQ0RUtJVHU4NHFPdmFpV29hQm5rcGVadjFWd0lPaDUwdlVITjYwR0ZXbm96MVFSMzRGNkYzb2JEblJxZGRvLWk0XzdMWXJzdkl6NkJqOWRkdjJkLUIyMnJHMzJyN0RR?oc=5",
-"s": "Jacobin",
-"d": "2026-11-18T18:34+00:00"
+"t": "Algeria electronic payments growth: online up 63% in 2026",
+"u": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxdjd0U25OWDFuVzdkY1hjY1JwQk5DZlZEdzYwamJxOWlqbEFpNVRBTnFsRzVBMGFId0NwZTBxN0tmSG9KaVBoZ0t3NnF4bllwaG5CamhPNzRiVXBQTkF6dFpMWkdkYkNSOENoZTRkNA?oc=5",
+"s": "DNE Africa",
+"d": "2026-11-19T20:28+00:00"
 }
 ],
 "504": [
@@ -2500,6 +2500,12 @@
 ],
 "788": [
 {
+"t": "Tunisia’s olive oil export revenues hit record 5.2 billion dinars",
+"u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSTVWM1lZa2VpRnQtQlBaOGh0Y0NJM01UVDVFSjdoR2daWWphVlJwbGU5cmhGRE1CcEJhdENpMEJ1R2Q1TVotZFFLak9QUmo2RWNpY1U2eWRtTU9wUnhCd0dqZDFUT3lpb0NVQ2NaMDkxeldwV0p0UUhvd3hqX3AxUWhsRllDZWxYYlFLcWNMT2M5Mzg?oc=5",
+"s": "The Arab Weekly",
+"d": "2026-11-19T10:47+00:00"
+},
+{
 "t": "Oil-rich Iraq puts two Boeing 747 aircraft stranded in a North African country for 35 years up for sale at $1.8 million",
 "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRDFVWVdWMDFYbVU4RnFnZ25EX2J4WHZBb3o1T01vY1JtbC1jLTZEZFlJSFh0aTVVbHBWUl9HaXpudlQxT2hSNDV3T2R3RmlVeURXYmM3d1JibWEzS01LU3diQ0k5REZSMDIzdUstNDE0cWVkVkRySW9Zck9yM2F5Z1FqZHVDUjYyRHdtNGFpcVpSU2ZMa3dzVGlYNmVTTEZDR2VZcnlWZUlGcnBWU1ZJdC1yaEdxSWJzQjhwWTZjSldGRTR0b1JZWUN5cmRncUx1VlN5Tk9MMA?oc=5",
 "s": "Business Insider Africa",
@@ -2516,12 +2522,6 @@
 "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaW1RcndFVzFwSmxqN1NrRlFnT0xkTGFBeW54ZWNWbF9zakJvMnB5WjQwZjlVSG1vUGRJa2U4RTh5anM3Wk5FYzMxaHZpeE5qa2VkNnB6Nmlwd1VGdWk2UFp5eDlJeEtMRS1fcjduY0NMTmRyRHJFc3I5VXpGSVc5NmltamRwY01wSElSMUx6R080bWp4UzdEYXctNlo?oc=5",
 "s": "Ghanaian Times",
 "d": "2026-11-19T08:05+00:00"
-},
-{
-"t": "Senegal and Morocco lead Afcon qualifiers but Tunisia protest",
-"u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQblo1bjdpcVEyb3ZqM1ZMYVhRdGhnNHJrNENid0tNb3BpQ3ZVRW5JQnpfSGl1NUctYkhQWmZnLXBzR2NXQTdSR1JzY1JfYUgwaHdlYzVic2lOSkh5NE5vQ3NoVERWM3Y1a01pWE42cm5BS2o5UklVbUdzMmdwWDcxR3phUEtVM25yVllWRDJxN28tWkRhelQ0MzNiSHh5QdIBngFBVV95cUxQblo1bjdpcVEyb3ZqM1ZMYVhRdGhnNHJrNENid0tNb3BpQ3ZVRW5JQnpfSGl1NUctYkhQWmZnLXBzR2NXQTdSR1JzY1JfYUgwaHdlYzVic2lOSkh5NE5vQ3NoVERWM3Y1a01pWE42cm5BS2o5UklVbUdzMmdwWDcxR3phUEtVM25yVllWRDJxN28tWkRhelQ0MzNiSHh5QQ?oc=5",
-"s": "Modern Ghana",
-"d": "2026-11-18T07:28+00:00"
 }
 ],
 "288": [
@@ -2544,10 +2544,10 @@
 "d": "2026-11-19T20:10+00:00"
 },
 {
-"t": "Ghana's 24-hour economy: Unlocking capital and bankable investment deals",
-"u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcWVqOFdkN282Zno2X2dOSGEwTThNdHpraHFMblVKWEFVbVRqXzluUzl0MGZxR1pvZXhmVnpkSkJMTHJsd29ydHJ0VlkwQUxFdGRJdnEzejZ6ME01YzJ1a1BrRWxjcnZRT1MtQ0VDclhGaEZoZVJmeUMzZjVLNmxEbnM2R0lZZllSSkpwMU01WnZETWNkS3lkMmllZ1VlREhWZ0hSQno0RDhEVVVsaFczRUNZWEZjSDhM?oc=5",
-"s": "CNBC Africa",
-"d": "2026-11-19T10:39+00:00"
+"t": "Falcon 6X: Wetin to know about new $60m Ghana presidential jet wey spark public outrage",
+"u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kdy1kOFJoSFg0ZUdUb3hrOG1GaEprMnQ3aXJab3dkSTFxRDZKQlJzVTRhM1RvUVhXOVVwMnZWcDlDVndJQTZ4VlJpQnpBUHFIcXRMMC1EWlYta0l5N0HSAWNBVV95cUxOT2JFSlczcC1ScmNuSTZIdU1sMEdHZTg5OEltdE5laEhQd3I4N2ptMmNXaTRfbWpsRmtlTllEQmxxM2hJd3hSNTJaVzhnVThScFptel81Unl0SHZIMDlvRmo0Mm8?oc=5",
+"s": "BBC",
+"d": "2026-11-18T11:52+00:00"
 }
 ],
 "508": [
@@ -2596,25 +2596,13 @@
 "d": "2026-11-19T09:30+00:00"
 },
 {
-"t": "Nordic-African Foreign Ministers’ meeting: bilateral consultations between Norway and Tanzania",
-"u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1FMUFF5NjM4WTZ6d1B3MFFGXzIwdnFyWkJMeFN1dDNoVUlBQ3lQR1lIcndwemRTNGNXRXFNc3BJcEtCODQ1eWEyZGY1VDZ0U29ER1Qtcjg1N2lxSGdIaURiRHhpSWZDQlNXbnZSdGJzaGxaVkRiWVc5dFlnNVYyZThnUEZyTGY3dnpFcEItTVpBT3MwSzdRMjJLai1ZdWNsUEhlckd5MDJRSjIwVHNqMDlUci1IUFNLRHEwWXN5OVhRSFUwNm1WektHZXItd1lFUDU0bkxNTWwzMEk?oc=5",
-"s": "Regjeringen.no",
-"d": "2026-11-18T19:08+00:00"
+"t": "ALICIA HOUSER - Tanzania’s Peace Was Never Peaceful",
+"u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWVlXa0h0bFRrNFl4Y0FqemVhWHduS0pEM0ZQcmlWcjBRRGZlcFlhU2ZCNVFWQUE3NE1YM0hHbmV0V3RIU0laV2daMl9qUDF6R3JWN0V0SUlqS3AzMXpNbVZNc29leUZoME4tbURtNlZDYjdLOFdCMlEtZ0R1cGdzM1lpLVl6NXNCRDN4Ng?oc=5",
+"s": "The Elephant",
+"d": "2026-11-18T08:30+00:00"
 }
 ],
 "strait-of-hormuz": [
-{
-"t": "Strait of Hormuz Watch: Peace Negotiations Stall, Vessel Attacks Persist",
-"u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMzdGVkRCRkxtektNWVpJYUlyU2dMRFBSeVNxOVNsaHlDblpiblVTQ2d1SWotMmhUSk52YlNoalZKaGJkV1N4LUdjbXFFLVN4dk9JX1dYYnhZbHU1anY4QjBMNFF4N1JpVHNHNGUxcjk0YzRfSHFjWExic3NLTFFiVUhRVVhZaW1iZEt4eldXVFBfMnlaSmw0T1BMMnhfOGM2WmpROTF0OTZuc2t1Z1llRklEaVRwQ3FPT0tPdGo4Z052c3ZvQTMyVnRrVk9xM1JKRGJsUjhVMA?oc=5",
-"s": "IndustryWeek",
-"d": "2026-11-20T01:07+00:00"
-},
-{
-"t": "The Iran War Could Permanently Slash Reliance on Hormuz, IEA Says",
-"u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONkRNTmVJRC1mZzYtOE1lWkpzLUYybFdUbTdtRmItWjJCZFBlMXpNQkJ5cDdpX3Z0dlp3MFhaOTFCU1Rmczg1MWs1SUhOY3B1cVp5UDlQM0ZkQ3dWd2dsZldjdWo4cHQyQk5CWDZkWHlkRGp5RmJrNm5NSWRyZEJNLTlsVHhSbWd5akdWNVNzVlNUSGRFNVVtcHJDOVRSbWxScFJGWmFjdWx5ZkQyejhTNWxYYw?oc=5",
-"s": "WSJ",
-"d": "2026-11-19T13:50+00:00"
-},
 {
 "t": "IEA sees potential for looser oil, LNG markets after Hormuz crisis",
 "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVUxBV3lHRy1fUnRCZXNhS3hzYU9uMTRvUXRkQWE3YlliVnE3TlNmb0JjclNsVG5XWkJmY2czRWVGWWxWdUpjUGdrcXF1U3RPV0lwRWhkNFN6VUpwRUtyTW1iVk84ek5uUEFFWE14NnF4LVJEZHItWDBuSmZXZ1diQThVWndMdE1waVdRckp1SElrTGFXVTFsaTM1V3NUUjA2TnlLUTBPS1JZTUx3c3dSVlUyU0tsOXFITzZxaUpyMml4dlFVdVFGNkJZbF9jZ1U?oc=5",
@@ -2622,24 +2610,30 @@
 "d": "2026-11-19T17:53+00:00"
 },
 {
-"t": "Confidence in Hormuz has been 'crushed' by war on Iran, IEA says",
-"u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMDhIT1NocDBzaEswWDVsQ1dpMVVyM1E2YWZlMjdkaHJEdVpGSkM4WUZfZGlYTWRRWmFoR0pFNG5kdE9CQ0UtdE5NY3NSbEQwZzU3NWFTUG1XdUotQjBTTXY0WWw5c3ZidGdWMHo0djNpNDZyZzVVQWlHZ1lhYzctV29JakR1U2g5aEFvRkc4QVM?oc=5",
-"s": "Middle East Eye",
-"d": "2026-11-19T22:03+00:00"
+"t": "Iran’s IRGC says tankers with 4M barrels of oil hit Hormuz mines: What to know",
+"u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR2xUd1ppVEhOWXhVbnNrU2I1UTl1NkprQUxlOGRaTGlpR0k2QTVNdEdzSmhXZlgwOU9uTXdsQVViVmZ4cHRWbUs3VVI1N2dlcG9TeGhjTzdYRUJwMHZab0hsTkwyM0ZMRGQ5NktWQlBybmllOVNMSWl5Z25kTnV3LUczcnNBaVd1WUQwcFpDRzM1YzVDXzBIYXV3ckZYR3ZWVmFZOXVvTDBnLTVqTW1N?oc=5",
+"s": "Al-Monitor",
+"d": "2026-11-19T17:04+00:00"
+},
+{
+"t": "One missing, 11 injured in attack on ADNOC tanker in Hormuz",
+"u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUTJCUzVGMi13TGtZZl9LX25VMFJlV2c3MjRRWXNHbmZ2NXdoS1ZWS0RnWGRSSjZ1SVJMcWxDeEtBdGlORWo1MlZjbENtOWxWMDUwUGFCV1FVcHRWYUlKWE92MGRWcXdrNWYzWmNzelo5amxjd3RiSTBvQ2FHSE1QN0s2QlNaZ05BTERZc3dfMU4waWQ2d2xMWGlRajhTYnRDN09j?oc=5",
+"s": "Seatrade Maritime News",
+"d": "2026-11-18T12:45+00:00"
+},
+{
+"t": "Iraq Turns North: Major Oil Pipeline to Turkey Reopens as Strait of Hormuz Shipping Stalls",
+"u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRXAwTGZ6NnY3clJsZ0hCbjVwMmQ5NDdQbXM3VWVtMHVoOFR0aHBtOWY2S3VXUjVZRXIyWVE0bTFHZVVaSnhOdEdDdUhSR2ZKSG4zWGdoQ0JXTU9fYTlrREluMzRiSWNCZXZlZllTS25IbGxaLWZwQm8zVVp0MWpPVDlPeDl6RFZqeV9pUFNKNkhXZy1ybUh4akJzclBOWmh0cmR1R1E4OE55cnpUcUdmTXowT3lMZ3JFZ1E?oc=5",
+"s": "Pipeline Technology Journal",
+"d": "2026-11-19T12:40+00:00"
 }
 ],
 "bab-el-mandeb": [
 {
-"t": "Houthi Advance in Yemen Puts U.S. in a New Bind",
-"u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUWE4NUxaVWsxWjM2bS1hY3diX0dwdFBTajVzVXlVT2NNTWVuRWpUdUNyVjIzTEE3T0FESTAyMlR5aUo5R1VvSXlvdkZVajlONGNPNnZ6MWFFc2pqMkpvN21vWkduLUdRVEtLSDlzU0VRVHlSQzVOdEJ6bnJ6Q1JNcjZDUQ?oc=5",
+"t": "INSIGHT: Why is the Bab el-Mandeb Strait so Important?",
+"u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYU5uY0N0N1Z3XzlndVJXcXFraFhRY3pieFJFX0I5NlJqMnQxdDRETzN5ZkVQb18yamxhU1E3N0pHalVOMG50dWJpNGFtMnMzUkk3ZkNLMmczMGppSDZGcEZxUGlnWXFMTUJ0Zy1kR0RvM1Z3Wks1aUZKY2hzaGtrZw?oc=5",
 "s": "EnergyNow.com",
-"d": "2026-11-19T22:51+00:00"
-},
-{
-"t": "Houthis reportedly pushing towards the strategic Bab-el-Mandeb strait, raise concerns on Red Sea shipping route",
-"u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV1p1Y0d3b3pBMFg3cWg1WnpITmNoLU0zcFBRYWYxQk5sZmhvX1Q4TDhSY0h6cGE1UHppNWNNNXBvVTBhYlNvazAxWXdFM1ZhRV9xVVFBb050NXpLOUhFcC0zRXVONTNrOHFrSnViUjExTklESk1PTVNLdTJwMEVqWFBCR3N4bVJvQ0JId3BhVnlCWnNrU1VuMU95S09XamlLT0c1QWU1TGtFWEhtcUtHMG90SzRZSUZtT3RwREJ0R1lDYnhPTTBfSTlvaDZUbTI5X1E?oc=5",
-"s": "DD News",
-"d": "2026-11-19T12:43+00:00"
+"d": "2026-11-19T23:12+00:00"
 },
 {
 "t": "Red Sea still too dangerous for Zim as Gemini alliance restores full network transits",
@@ -2648,10 +2642,16 @@
 "d": "2026-11-19T12:29+00:00"
 },
 {
-"t": "The Making of a Global Hunger Crisis",
-"u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ScThzQUNIUElxVlFXR0hfWTR4RjIxRk5xTy1KRHRXNEJpdWV0cG91STlIb0hpU05oQXE3dmtmTmdCcnBUcU5OMmZnUm9xdm5ZNGNNaG13a0NTUlE5TlE3SElYM2xXNDhUc1ZPVjFDSFlDQQ?oc=5",
-"s": "Council on Foreign Relations",
-"d": "2026-11-18T13:00+00:00"
+"t": "Houthis reportedly pushing towards the strategic Bab-el-Mandeb strait, raise concerns on Red Sea shipping route",
+"u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV1p1Y0d3b3pBMFg3cWg1WnpITmNoLU0zcFBRYWYxQk5sZmhvX1Q4TDhSY0h6cGE1UHppNWNNNXBvVTBhYlNvazAxWXdFM1ZhRV9xVVFBb050NXpLOUhFcC0zRXVONTNrOHFrSnViUjExTklESk1PTVNLdTJwMEVqWFBCR3N4bVJvQ0JId3BhVnlCWnNrU1VuMU95S09XamlLT0c1QWU1TGtFWEhtcUtHMG90SzRZSUZtT3RwREJ0R1lDYnhPTTBfSTlvaDZUbTI5X1E?oc=5",
+"s": "DD News",
+"d": "2026-11-19T12:43+00:00"
+},
+{
+"t": "Houthi Advance in Yemen Puts U.S. in a New Bind",
+"u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUWE4NUxaVWsxWjM2bS1hY3diX0dwdFBTajVzVXlVT2NNTWVuRWpUdUNyVjIzTEE3T0FESTAyMlR5aUo5R1VvSXlvdkZVajlONGNPNnZ6MWFFc2pqMkpvN21vWkduLUdRVEtLSDlzU0VRVHlSQzVOdEJ6bnJ6Q1JNcjZDUQ?oc=5",
+"s": "EnergyNow.com",
+"d": "2026-11-19T22:51+00:00"
 }
 ],
 "suez-canal": [
@@ -2668,16 +2668,16 @@
 "d": "2026-11-19T08:00+00:00"
 },
 {
+"t": "Full Suez return clouds box ship outlook as ONE becomes latest to resume transits",
+"u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQa1p1cU1wTG5DQ0hiaVp2UVpqSEFGZDM4TlVtcEp5VWhCSlZkVE1zT29CNFdnVzBGVTk0UXVXcGpNME9xbVJvekRaV1BMbnR5VlhvcnNmTkt5S25CbE1sdDlIek9Xd2l4bXRPaXF3dGhkTEJaaFJWLXlOc1lQLWs4ZU9TTEhuam1jYU4xZU5tc2dGSkllaFcySW1NN3dOa3ZLa1R1SnI3R2FJSVkyUGxQWTNmNS1xN2YwN21CTFBMNEsyblQxajF5VV9R?oc=5",
+"s": "Riviera Maritime Media",
+"d": "2026-11-20T00:02+00:00"
+},
+{
 "t": "Regional Turmoil Drives Growth at Egyptian Ports While Cutting Suez Canal Revenues",
 "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX2dCMHBZSDE2VjZKQUs3bmlBY1MtcV9VYVlWZXhDUE5LZmhlcnNiOFFFV1ZSMFBlY1hBb3lIYmp4TlVGOFVHRlExZEowMlRXbjVkRHY4Y1RaTDYtb185TkpJV2hkT1pDbHJTUmtZaGJMS1lNLVBQcmZMU1hnRk1hdHJuOV9JN1A3V2RXQzZwS2JsMVFrZ3Q2aW9DZnRUQVh3VGZqRnJJRklZZmM2Z09NRVpmT2wyWWR1OVhrWkZnSlg?oc=5",
 "s": "ASHARQ AL-AWSAT English",
 "d": "2026-11-18T08:00+00:00"
-},
-{
-"t": "70 Years after Suez Crisis, the Rebbe’s Lessons Still Resonate",
-"u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmVTU2pGTTJrTkEwQ1YtajFZSmhUWE9UcExyRzVzalJtaXprMFBiWE5RZDJBenhrWTZYQ2NHNktkWTQ0RWpYczdyNnJaakZ4cDFwdWdzakt4VE1VbTJXVDJLalp1RG5TQm1peEgxemdNc3dVeWhIM3VlSkd0UkZRRnJSbWNIeUJmU3M0R1ZrSm1uUzhPLXNDSEtlcHRqTnV5eVJXQTdBU1hfUnZMX1dLOFNFUFlqQkU0cmZ5Y3hoT1Y?oc=5",
-"s": "Chabad",
-"d": "2026-11-19T02:05+00:00"
 }
 ],
 "bosporus": [
@@ -2694,16 +2694,16 @@
 "d": "2026-11-20T02:13+00:00"
 },
 {
+"t": "Russian Warships Return to Black Sea for First Time in Six Months - Oj",
+"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUGpqRTd5TGhrLUVSQ3RnVE8zZVZHRUdlWlA3bDBjY0QwUjMyMjBJRXlvYS1tbHBHcF8zbU9IN19LWkhOM0NPdF9vY2JzYjBIR2ppa09hd0JIUXNqc1J2Y0lyXzYtWTZScHRVVEY4U0RZUU5kMjJpSnJ3NS1lTERUdXo2QkdfQzltUjNaZlpyUmdJbnpzWTRBOW8zdzYwVzVUdTNHVElmWHI?oc=5",
+"s": "Odessa Journal",
+"d": "2026-11-20T07:08+00:00"
+},
+{
 "t": "Previous Ukraine port calls could expose ships to drone attacks in Black Sea",
 "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSXppM2dNSzhndkZqUnI4TTJNN0RIYlN5SXdZWWFBSHR5TEEtMURKTVFLVW82cHQyaU9nZ3RjcGM2Y01jY0Z5dG1vSm5qMW9YOGozNDlhWDdrcXkzaXJOMm9HLWF5UUI5SUJjM21sczZjNFdWVmM2V21DeHh1QXItYkxqeUIyeVU3QmVqYVVLb0Y0bjUwVVdJVmNtYjlKU1VCR21MNjJsdVNlY2xWN2dNTWpval9vbFBVMVk4RUQ4Q09VLWxDWVhmWm13?oc=5",
 "s": "TradeWinds News",
 "d": "2026-11-19T04:29+00:00"
-},
-{
-"t": "Black Sea attacks raise risk premium and disrupt Ukrainian barley flows — CMB News",
-"u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUFdfQTlwRlduZFFIVVBvQ2tyeVZicmNXLV9IZDN4TkowX0J3bFVMWFpKNTROMXZNei1aS1lvYkpPZVJTTGs2cm1EcU0xQTZ2QjhMWUxWS3NZRDFTeXNQOTlicUdIMHBsV0FlYXVYWk1qSFdFenJoVDFxbWc0YzFPNVlIOHZmbWFuVjBMT28zYWIycXU1OWs1cVJ6WQ?oc=5",
-"s": "CMB News",
-"d": "2026-11-19T21:36+00:00"
 }
 ],
 "taiwan-strait": [
@@ -2712,6 +2712,12 @@
 "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJUTVhRi02cVZuckc1TGF3MXhQZEN6SVB3SHYwUFZhSG5rT2RkSVhWbi1nWEQyZkxVRjBzOGFFNEpFSU9Ndm9saVRqOUxiVzl5WnhEOTlOWUxZeUNCZXJNZzlVX0t5M3M0RlQ4ODBCRFpzX1JQOE9iZQ?oc=5",
 "s": "Taipei Times",
 "d": "2026-11-19T16:00+00:00"
+},
+{
+"t": "Xi tells Trump US must do 'the right thing' over Taiwan to avoid 'great turbulence'",
+"u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQVZzZmJXbkFwMUM4VC1vLUttMWg0ck1KQmw3WG5xQ0VNZGRaMi1CVHZEMmZBZWhOXzJidnJGbVR4d0xFRTVqOHFRb1VYMUNka1BybFBjRHlhR2tXYjZsTEtOVGRSb0tYTHVQUXhGRlFsZE9oTS1ITThxclNCbWVuSTNWb1FwWG5rb0czZllKak9HQlczYml5b2lkSdIBoAFBVV95cUxONl9lcGZrbHB5ZGdEYlE0TTB0Zl94elEwckY0NUhSUDZBSThoWS1YOUVoRWthX1o4c1BkTllxdDJ0cUN4Q2U2SDVxb0xXSHhVSVN2cmFXUjRaWHpidUg3SmpwOGxtOUpTbHVyZ252TlJDaUgyRndSSGhnNzd3djJTVjFCQ1BpQ2RXS1RneUxYTXNCMUVEdng2SHhYLXZOVkQw?oc=5",
+"s": "ABC News - Breaking News, Latest News and Videos",
+"d": "2026-11-19T18:20+00:00"
 },
 {
 "t": "Takaichi reaffirms Japan's Taiwan stance, avoids military question",
@@ -2724,12 +2730,6 @@
 "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sRk5yclJsMVJQeURvQmFXcUlHMkZuMHNIM00wd05PYXNDN3BxelNQMGZBejJBZDVqamY2dXBFT0FoV2docXREbFpTa1hjd0VXbzRzUHRBeFg?oc=5",
 "s": "Taiwan News",
 "d": "2026-11-20T03:03+00:00"
-},
-{
-"t": "Xi tells Trump US must do 'the right thing' over Taiwan to avoid 'great turbulence'",
-"u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQVZzZmJXbkFwMUM4VC1vLUttMWg0ck1KQmw3WG5xQ0VNZGRaMi1CVHZEMmZBZWhOXzJidnJGbVR4d0xFRTVqOHFRb1VYMUNka1BybFBjRHlhR2tXYjZsTEtOVGRSb0tYTHVQUXhGRlFsZE9oTS1ITThxclNCbWVuSTNWb1FwWG5rb0czZllKak9HQlczYml5b2lkSdIBoAFBVV95cUxONl9lcGZrbHB5ZGdEYlE0TTB0Zl94elEwckY0NUhSUDZBSThoWS1YOUVoRWthX1o4c1BkTllxdDJ0cUN4Q2U2SDVxb0xXSHhVSVN2cmFXUjRaWHpidUg3SmpwOGxtOUpTbHVyZ252TlJDaUgyRndSSGhnNzd3djJTVjFCQ1BpQ2RXS1RneUxYTXNCMUVEdng2SHhYLXZOVkQw?oc=5",
-"s": "ABC News - Breaking News, Latest News and Videos",
-"d": "2026-11-19T18:20+00:00"
 }
 ],
 "strait-of-malacca": [
@@ -2752,18 +2752,18 @@
 "d": "2026-11-19T00:54+00:00"
 },
 {
-"t": "Three Manila Moments That Give Trump Momentum Going Into Talks With China (From FOX News)",
-"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVUpWRktLN1pja1p3bnFiRWVuVGR1ZGx5NzZTdWgxTGdMb0dYUHp6RGNXdkZYWXE5OGdjSUFaVGo1dWhYSGtXUVhIamMyLWFhNi1EVjJlQkhWUlNLQjlaWGFQUk9VZTZVN0dyNU5UNndzSnJDeDVvN2dVTGVCQ0pEVlVibE5JaDAySkR4SkEzRTFvZ2VBRllDTUU4dktDeXRHa1MxbzdPNU4?oc=5",
-"s": "Lexington Institute",
-"d": "2026-11-18T22:11+00:00"
+"t": "Stanislav Kondrashov Explores How a Maritime Blockade Can Reshape Global Trade and Economic Relationships",
+"u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSWhLN1lxY09fdXZuTDJtRkx4QnlaM2NXN251LWRoRXJmT1dLam5UdHdaUEJKbDFfMWtlTWxtUVkwbTBxRnpQT3NRRU5ZNTRhLWtUS2s5UGxkOFZKb1hQNl9GZVRBcWNyUm1nWWpRdXR0STlJWWRYX0Z5YkJpeWhMeE03MnBiQmh6YVNZOF9VaVZJdWZBY2R1M3NLamNPUDdsaTEydVFHZmNBMHZ6czljMVlVMGQ1dHpvcEtjdkJITXJIZV91SU5FdF9xZVg?oc=5",
+"s": "Vocal",
+"d": "2026-11-19T09:59+00:00"
 }
 ],
 "panama-canal": [
 {
-"t": "From shipping to power, El Niño will test clients’ operational resilience",
-"u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMHVENlo5LWVDWUJ3Y3dERUp4NldXNFlSME5HQ1VmdmVTc3dOeW5SeWtlOVQ5Ty1DMHQ2OGdtSUFMSnRybWdVdXcxRk9OU2JqbnY3MkZnWkNjbzJwTjJHdFo5MUlPdHlRLWVFdEtxTUttQU9LR1pxaU15TmpMT2FKX2NDMEs3d1NWNFlnNDVTMEpnRGRNb0tYcTFFMHVXZW15WDQ4bTNmYWpzWVhZU2xoaDVibzh2S01WY19sSnprYXlRVjM1ZHhqcm1KOVZrcGlnaVQzcmhRRQ?oc=5",
-"s": "Insurance Business",
-"d": "2026-11-19T15:48+00:00"
+"t": "Panama Canal to cap ship transits due to El Nino drought",
+"u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85WjRqRFlVblNta0YzX1VBNU9zTmpud2tHSjZnZnR4VnpFM3VZUWYxTThKR0c0aGtZN01QemI2eTVKSFpoSXEyYWlpZVI2amNuaWxaX2NXNGwyM2VDbUk2Mi13MNIBY0FVX3lxTFBxWHoySjFLVTBEMzFYWTRsaF9xVlhQMG1Mc3VqTE9HX05WTTNzZWg3WU4zLXA1THB1YVk1R2F2LURnWXEzYWdubVRtM1pBOEdIN3ZqM0ItelJqZFQ1cXltRlNxMA?oc=5",
+"s": "DW.com",
+"d": "2026-11-19T18:06+00:00"
 },
 {
 "t": "European Buyers Hold Talks to Ship Canadian LNG via Panama Canal to Diversify Supply",
@@ -2772,16 +2772,16 @@
 "d": "2026-11-19T21:03+00:00"
 },
 {
-"t": "Panama Files Criminal Complaint Tied to CK Hutchison Ports Dispute",
-"u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYXdYREluYloxa09SLUx0RHBjVGtUbE1KQVJ4Y3pBVnhEYVV3YW51YXdVQWJCdlB1Y3dhQTYweW01aDMtOHNIRVl4dEttM1ZscHNMd3BoclFSdEJOUFg2NEhsc2Vod2Z6V2kwWHFiRm5rVWlETTFMSUlETS1NWEM1T0xVNnV1dHBxbTM4eE1IOFV5dw?oc=5",
-"s": "gCaptain",
-"d": "2026-11-19T17:13+00:00"
+"t": "From shipping to power, El Niño will test clients’ operational resilience",
+"u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMHVENlo5LWVDWUJ3Y3dERUp4NldXNFlSME5HQ1VmdmVTc3dOeW5SeWtlOVQ5Ty1DMHQ2OGdtSUFMSnRybWdVdXcxRk9OU2JqbnY3MkZnWkNjbzJwTjJHdFo5MUlPdHlRLWVFdEtxTUttQU9LR1pxaU15TmpMT2FKX2NDMEs3d1NWNFlnNDVTMEpnRGRNb0tYcTFFMHVXZW15WDQ4bTNmYWpzWVhZU2xoaDVibzh2S01WY19sSnprYXlRVjM1ZHhqcm1KOVZrcGlnaVQzcmhRRQ?oc=5",
+"s": "Insurance Business",
+"d": "2026-11-19T15:48+00:00"
 },
 {
-"t": "Panama opens criminal front in Hutchison ports war",
-"u": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuX3gzZmJzVVgyc0JkaWVWcHBWbWFkbmJxWV9pMVpwZXUtR3FXZTFpMEFXMjQycE1RSjU1RXlNVVlHOWdiWTNVaGVoMEh5YjJITC10aXhzel9FUFRCdGxkUGF0VWRfSmFYb0tiM3F0QWdreEhERER6TWwzSjZFQQ?oc=5",
-"s": "Splash247",
-"d": "2026-11-19T06:50+00:00"
+"t": "Tensions Flare Over Fossil Fuels at UN Climate Talks",
+"u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdGQ2QUxXcm5uX0lnd2tIUUEyNFZId0tnMHZDVE9BcnVkbTByZHlpNkJNN0FhQzUwRXpKSGZ6a2trcWJwUFlSdlFMT3hJdEhselBSVUd5UG5nNHhId3NFOUlRd09SdmwtZ2ZfbHU1U1RhNWpEU21XRjctX2h4eGVacWJKVUYybERsYUE?oc=5",
+"s": "Inside Climate News",
+"d": "2026-11-19T21:26+00:00"
 }
 ],
 "danish-straits": [
@@ -2804,10 +2804,10 @@
 "d": "2026-11-18T20:36+00:00"
 },
 {
-"t": "Russian Deputy FM: Moscow appreciates President Sisi’s efforts to resolve Middle East conflicts",
-"u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZnNJdDY1VndSRW1qRXNZVW51SW5QemF3MTUxMXh5c25YNDlZRi1jYTJsck9GU1RfTFMybUZ6TnVsR3dfZWgwUDZwUE1PVE9YcjdHbzUtNkJrSi1GN0hDTVNCc3h1b0RoeGJMTURYMm1Db2NWVW5FelQ3NUdUajcxLUtWbnljMXZFUmFSRF9UdXY5bWctdVRpejBjV241ZDFYcnVfREFkWEtWcVZIMzRZXzJYUC1ibHNwTzJEazFjRGM1dw?oc=5",
-"s": "Egypt Today",
-"d": "2026-11-19T01:03+00:00"
+"t": "Russia’s Warships Are Being “Worked to Death” Protecting Putin’s Shadow Fleet, NATO Says",
+"u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN0xCbk5KUDRuZm1qX2hHVGtDaVB6TUNwMGpsVFRFVUNUZzd0ZEdfMVpkd3hvRHZ4bG1SYms1QWd3RzlxekNBN0JyaDJSZDJLOHN5Zk9QX1EtYnlWZDB0c21IRjJWWlpPdjE3aE1xMkVZUGxzQjhnVG5KMkNhdU8xRXEyalFQRUJNMU1zOGI4dzYyZXhJQnp6bGFlNzRvVUo3NE1yalkwZzNWTGNsZkZyVHpOcTBGaFhFMFdTb3pR?oc=5",
+"s": "UNITED24 Media",
+"d": "2026-11-19T11:27+00:00"
 }
 ]
 }
