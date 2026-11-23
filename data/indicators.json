@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:14+00:00",
+ "updated": "2026-11-23T14:08+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
@@ -463,7 +463,7 @@
     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.col.html"
    },
    "uk": {
-    "updated": "2026-10-30",
+    "updated": "2026-11-23",
     "url": "https://www.gov.uk/foreign-travel-advice/colombia"
    },
    "hazards": [],
