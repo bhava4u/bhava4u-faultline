@@ -783,6 +783,12 @@ Promise.all([getJSON('/data/risk.json'),getJSON('/data/maritime.json')]).then(as
   if(CBY[h]) selectChoke(h,true);
   else if(h.startsWith('vessel-')&&VBY[h.slice(7)]) selectVessel(h.slice(7),true);
   else overview();
+  // links that change only the #part of the address (e.g. to another chokepoint) open it without a reload
+  window.addEventListener('hashchange',()=>{
+    const x=decodeURIComponent(location.hash.slice(1));
+    if(CBY[x] && !(sel&&sel.k==='c'&&sel.id===x)) selectChoke(x,true);
+    else if(x.startsWith('vessel-')&&VBY[x.slice(7)] && !(sel&&sel.k==='v'&&sel.id===x.slice(7))) selectVessel(x.slice(7),true);
+  });
   setInterval(async()=>{await loadLive(); renderAllLive(); if(!sel) overview();},600000);
 }).catch(err=>{
   $('#status').textContent='The maritime data could not be loaded. Check your connection and reload the page.';
