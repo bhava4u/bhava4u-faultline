@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T19:36+00:00",
+ "updated": "2026-11-23T02:02+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
   "gdacs": "ok",
   "ofac": "ok",
-  "gdelt": "ok: 23 event files read, signals for 106 countries"
+  "gdelt": "ok: 26 event files read, signals for 106 countries"
  },
  "method": {
   "weights": {
@@ -37,9 +37,8 @@
     "v7": 0.0,
     "base": 12.0,
     "ratio": null,
-    "events7": 3,
+    "events7": 6,
     "series": [
-     0,
      48,
      0,
      0,
@@ -69,10 +68,11 @@
      0,
      0,
      4,
-     0
+     0,
+     3
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.97,
+    "tone7": -3.69,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Bulgaria%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 4,
@@ -96,12 +96,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 0.0,
+    "v7": 2.4,
     "base": 0.0,
     "ratio": null,
-    "events7": 17,
+    "events7": 25,
     "series": [
-     24,
      0,
      0,
      0,
@@ -131,13 +130,14 @@
      0,
      36,
      2,
-     13
+     13,
+     8
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.04,
+    "tone7": -5.54,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Myanmar%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 52,
+   "score": 55,
    "band": 3,
    "watch": []
   },
@@ -161,9 +161,8 @@
     "v7": 0.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 5,
+    "events7": 6,
     "series": [
-     0,
      0,
      0,
      0,
@@ -193,13 +192,14 @@
      0,
      0,
      4,
-     3
+     3,
+     1
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.37,
+    "tone7": -3.91,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Belarus%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 48,
+   "score": 49,
    "band": 3,
    "watch": []
   },
@@ -221,11 +221,10 @@
    },
    "news": {
     "v7": 252.0,
-    "base": 264.0,
-    "ratio": 0.95,
-    "events7": 476,
+    "base": 240.0,
+    "ratio": 1.05,
+    "events7": 563,
     "series": [
-     468,
      216,
      120,
      156,
@@ -255,10 +254,11 @@
      252,
      480,
      381,
-     199
+     199,
+     106
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.3,
+    "tone7": -3.33,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Canada%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 26,
@@ -284,12 +284,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 0.0,
+    "v7": 2.4,
     "base": 0.0,
     "ratio": null,
-    "events7": 6,
+    "events7": 14,
     "series": [
-     0,
      0,
      24,
      0,
@@ -319,13 +318,14 @@
      48,
      12,
      2,
-     0
+     0,
+     8
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.11,
+    "tone7": -4.12,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Chad%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 50,
+   "score": 52,
    "band": 3,
    "watch": []
   },
@@ -349,9 +349,8 @@
     "v7": 324.0,
     "base": 192.0,
     "ratio": 1.69,
-    "events7": 515,
+    "events7": 638,
     "series": [
-     132,
      204,
      132,
      72,
@@ -381,10 +380,11 @@
      480,
      648,
      374,
-     189
+     189,
+     149
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -2.49,
+    "tone7": -2.34,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22China%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 40,
@@ -410,12 +410,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 16.2,
+    "v7": 15.3,
     "base": 12.0,
-    "ratio": 1.35,
-    "events7": 39,
+    "ratio": 1.28,
+    "events7": 51,
     "series": [
-     12,
      72,
      0,
      0,
@@ -445,10 +444,11 @@
      0,
      0,
      40,
-     16
+     16,
+     15
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -1.23,
+    "tone7": -1.3,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Taiwan%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 9,
@@ -475,9 +475,8 @@
     "v7": 15.2,
     "base": 36.0,
     "ratio": 0.42,
-    "events7": 33,
+    "events7": 37,
     "series": [
-     108,
      48,
      0,
      0,
@@ -507,13 +506,14 @@
      48,
      72,
      16,
-     15
+     15,
+     4
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.27,
+    "tone7": -5.59,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Colombia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 43,
+   "score": 44,
    "band": 3,
    "watch": []
   },
@@ -537,9 +537,8 @@
     "v7": 0.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 1,
+    "events7": 6,
     "series": [
-     60,
      0,
      24,
      0,
@@ -569,13 +568,14 @@
      0,
      0,
      2,
-     0
+     0,
+     5
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.55,
+    "tone7": -4.35,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22DR+Congo%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 49,
+   "score": 50,
    "band": 3,
    "watch": []
   },
@@ -596,12 +596,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 18.2,
+    "v7": 30.6,
     "base": 0.0,
     "ratio": null,
-    "events7": 61,
+    "events7": 91,
     "series": [
-     36,
      12,
      0,
      96,
@@ -631,13 +630,14 @@
      0,
      120,
      67,
-     18
+     18,
+     30
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -6.89,
+    "tone7": -6.74,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Cuba%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 34,
+   "score": 36,
    "band": 2,
    "watch": []
   },
@@ -663,7 +663,6 @@
     "ratio": null,
     "events7": 27,
     "series": [
-     0,
      84,
      0,
      0,
@@ -693,7 +692,8 @@
      36,
      12,
      2,
-     22
+     22,
+     0
     ],
     "unit": "conflict and protest events a day",
     "tone7": -5.0,
@@ -723,9 +723,8 @@
     "v7": 24.0,
     "base": 36.0,
     "ratio": 0.67,
-    "events7": 44,
+    "events7": 52,
     "series": [
-     72,
      48,
      0,
      0,
@@ -755,10 +754,11 @@
      48,
      24,
      33,
-     24
+     24,
+     8
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.27,
+    "tone7": -5.25,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Ethiopia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 45,
@@ -785,9 +785,8 @@
     "v7": 168.0,
     "base": 252.0,
     "ratio": 0.67,
-    "events7": 336,
+    "events7": 427,
     "series": [
-     492,
      360,
      420,
      252,
@@ -817,10 +816,11 @@
      144,
      168,
      328,
-     135
+     135,
+     98
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.69,
+    "tone7": -5.06,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22France%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 34,
@@ -847,9 +847,8 @@
     "v7": 4.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 15,
+    "events7": 17,
     "series": [
-     60,
      0,
      0,
      0,
@@ -879,13 +878,14 @@
      24,
      84,
      4,
-     4
+     4,
+     2
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.14,
+    "tone7": -5.24,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Tbilisi+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 8,
+   "score": 10,
    "band": 1,
    "watch": []
   },
@@ -906,9 +906,8 @@
     "v7": 52.8,
     "base": 72.0,
     "ratio": 0.73,
-    "events7": 122,
+    "events7": 267,
     "series": [
-     132,
      288,
      192,
      36,
@@ -938,10 +937,11 @@
      0,
      48,
      52,
-     42
+     42,
+     155
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -7.3,
+    "tone7": -7.69,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Gaza+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 64,
@@ -968,9 +968,8 @@
     "v7": 95.0,
     "base": 84.0,
     "ratio": 1.13,
-    "events7": 170,
+    "events7": 246,
     "series": [
-     144,
      48,
      84,
      12,
@@ -1000,10 +999,11 @@
      156,
      96,
      100,
-     94
+     94,
+     83
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.41,
+    "tone7": -3.78,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Germany%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 32,
@@ -1024,12 +1024,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 0.0,
+    "v7": 1.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 7,
+    "events7": 8,
     "series": [
-     0,
      0,
      0,
      0,
@@ -1059,10 +1058,11 @@
      0,
      12,
      9,
-     2
+     2,
+     1
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -0.95,
+    "tone7": -1.34,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Greenland%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 15,
@@ -1089,9 +1089,8 @@
     "v7": 84.0,
     "base": 24.0,
     "ratio": 3.5,
-    "events7": 154,
+    "events7": 161,
     "series": [
-     24,
      96,
      60,
      108,
@@ -1121,13 +1120,14 @@
      0,
      360,
      96,
-     70
+     70,
+     7
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.4,
+    "tone7": -5.19,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Haiti%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 74,
+   "score": 73,
    "band": 4,
    "watch": [
     "Conflict and protest events are running at 3.5× their recent average"
@@ -1150,12 +1150,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 612.0,
+    "v7": 576.0,
     "base": 576.0,
-    "ratio": 1.06,
-    "events7": 1186,
+    "ratio": 1.0,
+    "events7": 1542,
     "series": [
-     420,
      300,
      648,
      408,
@@ -1185,10 +1184,11 @@
      828,
      576,
      729,
-     559
+     559,
+     415
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.33,
+    "tone7": -5.39,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22India%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 42,
@@ -1214,12 +1214,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 36.0,
-    "base": 48.0,
-    "ratio": 0.75,
-    "events7": 78,
+    "v7": 40.8,
+    "base": 36.0,
+    "ratio": 1.13,
+    "events7": 134,
     "series": [
-     48,
      24,
      24,
      48,
@@ -1249,13 +1248,14 @@
      36,
      48,
      40,
-     32
+     32,
+     57
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.25,
+    "tone7": -4.43,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Indonesia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 29,
+   "score": 30,
    "band": 2,
    "watch": []
   },
@@ -1279,9 +1279,8 @@
     "v7": 489.6,
     "base": 300.0,
     "ratio": 1.63,
-    "events7": 736,
+    "events7": 981,
     "series": [
-     516,
      252,
      84,
      240,
@@ -1311,10 +1310,11 @@
      792,
      648,
      489,
-     280
+     280,
+     284
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.45,
+    "tone7": -5.41,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Iran%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 72,
@@ -1341,9 +1341,8 @@
     "v7": 60.6,
     "base": 36.0,
     "ratio": 1.68,
-    "events7": 134,
+    "events7": 179,
     "series": [
-     36,
      12,
      48,
      48,
@@ -1373,10 +1372,11 @@
      96,
      72,
      134,
-     60
+     60,
+     46
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.73,
+    "tone7": -4.91,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Iraq%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 65,
@@ -1403,9 +1403,8 @@
     "v7": 652.8,
     "base": 756.0,
     "ratio": 0.86,
-    "events7": 1067,
+    "events7": 1667,
     "series": [
-     1104,
      1044,
      864,
      612,
@@ -1435,10 +1434,11 @@
      288,
      1224,
      652,
-     478
+     478,
+     642
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.83,
+    "tone7": -5.91,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Israel%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 53,
@@ -1462,12 +1462,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 64.8,
-    "base": 60.0,
-    "ratio": 1.08,
-    "events7": 107,
+    "v7": 60.0,
+    "base": 72.0,
+    "ratio": 0.83,
+    "events7": 132,
     "series": [
-     96,
      72,
      72,
      0,
@@ -1497,13 +1496,14 @@
      60,
      36,
      64,
-     42
+     42,
+     34
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -1.6,
+    "tone7": -1.48,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Japan%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 13,
+   "score": 12,
    "band": 1,
    "watch": []
   },
@@ -1524,12 +1524,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 60.0,
+    "v7": 26.3,
     "base": 60.0,
-    "ratio": 1.0,
-    "events7": 67,
+    "ratio": 0.44,
+    "events7": 61,
     "series": [
-     24,
      216,
      360,
      60,
@@ -1559,13 +1558,14 @@
      12,
      72,
      12,
-     26
+     26,
+     11
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -6.19,
+    "tone7": -5.72,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Amman+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 48,
+   "score": 45,
    "band": 3,
    "watch": []
   },
@@ -1586,12 +1586,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 26.3,
+    "v7": 39.8,
     "base": 36.0,
-    "ratio": 0.73,
-    "events7": 58,
+    "ratio": 1.11,
+    "events7": 96,
     "series": [
-     156,
      132,
      84,
      108,
@@ -1621,13 +1620,14 @@
      60,
      84,
      16,
-     26
+     26,
+     39
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -6.57,
+    "tone7": -4.58,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Kenya%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 47,
+   "score": 45,
    "band": 3,
    "watch": []
   },
@@ -1648,12 +1648,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 12.0,
+    "v7": 9.2,
     "base": 24.0,
     "ratio": null,
-    "events7": 21,
+    "events7": 28,
     "series": [
-     72,
      72,
      24,
      24,
@@ -1683,10 +1682,11 @@
      12,
      36,
      4,
-     13
+     13,
+     9
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -2.64,
+    "tone7": -2.89,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22North+Korea%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 57,
@@ -1713,9 +1713,8 @@
     "v7": 31.2,
     "base": 48.0,
     "ratio": 0.65,
-    "events7": 60,
+    "events7": 83,
     "series": [
-     192,
      72,
      60,
      48,
@@ -1745,13 +1744,14 @@
      48,
      252,
      31,
-     17
+     17,
+     24
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -0.88,
+    "tone7": -1.97,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22South+Korea%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 9,
+   "score": 10,
    "band": 1,
    "watch": []
   },
@@ -1775,9 +1775,8 @@
     "v7": 24.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 32,
+    "events7": 38,
     "series": [
-     0,
      0,
      0,
      0,
@@ -1807,13 +1806,14 @@
      72,
      36,
      24,
-     10
+     10,
+     6
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.37,
+    "tone7": -6.87,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Kuwait%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 45,
+   "score": 47,
    "band": 3,
    "watch": []
   },
@@ -1834,12 +1834,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 36.0,
+    "v7": 43.9,
     "base": 36.0,
-    "ratio": 1.0,
-    "events7": 67,
+    "ratio": 1.22,
+    "events7": 107,
     "series": [
-     0,
      24,
      0,
      0,
@@ -1869,14 +1868,15 @@
      36,
      96,
      31,
-     30
+     30,
+     43
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.4,
+    "tone7": -3.43,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Lebanon%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 60,
-   "band": 3,
+   "score": 62,
+   "band": 4,
    "watch": []
   },
   "434": {
@@ -1896,12 +1896,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 0.0,
+    "v7": 8.1,
     "base": 0.0,
     "ratio": null,
-    "events7": 17,
+    "events7": 74,
     "series": [
-     12,
      0,
      0,
      0,
@@ -1931,13 +1930,14 @@
      0,
      12,
      19,
-     8
+     8,
+     58
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.15,
+    "tone7": -5.67,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Libya%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 51,
+   "score": 57,
    "band": 3,
    "watch": []
   },
@@ -1958,12 +1958,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 0.0,
+    "v7": 2.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 12,
+    "events7": 23,
     "series": [
-     0,
      0,
      0,
      0,
@@ -1993,13 +1992,14 @@
      108,
      0,
      2,
-     2
+     2,
+     11
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.99,
+    "tone7": -6.28,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Mali%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 52,
+   "score": 55,
    "band": 3,
    "watch": []
   },
@@ -2018,9 +2018,8 @@
     "v7": 132.0,
     "base": 84.0,
     "ratio": 1.57,
-    "events7": 246,
+    "events7": 358,
     "series": [
-     60,
      84,
      240,
      96,
@@ -2050,10 +2049,11 @@
      132,
      264,
      163,
-     123
+     123,
+     115
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.61,
+    "tone7": -5.74,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Mexico%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 42,
@@ -2077,12 +2077,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 0.0,
+    "v7": 3.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 6,
+    "events7": 9,
     "series": [
-     0,
      0,
      0,
      48,
@@ -2112,13 +2111,14 @@
      12,
      0,
      4,
+     3,
      3
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -6.51,
+    "tone7": -5.94,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Moldova%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 23,
+   "score": 25,
    "band": 2,
    "watch": []
   },
@@ -2142,9 +2142,8 @@
     "v7": 12.1,
     "base": 0.0,
     "ratio": null,
-    "events7": 26,
+    "events7": 33,
     "series": [
-     0,
      0,
      36,
      0,
@@ -2174,13 +2173,14 @@
      60,
      0,
      14,
-     12
+     12,
+     7
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.4,
+    "tone7": -3.71,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Oman%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 40,
+   "score": 41,
    "band": 3,
    "watch": []
   },
@@ -2204,9 +2204,8 @@
     "v7": 12.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 23,
+    "events7": 45,
     "series": [
-     24,
      12,
      0,
      36,
@@ -2236,13 +2235,14 @@
      0,
      0,
      16,
-     14
+     14,
+     23
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.99,
+    "tone7": -5.83,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Niger%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 56,
+   "score": 59,
    "band": 3,
    "watch": []
   },
@@ -2266,9 +2266,8 @@
     "v7": 235.5,
     "base": 372.0,
     "ratio": 0.63,
-    "events7": 427,
+    "events7": 633,
     "series": [
-     132,
      192,
      624,
      120,
@@ -2298,13 +2297,14 @@
      156,
      372,
      148,
-     235
+     235,
+     250
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.32,
+    "tone7": -5.02,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Nigeria%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 51,
+   "score": 50,
    "band": 3,
    "watch": []
   },
@@ -2325,12 +2325,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 230.4,
+    "v7": 192.0,
     "base": 156.0,
-    "ratio": 1.48,
-    "events7": 400,
+    "ratio": 1.23,
+    "events7": 552,
     "series": [
-     192,
      96,
      0,
      252,
@@ -2360,13 +2359,14 @@
      192,
      252,
      230,
-     177
+     177,
+     183
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -6.58,
+    "tone7": -6.56,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Pakistan%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 55,
+   "score": 53,
    "band": 3,
    "watch": []
   },
@@ -2387,12 +2387,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 4.0,
+    "v7": 4.1,
     "base": 0.0,
     "ratio": null,
-    "events7": 33,
+    "events7": 37,
     "series": [
-     0,
      24,
      0,
      0,
@@ -2422,10 +2421,11 @@
      0,
      12,
      38,
+     4,
      4
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.33,
+    "tone7": -2.93,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Peru%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 22,
@@ -2452,9 +2452,8 @@
     "v7": 72.0,
     "base": 60.0,
     "ratio": 1.2,
-    "events7": 156,
+    "events7": 207,
     "series": [
-     48,
      432,
      60,
      96,
@@ -2484,13 +2483,14 @@
      204,
      408,
      62,
-     54
+     54,
+     55
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.31,
+    "tone7": -3.95,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Philippines%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 31,
+   "score": 32,
    "band": 2,
    "watch": []
   },
@@ -2511,12 +2511,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 24.0,
-    "base": 12.0,
-    "ratio": 2.0,
-    "events7": 267,
+    "v7": 36.0,
+    "base": 24.0,
+    "ratio": 1.5,
+    "events7": 326,
     "series": [
-     120,
      0,
      0,
      0,
@@ -2546,17 +2545,16 @@
      24,
      12,
      314,
-     128
+     128,
+     62
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.02,
+    "tone7": -3.96,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Poland%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 18,
+   "score": 16,
    "band": 1,
-   "watch": [
-    "Conflict and protest events are running at 2.0× their recent average"
-   ]
+   "watch": []
   },
   "634": {
    "us": {
@@ -2578,9 +2576,8 @@
     "v7": 2.4,
     "base": 12.0,
     "ratio": null,
-    "events7": 20,
+    "events7": 26,
     "series": [
-     36,
      24,
      12,
      12,
@@ -2610,13 +2607,14 @@
      0,
      24,
      2,
-     16
+     16,
+     7
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.33,
+    "tone7": -2.83,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Qatar%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 36,
+   "score": 35,
    "band": 2,
    "watch": []
   },
@@ -2640,9 +2638,8 @@
     "v7": 12.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 21,
+    "events7": 24,
     "series": [
-     48,
      48,
      0,
      0,
@@ -2672,10 +2669,11 @@
      0,
      24,
      12,
-     12
+     12,
+     4
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.06,
+    "tone7": -4.07,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Romania%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 11,
@@ -2700,11 +2698,10 @@
    },
    "news": {
     "v7": 564.0,
-    "base": 372.0,
-    "ratio": 1.52,
-    "events7": 924,
+    "base": 348.0,
+    "ratio": 1.62,
+    "events7": 1214,
     "series": [
-     888,
      432,
      336,
      336,
@@ -2734,13 +2731,14 @@
      324,
      624,
      657,
-     461
+     461,
+     306
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.14,
+    "tone7": -4.03,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Russia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 72,
+   "score": 73,
    "band": 4,
    "watch": [
     "11 new US sanctions designations in 30 days"
@@ -2764,11 +2762,10 @@
    },
    "news": {
     "v7": 96.0,
-    "base": 132.0,
-    "ratio": 0.73,
-    "events7": 193,
+    "base": 120.0,
+    "ratio": 0.8,
+    "events7": 253,
     "series": [
-     468,
      168,
      132,
      180,
@@ -2798,10 +2795,11 @@
      216,
      96,
      168,
-     77
+     77,
+     66
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.61,
+    "tone7": -5.5,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Saudi+Arabia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 49,
@@ -2825,12 +2823,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 1.0,
+    "v7": 3.1,
     "base": 0.0,
     "ratio": null,
-    "events7": 10,
+    "events7": 13,
     "series": [
-     0,
      36,
      48,
      24,
@@ -2860,13 +2857,14 @@
      0,
      24,
      12,
-     1
+     1,
+     3
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.14,
+    "tone7": -4.29,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Serbia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 21,
+   "score": 23,
    "band": 2,
    "watch": []
   },
@@ -2887,12 +2885,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 36.0,
+    "v7": 46.0,
     "base": 36.0,
-    "ratio": 1.0,
-    "events7": 69,
+    "ratio": 1.28,
+    "events7": 111,
     "series": [
-     0,
      192,
      60,
      0,
@@ -2922,10 +2919,11 @@
      72,
      132,
      12,
-     30
+     30,
+     45
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.96,
+    "tone7": -4.47,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Somalia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 62,
@@ -2949,12 +2947,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 132.0,
-    "base": 108.0,
-    "ratio": 1.22,
-    "events7": 337,
+    "v7": 105.1,
+    "base": 132.0,
+    "ratio": 0.8,
+    "events7": 356,
     "series": [
-     108,
      264,
      60,
      0,
@@ -2984,13 +2981,14 @@
      72,
      60,
      388,
-     105
+     105,
+     52
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -7.0,
+    "tone7": -7.05,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22South+Africa%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 38,
+   "score": 36,
    "band": 2,
    "watch": []
   },
@@ -3011,12 +3009,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 3.0,
+    "v7": 4.8,
     "base": 0.0,
     "ratio": null,
-    "events7": 9,
+    "events7": 36,
     "series": [
-     12,
      0,
      24,
      12,
@@ -3046,13 +3043,14 @@
      0,
      36,
      4,
-     3
+     3,
+     27
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.41,
+    "tone7": -4.85,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22South+Sudan%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 54,
+   "score": 55,
    "band": 3,
    "watch": []
   },
@@ -3073,12 +3071,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 12.0,
+    "v7": 26.4,
     "base": 48.0,
-    "ratio": 0.25,
-    "events7": 60,
+    "ratio": 0.55,
+    "events7": 117,
     "series": [
-     84,
      60,
      12,
      180,
@@ -3108,14 +3105,15 @@
      0,
      108,
      26,
-     38
+     38,
+     58
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -6.01,
+    "tone7": -6.71,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Sudan%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 59,
-   "band": 3,
+   "score": 62,
+   "band": 4,
    "watch": []
   },
   "760": {
@@ -3135,12 +3133,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 26.4,
+    "v7": 36.0,
     "base": 24.0,
-    "ratio": 1.1,
-    "events7": 45,
+    "ratio": 1.5,
+    "events7": 90,
     "series": [
-     336,
      12,
      60,
      24,
@@ -3170,13 +3167,14 @@
      48,
      0,
      26,
-     22
+     22,
+     46
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -8.21,
+    "tone7": -8.51,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Syria%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 63,
+   "score": 66,
    "band": 4,
    "watch": []
   },
@@ -3197,12 +3195,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 14.1,
+    "v7": 12.0,
     "base": 12.0,
-    "ratio": 1.18,
-    "events7": 47,
+    "ratio": 1.0,
+    "events7": 55,
     "series": [
-     36,
      36,
      0,
      12,
@@ -3232,14 +3229,15 @@
      0,
      0,
      57,
-     14
+     14,
+     10
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.97,
+    "tone7": -3.06,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=UAE+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 43,
-   "band": 3,
+   "score": 40,
+   "band": 2,
    "watch": []
   },
   "792": {
@@ -3262,9 +3260,8 @@
     "v7": 48.0,
     "base": 48.0,
     "ratio": 1.0,
-    "events7": 79,
+    "events7": 129,
     "series": [
-     168,
      48,
      0,
      0,
@@ -3294,13 +3291,14 @@
      120,
      24,
      57,
-     30
+     30,
+     56
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.59,
+    "tone7": -3.96,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Turkey+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 30,
+   "score": 31,
    "band": 2,
    "watch": []
   },
@@ -3324,9 +3322,8 @@
     "v7": 290.0,
     "base": 264.0,
     "ratio": 1.1,
-    "events7": 601,
+    "events7": 810,
     "series": [
-     648,
      336,
      348,
      516,
@@ -3356,13 +3353,14 @@
      180,
      492,
      496,
-     290
+     290,
+     219
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.79,
+    "tone7": -4.07,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Ukraine%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 66,
+   "score": 65,
    "band": 4,
    "watch": []
   },
@@ -3383,12 +3381,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 24.0,
+    "v7": 22.5,
     "base": 36.0,
-    "ratio": 0.67,
-    "events7": 53,
+    "ratio": 0.62,
+    "events7": 73,
     "series": [
-     180,
      24,
      0,
      36,
@@ -3418,13 +3415,14 @@
      12,
      48,
      38,
+     22,
      22
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -1.32,
+    "tone7": -2.56,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Egypt%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 24,
+   "score": 25,
    "band": 2,
    "watch": []
   },
@@ -3443,11 +3441,10 @@
    },
    "news": {
     "v7": 804.0,
-    "base": 720.0,
-    "ratio": 1.12,
-    "events7": 1265,
+    "base": 588.0,
+    "ratio": 1.37,
+    "events7": 1666,
     "series": [
-     732,
      588,
      384,
      480,
@@ -3477,13 +3474,14 @@
      960,
      1284,
      1080,
-     505
+     505,
+     429
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.42,
+    "tone7": -4.43,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Britain+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 36,
+   "score": 38,
    "band": 2,
    "watch": []
   },
@@ -3497,11 +3495,10 @@
    },
    "news": {
     "v7": 5112.0,
-    "base": 5760.0,
-    "ratio": 0.89,
-    "events7": 7549,
+    "base": 5640.0,
+    "ratio": 0.91,
+    "events7": 9359,
     "series": [
-     6552,
      6936,
      3732,
      1836,
@@ -3531,14 +3528,15 @@
      5880,
      5964,
      6177,
-     3101
+     3101,
+     2009
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.24,
+    "tone7": -5.33,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22United+States%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 40,
-   "band": 2,
+   "band": 3,
    "watch": []
   },
   "854": {
@@ -3568,7 +3566,6 @@
      0,
      0,
      0,
-     0,
      12,
      0,
      0,
@@ -3593,7 +3590,8 @@
      0,
      0,
      0,
-     10
+     10,
+     0
     ],
     "unit": "conflict and protest events a day",
     "tone7": -5.19,
@@ -3623,9 +3621,8 @@
     "v7": 36.0,
     "base": 48.0,
     "ratio": 0.75,
-    "events7": 52,
+    "events7": 57,
     "series": [
-     24,
      12,
      0,
      60,
@@ -3655,13 +3652,14 @@
      84,
      36,
      36,
-     14
+     14,
+     5
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.66,
+    "tone7": -5.23,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Venezuela%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 45,
+   "score": 46,
    "band": 3,
    "watch": []
   },
@@ -3682,12 +3680,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 72.0,
+    "v7": 60.0,
     "base": 96.0,
-    "ratio": 0.75,
-    "events7": 130,
+    "ratio": 0.62,
+    "events7": 167,
     "series": [
-     192,
      156,
      12,
      48,
@@ -3717,10 +3714,11 @@
      48,
      60,
      110,
-     50
+     50,
+     48
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.04,
+    "tone7": -5.42,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Yemen%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 62,
@@ -3744,12 +3742,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 36.0,
+    "v7": 43.9,
     "base": 48.0,
-    "ratio": 0.75,
-    "events7": 66,
+    "ratio": 0.91,
+    "events7": 108,
     "series": [
-     48,
      48,
      0,
      24,
@@ -3779,13 +3776,14 @@
      48,
      228,
      50,
-     18
+     18,
+     43
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.43,
+    "tone7": -5.61,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Afghanistan%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 61,
+   "score": 62,
    "band": 4,
    "watch": []
   },
@@ -3806,12 +3804,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 120.3,
+    "v7": 121.5,
     "base": 48.0,
-    "ratio": 2.51,
-    "events7": 241,
+    "ratio": 2.53,
+    "events7": 360,
     "series": [
-     36,
      48,
      0,
      12,
@@ -3841,16 +3838,17 @@
      288,
      468,
      93,
-     120
+     120,
+     121
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.76,
+    "tone7": -5.91,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Bangladesh%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 42,
+   "score": 43,
    "band": 3,
    "watch": [
-    "Conflict and protest events are running at 2.51× their recent average"
+    "Conflict and protest events are running at 2.53× their recent average"
    ]
   },
   "076": {
@@ -3873,9 +3871,8 @@
     "v7": 36.0,
     "base": 36.0,
     "ratio": 1.0,
-    "events7": 66,
+    "events7": 82,
     "series": [
-     12,
      48,
      72,
      204,
@@ -3905,10 +3902,11 @@
      12,
      12,
      50,
-     37
+     37,
+     16
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.62,
+    "tone7": -3.51,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Brazil%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 28,
@@ -3932,12 +3930,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 7.2,
+    "v7": 15.3,
     "base": 0.0,
     "ratio": null,
-    "events7": 32,
+    "events7": 47,
     "series": [
-     0,
      24,
      108,
      0,
@@ -3967,13 +3964,14 @@
      24,
      24,
      7,
-     3
+     3,
+     15
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -2.54,
+    "tone7": -2.41,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Argentina%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 7,
+   "score": 9,
    "band": 1,
    "watch": []
   },
@@ -3994,12 +3992,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 216.0,
+    "v7": 156.0,
     "base": 336.0,
-    "ratio": 0.64,
-    "events7": 363,
+    "ratio": 0.46,
+    "events7": 468,
     "series": [
-     504,
      588,
      36,
      84,
@@ -4029,13 +4026,14 @@
      348,
      144,
      278,
-     142
+     142,
+     125
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.27,
+    "tone7": -4.93,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Australia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 22,
+   "score": 21,
    "band": 2,
    "watch": []
   },
@@ -4059,9 +4057,8 @@
     "v7": 67.7,
     "base": 36.0,
     "ratio": 1.88,
-    "events7": 126,
+    "events7": 170,
     "series": [
-     36,
      132,
      132,
      288,
@@ -4091,13 +4088,14 @@
      24,
      84,
      74,
-     67
+     67,
+     48
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.37,
+    "tone7": -4.93,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Italy%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 38,
+   "score": 39,
    "band": 2,
    "watch": []
   },
@@ -4121,9 +4119,8 @@
     "v7": 48.0,
     "base": 96.0,
     "ratio": 0.5,
-    "events7": 107,
+    "events7": 138,
     "series": [
-     120,
      48,
      156,
      192,
@@ -4153,10 +4150,11 @@
      60,
      228,
      84,
-     42
+     42,
+     33
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.28,
+    "tone7": -3.26,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Spain%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 29,
@@ -4183,9 +4181,8 @@
     "v7": 36.0,
     "base": 36.0,
     "ratio": 1.0,
-    "events7": 76,
+    "events7": 102,
     "series": [
-     72,
      36,
      96,
      36,
@@ -4215,10 +4212,11 @@
      48,
      36,
      26,
-     50
+     50,
+     26
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.93,
+    "tone7": -4.97,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Netherlands%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 30,
@@ -4245,9 +4243,8 @@
     "v7": 28.3,
     "base": 12.0,
     "ratio": 2.36,
-    "events7": 51,
+    "events7": 76,
     "series": [
-     48,
      0,
      36,
      72,
@@ -4277,13 +4274,14 @@
      60,
      12,
      24,
-     28
+     28,
+     26
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -2.55,
+    "tone7": -2.85,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Belgium%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 33,
+   "score": 34,
    "band": 2,
    "watch": [
     "Conflict and protest events are running at 2.36× their recent average"
@@ -4309,9 +4307,8 @@
     "v7": 17.2,
     "base": 0.0,
     "ratio": null,
-    "events7": 36,
+    "events7": 50,
     "series": [
-     0,
      0,
      0,
      0,
@@ -4341,13 +4338,14 @@
      48,
      0,
      21,
-     17
+     17,
+     14
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.25,
+    "tone7": -4.06,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Sweden%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 26,
+   "score": 27,
    "band": 2,
    "watch": []
   },
@@ -4370,10 +4368,9 @@
    "news": {
     "v7": 12.0,
     "base": 12.0,
-    "ratio": null,
-    "events7": 26,
+    "ratio": 1.0,
+    "events7": 33,
     "series": [
-     48,
      24,
      24,
      12,
@@ -4403,10 +4400,11 @@
      24,
      12,
      24,
-     12
+     12,
+     7
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.17,
+    "tone7": -3.08,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Norway%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 10,
@@ -4430,12 +4428,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 14.4,
+    "v7": 24.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 76,
+    "events7": 185,
     "series": [
-     36,
      12,
      24,
      0,
@@ -4465,10 +4462,11 @@
      0,
      0,
      14,
-     65
+     65,
+     111
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.72,
+    "tone7": -2.96,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Finland%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 11,
@@ -4492,12 +4490,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 12.0,
+    "v7": 21.4,
     "base": 12.0,
-    "ratio": 1.0,
-    "events7": 83,
+    "ratio": 1.79,
+    "events7": 104,
     "series": [
-     60,
      0,
      0,
      0,
@@ -4527,13 +4524,14 @@
      12,
      36,
      86,
-     43
+     43,
+     21
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -2.68,
+    "tone7": -2.64,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Denmark%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 24,
+   "score": 30,
    "band": 2,
    "watch": []
   },
@@ -4554,12 +4552,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 36.0,
+    "v7": 18.4,
     "base": 24.0,
-    "ratio": 1.5,
-    "events7": 35,
+    "ratio": 0.77,
+    "events7": 50,
     "series": [
-     108,
      0,
      0,
      0,
@@ -4589,13 +4586,14 @@
      72,
      0,
      12,
-     11
+     11,
+     18
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.0,
+    "tone7": -3.06,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Greece%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 15,
+   "score": 11,
    "band": 1,
    "watch": []
   },
@@ -4616,12 +4614,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 12.0,
+    "v7": 3.1,
     "base": 0.0,
     "ratio": null,
-    "events7": 11,
+    "events7": 13,
     "series": [
-     0,
      60,
      0,
      72,
@@ -4651,13 +4648,14 @@
      36,
      0,
      12,
-     1
+     1,
+     3
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -2.04,
+    "tone7": -1.65,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Hungary%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 8,
+   "score": 4,
    "band": 1,
    "watch": []
   },
@@ -4678,12 +4676,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 24.0,
+    "v7": 12.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 32,
+    "events7": 39,
     "series": [
-     0,
      0,
      12,
      0,
@@ -4713,13 +4710,14 @@
      24,
      0,
      33,
-     8
+     8,
+     9
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.15,
+    "tone7": -4.78,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Czechia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 14,
+   "score": 12,
    "band": 1,
    "watch": []
   },
@@ -4742,10 +4740,9 @@
    "news": {
     "v7": 12.0,
     "base": 12.0,
-    "ratio": null,
-    "events7": 28,
+    "ratio": 1.0,
+    "events7": 31,
     "series": [
-     0,
      84,
      0,
      0,
@@ -4775,10 +4772,11 @@
      0,
      0,
      21,
-     16
+     16,
+     3
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.4,
+    "tone7": -3.44,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Austria%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 10,
@@ -4805,9 +4803,8 @@
     "v7": 24.0,
     "base": 12.0,
     "ratio": 2.0,
-    "events7": 65,
+    "events7": 79,
     "series": [
-     24,
      0,
      0,
      0,
@@ -4837,7 +4834,8 @@
      12,
      0,
      40,
-     39
+     39,
+     16
     ],
     "unit": "conflict and protest events a day",
     "tone7": -4.86,
@@ -4866,12 +4864,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 12.0,
+    "v7": 21.6,
     "base": 12.0,
-    "ratio": 1.0,
-    "events7": 40,
+    "ratio": 1.8,
+    "events7": 81,
     "series": [
-     12,
      0,
      0,
      0,
@@ -4901,13 +4898,14 @@
      0,
      36,
      21,
-     27
+     27,
+     42
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.45,
+    "tone7": -4.71,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Portugal%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 12,
+   "score": 18,
    "band": 1,
    "watch": []
   },
@@ -4931,9 +4929,8 @@
     "v7": 96.0,
     "base": 84.0,
     "ratio": 1.14,
-    "events7": 199,
+    "events7": 260,
     "series": [
-     96,
      24,
      36,
      72,
@@ -4963,10 +4960,11 @@
      384,
      60,
      96,
-     60
+     60,
+     69
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.58,
+    "tone7": -4.95,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Ireland%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 18,
@@ -4990,12 +4988,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 2.0,
+    "v7": 4.8,
     "base": 0.0,
     "ratio": null,
-    "events7": 8,
+    "events7": 27,
     "series": [
-     0,
      0,
      0,
      0,
@@ -5025,13 +5022,14 @@
      0,
      24,
      4,
-     2
+     2,
+     19
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -2.13,
+    "tone7": -2.78,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Lithuania%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 3,
+   "score": 7,
    "band": 1,
    "watch": []
   },
@@ -5055,12 +5053,11 @@
     "v7": 12.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 23,
+    "events7": 24,
     "series": [
      0,
      0,
      0,
-     0,
      24,
      0,
      12,
@@ -5087,13 +5084,14 @@
      0,
      0,
      12,
-     14
+     14,
+     1
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.46,
+    "tone7": -5.45,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latvia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 12,
+   "score": 13,
    "band": 1,
    "watch": []
   },
@@ -5114,12 +5112,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 26.3,
+    "v7": 12.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 54,
+    "events7": 58,
     "series": [
-     0,
      0,
      0,
      0,
@@ -5149,13 +5146,14 @@
      0,
      0,
      38,
-     26
+     26,
+     10
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.46,
+    "tone7": -4.38,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Estonia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 14,
+   "score": 11,
    "band": 1,
    "watch": []
   },
@@ -5179,9 +5177,8 @@
     "v7": 11.1,
     "base": 12.0,
     "ratio": 0.93,
-    "events7": 40,
+    "events7": 46,
     "series": [
-     0,
      60,
      60,
      0,
@@ -5211,10 +5208,11 @@
      0,
      0,
      38,
-     11
+     11,
+     6
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.38,
+    "tone7": -4.26,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Armenia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 26,
@@ -5241,9 +5239,8 @@
     "v7": 14.1,
     "base": 36.0,
     "ratio": 0.39,
-    "events7": 43,
+    "events7": 49,
     "series": [
-     48,
      72,
      36,
      0,
@@ -5273,13 +5270,14 @@
      0,
      24,
      55,
-     14
+     14,
+     6
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -2.91,
+    "tone7": -2.2,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Azerbaijan%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 40,
+   "score": 39,
    "band": 2,
    "watch": []
   },
@@ -5303,12 +5301,11 @@
     "v7": 0.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 4,
+    "events7": 0,
     "series": [
      0,
      0,
      0,
-     0,
      48,
      0,
      0,
@@ -5330,6 +5327,7 @@
      0,
      0,
      48,
+     0,
      0,
      0,
      0,
@@ -5365,9 +5363,8 @@
     "v7": 24.0,
     "base": 36.0,
     "ratio": 0.67,
-    "events7": 48,
+    "events7": 67,
     "series": [
-     60,
      120,
      60,
      0,
@@ -5397,10 +5394,11 @@
      24,
      0,
      26,
-     33
+     33,
+     19
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.86,
+    "tone7": -4.94,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Sri+Lanka%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 29,
@@ -5427,9 +5425,8 @@
     "v7": 6.1,
     "base": 12.0,
     "ratio": null,
-    "events7": 18,
+    "events7": 39,
     "series": [
-     0,
      12,
      0,
      0,
@@ -5459,13 +5456,14 @@
      0,
      48,
      16,
-     6
+     6,
+     22
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.64,
+    "tone7": -3.75,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Nepal%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 25,
+   "score": 24,
    "band": 2,
    "watch": []
   },
@@ -5486,12 +5484,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 14.1,
+    "v7": 17.4,
     "base": 36.0,
-    "ratio": 0.39,
-    "events7": 35,
+    "ratio": 0.48,
+    "events7": 52,
     "series": [
-     36,
      0,
      96,
      24,
@@ -5521,10 +5518,11 @@
      72,
      12,
      0,
-     14
+     14,
+     17
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -1.45,
+    "tone7": -1.31,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Thailand%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 8,
@@ -5548,12 +5546,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 24.0,
+    "v7": 27.3,
     "base": 24.0,
-    "ratio": 1.0,
-    "events7": 50,
+    "ratio": 1.14,
+    "events7": 79,
     "series": [
-     0,
      12,
      12,
      0,
@@ -5583,13 +5580,14 @@
      60,
      36,
      24,
-     27
+     27,
+     31
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.39,
+    "tone7": -3.64,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Vietnam%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 12,
+   "score": 13,
    "band": 1,
    "watch": []
   },
@@ -5611,11 +5609,10 @@
    },
    "news": {
     "v7": 45.6,
-    "base": 60.0,
-    "ratio": 0.76,
-    "events7": 59,
+    "base": 48.0,
+    "ratio": 0.95,
+    "events7": 78,
     "series": [
-     84,
      0,
      24,
      0,
@@ -5645,10 +5642,11 @@
      96,
      84,
      45,
-     17
+     17,
+     20
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -4.29,
+    "tone7": -4.36,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Malaysia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 16,
@@ -5675,9 +5673,8 @@
     "v7": 31.2,
     "base": 36.0,
     "ratio": 0.87,
-    "events7": 49,
+    "events7": 78,
     "series": [
-     84,
      0,
      36,
      36,
@@ -5707,10 +5704,11 @@
      48,
      12,
      31,
-     22
+     22,
+     30
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -0.9,
+    "tone7": -0.07,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22New+Zealand%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 10,
@@ -5743,7 +5741,6 @@
      0,
      0,
      0,
-     0,
      84,
      24,
      12,
@@ -5769,7 +5766,8 @@
      0,
      0,
      4,
-     5
+     5,
+     0
     ],
     "unit": "conflict and protest events a day",
     "tone7": -4.5,
@@ -5828,10 +5826,10 @@
      0,
      0,
      0,
-     0,
      72,
      0,
-     6
+     6,
+     0
     ],
     "unit": "conflict and protest events a day",
     "tone7": -5.66,
@@ -5861,9 +5859,8 @@
     "v7": 0.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 6,
+    "events7": 7,
     "series": [
-     0,
      0,
      12,
      12,
@@ -5893,13 +5890,14 @@
      0,
      0,
      0,
-     6
+     6,
+     1
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -7.56,
+    "tone7": -6.38,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Algeria%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 24,
+   "score": 23,
    "band": 2,
    "watch": []
   },
@@ -5923,9 +5921,8 @@
     "v7": 24.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 59,
+    "events7": 60,
     "series": [
-     0,
      0,
      0,
      0,
@@ -5955,13 +5952,14 @@
      24,
      24,
      50,
-     33
+     33,
+     1
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.6,
+    "tone7": -4.9,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Morocco%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 30,
+   "score": 29,
    "band": 2,
    "watch": []
   },
@@ -5985,9 +5983,8 @@
     "v7": 0.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 25,
+    "events7": 29,
     "series": [
-     0,
      24,
      0,
      0,
@@ -6017,10 +6014,11 @@
      0,
      0,
      24,
-     15
+     15,
+     4
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -8.47,
+    "tone7": -7.95,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Tunisia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 24,
@@ -6047,9 +6045,8 @@
     "v7": 52.8,
     "base": 36.0,
     "ratio": 1.47,
-    "events7": 60,
+    "events7": 74,
     "series": [
-     48,
      0,
      36,
      0,
@@ -6079,13 +6076,14 @@
      84,
      84,
      52,
-     13
+     13,
+     14
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -3.16,
+    "tone7": -3.59,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Ghana%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 31,
+   "score": 32,
    "band": 2,
    "watch": []
   },
@@ -6106,12 +6104,11 @@
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
-    "v7": 0.0,
+    "v7": 1.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 5,
+    "events7": 8,
     "series": [
-     0,
      0,
      0,
      0,
@@ -6141,13 +6138,14 @@
      0,
      0,
      7,
-     1
+     1,
+     3
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.08,
+    "tone7": -5.51,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Mozambique%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 21,
+   "score": 22,
    "band": 2,
    "watch": []
   },
@@ -6173,7 +6171,6 @@
     "ratio": null,
     "events7": 5,
     "series": [
-     12,
      0,
      0,
      0,
@@ -6203,10 +6200,11 @@
      0,
      0,
      12,
+     0,
      0
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -6.22,
+    "tone7": -6.25,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Tanzania%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 23,
@@ -6233,7 +6231,131 @@
     "v7": 0.0,
     "base": 0.0,
     "ratio": null,
-    "events7": 42,
+    "events7": 78,
+    "series": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7,
+     39,
+     36
+    ],
+    "unit": "conflict and protest events a day",
+    "tone7": -7.18,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Bahrain%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
+   },
+   "score": 39,
+   "band": 2,
+   "watch": []
+  },
+  "262": {
+   "us": {
+    "level": 2,
+    "label": "Exercise Increased Caution",
+    "updated": "2025-03-05",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dji.html"
+   },
+   "uk": {
+    "updated": "2026-07-27",
+    "url": "https://www.gov.uk/foreign-travel-advice/djibouti"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 0,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": {
+    "v7": 0.0,
+    "base": 0.0,
+    "ratio": null,
+    "events7": 25,
+    "series": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     12,
+     10,
+     10
+    ],
+    "unit": "conflict and protest events a day",
+    "tone7": -5.33,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Djibouti%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
+   },
+   "score": 21,
+   "band": 2,
+   "watch": []
+  },
+  "232": {
+   "us": {
+    "level": 2,
+    "label": "Exercise Increased Caution",
+    "updated": "2023-07-30",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eri.html"
+   },
+   "uk": {
+    "updated": "2026-11-09",
+    "url": "https://www.gov.uk/foreign-travel-advice/eritrea"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 0,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": {
+    "v7": 0.0,
+    "base": 0.0,
+    "ratio": null,
+    "events7": 5,
     "series": [
      0,
      0,
@@ -6264,31 +6386,157 @@
      0,
      0,
      0,
-     7,
-     39
+     4,
+     1
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -7.4,
-    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Bahrain%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
+    "tone7": -1.5,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Eritrea%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 39,
-   "band": 2,
+   "score": 16,
+   "band": 1,
    "watch": []
   },
-  "262": {
+  "702": {
    "us": {
-    "level": 2,
-    "label": "Exercise Increased Caution",
-    "updated": "2025-03-05",
-    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dji.html"
+    "level": 1,
+    "label": "Exercise Normal Precautions",
+    "updated": "2026-03-08",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sgp.html"
    },
    "uk": {
-    "updated": "2026-07-27",
-    "url": "https://www.gov.uk/foreign-travel-advice/djibouti"
+    "updated": "2026-03-19",
+    "url": "https://www.gov.uk/foreign-travel-advice/singapore"
    },
    "hazards": [],
    "sanctions": {
-    "new30": 0,
+    "new30": 3,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": {
+    "v7": 0.0,
+    "base": 0.0,
+    "ratio": null,
+    "events7": 46,
+    "series": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7,
+     14,
+     29
+    ],
+    "unit": "conflict and protest events a day",
+    "tone7": -3.69,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Singapore%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
+   },
+   "score": 5,
+   "band": 1,
+   "watch": []
+  },
+  "116": {
+   "us": {
+    "level": 2,
+    "label": "Exercise Increased Caution",
+    "updated": "2026-09-14",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.khm.html"
+   },
+   "uk": {
+    "updated": "2026-11-18",
+    "url": "https://www.gov.uk/foreign-travel-advice/cambodia"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 29,
+    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
+   },
+   "news": {
+    "v7": 0.0,
+    "base": 0.0,
+    "ratio": null,
+    "events7": 14,
+    "series": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7,
+     7,
+     4
+    ],
+    "unit": "conflict and protest events a day",
+    "tone7": -5.38,
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Cambodia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
+   },
+   "score": 29,
+   "band": 2,
+   "watch": [
+    "29 new US sanctions designations in 30 days"
+   ]
+  },
+  "591": {
+   "us": {
+    "level": 2,
+    "label": "Exercise Increased Caution",
+    "updated": "2026-08-18",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pan.html"
+   },
+   "uk": {
+    "updated": "2026-10-09",
+    "url": "https://www.gov.uk/foreign-travel-advice/panama"
+   },
+   "hazards": [],
+   "sanctions": {
+    "new30": 2,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
@@ -6325,266 +6573,16 @@
      0,
      0,
      0,
-     0,
-     12,
-     10
-    ],
-    "unit": "conflict and protest events a day",
-    "tone7": -5.21,
-    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Djibouti%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
-   },
-   "score": 21,
-   "band": 2,
-   "watch": []
-  },
-  "232": {
-   "us": {
-    "level": 2,
-    "label": "Exercise Increased Caution",
-    "updated": "2023-07-30",
-    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eri.html"
-   },
-   "uk": {
-    "updated": "2026-11-09",
-    "url": "https://www.gov.uk/foreign-travel-advice/eritrea"
-   },
-   "hazards": [],
-   "sanctions": {
-    "new30": 0,
-    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
-   },
-   "news": {
-    "v7": 0.0,
-    "base": 0.0,
-    "ratio": null,
-    "events7": 4,
-    "series": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     4
-    ],
-    "unit": "conflict and protest events a day",
-    "tone7": -1.85,
-    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Eritrea%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
-   },
-   "score": 16,
-   "band": 1,
-   "watch": []
-  },
-  "702": {
-   "us": {
-    "level": 1,
-    "label": "Exercise Normal Precautions",
-    "updated": "2026-03-08",
-    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sgp.html"
-   },
-   "uk": {
-    "updated": "2026-03-19",
-    "url": "https://www.gov.uk/foreign-travel-advice/singapore"
-   },
-   "hazards": [],
-   "sanctions": {
-    "new30": 3,
-    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
-   },
-   "news": {
-    "v7": 0.0,
-    "base": 0.0,
-    "ratio": null,
-    "events7": 17,
-    "series": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     7,
-     14
-    ],
-    "unit": "conflict and protest events a day",
-    "tone7": -4.19,
-    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Singapore%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
-   },
-   "score": 6,
-   "band": 1,
-   "watch": []
-  },
-  "116": {
-   "us": {
-    "level": 2,
-    "label": "Exercise Increased Caution",
-    "updated": "2026-09-14",
-    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.khm.html"
-   },
-   "uk": {
-    "updated": "2026-11-18",
-    "url": "https://www.gov.uk/foreign-travel-advice/cambodia"
-   },
-   "hazards": [],
-   "sanctions": {
-    "new30": 29,
-    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
-   },
-   "news": {
-    "v7": 0.0,
-    "base": 0.0,
-    "ratio": null,
-    "events7": 10,
-    "series": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     7,
+     9,
+     4,
      7
     ],
     "unit": "conflict and protest events a day",
-    "tone7": -5.05,
-    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Cambodia%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
-   },
-   "score": 29,
-   "band": 2,
-   "watch": [
-    "29 new US sanctions designations in 30 days"
-   ]
-  },
-  "591": {
-   "us": {
-    "level": 2,
-    "label": "Exercise Increased Caution",
-    "updated": "2026-08-18",
-    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pan.html"
-   },
-   "uk": {
-    "updated": "2026-10-09",
-    "url": "https://www.gov.uk/foreign-travel-advice/panama"
-   },
-   "hazards": [],
-   "sanctions": {
-    "new30": 2,
-    "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
-   },
-   "news": {
-    "v7": 0.0,
-    "base": 0.0,
-    "ratio": null,
-    "events7": 8,
-    "series": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     9,
-     4
-    ],
-    "unit": "conflict and protest events a day",
-    "tone7": -3.85,
+    "tone7": -3.98,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Panama%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
    "score": 20,
-   "band": 1,
+   "band": 2,
    "watch": []
   }
  },
