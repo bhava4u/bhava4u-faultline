@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T14:08+00:00",
+ "updated": "2026-11-23T19:49+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
   "gdacs": "ok",
   "ofac": "ok",
-  "gdelt": "ok: 24 event files read, signals for 106 countries"
+  "gdelt": "ok: 23 event files read, signals for 106 countries"
  },
  "method": {
   "weights": {
@@ -342,7 +342,7 @@
    },
    "hazards": [],
    "sanctions": {
-    "new30": 11,
+    "new30": 12,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
@@ -387,10 +387,10 @@
     "tone7": -2.34,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22China%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 40,
+   "score": 41,
    "band": 3,
    "watch": [
-    "11 new US sanctions designations in 30 days"
+    "12 new US sanctions designations in 30 days"
    ]
   },
   "158": {
@@ -711,7 +711,7 @@
     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eth.html"
    },
    "uk": {
-    "updated": "2026-10-30",
+    "updated": "2026-11-23",
     "url": "https://www.gov.uk/foreign-travel-advice/ethiopia"
    },
    "hazards": [],
@@ -1272,7 +1272,7 @@
    },
    "hazards": [],
    "sanctions": {
-    "new30": 4,
+    "new30": 16,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
@@ -1317,9 +1317,11 @@
     "tone7": -5.41,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Iran%22+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 72,
+   "score": 77,
    "band": 4,
-   "watch": []
+   "watch": [
+    "16 new US sanctions designations in 30 days"
+   ]
   },
   "368": {
    "us": {
@@ -3191,7 +3193,7 @@
    },
    "hazards": [],
    "sanctions": {
-    "new30": 1,
+    "new30": 17,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
@@ -3236,9 +3238,11 @@
     "tone7": -3.06,
     "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=UAE+%28attack+OR+killed+OR+clashes+OR+protest+OR+explosion+OR+militants+OR+troops+OR+coup+OR+airstrike%29&mode=ArtList&timespan=7d"
    },
-   "score": 40,
-   "band": 2,
-   "watch": []
+   "score": 46,
+   "band": 3,
+   "watch": [
+    "17 new US sanctions designations in 30 days"
+   ]
   },
   "792": {
    "us": {
@@ -3253,7 +3257,7 @@
    },
    "hazards": [],
    "sanctions": {
-    "new30": 3,
+    "new30": 4,
     "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/"
    },
    "news": {
