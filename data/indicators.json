@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T08:11+00:00",
+ "updated": "2026-11-24T14:03+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
@@ -2008,7 +2008,7 @@
   "484": {
    "us": null,
    "uk": {
-    "updated": "2026-10-20",
+    "updated": "2026-11-24",
     "url": "https://www.gov.uk/foreign-travel-advice/mexico"
    },
    "hazards": [],
