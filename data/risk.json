@@ -1,5 +1,5 @@
 {
- "assessed": "22 November 2026",
+ "assessed": "24 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -379,9 +379,9 @@
      "Chinese ships and aircraft continue to operate around the island; Taiwan’s coast guard drove four Chinese ships from Kinmen waters on 10 November."
     ],
     [
-     "Diplomatic pressure",
+     "Elections and diplomatic pressure",
      3,
-     "Taiwan froze investment talks with Malaysia after Anwar Ibrahim’s remarks on Taiwan, as Beijing keeps pressing governments to limit ties."
+     "Taiwan votes on 28 November, while Beijing keeps pressing partners to limit ties, as in the freeze on investment talks with Malaysia."
     ],
     [
      "Chip concentration",
@@ -415,6 +415,10 @@
     ]
    ],
    "src": [
+    [
+     "Rio Times: Asia Intelligence Brief (23 Nov)",
+     "https://www.riotimesonline.com/asia-intelligence-brief-monday-november-23-2026/"
+    ],
     [
      "Rio Times: Asia Intelligence Brief (17 Nov)",
      "https://www.riotimesonline.com/asia-intelligence-brief-tuesday-november-17-2026/"
@@ -527,9 +531,9 @@
      "Doha talks have delivered only partial results, and the UN mission chief met FRN leaders in Goma on 2 November."
     ],
     [
-     "Term-limit referendum",
+     "Ebola outbreak",
      4,
-     "A new referendum law has raised concern that constitutional term limits could be changed, adding a political crisis to the war in the east."
+     "A severe Ebola outbreak in DR Congo has killed thousands this year, straining health systems alongside the war in the east."
     ]
    ],
    "r": "Sub-Saharan Africa",
@@ -541,6 +545,10 @@
     ]
    ],
    "src": [
+    [
+     "Rio Times: Africa Intelligence Brief (23 Nov)",
+     "https://www.riotimesonline.com/africa-intelligence-brief-monday-november-23-2026/"
+    ],
     [
      "Rio Times: Africa Intelligence Brief (12 Nov)",
      "https://www.riotimesonline.com/africa-intelligence-brief-thursday-november-12-2026/"
@@ -1157,44 +1165,44 @@
   "364": {
    "n": "Iran",
    "l": 5,
-   "s": "At war with the US and Israel since 28 February. Iran has stepped up attacks on Gulf shipping and states, and says Hormuz stays shut until its demands are met.",
+   "s": "At war with the US and Israel since 28 February. Iran’s army has ordered Hormuz closed ‘further day by day’ until its seven conditions are met.",
    "i": [
     [
      "Blockade showdown",
      5,
-     "Iran says it will break the US naval blockade and is reportedly preparing 14 tankers to try; the IRGC claims to have shot down US MQ-1 drones near Hormuz on 21–22 November."
+     "Army chief Amir Hatami ordered the navy to tighten control of Hormuz daily, while the US added a third aircraft carrier to the blockade fleet and sanctioned more than two dozen Iranian exchange houses and front companies on 23 November."
     ],
     [
      "Attacks on Hormuz shipping",
      5,
-     "About 25 tankers have been hit in and around the strait since 14 November, and war-risk insurance has risen to 3.5–7.5% of hull value, against 0.1–0.25% before the war."
+     "Iran says at least five tankers hit mines on 23–24 November and has warned ships off ‘unauthorised’ routes; a joint maritime centre logged 114 US-assisted passages on 19–21 November and called the mine claims unconfirmed."
     ],
     [
      "Deadlock over talks",
      4,
-     "Trump said on 20 November that Iran does not want a deal acceptable to him, while US envoys met Qatari mediators in Berlin and Tehran says its Hormuz proposal remains on the table."
+     "Tehran rules out talks until its seven conditions are met; Qatar’s prime minister is in Washington to revive negotiations, and Iran summoned Qatar’s envoy over a joint statement with Germany. The rial has fallen past 2.8 million to the dollar."
     ]
    ],
    "src": [
     [
+     "Euronews: Iran orders Hormuz closed ‘further day by day’ as Qatar seeks to revive talks (24 Nov)",
+     "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
+    ],
+    [
+     "CNBC: Iran says three tankers hit mines despite US escort, as Treasury widens sanctions (24 Nov)",
+     "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+    ],
+    [
+     "Al Jazeera: Iran war live, 24 November",
+     "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
+    ],
+    [
+     "Gulf News: Iran warns Hormuz ships, rules out US talks until 7 conditions met (24 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688"
+    ],
+    [
      "Al Jazeera: What’s behind Iran’s escalation of attacks in the Gulf? (22 Nov)",
      "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
-    ],
-    [
-     "Gulf News: Bahrain intercepts Iranian attacks as Tehran prepares tankers to breach blockade (22 Nov)",
-     "https://gulfnews.com/world/mena/middle-east-conflict-bahrain-intercepts-iranian-attacks-as-tehran-prepares-14-oil-tankers-to-breach-us-naval-blockade-1.500756662"
-    ],
-    [
-     "Iran International: ‘Line-breaker’ tanker signal near Hormuz was fake (22 Nov)",
-     "https://www.iranintl.com/en/202611211549"
-    ],
-    [
-     "GlobalSecurity: Iran War Day 267 update (21 Nov)",
-     "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
-    ],
-    [
-     "Bloomberg via News Tribune: Iran intensifies Hormuz tanker attacks (20 Nov)",
-     "https://www.newstribune.com/news/2026/nov/20/iran-intensifies-hormuz-tanker-attacks-just-as/"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -2419,9 +2427,9 @@
      "The Qatari LNG carrier Al Mayeda was struck en route to Pakistan in early November, and Hormuz remains effectively shut."
     ],
     [
-     "Defence and mediation",
-     2,
-     "Qatar signed a mutual defence pact with Türkiye on 13 November, pledging a joint response to attacks, while continuing to mediate between Washington and Tehran."
+     "Mediation under strain",
+     3,
+     "Qatar’s prime minister met Secretary Rubio to revive US–Iran talks, but Tehran summoned Qatar’s envoy over a Qatari–German joint statement."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -2449,6 +2457,14 @@
     "p": []
    },
    "src": [
+    [
+     "Gulf News: Iran warns Hormuz ships, rules out US talks until 7 conditions met (24 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688"
+    ],
+    [
+     "Euronews: Iran orders Hormuz closed ‘further day by day’ as Qatar seeks to revive talks (24 Nov)",
+     "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
+    ],
     [
      "Gulf News: Turkey and Qatar sign defence pact (14 Nov)",
      "https://gulfnews.com/world/mena/us-israel-iran-war-turkey-qatar-sign-defence-pact-as-trump-warns-tehran-hormuz-risks-persist-1.500745854"
@@ -2598,7 +2614,7 @@
     [
      "Houthi missile and drone attacks",
      4,
-     "Saudi air defences intercepted a Houthi drone targeting Riyadh on 22 November, as the coalition campaign against the Houthis continues."
+     "Air-raid alerts sounded in several provinces early on 24 November as clashes with the Houthis continued."
     ],
     [
      "Red Sea and Bab el-Mandeb",
@@ -2621,6 +2637,10 @@
    ],
    "src": [
     [
+     "Khaleej Times: Live updates, 24 November",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-24-2026"
+    ],
+    [
      "ABC News: IRGC says Bahrain attacks targeted US Patriot sites (22 Nov)",
      "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
     ],
@@ -2635,10 +2655,6 @@
     [
      "Washington Post/AP: Saudi-backed forces launch major attack on Houthis (18 Nov)",
      "https://www.washingtonpost.com/national/2026/11/18/mideast-news-iran-bahrain-us-november-18-2026/54a57f16-e326-11f1-a99e-b3e3805c6b8b_story.html"
-    ],
-    [
-     "Gulf News: Iran attacks Bahrain, ADNOC vessel hit, US hits Qeshm (18 Nov)",
-     "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
     ]
    ],
    "e": {
@@ -2855,9 +2871,9 @@
    "s": "At risk of sliding back into civil war.",
    "i": [
     [
-     "Return to civil war",
+     "Election without a register",
      4,
-     "The prosecution of First Vice President Riek Machar has fractured the peace deal."
+     "South Sudan is due to vote on 22 December, but there is still no voter register, raising the risk of a disputed or postponed election."
     ],
     [
      "Oil revenue",
@@ -2900,6 +2916,10 @@
     ]
    },
    "src": [
+    [
+     "Rio Times: Africa Intelligence Brief (23 Nov)",
+     "https://www.riotimesonline.com/africa-intelligence-brief-monday-november-23-2026/"
+    ],
     [
      "Radio Tamazuj: South Sudan at risk of another election delay",
      "https://www.radiotamazuj.org/en/news/article/south-sudan-at-risk-of-another-election-delay-observers-warn"
@@ -3374,7 +3394,7 @@
     [
      "Iran war decisions",
      4,
-     "Trump returned from Shenzhen without commitments from Xi or Putin on Iran, after US strikes on Qeshm Island on 17–18 November; officials say further strikes have not been ruled out."
+     "The US added a third aircraft carrier, USS Theodore Roosevelt, to the Iran blockade and on 23 November sanctioned Iranian shadow-banking networks, while Qatar presses Washington to resume talks."
     ],
     [
      "Divided government",
@@ -3397,6 +3417,14 @@
    ],
    "src": [
     [
+     "CNBC: Iran says three tankers hit mines despite US escort, as Treasury widens sanctions (24 Nov)",
+     "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+    ],
+    [
+     "Gulf News: Iran warns Hormuz ships, rules out US talks until 7 conditions met (24 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688"
+    ],
+    [
      "ABC News: Iran and Ukraine not in summit declaration (19 Nov)",
      "https://abcnews.com/Politics/trump-china-trip-iran-ukraine-peace-declaration-takeaways/story?id=138292154"
     ],
@@ -3407,10 +3435,6 @@
     [
      "Jerusalem Post: Iran using deadlier missiles against ships (20 Nov)",
      "https://www.jpost.com/middle-east/iran-news/article-915531"
-    ],
-    [
-     "ABC News: US conducts airstrikes on Qeshm Island (18 Nov)",
-     "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
     ]
    ],
    "e": {
@@ -3559,7 +3583,7 @@
     [
      "War with the Saudi-led coalition",
      5,
-     "The coalition says it has struck 60 Houthi military targets and has named Saudi chief of staff Gen. Fayyad al-Ruwaili as joint forces commander; the Houthis hit Riyadh on 19 November."
+     "Houthi media say a coalition strike on buses and trucks in the southwest killed about 25 people; the Houthis have vowed to respond."
     ],
     [
      "Red Sea shipping",
@@ -3581,6 +3605,10 @@
     ]
    ],
    "src": [
+    [
+     "Khaleej Times: Live updates, 24 November",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-24-2026"
+    ],
     [
      "Red Sea Futures: The Houthis menace Aden (19 Nov)",
      "https://redseafutures.substack.com/p/red-sea-brief-23-the-houthis-menace"
@@ -6146,6 +6174,15 @@
    ]
   },
   {
+   "start": "2026-11-28",
+   "when": "28 Nov",
+   "title": "Taiwan votes",
+   "text": "Taiwan goes to the polls on 28 November amid sustained pressure from Beijing.",
+   "c": [
+    "158"
+   ]
+  },
+  {
    "start": "2026-11-29",
    "when": "29 Nov",
    "title": "Spain snap general election",
@@ -6238,6 +6275,27 @@
   }
  ],
  "log": [
+  {
+   "date": "24 Nov 2026",
+   "items": [
+    [
+     "364",
+     "Iran orders Hormuz closed ‘further day by day’; at least five tankers reported hit by mines."
+    ],
+    [
+     "840",
+     "A third US carrier joins the blockade; new sanctions on Iranian shadow banking."
+    ],
+    [
+     "634",
+     "Qatar tries to revive US–Iran talks; Iran summons Qatar’s envoy."
+    ],
+    [
+     null,
+     "Also updated: Yemen, Saudi Arabia, DR Congo, South Sudan, Taiwan."
+    ]
+   ]
+  },
   {
    "date": "22 Nov 2026",
    "items": [
@@ -6560,17 +6618,17 @@
    "lat": 26.57,
    "lon": 56.25,
    "l": 5,
-   "s": "Closed to normal traffic. Oil still moves, mostly on ships running dark, at roughly half its pre-war volume.",
+   "s": "Iran’s army has ordered the strait closed ‘further day by day’; only US-assisted convoys are getting through.",
    "i": [
     [
      "Traffic far below normal",
      5,
-     "UKMTO counted 263 transits in the week to 18 November, about 65% below pre-war levels."
+     "A joint maritime centre recorded 114 US-assisted passages on 19–21 November, a fraction of pre-war levels."
     ],
     [
      "Mines and attacks",
      5,
-     "About 25 tankers have been hit since 14 November, two more on 22 November, and war-risk insurance is up to 3.5–7.5% of hull value."
+     "Iran says at least five tankers hit mines on 23–24 November and warned ships off unauthorised routes; the claims have not been independently confirmed."
     ],
     [
      "Escalating attacks",
@@ -6590,20 +6648,20 @@
    ],
    "src": [
     [
+     "Euronews: Iran orders Hormuz closed ‘further day by day’ as Qatar seeks to revive talks (24 Nov)",
+     "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
+    ],
+    [
+     "Al Jazeera: Iran war live, 24 November",
+     "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
+    ],
+    [
      "Al Jazeera: What’s behind Iran’s escalation of attacks in the Gulf? (22 Nov)",
      "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
     ],
     [
      "GlobalSecurity: Iran War Day 267 update (21 Nov)",
      "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
-    ],
-    [
-     "Bloomberg via News Tribune: Iran intensifies Hormuz tanker attacks (20 Nov)",
-     "https://www.newstribune.com/news/2026/nov/20/iran-intensifies-hormuz-tanker-attacks-just-as/"
-    ],
-    [
-     "The Boston Report: Middle East tanker flow tracker (18 Nov)",
-     "https://thebostonreport.com/economic-warfare/middle-east-tanker-flow/"
     ]
    ]
   },
