@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T14:03+00:00",
+ "updated": "2026-11-24T19:48+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
   "gdacs": "ok",
   "ofac": "ok",
-  "gdelt": "ok: 24 event files read, signals for 106 countries"
+  "gdelt": "ok: 23 event files read, signals for 106 countries"
  },
  "method": {
   "weights": {
@@ -3374,7 +3374,7 @@
    "us": {
     "level": 2,
     "label": "Exercise Increased Caution",
-    "updated": "2025-07-14",
+    "updated": "2026-11-23",
     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.egy.html"
    },
    "uk": {
@@ -3735,7 +3735,7 @@
    "us": {
     "level": 4,
     "label": "Do Not Travel",
-    "updated": "2026-02-19",
+    "updated": "2026-11-23",
     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.afg.html"
    },
    "uk": {
