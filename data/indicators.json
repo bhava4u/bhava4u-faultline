@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T14:02+00:00",
+ "updated": "2026-11-25T19:40+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
   "gdacs": "ok",
   "ofac": "ok",
-  "gdelt": "ok: 23 event files read, signals for 106 countries"
+  "gdelt": "ok: 22 event files read, signals for 106 countries"
  },
  "method": {
   "weights": {
@@ -2818,7 +2818,7 @@
     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.srb.html"
    },
    "uk": {
-    "updated": "2026-10-22",
+    "updated": "2026-11-25",
     "url": "https://www.gov.uk/foreign-travel-advice/serbia"
    },
    "hazards": [],
