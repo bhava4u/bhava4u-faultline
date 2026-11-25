@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T08:16+00:00",
+ "updated": "2026-11-25T14:02+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
   "gdacs": "ok",
   "ofac": "ok",
-  "gdelt": "ok: 25 event files read, signals for 106 countries"
+  "gdelt": "ok: 23 event files read, signals for 106 countries"
  },
  "method": {
   "weights": {
