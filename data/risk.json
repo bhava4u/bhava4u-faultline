@@ -1,5 +1,5 @@
 {
- "assessed": "24 November 2026",
+ "assessed": "25 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -919,9 +919,9 @@
      "Sabotage, drone sightings over bases and cyber activity continue."
     ],
     [
-     "EU budget standoff",
+     "Rearmament on credit",
      2,
-     "Chancellor Merz has said Germany will not back the EU’s 2028–34 budget unless all members agree to fund Ukraine."
+     "The Bundestag budget committee approved €560.9 billion of 2027 spending with heavy new borrowing for defence; the final vote is on 27 November."
     ]
    ],
    "r": "Europe",
@@ -933,6 +933,10 @@
     ]
    ],
    "src": [
+    [
+     "Rio Times: Europe Intelligence Brief (25 Nov)",
+     "https://www.riotimesonline.com/europe-intelligence-brief-wednesday-november-25-2026/"
+    ],
     [
      "Rio Times: Europe Intelligence Brief (12 Nov)",
      "https://www.riotimesonline.com/europe-intelligence-brief-thursday-november-12-2026/"
@@ -1165,25 +1169,37 @@
   "364": {
    "n": "Iran",
    "l": 5,
-   "s": "At war with the US and Israel since 28 February. Iran’s army has ordered Hormuz closed ‘further day by day’ until its seven conditions are met.",
+   "s": "At war with the US and Israel since 28 February. Iran resumed attacks on US bases and civilian sites in the Gulf on 25 November and is tightening its grip on Hormuz.",
    "i": [
     [
-     "Blockade showdown",
+     "Renewed Gulf attacks",
      5,
-     "Army chief Amir Hatami ordered the navy to tighten control of Hormuz daily, while the US added a third aircraft carrier to the blockade fleet and sanctioned more than two dozen Iranian exchange houses and front companies on 23 November."
+     "Iran hit US bases and civilian sites in the Gulf after a lull, Al Jazeera reported on 25 November, and the IRGC chief says forces are ready to push back enemy forces ‘a considerable depth’."
     ],
     [
      "Attacks on Hormuz shipping",
      5,
-     "Iran says at least five tankers hit mines on 23–24 November and has warned ships off ‘unauthorised’ routes; a joint maritime centre logged 114 US-assisted passages on 19–21 November and called the mine claims unconfirmed."
+     "Iran says an LNG carrier and an oil tanker hit mines on 25 November, has deployed new surveillance systems, and now warns that ships must coordinate passage with its forces."
     ],
     [
      "Deadlock over talks",
      4,
-     "Tehran rules out talks until its seven conditions are met; Qatar’s prime minister is in Washington to revive negotiations, and Iran summoned Qatar’s envoy over a joint statement with Germany. The rial has fallen past 2.8 million to the dollar."
+     "China urged the US and Iran to talk; Iran told the UN that Gulf states were complicit in US–Israeli attacks, and its offer to reopen Hormuz within 48 hours of its conditions being met stands."
     ]
    ],
    "src": [
+    [
+     "Al Jazeera: Iran war live, 25 November",
+     "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
+    ],
+    [
+     "The Hill: Iran tightening control over Strait of Hormuz (25 Nov)",
+     "https://thehill.com/policy/defense/6243090-iran-strait-of-hormuz-ships/"
+    ],
+    [
+     "Iran International: China urges US–Iran talks as Hormuz standoff persists (25 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611214578"
+    ],
     [
      "Euronews: Iran orders Hormuz closed ‘further day by day’ as Qatar seeks to revive talks (24 Nov)",
      "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
@@ -1191,18 +1207,6 @@
     [
      "CNBC: Iran says three tankers hit mines despite US escort, as Treasury widens sanctions (24 Nov)",
      "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
-    ],
-    [
-     "Al Jazeera: Iran war live, 24 November",
-     "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
-    ],
-    [
-     "Gulf News: Iran warns Hormuz ships, rules out US talks until 7 conditions met (24 Nov)",
-     "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688"
-    ],
-    [
-     "Al Jazeera: What’s behind Iran’s escalation of attacks in the Gulf? (22 Nov)",
-     "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1264,9 +1268,9 @@
      "An Iran-backed Iraqi militia has called a government probe a plot to seize its weapons, as Baghdad tries to rein in armed groups."
     ],
     [
-     "Strikes on the Kurdistan Region",
+     "Showdown over Kurdish oil",
      4,
-     "Iran has struck targets in the Kurdistan Region, which hosts foreign firms and US personnel."
+     "Baghdad has moved on oilfields in the Kurdistan Region, escalating its dispute with Erbil over oil exports and budget shares."
     ],
     [
      "Budget deadlock with Erbil",
@@ -1283,6 +1287,10 @@
     ]
    ],
    "src": [
+    [
+     "AND Magazine: Morning Brief, 25 November",
+     "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    ],
     [
      "Iran International: Live updates (15 Nov)",
      "https://www.iranintl.com/en/liveblog/202611143682"
@@ -1381,9 +1389,9 @@
    "s": "Rising friction with China and heavy dependence on Gulf energy.",
    "i": [
     [
-     "Friction with China over Taiwan",
+     "Friction with China",
      3,
-     "The diplomatic crisis with Beijing over Prime Minister Takaichi’s Taiwan remarks continues, and Japan is deepening defence ties with Australia, the Philippines and the US."
+     "Approval of Prime Minister Takaichi’s China policy has fallen to 44% as the diplomatic crisis with Beijing drags on."
     ],
     [
      "Gulf energy dependence",
@@ -1405,6 +1413,10 @@
     ]
    ],
    "src": [
+    [
+     "Rio Times: Asia Intelligence Brief (25 Nov)",
+     "https://www.riotimesonline.com/asia-intelligence-brief-wednesday-november-25-2026/"
+    ],
     [
      "Press Insider: Quad leaders warn against coercion, plan first joint maritime patrol (17 Nov)",
      "https://pressinsider.com/policy/quad-leaders-summit-2026-manila-coercion-maritime-surveillance/"
@@ -2117,9 +2129,9 @@
    "s": "Widespread insecurity in an economy under reform.",
    "i": [
     [
-     "Banditry, jihadists and kidnapping",
+     "Insecurity and political violence",
      4,
-     "Mass kidnappings and attacks continue across the north and centre."
+     "Authorities imposed a curfew in Delta State after an attack on a campaign event, adding to banditry and kidnapping across the north and centre."
     ],
     [
      "Friction with the US over security",
@@ -2141,6 +2153,10 @@
     ]
    ],
    "src": [
+    [
+     "Rio Times: Africa Intelligence Brief (25 Nov)",
+     "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-november-25-2026/"
+    ],
     [
      "Reuters: Nigeria urges lenders to expand agriculture, small business finance (20 Nov)",
      "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTUFuMmJEUk02VzJJWHBGRHVSVW1vdkJ1SDV4dXViSF8zbXVUUmhQQUo1cUVMeVBXUURPUUM5R2JodmhxeE9sUW5ITjItalR6Z0JMaTV4RUJISmtZb1h3OFBxZVBLWTF3Y3ZReEFscy1mdG1fOW55SmhsQlBVcWl3TVlBdzBScDRpNlJjLU9CdlpVb0RaSzNMZHJmSmlWSFZWajFIVTNSdHJINmQ2X1lqbGRB?oc=5"
@@ -2612,9 +2628,9 @@
    "s": "A co-belligerent against Iran, absorbing drone and missile fire while oil prices run high.",
    "i": [
     [
-     "Houthi missile and drone attacks",
+     "Attacks on oil infrastructure",
      4,
-     "Air-raid alerts sounded in several provinces early on 24 November as clashes with the Houthis continued."
+     "A drone struck the Ras Tanura refining and export complex early on 25 November, after coalition jets hit the Houthi-held port of Hodeidah; the Houthis threaten Saudi ports."
     ],
     [
      "Red Sea and Bab el-Mandeb",
@@ -2637,6 +2653,14 @@
    ],
    "src": [
     [
+     "AND Magazine: Morning Brief, 25 November",
+     "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    ],
+    [
+     "Al Jazeera: Iran war live, 25 November",
+     "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
+    ],
+    [
      "Khaleej Times: Live updates, 24 November",
      "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-24-2026"
     ],
@@ -2647,14 +2671,6 @@
     [
      "The National: Houthi strike damages PIF tower in Riyadh (19 Nov)",
      "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/"
-    ],
-    [
-     "Thotharis: Yemen war briefing note 18 (19 Nov)",
-     "https://thotharis.substack.com/p/briefing-note-18-yemen-war-19-november"
-    ],
-    [
-     "Washington Post/AP: Saudi-backed forces launch major attack on Houthis (18 Nov)",
-     "https://www.washingtonpost.com/national/2026/11/18/mideast-news-iran-bahrain-us-november-18-2026/54a57f16-e326-11f1-a99e-b3e3805c6b8b_story.html"
     ]
    ],
    "e": {
@@ -3583,7 +3599,7 @@
     [
      "War with the Saudi-led coalition",
      5,
-     "Houthi media say a coalition strike on buses and trucks in the southwest killed about 25 people; the Houthis have vowed to respond."
+     "Coalition forces struck the port of Hodeidah on 24 November, and the Houthis have threatened Saudi ports in response."
     ],
     [
      "Red Sea shipping",
@@ -3606,6 +3622,14 @@
    ],
    "src": [
     [
+     "AND Magazine: Morning Brief, 25 November",
+     "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    ],
+    [
+     "Al Jazeera: Iran war live, 25 November",
+     "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
+    ],
+    [
      "Khaleej Times: Live updates, 24 November",
      "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-24-2026"
     ],
@@ -3616,14 +3640,6 @@
     [
      "Thotharis: Yemen war briefing note 18 (19 Nov)",
      "https://thotharis.substack.com/p/briefing-note-18-yemen-war-19-november"
-    ],
-    [
-     "Long War Journal: Houthis retake Bab al Mandeb and move toward Aden (16 Nov)",
-     "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php"
-    ],
-    [
-     "The National: Houthi strike damages PIF tower in Riyadh (19 Nov)",
-     "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/"
     ]
    ],
    "e": {
@@ -3864,9 +3880,9 @@
    "s": "Stable, with fuel security as a weak point.",
    "i": [
     [
-     "Fuel import security",
+     "Fuel costs and inflation",
      3,
-     "Australia imports most of its fuel and holds low reserves."
+     "Inflation has risen to 4.9%, driven by fuel import costs linked to the Gulf crisis."
     ],
     [
      "Relations with China",
@@ -3905,6 +3921,10 @@
     "p": []
    },
    "src": [
+    [
+     "Rio Times: Asia Intelligence Brief (25 Nov)",
+     "https://www.riotimesonline.com/asia-intelligence-brief-wednesday-november-25-2026/"
+    ],
     [
      "Financial Times: Australia PM and China’s Xi Jinping hail ‘turnaround’ despite iron ore tensions (19 Nov)",
      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkRjb0Rma1lqX0xiWEJGMGNfWXpZaEJPR0pkQmI5WTdJek50SkpSTm80S0ljN0tGaG80R0ZZZXU1bktzLXVMeDg1ZW5KNTR5bDV1YmdlM2VsSmF3RFZmdF9FTGJuVnBOalFwcUp0QXV1TU5ycVJ5REp1cWladVlFRjdpa0E?oc=5"
@@ -4430,9 +4450,9 @@
    "s": "Péter Magyar’s government is unwinding 16 years of Orbán rule after an April landslide.",
    "i": [
     [
-     "Russian energy dependence",
-     3,
-     "Hungary still relies heavily on Russian oil and gas, leaving it exposed to sanctions and supply shocks."
+     "Reset with Ukraine",
+     2,
+     "Prime Minister Péter Magyar has proposed meeting President Zelenskyy in Transcarpathia before the end of November; no meeting is confirmed."
     ],
     [
      "Reform of institutions",
@@ -4446,6 +4466,10 @@
     ]
    ],
    "src": [
+    [
+     "Rio Times: Europe Intelligence Brief (25 Nov)",
+     "https://www.riotimesonline.com/europe-intelligence-brief-wednesday-november-25-2026/"
+    ],
     [
      "Euronews: Commission partially clears Hungary’s €10bn cash on rule of law (20 Nov)",
      "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmNmTjN2TTNZbnR5M2w4V0ZBU1dVRjBMMUgweWE2Z3FzZUpKeFVBYUNFSHF6MU9EM3dlRHJOOU9GcndlNXBKZXJKcVBEUVFtNEhYamRkdnk0ZHZ6cXJIRHJpb3BYSFpSTTJBeUZDaFRienlqRk9OS1c2VzhqYS1kWlJ3c3pldzMwRXo4UW9TUVpBc19ubGdxNmlxUTFkUmNmcDdWLUdZWHJSNllhaVJtUnlvakpiUEpLdlpFOHQxRVYxRHA2?oc=5"
@@ -6174,6 +6198,15 @@
    ]
   },
   {
+   "start": "2026-11-27",
+   "when": "27 Nov",
+   "title": "Germany’s 2027 budget vote",
+   "text": "The Bundestag votes on €560.9 billion of spending, with heavy borrowing for defence.",
+   "c": [
+    "276"
+   ]
+  },
+  {
    "start": "2026-11-28",
    "when": "28 Nov",
    "title": "Taiwan votes",
@@ -6199,6 +6232,15 @@
    "c": [
     "233",
     "643"
+   ]
+  },
+  {
+   "start": "2026-12-03",
+   "when": "3 Dec",
+   "title": "South Africa corruption verdict",
+   "text": "A closely watched graft verdict is due.",
+   "c": [
+    "710"
    ]
   },
   {
@@ -6275,6 +6317,27 @@
   }
  ],
  "log": [
+  {
+   "date": "25 Nov 2026",
+   "items": [
+    [
+     "364",
+     "Iran resumes attacks on US bases and civilian sites in the Gulf; ships told to coordinate Hormuz passage."
+    ],
+    [
+     "682",
+     "A drone strikes the Ras Tanura oil complex after coalition strikes on Hodeidah."
+    ],
+    [
+     "368",
+     "Baghdad moves on Kurdish oilfields."
+    ],
+    [
+     null,
+     "Also updated: Yemen, Germany, Hungary, Nigeria, Australia, Japan."
+    ]
+   ]
+  },
   {
    "date": "24 Nov 2026",
    "items": [
@@ -6626,9 +6689,9 @@
      "A joint maritime centre recorded 114 US-assisted passages on 19–21 November, a fraction of pre-war levels."
     ],
     [
-     "Mines and attacks",
+     "Mines and coordinated passage",
      5,
-     "Iran says at least five tankers hit mines on 23–24 November and warned ships off unauthorised routes; the claims have not been independently confirmed."
+     "Iran says an LNG carrier and an oil tanker hit mines on 25 November and now requires ships to coordinate transit with its forces; the claims have not been independently confirmed."
     ],
     [
      "Escalating attacks",
@@ -6648,20 +6711,20 @@
    ],
    "src": [
     [
+     "The Hill: Iran tightening control over Strait of Hormuz (25 Nov)",
+     "https://thehill.com/policy/defense/6243090-iran-strait-of-hormuz-ships/"
+    ],
+    [
+     "Al Jazeera: Iran war live, 25 November",
+     "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
+    ],
+    [
      "Euronews: Iran orders Hormuz closed ‘further day by day’ as Qatar seeks to revive talks (24 Nov)",
      "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
     ],
     [
      "Al Jazeera: Iran war live, 24 November",
      "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
-    ],
-    [
-     "Al Jazeera: What’s behind Iran’s escalation of attacks in the Gulf? (22 Nov)",
-     "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
-    ],
-    [
-     "GlobalSecurity: Iran War Day 267 update (21 Nov)",
-     "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
     ]
    ]
   },
@@ -6679,9 +6742,9 @@
      "Government-aligned forces withdrew on 15 November; Houthi forces have since moved east along the Gulf of Aden coast."
     ],
     [
-     "Ships contacting the Houthis",
-     4,
-     "Some ships now email the Houthis’ coordination centre before transiting, a sign of the group’s growing leverage over the strait."
+     "Yemen escalation",
+     5,
+     "Coalition strikes on Hodeidah and Houthi threats against Saudi ports keep the southern Red Sea on edge."
     ],
     [
      "Depressed traffic",
