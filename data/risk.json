@@ -1,5 +1,5 @@
 {
- "assessed": "25 November 2026",
+ "assessed": "26 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -1169,25 +1169,37 @@
   "364": {
    "n": "Iran",
    "l": 5,
-   "s": "At war with the US and Israel since 28 February. Iran resumed attacks on US bases and civilian sites in the Gulf on 25 November and is tightening its grip on Hormuz.",
+   "s": "At war with the US and Israel since 28 February. Iran claims full control of Hormuz as indirect contacts with Washington inch forward.",
    "i": [
     [
-     "Renewed Gulf attacks",
+     "Strikes on Gulf states",
      5,
-     "Iran hit US bases and civilian sites in the Gulf after a lull, Al Jazeera reported on 25 November, and the IRGC chief says forces are ready to push back enemy forces ‘a considerable depth’."
+     "An Iranian drone attack on a ‘vital site’ in Kuwait injured four people on 26 November, and Israel’s military says it is ready to strike Iran without US support."
     ],
     [
      "Attacks on Hormuz shipping",
      5,
-     "Iran says an LNG carrier and an oil tanker hit mines on 25 November, has deployed new surveillance systems, and now warns that ships must coordinate passage with its forces."
+     "The IRGC claims two more tankers hit mines north of Khasab on 26 November and says it has full control of both approaches to the strait; Brent rose to about $95."
     ],
     [
-     "Deadlock over talks",
+     "Diplomacy inches forward",
      4,
-     "China urged the US and Iran to talk; Iran told the UN that Gulf states were complicit in US–Israeli attacks, and its offer to reopen Hormuz within 48 hours of its conditions being met stands."
+     "Envoy Jared Kushner confirmed meetings with Tehran officials under Vice President Vance’s diplomatic effort, while saying all options remain on the table; a truckers’ strike is spreading inside Iran."
     ]
    ],
    "src": [
+    [
+     "ABC News: Kuwait says Iranian drone attack injured 4 people (26 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+    ],
+    [
+     "The New Arab: Iran tightens grip over Hormuz as diplomacy inches forward (26 Nov)",
+     "https://www.newarab.com/news/iran-tightens-grip-over-hormuz-diplomacy-inches-forward"
+    ],
+    [
+     "Iran International: Israeli military says it is ready to strike Iran without US support (26 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611214578"
+    ],
     [
      "Al Jazeera: Iran war live, 25 November",
      "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
@@ -1195,18 +1207,6 @@
     [
      "The Hill: Iran tightening control over Strait of Hormuz (25 Nov)",
      "https://thehill.com/policy/defense/6243090-iran-strait-of-hormuz-ships/"
-    ],
-    [
-     "Iran International: China urges US–Iran talks as Hormuz standoff persists (25 Nov)",
-     "https://www.iranintl.com/en/liveblog/202611214578"
-    ],
-    [
-     "Euronews: Iran orders Hormuz closed ‘further day by day’ as Qatar seeks to revive talks (24 Nov)",
-     "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
-    ],
-    [
-     "CNBC: Iran says three tankers hit mines despite US escort, as Treasury widens sanctions (24 Nov)",
-     "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1330,7 +1330,7 @@
     [
      "Return to war with Iran",
      5,
-     "US officials say Israel is still pressing the Trump administration to launch new strikes on Iran."
+     "The military says it is ready to strike Iran without US support, and the defence minister alleges Iran is developing chemical weapons."
     ],
     [
      "Northern front with Hezbollah",
@@ -1352,6 +1352,10 @@
     ]
    ],
    "src": [
+    [
+     "Iran International: Israeli military says it is ready to strike Iran without US support (26 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611214578"
+    ],
     [
      "Fox News: Iran war live updates (15 Nov)",
      "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
@@ -1620,9 +1624,9 @@
      "Pyongyang’s ties with Moscow raise the military stakes on the peninsula."
     ],
     [
-     "Energy import costs",
+     "Iran war exposure",
      3,
-     "High oil and LNG prices hit a trade-dependent economy."
+     "Seoul has told Tehran it will stay out of the war with the US, while remaining exposed to Gulf energy disruption."
     ],
     [
      "Judicial clash",
@@ -1639,6 +1643,10 @@
     ]
    ],
    "src": [
+    [
+     "Iran International: Israeli military says it is ready to strike Iran without US support (26 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611214578"
+    ],
     [
      "Rio Times: Asia Intelligence Brief (21 Nov)",
      "https://www.riotimesonline.com/asia-intelligence-brief-saturday-november-21-2026/"
@@ -1672,9 +1680,9 @@
    "s": "Within range of Iranian and Iraqi militia strikes, and almost wholly dependent on Gulf shipping.",
    "i": [
     [
-     "Strikes from Iran and Iraqi militias",
+     "Iranian drone attacks",
      4,
-     "Iran targeted Kuwait in overnight attacks on 17–18 November, and drone threats keep the country on high alert."
+     "An Iranian drone attack on a ‘vital site’ on 26 November injured four people, two Italians, a Pakistani and a Kuwaiti, from falling shrapnel."
     ],
     [
      "Export dependence on Hormuz",
@@ -1712,6 +1720,10 @@
     "p": []
    },
    "src": [
+    [
+     "ABC News: Kuwait says Iranian drone attack injured 4 people (26 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+    ],
     [
      "Times of Israel: Iran targets Bahrain and Kuwait (18 Nov)",
      "https://www.timesofisrael.com/liveblog-november-18-2026/"
@@ -3036,9 +3048,9 @@
      "Clashes involving Alawite, Druze and Kurdish communities keep recurring."
     ],
     [
-     "Reconstruction and reintegration",
+     "Weapons smuggling",
      3,
-     "A Gulf consortium began repairing Syria’s main motorway and an EU decision added momentum to its return to the international fold; Iraq is exploring oil export routes through Syria."
+     "US Central Command says Syria seized Iranian Revolutionary Guards weapons bound for Lebanon."
     ]
    ],
    "r": "Middle East & North Africa",
@@ -3059,6 +3071,10 @@
     ]
    },
    "src": [
+    [
+     "Iran International: Israeli military says it is ready to strike Iran without US support (26 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611214578"
+    ],
     [
      "The National: Gulf consortium starts work to repair Syria's main motorway (20 Nov)",
      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOGg1RHFpLTN2cGtyUjFmVV9nOWhWOW45MktkSTB0V3JmbVJwbVc1c0VSRDQteWpFNnVuLW02akQ2aFA4Y3dpaDR0aE42V2cwRGk3RTVUNVlIQ3pDRTdzYkU5NGVXNFdVUDhmaVprb3BGSm5abkFtTTYzMElaVEV2Tw?oc=5"
@@ -3410,7 +3426,7 @@
     [
      "Iran war decisions",
      4,
-     "The US added a third aircraft carrier, USS Theodore Roosevelt, to the Iran blockade and on 23 November sanctioned Iranian shadow-banking networks, while Qatar presses Washington to resume talks."
+     "Envoy Jared Kushner says Trump is keeping ‘all options on the table’ while confirming contacts with Iranian officials under Vice President Vance."
     ],
     [
      "Divided government",
@@ -3433,6 +3449,10 @@
    ],
    "src": [
     [
+     "The New Arab: Iran tightens grip over Hormuz as diplomacy inches forward (26 Nov)",
+     "https://www.newarab.com/news/iran-tightens-grip-over-hormuz-diplomacy-inches-forward"
+    ],
+    [
      "CNBC: Iran says three tankers hit mines despite US escort, as Treasury widens sanctions (24 Nov)",
      "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
     ],
@@ -3447,10 +3467,6 @@
     [
      "CBS News: US strikes Qeshm Island; Iran targets Bahrain and Kuwait (19–20 Nov)",
      "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
-    ],
-    [
-     "Jerusalem Post: Iran using deadlier missiles against ships (20 Nov)",
-     "https://www.jpost.com/middle-east/iran-news/article-915531"
     ]
    ],
    "e": {
@@ -3597,9 +3613,9 @@
    "s": "The Houthis hold almost all of Yemen’s Bab el-Mandeb shore and are fighting on two approaches to Aden.",
    "i": [
     [
-     "War with the Saudi-led coalition",
+     "War on several fronts",
      5,
-     "Coalition forces struck the port of Hodeidah on 24 November, and the Houthis have threatened Saudi ports in response."
+     "Government forces report clashes with the Houthis in Marib, al-Jawf and Taiz, air strikes hit Sanaa, and the Houthis claim fresh attacks inside Saudi Arabia."
     ],
     [
      "Red Sea shipping",
@@ -3622,6 +3638,14 @@
    ],
    "src": [
     [
+     "The New Arab: Iran tightens grip over Hormuz as diplomacy inches forward (26 Nov)",
+     "https://www.newarab.com/news/iran-tightens-grip-over-hormuz-diplomacy-inches-forward"
+    ],
+    [
+     "ABC News: Kuwait says Iranian drone attack injured 4 people (26 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+    ],
+    [
      "AND Magazine: Morning Brief, 25 November",
      "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
     ],
@@ -3632,14 +3656,6 @@
     [
      "Khaleej Times: Live updates, 24 November",
      "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-24-2026"
-    ],
-    [
-     "Red Sea Futures: The Houthis menace Aden (19 Nov)",
-     "https://redseafutures.substack.com/p/red-sea-brief-23-the-houthis-menace"
-    ],
-    [
-     "Thotharis: Yemen war briefing note 18 (19 Nov)",
-     "https://thotharis.substack.com/p/briefing-note-18-yemen-war-19-november"
     ]
    ],
    "e": {
@@ -6169,25 +6185,6 @@
  },
  "events": [
   {
-   "start": "2026-11-25",
-   "when": "Late Nov – early Dec",
-   "title": "Russia–Ukraine prisoner exchange (expected)",
-   "text": "Russian state media say the swap agreed in Abu Dhabi should happen within two to three weeks.",
-   "c": [
-    "804",
-    "643"
-   ]
-  },
-  {
-   "start": "2026-11-25",
-   "when": "25 Nov",
-   "title": "EU–Western Balkans summit, Brussels",
-   "text": "EU leaders meet Western Balkan partners on enlargement and security.",
-   "c": [
-    "688"
-   ]
-  },
-  {
    "start": "2026-11-26",
    "when": "26–27 Nov",
    "title": "Special European Council, Brussels",
@@ -6317,6 +6314,31 @@
   }
  ],
  "log": [
+  {
+   "date": "26 Nov 2026",
+   "items": [
+    [
+     "414",
+     "An Iranian drone attack injures four in Kuwait."
+    ],
+    [
+     "364",
+     "Iran claims full control of Hormuz; Kushner confirms contacts with Tehran officials."
+    ],
+    [
+     "376",
+     "Israel’s military says it is ready to strike Iran without US support."
+    ],
+    [
+     null,
+     "Megaspeed spotlight updated: Jensen Huang resigned as Nvidia CEO on 12 November."
+    ],
+    [
+     null,
+     "Also updated: Yemen, Syria, South Korea, United States."
+    ]
+   ]
+  },
   {
    "date": "25 Nov 2026",
    "items": [
@@ -6691,7 +6713,7 @@
     [
      "Mines and coordinated passage",
      5,
-     "Iran says an LNG carrier and an oil tanker hit mines on 25 November and now requires ships to coordinate transit with its forces; the claims have not been independently confirmed."
+     "The IRGC claims two more tankers hit mines north of Khasab on 26 November and says it controls both approaches; ships are told to coordinate transit with Iranian forces."
     ],
     [
      "Escalating attacks",
@@ -6711,20 +6733,20 @@
    ],
    "src": [
     [
+     "ABC News: Kuwait says Iranian drone attack injured 4 people (26 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+    ],
+    [
+     "Iran International: Israeli military says it is ready to strike Iran without US support (26 Nov)",
+     "https://www.iranintl.com/en/liveblog/202611214578"
+    ],
+    [
      "The Hill: Iran tightening control over Strait of Hormuz (25 Nov)",
      "https://thehill.com/policy/defense/6243090-iran-strait-of-hormuz-ships/"
     ],
     [
      "Al Jazeera: Iran war live, 25 November",
      "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
-    ],
-    [
-     "Euronews: Iran orders Hormuz closed ‘further day by day’ as Qatar seeks to revive talks (24 Nov)",
-     "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
-    ],
-    [
-     "Al Jazeera: Iran war live, 24 November",
-     "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
     ]
    ]
   },
