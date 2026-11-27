@@ -1,5 +1,5 @@
 {
- "assessed": "26 November 2026",
+ "assessed": "27 November 2026",
  "countries": {
   "100": {
    "n": "Bulgaria",
@@ -1174,39 +1174,39 @@
     [
      "Strikes on Gulf states",
      5,
-     "An Iranian drone attack on a ‘vital site’ in Kuwait injured four people on 26 November, and Israel’s military says it is ready to strike Iran without US support."
+     "Two Italian technicians were killed in a drone strike in Kuwait that Iran denies; the IRGC says it fired warning shots to drive a US F-16 away near Hengam Island and claims to have retaken two tankers seized by the US."
     ],
     [
      "Attacks on Hormuz shipping",
      5,
-     "The IRGC claims two more tankers hit mines north of Khasab on 26 November and says it has full control of both approaches to the strait; Brent rose to about $95."
+     "The IRGC says two more tankers, one a supertanker, hit mines off Khasab; weekly transits fell from 217 to 147 between 1 and 23 November, according to one tracking aggregator."
     ],
     [
-     "Diplomacy inches forward",
+     "Diplomacy and domestic strain",
      4,
-     "Envoy Jared Kushner confirmed meetings with Tehran officials under Vice President Vance’s diplomatic effort, while saying all options remain on the table; a truckers’ strike is spreading inside Iran."
+     "Trump says ‘victory is at hand’; an Iranian MP warned Qatar against overstepping as mediator, and a truckers’ strike over fuel shortages entered its sixth day as the rial slides."
     ]
    ],
    "src": [
     [
-     "ABC News: Kuwait says Iranian drone attack injured 4 people (26 Nov)",
-     "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+     "Khaleej Times: Live updates, 27 November",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026"
     ],
     [
-     "The New Arab: Iran tightens grip over Hormuz as diplomacy inches forward (26 Nov)",
-     "https://www.newarab.com/news/iran-tightens-grip-over-hormuz-diplomacy-inches-forward"
+     "Gulf News: Trump signals victory as Iran offers Kuwait drone probe (27 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-tensions-trump-signals-victory-as-iran-offers-kuwait-drone-probe-1.500762639"
     ],
     [
-     "Iran International: Israeli military says it is ready to strike Iran without US support (26 Nov)",
+     "Iran International: Live updates, 27 November",
      "https://www.iranintl.com/en/liveblog/202611214578"
     ],
     [
-     "Al Jazeera: Iran war live, 25 November",
-     "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
+     "No1’s Daily Digest: 27 November",
+     "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-27"
     ],
     [
-     "The Hill: Iran tightening control over Strait of Hormuz (25 Nov)",
-     "https://thehill.com/policy/defense/6243090-iran-strait-of-hormuz-ships/"
+     "ABC News: Kuwait says Iranian drone attack injured 4 people (26 Nov)",
+     "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
     ]
    ],
    "r": "Middle East & North Africa",
@@ -1265,7 +1265,7 @@
     [
      "Militias versus the state",
      4,
-     "An Iran-backed Iraqi militia has called a government probe a plot to seize its weapons, as Baghdad tries to rein in armed groups."
+     "Trump backed Prime Minister’s efforts to bring all weapons under state control and end oil smuggling, as Baghdad presses armed groups."
     ],
     [
      "Showdown over Kurdish oil",
@@ -1287,6 +1287,10 @@
     ]
    ],
    "src": [
+    [
+     "Iran International: Live updates, 27 November",
+     "https://www.iranintl.com/en/liveblog/202611214578"
+    ],
     [
      "AND Magazine: Morning Brief, 25 November",
      "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
@@ -1677,12 +1681,12 @@
   "414": {
    "n": "Kuwait",
    "l": 4,
-   "s": "Within range of Iranian and Iraqi militia strikes, and almost wholly dependent on Gulf shipping.",
+   "s": "Within range of Iranian drones; the first deadly strike in months killed two foreign technicians on 26 November.",
    "i": [
     [
-     "Iranian drone attacks",
-     4,
-     "An Iranian drone attack on a ‘vital site’ on 26 November injured four people, two Italians, a Pakistani and a Kuwaiti, from falling shrapnel."
+     "Deadly Iranian drone strike",
+     5,
+     "Drones hit an air-defence site on 26 November, killing two Italian technicians and injuring two others; Iran denies responsibility, calls it a false flag and has offered a joint investigation."
     ],
     [
      "Export dependence on Hormuz",
@@ -1721,16 +1725,24 @@
    },
    "src": [
     [
+     "Gulf News: Saudi refinery attack kills worker; Iran denies deadly Kuwait strike (27 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-conflict-saudi-refinery-attack-kills-worker-iran-denies-deadly-kuwait-strike-1.500761343"
+    ],
+    [
+     "Gulf News: Trump signals victory as Iran offers Kuwait drone probe (27 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-tensions-trump-signals-victory-as-iran-offers-kuwait-drone-probe-1.500762639"
+    ],
+    [
+     "No1’s Daily Digest: 27 November",
+     "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-27"
+    ],
+    [
      "ABC News: Kuwait says Iranian drone attack injured 4 people (26 Nov)",
      "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
     ],
     [
      "Times of Israel: Iran targets Bahrain and Kuwait (18 Nov)",
      "https://www.timesofisrael.com/liveblog-november-18-2026/"
-    ],
-    [
-     "Gulf News: Iran attacks Bahrain, ADNOC vessel hit, US hits Qeshm (18 Nov)",
-     "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
     ]
    ]
   },
@@ -2641,8 +2653,8 @@
    "i": [
     [
      "Attacks on oil infrastructure",
-     4,
-     "A drone struck the Ras Tanura refining and export complex early on 25 November, after coalition jets hit the Houthi-held port of Hodeidah; the Houthis threaten Saudi ports."
+     5,
+     "A Houthi strike killed a worker and shut the 400,000 barrel-a-day Jazan refinery on 26 November; the Houthis also claimed attacks on Ras Tanura and Riyadh’s financial district."
     ],
     [
      "Red Sea and Bab el-Mandeb",
@@ -2665,6 +2677,14 @@
    ],
    "src": [
     [
+     "Gulf News: Saudi refinery attack kills worker; Iran denies deadly Kuwait strike (27 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-conflict-saudi-refinery-attack-kills-worker-iran-denies-deadly-kuwait-strike-1.500761343"
+    ],
+    [
+     "No1’s Daily Digest: 27 November",
+     "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-27"
+    ],
+    [
      "AND Magazine: Morning Brief, 25 November",
      "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
     ],
@@ -2675,14 +2695,6 @@
     [
      "Khaleej Times: Live updates, 24 November",
      "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-24-2026"
-    ],
-    [
-     "ABC News: IRGC says Bahrain attacks targeted US Patriot sites (22 Nov)",
-     "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
-    ],
-    [
-     "The National: Houthi strike damages PIF tower in Riyadh (19 Nov)",
-     "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/"
     ]
    ],
    "e": {
@@ -3097,7 +3109,7 @@
     [
      "Iranian retaliation",
      4,
-     "A vessel operated by state oil company ADNOC was attacked while transiting the Strait of Hormuz on 18 November."
+     "ADNOC confirmed that a missing Jordanian crew member was found dead after the attack on its vessel in the Strait of Hormuz."
     ],
     [
      "Hormuz chokepoint",
@@ -3135,6 +3147,10 @@
     "p": []
    },
    "src": [
+    [
+     "Gulf News: Saudi refinery attack kills worker; Iran denies deadly Kuwait strike (27 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-conflict-saudi-refinery-attack-kills-worker-iran-denies-deadly-kuwait-strike-1.500761343"
+    ],
     [
      "Premium Times/Reuters: Somalia expels UAE ambassador (21 Nov)",
      "https://www.premiumtimesng.com/news/top-news/926854-somalia-expels-uae-ambassador-recalls-envoy-from-abu-dhabi.html"
@@ -3613,9 +3629,9 @@
    "s": "The Houthis hold almost all of Yemen’s Bab el-Mandeb shore and are fighting on two approaches to Aden.",
    "i": [
     [
-     "War on several fronts",
+     "Strikes on Saudi oil",
      5,
-     "Government forces report clashes with the Houthis in Marib, al-Jawf and Taiz, air strikes hit Sanaa, and the Houthis claim fresh attacks inside Saudi Arabia."
+     "The Houthis killed a worker and shut Saudi Arabia’s Jazan refinery on 26 November and claimed attacks on Ras Tanura and Riyadh."
     ],
     [
      "Red Sea shipping",
@@ -3638,6 +3654,10 @@
    ],
    "src": [
     [
+     "Gulf News: Saudi refinery attack kills worker; Iran denies deadly Kuwait strike (27 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-conflict-saudi-refinery-attack-kills-worker-iran-denies-deadly-kuwait-strike-1.500761343"
+    ],
+    [
      "The New Arab: Iran tightens grip over Hormuz as diplomacy inches forward (26 Nov)",
      "https://www.newarab.com/news/iran-tightens-grip-over-hormuz-diplomacy-inches-forward"
     ],
@@ -3652,10 +3672,6 @@
     [
      "Al Jazeera: Iran war live, 25 November",
      "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
-    ],
-    [
-     "Khaleej Times: Live updates, 24 November",
-     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-24-2026"
     ]
    ],
    "e": {
@@ -3957,9 +3973,9 @@
    "s": "A stable government, with energy costs and public debt as the main pressures.",
    "i": [
     [
-     "Energy price exposure",
+     "Citizens killed in the Gulf war",
      3,
-     "High oil and gas prices from the Gulf war push up costs for households and industry."
+     "Two Italian Rheinmetall technicians were killed by a drone strike on an air-defence site in Kuwait on 26 November, drawing Italy directly into the war’s costs."
     ],
     [
      "Public debt",
@@ -3998,6 +4014,14 @@
     "p": []
    },
    "src": [
+    [
+     "Gulf News: Saudi refinery attack kills worker; Iran denies deadly Kuwait strike (27 Nov)",
+     "https://gulfnews.com/world/mena/middle-east-conflict-saudi-refinery-attack-kills-worker-iran-denies-deadly-kuwait-strike-1.500761343"
+    ],
+    [
+     "No1’s Daily Digest: 27 November",
+     "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-27"
+    ],
     [
      "Financial Times: General strike hits Italy as anger at Meloni grows (20 Nov)",
      "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUC1qbTM5dXZmYjVTU3VYSE1Bb21lNGNVTjZUNk5CWTlDbElfdWlPd2U3X3U4UUQ0NFhOb21rT25HV2xHOHNBbnU1clJ2R3p1VW1zeVdQdVZfdGtwU2xTYTcyZ3d5UU8tMFk2R0tEUGtrMWFNUkdHeF8xYkF3QlBCUGhfSEM?oc=5"
@@ -6185,16 +6209,6 @@
  },
  "events": [
   {
-   "start": "2026-11-26",
-   "when": "26–27 Nov",
-   "title": "Special European Council, Brussels",
-   "text": "EU leaders discuss the next long-term budget (MFF).",
-   "c": [
-    "276",
-    "250"
-   ]
-  },
-  {
    "start": "2026-11-27",
    "when": "27 Nov",
    "title": "Germany’s 2027 budget vote",
@@ -6314,6 +6328,27 @@
   }
  ],
  "log": [
+  {
+   "date": "27 Nov 2026",
+   "items": [
+    [
+     "414",
+     "A drone strike kills two Italian technicians in Kuwait; Iran denies it."
+    ],
+    [
+     "682",
+     "A Houthi strike kills a worker and shuts the Jazan refinery."
+    ],
+    [
+     "364",
+     "IRGC fires warning shots at a US F-16 near Hormuz; more mine claims off Khasab."
+    ],
+    [
+     null,
+     "Also updated: Italy, United Arab Emirates, Yemen, Iraq."
+    ]
+   ]
+  },
   {
    "date": "26 Nov 2026",
    "items": [
@@ -6708,12 +6743,12 @@
     [
      "Traffic far below normal",
      5,
-     "A joint maritime centre recorded 114 US-assisted passages on 19–21 November, a fraction of pre-war levels."
+     "Weekly transits fell from 217 to 147 between 1 and 23 November, according to one tracking aggregator, with Iran running the strait as a checkpoint."
     ],
     [
-     "Mines and coordinated passage",
+     "Mines and air incidents",
      5,
-     "The IRGC claims two more tankers hit mines north of Khasab on 26 November and says it controls both approaches; ships are told to coordinate transit with Iranian forces."
+     "The IRGC claims two more tankers hit mines off Khasab and says it fired warning shots at a US F-16 near Hengam Island on 27 November."
     ],
     [
      "Escalating attacks",
@@ -6733,20 +6768,20 @@
    ],
    "src": [
     [
+     "No1’s Daily Digest: 27 November",
+     "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-27"
+    ],
+    [
+     "Khaleej Times: Live updates, 27 November",
+     "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-27-2026"
+    ],
+    [
      "ABC News: Kuwait says Iranian drone attack injured 4 people (26 Nov)",
      "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
     ],
     [
      "Iran International: Israeli military says it is ready to strike Iran without US support (26 Nov)",
      "https://www.iranintl.com/en/liveblog/202611214578"
-    ],
-    [
-     "The Hill: Iran tightening control over Strait of Hormuz (25 Nov)",
-     "https://thehill.com/policy/defense/6243090-iran-strait-of-hormuz-ships/"
-    ],
-    [
-     "Al Jazeera: Iran war live, 25 November",
-     "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
     ]
    ]
   },
