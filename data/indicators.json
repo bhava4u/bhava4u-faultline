@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T14:03+00:00",
+ "updated": "2026-11-27T19:45+00:00",
  "status": {
   "us": "ok",
   "uk": "ok",
   "gdacs": "ok",
   "ofac": "ok",
-  "gdelt": "ok: 24 event files read, signals for 106 countries"
+  "gdelt": "ok: 23 event files read, signals for 106 countries"
  },
  "method": {
   "weights": {
@@ -2506,7 +2506,7 @@
     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pol.html"
    },
    "uk": {
-    "updated": "2026-11-11",
+    "updated": "2026-11-27",
     "url": "https://www.gov.uk/foreign-travel-advice/poland"
    },
    "hazards": [],
